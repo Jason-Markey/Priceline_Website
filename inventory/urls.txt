@@ -1,0 +1,68 @@
+# pricelinepacificfair.com.au — URL inventory (from Yoast sitemaps, 1 Oct 2026)
+# Rule: every URL below must resolve identically on the new site (no 301s needed if preserved).
+
+## Pages (32)
+https://pricelinepacificfair.com.au/
+https://pricelinepacificfair.com.au/pharmacy-services/
+https://pricelinepacificfair.com.au/vaccination-information/
+https://pricelinepacificfair.com.au/passport-photos/
+https://pricelinepacificfair.com.au/national-diabetes-services-scheme/
+https://pricelinepacificfair.com.au/medication-reviews/
+https://pricelinepacificfair.com.au/medication-packing/
+https://pricelinepacificfair.com.au/health-station/
+https://pricelinepacificfair.com.au/skincare-tanning/
+https://pricelinepacificfair.com.au/ear-piercings/
+https://pricelinepacificfair.com.au/click-and-collect/
+https://pricelinepacificfair.com.au/audiology-services/
+https://pricelinepacificfair.com.au/hormonal-contraceptive-pill/
+https://pricelinepacificfair.com.au/book-a-hormonal-contraceptive-pill-appointment/
+https://pricelinepacificfair.com.au/weight-loss-counselling-and-advice/
+https://pricelinepacificfair.com.au/metagenics-vitamins/
+https://pricelinepacificfair.com.au/prescriptions/
+https://pricelinepacificfair.com.au/delivery/
+https://pricelinepacificfair.com.au/travel-health/
+https://pricelinepacificfair.com.au/uti-treatment/
+https://pricelinepacificfair.com.au/womens-health/
+https://pricelinepacificfair.com.au/beauty-fragrance/
+https://pricelinepacificfair.com.au/vitamins-supplements/
+https://pricelinepacificfair.com.au/help-medical/
+https://pricelinepacificfair.com.au/appointments/
+https://pricelinepacificfair.com.au/download-the-priceline-app/
+https://pricelinepacificfair.com.au/health-blog/
+https://pricelinepacificfair.com.au/frequently-asked-questions/
+https://pricelinepacificfair.com.au/common-illness-information/
+https://pricelinepacificfair.com.au/about-us/
+https://pricelinepacificfair.com.au/visit-us/
+https://pricelinepacificfair.com.au/contact-us/
+https://pricelinepacificfair.com.au/terms-and-conditions/
+https://pricelinepacificfair.com.au/privacy-policy/
+
+## Blog posts — published (19)
+https://pricelinepacificfair.com.au/sun-safety-gold-coast/
+https://pricelinepacificfair.com.au/bluebottle-sting-treatment/
+https://pricelinepacificfair.com.au/sunburn-treatment/
+https://pricelinepacificfair.com.au/dandruff-treatment/
+https://pricelinepacificfair.com.au/how-to-treat-a-cut/
+https://pricelinepacificfair.com.au/nail-fungus-treatment/
+https://pricelinepacificfair.com.au/dry-skin-remedies/
+https://pricelinepacificfair.com.au/acne-treatment-pharmacy/
+https://pricelinepacificfair.com.au/athletes-foot-treatment/
+https://pricelinepacificfair.com.au/trouble-sleeping-tips/
+https://pricelinepacificfair.com.au/sprain-vs-strain/
+https://pricelinepacificfair.com.au/scabies-treatment-australia/
+https://pricelinepacificfair.com.au/haemorrhoids-treatment/
+https://pricelinepacificfair.com.au/mouth-ulcer-treatment/
+https://pricelinepacificfair.com.au/constipation-relief/
+https://pricelinepacificfair.com.au/headache-relief/
+https://pricelinepacificfair.com.au/migraine-relief/
+https://pricelinepacificfair.com.au/common-cold-remedies/
+https://pricelinepacificfair.com.au/heartburn-relief/
+
+## Still in wp-admin as drafts (to port at launch)
+# [REWRITE] page drafts + 20 blog post drafts from the 24 Sep SEO run — need Jason's [TO CONFIRM] answers
+
+## External booking links to keep as-is
+https://servicebookings.priceline.com.au/v2/appointment/book_webplugin/54055
+https://helpmedical.au/
+https://www.hotdoc.com.au/medical-centres/broadbeach-QLD-4218/help-medical/doctors
+https://www.simplyhearing.com.au

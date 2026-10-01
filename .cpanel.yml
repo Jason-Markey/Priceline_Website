@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pricelin/new.pricelinepf.com.au/
+    - /bin/cp -R dist/. $DEPLOYPATH
