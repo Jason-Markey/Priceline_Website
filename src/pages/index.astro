@@ -54,17 +54,29 @@ const faqs = [
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
           <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
         </div>
-        <ul class="hero__quick" aria-label="Quick links">
-          <li><a href="/vaccination-information/">Walk-in vaccinations</a></li>
-          <li><a href="/help-medical/">GPs in store</a></li>
-          <li><a href="/skincare-tanning/">Beauty advice</a></li>
-          <li><a href="/visiting-the-gold-coast/">Visiting the Gold Coast?</a></li>
-          <li><a href="/visit-us/">Hours &amp; directions</a></li>
-        </ul>
       </div>
       <div class="hero__photo">
         <Image src={jason} alt="Jason Markey, owner and pharmacist at Priceline Pharmacy Pacific Fair" widths={[400, 600, 800]} sizes="(max-width: 900px) 70vw, 440px" format="webp" loading="eager" fetchpriority="high" />
         <p class="hero__caption">Jason Markey, owner and pharmacist</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- "Today at Shop 81": live status + the four things people come in for. Charcoal ticket with the true-pink edge. -->
+  <section class="today-band" aria-labelledby="today-h" data-cta-location="today">
+    <div class="container">
+      <div class="today">
+        <div class="today__status">
+          <h2 id="today-h" class="today__h">Today at Shop 81</h2>
+          <p class="today__open" id="today-span">Open 7 days</p>
+          <p class="today__sub"><a href="/visit-us/">All hours &amp; directions</a></p>
+        </div>
+        <dl class="today__rows">
+          <div><dt>Scripts</dt><dd>Ready in minutes. <a href="/prescriptions/">Send yours ahead</a></dd></div>
+          <div><dt>Vaccinations</dt><dd><a href="/vaccination-information/">Walk in</a>, no appointment</dd></div>
+          <div><dt>GP</dt><dd>Help Medical in store. <a href="/help-medical/">Book a doctor</a></dd></div>
+          <div><dt>Late night</dt><dd>Thursdays until 9pm</dd></div>
+        </dl>
       </div>
     </div>
   </section>
@@ -81,14 +93,9 @@ const faqs = [
         <h3>Why locals choose us</h3>
         <ul>
           <li><strong>Here since 2009, pharmacist-owned.</strong> Ask our pharmacists anything, no appointment needed.</li>
-          <li><strong>Open 7 days</strong>, and until 9pm on Thursdays.</li>
-          <li><strong>4 hours free parking at Pacific Fair</strong>, and the Broadbeach South light rail stop is right out the front.</li>
           <li><strong>Scripts ready in minutes</strong>, thanks to our robotic dispensary. <a href="/prescriptions/">Send yours ahead</a>.</li>
-          <li><strong>Click &amp; Collect usually ready in 15 minutes</strong>, or <a href="/delivery/">delivered to your door</a> anywhere on the Gold Coast through Uber Eats.</li>
           <li><strong>Walk-in <a href="/vaccination-information/">vaccinations</a>, including <a href="/flu-vaccination/">flu shots</a></strong>, free for eligible people under the National Immunisation Program, with no service fee.</li>
-          <li><strong>Every vaccination recorded on the Australian Immunisation Register</strong>, so your record is up to date before you leave.</li>
           <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, with bulk billing for eligible patients.</li>
-          <li><strong>Beauty advice from people who know the products</strong>, for <a href="/skincare-tanning/">skincare</a>, makeup and <a href="/beauty-fragrance/">fragrance</a>.</li>
         </ul>
       </div>
     </div>
@@ -218,8 +225,6 @@ const faqs = [
   .hero__lead { font-size: var(--fs-lg); color: var(--charcoal); max-width: 52ch; }
   .hero .btn-row { margin-bottom: var(--s5); }
   /* Quick links are desktop-only (the phone hero keeps just the H1, lead and two CTAs) */
-  .hero__quick { display: none; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; gap: var(--s2) var(--s5); font-size: var(--fs-sm); font-weight: 600; }
-  .hero__quick a { color: var(--pink-dark); padding: 6px 0; display: inline-block; }
   /* Cut-out portrait sits on the pink and bleeds off the bottom edge, like the store's banner artwork.
      On phones it's capped at 38vh and anchored top so the face shows. */
   .hero__photo { position: relative; justify-self: center; width: min(70vw, 300px); max-height: 38vh; overflow: hidden; margin-top: var(--s4); margin-bottom: -4px; }
@@ -228,11 +233,30 @@ const faqs = [
   @media (min-width: 900px) {
     .hero__inner { grid-template-columns: 1fr 440px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
     .hero__copy { padding-block: var(--s12) var(--s16); align-self: center; }
-    .hero__quick { display: flex; }
     .hero__photo { width: 440px; max-height: none; overflow: visible; margin: 0; justify-self: end; }
     .hero__photo img { max-height: 560px; width: auto; margin-left: auto; }
     /* Desktop: caption sits on the pink to the left of the portrait (never over the photo) */
     .hero__caption { left: auto; right: calc(100% + var(--s4)); bottom: var(--s4); white-space: nowrap; text-align: right; background: none; padding: 0; }
+  }
+
+  /* Today at Shop 81 */
+  .today-band { background: var(--bg); }
+  .today { position: relative; background: var(--charcoal); color: #fff; border-radius: var(--radius-lg); padding: var(--s5) var(--s5) var(--s5) calc(var(--s5) + 6px); overflow: hidden; display: grid; gap: var(--s5); margin-top: var(--s5); box-shadow: var(--shadow-md); }
+  .today::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--pink); }
+  .today__h { color: var(--pink-light); font-size: 0.8125rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; margin: 0 0 var(--s1); }
+  .today__open { margin: 0; font-size: var(--fs-h3); font-weight: 700; line-height: 1.25; }
+  .today__sub { margin: var(--s1) 0 0; font-size: var(--fs-sm); }
+  .today a { color: var(--pink-light); }
+  .today a:hover { color: #fff; }
+  .today__rows { margin: 0; display: grid; gap: var(--s2); font-size: var(--fs-sm); }
+  .today__rows > div { display: grid; grid-template-columns: 96px 1fr; gap: var(--s3); align-items: baseline; }
+  .today dt { color: #c9c9c9; font-weight: 600; }
+  .today dd { margin: 0; color: #fff; }
+  @media (min-width: 900px) {
+    .today { grid-template-columns: 300px 1fr; align-items: center; padding: var(--s6) var(--s8) var(--s6) calc(var(--s8) + 6px); margin-top: var(--s6); }
+    .today__status { border-right: 1px solid rgba(255,255,255,.18); padding-right: var(--s8); }
+    .today__rows { grid-template-columns: 1fr 1fr; gap: var(--s3) var(--s8); }
+    .today__rows > div { grid-template-columns: auto 1fr; }
   }
 
   /* Why */

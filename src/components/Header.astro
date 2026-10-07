@@ -130,7 +130,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
           if (n) { text = `Closed · opens ${fmt(n[0])} ${i === 1 ? 'tomorrow' : dayNames[(idx + i) % 7]}`; break; }
         }
       }
-      if (text) el.textContent = text;
+      if (text) { el.textContent = text; const t = document.getElementById('today-span'); if (t) t.textContent = text; }
     } catch {}
   }
   // Mobile menu
