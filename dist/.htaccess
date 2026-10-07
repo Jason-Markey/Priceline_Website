@@ -2,6 +2,13 @@
 # Deployed with dist/ by .cpanel.yml. Edit in the repo (public/.htaccess), not on the server.
 
 Options -Indexes
+
+# --- VentraIP ModSecurity: rule 700071 returned HTTP 418 to Anthropic's crawlers (ClaudeBot, Claude-SearchBot,
+# Claude-User). VentraIP support (ticket VIP-U9274329, 7 Oct 2026) whitelisted it with this block. It must stay here
+# because every deploy overwrites .htaccess with this file.
+<IfModule security2_module>
+SecRuleRemoveById 700071
+</IfModule>
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 AddDefaultCharset UTF-8
