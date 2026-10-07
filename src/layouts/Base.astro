@@ -82,6 +82,28 @@ const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
 
     <script type="application/ld+json" set:html={jsonLd} />
     <slot name="head" />
+    {site.ga4MeasurementId && (
+      <>
+        <!-- Google Analytics 4. Loaded after the page is interactive so it never delays rendering. -->
+        <script is:inline define:vars={{ id: site.ga4MeasurementId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', id, { anonymize_ip: true });
+          window.addEventListener('load', function () {
+            var s = document.createElement('script'); s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+            document.head.appendChild(s);
+          });
+          // Conversion-style events: any link/button with data-event="call|book|book-gp|directions|send-script|…"
+          document.addEventListener('click', function (e) {
+            var el = e.target && e.target.closest && e.target.closest('[data-event]');
+            if (!el) return;
+            gtag('event', el.getAttribute('data-event'), { event_category: 'cta', link_url: el.getAttribute('href') || '', page_path: location.pathname });
+          }, { capture: true });
+        </script>
+      </>
+    )}
   </head>
   <body class:list={[{ 'has-action-bar': actionBar }]}>
     <Header />

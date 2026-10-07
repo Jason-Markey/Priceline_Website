@@ -98,6 +98,9 @@ export const site = {
     } as Hours,
   },
 
+  /** Google Analytics 4 measurement ID (property "pricelinepacificfair.com.au", account under info@, created 7 Oct 2026) */
+  ga4MeasurementId: 'G-S6KES0Q8YC',
+
   /** Booking and external links */
   links: {
     /** Primary booking system for the website (Jason's decision, 7 Oct 2026) */
