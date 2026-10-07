@@ -19,6 +19,7 @@ import icoCosmetics from '../assets/icons/cosmetics.png';
 import icoApp from '../assets/icons/priceline-app.png';
 
 const title = 'Priceline Pharmacy Pacific Fair | Broadbeach, Open 7 Days';
+const heroToday = 'Open 7 days';
 const description =
   'Locally owned pharmacy inside Pacific Fair, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, GPs in store and Uber Eats delivery.';
 
@@ -54,13 +55,16 @@ const faqs = [
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
           <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
         </div>
-        <ul class="hero__quick" aria-label="Quick links">
-          <li><a href="/vaccination-information/">Walk-in vaccinations</a></li>
-          <li><a href="/help-medical/">GPs in store</a></li>
-          <li><a href="/skincare-tanning/">Beauty advice</a></li>
-          <li><a href="/visiting-the-gold-coast/">Visiting the Gold Coast?</a></li>
-          <li><a href="/visit-us/">Hours &amp; directions</a></li>
-        </ul>
+        <aside class="today" aria-labelledby="today-h">
+          <h2 id="today-h" class="today__h">Today at Shop 81</h2>
+          <dl class="today__rows">
+            <div><dt>Open</dt><dd id="today-span">{heroToday}</dd></div>
+            <div><dt>Scripts</dt><dd>Ready in minutes, walk in or <a href="/prescriptions/">send ahead</a></dd></div>
+            <div><dt>Vaccinations</dt><dd><a href="/vaccination-information/">Walk in</a>, no appointment</dd></div>
+            <div><dt>GP</dt><dd>Help Medical in store, <a href="/help-medical/">book a doctor</a></dd></div>
+            <div class="today__late"><dt>Late night</dt><dd>Thursdays until 9pm</dd></div>
+          </dl>
+        </aside>
       </div>
       <div class="hero__photo">
         <Image src={jason} alt="Jason Markey, owner and pharmacist at Priceline Pharmacy Pacific Fair" widths={[400, 600, 800]} sizes="(max-width: 900px) 70vw, 440px" format="webp" loading="eager" fetchpriority="high" />
@@ -218,8 +222,18 @@ const faqs = [
   .hero__lead { font-size: var(--fs-lg); color: var(--charcoal); max-width: 52ch; }
   .hero .btn-row { margin-bottom: var(--s5); }
   /* Quick links are desktop-only (the phone hero keeps just the H1, lead and two CTAs) */
-  .hero__quick { display: none; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; gap: var(--s2) var(--s5); font-size: var(--fs-sm); font-weight: 600; }
-  .hero__quick a { color: var(--pink-dark); padding: 6px 0; display: inline-block; }
+  /* "Today at Shop 81": the hero's signature. Charcoal ticket, true Priceline pink edge (the one place #F24896 is a surface). */
+  .today { position: relative; background: var(--charcoal); color: #fff; border-radius: var(--radius-lg); padding: var(--s5) var(--s6) var(--s5) calc(var(--s6) + 6px); max-width: 440px; margin-top: var(--s6); overflow: hidden; }
+  .today::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--pink); }
+  .today__h { color: var(--pink-light); font-size: 0.8125rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; margin: 0 0 var(--s3); }
+  .today__rows { margin: 0; display: grid; gap: var(--s2); font-size: var(--fs-sm); }
+  .today__rows > div { display: grid; grid-template-columns: 104px 1fr; gap: var(--s3); align-items: baseline; }
+  .today dt { color: #c9c9c9; font-weight: 600; }
+  .today dd { margin: 0; color: #fff; }
+  .today a { color: var(--pink-light); }
+  .today a:hover { color: #fff; }
+  .today__late dd { font-weight: 700; }
+  #today-span { font-size: var(--fs-lg); font-weight: 700; }
   /* Cut-out portrait sits on the pink and bleeds off the bottom edge, like the store's banner artwork.
      On phones it's capped at 38vh and anchored top so the face shows. */
   .hero__photo { position: relative; justify-self: center; width: min(70vw, 300px); max-height: 38vh; overflow: hidden; margin-top: var(--s4); margin-bottom: -4px; }
@@ -228,7 +242,6 @@ const faqs = [
   @media (min-width: 900px) {
     .hero__inner { grid-template-columns: 1fr 440px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
     .hero__copy { padding-block: var(--s12) var(--s16); align-self: center; }
-    .hero__quick { display: flex; }
     .hero__photo { width: 440px; max-height: none; overflow: visible; margin: 0; justify-self: end; }
     .hero__photo img { max-height: 560px; width: auto; margin-left: auto; }
     /* Desktop: caption sits on the pink to the left of the portrait (never over the photo) */
