@@ -176,7 +176,7 @@ export function helpMedicalNode() {
     '@type': 'MedicalClinic',
     '@id': ID.helpMedical,
     name: hm.fullName,
-    url: hm.bookingUrl,
+    url: hm.websiteUrl,
     telephone: '+61756193818',
     address: {
       '@type': 'PostalAddress',

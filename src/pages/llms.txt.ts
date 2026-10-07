@@ -35,7 +35,7 @@ export const GET: APIRoute = async () => {
     `- Opening hours: ${hours}. Public holiday hours are published on the Google Business Profile.`,
     `- Owner and pharmacist: ${site.reviewer.name}, ${site.reviewer.credentials}. Independently owned Priceline Pharmacy franchise store, opened 2009.`,
     `- Book online: ${site.links.book}`,
-    `- Help Medical (independent general practice inside the store): ${site.helpMedical.phone}, ${site.helpMedical.bookingUrl}. Hours: ${hm}.`,
+    `- Help Medical (independent general practice inside the store): ${site.helpMedical.phone}, website ${site.helpMedical.websiteUrl}, online bookings ${site.helpMedical.bookingUrl}. Hours: ${hm}.`,
     `- QML Pathology collection inside Help Medical: ${site.pathology.hoursText}`,
     '',
     '## Services',

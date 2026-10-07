@@ -67,8 +67,9 @@ export const site = {
     relationship: 'an independent general practice located inside our store',
     phone: '(07) 5619 3818',
     phoneHref: 'tel:+61756193818',
-    bookingUrl: 'https://helpmedical.au/',
-    hotdocUrl: 'https://www.hotdoc.com.au/medical-centres/broadbeach-QLD-4218/help-medical/doctors',
+    websiteUrl: 'https://helpmedical.au/',
+    /** Help Medical's own 'Book Appointment' button goes to HotDoc (checked 8 Oct 2026) */
+    bookingUrl: 'https://www.hotdoc.com.au/medical-centres/broadbeach-QLD-4218/help-medical/doctors',
     hours: {
       mon: { open: '08:00', close: '17:00' },
       tue: { open: '08:00', close: '17:00' },

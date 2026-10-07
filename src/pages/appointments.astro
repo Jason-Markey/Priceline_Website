@@ -5,7 +5,7 @@ import { site } from '../data/site';
 const faqs = [
   { q: 'Which services need an appointment?', a: 'Only contraception consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations and pharmacist consultations. Just come in.' },
   { q: 'How do I book online?', a: `Use our online booking page at <a href="${site.links.book}" rel="noopener">MedAdvisor</a>, choose the service and pick a time. You can also scan the QR code at the counter to join the queue for a vaccination.` },
-  { q: 'How do I book a doctor?', a: `<a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, takes bookings at <a href="${site.helpMedical.bookingUrl}" rel="noopener">helpmedical.au</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a>. Walk-ins are welcome subject to doctor availability.` },
+  { q: 'How do I book a doctor?', a: `<a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, takes bookings <a href="${site.helpMedical.bookingUrl}" rel="noopener">online</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a>. Walk-ins are welcome subject to doctor availability.` },
   { q: 'Can I just walk in for a vaccination?', a: 'Yes. We welcome walk-ins every day we’re open; scan the QR code at the counter to join the queue. Booking a time is optional and handy if you’d rather not wait.' },
 ];
 ---
@@ -61,7 +61,7 @@ const faqs = [
         <tr>
           <td><a href="/help-medical/">GP at Help Medical</a></td>
           <td data-label="Booking">Walk in, or book</td>
-          <td data-label="How">Book at <a href={site.helpMedical.bookingUrl} rel="noopener">helpmedical.au</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
+          <td data-label="How"><a href={site.helpMedical.bookingUrl} rel="noopener">Book online</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
         </tr>
         <tr>
           <td><a href="/medication-reviews/">Medication reviews</a></td>
