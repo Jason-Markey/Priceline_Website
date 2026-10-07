@@ -1,0 +1,25 @@
+---
+/**
+ * Dynamic route: every file in src/content/articles becomes /<slug>/ (same URLs as the old WordPress posts).
+ */
+import { getCollection, render } from 'astro:content';
+import ArticlePage from '../layouts/ArticlePage.astro';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles')).filter((a) => !a.data.draft);
+  return all.map((entry) => ({
+    params: { article: entry.id.replace(/\.md$/, '') },
+    props: {
+      entry,
+      related: all
+        .filter((o) => o.id !== entry.id && (o.data.category === entry.data.category || o.data.tags.some((t) => entry.data.tags.includes(t))))
+        .slice(0, 5),
+    },
+  }));
+}
+const { entry, related } = Astro.props;
+const { Content } = await render(entry);
+---
+<ArticlePage entry={entry} related={related}>
+  <Content />
+</ArticlePage>

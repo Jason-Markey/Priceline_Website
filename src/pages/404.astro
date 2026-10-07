@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+---
+<Base title="Page not found | Priceline Pharmacy Pacific Fair" description="That page isn’t here. Find pharmacy services, advice and contact details for Priceline Pharmacy Pacific Fair, Broadbeach." path="/404/" noindex={true}>
+  <div class="title-band"><div class="container"><h1>We can’t find that page</h1><p class="lead">The link may be out of date. Try one of these, or search the site.</p></div></div>
+  <div class="container section measure">
+    <ul>
+      <li><a href="/pharmacy-services/">Pharmacy services</a></li>
+      <li><a href="/prescriptions/">Prescriptions &amp; eScripts</a></li>
+      <li><a href="/vaccination-information/">Vaccinations</a></li>
+      <li><a href="/visit-us/">Opening hours &amp; directions</a></li>
+      <li><a href="/health-blog/">Health &amp; beauty advice</a></li>
+    </ul>
+    <p>Or call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+    <form action="/search/" method="get" role="search" class="btn-row"><label class="sr-only" for="q404">Search</label><input id="q404" type="search" name="q" placeholder="Search the site" style="padding:10px 14px;border:2px solid var(--pink);border-radius:var(--radius-pill);font:inherit;min-width:260px" /><button class="btn btn--primary" type="submit">Search</button></form>
+  </div>
+</Base>

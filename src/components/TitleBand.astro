@@ -1,0 +1,19 @@
+---
+export interface Props { title: string; lead?: string; breadcrumbs?: { name: string; href: string }[]; }
+const { title, lead, breadcrumbs } = Astro.props;
+---
+<div class="title-band">
+  <div class="container">
+    {breadcrumbs && breadcrumbs.length > 1 && (
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          {breadcrumbs.map((b, i) => (
+            <li>{i < breadcrumbs.length - 1 ? <a href={b.href}>{b.name}</a> : <span aria-current="page">{b.name}</span>}</li>
+          ))}
+        </ol>
+      </nav>
+    )}
+    <h1>{title}</h1>
+    {lead && <p class="lead">{lead}</p>}
+  </div>
+</div>

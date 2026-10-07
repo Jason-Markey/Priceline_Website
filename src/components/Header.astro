@@ -1,0 +1,199 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo-priceline-pacific-fair.png';
+import { site, fmtTime, dayOrder, type DayKey } from '../data/site';
+import { primaryNav } from '../data/navigation';
+
+// Today's hours for the utility strip. Rendered at build time; a tiny inline script
+// corrects it for the visitor's actual day (and does nothing if JS is off).
+const todayIdx = (new Date().getUTCDay() + 6) % 7; // Mon=0
+const todayKey = dayOrder[todayIdx] as DayKey;
+const today = site.hours[todayKey];
+const todayText = today ? `Open today ${fmtTime(today.open)} – ${fmtTime(today.close)}` : 'Closed today';
+const hoursJson = JSON.stringify(
+  dayOrder.map((d) => (site.hours[d] ? [fmtTime(site.hours[d]!.open), fmtTime(site.hours[d]!.close)] : null)),
+);
+const { pathname } = Astro.url;
+const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
+---
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="strip">
+  <div class="container strip__inner">
+    <span class="strip__hours" id="today-hours" data-hours={hoursJson}>{todayText}</span>
+    <span class="strip__sep" aria-hidden="true">·</span>
+    <a class="strip__phone" href={site.phoneHref}>{site.phone}</a>
+    <span class="strip__sep strip__addr" aria-hidden="true">·</span>
+    <a class="strip__addr" href="/visit-us/">Shop 81, Pacific Fair, Broadbeach</a>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="header__logo" href="/" aria-label="Priceline Pharmacy Pacific Fair home">
+      <Image src={logo} alt="Priceline Pharmacy Pacific Fair" width={240} height={99} loading="eager" densities={[1, 2]} />
+    </a>
+    <form class="search" action="/search/" method="get" role="search">
+      <label class="sr-only" for="site-search">Search the site</label>
+      <input id="site-search" type="search" name="q" placeholder="Search services, advice and more" autocomplete="off" />
+      <button type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+    </form>
+    <a class="btn btn--primary header__book" href={site.links.book} rel="noopener" data-event="book">Book online</a>
+    <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <span>Menu</span>
+    </button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Main">
+  <div class="container">
+    <ul class="nav__list">
+      {primaryNav.map((g) => (
+        <li class:list={['nav__item', { 'nav__item--has-children': g.items, 'is-active': isActive(g.href) }]}>
+          <a href={g.href} aria-current={isActive(g.href) ? 'page' : undefined}>
+            {g.label}
+            {g.items && <svg class="nav__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>}
+          </a>
+          {g.items && (
+            <ul class="nav__sub">
+              {g.items.map((i) => (
+                <li><a href={i.href}>{i.label}</a></li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav" hidden>
+  <div class="mobile-nav__head">
+    <span class="mobile-nav__title">Menu</span>
+    <button class="mobile-nav__close" type="button" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <nav aria-label="Mobile">
+    <ul class="mobile-nav__list">
+      <li><a href="/">Home</a></li>
+      {primaryNav.map((g) =>
+        g.items ? (
+          <li>
+            <details>
+              <summary>{g.label}</summary>
+              <ul>
+                <li><a href={g.href}>All {g.label.toLowerCase()}</a></li>
+                {g.items.map((i) => <li><a href={i.href}>{i.label}</a></li>)}
+              </ul>
+            </details>
+          </li>
+        ) : (
+          <li><a href={g.href}>{g.label}</a></li>
+        ),
+      )}
+      <li class="mobile-nav__cta"><a class="btn btn--primary" href={site.links.book} rel="noopener">Book online</a></li>
+      <li class="mobile-nav__meta">
+        <a href={site.phoneHref}>{site.phone}</a><br />
+        {site.address.oneLine}
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<script>
+  // Today's hours in the strip (Australia/Brisbane), no framework.
+  const el = document.getElementById('today-hours');
+  if (el) {
+    try {
+      const hours = JSON.parse(el.dataset.hours || '[]');
+      const day = new Date().toLocaleDateString('en-AU', { weekday: 'short', timeZone: 'Australia/Brisbane' });
+      const idx = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].indexOf(day);
+      const h = hours[idx];
+      el.textContent = h ? `Open today ${h[0]} – ${h[1]}` : 'Closed today';
+    } catch {}
+  }
+  // Mobile menu
+  const toggle = document.querySelector('.menu-toggle');
+  const panel = document.getElementById('mobile-nav');
+  const close = panel?.querySelector('.mobile-nav__close');
+  const setOpen = (open: boolean) => {
+    if (!panel || !toggle) return;
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+    if (open) (panel.querySelector('a, button, summary') as HTMLElement)?.focus();
+    else (toggle as HTMLElement).focus();
+  };
+  toggle?.addEventListener('click', () => setOpen(panel?.hidden ?? true));
+  close?.addEventListener('click', () => setOpen(false));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel && !panel.hidden) setOpen(false); });
+</script>
+
+<style>
+  /* Utility strip — the one thing no competitor shows: today's hours */
+  .strip { background: var(--pink); color: #fff; font-size: 0.875rem; font-weight: 600; }
+  .strip__inner { display: flex; align-items: center; gap: var(--s2); min-height: 36px; white-space: nowrap; overflow: hidden; }
+  .strip a { color: #fff; text-decoration: none; }
+  .strip a:hover { text-decoration: underline; }
+  .strip__sep { opacity: .7; }
+  .strip__addr { display: none; }
+  @media (min-width: 640px) { .strip__addr { display: inline; } }
+
+  /* Header row */
+  .header { background: var(--surface); border-bottom: 1px solid var(--hairline); }
+  .header__inner { display: flex; align-items: center; gap: var(--s4); min-height: 72px; padding-block: var(--s2); }
+  .header__logo { flex: 0 0 auto; }
+  .header__logo img { width: 170px; height: auto; }
+  @media (min-width: 1024px) { .header__inner { min-height: 96px; gap: var(--s8); } .header__logo img { width: 240px; } }
+  .search { display: none; flex: 1 1 auto; max-width: 560px; margin-left: auto; position: relative; }
+  @media (min-width: 900px) { .search { display: block; } }
+  .search input { width: 100%; height: 46px; padding: 0 56px 0 20px; border: 2px solid var(--pink); border-radius: var(--radius-pill); font: inherit; font-size: 1rem; color: var(--charcoal); background: #fff; }
+  .search input::placeholder { color: #777; }
+  .search button { position: absolute; right: 4px; top: 4px; width: 38px; height: 38px; border: 0; border-radius: 50%; background: var(--pink-deep); cursor: pointer; display: grid; place-items: center; }
+  .search button:hover { background: var(--pink-dark); }
+  .search svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 2.2; stroke-linecap: round; }
+  .header__book { display: none; }
+  @media (min-width: 900px) { .header__book { display: inline-flex; } }
+  .menu-toggle { margin-left: auto; display: inline-flex; align-items: center; gap: var(--s2); background: var(--pink-deep); color: #fff; border: 0; border-radius: var(--radius); padding: 10px 14px; font: 600 0.9375rem var(--font); cursor: pointer; min-height: 44px; }
+  .menu-toggle svg { width: 22px; height: 22px; stroke: #fff; fill: none; stroke-width: 2.2; stroke-linecap: round; }
+  @media (min-width: 900px) { .menu-toggle { display: none; } }
+
+  /* Desktop nav bar — deep pink for AA contrast (PLAN §6 #6, Jason chose option c) */
+  .nav { display: none; background: var(--pink-deep); }
+  @media (min-width: 900px) { .nav { display: block; } }
+  .nav__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+  .nav__item { position: relative; }
+  .nav__item > a { display: flex; align-items: center; gap: 6px; color: #fff; text-decoration: none; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; padding: 0 16px; line-height: 50px; }
+  .nav__item > a:hover, .nav__item.is-active > a { background: var(--pink-dark); }
+  .nav__chev { width: 14px; height: 14px; stroke: #fff; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  .nav__sub { position: absolute; left: 0; top: 100%; min-width: 260px; background: var(--surface); box-shadow: var(--shadow-md); list-style: none; margin: 0; padding: 6px 0; z-index: 50; display: none; }
+  .nav__item:hover .nav__sub, .nav__item:focus-within .nav__sub { display: block; }
+  .nav__sub a { display: block; padding: 11px 20px; color: var(--pink-deep); text-decoration: none; font-size: 0.9375rem; border-bottom: 1px solid var(--hairline); }
+  .nav__sub li:last-child a { border-bottom: 0; }
+  .nav__sub a:hover { background: var(--pink-pale); color: var(--pink-dark); }
+
+  /* Mobile drawer — pink, like the current site */
+  .mobile-nav { position: fixed; inset: 0; z-index: 90; background: var(--pink-deep); color: #fff; overflow-y: auto; padding: 0 var(--s5) var(--s10); }
+  .mobile-nav[hidden] { display: none; }
+  .mobile-nav__head { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .mobile-nav__title { font-weight: 700; font-size: 1.125rem; }
+  .mobile-nav__close { background: transparent; border: 0; color: #fff; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; }
+  .mobile-nav__close svg { width: 24px; height: 24px; stroke: #fff; fill: none; stroke-width: 2.5; stroke-linecap: round; }
+  .mobile-nav__list { list-style: none; margin: 0; padding: 0; }
+  .mobile-nav__list > li { border-bottom: 1px solid rgba(255,255,255,.25); }
+  .mobile-nav__list > li > a, .mobile-nav summary { display: block; padding: 14px 0; color: #fff; text-decoration: none; font-size: 1.125rem; font-weight: 600; cursor: pointer; list-style: none; position: relative; }
+  .mobile-nav summary::-webkit-details-marker { display: none; }
+  .mobile-nav summary::after { content: ''; position: absolute; right: 6px; top: 50%; width: 10px; height: 10px; border-right: 2px solid #fff; border-bottom: 2px solid #fff; transform: translateY(-70%) rotate(45deg); }
+  .mobile-nav details[open] summary::after { transform: translateY(-30%) rotate(225deg); }
+  .mobile-nav details ul { list-style: none; margin: 0 0 var(--s3); padding: 0 0 0 var(--s4); }
+  .mobile-nav details a { display: block; padding: 10px 0; color: #fff; text-decoration: none; font-size: 1rem; }
+  .mobile-nav__cta { padding: var(--s5) 0; }
+  .mobile-nav__list > li.mobile-nav__cta > a.btn { width: 100%; display: inline-flex; padding: 12px 24px; font-size: 1rem; background: #fff; color: var(--pink-deep); border-color: #fff; }
+  .mobile-nav__meta { padding: var(--s4) 0; font-size: 0.9375rem; line-height: 1.5; border-bottom: 0 !important; }
+  .mobile-nav__meta a { color: #fff; font-weight: 700; }
+</style>

@@ -1,0 +1,11 @@
+---
+import { site } from '../data/site';
+export interface Props { heading?: string; showEmail?: boolean; }
+const { heading = 'Talk to our pharmacists at Pacific Fair', showEmail = false } = Astro.props;
+---
+<div class="nap">
+  <strong>{site.name}</strong>
+  <p>{site.address.oneLine}</p>
+  <p>Phone <a href={site.phoneHref}>{site.phone}</a>{showEmail && <> · Email <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a></>}</p>
+  <p>Open 7 days, until 9pm on Thursdays. <a href="/visit-us/">Opening hours and directions</a></p>
+</div>

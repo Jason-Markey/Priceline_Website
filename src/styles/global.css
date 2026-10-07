@@ -1,0 +1,187 @@
+/* =====================================================================
+   Priceline Pharmacy Pacific Fair — design tokens + base styles
+   Source of the look: reference/design/DESIGN-GUIDE.md (live site, Oct 2026)
+   Decisions: PLAN.md §6
+   ===================================================================== */
+
+:root {
+  /* Brand */
+  --pink: #f24896;          /* Priceline brand pink: surfaces, chips, icons, large headings */
+  --pink-deep: #d1256f;     /* AA-safe pink: nav bar, buttons, body-size links (5.0:1 on white) */
+  --pink-dark: #b8175e;     /* hover state */
+  --pink-pale: #fce4ef;     /* hero / soft backgrounds (from the old hero slides) */
+  --pink-light: #ffb3d4;    /* breadcrumb on charcoal (7.3:1) */
+  --green: #23b547;         /* Priceline green: secondary buttons (with charcoal text), hours headings */
+  --green-dark: #15792e;    /* green text on white (5.5:1) */
+  --green-pale: #e9f8ed;
+
+  /* Neutrals */
+  --charcoal: #363636;      /* headings, title band */
+  --text: #444444;          /* body */
+  --text-muted: #6b6b6b;
+  --bg: #f3f4f8;            /* page background (kept from live site) */
+  --surface: #ffffff;
+  --border: #eef1fd;        /* card border (kept) */
+  --hairline: #ececec;
+  --footer-bg: #222222;
+  --footer-text: #c9c9c9;
+
+  /* Type */
+  --font: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fs-sm: 0.9375rem;   /* 15 */
+  --fs-base: 1.0625rem; /* 17 */
+  --fs-lg: 1.1875rem;   /* 19 */
+  --fs-h3: 1.25rem;     /* 20 */
+  --fs-h2: 1.75rem;     /* 28 */
+  --fs-h1: 2.5rem;      /* 40 */
+  --fs-hero: 2.875rem;  /* 46 */
+  --lh: 1.6;
+
+  /* Spacing (4px grid) */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px; --s6: 24px;
+  --s8: 32px; --s10: 40px; --s12: 48px; --s16: 64px; --s20: 80px;
+
+  /* Shape */
+  --radius: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 30px;
+  --shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+
+  /* Layout */
+  --container: 1200px;
+  --measure: 760px;
+  --gutter: 16px;
+
+  color-scheme: light;
+}
+
+@media (min-width: 768px) { :root { --gutter: 24px; } }
+
+/* ---------- reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: var(--fs-base);
+  line-height: var(--lh);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+img, svg, video { display: block; max-width: 100%; height: auto; }
+h1, h2, h3, h4 { color: var(--charcoal); font-weight: 700; line-height: 1.2; margin: 0 0 var(--s4); letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, var(--fs-h1)); }
+h2 { font-size: clamp(1.45rem, 1.1rem + 1.2vw, var(--fs-h2)); margin-top: var(--s10); }
+h3 { font-size: var(--fs-h3); margin-top: var(--s8); }
+p, ul, ol { margin: 0 0 var(--s5); }
+ul, ol { padding-left: 1.3em; }
+.prose li + li, .faq-body li + li, .glance li + li { margin-top: var(--s2); }
+a { color: var(--pink-deep); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--pink-dark); }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
+  outline: 3px solid var(--charcoal); outline-offset: 2px; border-radius: 2px;
+}
+strong { color: var(--charcoal); }
+hr { border: 0; border-top: 1px solid var(--hairline); margin: var(--s8) 0; }
+table { border-collapse: collapse; width: 100%; font-size: var(--fs-sm); }
+th, td { text-align: left; padding: var(--s3) var(--s4); border-bottom: 1px solid var(--hairline); vertical-align: top; }
+th { color: var(--charcoal); background: var(--bg); }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: var(--s5); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.table-wrap table { margin: 0; min-width: 480px; }
+
+/* ---------- layout helpers ---------- */
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); }
+.measure { max-width: var(--measure); }
+.section { padding-block: var(--s12); }
+@media (min-width: 768px) { .section { padding-block: var(--s16); } }
+.section--white { background: var(--surface); }
+.section--pale { background: var(--pink-pale); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: var(--s4); top: -60px; background: var(--charcoal); color: #fff; padding: var(--s3) var(--s4); border-radius: var(--radius); z-index: 100; text-decoration: none; }
+.skip-link:focus { top: var(--s4); }
+
+/* ---------- buttons (one system, PLAN §6 #3) ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--s2);
+  padding: 12px 24px; min-height: 44px;
+  font: 600 1rem/1.2 var(--font);
+  border-radius: var(--radius); border: 2px solid transparent;
+  text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+.btn--primary { background: var(--pink-deep); color: #fff; border-color: var(--pink-deep); }
+.btn--primary:hover { background: var(--pink-dark); border-color: var(--pink-dark); color: #fff; }
+.btn--secondary { background: var(--green); color: var(--charcoal); border-color: var(--green); }
+.btn--secondary:hover { background: #1fa040; border-color: #1fa040; color: var(--charcoal); }
+.btn--outline { background: transparent; color: var(--pink-deep); border-color: var(--pink-deep); }
+.btn--outline:hover { background: var(--pink-deep); color: #fff; }
+.btn--white { background: #fff; color: var(--pink-deep); border-color: #fff; }
+.btn--white:hover { background: var(--pink-pale); border-color: var(--pink-pale); }
+.btn--sm { padding: 8px 16px; min-height: 36px; font-size: var(--fs-sm); }
+.btn-row { display: flex; flex-wrap: wrap; gap: var(--s3); margin: var(--s5) 0 var(--s8); }
+
+/* ---------- cards ---------- */
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: var(--s6);
+}
+
+/* ---------- chips ---------- */
+.chip {
+  display: inline-block; background: var(--pink); color: #fff;
+  font-size: 0.8125rem; font-weight: 600; line-height: 1; padding: 6px 10px; border-radius: 3px; text-decoration: none;
+}
+.chip:hover { background: var(--pink-deep); color: #fff; }
+
+/* ---------- title band (one style, PLAN §6 #2) ---------- */
+.title-band { background: var(--charcoal); color: #fff; padding: var(--s10) 0; }
+@media (min-width: 768px) { .title-band { padding: var(--s12) 0; } }
+.title-band h1 { color: #fff; margin-bottom: var(--s3); }
+.title-band .lead { color: #e6e6e6; max-width: var(--measure); margin: 0; font-size: var(--fs-lg); }
+.breadcrumb { font-size: var(--fs-sm); color: var(--pink-light); margin: 0 0 var(--s3); padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: var(--s2); }
+.breadcrumb a { color: var(--pink-light); text-decoration: none; }
+.breadcrumb a:hover { color: #fff; text-decoration: underline; }
+.breadcrumb li + li::before { content: '/'; margin-right: var(--s2); color: #999; }
+.breadcrumb li:last-child { color: #e6e6e6; }
+
+/* ---------- prose (article + page bodies) ---------- */
+.prose { max-width: var(--measure); }
+.prose > *:first-child { margin-top: 0; }
+.prose h2 { color: var(--pink-deep); padding-top: var(--s2); }
+.prose h3 { color: var(--charcoal); }
+.prose img { border-radius: var(--radius-lg); margin: var(--s6) 0; }
+.prose blockquote { margin: var(--s6) 0; padding: var(--s4) var(--s6); border-left: 4px solid var(--pink); background: var(--surface); }
+.prose .lead { font-size: var(--fs-lg); color: var(--charcoal); }
+
+/* ---------- details / FAQ ---------- */
+.faq details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s3); }
+.faq summary { cursor: pointer; padding: var(--s4) var(--s12) var(--s4) var(--s5); font-weight: 600; color: var(--charcoal); list-style: none; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: ''; position: absolute; right: var(--s5); top: 50%; width: 10px; height: 10px; border-right: 2px solid var(--pink-deep); border-bottom: 2px solid var(--pink-deep); transform: translateY(-70%) rotate(45deg); transition: transform .15s; }
+.faq details[open] summary::after { transform: translateY(-30%) rotate(225deg); }
+.faq .faq-body { padding: 0 var(--s5) var(--s5); }
+.faq .faq-body > :last-child { margin-bottom: 0; }
+
+/* ---------- NAP block ---------- */
+.nap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5) var(--s6); margin: var(--s8) 0; font-size: var(--fs-sm); }
+.nap strong { display: block; font-size: var(--fs-base); margin-bottom: var(--s1); }
+.nap p { margin: 0; }
+.nap p + p { margin-top: var(--s1); }
+
+/* ---------- disclaimer ---------- */
+.disclaimer { font-size: var(--fs-sm); color: var(--text-muted); border-top: 1px solid var(--hairline); padding-top: var(--s4); margin-top: var(--s8); }
+
+/* ---------- mobile action bar ---------- */
+.action-bar { position: fixed; inset-inline: 0; bottom: 0; z-index: 60; display: grid; grid-template-columns: repeat(4, 1fr); background: var(--surface); border-top: 1px solid var(--hairline); box-shadow: 0 -2px 12px rgba(0,0,0,.08); padding-bottom: env(safe-area-inset-bottom); }
+.action-bar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px 6px; font-size: 0.75rem; font-weight: 600; color: var(--charcoal); text-decoration: none; min-height: 52px; }
+.action-bar a svg { width: 22px; height: 22px; stroke: var(--pink-deep); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.action-bar a:hover { color: var(--pink-deep); }
+@media (min-width: 768px) { .action-bar { display: none; } }
+body.has-action-bar { padding-bottom: 64px; }
+@media (min-width: 768px) { body.has-action-bar { padding-bottom: 0; } }

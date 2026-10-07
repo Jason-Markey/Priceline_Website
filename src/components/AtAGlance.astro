@@ -1,0 +1,31 @@
+---
+import type { Service } from '../data/services';
+export interface Props { service: Service; bookHref?: string; }
+const { service, bookHref } = Astro.props;
+const g = service.atAGlance;
+const rows = [
+  ['What it is', g.what],
+  ["Who it's for", g.who],
+  ['Cost', g.cost],
+  g.time ? ['How long', g.time] : null,
+  ['Appointment', g.booking],
+  ['How to book', g.howToBook],
+].filter(Boolean) as [string, string][];
+---
+<aside class="glance" aria-labelledby="glance-h">
+  <h2 id="glance-h">At a glance</h2>
+  <dl>
+    {rows.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+  </dl>
+  {bookHref && <a class="btn btn--primary btn--sm" href={bookHref} rel="noopener" data-event="book">Book online</a>}
+</aside>
+<style>
+  .glance { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--pink); border-radius: var(--radius); padding: var(--s5) var(--s6); margin: 0 0 var(--s8); }
+  .glance h2 { font-size: 1.0625rem; margin: 0 0 var(--s3); color: var(--charcoal); }
+  .glance dl { margin: 0; display: grid; gap: var(--s2); font-size: var(--fs-sm); }
+  .glance dl > div { display: grid; grid-template-columns: 120px 1fr; gap: var(--s3); }
+  .glance dt { color: var(--charcoal); font-weight: 600; }
+  .glance dd { margin: 0; }
+  .glance .btn { margin-top: var(--s4); }
+  @media (max-width: 480px) { .glance dl > div { grid-template-columns: 1fr; gap: 2px; } }
+</style>

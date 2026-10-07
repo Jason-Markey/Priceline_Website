@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search | Priceline Pharmacy Pacific Fair" description="Search services, advice and information on the Priceline Pharmacy Pacific Fair website." path="/search/" noindex={true}>
+  <div class="title-band"><div class="container"><h1>Search</h1></div></div>
+  <div class="container section">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search" class="measure"></div>
+    <script is:inline src="/pagefind/pagefind-ui.js"></script>
+    <script is:inline>
+      window.addEventListener('DOMContentLoaded', () => {
+        const q = new URLSearchParams(location.search).get('q') || '';
+        new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+        if (q) { const i = document.querySelector('#search input'); if (i) { i.value = q; i.dispatchEvent(new Event('input', { bubbles: true })); } }
+      });
+    </script>
+  </div>
+</Base>
+<style is:global>
+  :root { --pagefind-ui-primary: var(--pink-deep); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface); --pagefind-ui-border: var(--border); --pagefind-ui-font: var(--font); --pagefind-ui-border-radius: 4px; }
+</style>

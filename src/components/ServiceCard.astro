@@ -1,0 +1,16 @@
+---
+import type { Service } from '../data/services';
+export interface Props { service: Service; }
+const { service } = Astro.props;
+---
+<a class="svc" href={`/${service.slug}/`}>
+  <span class="svc__name">{service.name}</span>
+  <span class="svc__short">{service.short}</span>
+</a>
+<style>
+  .svc { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5); text-decoration: none; color: var(--text); box-shadow: var(--shadow); transition: border-color .15s; height: 100%; }
+  .svc:hover { border-color: var(--pink); color: var(--text); }
+  .svc__name { display: block; color: var(--pink-deep); font-weight: 700; font-size: 1.0625rem; margin-bottom: var(--s1); }
+  .svc:hover .svc__name { text-decoration: underline; }
+  .svc__short { display: block; font-size: var(--fs-sm); }
+</style>

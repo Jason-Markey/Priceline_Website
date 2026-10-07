@@ -1,0 +1,87 @@
+---
+/**
+ * Service page template (PLAN §5 #3).
+ * title band → lead (direct answer) → At a glance → CTA row → body (slot) → FAQs → related → NAP → disclaimer
+ */
+import Base from './Base.astro';
+import TitleBand from '../components/TitleBand.astro';
+import AtAGlance from '../components/AtAGlance.astro';
+import Faq from '../components/Faq.astro';
+import Nap from '../components/Nap.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import { site } from '../data/site';
+import { serviceBySlug, type Service } from '../data/services';
+import { serviceNode, faqNode } from '../lib/schema';
+
+export interface Props {
+  service: Service;
+  title: string;
+  description: string;
+  h1?: string;
+  lead: string;
+  hub?: { name: string; href: string };
+  faqs?: { q: string; a: string }[];
+  primaryCta?: { label: string; href: string; external?: boolean; event?: string };
+  secondaryCta?: { label: string; href: string; external?: boolean; event?: string };
+  bookHref?: string;
+  disclaimer?: string;
+  ogImage?: ImageMetadata;
+  dateModified?: string;
+}
+
+const {
+  service, title, description, h1, lead,
+  hub = { name: 'Pharmacy services', href: '/pharmacy-services/' },
+  faqs = [],
+  primaryCta = { label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' },
+  secondaryCta = { label: 'Hours & directions', href: '/visit-us/' },
+  bookHref,
+  disclaimer = 'This information is general in nature and isn’t a substitute for personal advice from your pharmacist or doctor.',
+  ogImage, dateModified,
+} = Astro.props;
+
+const path = `/${service.slug}/`;
+const url = `${site.url}${path}`;
+const breadcrumbs = [{ name: 'Home', href: '/' }, hub, { name: service.name, href: path }];
+const related = service.related.map(serviceBySlug).filter(Boolean) as Service[];
+const schema = [
+  serviceNode({ url, name: service.name, description: service.short, price: service.price }),
+  ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
+];
+---
+
+<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={schema} ogImage={ogImage} dateModified={dateModified}>
+  <TitleBand title={h1 ?? service.name} breadcrumbs={breadcrumbs} />
+  <div class="container svc-layout">
+    <article class="prose">
+      <p class="lead">{lead}</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={primaryCta.href} rel={primaryCta.external ? 'noopener' : undefined} data-event={primaryCta.event}>{primaryCta.label}</a>
+        <a class="btn btn--secondary" href={secondaryCta.href} rel={secondaryCta.external ? 'noopener' : undefined} data-event={secondaryCta.event}>{secondaryCta.label}</a>
+      </div>
+      <div class="glance-mobile"><AtAGlance service={service} bookHref={bookHref} /></div>
+      <slot />
+      {faqs.length > 0 && <Faq items={faqs} />}
+      <Nap />
+      <p class="disclaimer">{disclaimer}</p>
+    </article>
+    <aside class="svc-side">
+      <div class="glance-desktop"><AtAGlance service={service} bookHref={bookHref} /></div>
+      {related.length > 0 && (
+        <section class="related" aria-labelledby="related-h">
+          <h2 id="related-h">Related services</h2>
+          <div class="related__list">{related.map((r) => <ServiceCard service={r} />)}</div>
+        </section>
+      )}
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .svc-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
+  @media (min-width: 1024px) { .svc-layout { grid-template-columns: minmax(0, var(--measure)) 340px; gap: var(--s16); } }
+  .glance-desktop { display: none; }
+  @media (min-width: 1024px) { .glance-desktop { display: block; position: sticky; top: var(--s5); } .glance-mobile { display: none; } }
+  .related h2 { font-size: 1.0625rem; margin: var(--s8) 0 var(--s3); }
+  .related__list { display: grid; gap: var(--s3); }
+</style>

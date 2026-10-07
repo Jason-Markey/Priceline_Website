@@ -1,0 +1,20 @@
+---
+import { hoursRows, type Hours } from '../data/site';
+export interface Props { heading: string; hours: Hours; note?: string; }
+const { heading, hours, note } = Astro.props;
+const rows = hoursRows(hours);
+---
+<div class="hours card">
+  <h3>{heading}</h3>
+  <dl>{rows.map((r) => <div><dt>{r.label}</dt><dd>{r.value}</dd></div>)}</dl>
+  {note && <p class="hours__note">{note}</p>}
+</div>
+<style>
+  .hours h3 { color: var(--green-dark); margin: 0 0 var(--s3); font-size: 1.25rem; }
+  .hours dl { margin: 0; display: grid; gap: 6px; }
+  .hours dl > div { display: flex; justify-content: space-between; gap: var(--s4); border-bottom: 1px solid var(--hairline); padding-bottom: 6px; }
+  .hours dl > div:last-child { border-bottom: 0; }
+  .hours dt { font-weight: 600; color: var(--charcoal); }
+  .hours dd { margin: 0; text-align: right; }
+  .hours__note { font-size: var(--fs-sm); color: var(--text-muted); margin: var(--s3) 0 0; }
+</style>

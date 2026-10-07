@@ -1,0 +1,78 @@
+---
+import { Image } from 'astro:assets';
+import logoMark from '../assets/images/logo-footer.png';
+import { site, hoursRows } from '../data/site';
+import { footerNav, legalNav } from '../data/navigation';
+const year = new Date().getFullYear();
+const pharmacyRows = hoursRows(site.hours);
+const hmRows = hoursRows(site.helpMedical.hours);
+---
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__about">
+      <Image src={logoMark} alt="" width={180} class="footer__mark" loading="lazy" />
+      <p class="footer__name">{site.name}</p>
+      <p>An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach. Locally owned since 2009.</p>
+      <address>
+        {site.address.oneLine}<br />
+        <a href={site.phoneHref}>{site.phone}</a><br />
+        Fax {site.fax}<br />
+        <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>
+      </address>
+      <p class="footer__social">
+        <a href={site.social.facebook} rel="noopener" aria-label="Priceline Pharmacy on Facebook">Facebook</a>
+        <a href={site.social.instagram} rel="noopener" aria-label="Priceline Pharmacy Pacific Fair on Instagram">Instagram</a>
+      </p>
+    </div>
+
+    {footerNav.map((col) => (
+      <nav class="footer__col" aria-label={col.heading}>
+        <h2>{col.heading}</h2>
+        <ul>{col.items.map((i) => <li><a href={i.href}>{i.label}</a></li>)}</ul>
+      </nav>
+    ))}
+
+    <div class="footer__col footer__hours">
+      <h2>Opening hours</h2>
+      <dl>{pharmacyRows.map((r) => <><dt>{r.label}</dt><dd>{r.value}</dd></>)}</dl>
+      <h2>{site.helpMedical.name}</h2>
+      <dl>{hmRows.map((r) => <><dt>{r.label}</dt><dd>{r.value}</dd></>)}</dl>
+      <p><a href="/visit-us/">Directions, parking and public holiday hours</a></p>
+    </div>
+  </div>
+
+  <div class="footer__bar">
+    <div class="container footer__bar-inner">
+      <span>© {year} {site.name}. All rights reserved.</span>
+      <ul>
+        {legalNav.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+        <li><a href={site.links.pricelineNational} rel="noopener">Priceline Pharmacy national site</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer { background: var(--footer-bg); color: var(--footer-text); font-size: 0.9375rem; margin-top: var(--s16); }
+  .footer a { color: #fff; text-decoration: none; }
+  .footer a:hover { text-decoration: underline; color: var(--pink-light); }
+  .footer__grid { display: grid; gap: var(--s10); padding-block: var(--s12); }
+  @media (min-width: 768px) { .footer__grid { grid-template-columns: 1.3fr 0.9fr 0.9fr 1.5fr; gap: var(--s8); } }
+  .footer h2 { color: #fff; font-size: 1rem; margin: 0 0 var(--s3); }
+  .footer__hours h2 + dl + h2 { margin-top: var(--s5); }
+  .footer__hours dl + p { margin-top: var(--s4); }
+  .footer ul { list-style: none; margin: 0; padding: 0; }
+  .footer li + li { margin-top: 6px; }
+  .footer__mark { width: 150px; height: auto; margin-bottom: var(--s4); }
+  .footer__name { color: #fff; font-weight: 700; font-size: 1.0625rem; margin-bottom: var(--s2); }
+  .footer address { font-style: normal; line-height: 1.6; margin-bottom: var(--s3); }
+  .footer__social a { margin-right: var(--s4); font-weight: 600; }
+  .footer dl { margin: 0; display: grid; grid-template-columns: auto 1fr; column-gap: var(--s3); row-gap: 4px; }
+  .footer dt { color: #fff; }
+  .footer dd { margin: 0; white-space: nowrap; }
+  .footer__bar { border-top: 1px solid #3a3a3a; padding-block: var(--s4); font-size: 0.875rem; color: #a5a5a5; }
+  .footer__bar-inner { display: flex; flex-wrap: wrap; gap: var(--s3) var(--s6); justify-content: space-between; }
+  .footer__bar ul { display: flex; flex-wrap: wrap; gap: var(--s4); }
+  .footer__bar li + li { margin: 0; }
+</style>

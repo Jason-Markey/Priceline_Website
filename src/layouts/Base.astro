@@ -1,0 +1,113 @@
+---
+/**
+ * Base layout: <head> metadata, Open Graph, JSON-LD graph, header, footer, mobile action bar.
+ * Every page uses this. Pass extra schema nodes via `schema`.
+ */
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { getImage } from 'astro:assets';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { pharmacyNode, ownerNode, websiteNode, webPageNode, breadcrumbNode, clean } from '../lib/schema';
+import logo from '../assets/images/logo-priceline-pacific-fair.png';
+import storeImg from '../assets/images/store-interior.jpg';
+import jasonImg from '../assets/images/jason-pharmacist-portrait.jpg';
+
+export interface Props {
+  title: string;
+  description: string;
+  /** Path with trailing slash, e.g. "/prescriptions/" */
+  path: string;
+  ogImage?: ImageMetadata;
+  breadcrumbs?: { name: string; href: string }[];
+  schema?: Record<string, unknown>[];
+  pageType?: string;
+  datePublished?: string;
+  dateModified?: string;
+  noindex?: boolean;
+  actionBar?: boolean;
+}
+
+const { title, description, path, ogImage, breadcrumbs, schema = [], pageType, datePublished, dateModified, noindex = false, actionBar = true } = Astro.props;
+const canonical = `${site.url}${path}`;
+const og = await getImage({ src: ogImage ?? storeImg, width: 1200, height: 630, format: 'jpg', fit: 'cover' });
+const ogUrl = `${site.url}${og.src}`;
+const logoImg = await getImage({ src: logo, width: 600, format: 'png' });
+const jason = await getImage({ src: jasonImg, width: 600, format: 'jpg' });
+
+const graph = clean([
+  pharmacyNode(`${site.url}${logoImg.src}`, ogUrl),
+  ownerNode(`${site.url}${jason.src}`),
+  websiteNode(),
+  webPageNode({ url: canonical, title, description, type: pageType, datePublished, dateModified, imageUrl: ogUrl }),
+  ...(breadcrumbs && breadcrumbs.length > 1 ? [breadcrumbNode(breadcrumbs)] : []),
+  ...schema,
+]);
+const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta name="theme-color" content="#f24896" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" />
+    <link rel="icon" href="/icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} advice`} href="/rss.xml" />
+
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:type" content={pageType === 'Article' ? 'article' : 'website'} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogUrl} />
+    <meta name="geo.region" content="AU-QLD" />
+    <meta name="geo.placename" content="Broadbeach" />
+    <meta name="geo.position" content={`${site.geo.latitude};${site.geo.longitude}`} />
+
+    <script type="application/ld+json" set:html={jsonLd} />
+    <slot name="head" />
+  </head>
+  <body class:list={[{ 'has-action-bar': actionBar }]}>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    {actionBar && (
+      <nav class="action-bar" aria-label="Quick actions">
+        <a href={site.phoneHref} data-event="call">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+          Call
+        </a>
+        <a href={site.directionsUrl} rel="noopener" data-event="directions">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7.1 7-12a7 7 0 1 0-14 0c0 4.9 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Directions
+        </a>
+        <a href={site.links.book} rel="noopener" data-event="book">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          Book
+        </a>
+        <a href="/prescriptions/" data-event="scripts">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h5M10 17h5"/></svg>
+          Scripts
+        </a>
+      </nav>
+    )}
+  </body>
+</html>

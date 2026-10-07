@@ -1,6 +1,4 @@
 node_modules/
 .astro/
-.env
+*.log
 .DS_Store
-reference/*.png
-PROJECT.md
