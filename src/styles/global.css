@@ -113,6 +113,9 @@ th { color: var(--charcoal); background: var(--bg); }
 @media (min-width: 768px) { .section { padding-block: var(--s16); } }
 .section--white { background: var(--surface); }
 .section--pale { background: var(--pink-pale); }
+/* AA on the pale pink: body-size links use the darker pink (5.2:1) */
+.section--pale a:not(.btn), .hero a:not(.btn) { color: var(--pink-dark); }
+.section--pale .btn--outline { color: var(--pink-dark); border-color: var(--pink-dark); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .skip-link { position: absolute; left: var(--s4); top: -60px; background: var(--charcoal); color: #fff; padding: var(--s3) var(--s4); border-radius: var(--radius); z-index: 100; text-decoration: none; }
 .skip-link:focus { top: var(--s4); }
@@ -128,8 +131,8 @@ th { color: var(--charcoal); background: var(--bg); }
 }
 .btn--primary { background: var(--pink-deep); color: #fff; border-color: var(--pink-deep); }
 .btn--primary:hover { background: var(--pink-dark); border-color: var(--pink-dark); color: #fff; }
-.btn--secondary { background: var(--green); color: var(--charcoal); border-color: var(--green); }
-.btn--secondary:hover { background: #1fa040; border-color: #1fa040; color: var(--charcoal); }
+.btn--secondary { background: var(--green); color: #1a1a1a; border-color: var(--green); }
+.btn--secondary:hover { background: #1fa040; border-color: #1fa040; color: #1a1a1a; }
 .btn--outline { background: transparent; color: var(--pink-deep); border-color: var(--pink-deep); }
 .btn--outline:hover { background: var(--pink-deep); color: #fff; }
 .btn--white { background: #fff; color: var(--pink-deep); border-color: #fff; }
@@ -145,10 +148,10 @@ th { color: var(--charcoal); background: var(--bg); }
 
 /* ---------- chips ---------- */
 .chip {
-  display: inline-block; background: var(--pink); color: #fff;
+  display: inline-block; background: var(--pink-deep); color: #fff;
   font-size: 0.8125rem; font-weight: 600; line-height: 1; padding: 6px 10px; border-radius: 3px; text-decoration: none;
 }
-.chip:hover { background: var(--pink-deep); color: #fff; }
+.chip:hover { background: var(--pink-dark); color: #fff; }
 
 /* ---------- title band (one style, PLAN §6 #2) ---------- */
 .title-band { background: var(--charcoal); color: #fff; padding: var(--s10) 0; }

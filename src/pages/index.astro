@@ -24,14 +24,14 @@ const description =
 
 // Home services grid — same eight tiles and hexagon icons as the current site
 const tiles = [
-  { slug: 'vaccination-information', label: 'Vaccinations', icon: icoVacc, cta: 'Learn more' },
+  { slug: 'vaccination-information', label: 'Vaccinations', icon: icoVacc, cta: 'More' },
   { slug: 'help-medical', label: "Doctor's appointment", icon: icoDoctor, cta: 'Book now', href: site.helpMedical.bookingUrl },
-  { slug: 'medication-packing', label: 'Medication packing', icon: icoPacking, cta: 'Learn more' },
-  { slug: 'health-station', label: 'Health Station', icon: icoHealth, cta: 'Learn more' },
-  { slug: 'national-diabetes-services-scheme', label: 'Diabetes & NDSS', icon: icoDiabetes, cta: 'Learn more' },
-  { slug: 'medication-reviews', label: 'Medication reviews', icon: icoReviews, cta: 'Learn more' },
-  { slug: 'skincare-tanning', label: 'Skincare & cosmetics', icon: icoCosmetics, cta: 'Learn more' },
-  { slug: 'download-the-priceline-app', label: 'Priceline app', icon: icoApp, cta: 'Learn more' },
+  { slug: 'medication-packing', label: 'Medication packing', icon: icoPacking, cta: 'More' },
+  { slug: 'health-station', label: 'Health Station', icon: icoHealth, cta: 'More' },
+  { slug: 'national-diabetes-services-scheme', label: 'Diabetes & NDSS', icon: icoDiabetes, cta: 'More' },
+  { slug: 'medication-reviews', label: 'Medication reviews', icon: icoReviews, cta: 'More' },
+  { slug: 'skincare-tanning', label: 'Skincare & cosmetics', icon: icoCosmetics, cta: 'More' },
+  { slug: 'download-the-priceline-app', label: 'Priceline app', icon: icoApp, cta: 'More' },
 ];
 
 const faqs = [
@@ -134,7 +134,7 @@ const faqs = [
                 <span class="tile__label">{t.label}</span>
                 <span class="tile__desc">{s.short}</span>
               </a>
-              <a class="btn btn--primary btn--sm" href={href} rel={t.href ? 'noopener' : undefined} aria-label={`${t.cta}: ${t.label}`}>{t.cta}</a>
+              <a class="btn btn--primary btn--sm" href={href} rel={t.href ? 'noopener' : undefined}>{t.cta === 'More' ? `About ${t.label.toLowerCase().replace('ndss', 'NDSS').replace('health station', 'Health Station').replace('priceline', 'Priceline')}` : t.cta}</a>
             </li>
           );
         })}
@@ -215,7 +215,7 @@ const faqs = [
   .hero__lead { font-size: var(--fs-lg); color: var(--charcoal); max-width: 52ch; }
   .hero .btn-row { margin-bottom: var(--s5); }
   .hero__quick { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s2) var(--s5); font-size: var(--fs-sm); font-weight: 600; }
-  .hero__quick a { color: var(--pink-deep); }
+  .hero__quick a { color: var(--pink-dark); }
   /* Cut-out portrait sits on the pink and bleeds off the bottom edge, like the store's banner artwork */
   .hero__photo { justify-self: center; width: min(70vw, 300px); margin-top: var(--s4); margin-bottom: -4px; }
   .hero__photo img { width: 100%; height: auto; display: block; }
