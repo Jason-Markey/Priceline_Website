@@ -3,7 +3,7 @@
  * Dynamic route: every file in src/content/articles becomes /<slug>/ (same URLs as the old WordPress posts).
  */
 import { render } from 'astro:content';
-import { getLiveArticles } from '../lib/articles';
+import { getLiveArticles, byNewest } from '../lib/articles';
 import ArticlePage from '../layouts/ArticlePage.astro';
 
 export async function getStaticPaths() {
@@ -12,9 +12,17 @@ export async function getStaticPaths() {
     params: { article: entry.id.replace(/\.md$/, '') },
     props: {
       entry,
+      // Related: tag overlap counts double, same category counts once; best score first, then newest.
       related: all
-        .filter((o) => o.id !== entry.id && (o.data.category === entry.data.category || o.data.tags.some((t) => entry.data.tags.includes(t))))
-        .slice(0, 5),
+        .filter((o) => o.id !== entry.id)
+        .map((o) => ({
+          o,
+          score: o.data.tags.filter((t) => entry.data.tags.includes(t)).length * 2 + (o.data.category === entry.data.category ? 1 : 0),
+        }))
+        .filter((r) => r.score > 0)
+        .sort((a, b) => b.score - a.score || byNewest(a.o, b.o))
+        .slice(0, 5)
+        .map((r) => r.o),
     },
   }));
 }

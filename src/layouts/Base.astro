@@ -9,7 +9,7 @@ import { getImage } from 'astro:assets';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { site } from '../data/site';
-import { pharmacyNode, ownerNode, websiteNode, webPageNode, breadcrumbNode, clean } from '../lib/schema';
+import { pharmacyNode, ownerNode, websiteNode, webPageNode, breadcrumbNode, clean, ID } from '../lib/schema';
 import logo from '../assets/images/logo-priceline-pacific-fair.png';
 import storeImg from '../assets/images/store-interior.jpg';
 import jasonImg from '../assets/images/jason-pharmacist-portrait.jpg';
@@ -36,15 +36,37 @@ const ogUrl = `${site.url}${og.src}`;
 const logoImg = await getImage({ src: logo, width: 600, format: 'png' });
 const jason = await getImage({ src: jasonImg, width: 600, format: 'jpg' });
 
+// The home page's main entity is the pharmacy; the Help Medical page's is the clinic.
+const mainEntityId = path === '/' ? ID.pharmacy : path === '/help-medical/' ? ID.helpMedical : undefined;
+
+// Article / MedicalWebPage nodes without an image fall back to the page's OG image.
+const hasType = (node: Record<string, unknown>, t: string) => {
+  const ty = node['@type'];
+  return Array.isArray(ty) ? ty.includes(t) : ty === t;
+};
+const withImage = schema.map((node) =>
+  (hasType(node, 'Article') || hasType(node, 'MedicalWebPage')) && !node.image ? { ...node, image: ogUrl } : node,
+);
+
 const graph = clean([
   pharmacyNode(`${site.url}${logoImg.src}`, ogUrl),
   ownerNode(`${site.url}${jason.src}`),
   websiteNode(),
-  webPageNode({ url: canonical, title, description, type: pageType, datePublished, dateModified, imageUrl: ogUrl }),
+  webPageNode({ url: canonical, title, description, type: pageType, datePublished, dateModified, imageUrl: ogUrl, mainEntityId }),
   ...(breadcrumbs && breadcrumbs.length > 1 ? [breadcrumbNode(breadcrumbs)] : []),
-  ...schema,
+  ...withImage,
 ]);
 const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+
+// GA4 content grouping, derived from the page type / path
+const contentGroup =
+  path === '/' ? 'home'
+  : pageType === 'Article' ? 'article'
+  : pageType === 'CollectionPage' ? 'hub'
+  : pageType === 'AboutPage' || pageType === 'ContactPage' ? 'about'
+  : path === '/visit-us/' ? 'visit'
+  : path === '/privacy-policy/' || path === '/terms-and-conditions/' ? 'legal'
+  : 'service';
 ---
 
 <!doctype html>
@@ -85,21 +107,51 @@ const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
     {site.ga4MeasurementId && (
       <>
         <!-- Google Analytics 4. Loaded after the page is interactive so it never delays rendering. -->
-        <script is:inline define:vars={{ id: site.ga4MeasurementId }}>
+        <script is:inline define:vars={{ id: site.ga4MeasurementId, contentGroup }}>
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
           gtag('js', new Date());
-          gtag('config', id, { anonymize_ip: true });
+          gtag('config', id, { anonymize_ip: true, content_group: contentGroup });
           window.addEventListener('load', function () {
             var s = document.createElement('script'); s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
             document.head.appendChild(s);
           });
-          // Conversion-style events: any link/button with data-event="call|book|book-gp|directions|send-script|…"
+          // CTA events (snake_case): cta_call, cta_email, cta_book, cta_book_gp, cta_directions,
+          // cta_send_script, cta_app_download, cta_uber_eats, cta_click_collect.
+          // Uses data-event when present (legacy values mapped), otherwise derives the event from the href.
+          var legacy = {
+            'call': 'cta_call', 'book': 'cta_book', 'book-vaccination': 'cta_book', 'book-gp': 'cta_book_gp',
+            'directions': 'cta_directions', 'send-script': 'cta_send_script', 'scripts': 'cta_send_script',
+            'email': 'cta_email', 'uber-eats': 'cta_uber_eats', 'click-collect': 'cta_click_collect'
+          };
+          function eventFor(el) {
+            var ev = el.getAttribute('data-event');
+            if (ev) return legacy[ev] || (ev.indexOf('cta_') === 0 ? ev : 'cta_' + ev.replace(/-/g, '_'));
+            var h = (el.getAttribute('href') || '').toLowerCase();
+            if (h.indexOf('tel:') === 0) return 'cta_call';
+            if (h.indexOf('mailto:') === 0) return 'cta_email';
+            if (h.indexOf('medadvisor.com.au') !== -1) return 'cta_book';
+            if (h.indexOf('helpmedical.au') !== -1 || h.indexOf('hotdoc.com.au') !== -1) return 'cta_book_gp';
+            if (h.indexOf('google.com/maps') !== -1 || h.indexOf('maps.app.goo.gl') !== -1) return 'cta_directions';
+            if (h.indexOf('apps.apple.com') !== -1 || h.indexOf('play.google.com') !== -1) return 'cta_app_download';
+            if (h.indexOf('ubereats.com') !== -1) return 'cta_uber_eats';
+            if (h.indexOf('priceline.com.au') !== -1) return 'cta_click_collect';
+            return null;
+          }
           document.addEventListener('click', function (e) {
-            var el = e.target && e.target.closest && e.target.closest('[data-event]');
+            var el = e.target && e.target.closest && e.target.closest('a[href], button[data-event]');
             if (!el) return;
-            gtag('event', el.getAttribute('data-event'), { event_category: 'cta', link_url: el.getAttribute('href') || '', page_path: location.pathname });
+            var name = eventFor(el);
+            if (!name) return;
+            var loc = el.closest('[data-cta-location]');
+            var seg = location.pathname.split('/').filter(Boolean)[0];
+            gtag('event', name, {
+              cta_location: loc ? loc.getAttribute('data-cta-location') : 'body',
+              link_text: (el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 60),
+              link_url: el.getAttribute('href') || '',
+              service: seg || 'home'
+            });
           }, { capture: true });
         </script>
       </>
@@ -112,20 +164,20 @@ const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
     </main>
     <Footer />
     {actionBar && (
-      <nav class="action-bar" aria-label="Quick actions">
-        <a href={site.phoneHref} data-event="call">
+      <nav class="action-bar" aria-label="Quick actions" data-cta-location="action_bar" data-pagefind-ignore>
+        <a href={site.phoneHref} data-event="cta_call">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
           Call
         </a>
-        <a href={site.directionsUrl} rel="noopener" data-event="directions">
+        <a href={site.directionsUrl} rel="noopener" data-event="cta_directions">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7.1 7-12a7 7 0 1 0-14 0c0 4.9 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
           Directions
         </a>
-        <a href={site.links.book} rel="noopener" data-event="book">
+        <a href={site.links.book} rel="noopener" data-event="cta_book">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
           Book
         </a>
-        <a href="/prescriptions/" data-event="scripts">
+        <a href="/prescriptions/" data-event="cta_send_script">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h5M10 17h5"/></svg>
           Scripts
         </a>

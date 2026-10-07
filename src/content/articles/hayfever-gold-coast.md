@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["summer"]
-relatedServices: ["vaccination-information"]
+relatedServices: ["vaccination-information", "prescriptions"]
 references:
   - name: "ASCIA – Allergic rhinitis (hay fever)"
     url: "https://www.allergy.org.au/patients/allergic-rhinitis-hay-fever-and-sinusitis/allergic-rhinitis-or-hay-fever"

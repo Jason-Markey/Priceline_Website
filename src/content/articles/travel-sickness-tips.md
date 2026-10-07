@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "summer", "travel"]
-relatedServices: ["travel-health"]
+relatedServices: ["travel-health", "help-medical"]
 references:
   - name: "healthdirect – Motion sickness"
     url: "https://www.healthdirect.gov.au/motion-sickness"

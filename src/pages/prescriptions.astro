@@ -20,12 +20,18 @@ const faqs = [
   title="Prescriptions & eScripts Broadbeach | Priceline Pacific Fair"
   description="Scripts ready in minutes at Priceline Pacific Fair, Broadbeach. Send your eScript ahead with the app or walk in. Hospital, interstate and vet scripts welcome."
   h1="Prescriptions at Pacific Fair, Broadbeach"
-  lead="Yes, you can fill any valid Australian prescription at Priceline Pharmacy Pacific Fair in Broadbeach, with most scripts ready in minutes and no appointment needed. Bring in a paper script, show us an eScript on your phone, or send it ahead through the app so it’s waiting when you arrive. There’s no fee for dispensing or for sending your script ahead."
+  lead="Any valid Australian prescription can be filled at Priceline Pharmacy Pacific Fair in Broadbeach, with most scripts ready in minutes and no appointment needed. Bring in a paper script, show us an eScript on your phone, or send it ahead through the app so it’s waiting when you arrive. There’s no fee for dispensing or for sending your script ahead."
   faqs={faqs}
-  primaryCta={{ label: 'Send a script with the app', href: '/download-the-priceline-app/', event: 'send-script' }}
-  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  primaryCta={{ label: 'Get the app to send your script', href: site.links.appIos, external: true, event: 'cta_app_download' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   dateModified="2026-10-07"
 >
+  <div class="btn-row" data-cta-location="app_links">
+    <a class="btn btn--outline btn--sm" href={site.links.appIos} rel="noopener" data-event="cta_app_download">Get the app (iPhone)</a>
+    <a class="btn btn--outline btn--sm" href={site.links.appAndroid} rel="noopener" data-event="cta_app_download">Get the app (Android)</a>
+  </div>
+  <p>Already have the app? Choose Priceline Pharmacy Pacific Fair as your store, then send your eScript from the app.</p>
+
   <h2>How do I send my eScript ahead?</h2>
   <p>The easiest way to skip the wait is to send your eScript to us before you arrive, using the MedAdvisor app or the <a href="/download-the-priceline-app/">Priceline Pharmacy app</a>:</p>
   <ol>
@@ -45,7 +51,7 @@ const faqs = [
   <h3>Scripts on file</h3>
   <p>We can keep your repeat prescriptions on file, so you don’t need to bring the paperwork each time.</p>
   <h3>Hospital, private and interstate prescriptions</h3>
-  <p>We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Prescriptions from doctors in other Australian states can be filled here too, which makes us a handy stop for visitors to the Gold Coast. Prescriptions written overseas can’t be dispensed in Australia; the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.</p>
+  <p>We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Prescriptions from doctors in other Australian states can be filled here too, which makes us a handy stop for visitors to the Gold Coast. Visiting the Gold Coast? See our <a href="/visiting-the-gold-coast/">guide for visitors</a>. Prescriptions written overseas can’t be dispensed in Australia; the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.</p>
   <h3>Veterinary prescriptions</h3>
   <p>We also dispense prescriptions written by your vet. Bring in the script and we’ll supply the medicine where it’s one we can stock or order.</p>
 

@@ -22,8 +22,8 @@ const faqs = [
   h1="Health Station: free blood pressure and health checks at Pacific Fair"
   lead="Yes, you can check your blood pressure for free at the Health Station inside Priceline Pharmacy Pacific Fair in Broadbeach, along with your weight, BMI and type 2 diabetes risk. There’s no appointment and no charge, and a pharmacist is nearby to explain what your numbers mean. Just come in any day we’re open."
   faqs={faqs}
-  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
-  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   dateModified="2026-10-07"
 >
   <h2>What can I check at the Health Station?</h2>

@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: []
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Heartburn"
     url: "https://www.healthdirect.gov.au/heartburn"

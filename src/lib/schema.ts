@@ -4,8 +4,9 @@
  * Nothing here is invented: every value comes from src/data/site.ts or the page itself.
  */
 import { site, openingHoursSpec } from '../data/site';
+import { services } from '../data/services';
 
-const ID = {
+export const ID = {
   pharmacy: `${site.url}/#pharmacy`,
   website: `${site.url}/#website`,
   owner: `${site.url}/#jason-markey`,
@@ -22,7 +23,7 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
     legalName: site.legalName,
     url: `${site.url}/`,
     telephone: site.phoneE164,
-    faxNumber: site.fax,
+    faxNumber: site.faxE164,
     email: site.emailGeneral,
     description: site.description,
     foundingDate: site.foundingDate,
@@ -58,11 +59,31 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
     brand: { '@type': 'Brand', name: 'Priceline Pharmacy' },
     employee: { '@id': ID.owner },
     sameAs: [site.links.googleBusinessProfile, site.links.pacificFairStorePage, site.social.facebook, site.social.instagram],
-    isAccessibleForFree: true,
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Wheelchair-accessible entrance', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Accessible parking nearby', value: true },
     ],
+    hasOfferCatalog: offerCatalog(),
+  };
+}
+
+/** Fixed-price services from services.ts (those with `price` set) as an OfferCatalog */
+function offerCatalog() {
+  return {
+    '@type': 'OfferCatalog',
+    name: 'Pharmacy services with a fixed price',
+    itemListElement: services
+      .filter((s) => s.price !== undefined)
+      .map((s) => ({
+        '@type': 'Offer',
+        name: s.name,
+        description: s.short,
+        url: `${site.url}/${s.slug}/`,
+        price: s.price,
+        priceCurrency: 'AUD',
+        availability: 'https://schema.org/InStock',
+        itemOffered: { '@type': 'Service', name: s.name, url: `${site.url}/${s.slug}/` },
+      })),
   };
 }
 
@@ -97,7 +118,7 @@ export function websiteNode() {
   };
 }
 
-export function webPageNode(opts: { url: string; title: string; description: string; type?: string; datePublished?: string; dateModified?: string; imageUrl?: string }) {
+export function webPageNode(opts: { url: string; title: string; description: string; type?: string; datePublished?: string; dateModified?: string; imageUrl?: string; mainEntityId?: string }) {
   return {
     '@type': opts.type ?? 'WebPage',
     '@id': `${opts.url}#webpage`,
@@ -110,6 +131,7 @@ export function webPageNode(opts: { url: string; title: string; description: str
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
     primaryImageOfPage: opts.imageUrl ? { '@type': 'ImageObject', url: opts.imageUrl } : undefined,
+    mainEntity: opts.mainEntityId ? { '@id': opts.mainEntityId } : undefined,
   };
 }
 

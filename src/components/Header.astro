@@ -10,16 +10,15 @@ const todayIdx = (new Date().getUTCDay() + 6) % 7; // Mon=0
 const todayKey = dayOrder[todayIdx] as DayKey;
 const today = site.hours[todayKey];
 const todayText = today ? `Open today ${fmtTime(today.open)} – ${fmtTime(today.close)}` : 'Closed today';
-const hoursJson = JSON.stringify(
-  dayOrder.map((d) => (site.hours[d] ? [fmtTime(site.hours[d]!.open), fmtTime(site.hours[d]!.close)] : null)),
-);
+// Raw 24h times per day (Mon..Sun); the script formats and works out open/closed state.
+const hoursJson = JSON.stringify(dayOrder.map((d) => (site.hours[d] ? [site.hours[d]!.open, site.hours[d]!.close] : null)));
 const { pathname } = Astro.url;
 const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 ---
 
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-pagefind-ignore>Skip to content</a>
 
-<div class="strip">
+<div class="strip" data-pagefind-ignore>
   <div class="container strip__inner">
     <span class="strip__hours" id="today-hours" data-hours={hoursJson}>{todayText}</span>
     <span class="strip__sep" aria-hidden="true">·</span>
@@ -29,8 +28,8 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   </div>
 </div>
 
-<header class="header">
-  <div class="container header__inner">
+<header class="header" data-pagefind-ignore>
+  <div class="container header__inner" data-cta-location="header">
     <a class="header__logo" href="/" aria-label="Priceline Pharmacy Pacific Fair home">
       <Image src={logo} alt="Priceline Pharmacy Pacific Fair" width={240} height={99} loading="eager" densities={[1, 2]} />
     </a>
@@ -49,7 +48,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   </div>
 </header>
 
-<nav class="nav" aria-label="Main">
+<nav class="nav" aria-label="Main" data-pagefind-ignore>
   <div class="container">
     <ul class="nav__list">
       {primaryNav.map((g) => (
@@ -71,7 +70,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   </div>
 </nav>
 
-<div class="mobile-nav" id="mobile-nav" hidden>
+<div class="mobile-nav" id="mobile-nav" hidden data-pagefind-ignore>
   <div class="mobile-nav__head">
     <span class="mobile-nav__title">Menu</span>
     <button class="mobile-nav__close" type="button" aria-label="Close menu">
@@ -96,6 +95,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
           <li><a href={g.href}>{g.label}</a></li>
         ),
       )}
+      <li><a href="/search/">Search</a></li>
       <li class="mobile-nav__cta"><a class="btn btn--primary" href={site.links.book} rel="noopener">Book online</a></li>
       <li class="mobile-nav__meta">
         <a href={site.phoneHref}>{site.phone}</a><br />
@@ -106,15 +106,31 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
 </div>
 
 <script>
-  // Today's hours in the strip (Australia/Brisbane), no framework.
+  // Strip state (Australia/Brisbane), no framework: "Open now · closes 5:30pm", "Opens 8am",
+  // "Closed · opens 9am tomorrow". The build-time text stays as the no-JS fallback.
   const el = document.getElementById('today-hours');
   if (el) {
     try {
-      const hours = JSON.parse(el.dataset.hours || '[]');
-      const day = new Date().toLocaleDateString('en-AU', { weekday: 'short', timeZone: 'Australia/Brisbane' });
-      const idx = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].indexOf(day);
-      const h = hours[idx];
-      el.textContent = h ? `Open today ${h[0]} – ${h[1]}` : 'Closed today';
+      const hours: ([string, string] | null)[] = JSON.parse(el.dataset.hours || '[]');
+      const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+      const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      const parts = new Intl.DateTimeFormat('en-AU', { weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'Australia/Brisbane' }).formatToParts(new Date());
+      const get = (t: string) => parts.find((x) => x.type === t)?.value || '';
+      const idx = days.indexOf(get('weekday').slice(0, 3));
+      const mins = (t: string) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
+      const fmt = (t: string) => { const [h, m] = t.split(':').map(Number); const hh = h % 12 || 12; const sfx = h >= 12 ? 'pm' : 'am'; return m ? `${hh}:${String(m).padStart(2, '0')}${sfx}` : `${hh}${sfx}`; };
+      const now = (Number(get('hour')) % 24) * 60 + Number(get('minute'));
+      const today = idx >= 0 ? hours[idx] : null;
+      let text = '';
+      if (today && now < mins(today[0])) text = `Opens ${fmt(today[0])}`;
+      else if (today && now < mins(today[1])) text = `Open now · closes ${fmt(today[1])}`;
+      else {
+        for (let i = 1; i <= 7; i++) {
+          const n = hours[(idx + i) % 7];
+          if (n) { text = `Closed · opens ${fmt(n[0])} ${i === 1 ? 'tomorrow' : dayNames[(idx + i) % 7]}`; break; }
+        }
+      }
+      if (text) el.textContent = text;
     } catch {}
   }
   // Mobile menu
@@ -146,10 +162,15 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
 
   /* Header row */
   .header { background: var(--surface); border-bottom: 1px solid var(--hairline); }
-  .header__inner { display: flex; align-items: center; gap: var(--s4); min-height: 72px; padding-block: var(--s2); }
+  .header__inner { display: flex; align-items: center; gap: var(--s4); min-height: 64px; padding-block: var(--s2); }
+  @media (min-width: 768px) { .header__inner { min-height: 72px; } }
   .header__logo { flex: 0 0 auto; }
   .header__logo img { width: 170px; height: auto; }
-  @media (min-width: 1024px) { .header__inner { min-height: 96px; gap: var(--s8); } .header__logo img { width: 240px; } }
+  /* The logo PNG carries ~28px of transparent padding; pull it left so the artwork edge aligns with the container */
+  @media (min-width: 1024px) { .header__inner { min-height: 96px; gap: var(--s8); } .header__logo { margin-left: -28px; } .header__logo img { width: 240px; } }
+
+  /* Focus rings on pink surfaces: white, so they're visible against the deep pink */
+  .nav a:focus-visible, .strip a:focus-visible, .menu-toggle:focus-visible, .mobile-nav :focus-visible, .search button:focus-visible { outline-color: #fff; }
   .search { display: none; flex: 1 1 auto; max-width: 560px; margin-left: auto; position: relative; }
   @media (min-width: 900px) { .search { display: block; } }
   .search input { width: 100%; height: 46px; padding: 0 56px 0 20px; border: 2px solid var(--pink); border-radius: var(--radius-pill); font: inherit; font-size: 1rem; color: var(--charcoal); background: #fff; }
@@ -167,14 +188,18 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   .nav { display: none; background: var(--pink-deep); }
   @media (min-width: 900px) { .nav { display: block; } }
   .nav__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+  @media (min-width: 1024px) { .nav__list { margin-left: -16px; } }
   .nav__item { position: relative; }
-  .nav__item > a { display: flex; align-items: center; gap: 6px; color: #fff; text-decoration: none; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; padding: 0 16px; line-height: 50px; }
-  .nav__item > a:hover, .nav__item.is-active > a { background: var(--pink-dark); }
+  .nav__item > a { position: relative; display: flex; align-items: center; gap: 6px; color: #fff; text-decoration: none; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; padding: 0 16px; line-height: 50px; }
+  .nav__item > a:hover { background: var(--pink-dark); }
+  /* Current section: 3px white underline (no fill), so hover and active read differently */
+  .nav__item.is-active > a { box-shadow: inset 0 -3px 0 #fff; }
+  /* Invisible hover bridge between the item and its dropdown so the panel doesn't close crossing the gap */
+  .nav__item--has-children > a::after { content: ''; position: absolute; left: 0; right: 0; bottom: -8px; height: 8px; }
   .nav__chev { width: 14px; height: 14px; stroke: #fff; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
-  .nav__sub { position: absolute; left: 0; top: 100%; min-width: 260px; background: var(--surface); box-shadow: var(--shadow-md); list-style: none; margin: 0; padding: 6px 0; z-index: 50; display: none; }
+  .nav__sub { position: absolute; left: 0; top: 100%; min-width: 260px; background: var(--surface); box-shadow: var(--shadow-md); border-radius: 0 0 var(--radius) var(--radius); list-style: none; margin: 0; padding: 6px 0; z-index: 50; display: none; }
   .nav__item:hover .nav__sub, .nav__item:focus-within .nav__sub { display: block; }
-  .nav__sub a { display: block; padding: 11px 20px; color: var(--pink-deep); text-decoration: none; font-size: 0.9375rem; border-bottom: 1px solid var(--hairline); }
-  .nav__sub li:last-child a { border-bottom: 0; }
+  .nav__sub a { display: block; padding: 10px 20px; color: var(--pink-deep); text-decoration: none; font-size: 0.9375rem; }
   .nav__sub a:hover { background: var(--pink-pale); color: var(--pink-dark); }
 
   /* Mobile drawer — pink, like the current site */
@@ -188,8 +213,8 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   .mobile-nav__list > li { border-bottom: 1px solid rgba(255,255,255,.25); }
   .mobile-nav__list > li > a, .mobile-nav summary { display: block; padding: 14px 0; color: #fff; text-decoration: none; font-size: 1.125rem; font-weight: 600; cursor: pointer; list-style: none; position: relative; }
   .mobile-nav summary::-webkit-details-marker { display: none; }
-  .mobile-nav summary::after { content: ''; position: absolute; right: 6px; top: 50%; width: 10px; height: 10px; border-right: 2px solid #fff; border-bottom: 2px solid #fff; transform: translateY(-70%) rotate(45deg); }
-  .mobile-nav details[open] summary::after { transform: translateY(-30%) rotate(225deg); }
+  .mobile-nav summary::after { content: ''; position: absolute; right: 6px; top: calc(50% - 7px); width: 10px; height: 10px; border-right: 2px solid #fff; border-bottom: 2px solid #fff; transform: rotate(45deg); }
+  .mobile-nav details[open] summary::after { transform: rotate(225deg); }
   .mobile-nav details ul { list-style: none; margin: 0 0 var(--s3); padding: 0 0 0 var(--s4); }
   .mobile-nav details a { display: block; padding: 10px 0; color: #fff; text-decoration: none; font-size: 1rem; }
   .mobile-nav__cta { padding: var(--s5) 0; }

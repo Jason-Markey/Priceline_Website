@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getLiveArticles } from '../lib/articles';
-import { site, hoursRows } from '../data/site';
+import { site, hoursRows, fmtTime } from '../data/site';
 import { services } from '../data/services';
 
 /** llms.txt: a plain-text map of the site for AI answer engines (https://llmstxt.org). */
@@ -8,10 +8,26 @@ export const GET: APIRoute = async () => {
   const posts = (await getLiveArticles()).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const hours = hoursRows(site.hours).map((r) => `${r.label}: ${r.value}`).join('; ');
   const hm = hoursRows(site.helpMedical.hours).map((r) => `${r.label}: ${r.value}`).join('; ');
+  const today = new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
+  const svc = (slug: string) => services.find((s) => s.slug === slug)!;
   const lines = [
     `# ${site.name}`,
     '',
+    `Last updated: ${today}`,
+    '',
     `> ${site.description}`,
+    '',
+    '## Key facts',
+    `- Vaccinations (ages 5 and over): ${svc('vaccination-information').atAGlance.cost.split(' Private')[0]}`,
+    `- Medication packing (Webster packs): ${svc('medication-packing').atAGlance.cost}`,
+    `- Ear piercing (ages 8 and over): ${svc('ear-piercings').atAGlance.cost}`,
+    `- Passport and visa photos: ${svc('passport-photos').atAGlance.cost} ${svc('passport-photos').atAGlance.time}`,
+    `- Contraception consultation: ${svc('hormonal-contraceptive-pill').atAGlance.cost} ${svc('hormonal-contraceptive-pill').atAGlance.booking}`,
+    `- UTI treatment: ${svc('uti-treatment').atAGlance.booking} For ${svc('uti-treatment').atAGlance.who.charAt(0).toLowerCase()}${svc('uti-treatment').atAGlance.who.slice(1)}`,
+    '- Parking: 4 hours of free parking at Pacific Fair each day.',
+    `- Delivery: ${svc('delivery').atAGlance.what} ${svc('delivery').atAGlance.who.replace(/^Anyone on the Gold Coast\. /, '')}`,
+    `- Late night: open until ${fmtTime(site.hours.thu!.close)} on Thursdays.`,
+    `- Help Medical: ${site.helpMedical.relationship.charAt(0).toUpperCase()}${site.helpMedical.relationship.slice(1)}, with a QML Pathology collection room open ${site.pathology.hoursText}`,
     '',
     `- Address: ${site.address.oneLine}`,
     `- Phone: ${site.phone}`,

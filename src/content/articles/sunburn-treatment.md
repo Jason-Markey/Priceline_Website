@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["first-aid", "skin-care", "summer"]
+relatedServices: ["skincare-tanning"]
 references:
   - name: "healthdirect – Sunburn"
     url: "https://www.healthdirect.gov.au/sunburn"

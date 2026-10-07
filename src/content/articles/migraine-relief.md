@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["womens-health"]
+relatedServices: ["medication-reviews"]
 references:
   - name: "healthdirect – Migraine"
     url: "https://www.healthdirect.gov.au/migraine"

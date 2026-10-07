@@ -47,7 +47,8 @@ export const primaryNav: NavGroup[] = [
       { label: 'Ear piercing', href: '/ear-piercings/' },
     ],
   },
-  { label: 'Help Medical GPs', href: '/help-medical/' },
+  // "doctors" not "GPs": the desktop nav is uppercase, which would render "GPS"
+  { label: 'Help Medical doctors', href: '/help-medical/' },
   {
     label: 'Advice',
     href: '/health-blog/',

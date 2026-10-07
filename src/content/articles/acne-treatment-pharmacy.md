@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["skin-care", "womens-health"]
+relatedServices: ["skincare-tanning"]
 references:
   - name: "healthdirect – Acne"
     url: "https://www.healthdirect.gov.au/acne"

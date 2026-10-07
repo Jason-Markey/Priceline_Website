@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "first-aid", "summer"]
+relatedServices: ["help-medical"]
 references:
   - name: "Australian and New Zealand Committee on Resuscitation (ANZCOR) – Guideline 9.4.5 First aid management of marine envenomation"
     url: "https://www.anzcor.org/home/first-aid/guideline-9-4-5-first-aid-management-of-marine-envenomation"

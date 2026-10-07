@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="Search | Priceline Pharmacy Pacific Fair" description="Search services, advice and information on the Priceline Pharmacy Pacific Fair website." path="/search/" noindex={true}>
-  <div class="title-band"><div class="container"><h1>Search</h1></div></div>
+  <div class="title-band"><div class="container"><h1>Search results</h1></div></div>
   <div class="container section">
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
     <div id="search" class="measure"></div>
@@ -18,4 +18,12 @@ import Base from '../layouts/Base.astro';
 </Base>
 <style is:global>
   :root { --pagefind-ui-primary: var(--pink-deep); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface); --pagefind-ui-border: var(--border); --pagefind-ui-font: var(--font); --pagefind-ui-border-radius: 4px; }
+  /* Pagefind UI, on brand: pale-pink highlights, deep-pink result titles, plain-text clear button */
+  /* (Pagefind's stylesheet loads after this one and its rules carry a scoped class, so these use the #search id for specificity.) */
+  #search mark { background: var(--pink-pale); color: inherit; }
+  #search .pagefind-ui__search-clear { color: var(--pink-deep); border: 0; font-weight: 600; background: none; }
+  #search .pagefind-ui__result-link { color: var(--pink-deep); }
+  #search .pagefind-ui__result-link:hover { color: var(--pink-dark); text-decoration: underline; }
+  #search .pagefind-ui__search-input { border-color: var(--pink); border-radius: var(--radius-pill); font-weight: 400; }
+  #search .pagefind-ui__result { border-top-color: var(--hairline); }
 </style>

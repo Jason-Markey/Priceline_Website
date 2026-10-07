@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["first-aid"]
+relatedServices: ["help-medical"]
 references:
   - name: "healthdirect – Sprains and strains"
     url: "https://www.healthdirect.gov.au/sprains-and-strains"

@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["first-aid", "summer"]
+relatedServices: ["medication-reviews"]
 references:
   - name: "healthdirect – Headaches"
     url: "https://www.healthdirect.gov.au/headaches"

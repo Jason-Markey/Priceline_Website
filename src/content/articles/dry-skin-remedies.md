@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "skin-care"]
+relatedServices: ["skincare-tanning"]
 references:
   - name: "healthdirect – Itchy skin"
     url: "https://www.healthdirect.gov.au/itchy-skin"

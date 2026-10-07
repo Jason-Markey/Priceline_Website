@@ -24,13 +24,14 @@ const path = `/category/${category}/`;
 ---
 
 <ContentPage
-  title={`${cat.name} Advice | ${site.shortName}`}
+  title={`${cat.name} advice | ${site.shortName}`}
   description={cat.description}
   path={path}
   h1={cat.name}
   lead={cat.description}
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: cat.name, href: path }]}
   pageType="CollectionPage"
+  noindex={articles.length < 3}
   wide
   dateModified="2026-10-07"
 >

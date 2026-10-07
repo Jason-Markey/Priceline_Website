@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: []
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Mouth ulcers"
     url: "https://www.healthdirect.gov.au/mouth-ulcers"

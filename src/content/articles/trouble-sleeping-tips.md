@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: []
+relatedServices: ["medication-reviews"]
 references:
   - name: "healthdirect – Insomnia"
     url: "https://www.healthdirect.gov.au/insomnia"

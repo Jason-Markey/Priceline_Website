@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "skin-care"]
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Scabies"
     url: "https://www.healthdirect.gov.au/scabies"

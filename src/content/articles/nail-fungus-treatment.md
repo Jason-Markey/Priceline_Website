@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "skin-care", "summer"]
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Toenail infection"
     url: "https://www.healthdirect.gov.au/toenail-infection"

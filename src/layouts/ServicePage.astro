@@ -45,6 +45,7 @@ const {
 } = Astro.props;
 
 const path = `/${service.slug}/`;
+const reviewedDate = dateModified ? new Date(dateModified).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' }) : undefined;
 const url = `${site.url}${path}`;
 const breadcrumbs = [{ name: 'Home', href: '/' }, hub, { name: service.name, href: path }];
 const related = service.related.map(serviceBySlug).filter(Boolean) as Service[];
@@ -60,7 +61,8 @@ const schema = [
   <div class="container svc-layout">
     <article class="prose">
       <p class="lead">{lead}</p>
-      <div class="btn-row">
+      {reviewedDate && <p class="reviewed">Reviewed by {site.reviewer.name}, {site.reviewer.role.toLowerCase()} · Updated {reviewedDate}</p>}
+      <div class="btn-row" data-cta-location="service_cta">
         <a class="btn btn--primary" href={primaryCta.href} rel={primaryCta.external ? 'noopener' : undefined} data-event={primaryCta.event}>{primaryCta.label}</a>
         <a class="btn btn--secondary" href={secondaryCta.href} rel={secondaryCta.external ? 'noopener' : undefined} data-event={secondaryCta.event}>{secondaryCta.label}</a>
       </div>
@@ -71,13 +73,15 @@ const schema = [
       <p class="disclaimer">{disclaimer}</p>
     </article>
     <aside class="svc-side">
-      <div class="glance-desktop"><AtAGlance service={service} bookHref={bookHref} /></div>
-      {related.length > 0 && (
-        <section class="related" aria-labelledby="related-h">
-          <h2 id="related-h">Related services</h2>
-          <div class="related__list">{related.map((r) => <ServiceCard service={r} />)}</div>
-        </section>
-      )}
+      <div class="svc-side__sticky">
+        <div class="glance-desktop"><AtAGlance service={service} bookHref={bookHref} /></div>
+        {related.length > 0 && (
+          <section class="related" aria-labelledby="related-h">
+            <h2 id="related-h">Related services</h2>
+            <div class="related__list">{related.map((r) => <ServiceCard service={r} />)}</div>
+          </section>
+        )}
+      </div>
     </aside>
   </div>
 </Base>
@@ -87,7 +91,14 @@ const schema = [
   .svc-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
   @media (min-width: 1024px) { .svc-layout { grid-template-columns: minmax(0, var(--measure)) 340px; gap: var(--s16); } }
   .glance-desktop { display: none; }
-  @media (min-width: 1024px) { .glance-desktop { display: block; position: sticky; top: var(--s5); } .glance-mobile { display: none; } }
+  /* Desktop: the whole sidebar (At a glance + Related) sticks and scrolls within the viewport if taller than it */
+  @media (min-width: 1024px) {
+    .glance-desktop { display: block; }
+    .glance-mobile { display: none; }
+    .svc-side__sticky { position: sticky; top: var(--s5); max-height: calc(100vh - 40px); overflow: auto; }
+  }
+  .reviewed { font-size: var(--fs-sm); color: var(--text-muted); margin: calc(-1 * var(--s3)) 0 var(--s5); }
   .related h2 { font-size: 1.0625rem; margin: var(--s8) 0 var(--s3); }
+  .glance-desktop + .related h2 { margin-top: 0; }
   .related__list { display: grid; gap: var(--s3); }
 </style>

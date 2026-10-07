@@ -16,6 +16,8 @@ export interface Props {
   description: string;      // meta description
   path: string;             // "/about-us/"
   h1: string;
+  /** Shown in the title band under the H1. Keep it under ~160 characters (one or two short sentences):
+   *  longer leads wrap to four-plus lines on phones and push the body below the fold. Trim in the page, not here. */
   lead?: string;
   breadcrumbs?: { name: string; href: string }[];
   faqs?: { q: string; a: string }[];

@@ -50,7 +50,7 @@
 
   /* Layout */
   --container: 1200px;
-  --measure: 760px;
+  --measure: 700px;
   --gutter: 16px;
 
   color-scheme: light;
@@ -76,9 +76,13 @@ body {
 }
 img, svg, video { display: block; max-width: 100%; height: auto; }
 h1, h2, h3, h4 { color: var(--charcoal); font-weight: 700; line-height: 1.2; margin: 0 0 var(--s4); letter-spacing: -0.01em; }
+h1, h2, h3, .title-band .lead { text-wrap: balance; }
+.hero__lead, .prose p { text-wrap: pretty; }
 h1 { font-size: clamp(1.9rem, 1.3rem + 2.2vw, var(--fs-h1)); }
 h2 { font-size: clamp(1.45rem, 1.1rem + 1.2vw, var(--fs-h2)); margin-top: var(--s10); }
 h3 { font-size: var(--fs-h3); margin-top: var(--s8); }
+/* Heading rhythm: the first heading in a section/panel sits flush with the top */
+.section .container > h2:first-child, .faq h2:first-child, .related h2:first-child { margin-top: 0; }
 p, ul, ol { margin: 0 0 var(--s5); }
 ul, ol { padding-left: 1.3em; }
 .prose li + li, .faq-body li + li, .glance li + li { margin-top: var(--s2); }
@@ -137,8 +141,10 @@ th { color: var(--charcoal); background: var(--bg); }
 .btn--outline:hover { background: var(--pink-deep); color: #fff; }
 .btn--white { background: #fff; color: var(--pink-deep); border-color: #fff; }
 .btn--white:hover { background: var(--pink-pale); border-color: var(--pink-pale); }
+.btn:active { transform: translateY(1px); }
 .btn--sm { padding: 8px 16px; min-height: 36px; font-size: var(--fs-sm); }
 .btn-row { display: flex; flex-wrap: wrap; gap: var(--s3); margin: var(--s5) 0 var(--s8); }
+@media (max-width: 479px) { .btn-row .btn { flex: 1 1 100%; } }
 
 /* ---------- cards ---------- */
 .card {
@@ -149,19 +155,20 @@ th { color: var(--charcoal); background: var(--bg); }
 /* ---------- chips ---------- */
 .chip {
   display: inline-block; background: var(--pink-deep); color: #fff;
-  font-size: 0.8125rem; font-weight: 600; line-height: 1; padding: 6px 10px; border-radius: 3px; text-decoration: none;
+  font-size: 0.8125rem; font-weight: 600; line-height: 1; padding: 6px 10px; border-radius: var(--radius); text-decoration: none;
 }
 .chip:hover { background: var(--pink-dark); color: #fff; }
 
 /* ---------- title band (one style, PLAN §6 #2) ---------- */
-.title-band { background: var(--charcoal); color: #fff; padding: var(--s10) 0; }
+.title-band { background: var(--charcoal); color: #fff; padding: var(--s8) 0; }
 @media (min-width: 768px) { .title-band { padding: var(--s12) 0; } }
 .title-band h1 { color: #fff; margin-bottom: var(--s3); }
 .title-band .lead { color: #e6e6e6; max-width: var(--measure); margin: 0; font-size: var(--fs-lg); }
 .breadcrumb { font-size: var(--fs-sm); color: var(--pink-light); margin: 0 0 var(--s3); padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: var(--s2); }
 .breadcrumb a { color: var(--pink-light); text-decoration: none; }
 .breadcrumb a:hover { color: #fff; text-decoration: underline; }
-.breadcrumb li + li::before { content: '/'; margin-right: var(--s2); color: #999; }
+/* Separator trails each crumb so it never leads a wrapped line */
+.breadcrumb li:not(:last-child)::after { content: ' / '; margin-left: var(--s2); color: #999; }
 .breadcrumb li:last-child { color: #e6e6e6; }
 
 /* ---------- prose (article + page bodies) ---------- */
@@ -179,8 +186,8 @@ th { color: var(--charcoal); background: var(--bg); }
 .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s3); }
 .faq summary { cursor: pointer; padding: var(--s4) var(--s12) var(--s4) var(--s5); font-weight: 600; color: var(--charcoal); list-style: none; position: relative; }
 .faq summary::-webkit-details-marker { display: none; }
-.faq summary::after { content: ''; position: absolute; right: var(--s5); top: 50%; width: 10px; height: 10px; border-right: 2px solid var(--pink-deep); border-bottom: 2px solid var(--pink-deep); transform: translateY(-70%) rotate(45deg); transition: transform .15s; }
-.faq details[open] summary::after { transform: translateY(-30%) rotate(225deg); }
+.faq summary::after { content: ''; position: absolute; right: var(--s5); top: calc(50% - 7px); width: 10px; height: 10px; border-right: 2px solid var(--pink-deep); border-bottom: 2px solid var(--pink-deep); transform: rotate(45deg); transition: transform .15s; }
+.faq details[open] summary::after { transform: rotate(225deg); }
 .faq .faq-body { padding: 0 var(--s5) var(--s5); }
 .faq .faq-body > :last-child { margin-bottom: 0; }
 

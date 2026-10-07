@@ -8,7 +8,7 @@ category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: []
-relatedServices: []
+relatedServices: ["skincare-tanning"]
 references: []
 draft: true
 ---

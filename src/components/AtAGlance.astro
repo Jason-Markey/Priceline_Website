@@ -12,7 +12,7 @@ const rows = [
   ['How to book', g.howToBook],
 ].filter(Boolean) as [string, string][];
 ---
-<aside class="glance" aria-labelledby="glance-h">
+<aside class="glance" aria-labelledby="glance-h" data-cta-location="at_a_glance">
   <h2 id="glance-h">At a glance</h2>
   <dl>
     {rows.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
@@ -28,4 +28,6 @@ const rows = [
   .glance dd { margin: 0; }
   .glance .btn { margin-top: var(--s4); }
   @media (max-width: 480px) { .glance dl > div { grid-template-columns: 1fr; gap: 2px; } }
+  /* In the narrow desktop sidebar, stack label over value so rows don't wrap to many lines */
+  @media (min-width: 1024px) { :global(.glance-desktop) .glance dl > div { grid-template-columns: 1fr; gap: 2px; } }
 </style>

@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children"]
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Colds"
     url: "https://www.healthdirect.gov.au/colds"

@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "travel"]
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Constipation"
     url: "https://www.healthdirect.gov.au/constipation"

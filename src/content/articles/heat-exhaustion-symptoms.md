@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "first-aid", "seniors", "summer"]
-relatedServices: ["health-station"]
+relatedServices: ["health-station", "help-medical"]
 references:
   - name: "Queensland Government – Heat-related illness: signs and symptoms"
     url: "https://www.qld.gov.au/health/staying-healthy/environmental/heatsafe/heat-related-illness"

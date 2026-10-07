@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "first-aid", "summer"]
+relatedServices: ["help-medical"]
 references:
   - name: "healthdirect – Wounds, cuts and grazes"
     url: "https://www.healthdirect.gov.au/wounds-cuts-and-grazes"

@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "first-aid", "summer", "travel"]
-relatedServices: ["delivery"]
+relatedServices: ["delivery", "help-medical", "travel-health"]
 references:
   - name: "Queensland Department of Education – School holidays and term dates"
     url: "https://education.qld.gov.au/about-us/calendar/term-dates"

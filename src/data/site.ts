@@ -25,6 +25,7 @@ export const site = {
   phoneHref: 'tel:+61755922099',
   phoneE164: '+61755922099',
   fax: '(07) 5504 6612',
+  faxE164: '+61755046612',
   emailGeneral: 'info@pricelinepf.com.au',
   emailPharmacy: 'pharmacy@pricelinepf.com.au',
 

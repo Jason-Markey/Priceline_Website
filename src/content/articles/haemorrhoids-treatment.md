@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "womens-health"]
+relatedServices: ["prescriptions"]
 references:
   - name: "healthdirect – Haemorrhoids (piles)"
     url: "https://www.healthdirect.gov.au/haemorrhoids-piles"

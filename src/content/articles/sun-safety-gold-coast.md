@@ -8,6 +8,7 @@ category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "skin-care", "summer", "sun-safety"]
+relatedServices: ["skincare-tanning"]
 references:
   - name: "Cancer Council Queensland – What is UV?"
     url: "https://cancerqld.org.au/story/what-is-uv/"

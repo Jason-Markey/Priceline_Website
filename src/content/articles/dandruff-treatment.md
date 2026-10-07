@@ -8,6 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["skin-care"]
+relatedServices: ["skincare-tanning"]
 references:
   - name: "healthdirect – Dandruff"
     url: "https://www.healthdirect.gov.au/dandruff"

@@ -24,7 +24,8 @@ const faqs = [
   { q: 'How do I book a GP appointment?', a: `Book online at helpmedical.au or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
   { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form.` },
   { q: 'Can I fill my prescription straight after seeing the doctor?', a: 'Yes. After your appointment, bring your script to our dispensary a few steps away and our pharmacists will fill it while you wait, usually within minutes.' },
-  { q: 'Can visitors to the Gold Coast see a doctor at Help Medical?', a: 'Yes. New patients and visitors are welcome. If you don’t have a Medicare card, a private fee applies. Book at helpmedical.au or walk in.' },
+  { q: 'Can visitors to the Gold Coast see a doctor here?', a: 'Yes. Help Medical welcomes visitors and new patients, and walk-ins are seen subject to doctor availability. Medicare applies for eligible card holders; otherwise a private fee applies. See our <a href="/visiting-the-gold-coast/">guide for visitors to the Gold Coast</a>.' },
+  { q: 'Can my child under 5 be vaccinated here?', a: 'Our pharmacists vaccinate people aged 5 and over, so children under 5 can see the GPs at Help Medical for their vaccinations. See <a href="/vaccination-information/">vaccinations</a> and <a href="/flu-vaccination/">flu vaccination</a> for what the pharmacy offers.' },
 ];
 ---
 
@@ -33,10 +34,10 @@ const faqs = [
   title="Bulk-Billing GP at Pacific Fair | Help Medical in Priceline"
   description="See a GP at Help Medical, an independent general practice inside Priceline Pacific Fair, Broadbeach. Open 7 days, walk-ins welcome, bulk billing if eligible."
   h1="Help Medical: GPs inside Priceline Pacific Fair"
-  lead="Yes, you can see a doctor inside Priceline Pharmacy Pacific Fair in Broadbeach. Help Medical is an independent general practice located inside our store, open 7 days, with bulk billing for eligible Medicare card holders and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead at helpmedical.au is the surest way to be seen, and you can fill your script a few steps away afterwards."
+  lead="Help Medical, an independent general practice located inside our store, means you can see a GP and fill the script in one visit at Pacific Fair in Broadbeach. The clinic is open 7 days, with bulk billing for eligible Medicare card holders and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead at helpmedical.au is the surest way to be seen, and you can fill your script a few steps away afterwards."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
-  primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'book-gp' }}
+  primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'cta_book_gp' }}
   secondaryCta={{ label: `Call Help Medical ${hm.phone}`, href: hm.phoneHref }}
   noServiceSchema
   extraSchema={[helpMedicalNode()]}
