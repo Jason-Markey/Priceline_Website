@@ -1,7 +1,7 @@
 ---
-title: "Dry Skin Remedies: A Pharmacist’s Checklist"
+title: "Dry skin remedies: a pharmacist’s checklist"
 description: "Dry skin remedies that work: shower habits, choosing a moisturiser and when to see a GP. Tips for skin dried out by Gold Coast sun, salt water and air-con."
-seoTitle: "Dry Skin Remedies Checklist | Priceline Pacific Fair"
+seoTitle: "Dry skin remedies checklist | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

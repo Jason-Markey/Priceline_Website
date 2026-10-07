@@ -3,19 +3,19 @@ import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
 
 const faqs = [
-  { q: 'Which services need an appointment?', a: 'Only contraception consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations and pharmacist consultations.' },
+  { q: 'Which services need an appointment?', a: 'Only contraception consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations and pharmacist consultations. Just come in.' },
   { q: 'How do I book online?', a: `Use our online booking page at <a href="${site.links.book}" rel="noopener">MedAdvisor</a>, choose the service and pick a time. You can also scan the QR code at the counter to join the queue for a vaccination.` },
   { q: 'How do I book a doctor?', a: `<a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, takes bookings at <a href="${site.helpMedical.bookingUrl}" rel="noopener">helpmedical.au</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a>. Walk-ins are welcome subject to doctor availability.` },
-  { q: 'Can I just walk in for a vaccination?', a: 'Yes. We welcome walk-ins every day we’re open. Booking a time is optional and handy if you’d rather not wait.' },
+  { q: 'Can I just walk in for a vaccination?', a: 'Yes. We welcome walk-ins every day we’re open; scan the QR code at the counter to join the queue. Booking a time is optional and handy if you’d rather not wait.' },
 ];
 ---
 
 <ContentPage
-  title="Book an Appointment | Priceline Pharmacy Pacific Fair"
-  description="Book a vaccination, contraceptive pill consultation, pharmacist consult or GP appointment at Priceline Pacific Fair, Broadbeach, or walk in for most services."
+  title="Book Online or Walk In | Priceline Pharmacy Pacific Fair"
+  description="How to book a vaccination, contraception consultation, pharmacist consult or GP appointment at Priceline Pacific Fair, Broadbeach. Most services are walk-in."
   path="/appointments/"
   h1="Book an appointment"
-  lead="Most of our services don’t need an appointment, so you can just walk in. If you’d prefer a set time, here’s how to book each service at Priceline Pharmacy Pacific Fair in Broadbeach."
+  lead="Most services at Priceline Pharmacy Pacific Fair in Broadbeach are walk-in, so you can just come in. Vaccinations and pharmacist consultations can be booked online if you’d prefer a set time, contraception consultations are booked by phone, and GP appointments are made directly with Help Medical. Here’s how to book each service."
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Appointments', href: '/appointments/' }]}
   faqs={faqs}
   showNap

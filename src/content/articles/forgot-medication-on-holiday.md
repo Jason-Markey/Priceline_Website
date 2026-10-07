@@ -1,7 +1,7 @@
 ---
-title: "Forgot Your Medicine on Holiday? How to Get It on the Gold Coast"
+title: "Forgot your medicine on holiday? How to get it on the Gold Coast"
 description: "Forgot medication on holiday? Step-by-step options for Gold Coast visitors from interstate and overseas, including eScripts and a GP inside our store."
-seoTitle: "Forgot Medication on Holiday? | Priceline Pacific Fair"
+seoTitle: "Forgot medication on holiday? | Priceline Pacific Fair"
 publishDate: 2026-10-20
 modifiedDate: 2026-10-20
 category: local-guides

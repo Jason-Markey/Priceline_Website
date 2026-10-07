@@ -1,7 +1,7 @@
 ---
-title: "Shingles Vaccine: Who Can Get It Free and Why It Matters"
+title: "Shingles vaccine: who can get it free and why it matters"
 description: "Who may be eligible for the free shingles vaccine, why shingles risk rises with age, the 2-dose schedule and what to expect. Walk-ins at Pacific Fair."
-seoTitle: "Shingles Vaccine: Who Can Get It Free?"
+seoTitle: "Shingles vaccine: who can get it free?"
 publishDate: 2027-02-15
 modifiedDate: 2027-02-15
 category: vaccinations

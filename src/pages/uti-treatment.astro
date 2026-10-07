@@ -6,27 +6,27 @@ const service = serviceBySlug('uti-treatment')!;
 
 const faqs = [
   { q: 'Do I need to book?', a: 'No. Walk in and ask for a trained pharmacist at the prescription counter. If you’re travelling a long way, you’re welcome to call ahead to check how busy we are.' },
-  { q: 'Do I need a prescription?', a: 'No. If the service is suitable for you, the trained pharmacist can supply the treatment directly, without a GP visit.' },
+  { q: 'Do I need a prescription?', a: 'No. If the service is suitable for you, the trained pharmacist supplies the treatment directly, without a GP visit. Walk in and ask at the prescription counter.' },
   { q: 'Can men use this service?', a: 'No. The Queensland pharmacy UTI service is for women aged 18 to 65. Men with UTI symptoms should see a GP; <a href="/help-medical/">Help Medical</a> is inside our store.' },
-  { q: 'Can I use the service if I’m pregnant?', a: 'No. If you’re pregnant, or might be, you’ll need to see a GP, because UTIs in pregnancy need different care.' },
-  { q: 'Is the consultation covered by Medicare?', a: 'No. A consultation fee applies and isn’t covered by Medicare. Ask us about the fee when you call.' },
+  { q: 'Can I use the service if I’m pregnant?', a: 'No. If you’re pregnant, or might be, you’ll need to see a GP, because UTIs in pregnancy need different care. Help Medical, inside our store, can see you.' },
+  { q: 'Is the consultation covered by Medicare?', a: 'No. A consultation fee applies and isn’t covered by Medicare. Call us and ask about the fee before you come in.' },
   { q: 'What if my symptoms don’t improve?', a: 'If your symptoms get worse, or haven’t improved after a few days, see a GP. If you develop a fever, back pain, blood in your urine or vomiting, get medical help the same day.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="UTI Treatment from a Pharmacist | Priceline Pacific Fair"
-  description="Women aged 18 to 65 with UTI symptoms can see a trained pharmacist at Pacific Fair, Broadbeach, for assessment and, if suitable, treatment without a GP visit."
+  title="Walk-In UTI Treatment Broadbeach | Priceline Pacific Fair"
+  description="Women aged 18 to 65 with UTI symptoms can walk in and see a trained pharmacist at Priceline Pacific Fair, Broadbeach, for assessment and treatment. No GP."
   h1="UTI treatment with a pharmacist at Pacific Fair"
-  lead="In Queensland, trained pharmacists can assess and, if suitable, treat uncomplicated bladder infections in women aged 18 to 65, without a GP visit. At Priceline Pharmacy Pacific Fair in Broadbeach, you can talk to one of our trained pharmacists in our private consultation room. No booking is needed; walk in and ask for a trained pharmacist."
+  lead="Yes, women aged 18 to 65 can be assessed and, if suitable, treated for an uncomplicated urinary tract infection by a trained pharmacist at Priceline Pharmacy Pacific Fair in Broadbeach, without a GP visit. The consultation takes about 15 minutes in our private room; a fee applies and isn’t covered by Medicare. No booking is needed, so walk in and ask for a trained pharmacist."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
   dateModified="2026-10-07"
 >
-  <h2>Who can use this service?</h2>
+  <h2>Who can use the pharmacy UTI service?</h2>
   <p>The Queensland pharmacy UTI service is for women aged 18 to 65 with symptoms of an uncomplicated bladder infection (cystitis), such as:</p>
   <ul>
     <li>burning or stinging when you pass urine</li>
@@ -38,14 +38,14 @@ const faqs = [
   <ol>
     <li>Your pharmacist asks about your symptoms, health history and any medicines you take, in private.</li>
     <li>If the service is suitable for you, the pharmacist can supply a treatment and explain how to take it.</li>
-    <li>If it isn’t suitable, we’ll refer you to a GP. <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store.</li>
+    <li>If it isn’t suitable, we’ll refer you to a GP. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store.</li>
   </ol>
   <p>Allow about 15 minutes.</p>
 
   <h2>How much does it cost?</h2>
   <p>A consultation fee applies and isn’t covered by Medicare. Ask us about the fee when you call on <a href={site.phoneHref}>{site.phone}</a>.</p>
 
-  <h2>When will you need to see a GP instead?</h2>
+  <h2>When do I need to see a GP instead?</h2>
   <p>Pharmacists can’t treat UTIs through this service if you:</p>
   <ul>
     <li>are pregnant, or might be</li>

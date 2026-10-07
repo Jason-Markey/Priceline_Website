@@ -1,7 +1,7 @@
 ---
-title: "Beach Hair Care on the Gold Coast: Protecting Your Hair from Sun, Salt and Humidity"
+title: "Beach hair care on the Gold Coast: protecting your hair from sun, salt and humidity"
 description: "Salt, sun and Gold Coast humidity taking a toll on your hair? Priceline Pacific Fair's pharmacist team answers your top beach haircare questions."
-seoTitle: "Beach Hair Care on the Gold Coast | Priceline Pacific Fair"
+seoTitle: "Beach hair care on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-09-28
 modifiedDate: 2026-09-28
 category: skincare-beauty

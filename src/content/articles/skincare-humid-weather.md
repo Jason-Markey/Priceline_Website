@@ -1,7 +1,7 @@
 ---
-title: "Skincare for Humid Weather: A Gold Coast Summer Routine"
+title: "Skincare for humid weather: a Gold Coast summer routine"
 description: "Sticky Gold Coast summer? Skincare for humid weather: sweat, air-con, breakouts and a simple day and night routine for oily, dry and sensitive skin."
-seoTitle: "Skincare for Humid Weather | Priceline Pacific Fair"
+seoTitle: "Skincare for humid weather | Priceline Pacific Fair"
 publishDate: 2026-10-27
 modifiedDate: 2026-10-27
 category: skincare-beauty

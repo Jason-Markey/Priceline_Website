@@ -1,7 +1,7 @@
 ---
-title: "Sprain vs Strain: What’s the Difference and What to Do"
+title: "Sprain vs strain: what’s the difference and what to do"
 description: "Sprain vs strain explained, with RICE and No HARM first aid for ankles rolled on Gold Coast sand, plus the red flags that mean a GP visit or X-ray."
-seoTitle: "Sprain vs Strain: First Aid | Priceline Pacific Fair"
+seoTitle: "Sprain vs strain: first aid | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

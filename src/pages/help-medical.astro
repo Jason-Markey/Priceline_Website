@@ -19,21 +19,21 @@ const hmHours = hoursRows(hm.hours);
 
 const faqs = [
   { q: 'Is Help Medical part of Priceline Pharmacy?', a: 'No. Help Medical is an independent general practice located inside our store. The pharmacy and the clinic are run separately, but being under one roof means you can see a GP and fill your script in one visit.' },
-  { q: 'Does Help Medical bulk bill?', a: 'Help Medical bulk bills eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so check when you book. Patients without Medicare pay a private fee.' },
-  { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins and does its best to fit you in, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen.' },
+  { q: 'Does Help Medical bulk bill?', a: 'Yes, for eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so check with the clinic when you book. Patients without Medicare pay a private fee.' },
+  { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead at helpmedical.au is the surest way to be seen.' },
   { q: 'How do I book a GP appointment?', a: `Book online at helpmedical.au or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
   { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form.` },
-  { q: 'Can I fill my prescription straight after seeing the doctor?', a: 'Yes. After your appointment, bring your script to our dispensary a few steps away and our pharmacists will fill it while you wait.' },
-  { q: 'Can visitors to the Gold Coast see a doctor at Help Medical?', a: 'Yes. New patients and visitors are welcome. If you don’t have a Medicare card, a private fee applies.' },
+  { q: 'Can I fill my prescription straight after seeing the doctor?', a: 'Yes. After your appointment, bring your script to our dispensary a few steps away and our pharmacists will fill it while you wait, usually within minutes.' },
+  { q: 'Can visitors to the Gold Coast see a doctor at Help Medical?', a: 'Yes. New patients and visitors are welcome. If you don’t have a Medicare card, a private fee applies. Book at helpmedical.au or walk in.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="Bulk-Billing GP at Pacific Fair | Help Medical in Priceline"
-  description="See a GP at Help Medical, inside Priceline Pacific Fair, Broadbeach. Open 7 days, walk-ins welcome and bulk billing for eligible patients. Book online."
+  description="See a GP at Help Medical, an independent general practice inside Priceline Pacific Fair, Broadbeach. Open 7 days, walk-ins welcome, bulk billing if eligible."
   h1="Help Medical: GPs inside Priceline Pacific Fair"
-  lead="Need to see a doctor? Help Medical is an independent general practice located inside our store, Priceline Pharmacy Pacific Fair in Broadbeach. See a GP, then have your prescription filled at our dispensary a few steps away, all in one visit. Walk-ins are welcome subject to availability, and bulk billing is available for eligible Medicare card holders."
+  lead="Yes, you can see a doctor inside Priceline Pharmacy Pacific Fair in Broadbeach. Help Medical is an independent general practice located inside our store, open 7 days, with bulk billing for eligible Medicare card holders and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead at helpmedical.au is the surest way to be seen, and you can fill your script a few steps away afterwards."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'book-gp' }}
@@ -46,11 +46,11 @@ const faqs = [
   <Image src={receptionImg} alt="Help Medical reception desk and waiting area inside Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
   <p>Help Medical bulk bills eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so please check when you book. Patients without Medicare pay a private fee.</p>
 
-  <h2>Do I need an appointment?</h2>
-  <p>No, but it helps. Help Medical welcomes walk-ins and does its best to fit you in, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen. New patients and Gold Coast visitors are welcome.</p>
+  <h2>Do I need an appointment to see a GP?</h2>
+  <p>No, but it helps. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen. New patients and Gold Coast visitors are welcome.</p>
   <p><a href={hm.bookingUrl} rel="noopener">Book online at helpmedical.au</a> or call Help Medical on <a href={hm.phoneHref}>{hm.phone}</a>.</p>
 
-  <h2>Help Medical opening hours</h2>
+  <h2>What are Help Medical’s opening hours?</h2>
   <dl>
     {hmHours.map((r) => (
       <div>
@@ -87,8 +87,8 @@ const faqs = [
     </section>
   ))}
 
-  <h2>QML Pathology collection</h2>
-  <p>A <a href={site.pathology.url} rel="noopener">{site.pathology.name}</a> collection room operates inside Help Medical, so you can have blood tests and other pathology collected without leaving the centre. Bring your request form from any doctor.</p>
+  <h2>Can I get a blood test at Help Medical?</h2>
+  <p>Yes. A <a href={site.pathology.url} rel="noopener">{site.pathology.name}</a> collection room operates inside Help Medical, so you can have blood tests and other pathology collected without leaving the centre. Bring your request form from any doctor.</p>
   <p>Collection hours: {site.pathology.hoursText} Phone <a href={site.pathology.phoneHref}>{site.pathology.phone}</a>.</p>
 
   <h2>Can I fill my script straight after seeing the doctor?</h2>

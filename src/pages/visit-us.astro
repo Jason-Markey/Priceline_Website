@@ -9,20 +9,20 @@ const path = '/visit-us/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Visit us', href: path }];
 const mapsEmbed = `https://www.google.com/maps?q=${encodeURIComponent('Priceline Pharmacy Pacific Fair, Shop 81 Pacific Fair Shopping Centre, Hooker Blvd, Broadbeach QLD 4218')}&output=embed`;
 const faqs = [
-  { q: 'Are you open on Sundays?', a: 'Yes, we’re open 7 days a week, including Sundays. Our full hours are listed on this page, and public holiday hours are updated on our Google listing.' },
-  { q: 'Which entrance is closest to the pharmacy?', a: 'We’re on the ground floor on the north-eastern side of Pacific Fair, near the outdoor entrance from the river and next to Proud Smile. Park in the car park beneath us or the undercover rooftop above us and you’ll be a short walk away.' },
+  { q: 'Are you open on Sundays?', a: 'Yes, we’re open 7 days a week, including Sundays. Our full hours are listed on this page; check our Google listing for public holiday hours before you visit.' },
+  { q: 'Which entrance is closest to the pharmacy?', a: 'We’re on the ground floor on the north-eastern side of Pacific Fair, near the outdoor entrance from the river and next to Proud Smile. Park in the car park beneath us or the undercover rooftop above us and you’re a short walk away.' },
   { q: 'Is parking free?', a: 'Yes, for the first 4 hours each day, and all day if you spend over $300 in the centre. Entry and exit are ticketless: a camera reads your number plate. See <a href="' + site.links.pacificFairParking + '" rel="noopener">Pacific Fair’s parking page</a> for rates beyond 4 hours and accessible parking.' },
-  { q: 'Is the store wheelchair accessible?', a: 'Yes. The store has a level, step-free entrance from the centre and accessible parking nearby. Pacific Fair has accessible toilets and parents’ rooms.' },
-  { q: 'How do I get there by public transport?', a: 'Take the G:link light rail to Broadbeach South station, right out the front of Pacific Fair, or a bus to the Pacific Fair interchange on Hooker Boulevard. Plan your trip with Translink.' },
+  { q: 'Is the store wheelchair accessible?', a: 'Yes. The store has a level, step-free entrance from the centre and accessible parking nearby. Pacific Fair has accessible toilets and parents’ rooms. Call us if you’d like help planning your visit.' },
+  { q: 'How do I get there by public transport?', a: 'Take the G:link light rail to Broadbeach South station, right out the front of Pacific Fair, or a bus to the Pacific Fair interchange on Hooker Boulevard. Plan your trip with Translink, then walk in to the ground floor.' },
 ];
 ---
 
 <ContentPage
   title="Opening Hours & Location | Priceline Pacific Fair Broadbeach"
-  description="Find us on the ground floor of Pacific Fair, Broadbeach. Open 7 days and until 9pm on Thursdays. Parking tips, light rail and in-centre directions."
+  description="Find Priceline Pharmacy on the ground floor of Pacific Fair, Broadbeach. Open 7 days and until 9pm on Thursdays. Free parking tips, light rail and directions."
   path={path}
   h1="Opening hours and how to find us"
-  lead="Priceline Pharmacy Pacific Fair is on the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side of the centre."
+  lead="Priceline Pharmacy Pacific Fair is Shop 81 on the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side of the centre next to Proud Smile. We’re open 7 days and until 9pm on Thursdays, with 4 hours of free parking at the centre and the Broadbeach South light rail stop right out the front."
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   showNap
@@ -56,10 +56,10 @@ const faqs = [
   </ul>
   <p>For car park maps, rates beyond 4 hours and accessible parking, see <a href={site.links.pacificFairParking} rel="noopener">Pacific Fair’s parking page</a>.</p>
 
-  <h2>Light rail and buses</h2>
+  <h2>How do I get there by light rail or bus?</h2>
   <p>Take the G:link light rail to <strong>Broadbeach South</strong> station, on the Gold Coast Highway right out the front of Pacific Fair. It’s a short walk into the centre, and we’re close to the Gold Coast Highway side. Many bus routes also stop at Broadbeach South and at the Pacific Fair bus interchange on Hooker Boulevard. Plan your trip with <a href={site.links.translink} rel="noopener">Translink</a>.</p>
 
-  <h2>Accessibility</h2>
+  <h2>Is the store accessible?</h2>
   <ul>
     <li>Level, step-free entrance from the centre.</li>
     <li>Accessible parking close to the north-eastern entrances, and free all-day parking with a permit.</li>

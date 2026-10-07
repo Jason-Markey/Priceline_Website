@@ -1,7 +1,7 @@
 ---
-title: "Athlete’s Foot Treatment: How to Clear It for Good"
+title: "Athlete’s foot treatment: how to clear it for good"
 description: "Athlete's foot treatment: pharmacy antifungal options, how long to use them and when to see a GP. Tips for humid Gold Coast summers, pools and gym showers."
-seoTitle: "Athlete's Foot Treatment | Priceline Pacific Fair"
+seoTitle: "Athlete's foot treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

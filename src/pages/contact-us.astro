@@ -10,7 +10,7 @@ const fax = site.fax;
   description={`Call ${site.phone} or email us. Priceline Pharmacy Pacific Fair, Shop 81, Pacific Fair Shopping Centre, Hooker Blvd, Broadbeach QLD 4218. Open 7 days.`}
   path="/contact-us/"
   h1="Contact us"
-  lead="Questions about a prescription, a service or a product? Call us, email us, or pop in. We’re on the ground floor of Pacific Fair Shopping Centre in Broadbeach."
+  lead={`Questions about a prescription, a service or a product? Call Priceline Pharmacy Pacific Fair on ${site.phone}, email us, or pop in. We’re on the ground floor of Pacific Fair Shopping Centre in Broadbeach, open 7 days and until 9pm on Thursdays.`}
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Contact us', href: '/contact-us/' }]}
   pageType="ContactPage"
   dateModified="2026-10-07"
@@ -35,13 +35,13 @@ const fax = site.fax;
   <HoursCard heading={site.name} hours={site.hours} note="Public holiday hours are updated on our Google listing." />
   <p><a href="/visit-us/">Directions, parking and public holiday hours</a>.</p>
 
-  <h2>Sending a script?</h2>
+  <h2>Want to send a script ahead?</h2>
   <p>Send your eScript ahead through the MedAdvisor app or the <a href="/download-the-priceline-app/">Priceline Pharmacy app</a> and choose {site.name}, or show us the QR code at the prescription counter. <a href="/prescriptions/">More about prescriptions</a>.</p>
 
-  <h2>Need a doctor?</h2>
+  <h2>Need to see a doctor?</h2>
   <p><a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store. Call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a> or book at <a href={site.helpMedical.bookingUrl} rel="noopener">helpmedical.au</a>.</p>
 
-  <h2>Email us</h2>
+  <h2>Which email should I use?</h2>
   <p>Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a> for general enquiries, or <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a> for prescription and medicine questions, and we’ll get back to you as soon as we can. For anything urgent about your medicines, please call us. In an emergency, call 000.</p>
 </ContentPage>
 

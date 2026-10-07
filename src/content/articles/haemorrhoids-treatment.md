@@ -1,7 +1,7 @@
 ---
-title: "Haemorrhoids Treatment: Myths, Facts and Home Care"
+title: "Haemorrhoids treatment: myths, facts and home care"
 description: "Haemorrhoids treatment at home and from the pharmacy, why drinking water matters in Gold Coast heat, and when any bleeding means you should see a GP."
-seoTitle: "Haemorrhoids Treatment | Priceline Pacific Fair"
+seoTitle: "Haemorrhoids treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

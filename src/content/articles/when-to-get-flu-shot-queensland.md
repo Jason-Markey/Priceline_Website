@@ -1,7 +1,7 @@
 ---
-title: "Flu Season in Queensland: When to Get Your Flu Shot"
+title: "Flu season in Queensland: when to get your flu shot"
 description: "When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair."
-seoTitle: "When to Get Your Flu Shot in Queensland"
+seoTitle: "When to get your flu shot in Queensland"
 publishDate: 2027-03-15
 modifiedDate: 2027-03-15
 category: vaccinations

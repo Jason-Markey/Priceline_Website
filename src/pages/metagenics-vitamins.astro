@@ -6,9 +6,9 @@ const service = serviceBySlug('metagenics-vitamins')!;
 
 const faqs = [
   { q: 'Do you stock Metagenics in store?', a: 'Yes. Priceline Pharmacy Pacific Fair keeps a selection of Metagenics practitioner products on the shelf, and we can special-order anything else from their range.' },
-  { q: 'Do I need a practitioner’s recommendation to buy Metagenics?', a: 'Metagenics is a practitioner range, so its products are usually recommended by a health professional. Our pharmacists can talk with you about whether a product suits you and your medicines.' },
-  { q: 'How long does a special order take?', a: 'Delivery time depends on postage, so it’s worth ordering a little before you run out. We’ll give you a call when it arrives.' },
-  { q: 'Can I take Metagenics with my prescription medicines?', a: 'It depends on the product and your medicines. Our pharmacists can check whether a supplement is suitable alongside any prescription or over-the-counter medicines you take.' },
+  { q: 'Do I need a practitioner’s recommendation to buy Metagenics?', a: 'Metagenics is a practitioner range, so its products are usually recommended by a health professional. Ask our pharmacists whether a product suits you and your medicines.' },
+  { q: 'How long does a special order take?', a: 'Delivery time depends on postage, so order a little before you run out. We’ll give you a call when it arrives.' },
+  { q: 'Can I take Metagenics with my prescription medicines?', a: 'It depends on the product and your medicines. Ask a pharmacist to check whether a supplement is suitable alongside any prescription or over-the-counter medicines you take.' },
   { q: 'How do I order a Metagenics product?', a: 'Ask in store or call us on ' + site.phone + ' with the product name and we’ll order it in for you.' },
 ];
 ---
@@ -16,9 +16,9 @@ const faqs = [
 <ServicePage
   service={service}
   title="Metagenics Stockist Gold Coast | Priceline Pacific Fair"
-  description="Metagenics practitioner vitamins and supplements at Priceline Pacific Fair, Broadbeach, with pharmacist advice on what suits you. We can order any product in."
+  description="Metagenics practitioner vitamins and supplements in stock at Priceline Pacific Fair, Broadbeach, with pharmacist advice. Anything else from the range ordered."
   h1="Metagenics at Priceline Pacific Fair"
-  lead="Priceline Pharmacy Pacific Fair in Broadbeach stocks a range of Metagenics practitioner vitamins and supplements, and can special-order anything else from the range. Our pharmacists can help you choose what suits you and your medicines."
+  lead="Yes, Priceline Pharmacy Pacific Fair in Broadbeach is a Metagenics stockist, with a selection of practitioner products on the shelf and anything else from the range special-ordered in. Our pharmacists can check a product against your medicines before you buy. Ask in store, or call us to order."
   faqs={faqs}
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
@@ -28,7 +28,7 @@ const faqs = [
   <h2>What is Metagenics?</h2>
   <p>Metagenics is a practitioner range, which means its products are usually recommended by a health professional after talking about your health and goals. The range covers general wellbeing, digestive health, energy, stress, sleep, sport and more.</p>
 
-  <h2>Can you order in a product you don’t have?</h2>
+  <h2>Can you order in a Metagenics product you don’t have?</h2>
   <p>Yes. We keep a selection of Metagenics products on the shelf, and we can special-order anything else from their range. We’ll give you a call when it arrives. Delivery time depends on postage, so order a little before you run out. Ask in store or call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
 
   <h2>Why buy practitioner supplements from a pharmacy?</h2>

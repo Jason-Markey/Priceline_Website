@@ -7,21 +7,21 @@ import passportImg from '../assets/images/passport-photos.jpg';
 const service = serviceBySlug('passport-photos')!;
 
 const faqs = [
-  { q: 'How much do passport photos cost?', a: 'Passport and visa photos are $25, taken and printed while you wait, with digital copies included.' },
+  { q: 'How much do passport photos cost?', a: 'Passport and visa photos are $25, taken and printed while you wait, with digital copies included. Just walk in.' },
   { q: 'Do I need to book for passport photos?', a: 'No. Come in any time we’re open and we’ll take your photos while you wait. It usually takes about 10 minutes.' },
-  { q: 'Can you take photos for overseas passports and visas?', a: 'Yes. Tell us which country or visa the photo is for and we’ll set up the right format and size.' },
-  { q: 'Can you take passport photos for children?', a: 'Yes, for children aged 5 and over. For younger children, ask us and we’ll let you know what’s possible.' },
-  { q: 'Can I wear glasses in my passport photo?', a: 'No. Australian passports don’t accept photos with glasses, so please take them off for the photo.' },
-  { q: 'Do I get a digital copy?', a: 'Yes. You receive printed photos and digital copies, which is handy for online applications.' },
+  { q: 'Can you take photos for overseas passports and visas?', a: 'Yes. Tell us which country or visa the photo is for when you come in and we’ll set up the right format and size.' },
+  { q: 'Can you take passport photos for children?', a: 'Yes, for children aged 5 and over. For younger children, call us and we’ll let you know what’s possible.' },
+  { q: 'Can I wear glasses in my passport photo?', a: 'No. Australian passports don’t accept photos with glasses, so please take them off for the photo. We’ll check the rest of the requirements with you on the day.' },
+  { q: 'Do I get a digital copy?', a: 'Yes. You receive printed photos and digital copies, which is handy for online applications. Both are included in the $25.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="Passport Photos Pacific Fair, Broadbeach | $25, No Booking"
-  description="Australian and overseas passport and visa photos taken while you wait at Priceline Pacific Fair, Broadbeach. $25, ages 5 and over, no appointment needed."
+  description="Australian and overseas passport and visa photos taken while you wait at Priceline Pacific Fair, Broadbeach. $25 with digital copies, ages 5 and over."
   h1="Passport and visa photos at Pacific Fair"
-  lead="Need passport photos in a hurry? Pop into Priceline Pharmacy Pacific Fair in Broadbeach any time we’re open and we’ll take your passport or visa photos while you wait. $25, for ages 5 and over, with printed and digital copies and no appointment needed."
+  lead="Yes, you can get passport and visa photos taken while you wait at Priceline Pharmacy Pacific Fair in Broadbeach, for $25 with printed and digital copies. We do Australian and overseas formats for ages 5 and over, and it takes about 10 minutes. No appointment is needed; come in any time we’re open."
   faqs={faqs}
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
@@ -38,7 +38,7 @@ const faqs = [
     <li>Printed and digital copies of your photos</li>
   </ul>
 
-  <h2>Do I need to book?</h2>
+  <h2>Do I need to book for passport photos?</h2>
   <p>No. Walk in any day we’re open, including until 9pm on Thursdays, and allow about 10 minutes.</p>
 
   <h2>Can you do photos for other countries’ passports and visas?</h2>
@@ -53,6 +53,6 @@ const faqs = [
     <li><strong>Recent:</strong> photos must be taken within the last six months.</li>
   </ul>
 
-  <h2>Travelling soon?</h2>
+  <h2>Travelling soon? We can help with that too</h2>
   <p>See our <a href="/travel-health/">travel health advice and travel vaccines</a>, or ask our pharmacists about a travel health kit.</p>
 </ServicePage>

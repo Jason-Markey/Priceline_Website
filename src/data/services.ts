@@ -381,7 +381,7 @@ export const services: Service[] = [
   {
     slug: 'help-medical',
     name: 'Help Medical GPs',
-    short: 'An independent bulk-billing GP clinic inside our store, with QML pathology collection. Walk-ins welcome.',
+    short: 'An independent general practice located inside our store. Bulk billing for eligible patients, QML pathology collection, walk-ins welcome.',
     group: 'partner',
     icon: 'doctor',
     atAGlance: {

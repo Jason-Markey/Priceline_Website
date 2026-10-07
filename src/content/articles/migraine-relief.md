@@ -1,7 +1,7 @@
 ---
-title: "Migraine Relief: What to Do When an Attack Starts"
+title: "Migraine relief: what to do when an attack starts"
 description: "Migraine relief step by step: spot the warning signs, act early, know your triggers like Gold Coast storms and glare, and when a headache means call 000."
-seoTitle: "Migraine Relief: Step-by-Step | Priceline Pacific Fair"
+seoTitle: "Migraine relief: step by step | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

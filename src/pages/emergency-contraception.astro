@@ -6,20 +6,20 @@ const service = serviceBySlug('emergency-contraception')!;
 
 const faqs = [
   { q: 'Do I need a prescription or an appointment?', a: 'No. The emergency contraceptive pill (the morning-after pill) is a pharmacist-only medicine, so you can get it from our pharmacists without a prescription. There’s no appointment; just ask at the counter and we’ll talk with you privately.' },
-  { q: 'How soon do I need to take it?', a: 'As soon as possible. It is most effective within 72 hours (3 days) of unprotected sex, and depending on the medicine it can be taken up to 120 hours (5 days) afterwards, though it becomes less effective the longer you wait.' },
-  { q: 'Does the morning-after pill cause an abortion?', a: 'No. It works mainly by delaying or preventing ovulation, so an egg isn’t released. It won’t end an existing pregnancy.' },
+  { q: 'How soon do I need to take it?', a: 'As soon as possible. It is most effective within 72 hours (3 days) of unprotected sex, and depending on the medicine it can be taken up to 120 hours (5 days) afterwards, though it becomes less effective the longer you wait. We’re open 7 days, so come in today.' },
+  { q: 'Does the morning-after pill cause an abortion?', a: 'No. It works mainly by delaying or preventing ovulation, so an egg isn’t released. It won’t end an existing pregnancy. Ask our pharmacists if you have any concerns.' },
   { q: 'Can I get it for a partner or friend?', a: 'Ask us. Our pharmacists usually need to speak with the person who’ll be taking it, so they can check it’s suitable and explain how to take it, but we’ll do what we can to help.' },
   { q: 'Does it protect against sexually transmitted infections?', a: 'No. If you’re worried about an STI, the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can arrange testing.' },
-  { q: 'Will it affect my chances of getting pregnant later?', a: 'No. The emergency contraceptive pill doesn’t affect your future fertility. It can be taken more than once if needed, but it isn’t meant to be your regular contraception; ask us about ongoing options.' },
+  { q: 'Will it affect my chances of getting pregnant later?', a: 'No. The emergency contraceptive pill doesn’t affect your future fertility. It can be taken more than once if needed, but it isn’t meant to be your regular contraception, so ask us about ongoing options.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="Emergency Contraception Broadbeach | Priceline Pacific Fair"
-  description="The emergency contraceptive pill (morning-after pill) is available without a prescription from our pharmacists at Pacific Fair, Broadbeach. No appointment."
+  description="The emergency contraceptive pill (morning-after pill) without a prescription or appointment from pharmacists at Priceline Pacific Fair, Broadbeach. 7 days."
   h1="Emergency contraception at Pacific Fair, Broadbeach"
-  lead="The emergency contraceptive pill (the morning-after pill) is available at Priceline Pharmacy Pacific Fair in Broadbeach without a prescription. It’s a pharmacist-only medicine, so one of our pharmacists will have a short private conversation with you first. No appointment is needed, and the sooner it’s taken, the better it works."
+  lead="Yes, the emergency contraceptive pill (the morning-after pill) is available without a prescription at Priceline Pharmacy Pacific Fair in Broadbeach. It’s a pharmacist-only medicine, so one of our pharmacists will have a short private conversation with you first; no appointment is needed. The sooner it’s taken, the better it works, so come in as soon as you can."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}

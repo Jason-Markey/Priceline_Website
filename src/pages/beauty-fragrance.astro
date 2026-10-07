@@ -5,21 +5,21 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('beauty-fragrance')!;
 
 const faqs = [
-  { q: 'Can someone help me match a foundation shade?', a: 'Yes. Our beauty advisors can help you match foundation shades, find long-wearing formulas for hot days and build a simple kit that works. There’s no charge and no need to book.' },
-  { q: 'Can I try a fragrance before I buy it?', a: 'Yes. Try it on your skin and give it a few hours to settle before deciding, because a scent changes as it wears. Our team can suggest options based on what you already love.' },
-  { q: 'Do you sell gifts?', a: 'Yes. Fragrance, makeup, men’s grooming sets and beauty gift ideas are available in store, and our team can help you choose when you’re not sure of someone’s taste.' },
-  { q: 'Do you stock electric toothbrushes and whitening products?', a: 'Yes. Our dental range includes electric toothbrushes, whitening products and care for sensitive teeth and gums from brands such as Oral-B, Colgate, Sensodyne, Listerine, Piksters and White Glo.' },
-  { q: 'Do you have men’s grooming products?', a: 'Yes. Shaving, skincare, fragrance and gifts for men from Gillette, NIVEA Men, L’Oréal Men Expert, Braun, Bulldog and American Crew, plus advice on razor rash and sun protection.' },
+  { q: 'Can someone help me match a foundation shade?', a: 'Yes. Our beauty advisors can help you match foundation shades, find long-wearing formulas for hot days and build a simple kit that works. There’s no charge and no need to book; just come in.' },
+  { q: 'Can I try a fragrance before I buy it?', a: 'Yes. Try it on your skin in store and give it a few hours to settle before deciding, because a scent changes as it wears. Our team can suggest options based on what you already love.' },
+  { q: 'Do you sell gifts?', a: 'Yes. Fragrance, makeup, men’s grooming sets and beauty gift ideas are available in store. Ask our team to help you choose when you’re not sure of someone’s taste.' },
+  { q: 'Do you stock electric toothbrushes and whitening products?', a: 'Yes. Our dental range includes electric toothbrushes, whitening products and care for sensitive teeth and gums from brands such as Oral-B, Colgate, Sensodyne, Listerine, Piksters and White Glo. Ask a pharmacist if you have sensitive teeth or mouth ulcers.' },
+  { q: 'Do you have men’s grooming products?', a: 'Yes. Shaving, skincare, fragrance and gifts for men from Gillette, NIVEA Men, L’Oréal Men Expert, Braun, Bulldog and American Crew. Ask us about razor rash and sun protection while you’re here.' },
   { q: 'Can I order beauty products for delivery?', a: 'Yes. Beauty and fragrance can be ordered for delivery anywhere on the Gold Coast through Uber Eats, or you can shop in store any day we’re open.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Beauty, Makeup & Fragrance at Pacific Fair | Priceline"
-  description="Makeup, fragrance, dental care and men's grooming with expert advice from our beauty team at Priceline Pacific Fair, Broadbeach. Visit us or order on Uber Eats."
+  title="Makeup & Fragrance Broadbeach | Priceline Pacific Fair"
+  description="Makeup, designer fragrance, dental care and men’s grooming with free advice from the beauty team at Priceline Pacific Fair, Broadbeach. Or order on Uber Eats."
   h1="Beauty and fragrance at Pacific Fair"
-  lead="At Priceline Pharmacy Pacific Fair in Broadbeach you’ll find makeup, fragrance and beauty essentials alongside the advice of a team who genuinely love this stuff. Whether you’re after a new everyday foundation, a gift, or something that will survive a humid Gold Coast summer, our beauty advisors are happy to help, with no booking needed."
+  lead="Priceline Pharmacy Pacific Fair in Broadbeach stocks makeup, designer and celebrity fragrance, dental care and men’s grooming, with free help from our beauty advisors to match a foundation, pick a scent or choose a gift. No booking is needed. Shop in store any day we’re open, or order for delivery across the Gold Coast on Uber Eats."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Order on Uber Eats', href: site.links.uberEats, external: true }}

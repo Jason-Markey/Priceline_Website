@@ -5,11 +5,11 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('download-the-priceline-app')!;
 
 const faqs = [
-  { q: 'Is the Priceline Pharmacy app free?', a: 'Yes. The app is free to download for iPhone and Android.' },
+  { q: 'Is the Priceline Pharmacy app free?', a: 'Yes. The app is free to download for iPhone and Android. Get it from the App Store or Google Play.' },
   { q: 'How do I send a script with the app?', a: 'Add your eScript by pasting the token link or scanning the QR code, choose Priceline Pharmacy Pacific Fair as your store, and submit the order. We’ll let you know when it’s ready to collect.' },
   { q: 'Can I send a script without the app?', a: 'Yes. You can send your eScript to us through MedAdvisor in your browser, or simply show us the QR code at the prescription counter.' },
-  { q: 'Does the app remind me when a repeat is due?', a: 'Yes. You can get reminders when it’s time to take a medicine or order a repeat, and keep track of your scripts in one place.' },
-  { q: 'Can I use my Sister Club rewards in the app?', a: 'Yes. The app gives you access to your Sister Club account and rewards.' },
+  { q: 'Does the app remind me when a repeat is due?', a: 'Yes. Turn on reminders and the app will prompt you when it’s time to take a medicine or order a repeat, and keep track of your scripts in one place.' },
+  { q: 'Can I use my Sister Club rewards in the app?', a: 'Yes. The app gives you access to your Sister Club account and rewards. Ask our team if you’d like help joining.' },
   { q: 'How do I make Pacific Fair my pharmacy in the app?', a: 'When you set up the app, choose Priceline Pharmacy Pacific Fair (Shop 81, Pacific Fair Shopping Centre, Broadbeach) as your preferred store so your orders come to us.' },
   { q: 'Can you help me set up the app?', a: 'Yes. Ask at the prescription counter and we’ll help you get set up.' },
 ];
@@ -17,10 +17,10 @@ const faqs = [
 
 <ServicePage
   service={service}
-  title="Priceline App: Script Reminders & Orders | Pacific Fair"
-  description="Use the Priceline Pharmacy app to order scripts, get refill reminders and track your Sister Club points, then collect at Pacific Fair, Broadbeach."
+  title="Priceline Pharmacy App: Order Scripts Ahead | Pacific Fair"
+  description="Use the free Priceline Pharmacy app to send eScripts ahead, get repeat reminders and manage Sister Club rewards, then collect at Pacific Fair, Broadbeach."
   h1="Download the Priceline Pharmacy app"
-  lead="Keep your scripts, reminders and rewards in one place with the free Priceline Pharmacy app, then collect from Priceline Pharmacy Pacific Fair in Broadbeach. Order your prescriptions ahead so they’re ready when you arrive."
+  lead="The free Priceline Pharmacy app lets you send eScripts ahead to Priceline Pharmacy Pacific Fair in Broadbeach, get reminders when repeats are due, and manage your Sister Club rewards. Download it for iPhone or Android and choose Priceline Pharmacy Pacific Fair as your store, and your scripts will be ready when you arrive. Ask at the prescription counter if you’d like help setting it up."
   faqs={faqs}
   primaryCta={{ label: 'Get the app', href: site.links.appIos, external: true }}
   secondaryCta={{ label: 'Get it on Android', href: site.links.appAndroid, external: true }}

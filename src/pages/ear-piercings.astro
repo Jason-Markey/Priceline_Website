@@ -7,12 +7,12 @@ import piercingImg from '../assets/images/ear-piercing.jpg';
 const service = serviceBySlug('ear-piercings')!;
 
 const faqs = [
-  { q: 'How much does ear piercing cost?', a: 'Ear piercing is $65, which includes the piercing, your earrings, antiseptic aftercare spray and a consultation with our team. Earrings are also sold separately, from $12.95.' },
+  { q: 'How much does ear piercing cost?', a: 'Ear piercing is $65, which includes the piercing, your earrings, antiseptic aftercare spray and a consultation with our team. Earrings are also sold separately, from $12.95. Just walk in.' },
   { q: 'Do I need to book for ear piercing?', a: 'No. Walk-ins are welcome any day we’re open.' },
-  { q: 'How old do you have to be?', a: 'We pierce ears for ages 8 and over. Under-16s need a parent or guardian with them to give consent.' },
-  { q: 'Does it hurt?', a: 'The piercing itself takes seconds. Most people describe a quick pinch, and the area may feel tender for a few days afterwards.' },
-  { q: 'How long do I leave the studs in?', a: 'At least 6 weeks for earlobes and around 12 weeks for cartilage piercings. Piercings keep healing on the inside for months after that.' },
-  { q: 'Can I swim after getting my ears pierced?', a: 'It’s best to avoid pools, the ocean and spas until the piercing has healed, which is worth planning around in a Gold Coast summer.' },
+  { q: 'How old do you have to be?', a: 'We pierce ears for ages 8 and over. Under-16s need a parent or guardian with them to give consent, so bring them along.' },
+  { q: 'Does it hurt?', a: 'The piercing itself takes seconds. Most people describe a quick pinch, and the area may feel tender for a few days afterwards. Our team will talk you through it first.' },
+  { q: 'How long do I leave the studs in?', a: 'At least 6 weeks for earlobes and around 12 weeks for cartilage piercings. Piercings keep healing on the inside for months after that, so follow the aftercare we give you.' },
+  { q: 'Can I swim after getting my ears pierced?', a: 'Avoid pools, the ocean and spas until the piercing has healed, which is worth planning around in a Gold Coast summer. Ask us about timing when you come in.' },
   { q: 'Can you re-pierce an ear that has closed over?', a: 'Yes. Re-piercing is available for piercings that have closed or were placed incorrectly. Ask us and we’ll take a look.' },
 ];
 ---
@@ -20,9 +20,9 @@ const faqs = [
 <ServicePage
   service={service}
   title="Ear Piercing at Pacific Fair, Broadbeach | Walk-ins Welcome"
-  description="Ear piercing at Priceline Pacific Fair, Broadbeach: $65 including earrings, aftercare spray and a consultation. Walk-ins welcome, ages 8 and over."
+  description="Walk in for ear piercing at Priceline Pacific Fair, Broadbeach. $65 including earrings, aftercare spray and a consultation. Single-use system, ages 8+."
   h1="Ear piercing at Pacific Fair"
-  lead="Getting your ears pierced should be quick, clean and relaxed. At Priceline Pharmacy Pacific Fair in Broadbeach, our trained team uses a hygienic, single-use system in a pharmacy setting and sends you home with aftercare advice. It’s $65 including earrings, aftercare spray and a consultation. Walk-ins are welcome."
+  lead="Yes, you can walk in for ear piercing at Priceline Pharmacy Pacific Fair in Broadbeach any day we’re open. It’s $65 including your earrings, aftercare spray and a consultation, using a hygienic single-use system, and takes about 15 minutes. We pierce ages 8 and over; under-16s need a parent or guardian with them."
   faqs={faqs}
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
@@ -39,8 +39,8 @@ const faqs = [
     <li><strong>Re-piercing</strong> is available for piercings that have closed or were placed incorrectly.</li>
   </ul>
 
-  <h2>Do I need to book?</h2>
-  <p>No. Walk in any day we’re open and our trained team will fit you in. If you’d like to check the best time to come in, call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+  <h2>Do I need to book for ear piercing?</h2>
+  <p>No. Walk in any day we’re open and our trained team will fit you in. If you’d like to check a quiet time to come in, call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
 
   <h2>Which studs and earrings can I choose?</h2>
   <ul>

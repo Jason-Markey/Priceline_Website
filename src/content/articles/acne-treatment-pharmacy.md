@@ -1,7 +1,7 @@
 ---
-title: "Acne Treatment at the Pharmacy: What Actually Helps"
+title: "Acne treatment at the pharmacy: what actually helps"
 description: "Acne treatment from the pharmacy: what helps, how long it takes and when to see a GP. Pharmacist tips on sunscreen and skincare for humid Gold Coast days."
-seoTitle: "Acne Treatment at the Pharmacy | Priceline Pacific Fair"
+seoTitle: "Acne treatment at the pharmacy | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

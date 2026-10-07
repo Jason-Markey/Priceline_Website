@@ -1,7 +1,7 @@
 ---
-title: "Travel Sickness on Theme Park Rides, Boats and Road Trips"
+title: "Travel sickness on theme park rides, boats and road trips"
 description: "Travel sickness tips for Gold Coast theme parks, whale-watching tours and winding hinterland drives, for kids and adults, plus when to see a GP."
-seoTitle: "Travel Sickness Tips | Priceline Pacific Fair"
+seoTitle: "Travel sickness tips | Priceline Pacific Fair"
 publishDate: 2026-12-14
 modifiedDate: 2026-12-14
 category: health-advice

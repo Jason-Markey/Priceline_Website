@@ -1,7 +1,7 @@
 ---
-title: "Trouble Sleeping Tips From Your Local Pharmacist"
+title: "Trouble sleeping: tips from your local pharmacist"
 description: "Trouble sleeping tips for hot, humid Gold Coast nights: routines, caffeine timing, when to see a GP and how our Pacific Fair pharmacists can help."
-seoTitle: "Trouble Sleeping Tips | Priceline Pacific Fair"
+seoTitle: "Trouble sleeping tips | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

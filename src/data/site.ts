@@ -17,7 +17,7 @@ export const site = {
   url: 'https://pricelinepacificfair.com.au',
   tagline: 'Your local pharmacy at Pacific Fair, Broadbeach',
   description:
-    'Locally owned Priceline Pharmacy on the ground floor of Pacific Fair Shopping Centre, Broadbeach. Prescriptions, walk-in vaccinations, pharmacist consultations, skincare and beauty advice, with Help Medical GPs inside the store.',
+    'An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.',
   foundingDate: '2009-08-27',
   ownerSince: '2023-12',
 

@@ -20,7 +20,7 @@ import icoApp from '../assets/icons/priceline-app.png';
 
 const title = 'Pharmacy & Chemist Broadbeach | Priceline Pacific Fair';
 const description =
-  'Your local pharmacy inside Pacific Fair, Broadbeach. Fast scripts, walk-in vaccinations, bulk-billing GPs in store, skincare advice and Uber Eats delivery.';
+  'Locally owned pharmacy inside Pacific Fair, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, GPs in store and Uber Eats delivery.';
 
 // Home services grid — same eight tiles and hexagon icons as the current site
 const tiles = [
@@ -35,11 +35,11 @@ const tiles = [
 ];
 
 const faqs = [
-  { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Ground floor, north-eastern side of the centre, Shop 81, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Directions and parking</a>.' },
-  { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. See our <a href="/visit-us/">full opening hours</a>, and check our Google listing for public holidays.' },
-  { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk-ins are welcome every day we’re open. You can also <a href="' + site.links.book + '" rel="noopener">book a time online</a>.' },
-  { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical, an independent bulk-billing GP clinic, is located inside our store. Walk-ins are welcome, or <a href="/help-medical/">book ahead</a>.' },
-  { q: 'Can I send my prescription before I arrive?', a: 'Yes. Send your eScript through the Priceline Pharmacy app or MedAdvisor and choose Priceline Pharmacy Pacific Fair. <a href="/prescriptions/">How it works</a>.' },
+  { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Shop 81 on the ground floor, north-eastern side of the centre, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Get directions and parking tips</a>.' },
+  { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. Public holiday hours are updated on our Google listing. <a href="/visit-us/">See our full opening hours</a>.' },
+  { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk in any day we’re open and scan the QR code at the counter to join the queue, or <a href="' + site.links.book + '" rel="noopener">book a time online</a> if you’d rather not wait.' },
+  { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical is an independent general practice located inside our store, with bulk billing for eligible patients. Walk in subject to doctor availability, or <a href="/help-medical/">book a GP ahead</a>.' },
+  { q: 'Can I send my prescription before I arrive?', a: 'Yes. Send your eScript through the Priceline Pharmacy app or MedAdvisor, choose Priceline Pharmacy Pacific Fair, and we’ll have it ready to collect. <a href="/prescriptions/">Send a script ahead</a>.' },
 ];
 ---
 
@@ -49,16 +49,16 @@ const faqs = [
     <div class="container hero__inner">
       <div class="hero__copy">
         <h1>Your local pharmacy at Pacific Fair, Broadbeach</h1>
-        <p class="hero__lead">Fast scripts, walk-in vaccinations, pharmacist consultations and beauty advice you can trust, with bulk-billing GPs right inside the store. Locally owned, open 7 days and until 9pm on Thursdays.</p>
+        <p class="hero__lead">Scripts ready in minutes, vaccinations with no appointment, and GPs you can see without leaving the store. Locally owned, open 7 days and until 9pm on Thursdays.</p>
         <div class="btn-row">
-          <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script</a>
+          <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
           <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
         </div>
         <ul class="hero__quick" aria-label="Quick links">
-          <li><a href="/vaccination-information/">Vaccinations</a></li>
-          <li><a href="/help-medical/">GP in store</a></li>
+          <li><a href="/vaccination-information/">Walk-in vaccinations</a></li>
+          <li><a href="/help-medical/">GPs in store</a></li>
           <li><a href="/skincare-tanning/">Beauty advice</a></li>
-          <li><a href="/delivery/">Delivery</a></li>
+          <li><a href="/delivery/">Uber Eats delivery</a></li>
           <li><a href="/visit-us/">Hours &amp; directions</a></li>
         </ul>
       </div>
@@ -72,18 +72,18 @@ const faqs = [
   <section class="section">
     <div class="container why">
       <div class="why__intro">
-        <h2>Welcome to Priceline Pharmacy Pacific Fair</h2>
-        <p>A locally owned community pharmacy on the ground floor of Pacific Fair Shopping Centre in Broadbeach. Whether you’re filling a script, getting a flu shot on your lunch break, or looking for skincare that suits the Gold Coast climate, our pharmacists and beauty advisors take the time to get it right for you.</p>
-        <a class="btn btn--outline" href="/about-us/">About us</a>
+        <h2>A locally owned pharmacy inside Pacific Fair</h2>
+        <p>Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre in Broadbeach. Whether you’re filling a script, getting a flu shot on your lunch break or after skincare that copes with the Gold Coast climate, our pharmacists and beauty advisors take the time to get it right.</p>
+        <a class="btn btn--outline" href="/about-us/">Meet the team</a>
       </div>
       <div class="why__list">
         <h3>Why locals choose us</h3>
         <ul>
-          <li><strong>Pharmacists who make time for you</strong> – ask us anything, no appointment needed.</li>
-          <li><strong>Fast, accurate dispensing</strong> with our robotic dispensary. <a href="/prescriptions/">Send your script ahead</a>.</li>
-          <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, a bulk-billing clinic for eligible patients.</li>
-          <li><strong>Walk-in <a href="/vaccination-information/">vaccinations</a></strong>, with free government-funded vaccines for eligible people and no service fee.</li>
-          <li><strong>Beauty advice you can trust</strong> for <a href="/skincare-tanning/">skincare</a>, makeup and <a href="/beauty-fragrance/">fragrance</a>.</li>
+          <li><strong>Pharmacists who make time for you.</strong> Ask us anything, no appointment needed.</li>
+          <li><strong>Scripts ready in minutes</strong>, thanks to our robotic dispensary. <a href="/prescriptions/">Send yours ahead</a>.</li>
+          <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, with bulk billing for eligible patients.</li>
+          <li><strong>Walk-in <a href="/vaccination-information/">vaccinations</a></strong>, free for eligible people under the National Immunisation Program, with no service fee.</li>
+          <li><strong>Beauty advice from people who know the products</strong>, for <a href="/skincare-tanning/">skincare</a>, makeup and <a href="/beauty-fragrance/">fragrance</a>.</li>
           <li><strong>Delivered to your door</strong> anywhere on the Gold Coast through <a href="/delivery/">Uber Eats</a>.</li>
           <li><strong>Open 7 days</strong>, and until 9pm on Thursdays.</li>
         </ul>
@@ -96,8 +96,8 @@ const faqs = [
     <div class="container visit">
       <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="visit__img" />
       <div class="visit__copy">
-        <h2>Visit us in store today</h2>
-        <p>{site.address.oneLine}. {site.address.floor}, {site.address.landmarks}.</p>
+        <h2>Find us on the ground floor of Pacific Fair</h2>
+        <p>{site.address.oneLine}. {site.address.floor}, {site.address.landmarks}. Four hours of free parking each day, and the Broadbeach South light rail stop is right out the front.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/visit-us/">Hours &amp; directions</a>
           <a class="btn btn--outline" href={site.directionsUrl} rel="noopener" data-event="directions">Open in Google Maps</a>
@@ -109,11 +109,11 @@ const faqs = [
   <!-- Store hours (existing two cards) -->
   <section class="section">
     <div class="container">
-      <h2 class="centre">Store hours</h2>
-      <p class="centre intro">Opening hours at Priceline Pharmacy Pacific Fair, and at Help Medical, the independent general practice inside our store.</p>
+      <h2 class="centre">Opening hours</h2>
+      <p class="centre intro">Pharmacy hours, and the hours of Help Medical, an independent general practice located inside our store.</p>
       <div class="hours-grid">
         <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note={site.hoursNote} />
-        <HoursCard heading="Help Medical hours" hours={site.helpMedical.hours} note="Independent GP clinic inside our store. Bookings at helpmedical.au." />
+        <HoursCard heading="Help Medical hours" hours={site.helpMedical.hours} note="An independent general practice located inside our store. Bookings at helpmedical.au." />
       </div>
     </div>
   </section>
@@ -121,8 +121,8 @@ const faqs = [
   <!-- Our services grid (existing eight tiles + hexagon icons) -->
   <section class="section section--white">
     <div class="container">
-      <h2 class="centre">Our services</h2>
-      <p class="centre intro">Most services need no appointment, so just walk in. For the full list, see <a href="/pharmacy-services/">pharmacy services</a>.</p>
+      <h2 class="centre">What we can help with</h2>
+      <p class="centre intro">Most of our services are walk-in, so there’s no need to book. See the <a href="/pharmacy-services/">full list of pharmacy services</a>.</p>
       <ul class="tiles">
         {tiles.map((t) => {
           const s = serviceBySlug(t.slug)!;
@@ -147,7 +147,7 @@ const faqs = [
     <div class="container hm">
       <div class="hm__copy">
         <h2>See a GP without leaving the store</h2>
-        <p>Help Medical, {site.helpMedical.relationship}, offers bulk billing for eligible patients and welcomes walk-ins. See a doctor, then have your script filled a few steps away. A QML Pathology collection room operates inside Help Medical on weekday mornings.</p>
+        <p>Help Medical, {site.helpMedical.relationship}, bulk bills eligible patients and welcomes walk-ins, subject to doctor availability. See a doctor, then have your script filled a few steps away. A QML Pathology collection room operates inside Help Medical on weekday mornings.</p>
         <div class="btn-row">
           <a class="btn btn--secondary" href={site.helpMedical.bookingUrl} rel="noopener" data-event="book-gp">Book a GP</a>
           <a class="btn btn--outline" href="/help-medical/">About Help Medical</a>
@@ -162,8 +162,8 @@ const faqs = [
     <div class="container beauty">
       <Image src={storeInterior} alt="Inside Priceline Pharmacy Pacific Fair: the checkout, beauty aisles and prescription counter" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="beauty__img" />
       <div class="beauty__copy">
-        <h2>Skincare, makeup and fragrance, with real advice</h2>
-        <p>Our trained beauty advisors help you find products that suit your skin and the Gold Coast climate: strong sun, humidity, salt water and air-conditioning. No booking, no charge. Shop in store, or order for Click &amp; Collect and Uber Eats delivery.</p>
+        <h2>Skincare, makeup and fragrance, with advice built for the Gold Coast</h2>
+        <p>Strong sun, humidity, salt water and air-conditioning are hard on skin. Our trained beauty advisors help you find products that suit your skin and our climate, with no booking and no charge. Shop in store, or order for Click &amp; Collect and Uber Eats delivery.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/skincare-tanning/">Skincare &amp; self-tan</a>
           <a class="btn btn--outline" href="/beauty-fragrance/">Makeup &amp; fragrance</a>
@@ -193,8 +193,8 @@ const faqs = [
     <div class="container">
       <div class="contact card">
         <div>
-          <h2>Have a question?</h2>
-          <p>Call us on <a href={site.phoneHref}>{site.phone}</a>, or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>. For prescription and medicine questions, <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a>.</p>
+          <h2>Have a question? Ask a pharmacist</h2>
+          <p>Call us on <a href={site.phoneHref}>{site.phone}</a>, or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>. For prescription and medicine questions, email <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a>.</p>
         </div>
         <a class="btn btn--primary" href="/contact-us/">Contact us</a>
       </div>

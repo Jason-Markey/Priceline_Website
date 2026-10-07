@@ -7,27 +7,27 @@ import counterImg from '../assets/images/scripts-in-counter.jpg';
 const service = serviceBySlug('medication-packing')!;
 
 const faqs = [
-  { q: 'How much does medication packing cost?', a: 'Medication packing is free for concession and health care card holders, and $5 a week for everyone else.' },
-  { q: 'What is a Webster pack?', a: 'A Webster pack is a weekly blister pack. Each dose is sealed in its own compartment and labelled with the day and time it should be taken, so you can see at a glance what has and hasn’t been taken.' },
+  { q: 'How much does medication packing cost?', a: 'Medication packing is free for concession and health care card holders, and $5 a week for everyone else. Call us or ask at the prescription counter to get started.' },
+  { q: 'What is a Webster pack?', a: 'A Webster pack is a weekly blister pack. Each dose is sealed in its own compartment and labelled with the day and time it should be taken, so you can see at a glance what has and hasn’t been taken. Ask us if you’d like to see one.' },
   { q: 'Do I need to book to start medication packing?', a: 'No. Call us on ' + site.phone + ' or ask at the prescription counter at the back of the store, and bring in your current medicines and prescriptions.' },
-  { q: 'Can a family member or carer collect my packs?', a: 'Yes. Let us know who else can collect packs or talk to us about your medicines, and we’ll note it on your profile.' },
+  { q: 'Can a family member or carer collect my packs?', a: 'Yes. Tell us who else can collect packs or talk to us about your medicines, and we’ll note it on your profile.' },
   { q: 'What happens if my doctor changes my medicines?', a: 'Bring or send us the new prescription as soon as possible. We’ll update your packs and let you know when the new ones are ready. Please don’t push tablets out or add them to a pack yourself.' },
-  { q: 'Do I need to bring my prescriptions?', a: 'Bring in your current medicines and prescriptions, or ask your doctor to send your scripts straight to us. A pharmacist checks every medicine, dose and timing before we set up your packs.' },
+  { q: 'Do I need to bring my prescriptions?', a: 'Yes, to start. Bring in your current medicines and prescriptions, or ask your doctor to send your scripts straight to us. A pharmacist checks every medicine, dose and timing before we set up your packs.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Webster Packs & Medication Packing Broadbeach | Priceline"
-  description="Weekly medication packing at Pacific Fair, Broadbeach. Free for concession and health care card holders, $5 a week otherwise. Ideal for carers and families."
+  title="Webster Packs Broadbeach, Free for Concession | Priceline"
+  description="Weekly Webster packs from Priceline Pacific Fair, Broadbeach. Free for concession and health care card holders, $5 a week otherwise. No appointment needed."
   h1="Medication packing (Webster packs) at Pacific Fair"
-  lead="Keeping track of several medicines is hard, especially when doses change or you’re caring for someone else. The medication packing service at Priceline Pharmacy Pacific Fair in Broadbeach sorts your medicines into weekly blister packs, often called Webster packs, with each dose clearly labelled by day and time."
+  lead="Yes, Priceline Pharmacy Pacific Fair in Broadbeach offers medication packing: your medicines sorted into weekly blister packs (Webster packs), with every dose labelled by day and time and checked by a pharmacist. It’s free for concession and health care card holders, and $5 a week otherwise. No appointment is needed; call us or ask at the prescription counter."
   faqs={faqs}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
   dateModified="2026-10-07"
 >
-  <h2>What does it cost?</h2>
+  <h2>How much does medication packing cost?</h2>
   <Image src={counterImg} alt="The scripts-in counter at the Priceline Pharmacy Pacific Fair dispensary, where medication packs are set up and collected" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
   <p>Medication packing is <strong>free for concession and health care card holders</strong>, and $5 a week for everyone else.</p>
 
@@ -48,7 +48,7 @@ const faqs = [
     <li>Anyone whose medicines change often after hospital visits or specialist appointments</li>
   </ul>
 
-  <h2>Caring for a parent or partner?</h2>
+  <h2>How does it help if you’re caring for a parent or partner?</h2>
   <p>Blister packs make it easy to see at a glance whether today’s doses have been taken, which gives you peace of mind if you don’t live with the person you care for. Let us know who else can collect packs or talk to us about their medicines, and we’ll note it on their profile.</p>
 
   <h2>What happens when a medicine changes?</h2>

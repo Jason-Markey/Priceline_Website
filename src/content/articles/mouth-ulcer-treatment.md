@@ -1,7 +1,7 @@
 ---
-title: "Mouth Ulcer Treatment: Home Care and When to Worry"
+title: "Mouth ulcer treatment: home care and when to worry"
 description: "Mouth ulcer treatment: saltwater rinses, soft foods (skip the salty beach chips), pharmacy gels, and when an ulcer needs a Gold Coast dentist or GP."
-seoTitle: "Mouth Ulcer Treatment | Priceline Pacific Fair"
+seoTitle: "Mouth ulcer treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

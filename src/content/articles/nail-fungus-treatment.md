@@ -1,7 +1,7 @@
 ---
-title: "Nail Fungus Treatment: Myths, Facts and What Works"
+title: "Nail fungus treatment: myths, facts and what works"
 description: "Nail fungus treatment myths vs facts: pharmacy nail lacquers, when you need a GP and why it takes months. Foot tips for humid Gold Coast summers and pools."
-seoTitle: "Nail Fungus Treatment | Priceline Pacific Fair"
+seoTitle: "Nail fungus treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

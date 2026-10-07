@@ -1,7 +1,7 @@
 ---
-title: "Dandruff Treatment: Your Questions Answered"
+title: "Dandruff treatment: your questions answered"
 description: "Dandruff treatment explained: causes, medicated shampoos, home tips and when to see a GP. Handy advice for Gold Coast swimmers who wash their hair often."
-seoTitle: "Dandruff Treatment Q&A | Priceline Pacific Fair"
+seoTitle: "Dandruff treatment Q&A | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

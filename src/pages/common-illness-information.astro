@@ -5,15 +5,15 @@ import { site } from '../data/site';
 
 <ContentPage
   title="Common Illnesses A-Z: Pharmacist Advice | Priceline"
-  description="Plain-English pharmacist guides to 21 common conditions, from hayfever and reflux to cold sores and sprains, including when to see a GP."
+  description="Plain-English pharmacist guides to 21 common conditions, from hayfever and reflux to cold sores and sprains, with home care tips and when to see a GP."
   path="/common-illness-information/"
   h1="Common illnesses A–Z"
-  lead={`Plain-English guides to common health problems, written for Australians by the team at Priceline Pharmacy Pacific Fair in Broadbeach and reviewed by our pharmacist, ${site.reviewer.name} (${site.reviewer.credentials}). Each guide explains the symptoms, what you can do at home, how a pharmacist can help, and when to see a GP.`}
+  lead={`Plain-English guides to common health problems from the pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach, reviewed by our owner and pharmacist, ${site.reviewer.name} (${site.reviewer.credentials}). Each guide covers the symptoms, what you can do at home, how a pharmacist can help, and when to see a GP.`}
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Common illnesses A–Z', href: '/common-illness-information/' }]}
   showNap
   dateModified="2026-10-07"
 >
-  <p>For personal advice, just ask us in store. There’s no appointment needed.</p>
+  <p>For personal advice, just ask us in store or call <a href={site.phoneHref}>{site.phone}</a>. There’s no appointment needed.</p>
 
   <h2>A–D</h2>
   <ul>
@@ -52,7 +52,7 @@ import { site } from '../data/site';
     <li><strong>Travel sickness</strong>: tips for theme park rides, boats and road trips. Ask us which travel sickness remedies suit you and your children.</li>
   </ul>
 
-  <h2>When to get help</h2>
+  <h2>When should I get help?</h2>
   <p>These guides are general information. If you’re unsure, symptoms are severe, or they aren’t improving, talk to our pharmacists or see a GP. <a href="/help-medical/">Help Medical</a> is inside our store. In an emergency, call 000.</p>
   <p>Always read the label and follow the directions for use.</p>
 </ContentPage>

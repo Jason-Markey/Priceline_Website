@@ -1,7 +1,7 @@
 ---
-title: "Sun Safety on the Gold Coast: Why UV Is a Year-Round Job"
+title: "Sun safety on the Gold Coast: why UV is a year-round job"
 description: "Gold Coast UV hits 3+ every day, even in winter. Simple sun safety for beach days, the school run and car parks, plus when to get a spot checked by a GP."
-seoTitle: "Sun Safety on the Gold Coast | Priceline Pacific Fair"
+seoTitle: "Sun safety on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: skincare-beauty

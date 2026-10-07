@@ -1,7 +1,7 @@
 ---
-title: "Normal Blood Pressure: Numbers Explained (and When to Act)"
+title: "Normal blood pressure: numbers explained (and when to act)"
 description: "What's a normal blood pressure? How to read the two numbers, Australian ranges, home vs in-store checks at Pacific Fair, and when to see a GP or call 000."
-seoTitle: "Normal Blood Pressure Explained | Priceline Pacific Fair"
+seoTitle: "Normal blood pressure explained | Priceline Pacific Fair"
 publishDate: 2027-02-22
 modifiedDate: 2027-02-22
 category: health-advice

@@ -1,7 +1,7 @@
 ---
-title: "How to Treat a Cut or Scrape: Step-by-Step First Aid"
+title: "How to treat a cut or scrape: step-by-step first aid"
 description: "How to treat a cut or scrape: stop bleeding, clean, cover and spot infection. Plus tetanus advice and red flags for Gold Coast beach and holiday injuries."
-seoTitle: "How to Treat a Cut: First Aid | Priceline Pacific Fair"
+seoTitle: "How to treat a cut: first aid | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

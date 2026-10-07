@@ -6,10 +6,10 @@ const service = serviceBySlug('vitamins-supplements')!;
 
 const faqs = [
   { q: 'Can I ask a pharmacist before I buy a supplement?', a: 'Yes, and we encourage it. Our pharmacists can check whether a supplement suits you and your medicines. Advice is free and no booking is needed.' },
-  { q: 'Can vitamins interact with my prescription medicines?', a: 'Some can. Certain supplements affect how medicines such as blood thinners, some antidepressants and the contraceptive pill work. Tell us what you take and we’ll check.' },
-  { q: 'Which supplements are suitable in pregnancy?', a: 'It depends on the stage of pregnancy and your own health. We stock pre-conception, pregnancy and breastfeeding supplements and can help you choose one that’s appropriate for you.' },
-  { q: 'Do I need a blood test before taking iron or vitamin D?', a: 'Often that’s the better first step. A blood test through your GP shows whether you’re actually low. The GPs at Help Medical, inside our store, can arrange one.' },
-  { q: 'Do you stock practitioner ranges?', a: 'Yes. We keep a selection of Metagenics products on the shelf and can special-order anything else from their range.' },
+  { q: 'Can vitamins interact with my prescription medicines?', a: 'Some can. Certain supplements affect how medicines such as blood thinners, some antidepressants and the contraceptive pill work. Tell us what you take and we’ll check before you buy.' },
+  { q: 'Which supplements are suitable in pregnancy?', a: 'It depends on the stage of pregnancy and your own health. We stock pre-conception, pregnancy and breastfeeding supplements, so ask a pharmacist to help you choose one that’s appropriate for you.' },
+  { q: 'Do I need a blood test before taking iron or vitamin D?', a: 'Often that’s the better first step. A blood test through your GP shows whether you’re actually low. The GPs at Help Medical, an independent general practice located inside our store, can arrange one.' },
+  { q: 'Do you stock practitioner ranges?', a: 'Yes. We keep a selection of Metagenics products on the shelf and can special-order anything else from their range. Ask in store or call us to order.' },
   { q: 'Can I order vitamins for delivery?', a: 'Yes. Vitamins and supplements can be ordered for delivery across the Gold Coast through Uber Eats, or you can shop in store any day we’re open.' },
 ];
 ---
@@ -17,9 +17,9 @@ const faqs = [
 <ServicePage
   service={service}
   title="Vitamins & Supplements Gold Coast | Priceline Pacific Fair"
-  description="Vitamins and supplements, including practitioner ranges, with pharmacist advice on what suits you and your medicines. Priceline Pacific Fair, Broadbeach."
+  description="Vitamins and supplements, including pregnancy, children’s and practitioner ranges, with free pharmacist advice on what suits you. Priceline Pacific Fair."
   h1="Vitamins and supplements at Pacific Fair, with a pharmacist’s advice"
-  lead="The vitamin aisle can be overwhelming. At Priceline Pharmacy Pacific Fair in Broadbeach you can ask a pharmacist before you buy, so you choose something that suits you and is suitable alongside any medicines you already take. Advice is free and there’s no need to book."
+  lead="Yes, you can ask a pharmacist before you buy a vitamin or supplement at Priceline Pharmacy Pacific Fair in Broadbeach, and we’ll check it against the medicines you already take. We stock everyday, pregnancy, children’s and practitioner ranges, including Metagenics. Advice is free and there’s no need to book."
   faqs={faqs}
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}

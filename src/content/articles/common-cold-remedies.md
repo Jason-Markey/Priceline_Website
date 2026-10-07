@@ -1,7 +1,7 @@
 ---
-title: "Common Cold Remedies: Myths, Facts and What Helps"
+title: "Common cold remedies: myths, facts and what helps"
 description: "Common cold remedies that ease symptoms, cold vs flu, why antibiotics don't help, and safe options for kids. Advice from our Pacific Fair pharmacists."
-seoTitle: "Common Cold Remedies: Myths & Facts | Priceline Pacific Fair"
+seoTitle: "Common cold remedies: myths & facts | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

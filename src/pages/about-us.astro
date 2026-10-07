@@ -12,19 +12,19 @@ const photoFor = (file?: string) => (file ? photos[`../assets/images/${file}`]?.
 const path = '/about-us/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'About us', href: path }];
 const faqs = [
-  { q: 'Is Priceline Pharmacy Pacific Fair locally owned?', a: 'Yes. We’re an independently owned Priceline Pharmacy franchise store, owned and run by pharmacist Jason Markey.' },
-  { q: 'How long has the store been at Pacific Fair?', a: 'The store opened in August 2009 and has been on the ground floor of Pacific Fair ever since. Our store manager, Ben, has been here from the start.' },
-  { q: 'Is there a doctor in the store?', a: 'Yes. <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store, with QML Pathology collection on weekday mornings.' },
-  { q: 'Can I just walk in and ask a pharmacist a question?', a: 'Of course. No appointment is needed to speak with a pharmacist. If we’re busy there may be a short wait, but we’ll make time for you.' },
+  { q: 'Is Priceline Pharmacy Pacific Fair locally owned?', a: 'Yes. We’re an independently owned Priceline Pharmacy franchise store, owned and run by pharmacist Jason Markey, who first trained in this very store.' },
+  { q: 'How long has the store been at Pacific Fair?', a: 'The store opened in August 2009 and has been on the ground floor of Pacific Fair ever since. Our store manager, Ben, has been here from the start. Come in and say hello.' },
+  { q: 'Is there a doctor in the store?', a: 'Yes. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store, with QML Pathology collection on weekday mornings. Book at helpmedical.au or walk in.' },
+  { q: 'Can I just walk in and ask a pharmacist a question?', a: 'Of course. No appointment is needed to speak with a pharmacist. If we’re busy there may be a short wait, but we’ll make time for you, or call us on ' + site.phone + '.' },
 ];
 ---
 
 <ContentPage
   title="About Our Locally Owned Pharmacy | Priceline Pacific Fair"
-  description="Meet the team at Priceline Pharmacy Pacific Fair, a locally owned Broadbeach pharmacy known for genuine care, expert advice and great service."
+  description="Meet the team at Priceline Pharmacy Pacific Fair, an independently owned Broadbeach pharmacy run by pharmacist Jason Markey, part of Pacific Fair since 2009."
   path={path}
   h1="About Priceline Pharmacy Pacific Fair"
-  lead="A locally owned community pharmacy on the ground floor of Pacific Fair Shopping Centre, Broadbeach, serving Gold Coast locals and visitors since 2009."
+  lead="Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre in Broadbeach, owned and run by pharmacist Jason Markey. We’ve looked after Gold Coast locals and visitors since 2009, and we’re open 7 days and until 9pm on Thursdays."
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   showNap
@@ -32,7 +32,7 @@ const faqs = [
   ogImage={jason}
   dateModified="2026-10-07"
 >
-  <p>Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store. Being locally owned means we can shape our services around the people we see every day: Gold Coast locals, families, workers and the many visitors who pass through Pacific Fair.</p>
+  <p>Being locally owned means we can shape our services around the people we see every day: Gold Coast locals, families, workers and the many visitors who pass through Pacific Fair. If you have a question, just ask; no appointment is needed to speak with a pharmacist.</p>
   <div class="btn-row">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
     <a class="btn btn--secondary" href="/visit-us/">Hours &amp; directions</a>
@@ -40,7 +40,7 @@ const faqs = [
 
   <h2>What we care about</h2>
   <ul>
-    <li><strong>Time for you.</strong> We’d rather spend a few extra minutes getting to the bottom of a problem than rush you through. If we can’t help, we’ll refer you, often to the GPs at <a href="/help-medical/">Help Medical</a>, right inside our store.</li>
+    <li><strong>Time for you.</strong> We’d rather spend a few extra minutes getting to the bottom of a problem than rush you through. If we can’t help, we’ll refer you, often to the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store.</li>
     <li><strong>Expert advice.</strong> Our pharmacists and beauty advisors are here to answer questions about medicines, wellbeing, skincare and beauty.</li>
     <li><strong>Fair prices.</strong> Competitive pricing without cutting corners on care.</li>
     <li><strong>Better technology, more time with you.</strong> Our robotic dispensary picks medicines in seconds, and electronic shelf labels keep prices accurate. Both free up our team to spend more time with customers. You can also order everyday items for delivery across the Gold Coast through <a href="/delivery/">Uber Eats</a>.</li>

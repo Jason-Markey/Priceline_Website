@@ -5,10 +5,10 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('travel-health')!;
 
 const faqs = [
-  { q: 'Do I need to book for travel vaccines?', a: 'No. You can walk in, but booking online helps us set aside enough time, as travel consultations can take 20 to 30 minutes.' },
-  { q: 'How much do travel vaccines cost?', a: 'Most travel vaccines aren’t covered by the National Immunisation Program, so a private fee usually applies. You’ll see current prices when you book online, or ask us.' },
+  { q: 'Do I need to book for travel vaccines?', a: 'No. You can walk in, but booking online helps us set aside enough time, as travel consultations can take 20 to 30 minutes. Book a time that suits you.' },
+  { q: 'How much do travel vaccines cost?', a: 'Most travel vaccines aren’t covered by the National Immunisation Program, so a private fee usually applies. You’ll see current prices when you book online, or call us and ask.' },
   { q: 'Can you vaccinate children before travel?', a: 'Our pharmacists vaccinate people aged 5 and over. For younger children, the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.' },
-  { q: 'Do you give the yellow fever vaccine?', a: 'No. Yellow fever vaccination needs an approved travel clinic. We’ll point you in the right direction if your destination requires it.' },
+  { q: 'Do you give the yellow fever vaccine?', a: 'No. Yellow fever vaccination needs an approved travel clinic. Ask us and we’ll point you in the right direction if your destination requires it.' },
   { q: 'Can I get malaria tablets from the pharmacy?', a: 'Medicines to prevent malaria need a prescription. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can assess your trip and prescribe if appropriate, and we can dispense the script on the spot.' },
   { q: 'Where can I check health advice for my destination?', a: '<a href="https://www.smartraveller.gov.au/" rel="noopener">Smartraveller</a> has up-to-date destination advice from the Australian Government, and our pharmacists can talk through what it means for you.' },
 ];
@@ -16,17 +16,17 @@ const faqs = [
 
 <ServicePage
   service={service}
-  title="Travel Vaccines & Travel Health | Priceline Pacific Fair"
-  description="Heading overseas? Get travel vaccines, travel health advice and a travel kit sorted at Priceline Pacific Fair, Broadbeach. Walk in or book ahead, ages 5 and up."
+  title="Travel Vaccines Gold Coast | Priceline Pacific Fair"
+  description="Heading overseas? Get travel vaccines, advice and a travel health kit at Priceline Pacific Fair, Broadbeach. Walk in or book online, ages 5 and over."
   h1="Travel health and travel vaccinations at Pacific Fair"
-  lead="Heading overseas from the Gold Coast? Our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach can help you work out which travel vaccines you may need, pack a sensible travel health kit, and make sure your regular medicines travel with you. Walk in, or book online, ideally 6 to 8 weeks before you fly."
+  lead="Yes, you can get most travel vaccines at Priceline Pharmacy Pacific Fair in Broadbeach, including hepatitis A and B, typhoid, cholera, Japanese encephalitis and polio, for anyone aged 5 and over. Most are private vaccines, and you’ll see prices when you book. Walk in or book online, ideally 6 to 8 weeks before you fly, and we’ll help with a travel health kit and your regular medicines too."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
   dateModified="2026-10-07"
 >
-  <h2>When should I start?</h2>
+  <h2>When should I start planning my travel vaccines?</h2>
   <p>Some vaccines need more than one dose, or take a couple of weeks to give full protection. If you can, talk to us 6 to 8 weeks before you leave. Leaving it late? Come in anyway. Some protection is better than none, and we can tell you what’s still possible.</p>
 
   <h2>Which travel vaccines do you offer?</h2>

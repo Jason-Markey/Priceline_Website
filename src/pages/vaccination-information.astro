@@ -5,12 +5,12 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('vaccination-information')!;
 
 const faqs = [
-  { q: 'Do I need to book a vaccination?', a: 'No. Walk-ins are welcome every day we’re open: scan the QR code at the counter to join the queue. If you’d rather pick a time, you can book online.' },
-  { q: 'Is there a service fee for free government vaccines?', a: 'No. Vaccines funded under the National Immunisation Program are free for eligible people with a Medicare card, and we don’t charge a fee to give them.' },
-  { q: 'Can I have more than one vaccine at the same visit?', a: 'Often, yes. Your pharmacist will check which vaccines can be given together.' },
-  { q: 'What if I feel unwell on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, it’s best to wait until you’re well. Ask us if you’re not sure.' },
+  { q: 'Do I need to book a vaccination?', a: 'No. Walk in any day we’re open and scan the QR code at the counter to join the queue. If you’d rather pick a time, book online.' },
+  { q: 'Is there a service fee for free government vaccines?', a: 'No. Vaccines funded under the National Immunisation Program are free for eligible people with a Medicare card, and we don’t charge a fee to give them. Bring your Medicare card and we’ll check your eligibility.' },
+  { q: 'Can I have more than one vaccine at the same visit?', a: 'Often, yes. Tell us what’s due and your pharmacist will check which vaccines can be given together.' },
+  { q: 'What if I feel unwell on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, wait until you’re well. Not sure? Call us and ask.' },
   { q: 'Are there side effects?', a: 'A sore arm, tiredness or a mild temperature for a day or two are common. If you’re worried about any reaction after leaving the store, contact your GP. In an emergency, call 000.' },
-  { q: 'How long does a vaccination take?', a: 'Allow about 20 minutes. The vaccination itself is quick, and we’ll ask you to stay in store for 15 minutes afterwards.' },
+  { q: 'How long does a vaccination take?', a: 'Allow about 20 minutes. The vaccination itself is quick, and we’ll ask you to stay in store for 15 minutes afterwards. Walk in, or book a time that suits.' },
   { q: 'Will my vaccination be recorded?', a: 'Yes. Every vaccination we give is recorded on the Australian Immunisation Register, so your GP and your myGov immunisation history stay up to date.' },
 ];
 ---
@@ -18,9 +18,9 @@ const faqs = [
 <ServicePage
   service={service}
   title="Vaccinations at Pacific Fair, Broadbeach | Walk-ins Welcome"
-  description="Flu, whooping cough, shingles, COVID-19 and travel vaccines at Pacific Fair, Broadbeach. Walk in or book online. Free government vaccines with no service fee."
+  description="Walk in for flu, COVID-19, whooping cough, shingles and travel vaccines at Priceline Pacific Fair, Broadbeach. Free NIP vaccines, no service fee, ages 5+."
   h1="Vaccinations at Pacific Fair, Broadbeach"
-  lead="Priceline Pharmacy Pacific Fair gives a wide range of vaccines, from your yearly flu shot to vaccines for overseas travel, in a private consultation area. Our pharmacist immunisers vaccinate adults and children aged 5 and over. Walk in any day we’re open, or book a time online."
+  lead="Yes, you can get vaccinated at Priceline Pharmacy Pacific Fair in Broadbeach without an appointment, any day we’re open. Our pharmacist immunisers give flu, COVID-19, whooping cough, shingles, pneumococcal and travel vaccines to adults and children aged 5 and over, in a private consultation area. National Immunisation Program vaccines are free for eligible people with no service fee; walk in, or book a time online."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
@@ -74,9 +74,9 @@ const faqs = [
     <li>A list of your current medicines</li>
   </ul>
 
-  <h2>Travelling overseas?</h2>
-  <p>Some travel vaccines need several doses or take time to work, so start planning 6 to 8 weeks before you fly if you can. See our <a href="/travel-health/">travel health</a> page.</p>
+  <h2>Which vaccines do I need for overseas travel?</h2>
+  <p>It depends on where you’re going. Some travel vaccines need several doses or take time to work, so start planning 6 to 8 weeks before you fly if you can. See our <a href="/travel-health/">travel health</a> page, or book a travel consultation online.</p>
 
   <h2>Which vaccines are recommended in pregnancy?</h2>
-  <p>Whooping cough and flu vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and both are free under the NIP. Talk to your pharmacist, GP or midwife about timing.</p>
+  <p>Whooping cough and flu vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and both are free under the NIP. Talk to your pharmacist, GP or midwife about timing, then walk in or book a time with us.</p>
 </ServicePage>

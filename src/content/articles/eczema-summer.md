@@ -1,7 +1,7 @@
 ---
-title: "Eczema in Summer: Keeping Flare-Ups Under Control"
+title: "Eczema in summer: keeping flare-ups under control"
 description: "Eczema in summer myths vs facts: heat, sweat, pool and beach swimming, sunscreen for sensitive skin and when to see a GP, for humid Gold Coast weather."
-seoTitle: "Eczema in Summer Tips | Priceline Pacific Fair"
+seoTitle: "Eczema in summer tips | Priceline Pacific Fair"
 publishDate: 2027-01-11
 modifiedDate: 2027-01-11
 category: health-advice

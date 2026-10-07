@@ -1,7 +1,7 @@
 ---
-title: "Headache Relief: Your Questions Answered"
+title: "Headache relief: your questions answered"
 description: "Headache relief explained: tension-type triggers like Gold Coast heat and dehydration, safe pain relief, medication-overuse headache and when to call 000."
-seoTitle: "Headache Relief: Types & What Helps | Priceline Pacific Fair"
+seoTitle: "Headache relief: types & what helps | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

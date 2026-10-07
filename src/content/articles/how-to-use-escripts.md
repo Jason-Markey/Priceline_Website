@@ -1,7 +1,7 @@
 ---
-title: "eScripts, Active Script Lists and Scripts on File, Explained"
+title: "eScripts, Active Script Lists and scripts on file, explained"
 description: "How to use eScripts, set up an Active Script List and keep paper scripts on file, plus what to do if you lose a token. Plain guide from Pacific Fair."
-seoTitle: "How to Use eScripts, Explained | Priceline Pacific Fair"
+seoTitle: "How to use eScripts, explained | Priceline Pacific Fair"
 publishDate: 2026-11-16
 modifiedDate: 2026-11-16
 category: prescriptions

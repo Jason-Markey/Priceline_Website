@@ -1,7 +1,7 @@
 ---
-title: "Heat Exhaustion vs Heatstroke: Symptoms, First Aid, Hydration"
+title: "Heat exhaustion vs heatstroke: symptoms, first aid, hydration"
 description: "Heat exhaustion symptoms vs heatstroke, step-by-step first aid, when to call 000 and hydration tips for a humid Gold Coast summer, from our local pharmacy."
-seoTitle: "Heat Exhaustion Symptoms vs Heatstroke: First Aid Guide"
+seoTitle: "Heat exhaustion symptoms vs heatstroke: first aid guide"
 publishDate: 2026-12-01
 modifiedDate: 2026-12-01
 category: health-advice

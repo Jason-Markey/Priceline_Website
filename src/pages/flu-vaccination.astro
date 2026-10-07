@@ -7,19 +7,19 @@ const service = serviceBySlug('flu-vaccination')!;
 const faqs = [
   { q: 'Do I need to book a flu shot?', a: 'No. Walk in any day we’re open and scan the QR code at the counter to join the queue, or book a time online if you’d rather not wait.' },
   { q: 'Can children get a flu shot here?', a: 'Our pharmacists vaccinate children aged 5 and over. Children under 5 can see the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, where the vaccine is free for them under the National Immunisation Program.' },
-  { q: 'Can I get a flu shot if I’m pregnant?', a: 'Yes. The flu vaccine is recommended at any stage of pregnancy and is free under the National Immunisation Program. It helps protect you and your baby in the first months of life.' },
+  { q: 'Can I get a flu shot if I’m pregnant?', a: 'Yes. The flu vaccine is recommended at any stage of pregnancy and is free under the National Immunisation Program. It helps protect you and your baby in the first months of life. Walk in, or book a time online.' },
   { q: 'Can the flu vaccine give me the flu?', a: 'No. The flu vaccines we give are inactivated, so they can’t cause influenza. Some people have a sore arm or feel tired for a day or two, which is the immune system responding.' },
-  { q: 'How long does the flu vaccine take to work?', a: 'Protection usually develops within about two weeks of the vaccination, which is why it’s worth getting it before flu season rather than during it.' },
-  { q: 'What if I have a cold on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, it’s best to wait until you’re well. Ask us if you’re not sure.' },
+  { q: 'How long does the flu vaccine take to work?', a: 'Protection usually develops within about two weeks of the vaccination, which is why it’s worth getting it before flu season rather than during it. Walk in any day we’re open.' },
+  { q: 'What if I have a cold on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, wait until you’re well. Not sure? Call us and ask.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Flu Vaccination Broadbeach | Priceline Pacific Fair"
-  description="Yearly flu shot at Priceline Pharmacy Pacific Fair, Broadbeach. Walk in or book online, ages 5 and over. Free for eligible people under the NIP, no service fee."
+  title="Walk-In Flu Shots Broadbeach | Priceline Pacific Fair"
+  description="Get your yearly flu shot at Priceline Pacific Fair, Broadbeach. Walk in or book online, ages 5 and over. Free for eligible people under the NIP, no fee."
   h1="Flu vaccination at Pacific Fair, Broadbeach"
-  lead="Yes, you can get your flu shot at Priceline Pharmacy Pacific Fair in Broadbeach without seeing a doctor. Our pharmacist immunisers vaccinate anyone aged 5 and over, and the vaccine is free for eligible people under the National Immunisation Program, with no service fee. Walk in or book online."
+  lead="Yes, you can get your flu shot at Priceline Pharmacy Pacific Fair in Broadbeach without an appointment or a doctor’s visit. Our pharmacist immunisers vaccinate anyone aged 5 and over, and the vaccine is free for eligible people under the National Immunisation Program, with no service fee. Walk in any day we’re open, or book a time online."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
@@ -40,7 +40,7 @@ const faqs = [
   <h2>How much does it cost if I’m not eligible?</h2>
   <p>If you’re not covered by the NIP, a private fee applies. You’ll see the current price when you <a href={site.links.book} rel="noopener">book online</a>, or ask us at the counter.</p>
 
-  <h2>When is the best time to get a flu shot?</h2>
+  <h2>When should I get my flu shot?</h2>
   <p>Flu season in Australia usually runs through winter, so most people get their vaccine in autumn, before it starts. Protection takes about two weeks to develop. If you’ve missed the start of the season, it’s still worth getting vaccinated, as flu can circulate for months.</p>
 
   <h2>Why do I need a flu shot every year?</h2>

@@ -1,7 +1,7 @@
 ---
-title: "Travel Health Checklist: What to Sort 6–8 Weeks Before You Fly"
+title: "Travel health checklist: what to sort 6–8 weeks before you fly"
 description: "Our travel health checklist counts down from 8 weeks to the day before you fly: vaccines, scripts, PBS rules and a travel kit, sorted at Pacific Fair."
-seoTitle: "Travel Health Checklist | Priceline Pacific Fair"
+seoTitle: "Travel health checklist | Priceline Pacific Fair"
 publishDate: 2026-10-27
 modifiedDate: 2026-10-27
 category: travel

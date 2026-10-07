@@ -5,22 +5,22 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('national-diabetes-services-scheme')!;
 
 const faqs = [
-  { q: 'What is the NDSS?', a: 'The National Diabetes Services Scheme is an Australian Government initiative, administered by Diabetes Australia, that helps people with diabetes access subsidised products and support.' },
-  { q: 'How do I register for the NDSS?', a: 'Registration needs a form signed by your doctor or a credentialled diabetes educator. The GPs at Help Medical, inside our store, can help you with this.' },
-  { q: 'What do I need to bring to collect NDSS supplies?', a: 'Just show your NDSS card or number at the counter. No appointment is needed.' },
-  { q: 'What NDSS supplies can I collect at Pacific Fair?', a: 'Blood glucose test strips, urine and blood ketone test strips, pen needles and syringes, insulin pump consumables, and continuous and flash glucose monitoring products for eligible people.' },
-  { q: 'Do you stock supplies for my meter?', a: 'We stock products for all the major meter and monitoring brands. If your product isn’t on the shelf, we can order it in.' },
-  { q: 'Can I get my diabetes medicines through the NDSS?', a: 'No. Medicines for diabetes are prescription medicines, so bring or send us your prescription as usual. The NDSS covers supplies such as test strips and needles.' },
-  { q: 'Can I check my risk of type 2 diabetes?', a: 'Yes. You can do a free AUSDRISK questionnaire at the Health Station inside our store, with a pharmacist nearby to talk through the result.' },
+  { q: 'What is the NDSS?', a: 'The National Diabetes Services Scheme is an Australian Government initiative, administered by Diabetes Australia, that helps people with diabetes access subsidised products and support. Priceline Pharmacy Pacific Fair is an NDSS access point, so registered people can collect supplies from us.' },
+  { q: 'How do I register for the NDSS?', a: 'Registration needs a form signed by your doctor or a credentialled diabetes educator. The GPs at Help Medical, an independent general practice located inside our store, can help you with this.' },
+  { q: 'What do I need to bring to collect NDSS supplies?', a: 'Just show your NDSS card or number at the counter. No appointment is needed; come in any day we’re open.' },
+  { q: 'What NDSS supplies can I collect at Pacific Fair?', a: 'Blood glucose test strips, urine and blood ketone test strips, pen needles and syringes, insulin pump consumables, and continuous and flash glucose monitoring products for eligible people. Call us if you’d like to check we have your product in stock.' },
+  { q: 'Do you stock supplies for my meter?', a: 'We stock products for all the major meter and monitoring brands. If your product isn’t on the shelf, ask us and we’ll order it in.' },
+  { q: 'Can I get my diabetes medicines through the NDSS?', a: 'No. The NDSS covers supplies such as test strips and needles. Medicines for diabetes are prescription medicines, so bring us your prescription or send your eScript ahead as usual.' },
+  { q: 'Can I check my risk of type 2 diabetes?', a: 'Yes. Do a free AUSDRISK questionnaire at the Health Station inside our store any day we’re open, with a pharmacist nearby to talk through the result.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="NDSS & Diabetes Supplies Broadbeach | Priceline Pacific Fair"
-  description="Collect NDSS diabetes supplies at Pacific Fair, Broadbeach, including test strips, glucose sensors and needles, with pharmacist advice on managing diabetes."
+  description="Collect subsidised NDSS diabetes supplies at Priceline Pacific Fair, Broadbeach: test strips, glucose sensors and pen needles. No appointment needed."
   h1="Diabetes supplies and the NDSS at Pacific Fair"
-  lead="Priceline Pharmacy Pacific Fair in Broadbeach is an access point for the National Diabetes Services Scheme (NDSS). If you’re registered, you can collect subsidised diabetes supplies from us and get advice from our pharmacists about managing your diabetes day to day."
+  lead="Yes, Priceline Pharmacy Pacific Fair in Broadbeach is an NDSS access point, so if you’re registered with the National Diabetes Services Scheme you can collect subsidised test strips, pen needles, pump consumables and glucose monitoring products from us. Just show your NDSS card or number at the counter; no appointment is needed. Our pharmacists can also help with meters, insulin storage and sick-day advice."
   faqs={faqs}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
@@ -29,10 +29,10 @@ const faqs = [
   <h2>What is the NDSS?</h2>
   <p>The NDSS is an Australian Government initiative, administered by Diabetes Australia, that helps people with diabetes access subsidised products and support. You can learn more at <a href="https://www.ndss.com.au/" rel="noopener">ndss.com.au</a>.</p>
 
-  <h2>How do I register?</h2>
+  <h2>How do I register for the NDSS?</h2>
   <p>Registration needs a form signed by your doctor or credentialled diabetes educator. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can help. Once you’re registered, just show your NDSS card or number when you collect supplies.</p>
 
-  <h2>Which supplies can I collect?</h2>
+  <h2>Which NDSS supplies can I collect at Pacific Fair?</h2>
   <ul>
     <li>blood glucose test strips</li>
     <li>urine and blood ketone test strips</li>
@@ -49,7 +49,7 @@ const faqs = [
     <li>storing insulin safely, including in Gold Coast summer heat</li>
     <li>sick-day advice and what to do if your levels are out of range</li>
     <li>checking interactions with other medicines</li>
-    <li>safe disposal of sharps</li>
+    <li>disposing of sharps properly</li>
   </ul>
   <p>There’s no appointment needed. Ask at the counter, or call us on <a href={site.phoneHref}>{site.phone}</a> if you’d like to check we have your product in stock before you visit.</p>
 

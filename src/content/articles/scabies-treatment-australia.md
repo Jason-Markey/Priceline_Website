@@ -1,7 +1,7 @@
 ---
-title: "Scabies Treatment Australia: Your Questions Answered"
+title: "Scabies treatment in Australia: your questions answered"
 description: "Scabies treatment in Australia: pharmacy and GP options, treating your whole household, washing bedding, and advice for Gold Coast share houses."
-seoTitle: "Scabies Treatment Australia | Priceline Pacific Fair"
+seoTitle: "Scabies treatment in Australia | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

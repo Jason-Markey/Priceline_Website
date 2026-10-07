@@ -5,10 +5,10 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('hormonal-contraceptive-pill')!;
 
 const faqs = [
-  { q: 'Do I need a script from my doctor?', a: 'No. If you’re eligible, the pharmacist can provide the prescription as part of the consultation.' },
-  { q: 'I’m already on the pill and my script has run out. Can you help?', a: 'Yes. This service can be used to continue contraception you’re already using, if you’re eligible.' },
-  { q: 'Is there a Medicare rebate for the consultation?', a: 'No. There’s no Medicare rebate for pharmacist consultations. The consultation costs $35, and your contraception is charged separately, with many types listed on the PBS.' },
-  { q: 'Can you give the contraceptive injection in store?', a: 'Our trained pharmacists can prescribe the contraceptive injection. Ask us how the injection is given when you book.' },
+  { q: 'Do I need a script from my doctor?', a: 'No. If you’re eligible, the pharmacist writes the prescription as part of the consultation and dispenses it on the spot. Call us to book.' },
+  { q: 'I’m already on the pill and my script has run out. Can you help?', a: 'Yes. This service can be used to continue contraception you’re already using, if you’re eligible. Call us to book a consultation.' },
+  { q: 'Is there a Medicare rebate for the consultation?', a: 'No. There’s no Medicare rebate for pharmacist consultations. The consultation costs $35, and your contraception is charged separately, with many types listed on the PBS. Ask us about the cost of your option when you book.' },
+  { q: 'Can you give the contraceptive injection in store?', a: 'Our trained pharmacists can prescribe the contraceptive injection. Ask us how the injection is given when you call to book.' },
   { q: 'Can I get an implant or IUD here?', a: 'Not from the pharmacy. For longer-acting options we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, offer IUD insertion.' },
   { q: 'Can I get emergency contraception?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without an appointment. Ask at the counter and we’ll talk with you privately. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
 ];
@@ -16,10 +16,10 @@ const faqs = [
 
 <ServicePage
   service={service}
-  title="Contraception from a Pharmacist | Broadbeach Pharmacy"
-  description="Start, change or continue the pill, vaginal ring or contraceptive injection with a trained pharmacist at Pacific Fair, Broadbeach. $35 consultation."
+  title="Contraception Consultations, $35 | Priceline Pacific Fair"
+  description="Start, change or continue the pill, vaginal ring or contraceptive injection with a trained pharmacist at Priceline Pacific Fair, Broadbeach. $35, no GP visit."
   h1="Contraception consultations with a pharmacist at Pacific Fair"
-  lead="In Queensland, specially trained pharmacists can help women aged 16 and over start, change or continue their contraception without first seeing a GP. At Priceline Pharmacy Pacific Fair in Broadbeach, you can have this consultation in our private consultation room for $35. Please call first, as trained pharmacists are usually available Monday to Friday."
+  lead="Yes, in Queensland a trained pharmacist can prescribe the pill, the vaginal ring or the contraceptive injection for women aged 16 and over, without a GP visit. At Priceline Pharmacy Pacific Fair in Broadbeach the consultation costs $35, takes 10 to 20 minutes and happens in our private consultation room. Please call first, as trained pharmacists are usually available Monday to Friday."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
@@ -56,7 +56,7 @@ const faqs = [
   <h2>How do I book?</h2>
   <p>Call us on <a href={site.phoneHref}>{site.phone}</a> to book. We have several trained pharmacists, usually available Monday to Friday, but consultations take a little longer and depend on a trained pharmacist being on shift, so please call first.</p>
 
-  <h2>When will we refer you to a GP?</h2>
+  <h2>When would a GP be the better option?</h2>
   <p>Sometimes a GP is the better next step. For example, if something in your health history means a method may not be suitable for you, if your blood pressure reading is high, or if you’d like an implant or IUD.</p>
 
   <h2>Is the consultation private?</h2>

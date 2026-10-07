@@ -5,22 +5,22 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('prescriptions')!;
 
 const faqs = [
-  { q: 'Do you accept eScripts?', a: 'Yes. Show us the QR code in your SMS or email at the prescription counter, or send it ahead through the Priceline Pharmacy app or MedAdvisor.' },
-  { q: 'Can I fill a hospital prescription here?', a: 'Yes. We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP.' },
-  { q: 'Can you fill a prescription from another state?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be filled here, so visitors to the Gold Coast are welcome.' },
-  { q: 'Can you fill a prescription written overseas?', a: 'No. Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate.' },
-  { q: 'Do you dispense veterinary prescriptions?', a: 'Yes. Bring in your pet’s script from your vet and we’ll dispense it where the medicine is one we can supply.' },
-  { q: 'Can you order in a medicine you don’t have?', a: 'Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us with the details and we’ll let you know how quickly we can get it in.' },
-  { q: 'Do you deliver prescriptions?', a: 'We don’t offer a regular prescription delivery service, and prescription medicines can’t be ordered through Uber Eats. In an urgent situation, call us: if a team member is available we may be able to arrange a delivery for a fee, but we can’t guarantee it.' },
+  { q: 'Do you accept eScripts?', a: 'Yes. Show us the QR code in your SMS or email at the prescription counter, or send it ahead through the Priceline Pharmacy app or MedAdvisor and collect it when it suits you.' },
+  { q: 'Can I fill a hospital prescription here?', a: 'Yes. We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Bring it to the prescription counter at the back of the store.' },
+  { q: 'Can you fill a prescription from another state?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be filled here, so visitors to the Gold Coast are welcome. Bring your Medicare card if you have one.' },
+  { q: 'Can you fill a prescription written overseas?', a: 'No. Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate, and we can fill it a few steps away.' },
+  { q: 'Do you dispense veterinary prescriptions?', a: 'Yes. Bring in your pet’s script from your vet and we’ll dispense it where the medicine is one we can supply or order in.' },
+  { q: 'Can you order in a medicine you don’t have?', a: 'Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on ' + site.phone + ' with the details and we’ll tell you how quickly we can get it in.' },
+  { q: 'Do you deliver prescriptions?', a: 'We don’t offer a regular prescription delivery service, and prescription medicines can’t be ordered through Uber Eats. In an urgent situation, call us: if a team member is available we may be able to arrange a delivery for a fee, but we can’t promise it.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="Prescriptions & eScripts Broadbeach | Priceline Pacific Fair"
-  description="Fill paper scripts and eScripts fast at Pacific Fair, Broadbeach. Send scripts ahead with the app; hospital, interstate and vet scripts; hard-to-find medicines."
+  description="Scripts ready in minutes at Priceline Pacific Fair, Broadbeach. Send your eScript ahead with the app or walk in. Hospital, interstate and vet scripts welcome."
   h1="Prescriptions at Pacific Fair, Broadbeach"
-  lead="Filling a script at Priceline Pharmacy Pacific Fair is quick and simple. Bring in a paper script, show us an eScript on your phone, or send it ahead through the app so it’s ready when you arrive. Our pharmacists will take the time to answer your questions."
+  lead="Yes, you can fill any valid Australian prescription at Priceline Pharmacy Pacific Fair in Broadbeach, with most scripts ready in minutes and no appointment needed. Bring in a paper script, show us an eScript on your phone, or send it ahead through the app so it’s waiting when you arrive. There’s no fee for dispensing or for sending your script ahead."
   faqs={faqs}
   primaryCta={{ label: 'Send a script with the app', href: '/download-the-priceline-app/', event: 'send-script' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
@@ -35,7 +35,7 @@ const faqs = [
     <li>Submit your order and we’ll let you know when it’s ready to collect.</li>
   </ol>
 
-  <h2>Other ways to fill your prescription</h2>
+  <h2>What other ways can I fill my prescription?</h2>
   <h3>Show us your eScript in store</h3>
   <p>Come to the prescription counter at the back of the store and show us the QR code in your SMS or email.</p>
   <h3>Paper scripts</h3>
@@ -55,7 +55,7 @@ const faqs = [
   <h2>Can you get hard-to-find medicines?</h2>
   <p>We work with several wholesalers and can order in most medicines, including specialised and less common ones. If a medicine is short nationally, we’ll let you know your options and speak to your doctor if needed. Call us on <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a> to check availability.</p>
 
-  <h2>Never run out</h2>
+  <h2>How do I avoid running out?</h2>
   <ul>
     <li><a href="/download-the-priceline-app/"><strong>Priceline Pharmacy app.</strong></a> Order your scripts and get reminders when repeats are due.</li>
     <li><a href="/medication-packing/"><strong>Medication packing.</strong></a> Your medicines organised by day and time in weekly blister packs.</li>
@@ -63,8 +63,8 @@ const faqs = [
   </ul>
 
   <h2>Need a new script?</h2>
-  <p>The GPs at <a href="/help-medical/">Help Medical</a> are located inside our store, so you can see a doctor and fill your prescription in one visit.</p>
+  <p>The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you, and you can fill the prescription a few steps away in the same visit.</p>
 
   <h2>Questions about your medicine?</h2>
-  <p>Ask us anything: how to take it, side effects, or whether it’s safe with your other medicines, vitamins or supplements. There’s no appointment needed.</p>
+  <p>Ask us anything: how to take it, what side effects to expect, or whether it suits your other medicines, vitamins and supplements. There’s no appointment needed; just ask at the counter or call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
 </ServicePage>

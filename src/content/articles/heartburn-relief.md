@@ -1,7 +1,7 @@
 ---
-title: "Heartburn Relief and GORD: What Actually Helps"
+title: "Heartburn relief and GORD: what actually helps"
 description: "Heartburn relief from our Broadbeach pharmacists: common triggers, eating and sleep tips, pharmacy reflux medicines, and when chest pain means call 000."
-seoTitle: "Heartburn Relief & GORD Tips | Priceline Pacific Fair"
+seoTitle: "Heartburn relief & GORD tips | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice

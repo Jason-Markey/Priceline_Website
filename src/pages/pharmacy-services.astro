@@ -15,16 +15,16 @@ const faqs = [
   { q: 'Do I need to book?', a: 'For most services, no. Vaccinations, health checks, passport photos, ear piercing and pharmacist advice are all walk-in. Contraception consultations need a trained pharmacist, so please call first; UTI consultations are walk-in. See <a href="/appointments/">how to book each service</a>.' },
   { q: 'Is there a doctor in the store?', a: 'Yes. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store, with bulk billing for eligible patients and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead is the surest way to be seen.' },
   { q: 'Do you deliver?', a: 'Yes, for everyday health and beauty products, through Uber Eats across the Gold Coast. Prescription medicines can’t be ordered through Uber Eats and we don’t offer a regular prescription delivery service. See <a href="/delivery/">delivery options</a> and <a href="/click-and-collect/">Click &amp; Collect</a>.' },
-  { q: 'Where are you?', a: 'On the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side next to Proud Smile, near the outdoor entrance from the river. See <a href="/visit-us/">opening hours and directions</a>.' },
+  { q: 'Where are you?', a: 'On the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side next to Proud Smile, near the outdoor entrance from the river. We’re open 7 days and until 9pm on Thursdays. See <a href="/visit-us/">opening hours and directions</a>.' },
 ];
 ---
 
 <ContentPage
   title="Pharmacy Services in Broadbeach | Priceline Pacific Fair"
-  description="Vaccinations, Webster packs, contraceptive pill consults, health checks, passport photos, ear piercing and more at Priceline Pacific Fair, Broadbeach."
+  description="Walk-in vaccinations, Webster packs, contraception and UTI consults, free health checks, passport photos and ear piercing at Priceline Pacific Fair."
   path="/pharmacy-services/"
   h1="Pharmacy services at Pacific Fair"
-  lead="Priceline Pharmacy Pacific Fair offers far more than prescriptions. Here is everything our pharmacists and team can help with at our store on the ground floor of Pacific Fair Shopping Centre, Broadbeach. Most services don’t need an appointment; just walk in."
+  lead="Priceline Pharmacy Pacific Fair in Broadbeach offers vaccinations, Webster packs, medication reviews, contraception and UTI consultations, free health checks, passport photos and ear piercing, as well as prescriptions. Most services are walk-in with no appointment needed. Here’s everything our pharmacists and team can help with."
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Pharmacy services', href: '/pharmacy-services/' }]}
   faqs={faqs}
   wide
@@ -40,9 +40,9 @@ const faqs = [
   ))}
 
   <section class="measure">
-    <h2>Other things we can help with</h2>
+    <h2>What else can we help with?</h2>
     <ul>
-      <li><strong>Return unwanted medicines.</strong> Bring back expired or unwanted medicines for free, safe disposal through the national Return Unwanted Medicines program.</li>
+      <li><strong>Return unwanted medicines.</strong> Bring back expired or unwanted medicines for free disposal through the national Return Unwanted Medicines program.</li>
       <li><strong>Absence-from-work certificates.</strong> Our pharmacists can issue certificates for short absences. Ask at the counter.</li>
       <li><strong>Veterinary prescriptions.</strong> We dispense scripts written by your vet. See <a href="/prescriptions/">prescriptions</a>.</li>
       <li><strong>Rapid antigen tests.</strong> We sell rapid antigen tests in store. We no longer offer supervised testing.</li>
@@ -50,8 +50,8 @@ const faqs = [
     </ul>
     <p>Looking for a hearing test or ear wax removal? Simply Hearing is elsewhere in Pacific Fair; ask at our counter for directions.</p>
 
-    <h2>Book or ask</h2>
-    <p><a href="/appointments/">See how to book each service</a>, call <a href={site.phoneHref}>{site.phone}</a>, or simply ask at the counter.</p>
+    <h2>Not sure what you need?</h2>
+    <p>Ask a pharmacist. <a href="/appointments/">See how to book each service</a>, call <a href={site.phoneHref}>{site.phone}</a>, or simply ask at the counter.</p>
   </section>
   <p class="disclaimer">Always read the label and follow the directions for use. This information is general in nature and isn’t a substitute for personal advice from your pharmacist or doctor.</p>
 </ContentPage>

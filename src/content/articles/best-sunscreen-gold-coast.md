@@ -1,7 +1,7 @@
 ---
-title: "How to Choose the Best Sunscreen for Gold Coast Conditions"
+title: "How to choose the right sunscreen for Gold Coast conditions"
 description: "A buyer's checklist for the best sunscreen on the Gold Coast: SPF50+, broad spectrum, water resistance, humid-weather textures, kids and makeup."
-seoTitle: "Best Sunscreen for the Gold Coast | Priceline Pacific Fair"
+seoTitle: "Which sunscreen for the Gold Coast? | Priceline Pacific Fair"
 publishDate: 2026-10-13
 modifiedDate: 2026-10-13
 category: skincare-beauty

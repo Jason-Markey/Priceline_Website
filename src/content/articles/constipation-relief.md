@@ -1,7 +1,7 @@
 ---
-title: "Constipation Relief: A Pharmacist’s Checklist"
+title: "Constipation relief: a pharmacist’s checklist"
 description: "Constipation relief that works: fibre, fluids, toilet position and laxative types explained, plus tips for Gold Coast holidays and when to see a GP."
-seoTitle: "Constipation Relief: What Helps | Priceline Pacific Fair"
+seoTitle: "Constipation relief: what helps | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: health-advice
