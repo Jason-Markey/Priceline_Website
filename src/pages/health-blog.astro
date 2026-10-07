@@ -1,13 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
+import { getLiveArticles, byNewest } from '../lib/articles';
 import ContentPage from '../layouts/ContentPage.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { site } from '../data/site';
 import { categories } from '../data/categories';
 
-const articles = (await getCollection('articles'))
-  .filter((a) => !a.data.draft)
-  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+const articles = (await getLiveArticles()).sort(byNewest);
 
 const cats = Object.entries(categories)
   .map(([slug, c]) => ({ slug, ...c, count: articles.filter((a) => a.data.category === slug).length }))

@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getLiveArticles } from '../lib/articles';
 import { site, hoursRows } from '../data/site';
 import { services } from '../data/services';
 
 /** llms.txt: a plain-text map of the site for AI answer engines (https://llmstxt.org). */
 export const GET: APIRoute = async () => {
-  const posts = (await getCollection('articles')).filter((a) => !a.data.draft).sort((a, b) => a.data.title.localeCompare(b.data.title));
+  const posts = (await getLiveArticles()).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const hours = hoursRows(site.hours).map((r) => `${r.label}: ${r.value}`).join('; ');
   const hm = hoursRows(site.helpMedical.hours).map((r) => `${r.label}: ${r.value}`).join('; ');
   const lines = [

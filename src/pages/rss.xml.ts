@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { getLiveArticles, byNewest } from '../lib/articles';
 import { site } from '../data/site';
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 export const GET: APIRoute = async () => {
-  const posts = (await getCollection('articles')).filter((a) => !a.data.draft).sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+  const posts = (await getLiveArticles()).sort(byNewest);
   const items = posts.map((p) => {
     const url = `${site.url}/${p.id.replace(/\.md$/, '')}/`;
     return `<item><title>${esc(p.data.title)}</title><link>${url}</link><guid isPermaLink="true">${url}</guid><pubDate>${p.data.publishDate.toUTCString()}</pubDate><description>${esc(p.data.description)}</description></item>`;

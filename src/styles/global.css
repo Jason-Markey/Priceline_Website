@@ -169,6 +169,8 @@ th { color: var(--charcoal); background: var(--bg); }
 .prose img { border-radius: var(--radius-lg); margin: var(--s6) 0; }
 .prose blockquote { margin: var(--s6) 0; padding: var(--s4) var(--s6); border-left: 4px solid var(--pink); background: var(--surface); }
 .prose .lead { font-size: var(--fs-lg); color: var(--charcoal); }
+.prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s5); }
+.prose table th:first-child, .prose table td:first-child { white-space: nowrap; }
 
 /* ---------- details / FAQ ---------- */
 .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s3); }

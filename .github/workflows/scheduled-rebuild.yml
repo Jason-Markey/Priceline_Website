@@ -1,0 +1,28 @@
+# Rebuilds the site every Monday 6:00am Brisbane (Sunday 20:00 UTC) and commits dist/ if anything changed.
+# This is what publishes scheduled articles (publishDate in the future at the time they were added).
+# Pushing to main triggers the cPanel cron deploy as usual.
+name: Scheduled rebuild
+on:
+  schedule:
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: python3 tools/check-build.py
+      - name: Commit dist if changed
+        run: |
+          git config user.name "scheduled-rebuild"
+          git config user.email "noreply@pricelinepf.com.au"
+          git add -A dist
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "Scheduled rebuild: publish due articles" && git push; fi

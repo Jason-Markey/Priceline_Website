@@ -117,6 +117,7 @@ const schema = [
 </Base>
 
 <style>
+  .article-layout > * { min-width: 0; }
   .article-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
   @media (min-width: 1024px) { .article-layout { grid-template-columns: minmax(0, var(--measure)) 320px; gap: var(--s16); } }
   .meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s4); font-size: var(--fs-sm); color: var(--text-muted); margin-bottom: var(--s5); }

@@ -52,6 +52,7 @@ const hasSide = Astro.slots.has('side');
 </Base>
 
 <style>
+  .content-layout > * { min-width: 0; }
   .content-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
   @media (min-width: 1024px) { .content-layout--side { grid-template-columns: minmax(0, var(--measure)) 340px; gap: var(--s16); } }
   .content-side :global(h2) { font-size: 1.0625rem; margin: 0 0 var(--s3); }

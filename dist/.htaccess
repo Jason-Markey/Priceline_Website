@@ -23,8 +23,7 @@ RewriteRule ^book-a-hormonal-contraceptive-pill-appointment/?$ /hormonal-contrac
 # --- WordPress leftovers: taxonomy, feeds, author, paging, search, attachments ---
 RewriteRule ^tag/.*$ /health-blog/ [R=301,L]
 RewriteRule ^author/.*$ /about-us/ [R=301,L]
-RewriteRule ^category/health-advice/?$ - [L]
-RewriteRule ^category/skincare-beauty/?$ - [L]
+RewriteRule ^category/(health-advice|skincare-beauty|prescriptions|vaccinations|travel|local-guides)/?$ - [L]
 RewriteRule ^category/.*$ /health-blog/ [R=301,L]
 RewriteRule ^(.+)/feed/?$ /rss.xml [R=301,L]
 RewriteRule ^feed/?$ /rss.xml [R=301,L]

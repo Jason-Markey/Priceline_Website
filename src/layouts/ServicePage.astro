@@ -83,6 +83,7 @@ const schema = [
 </Base>
 
 <style>
+  .svc-layout > * { min-width: 0; }
   .svc-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
   @media (min-width: 1024px) { .svc-layout { grid-template-columns: minmax(0, var(--measure)) 340px; gap: var(--s16); } }
   .glance-desktop { display: none; }
