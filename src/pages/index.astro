@@ -5,7 +5,7 @@ import HoursCard from '../components/HoursCard.astro';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 import { faqNode } from '../lib/schema';
-import jason from '../assets/images/jason-hero.jpg';
+import jason from '../assets/images/jason-cutout.png';
 import storeInterior from '../assets/images/store-interior.jpg';
 import scriptsCounter from '../assets/images/scripts-in-counter.jpg';
 import helpMedicalPhoto from '../assets/images/help-medical-reception.jpg';
@@ -63,7 +63,7 @@ const faqs = [
         </ul>
       </div>
       <div class="hero__photo">
-        <Image src={jason} alt="Jason Markey, owner and pharmacist at Priceline Pharmacy Pacific Fair" widths={[360, 540, 720]} sizes="(max-width: 900px) 60vw, 420px" loading="eager" fetchpriority="high" />
+        <Image src={jason} alt="Jason Markey, owner and pharmacist at Priceline Pharmacy Pacific Fair" widths={[400, 600, 800]} sizes="(max-width: 900px) 70vw, 440px" format="webp" loading="eager" fetchpriority="high" />
       </div>
     </div>
   </section>
@@ -209,20 +209,21 @@ const faqs = [
 
   /* Hero */
   .hero { background: var(--pink-pale); overflow: hidden; }
-  .hero__inner { display: grid; gap: var(--s6); align-items: center; padding-top: var(--s8); }
-  .hero__copy { padding-bottom: var(--s8); }
+  .hero__inner { display: grid; gap: var(--s4); padding-top: var(--s8); }
+  .hero__copy { padding-bottom: var(--s2); }
   .hero h1 { font-size: clamp(2rem, 1.3rem + 2.8vw, var(--fs-hero)); margin-bottom: var(--s4); max-width: 18ch; }
   .hero__lead { font-size: var(--fs-lg); color: var(--charcoal); max-width: 52ch; }
   .hero .btn-row { margin-bottom: var(--s5); }
   .hero__quick { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s2) var(--s5); font-size: var(--fs-sm); font-weight: 600; }
   .hero__quick a { color: var(--pink-deep); }
-  .hero__photo { justify-self: center; max-width: 300px; }
-  .hero__photo img { width: 100%; height: auto; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+  /* Cut-out portrait sits on the pink and bleeds off the bottom edge, like the store's banner artwork */
+  .hero__photo { justify-self: center; width: min(70vw, 300px); margin-top: var(--s4); margin-bottom: -4px; }
+  .hero__photo img { width: 100%; height: auto; display: block; }
   @media (min-width: 900px) {
-    .hero__inner { grid-template-columns: 1fr 400px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
+    .hero__inner { grid-template-columns: 1fr 440px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
     .hero__copy { padding-block: var(--s12) var(--s16); align-self: center; }
-    .hero__photo { max-width: none; }
-    .hero__photo img { max-height: 520px; width: auto; margin-left: auto; }
+    .hero__photo { width: 440px; margin: 0; justify-self: end; }
+    .hero__photo img { max-height: 560px; width: auto; margin-left: auto; }
   }
 
   /* Why */
