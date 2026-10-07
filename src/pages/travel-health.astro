@@ -1,0 +1,72 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('travel-health')!;
+
+const faqs = [
+  { q: 'Do I need to book for travel vaccines?', a: 'No. You can walk in, but booking online helps us set aside enough time, as travel consultations can take 20 to 30 minutes.' },
+  { q: 'How much do travel vaccines cost?', a: 'Most travel vaccines aren’t covered by the National Immunisation Program, so a private fee usually applies. You’ll see current prices when you book online, or ask us.' },
+  { q: 'Can you vaccinate children before travel?', a: 'Our pharmacists vaccinate people aged 5 and over. For younger children, the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.' },
+  { q: 'Do you give the yellow fever vaccine?', a: 'No. Yellow fever vaccination needs an approved travel clinic. We’ll point you in the right direction if your destination requires it.' },
+  { q: 'Can I get malaria tablets from the pharmacy?', a: 'Medicines to prevent malaria need a prescription. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can assess your trip and prescribe if appropriate, and we can dispense the script on the spot.' },
+  { q: 'Where can I check health advice for my destination?', a: '<a href="https://www.smartraveller.gov.au/" rel="noopener">Smartraveller</a> has up-to-date destination advice from the Australian Government, and our pharmacists can talk through what it means for you.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Travel Vaccines & Travel Health | Priceline Pacific Fair"
+  description="Heading overseas? Get travel vaccines, travel health advice and a travel kit sorted at Priceline Pacific Fair, Broadbeach. Walk in or book ahead, ages 5 and up."
+  h1="Travel health and travel vaccinations at Pacific Fair"
+  lead="Heading overseas from the Gold Coast? Our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach can help you work out which travel vaccines you may need, pack a sensible travel health kit, and make sure your regular medicines travel with you. Walk in, or book online, ideally 6 to 8 weeks before you fly."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  dateModified="2026-10-07"
+>
+  <h2>When should I start?</h2>
+  <p>Some vaccines need more than one dose, or take a couple of weeks to give full protection. If you can, talk to us 6 to 8 weeks before you leave. Leaving it late? Come in anyway. Some protection is better than none, and we can tell you what’s still possible.</p>
+
+  <h2>Which travel vaccines do you offer?</h2>
+  <p>Depending on your destination and health, you may need protection against:</p>
+  <ul>
+    <li>hepatitis A and hepatitis B</li>
+    <li>typhoid</li>
+    <li>cholera</li>
+    <li>Japanese encephalitis</li>
+    <li>polio</li>
+    <li>measles, mumps and rubella (if you’re not fully vaccinated)</li>
+    <li>flu, and whooping cough boosters</li>
+  </ul>
+  <p>Most travel vaccines aren’t covered by the National Immunisation Program, so a private fee usually applies. You’ll see current prices when you <a href={site.links.book} rel="noopener">book online</a>. Our pharmacists vaccinate people aged 5 and over. See the full list of <a href="/vaccination-information/">vaccines we offer</a>.</p>
+
+  <h2>When will I need a GP or travel clinic?</h2>
+  <p>Some destinations call for vaccines or medicines that need a prescription or a specialist travel consultation, such as yellow fever vaccination, rabies protection, or medicines to prevent malaria. If that’s the case, we’ll refer you to a GP at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, or to a travel medicine clinic.</p>
+
+  <h2>What should go in a travel health kit?</h2>
+  <p>We can help you put together a kit for your trip. Typical items include:</p>
+  <ul>
+    <li>plasters, blister pads, antiseptic and a small bandage</li>
+    <li>pain and fever relief</li>
+    <li>oral rehydration solution for traveller’s diarrhoea</li>
+    <li>insect repellent suitable for the region you’re visiting</li>
+    <li>SPF 50+ sunscreen and after-sun gel</li>
+    <li>travel sickness remedies (ask us which suit you)</li>
+    <li>hand sanitiser</li>
+  </ul>
+  <p>Always read the label and follow the directions for use.</p>
+
+  <h2>How do I travel with my regular medicines?</h2>
+  <ul>
+    <li>Pack enough for the whole trip plus a few extra days, in your carry-on luggage, in the original packaging.</li>
+    <li>Carry a copy of your prescriptions and a letter from your doctor for any controlled or injectable medicines.</li>
+    <li>Check the rules of the country you’re visiting, as some medicines that are legal in Australia are restricted overseas.</li>
+    <li>If you’re taking PBS medicines overseas, there are limits on how much you can take. Ask us before you go.</li>
+  </ul>
+  <p><a href="https://www.smartraveller.gov.au/" rel="noopener">Smartraveller</a> has up-to-date destination advice.</p>
+
+  <h2>Visiting the Gold Coast and forgot your medicine?</h2>
+  <p>Come and see us. We can talk through your options, and the GPs at Help Medical can see visitors too. <a href="/prescriptions/">More about prescriptions</a>, including interstate scripts.</p>
+</ServicePage>

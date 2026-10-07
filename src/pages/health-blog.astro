@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import ContentPage from '../layouts/ContentPage.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { site } from '../data/site';
+import { categories } from '../data/categories';
+
+const articles = (await getCollection('articles'))
+  .filter((a) => !a.data.draft)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const cats = Object.entries(categories)
+  .map(([slug, c]) => ({ slug, ...c, count: articles.filter((a) => a.data.category === slug).length }))
+  .filter((c) => c.count > 0);
+---
+
+<ContentPage
+  title="Health Advice from Gold Coast Pharmacists | Priceline"
+  description="Practical health, skincare and wellbeing advice from the pharmacists at Priceline Pacific Fair, Broadbeach. Local, pharmacist-reviewed and easy to read."
+  path="/health-blog/"
+  h1="Health advice from our pharmacists"
+  lead={`Practical, trustworthy health advice from the pharmacists and beauty team at Priceline Pharmacy Pacific Fair in Broadbeach. We write about the questions we’re asked every day at the counter, with a Gold Coast lens: year-round sun, humid summers, hayfever season, travel and busy family life. Our health articles are reviewed by our owner and pharmacist, ${site.reviewer.name} (${site.reviewer.credentials}).`}
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }]}
+  pageType="CollectionPage"
+  wide
+  dateModified="2026-10-07"
+>
+  <nav class="topics" aria-label="Browse by topic">
+    <h2 id="topics-h">Browse by topic</h2>
+    <ul class="topics__list">
+      {cats.map((c) => (
+        <li><a class="chip" href={`/category/${c.slug}/`}>{c.name} ({c.count})</a></li>
+      ))}
+    </ul>
+  </nav>
+
+  <h2 id="latest-h">Latest articles</h2>
+  <div class="grid">
+    {articles.map((a) => <ArticleCard entry={a} />)}
+  </div>
+
+  <section class="measure after">
+    <h2>Quick answers</h2>
+    <ul>
+      <li><a href="/frequently-asked-questions/">Frequently asked questions</a></li>
+      <li><a href="/common-illness-information/">Common illnesses A–Z</a></li>
+    </ul>
+
+    <h2>Have a question we haven’t covered?</h2>
+    <p>Ask us in store. There’s no appointment needed. Or call <a href={site.phoneHref}>{site.phone}</a>.</p>
+    <p><small>Our articles are general information only and aren’t a substitute for personal advice from your doctor or pharmacist.</small></p>
+  </section>
+</ContentPage>
+
+<style>
+  .topics h2 { margin-top: 0; font-size: 1.125rem; }
+  .topics__list { list-style: none; padding: 0; margin: 0 0 var(--s8); display: flex; flex-wrap: wrap; gap: var(--s2); }
+  .grid { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .after { margin-top: var(--s10); }
+</style>

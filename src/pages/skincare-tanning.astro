@@ -1,0 +1,62 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+import skincareImg from '../assets/images/skincare.jpg';
+const service = serviceBySlug('skincare-tanning')!;
+
+const faqs = [
+  { q: 'Is skincare advice free?', a: 'Yes. Our trained beauty advisors give free advice in store, and there’s no need to book. Just come in and ask.' },
+  { q: 'Do you have products for sensitive skin?', a: 'Yes. We stock gentle cleansers, fragrance-free moisturisers and barrier-repair products from pharmacy and dermatologist-recommended brands. Ask an advisor and we’ll help you choose.' },
+  { q: 'Do I really need sunscreen every day on the Gold Coast?', a: 'Yes. In Queensland the UV index is 3 or above for most of the year, so broad-spectrum SPF 50+ sunscreen belongs in your daily routine, not just at the beach.' },
+  { q: 'Can a pharmacist help with breakouts?', a: 'Yes. Our pharmacists can talk you through over-the-counter options. If breakouts are persistent, painful or scarring, we’ll refer you to a GP or dermatologist.' },
+  { q: 'Which self-tan brands do you stock?', a: 'Our range includes Bondi Sands, Tanologist, Loving Tan, St Tropez, Bali Body and Coco & Eve, from gradual moisturisers to mousses and drops. Ranges vary, so ask us if you’re after something specific.' },
+  { q: 'Can I order skincare for delivery?', a: 'Yes. Skincare and sunscreen can be ordered for delivery across the Gold Coast through Uber Eats, or you can shop in store any day we’re open.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Skincare Gold Coast | Pharmacy Skin Advice at Pacific Fair"
+  description="Skincare advice and pharmacy skincare brands at Priceline Pacific Fair, Broadbeach. Help for sensitive, dry, ageing and breakout-prone skin, plus self-tan."
+  h1="Skincare and self-tan at Pacific Fair"
+  lead="Gold Coast skin has a lot to deal with: strong sun all year, humidity, salt water, chlorine and air-conditioning. The beauty advisors at Priceline Pharmacy Pacific Fair in Broadbeach can help you build a routine that suits your skin and our climate, and our pharmacists are right there if you need a clinical opinion. Advice is free and there’s no need to book."
+  faqs={faqs}
+  hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>Can I get free skincare advice?</h2>
+  <Image src={skincareImg} alt="Woman smiling with a towel on her head, applying face cream" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <p>Yes. Not sure where to start, or tired of products that don’t suit you? Come in and chat with one of our trained beauty advisors. We’ll ask about your skin, your current routine and your budget, then suggest a few products worth trying. There’s no charge and no need to book.</p>
+
+  <h2>Which skin concerns can you help with?</h2>
+  <h3>Sensitive or reactive skin</h3>
+  <p>Gentle cleansers, fragrance-free moisturisers and barrier-repair products for skin that stings, flushes or reacts easily.</p>
+  <h3>Dry and dehydrated skin</h3>
+  <p>Hydrating serums and richer creams, plus tips for air-conditioned offices and cooler winter mornings. See our guide to <a href="/dry-skin-remedies/">dry skin remedies</a>.</p>
+  <h3>Breakout-prone and oily skin</h3>
+  <p>Lightweight, non-comedogenic products that suit humid weather. If breakouts are persistent, painful or scarring, our pharmacists can talk you through over-the-counter options and refer you to a GP or dermatologist where needed. Always read the label and follow the directions for use.</p>
+  <h3>Ageing and sun-damaged skin</h3>
+  <p>Daily sun protection, antioxidant serums and retinoid-style products, with advice on introducing them slowly.</p>
+  <h3>Pigmentation and uneven tone</h3>
+  <p>Products and sun-protection habits to help with an uneven skin tone. See a doctor about any spot that’s new, changing or different from the others.</p>
+
+  <h2>Which skincare brands do you stock?</h2>
+  <p>We carry pharmacy and dermatologist-recommended brands alongside everyday favourites, including La Roche-Posay, CeraVe, Avène, Bioderma, Cetaphil, QV, Neutrogena, Aveeno, Olay, The Ordinary, No7, Clinique, L’Oréal Paris, Garnier and Natio. Ranges vary, so ask us if you’re after something specific.</p>
+
+  <h2>Do I need sunscreen every day on the Gold Coast?</h2>
+  <p>Yes. In Queensland the UV index is 3 or above for most of the year, so sunscreen belongs in your routine every day, not just at the beach. We stock a wide range of broad-spectrum SPF 50+ sunscreens from brands including Cancer Council, Banana Boat, Bondi Sands, La Roche-Posay, NIVEA Sun, We Are Feel Good Inc, Sun Bum and Invisible Zinc, with lightweight and tinted options that sit well under makeup in humid weather. <a href="/sun-safety-gold-coast/">Read our sun safety guide</a>.</p>
+
+  <h2>Which self-tan products do you have?</h2>
+  <p>Want a golden glow without the UV damage? Choose from self-tan brands including Bondi Sands, Tanologist, Loving Tan, St Tropez, Bali Body and Coco &amp; Eve, from gradual moisturisers to mousses and drops. Ask us for tips on prepping your skin and avoiding streaks.</p>
+
+  <h2>What about men’s skincare?</h2>
+  <p>Simple routines for shaving rash, oily skin and sun protection. Ask any of our team, or see our <a href="/beauty-fragrance/">men’s grooming range</a>.</p>
+
+  <h2>Can I shop in store or order on Uber Eats?</h2>
+  <p>Both. Visit us on the ground floor of Pacific Fair any day we’re open, or order skincare and sunscreen for delivery across the Gold Coast on <a href={site.links.uberEats} rel="noopener">Uber Eats</a>.</p>
+  <p>Check your skin regularly and see your doctor about any spot that’s new or changing.</p>
+</ServicePage>

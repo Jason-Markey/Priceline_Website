@@ -1,0 +1,49 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('delivery')!;
+
+const faqs = [
+  { q: 'Do you deliver prescriptions?', a: 'We don’t offer a regular prescription delivery service, and prescription medicines can’t be ordered through Uber Eats. In an urgent situation, call us: if a team member is available we may be able to arrange a delivery for a fee, but we can’t guarantee it.' },
+  { q: 'Where do you deliver?', a: 'Right across the Gold Coast, through Uber Eats. Open the Uber Eats app and search for Priceline Pharmacy Pacific Fair.' },
+  { q: 'What can I order on Uber Eats?', a: 'Skincare, sunscreen and self-tan, makeup, fragrance, haircare and nail care, vitamins and supplements, first aid supplies, baby care, bath and body, household health essentials, and cold and flu, allergy and pain relief products that don’t need a pharmacist’s consultation.' },
+  { q: 'How long does delivery take?', a: 'Delivery times depend on where you are and how busy it is. Uber Eats shows you an estimate before you order.' },
+  { q: 'Can I buy pharmacist-only medicines through Uber Eats?', a: 'No. Pharmacist-only medicines need a conversation with a pharmacist before you can buy them, so please visit us in store or call (07) 5592 2099.' },
+  { q: 'Is there a way to avoid the delivery fee?', a: 'Yes. Shop online at priceline.com.au, choose Priceline Pacific Fair as your store at checkout, and collect from us. Click & Collect orders are usually ready within 15 minutes and there’s no delivery fee.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Pharmacy Delivery Gold Coast | Uber Eats & Click and Collect"
+  description="Order health, beauty and wellbeing products from Priceline Pacific Fair on Uber Eats, delivered anywhere on the Gold Coast, or click and collect in Broadbeach."
+  h1="Delivery and Click & Collect from Pacific Fair"
+  lead="Can’t make it to Pacific Fair? Have health, beauty and wellbeing products from Priceline Pharmacy Pacific Fair delivered anywhere on the Gold Coast through Uber Eats, or order online and collect in store. Prescription medicines can’t be ordered this way."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>How do I order on Uber Eats?</h2>
+  <p><a href={site.links.uberEats} rel="noopener"><strong>Order from Priceline on Uber Eats</strong></a></p>
+  <p>We’re the Priceline store delivering on Uber Eats on the Gold Coast, and we deliver right across the Gold Coast. Open the Uber Eats app, search for Priceline Pharmacy Pacific Fair, and choose from the Priceline range, including:</p>
+  <ul>
+    <li>skincare, sunscreen and self-tan</li>
+    <li>makeup, fragrance, haircare and nail care</li>
+    <li>vitamins and supplements</li>
+    <li>first aid supplies</li>
+    <li>cold and flu, allergy and pain relief products that don’t need a pharmacist’s consultation</li>
+    <li>bath and body, baby care and household health essentials</li>
+  </ul>
+  <p>Delivery times depend on where you are and how busy it is, and Uber Eats shows you an estimate before you order. Always read the label and follow the directions for use.</p>
+
+  <h2>What can’t be delivered through Uber Eats?</h2>
+  <p>Prescription medicines can’t be ordered through Uber Eats, and pharmacist-only medicines need a conversation with a pharmacist before you can buy them. For these, please visit us in store or call <a href={site.phoneHref}>{site.phone}</a>.</p>
+
+  <h2>Do you deliver prescriptions?</h2>
+  <p>We don’t offer a regular prescription delivery service. In an urgent situation, call us: if a team member is available, we may be able to arrange a delivery for a fee, but we can’t guarantee it. The quickest option is usually to send your eScript ahead so it’s ready to collect. <a href="/prescriptions/">More about prescriptions</a>.</p>
+
+  <h2>Can I order online and collect in store?</h2>
+  <p>Yes. Shop online at <a href={site.links.pricelineShop} rel="noopener">priceline.com.au</a>, choose Priceline Pacific Fair as your store at checkout, and collect from us. Orders are usually ready within 15 minutes, and within 2 hours at the latest when everything is in stock. There’s no delivery fee. <a href="/click-and-collect/">See how Click &amp; Collect works</a>.</p>
+</ServicePage>

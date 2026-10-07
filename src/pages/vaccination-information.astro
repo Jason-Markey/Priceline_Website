@@ -1,0 +1,82 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('vaccination-information')!;
+
+const faqs = [
+  { q: 'Do I need to book a vaccination?', a: 'No. Walk-ins are welcome every day we’re open: scan the QR code at the counter to join the queue. If you’d rather pick a time, you can book online.' },
+  { q: 'Is there a service fee for free government vaccines?', a: 'No. Vaccines funded under the National Immunisation Program are free for eligible people with a Medicare card, and we don’t charge a fee to give them.' },
+  { q: 'Can I have more than one vaccine at the same visit?', a: 'Often, yes. Your pharmacist will check which vaccines can be given together.' },
+  { q: 'What if I feel unwell on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, it’s best to wait until you’re well. Ask us if you’re not sure.' },
+  { q: 'Are there side effects?', a: 'A sore arm, tiredness or a mild temperature for a day or two are common. If you’re worried about any reaction after leaving the store, contact your GP. In an emergency, call 000.' },
+  { q: 'How long does a vaccination take?', a: 'Allow about 20 minutes. The vaccination itself is quick, and we’ll ask you to stay in store for 15 minutes afterwards.' },
+  { q: 'Will my vaccination be recorded?', a: 'Yes. Every vaccination we give is recorded on the Australian Immunisation Register, so your GP and your myGov immunisation history stay up to date.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Vaccinations at Pacific Fair, Broadbeach | Walk-ins Welcome"
+  description="Flu, whooping cough, shingles, COVID-19 and travel vaccines at Pacific Fair, Broadbeach. Walk in or book online. Free government vaccines with no service fee."
+  h1="Vaccinations at Pacific Fair, Broadbeach"
+  lead="Priceline Pharmacy Pacific Fair gives a wide range of vaccines, from your yearly flu shot to vaccines for overseas travel, in a private consultation area. Our pharmacist immunisers vaccinate adults and children aged 5 and over. Walk in any day we’re open, or book a time online."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  dateModified="2026-10-07"
+>
+  <h2>Which vaccines are free?</h2>
+  <p>Vaccines under the National Immunisation Program (NIP) are free for eligible people with a Medicare card, and we don’t charge a service fee to give them. Eligibility depends on your age, pregnancy, Aboriginal and Torres Strait Islander status and some medical conditions. The main groups are:</p>
+  <ul>
+    <li><strong>Flu:</strong> children aged 6 months to under 5, pregnant women, people aged 65 and over, Aboriginal and Torres Strait Islander people, and people with certain medical conditions.</li>
+    <li><strong>Whooping cough:</strong> pregnant women, ideally between 20 and 32 weeks of each pregnancy.</li>
+    <li><strong>Shingles:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over at higher risk because of a medical condition or treatment.</li>
+    <li><strong>Pneumococcal:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 25 and over, and adults with certain medical conditions.</li>
+    <li><strong>COVID-19:</strong> free for everyone in Australia, in line with current advice.</li>
+  </ul>
+  <p>Not sure if you’re eligible? Ask us and we’ll check for you, or see the <a href="https://www.health.gov.au/our-work/national-immunisation-program" rel="noopener">National Immunisation Program</a>. If you’re not eligible, a private fee applies; you’ll see current prices when you book online.</p>
+
+  <h2>Which vaccines do you offer?</h2>
+  <ul>
+    <li>Influenza (flu). See our <a href="/flu-vaccination/">flu vaccination</a> page.</li>
+    <li>COVID-19</li>
+    <li>Whooping cough (diphtheria, tetanus and pertussis)</li>
+    <li>Shingles</li>
+    <li>Pneumococcal</li>
+    <li>Human papillomavirus (HPV)</li>
+    <li>Meningococcal ACWY and meningococcal B</li>
+    <li>Measles, mumps and rubella (MMR)</li>
+    <li>Chickenpox (varicella)</li>
+    <li>Hepatitis A and hepatitis B</li>
+    <li>Haemophilus influenzae type b (Hib)</li>
+    <li>Travel vaccines: typhoid, cholera, Japanese encephalitis and polio. See <a href="/travel-health/">travel health</a>.</li>
+  </ul>
+
+  <h2>Who can we vaccinate?</h2>
+  <p>Our pharmacists vaccinate adults and children aged 5 and over. For younger children, the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can help.</p>
+
+  <h2>Do I need to book?</h2>
+  <p>No. Walk in any day we’re open, or book a time if you prefer. Here’s how it works:</p>
+  <ol>
+    <li><strong>Walk in or book.</strong> Scan the QR code at the counter to join the queue, or <a href={site.links.book} rel="noopener">book a time online</a>.</li>
+    <li><strong>Quick check.</strong> We’ll ask a few questions about your health, allergies and previous vaccines.</li>
+    <li><strong>Your vaccine.</strong> It’s given in our private consultation area.</li>
+    <li><strong>Stay for 15 minutes.</strong> We’ll ask you to wait in store for 15 minutes afterwards, just in case of a reaction.</li>
+    <li><strong>Recorded for you.</strong> Your vaccination is recorded on the Australian Immunisation Register.</li>
+  </ol>
+
+  <h2>What should I bring?</h2>
+  <ul>
+    <li>Your Medicare card, if you have one</li>
+    <li>Details of any recent vaccines, if you know them</li>
+    <li>A list of your current medicines</li>
+  </ul>
+
+  <h2>Travelling overseas?</h2>
+  <p>Some travel vaccines need several doses or take time to work, so start planning 6 to 8 weeks before you fly if you can. See our <a href="/travel-health/">travel health</a> page.</p>
+
+  <h2>Which vaccines are recommended in pregnancy?</h2>
+  <p>Whooping cough and flu vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and both are free under the NIP. Talk to your pharmacist, GP or midwife about timing.</p>
+</ServicePage>

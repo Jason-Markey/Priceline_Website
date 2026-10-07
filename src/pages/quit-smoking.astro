@@ -1,0 +1,65 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('quit-smoking')!;
+
+const faqs = [
+  { q: 'Do I need an appointment to talk about quitting?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you. If you’d like a set time, you can book online.' },
+  { q: 'How much does nicotine replacement therapy cost?', a: 'Advice from our pharmacists is free; products are charged separately. Some nicotine replacement products are subsidised on the PBS when prescribed by a doctor, so ask us or the GPs at <a href="/help-medical/">Help Medical</a> about the cheapest way to get them.' },
+  { q: 'Can I use a patch and gum at the same time?', a: 'Often, yes. Using a patch for steady background nicotine plus a faster-acting form such as gum, a lozenge or a mouth spray for cravings is a common approach. A pharmacist can help you choose the right combination and strength.' },
+  { q: 'How long do I use nicotine replacement for?', a: 'Most people use it for 8 to 12 weeks and then reduce gradually, but it varies. Your pharmacist can help you plan the stepping down.' },
+  { q: 'Can I use nicotine replacement if I’m pregnant?', a: 'Talk to your pharmacist, GP or midwife first. Quitting is one of the most important things you can do for your baby, and there are options that may be suitable in pregnancy.' },
+  { q: 'What if I slip up and have a cigarette?', a: 'It happens to most people who quit. A slip doesn’t mean you’ve failed; come and talk to us, adjust the plan if needed, and keep going. Quitline on 13 7848 can help too.' },
+  { q: 'Can you help me quit vaping?', a: 'Yes. Many of the same approaches, including nicotine replacement therapy and Quitline support, can help with nicotine dependence from vaping. Ask us.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Quit Smoking Support Broadbeach | Priceline Pacific Fair"
+  description="Ready to quit smoking? Our pharmacists at Priceline Pacific Fair, Broadbeach, can help you choose quit options, including nicotine replacement, and make a plan."
+  h1="Quit smoking support at Pacific Fair, Broadbeach"
+  lead="Priceline Pharmacy Pacific Fair in Broadbeach can help you quit smoking. Our pharmacists can talk through your options, including nicotine replacement therapy, help you make a quit plan and point you to extra support such as Quitline. Advice is free and no appointment is needed."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  dateModified="2026-10-07"
+>
+  <h2>How can a pharmacist help me quit?</h2>
+  <p>Most people find quitting easier with support than going it alone. Our pharmacists can:</p>
+  <ul>
+    <li>talk through the quit options available and which might suit you</li>
+    <li>help you choose the right type and strength of nicotine replacement therapy, and show you how to use it</li>
+    <li>help you set a quit date and make a plan for cravings and triggers</li>
+    <li>check how you’re going and adjust things when you come back</li>
+    <li>refer you to your GP or Quitline for extra support</li>
+  </ul>
+  <p>Advice is free. Products are charged separately.</p>
+
+  <h2>What is nicotine replacement therapy?</h2>
+  <p>Nicotine replacement therapy (NRT) gives you a steady, lower dose of nicotine without the smoke, so you can deal with withdrawal while you break the habit. It comes as patches, gum, lozenges, mouth sprays and inhalators, and is available from the pharmacy without a prescription.</p>
+  <p>Many people find a patch for background cravings plus a faster-acting form, such as gum or a spray, for sudden urges works well. Your pharmacist can help you get the combination and strength right. Some NRT products are subsidised on the PBS when prescribed by a doctor; ask us about the cheapest way to get them.</p>
+  <p>Always read the label and follow the directions for use.</p>
+
+  <h2>Are there prescription medicines to help?</h2>
+  <p>Yes. There are prescription medicines that can reduce cravings and withdrawal symptoms. They need a doctor’s assessment, so talk to your GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you, and we can dispense the script on the spot.</p>
+
+  <h2>What about nicotine vapes?</h2>
+  <p>In Australia, nicotine vapes are a regulated therapeutic product. They can only be supplied by a pharmacy, and some need a prescription. They aren’t a first-choice way to quit, but if other approaches haven’t worked, a pharmacist can talk through whether one is suitable for you. The Australian Government has more at <a href="https://www.health.gov.au/topics/smoking-vaping-and-tobacco" rel="noopener">health.gov.au</a>.</p>
+
+  <h2>Where else can I get support?</h2>
+  <ul>
+    <li><strong>Quitline:</strong> call <a href="tel:137848">13 7848</a> (13 QUIT) to talk to a trained counsellor, or request a callback through <a href="https://www.quit.org.au/" rel="noopener">quit.org.au</a>.</li>
+    <li><strong>My QuitBuddy app:</strong> a free Australian Government app to track cravings, money saved and milestones.</li>
+    <li><strong>Your GP:</strong> for prescription options and ongoing support.</li>
+  </ul>
+  <p>Combining support with NRT or another medicine gives you a better chance of staying smoke-free than either on its own. <a href="https://www.healthdirect.gov.au/quitting-smoking" rel="noopener">healthdirect</a> has more on what to expect.</p>
+
+  <h2>What happens to my body when I quit?</h2>
+  <p>The benefits start quickly. Within days your sense of taste and smell begin to improve, within weeks your breathing and circulation get better, and over the following years your risk of heart disease, stroke and cancer keeps falling. You’ll also notice the money you save.</p>
+
+  <h2>Do I need to book?</h2>
+  <p>No. Walk in any day we’re open and ask to speak to a pharmacist, or <a href={site.links.book} rel="noopener">book a time online</a> if you’d like a longer chat. While you’re here, a free check at our <a href="/health-station/">Health Station</a> can give you a blood pressure baseline to track your progress.</p>
+</ServicePage>

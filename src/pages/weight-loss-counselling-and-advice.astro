@@ -1,0 +1,56 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('weight-loss-counselling-and-advice')!;
+
+const faqs = [
+  { q: 'Is weight management support free?', a: 'Yes. Our pharmacists’ support and advice is free, and you don’t need to book. Just ask at the counter.' },
+  { q: 'Do I need to book?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you privately.' },
+  { q: 'Can a pharmacist prescribe a weight-loss medicine?', a: 'No. Only your doctor can decide whether a prescribed weight-loss medicine is right for you. If you’d like to talk to a GP, Help Medical is an independent general practice located inside our store.' },
+  { q: 'How can you help if my doctor has prescribed a weight-loss medicine?', a: 'We can explain how and when to take or use it, which side effects are common and how to manage them, how to store it in hot weather and when travelling, check it against your other medicines, and help you plan ahead for repeats.' },
+  { q: 'Can you track my weight and blood pressure?', a: 'Yes. We can record your weight, BMI and blood pressure at our in-store Health Station and email you the results, so you can see your progress over time.' },
+  { q: 'Do you work with a dietitian?', a: 'Yes. We work with a local dietitian and can put you in touch if you’d like tailored nutrition advice.' },
+  { q: 'When should I see my GP instead?', a: 'See your doctor if you have unexplained weight loss or gain, a health condition such as diabetes or heart disease, or if you’re pregnant or planning a pregnancy. If you’re taking a weight-loss medicine and have severe or persistent stomach pain, vomiting or other side effects that worry you, see your doctor. In an emergency, call 000.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Free Weight Management Support | Priceline Pacific Fair"
+  description="Free one-on-one weight management support from our pharmacists at Pacific Fair, Broadbeach, including help if you’ve been prescribed a weight-loss medicine."
+  h1="Weight management support at Pacific Fair"
+  lead="Changing your weight is rarely just about willpower. Sleep, stress, medicines, health conditions and busy routines all play a part. Our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach offer free, one-on-one weight management support that fits around your life, including help if your doctor has prescribed a weight-loss medicine."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>How can our pharmacists help?</h2>
+  <ul>
+    <li><strong>A private conversation.</strong> We talk through your goals, your current medicines and anything that has made weight management harder in the past.</li>
+    <li><strong>Free health checks.</strong> We can record your weight, BMI and blood pressure at our in-store <a href="/health-station/">Health Station</a> and email you the results, so you can see your progress over time.</li>
+    <li><strong>Practical advice.</strong> We cover eating patterns, activity you can realistically keep up, sleep, and staying hydrated in the Gold Coast heat.</li>
+    <li><strong>A local dietitian.</strong> We work with a local dietitian and can put you in touch if you’d like tailored nutrition advice.</li>
+  </ul>
+
+  <h2>What if I’ve been prescribed a weight-loss medicine?</h2>
+  <p>Starting a new medicine can raise a lot of questions. If your doctor has prescribed a weight-loss medicine, our pharmacists can help you:</p>
+  <ul>
+    <li>understand how and when to take or use your medicine, including injection technique where relevant;</li>
+    <li>know which side effects are common, how to manage them, and when to contact your doctor;</li>
+    <li>store your medicine correctly, including in hot weather and when travelling;</li>
+    <li>check for interactions with your other medicines, vitamins and supplements;</li>
+    <li>plan ahead for repeat prescriptions, and let you know early if supply of your medicine is affected.</li>
+  </ul>
+  <p>Only your doctor can decide whether a prescribed weight-loss medicine is right for you. If you’d like to talk to a GP, <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store.</p>
+
+  <h2>Who is this service for?</h2>
+  <p>Anyone who wants support managing their weight, whether you’re just getting started, restarting after a break, or already under the care of a doctor or dietitian. We’ll work alongside your other health professionals, not replace them.</p>
+
+  <h2>What does it cost?</h2>
+  <p>Nothing. Our pharmacists’ support and advice is free, and you don’t need to book. Just ask at the counter, or call us on <a href={site.phoneHref}>{site.phone}</a> if you have a question first.</p>
+
+  <h2>When should I see my GP?</h2>
+  <p>See your doctor if you have unexplained weight loss or gain, if you have a health condition such as diabetes or heart disease, or if you’re pregnant or planning a pregnancy. Also see your doctor if you’re taking a weight-loss medicine and have severe or persistent stomach pain, vomiting or other side effects that worry you. In an emergency, call 000.</p>
+</ServicePage>

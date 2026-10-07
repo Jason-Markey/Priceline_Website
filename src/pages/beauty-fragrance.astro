@@ -1,0 +1,53 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('beauty-fragrance')!;
+
+const faqs = [
+  { q: 'Can someone help me match a foundation shade?', a: 'Yes. Our beauty advisors can help you match foundation shades, find long-wearing formulas for hot days and build a simple kit that works. There’s no charge and no need to book.' },
+  { q: 'Can I try a fragrance before I buy it?', a: 'Yes. Try it on your skin and give it a few hours to settle before deciding, because a scent changes as it wears. Our team can suggest options based on what you already love.' },
+  { q: 'Do you sell gifts?', a: 'Yes. Fragrance, makeup, men’s grooming sets and beauty gift ideas are available in store, and our team can help you choose when you’re not sure of someone’s taste.' },
+  { q: 'Do you stock electric toothbrushes and whitening products?', a: 'Yes. Our dental range includes electric toothbrushes, whitening products and care for sensitive teeth and gums from brands such as Oral-B, Colgate, Sensodyne, Listerine, Piksters and White Glo.' },
+  { q: 'Do you have men’s grooming products?', a: 'Yes. Shaving, skincare, fragrance and gifts for men from Gillette, NIVEA Men, L’Oréal Men Expert, Braun, Bulldog and American Crew, plus advice on razor rash and sun protection.' },
+  { q: 'Can I order beauty products for delivery?', a: 'Yes. Beauty and fragrance can be ordered for delivery anywhere on the Gold Coast through Uber Eats, or you can shop in store any day we’re open.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Beauty, Makeup & Fragrance at Pacific Fair | Priceline"
+  description="Makeup, fragrance, dental care and men's grooming with expert advice from our beauty team at Priceline Pacific Fair, Broadbeach. Visit us or order on Uber Eats."
+  h1="Beauty and fragrance at Pacific Fair"
+  lead="At Priceline Pharmacy Pacific Fair in Broadbeach you’ll find makeup, fragrance and beauty essentials alongside the advice of a team who genuinely love this stuff. Whether you’re after a new everyday foundation, a gift, or something that will survive a humid Gold Coast summer, our beauty advisors are happy to help, with no booking needed."
+  faqs={faqs}
+  hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
+  primaryCta={{ label: 'Order on Uber Eats', href: site.links.uberEats, external: true }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>Which makeup brands do you stock?</h2>
+  <p>From everyday essentials to the latest launches, our advisors can help you match foundation shades, find long-wearing formulas for hot days, and build a simple kit that works. Brands include Maybelline, L’Oréal Paris, Revlon, Rimmel London, Max Factor, Covergirl, NYX, e.l.f., Revolution, Essence, Catrice, Milani, Nude by Nature, Australis and Made by Mitchell.</p>
+  <p><strong>Tip for summer:</strong> in humid weather, a lightweight base, a setting spray and an SPF you’ll reapply make a bigger difference than piling on product.</p>
+
+  <h2>How do I choose a fragrance?</h2>
+  <p>Choosing a fragrance is personal. Try before you buy, and give a scent a few hours on your skin before deciding, because it changes as it settles. Our team can suggest options based on what you already love, and help you choose a gift when you’re not sure of someone’s taste.</p>
+  <p>Our fragrance range includes YSL, Giorgio Armani, Prada, Lancôme, Estée Lauder, Versace, Dolce &amp; Gabbana, Marc Jacobs, Jimmy Choo, Rabanne, Jean Paul Gaultier, Hugo Boss, Calvin Klein, Ariana Grande and Billie Eilish, with options for every budget, from body mists and smaller celebrity fragrances to full-size designer perfumes.</p>
+  <p>Heat and humidity make fragrance project more, so a lighter concentration or a fresher scent often suits Gold Coast days better.</p>
+
+  <h2>What everyday essentials do you stock?</h2>
+  <h3>Gift ideas</h3>
+  <p>Fragrance, makeup, men’s grooming sets and beauty gift ideas for birthdays, Christmas and thank-yous. Ask our team if you’d like help picking something.</p>
+  <h3>Dental care</h3>
+  <p>Electric toothbrushes, whitening products, and care for sensitive teeth and gums from Colgate, Oral-B, Sensodyne, Listerine, Piksters and White Glo. Ask our pharmacists about <a href="/mouth-ulcer-treatment/">mouth ulcers</a> or dental pain relief, and see your dentist about anything ongoing. Always read the label and follow the directions for use.</p>
+  <h3>Men’s grooming</h3>
+  <p>Shaving, skincare, fragrance and gifts for men from Gillette, NIVEA Men, L’Oréal Men Expert, Braun, Bulldog and American Crew, plus advice on razor rash and sun protection.</p>
+  <h3>Baby and first aid</h3>
+  <p>Baby care basics and first-aid essentials for the medicine cabinet, with a pharmacist on hand to answer questions. See our guide to <a href="/how-to-treat-a-cut/">treating a cut</a>.</p>
+
+  <h2>Looking for skincare?</h2>
+  <p>See our <a href="/skincare-tanning/">skincare and self-tan advice</a>, including sun protection for the Gold Coast.</p>
+
+  <h2>Can I shop in store or order on Uber Eats?</h2>
+  <p>Both. Visit us on the ground floor of Pacific Fair any day we’re open, or <a href={site.links.uberEats} rel="noopener">order beauty and fragrance for delivery on Uber Eats</a>, anywhere on the Gold Coast.</p>
+</ServicePage>

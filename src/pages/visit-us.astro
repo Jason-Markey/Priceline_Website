@@ -1,0 +1,79 @@
+---
+import { Image } from 'astro:assets';
+import ContentPage from '../layouts/ContentPage.astro';
+import HoursCard from '../components/HoursCard.astro';
+import { site } from '../data/site';
+import storeImg from '../assets/images/store-interior.jpg';
+
+const path = '/visit-us/';
+const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Visit us', href: path }];
+const mapsEmbed = `https://www.google.com/maps?q=${encodeURIComponent('Priceline Pharmacy Pacific Fair, Shop 81 Pacific Fair Shopping Centre, Hooker Blvd, Broadbeach QLD 4218')}&output=embed`;
+const faqs = [
+  { q: 'Are you open on Sundays?', a: 'Yes, we’re open 7 days a week, including Sundays. Our full hours are listed on this page, and public holiday hours are updated on our Google listing.' },
+  { q: 'Which entrance is closest to the pharmacy?', a: 'We’re on the ground floor on the north-eastern side of Pacific Fair, near the outdoor entrance from the river and next to Proud Smile. Park in the car park beneath us or the undercover rooftop above us and you’ll be a short walk away.' },
+  { q: 'Is parking free?', a: 'Pacific Fair offers free parking each day, with ticketless entry and exit that reads your number plate. Check <a href="' + site.links.pacificFairParking + '" rel="noopener">Pacific Fair’s parking page</a> for the current free period, rates beyond it and accessible parking.' },
+  { q: 'Is the store wheelchair accessible?', a: 'Yes. The store has a level, step-free entrance from the centre, wide aisles and accessible parking nearby. Accessible toilets and parents’ rooms are in the centre close to us.' },
+  { q: 'How do I get there by public transport?', a: 'Take the G:link light rail to Broadbeach South station, right out the front of Pacific Fair, or a bus to the Pacific Fair interchange on Hooker Boulevard. Plan your trip with Translink.' },
+];
+---
+
+<ContentPage
+  title="Opening Hours & Location | Priceline Pacific Fair Broadbeach"
+  description="Find us on the ground floor of Pacific Fair, Broadbeach. Open 7 days and until 9pm on Thursdays. Parking tips, light rail and in-centre directions."
+  path={path}
+  h1="Opening hours and how to find us"
+  lead="Priceline Pharmacy Pacific Fair is on the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side of the centre."
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  showNap
+  ogImage={storeImg}
+  dateModified="2026-10-07"
+>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
+    <a class="btn btn--secondary" href={site.links.googleBusinessProfile} rel="noopener" data-event="directions">Open in Google Maps</a>
+  </div>
+  <p><strong>{site.name}</strong><br />{site.address.oneLine}<br />Phone <a href={site.phoneHref}>{site.phone}</a> · Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a></p>
+
+  <h2>Opening hours</h2>
+  <div class="hours-grid">
+    <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note="Public holiday hours (for example Christmas and Easter) are always updated on our Google listing. Search “Priceline Pharmacy Pacific Fair” to check before you visit." />
+    <HoursCard heading="Help Medical (GPs inside our store)" hours={site.helpMedical.hours} note={`Independent general practice. Bookings at helpmedical.au or ${site.helpMedical.phone}.`} />
+  </div>
+  <p>QML Pathology collection, inside Help Medical: {site.pathology.hoursText} <a href="/help-medical/">More about Help Medical and pathology</a>.</p>
+
+  <h2>Where is the pharmacy inside Pacific Fair?</h2>
+  <p>You’ll find us on the ground floor, next to Proud Smile on our right, with the outdoor entrance from the river on our left. Once you’re inside, the prescription counter is on the left at the very back of the store, and <a href="/help-medical/">Help Medical</a> is on the right-hand side as you walk in.</p>
+  <div class="map">
+    <iframe title="Map showing Priceline Pharmacy Pacific Fair in Broadbeach" src={mapsEmbed} width="760" height="360" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+  </div>
+
+  <h2>Where should I park?</h2>
+  <p>Pacific Fair offers free parking each day, with ticketless entry and exit that reads your number plate. Free all-day parking is available with an accessible parking permit.</p>
+  <ul>
+    <li><strong>Car park below us:</strong> from the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath the north-eastern side of the centre.</li>
+    <li><strong>Undercover rooftop parking:</strong> head to the north-eastern side of the centre and park on the undercover rooftop level above us.</li>
+  </ul>
+  <p>For car park maps, the current free period, rates beyond it and accessible parking, see <a href={site.links.pacificFairParking} rel="noopener">Pacific Fair’s parking page</a>.</p>
+
+  <h2>Light rail and buses</h2>
+  <p>Take the G:link light rail to <strong>Broadbeach South</strong> station, on the Gold Coast Highway right out the front of Pacific Fair. It’s a short walk into the centre, and we’re close to the Gold Coast Highway side. Many bus routes also stop at Broadbeach South and at the Pacific Fair bus interchange on Hooker Boulevard. Plan your trip with <a href={site.links.translink} rel="noopener">Translink</a>.</p>
+
+  <h2>Accessibility</h2>
+  <ul>
+    <li>Level, step-free entrance from the centre and wide aisles throughout the store.</li>
+    <li>Accessible parking close to the north-eastern entrances, and free all-day parking with a permit.</li>
+    <li>Accessible toilets and parents’ rooms in the centre near us.</li>
+    <li>Seating while you wait for a prescription, and a private consultation room for vaccinations and pharmacist consultations.</li>
+  </ul>
+
+  <h2>Questions before you visit?</h2>
+  <p>Call us on <a href={site.phoneHref}>{site.phone}</a> or <a href="/contact-us/">send us an email</a>.</p>
+</ContentPage>
+
+<style>
+  .hours-grid { display: grid; gap: var(--s4); margin: var(--s4) 0 var(--s5); }
+  @media (min-width: 700px) { .hours-grid { grid-template-columns: 1fr 1fr; } }
+  .map { margin: var(--s5) 0 var(--s8); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); background: var(--surface); }
+  .map iframe { display: block; width: 100%; height: 360px; border: 0; }
+</style>

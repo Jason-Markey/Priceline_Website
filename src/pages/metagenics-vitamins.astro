@@ -1,0 +1,43 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('metagenics-vitamins')!;
+
+const faqs = [
+  { q: 'Do you stock Metagenics in store?', a: 'Yes. Priceline Pharmacy Pacific Fair keeps a selection of Metagenics practitioner products on the shelf, and we can special-order anything else from their range.' },
+  { q: 'Do I need a practitioner’s recommendation to buy Metagenics?', a: 'Metagenics is a practitioner range, so its products are usually recommended by a health professional. Our pharmacists can talk with you about whether a product suits you and your medicines.' },
+  { q: 'How long does a special order take?', a: 'Delivery time depends on postage, so it’s worth ordering a little before you run out. We’ll give you a call when it arrives.' },
+  { q: 'Can I take Metagenics with my prescription medicines?', a: 'It depends on the product and your medicines. Our pharmacists can check whether a supplement is suitable alongside any prescription or over-the-counter medicines you take.' },
+  { q: 'How do I order a Metagenics product?', a: 'Ask in store or call us on (07) 5592 2099 with the product name and we’ll order it in for you.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Metagenics Stockist Gold Coast | Priceline Pacific Fair"
+  description="Metagenics practitioner vitamins and supplements at Priceline Pacific Fair, Broadbeach, with pharmacist advice on what suits you. We can order any product in."
+  h1="Metagenics at Priceline Pacific Fair"
+  lead="Priceline Pharmacy Pacific Fair in Broadbeach stocks a range of Metagenics practitioner vitamins and supplements, and can special-order anything else from the range. Our pharmacists can help you choose what suits you and your medicines."
+  faqs={faqs}
+  hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>What is Metagenics?</h2>
+  <p>Metagenics is a practitioner range, which means its products are usually recommended by a health professional after talking about your health and goals. The range covers general wellbeing, digestive health, energy, stress, sleep, sport and more.</p>
+
+  <h2>Can you order in a product you don’t have?</h2>
+  <p>Yes. We keep a selection of Metagenics products on the shelf, and we can special-order anything else from their range. We’ll give you a call when it arrives. Delivery time depends on postage, so order a little before you run out. Ask in store or call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+
+  <h2>Why buy practitioner supplements from a pharmacy?</h2>
+  <ul>
+    <li><strong>Checked against your medicines.</strong> Our pharmacists can check whether a supplement is suitable alongside any prescription or over-the-counter medicines you take.</li>
+    <li><strong>Honest advice.</strong> If a supplement isn’t likely to help, or a GP visit is the better first step, we’ll tell you. The GPs at <a href="/help-medical/">Help Medical</a> are located inside our store.</li>
+  </ul>
+  <p>Always read the label and follow the directions for use. Vitamin and mineral supplements should not replace a balanced diet.</p>
+
+  <h2>Looking for other vitamins?</h2>
+  <p>See our full <a href="/vitamins-supplements/">vitamins and supplements range</a>, including everyday, pregnancy and children’s products.</p>
+</ServicePage>

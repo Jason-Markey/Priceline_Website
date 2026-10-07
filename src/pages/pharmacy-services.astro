@@ -1,0 +1,63 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import { site } from '../data/site';
+import { servicesInGroup } from '../data/services';
+
+const groups = [
+  { id: 'pharmacy', heading: 'Prescriptions and medicines', items: servicesInGroup('pharmacy') },
+  { id: 'health', heading: 'Vaccinations and health', items: servicesInGroup('health') },
+  { id: 'beauty', heading: 'Beauty and everyday', items: servicesInGroup('beauty') },
+  { id: 'partner', heading: 'Doctors inside our store', items: servicesInGroup('partner') },
+] as const;
+
+const faqs = [
+  { q: 'Do I need to book?', a: 'For most services, no. Vaccinations, health checks, passport photos, ear piercing and pharmacist advice are all walk-in. Contraception and UTI consultations need a trained pharmacist, so please call first. See <a href="/appointments/">how to book each service</a>.' },
+  { q: 'Is there a doctor in the store?', a: 'Yes. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store, with bulk billing for eligible patients and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead is the surest way to be seen.' },
+  { q: 'Do you deliver?', a: 'Yes, for everyday health and beauty products, through Uber Eats across the Gold Coast. Prescription medicines can’t be ordered through Uber Eats and we don’t offer a regular prescription delivery service. See <a href="/delivery/">delivery options</a> and <a href="/click-and-collect/">Click &amp; Collect</a>.' },
+  { q: 'Where are you?', a: 'On the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side next to Proud Smile, near the outdoor entrance from the river. See <a href="/visit-us/">opening hours and directions</a>.' },
+];
+---
+
+<ContentPage
+  title="Pharmacy Services in Broadbeach | Priceline Pacific Fair"
+  description="Vaccinations, Webster packs, contraceptive pill consults, health checks, passport photos, ear piercing and more at Priceline Pacific Fair, Broadbeach."
+  path="/pharmacy-services/"
+  h1="Pharmacy services at Pacific Fair"
+  lead="Priceline Pharmacy Pacific Fair offers far more than prescriptions. Here is everything our pharmacists and team can help with at our store on the ground floor of Pacific Fair Shopping Centre, Broadbeach. Most services don’t need an appointment; just walk in."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Pharmacy services', href: '/pharmacy-services/' }]}
+  faqs={faqs}
+  wide
+  dateModified="2026-10-07"
+>
+  {groups.map((g) => (
+    <section class="group" aria-labelledby={`g-${g.id}`}>
+      <h2 id={`g-${g.id}`}>{g.heading}</h2>
+      <div class="grid">
+        {g.items.map((s) => <ServiceCard service={s} />)}
+      </div>
+    </section>
+  ))}
+
+  <section class="measure">
+    <h2>Other things we can help with</h2>
+    <ul>
+      <li><strong>Return unwanted medicines.</strong> Bring back expired or unwanted medicines for free, safe disposal through the national Return Unwanted Medicines program.</li>
+      <li><strong>Absence-from-work certificates.</strong> Our pharmacists can issue certificates for short absences. Ask at the counter.</li>
+      <li><strong>Veterinary prescriptions.</strong> We dispense scripts written by your vet. See <a href="/prescriptions/">prescriptions</a>.</li>
+      <li><strong>Rapid antigen tests.</strong> We sell rapid antigen tests in store. We no longer offer supervised testing.</li>
+      <li><strong>Gift ideas and gift cards.</strong> Ask our beauty team for help choosing a gift. See <a href="/beauty-fragrance/">makeup and fragrance</a>.</li>
+    </ul>
+    <p>Looking for a hearing test or ear wax removal? Simply Hearing is elsewhere in Pacific Fair; ask at our counter for directions.</p>
+
+    <h2>Book or ask</h2>
+    <p><a href="/appointments/">See how to book each service</a>, call <a href={site.phoneHref}>{site.phone}</a>, or simply ask at the counter.</p>
+  </section>
+</ContentPage>
+
+<style>
+  .group + .group { margin-top: var(--s8); }
+  .group h2 { margin-top: 0; }
+  .grid { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .measure { margin-top: var(--s10); }
+</style>

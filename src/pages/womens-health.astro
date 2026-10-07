@@ -1,0 +1,60 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('womens-health')!;
+
+const faqs = [
+  { q: 'Do I need an appointment?', a: 'For most things, no. Just ask at the counter. For contraception and UTI consultations, please call first so we can check a trained pharmacist is on, or book online.' },
+  { q: 'Can I talk to a pharmacist in private?', a: 'Yes. We have a private consultation room, and you’re welcome to ask for it for any conversation about your health.' },
+  { q: 'Can a pharmacist prescribe the pill?', a: 'Yes. In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over. The consultation costs $35. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page.' },
+  { q: 'Can I get emergency contraception here?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without a prescription or appointment, after a short private conversation. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
+  { q: 'How much do consultations cost?', a: 'Advice from our pharmacists is free. Contraception consultations cost $35, and UTI consultations have a fee that isn’t covered by Medicare; ask us when you call.' },
+  { q: 'Can I see a doctor here?', a: 'Yes. Help Medical is an independent general practice located inside our store. Walk-ins are welcome subject to doctor availability, and you can book at <a href="/help-medical/">helpmedical.au</a>.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Women's Health Pharmacy Gold Coast | Priceline Pacific Fair"
+  description="Contraception, UTI treatment, pregnancy, menopause and everyday women's health support from our pharmacists at Priceline Pacific Fair, Broadbeach."
+  h1="Women’s health at Pacific Fair"
+  lead="From contraception to pregnancy and menopause, women’s health questions deserve time and privacy. At Priceline Pharmacy Pacific Fair in Broadbeach, our pharmacists can help with many of them on the spot, in our private consultation room. When you need a doctor, the GPs at Help Medical are located inside our store."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  dateModified="2026-10-07"
+>
+  <h2>What contraception help can a pharmacist give?</h2>
+  <ul>
+    <li><a href="/hormonal-contraceptive-pill/"><strong>Contraception consultations.</strong></a> In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over, without a GP visit.</li>
+    <li><a href="/emergency-contraception/"><strong>Emergency contraception.</strong></a> The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without an appointment. Ask at the counter and we’ll talk privately.</li>
+    <li><strong>Longer-acting options.</strong> For implants or IUDs, we can refer you to a GP at <a href="/help-medical/">Help Medical</a>.</li>
+  </ul>
+
+  <h2>Can a pharmacist treat a UTI?</h2>
+  <p>Burning or stinging when you pass urine? Our trained pharmacists can assess and, if suitable, treat uncomplicated UTIs in women aged 18 to 65. <a href="/uti-treatment/">Find out about UTI treatment</a>.</p>
+
+  <h2>How can we help in pregnancy and when planning a family?</h2>
+  <ul>
+    <li>Advice on pre-conception and pregnancy supplements. See <a href="/vitamins-supplements/">vitamins and supplements</a>.</li>
+    <li><a href="/vaccination-information/">Whooping cough and flu vaccines</a>, which are recommended in pregnancy and free under the National Immunisation Program.</li>
+    <li>Checking whether your medicines, including over-the-counter ones, are suitable in pregnancy and while breastfeeding.</li>
+    <li>Pregnancy tests, breastfeeding supplies and baby care.</li>
+  </ul>
+  <p>Always read the label and follow the directions for use.</p>
+
+  <h2>What about periods and menopause?</h2>
+  <p>Painful or heavy periods, premenstrual symptoms and menopause symptoms such as hot flushes and poor sleep can all affect daily life. Our pharmacists can talk through options that don’t need a prescription, and help you decide when it’s worth seeing a GP.</p>
+
+  <h2>What else can we help with?</h2>
+  <ul>
+    <li>Thrush symptoms: ask a pharmacist, and see a GP if symptoms keep coming back or you’re pregnant.</li>
+    <li><a href="/health-station/">Free blood pressure checks</a> at our Health Station.</li>
+    <li><a href="/skincare-tanning/">Skincare advice</a> for hormonal breakouts, pigmentation and sensitive skin.</li>
+  </ul>
+
+  <h2>When should I see a GP?</h2>
+  <p>See a doctor if you have unusual bleeding, pelvic pain, a breast lump, symptoms that keep coming back, or if you’re pregnant and unsure about a medicine. <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, welcomes walk-ins subject to doctor availability. In an emergency, call 000.</p>
+</ServicePage>

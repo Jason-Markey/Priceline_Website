@@ -1,0 +1,54 @@
+---
+/**
+ * Category listing: /category/<slug>/ for every category in categories.ts that has at least one published article.
+ */
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ContentPage from '../../layouts/ContentPage.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { site } from '../../data/site';
+import { categories } from '../../data/categories';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('articles'))
+    .filter((a) => !a.data.draft)
+    .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+  return Object.keys(categories)
+    .map((slug) => ({ slug, articles: all.filter((a) => a.data.category === slug) }))
+    .filter((c) => c.articles.length > 0)
+    .map((c) => ({ params: { category: c.slug }, props: { articles: c.articles } }));
+}
+
+const { category } = Astro.params;
+const { articles } = Astro.props as { articles: CollectionEntry<'articles'>[] };
+const cat = categories[category!];
+const path = `/category/${category}/`;
+---
+
+<ContentPage
+  title={`${cat.name} Advice | ${site.shortName}`}
+  description={cat.description}
+  path={path}
+  h1={cat.name}
+  lead={cat.description}
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: cat.name, href: path }]}
+  pageType="CollectionPage"
+  wide
+  dateModified="2026-10-07"
+>
+  <p class="count">{articles.length} {articles.length === 1 ? 'article' : 'articles'}, reviewed by our pharmacist. <a href="/health-blog/">All advice</a></p>
+  <div class="grid">
+    {articles.map((a) => <ArticleCard entry={a} />)}
+  </div>
+
+  <section class="measure after">
+    <h2>Have a question we haven’t covered?</h2>
+    <p>Ask us in store. There’s no appointment needed. Or call <a href={site.phoneHref}>{site.phone}</a>.</p>
+    <p><small>Our articles are general information only and aren’t a substitute for personal advice from your doctor or pharmacist.</small></p>
+  </section>
+</ContentPage>
+
+<style>
+  .count { color: var(--text-muted); font-size: var(--fs-sm); margin-bottom: var(--s6); }
+  .grid { display: grid; gap: var(--s4); grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .after { margin-top: var(--s10); }
+</style>

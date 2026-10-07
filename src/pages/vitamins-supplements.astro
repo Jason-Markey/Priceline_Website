@@ -1,0 +1,58 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('vitamins-supplements')!;
+
+const faqs = [
+  { q: 'Can I ask a pharmacist before I buy a supplement?', a: 'Yes, and we encourage it. Our pharmacists can check whether a supplement suits you and your medicines. Advice is free and no booking is needed.' },
+  { q: 'Can vitamins interact with my prescription medicines?', a: 'Some can. Certain supplements affect how medicines such as blood thinners, some antidepressants and the contraceptive pill work. Tell us what you take and we’ll check.' },
+  { q: 'Which supplements are suitable in pregnancy?', a: 'It depends on the stage of pregnancy and your own health. We stock pre-conception, pregnancy and breastfeeding supplements and can help you choose one that’s appropriate for you.' },
+  { q: 'Do I need a blood test before taking iron or vitamin D?', a: 'Often that’s the better first step. A blood test through your GP shows whether you’re actually low. The GPs at Help Medical, inside our store, can arrange one.' },
+  { q: 'Do you stock practitioner ranges?', a: 'Yes. We keep a selection of Metagenics products on the shelf and can special-order anything else from their range.' },
+  { q: 'Can I order vitamins for delivery?', a: 'Yes. Vitamins and supplements can be ordered for delivery across the Gold Coast through Uber Eats, or you can shop in store any day we’re open.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Vitamins & Supplements Gold Coast | Priceline Pacific Fair"
+  description="Vitamins and supplements, including practitioner ranges, with pharmacist advice on what suits you and your medicines. Priceline Pacific Fair, Broadbeach."
+  h1="Vitamins and supplements at Pacific Fair, with a pharmacist’s advice"
+  lead="The vitamin aisle can be overwhelming. At Priceline Pharmacy Pacific Fair in Broadbeach you can ask a pharmacist before you buy, so you choose something that suits you and is suitable alongside any medicines you already take. Advice is free and there’s no need to book."
+  faqs={faqs}
+  hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>Why ask a pharmacist before buying a supplement?</h2>
+  <ul>
+    <li><strong>Interactions.</strong> Some supplements can affect how prescription medicines work, including blood thinners, some antidepressants and the contraceptive pill.</li>
+    <li><strong>Doubling up.</strong> It’s easy to take the same ingredient in two products without realising.</li>
+    <li><strong>Whether you need it at all.</strong> Sometimes a blood test through your GP is the better first step, for example if you think you’re low in iron or vitamin D.</li>
+    <li><strong>Pregnancy and breastfeeding.</strong> We can help you choose supplements that are appropriate at each stage.</li>
+  </ul>
+  <p>Talk to a pharmacist about whether a supplement suits you and your medicines. Always read the label and follow the directions for use.</p>
+
+  <h2>Which vitamins and supplements do you stock?</h2>
+  <ul>
+    <li>everyday multivitamins and single vitamins and minerals</li>
+    <li>pregnancy and pre-conception supplements</li>
+    <li>children’s vitamins</li>
+    <li>fish oil and omega-3s</li>
+    <li>probiotics</li>
+    <li>sports and active-lifestyle supplements</li>
+    <li>practitioner ranges, including <a href="/metagenics-vitamins/">Metagenics</a></li>
+  </ul>
+  <p>Brands include Blackmores, Swisse, BioCeuticals, Nature’s Way, Nature’s Own, Bioglan, Herbs of Gold, Ethical Nutrients, Cenovis and Ostelin. Ranges vary, so ask us if you’re after something specific.</p>
+
+  <h2>Do you stock practitioner ranges?</h2>
+  <p>Yes. Practitioner ranges are usually recommended after a conversation with a health professional. We stock a range of Metagenics products and can special-order anything else from their range. <a href="/metagenics-vitamins/">More about Metagenics at Pacific Fair</a>.</p>
+
+  <h2>Can supplements replace a balanced diet?</h2>
+  <p>No. Supplements may help fill gaps in your diet, but they don’t replace a balanced diet and they aren’t a substitute for medical care. If you have ongoing symptoms such as tiredness, see your GP. The doctors at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can help.</p>
+
+  <h2>Can I shop in store or order on Uber Eats?</h2>
+  <p>Both. Visit us on the ground floor of Pacific Fair any day we’re open, or <a href={site.links.uberEats} rel="noopener">order vitamins for delivery on Uber Eats</a> across the Gold Coast.</p>
+</ServicePage>

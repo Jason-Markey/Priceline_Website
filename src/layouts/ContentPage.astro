@@ -1,0 +1,59 @@
+---
+/**
+ * General content page template (about, visit, contact, FAQ, hubs, legal).
+ * title band → optional lead → body (slot) → optional FAQs → optional NAP.
+ * Use the `side` named slot for a sidebar on wide screens.
+ */
+import Base from './Base.astro';
+import TitleBand from '../components/TitleBand.astro';
+import Faq from '../components/Faq.astro';
+import Nap from '../components/Nap.astro';
+import { site } from '../data/site';
+import { faqNode } from '../lib/schema';
+
+export interface Props {
+  title: string;            // <title>
+  description: string;      // meta description
+  path: string;             // "/about-us/"
+  h1: string;
+  lead?: string;
+  breadcrumbs?: { name: string; href: string }[];
+  faqs?: { q: string; a: string }[];
+  faqHeading?: string;
+  showNap?: boolean;
+  wide?: boolean;           // full-width body instead of measure column
+  schema?: Record<string, unknown>[];
+  pageType?: string;
+  ogImage?: ImageMetadata;
+  dateModified?: string;
+  noindex?: boolean;
+}
+const {
+  title, description, path, h1, lead, breadcrumbs = [{ name: 'Home', href: '/' }, { name: h1, href: path }],
+  faqs = [], faqHeading, showNap = false, wide = false, schema = [], pageType, ogImage, dateModified, noindex = false,
+} = Astro.props;
+const allSchema = [
+  ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
+  ...schema,
+];
+const hasSide = Astro.slots.has('side');
+---
+
+<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={allSchema} pageType={pageType} ogImage={ogImage} dateModified={dateModified} noindex={noindex}>
+  <TitleBand title={h1} lead={lead} breadcrumbs={breadcrumbs} />
+  <div class:list={['container', 'content-layout', { 'content-layout--side': hasSide, 'content-layout--wide': wide }]}>
+    <article class:list={[{ prose: !wide }]}>
+      <slot />
+      {faqs.length > 0 && <Faq items={faqs} heading={faqHeading} />}
+      {showNap && <Nap showEmail />}
+    </article>
+    {hasSide && <aside class="content-side"><slot name="side" /></aside>}
+  </div>
+</Base>
+
+<style>
+  .content-layout { display: grid; gap: var(--s10); padding-block: var(--s10) var(--s12); }
+  @media (min-width: 1024px) { .content-layout--side { grid-template-columns: minmax(0, var(--measure)) 340px; gap: var(--s16); } }
+  .content-side :global(h2) { font-size: 1.0625rem; margin: 0 0 var(--s3); }
+  .content-side :global(section + section) { margin-top: var(--s8); }
+</style>

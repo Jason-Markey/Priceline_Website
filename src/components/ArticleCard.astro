@@ -1,0 +1,28 @@
+---
+/**
+ * Card for an article in a listing grid (blog index, category pages).
+ */
+import type { CollectionEntry } from 'astro:content';
+import { categories } from '../data/categories';
+export interface Props { entry: CollectionEntry<'articles'>; }
+const { entry } = Astro.props;
+const d = entry.data;
+const slug = entry.id.replace(/\.md$/, '');
+const cat = categories[d.category];
+const reviewed = d.modifiedDate.toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
+---
+<article class="acard">
+  <a class="chip" href={`/category/${d.category}/`}>{cat.name}</a>
+  <h3 class="acard__title"><a href={`/${slug}/`}>{d.title}</a></h3>
+  <p class="acard__desc">{d.description}</p>
+  <p class="acard__meta">Reviewed <time datetime={d.modifiedDate.toISOString().slice(0, 10)}>{reviewed}</time></p>
+</article>
+<style>
+  .acard { display: flex; flex-direction: column; gap: var(--s3); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5); box-shadow: var(--shadow); height: 100%; }
+  .acard .chip { align-self: flex-start; }
+  .acard__title { margin: 0; font-size: 1.125rem; line-height: 1.3; }
+  .acard__title a { color: var(--pink-deep); text-decoration: none; }
+  .acard__title a:hover { text-decoration: underline; }
+  .acard__desc { margin: 0; font-size: var(--fs-sm); flex: 1; }
+  .acard__meta { margin: 0; font-size: 0.875rem; color: var(--text-muted); }
+</style>

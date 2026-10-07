@@ -1,0 +1,53 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('health-station')!;
+
+const faqs = [
+  { q: 'Is the Health Station free?', a: 'Yes. Blood pressure, height, weight, BMI and type 2 diabetes risk checks at the Health Station are all free.' },
+  { q: 'Do I need to book a blood pressure check?', a: 'No. Just come in during opening hours and use the Health Station. A pharmacist is nearby to explain your results.' },
+  { q: 'What can I check at the Health Station?', a: 'Blood pressure, height, weight and BMI, plus the AUSDRISK questionnaire, which estimates your risk of developing type 2 diabetes in the next five years.' },
+  { q: 'Can I keep a record of my results?', a: 'Yes. We can email your results to you, so you can track them over time or share them with your doctor.' },
+  { q: 'What do blood pressure numbers mean?', a: 'A reading has two numbers, for example 120/80. The top number is the pressure when your heart beats; the bottom number is the pressure between beats. A single high reading doesn’t mean you have high blood pressure, but it’s a sign to check again and talk to your doctor.' },
+  { q: 'What if my reading is outside the healthy range?', a: 'Our pharmacists can talk it through with you and refer you to a GP. Help Medical, an independent general practice, is located inside our store.' },
+  { q: 'How often should I check my blood pressure?', a: 'High blood pressure usually has no symptoms, so regular checks matter. Many people find it easy to check in each time they fill a script.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Free Blood Pressure Checks Broadbeach | Priceline"
+  description="Free blood pressure, weight, BMI and type 2 diabetes risk checks at the Health Station inside Priceline Pacific Fair, Broadbeach. Results emailed to you."
+  h1="Health Station: free blood pressure and health checks at Pacific Fair"
+  lead="Knowing your numbers is one of the simplest ways to look after your health. At the Health Station inside Priceline Pharmacy Pacific Fair in Broadbeach, you can check your blood pressure and other key measures for free, with no appointment and a pharmacist nearby to explain what they mean."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>What can I check at the Health Station?</h2>
+  <h3>Blood pressure</h3>
+  <p>High blood pressure usually has no symptoms, which is why regular checks matter. It’s a major risk factor for heart attack, stroke and kidney disease.</p>
+  <h3>Height, weight and BMI</h3>
+  <p>A quick way to track changes over time. BMI is a rough guide only and doesn’t account for things like muscle mass.</p>
+  <h3>AUSDRISK: type 2 diabetes risk</h3>
+  <p>A short questionnaire that estimates your risk of developing type 2 diabetes in the next five years.</p>
+
+  <h2>How does it work?</h2>
+  <ul>
+    <li>It’s free, and there’s no appointment needed. Just come in during <a href="/visit-us/">opening hours</a>.</li>
+    <li>We can email your results to you, so you can track them or share them with your doctor.</li>
+    <li>Check in each time you fill your scripts, and you’ll see how your health is changing over time.</li>
+    <li>If a result is outside the healthy range, our pharmacists can talk it through and refer you to a GP. <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store.</li>
+  </ul>
+
+  <h2>What do blood pressure numbers mean?</h2>
+  <p>A reading has two numbers, for example 120/80. The top number is the pressure when your heart beats; the bottom number is the pressure between beats. A single high reading doesn’t mean you have high blood pressure, but it’s a sign to check again and talk to your doctor.</p>
+
+  <h2>When should I see a doctor straight away?</h2>
+  <p>If you have a very high reading along with chest pain, shortness of breath, severe headache, weakness, or changes in vision or speech, call 000.</p>
+
+  <h2>What else can help?</h2>
+  <p>If your numbers suggest a change is worth making, our pharmacists offer free <a href="/weight-loss-counselling-and-advice/">weight management support</a>. If you have diabetes, we’re an access point for <a href="/national-diabetes-services-scheme/">NDSS supplies</a>. And if you take several medicines, a free <a href="/medication-reviews/">medication review</a> checks they’re all working well together.</p>
+</ServicePage>

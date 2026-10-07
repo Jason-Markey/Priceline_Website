@@ -1,0 +1,58 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import { site } from '../data/site';
+
+const path = '/visiting-the-gold-coast/';
+const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: 'Visiting the Gold Coast', href: path }];
+const faqs = [
+  { q: 'Can I fill my prescription from another state at your pharmacy?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be dispensed here. Bring your Medicare card if you have one so PBS pricing applies.' },
+  { q: 'I’m visiting from overseas. Can you fill my prescription?', a: 'Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate. Bring your medicine or its packaging so the doctor can see exactly what you take.' },
+  { q: 'Do I need an appointment to see a pharmacist or a doctor?', a: 'No appointment is needed for a pharmacist. Help Medical welcomes walk-ins subject to availability, and booking ahead at helpmedical.au is the surest way to be seen.' },
+  { q: 'Can you deliver to my hotel or apartment?', a: 'Yes, for everyday health and beauty products. Order through <a href="/delivery/">Uber Eats</a> and we deliver across the Gold Coast, including Broadbeach, Surfers Paradise and Main Beach. Prescription medicines can’t be ordered through Uber Eats.' },
+  { q: 'Can I get a flu or travel vaccine while I’m on holiday?', a: 'Yes. Walk in for a <a href="/vaccination-information/">vaccination</a> any day we’re open, or book a time online. Your vaccination is recorded on the Australian Immunisation Register.' },
+  { q: 'What if I need help outside your opening hours?', a: 'For urgent medical help call 000. For health advice, call healthdirect on 1800 022 222 (24 hours). Gold Coast University Hospital and Robina Hospital have emergency departments.' },
+];
+---
+
+<ContentPage
+  title="Pharmacy for Gold Coast Visitors | Priceline Pacific Fair"
+  description="Visiting the Gold Coast? Fill interstate scripts, see a GP in store, get vaccines and sun essentials, or order delivery to your hotel from Priceline Pacific Fair."
+  path={path}
+  h1="Visiting the Gold Coast? Here’s how we can help"
+  lead="If you’re on holiday in Broadbeach or Surfers Paradise and need a pharmacy, we’re inside Pacific Fair Shopping Centre, open 7 days, with GPs in store. Here’s what visitors most often need from us."
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  showNap
+  dateModified="2026-10-07"
+>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
+    <a class="btn btn--secondary" href="/visit-us/">Hours &amp; directions</a>
+  </div>
+
+  <h2>Forgot your medicine or ran out?</h2>
+  <p>Bring us your <a href="/prescriptions/">prescription</a>, show us your eScript on your phone, or ask your doctor at home to send an eScript to your phone. Scripts from any Australian state can be filled here. If you have repeats on file at your usual pharmacy, we can often arrange a transfer; call us and we’ll explain what’s needed.</p>
+  <p>If you’ve run out and have no script, a GP at <a href="/help-medical/">Help Medical</a>, inside our store, can assess you and write a new prescription if appropriate, which we can fill a few steps away.</p>
+
+  <h2>Visiting from overseas?</h2>
+  <p>Overseas prescriptions can’t be dispensed in Australia, but it’s usually a quick fix: see a GP at Help Medical, inside our store, with your medicine or its packaging. Many common medicines are available here under a different brand name, and our pharmacists can help you match them. Travel insurance may cover the consultation; keep your receipts.</p>
+
+  <h2>Feeling unwell on holiday?</h2>
+  <p>Ask our pharmacists first. We can help with colds, hayfever, upset stomachs, insect bites, minor cuts and sunburn, and tell you straight away if you should see a doctor. Help Medical offers bulk billing for eligible Medicare card holders and welcomes walk-ins; visitors without Medicare pay a private fee. For urgent problems, call 000.</p>
+  <p>Our <a href="/common-illness-information/">common illnesses A–Z</a> has plain-English guides, including <a href="/sunburn-treatment/">sunburn</a>, <a href="/bluebottle-sting-treatment/">bluebottle stings</a> and <a href="/sprain-vs-strain/">sprains</a>.</p>
+
+  <h2>Sun, surf and the Gold Coast climate</h2>
+  <p>UV on the Gold Coast reaches 3 or higher every day of the year, even in winter and on cloudy days. Pick up sunscreen, after-sun care, insect repellent and rehydration drinks from us before you head to the beach, and read our <a href="/sun-safety-gold-coast/">sun safety guide</a>. Always read the label and follow the directions for use.</p>
+
+  <h2>Vaccinations while you’re here</h2>
+  <p>Need a flu shot or a travel vaccine before you fly on? Walk in or book a time for a <a href="/vaccination-information/">vaccination</a> with our pharmacist immunisers. Vaccines under the National Immunisation Program are free for eligible people with a Medicare card.</p>
+
+  <h2>Delivery to your hotel</h2>
+  <p>Order everyday health and beauty items through <a href="/delivery/">Uber Eats</a> and we’ll deliver to hotels and apartments across the Gold Coast. You can also shop online at priceline.com.au and collect in store with <a href="/click-and-collect/">Click &amp; Collect</a>.</p>
+
+  <h2>Passport photos, piercings and gifts</h2>
+  <p>We take <a href="/passport-photos/">passport and visa photos</a> while you wait, offer <a href="/ear-piercings/">ear piercing</a> for ages 8 and over, and stock skincare, fragrance and gift ideas. See <a href="/beauty-fragrance/">beauty and everyday essentials</a>.</p>
+
+  <h2>Getting to us</h2>
+  <p>We’re on the ground floor of Pacific Fair, on the north-eastern side near the river entrance. From Broadbeach, Surfers Paradise and Main Beach, take the G:link light rail to Broadbeach South, right out the front of the centre. Pacific Fair has free parking with number-plate recognition. <a href="/visit-us/">Directions, parking and opening hours</a>.</p>
+</ContentPage>

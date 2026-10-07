@@ -1,0 +1,75 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('uti-treatment')!;
+
+const faqs = [
+  { q: 'Do I need to book?', a: 'There’s no formal appointment, but please call first. The service depends on a trained pharmacist being on shift, and a quick call saves you a wasted trip.' },
+  { q: 'Do I need a prescription?', a: 'No. If the service is suitable for you, the trained pharmacist can supply the treatment directly, without a GP visit.' },
+  { q: 'Can men use this service?', a: 'No. The Queensland pharmacy UTI service is for women aged 18 to 65. Men with UTI symptoms should see a GP; <a href="/help-medical/">Help Medical</a> is inside our store.' },
+  { q: 'Can I use the service if I’m pregnant?', a: 'No. If you’re pregnant, or might be, you’ll need to see a GP, because UTIs in pregnancy need different care.' },
+  { q: 'Is the consultation covered by Medicare?', a: 'No. A consultation fee applies and isn’t covered by Medicare. Ask us about the fee when you call.' },
+  { q: 'What if my symptoms don’t improve?', a: 'If your symptoms get worse, or haven’t improved after a few days, see a GP. If you develop a fever, back pain, blood in your urine or vomiting, get medical help the same day.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="UTI Treatment from a Pharmacist | Priceline Pacific Fair"
+  description="Women aged 18 to 65 with UTI symptoms can see a trained pharmacist at Pacific Fair, Broadbeach, for assessment and, if suitable, treatment without a GP visit."
+  h1="UTI treatment with a pharmacist at Pacific Fair"
+  lead="In Queensland, trained pharmacists can assess and, if suitable, treat uncomplicated bladder infections in women aged 18 to 65, without a GP visit. At Priceline Pharmacy Pacific Fair in Broadbeach, you can talk to one of our trained pharmacists in our private consultation room. Please call first to check a trained pharmacist is on shift."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>Who can use this service?</h2>
+  <p>The Queensland pharmacy UTI service is for women aged 18 to 65 with symptoms of an uncomplicated bladder infection (cystitis), such as:</p>
+  <ul>
+    <li>burning or stinging when you pass urine</li>
+    <li>needing to go more often, or urgently</li>
+    <li>discomfort low in your tummy</li>
+  </ul>
+
+  <h2>What happens in the consultation?</h2>
+  <ol>
+    <li>Your pharmacist asks about your symptoms, health history and any medicines you take, in private.</li>
+    <li>If the service is suitable for you, the pharmacist can supply a treatment and explain how to take it.</li>
+    <li>If it isn’t suitable, we’ll refer you to a GP. <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store.</li>
+  </ol>
+  <p>Allow about 15 minutes.</p>
+
+  <h2>How much does it cost?</h2>
+  <p>A consultation fee applies and isn’t covered by Medicare. Ask us about the fee when you call on <a href={site.phoneHref}>{site.phone}</a>. Any treatment supplied is charged separately.</p>
+
+  <h2>When will you need to see a GP instead?</h2>
+  <p>Pharmacists can’t treat UTIs through this service if you:</p>
+  <ul>
+    <li>are pregnant, or might be</li>
+    <li>are under 18 or over 65</li>
+    <li>are male</li>
+    <li>have frequent or recurring UTIs</li>
+    <li>have kidney problems, a urinary catheter or a weakened immune system</li>
+  </ul>
+
+  <h2>When should I get urgent medical help?</h2>
+  <p>Get medical help the same day if you have:</p>
+  <ul>
+    <li>a fever, chills or shaking</li>
+    <li>pain in your back or side</li>
+    <li>blood in your urine</li>
+    <li>nausea or vomiting</li>
+  </ul>
+  <p>These can be signs the infection has spread to your kidneys. See a GP the same day, or go to an emergency department. In an emergency, call 000.</p>
+
+  <h2>What can I do to feel better in the meantime?</h2>
+  <ul>
+    <li>Drink plenty of water, especially in Gold Coast heat.</li>
+    <li>Don’t hold on when you need to go.</li>
+    <li>Ask our pharmacists about products to ease discomfort while you wait for treatment to work.</li>
+  </ul>
+  <p>Always read the label and follow the directions for use. For other support, see our <a href="/womens-health/">women’s health</a> page.</p>
+</ServicePage>

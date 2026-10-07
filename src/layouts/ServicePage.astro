@@ -27,6 +27,10 @@ export interface Props {
   disclaimer?: string;
   ogImage?: ImageMetadata;
   dateModified?: string;
+  /** Extra JSON-LD nodes (e.g. helpMedicalNode()) */
+  extraSchema?: Record<string, unknown>[];
+  /** Hide the Service schema node (for partner pages) */
+  noServiceSchema?: boolean;
 }
 
 const {
@@ -37,7 +41,7 @@ const {
   secondaryCta = { label: 'Hours & directions', href: '/visit-us/' },
   bookHref,
   disclaimer = 'This information is general in nature and isn’t a substitute for personal advice from your pharmacist or doctor.',
-  ogImage, dateModified,
+  ogImage, dateModified, extraSchema = [], noServiceSchema = false,
 } = Astro.props;
 
 const path = `/${service.slug}/`;
@@ -45,8 +49,9 @@ const url = `${site.url}${path}`;
 const breadcrumbs = [{ name: 'Home', href: '/' }, hub, { name: service.name, href: path }];
 const related = service.related.map(serviceBySlug).filter(Boolean) as Service[];
 const schema = [
-  serviceNode({ url, name: service.name, description: service.short, price: service.price }),
+  ...(noServiceSchema ? [] : [serviceNode({ url, name: service.name, description: service.short, price: service.price })]),
   ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
+  ...extraSchema,
 ];
 ---
 

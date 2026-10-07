@@ -1,0 +1,59 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+import counterImg from '../assets/images/scripts-in-counter.jpg';
+const service = serviceBySlug('medication-packing')!;
+
+const faqs = [
+  { q: 'How much does medication packing cost?', a: 'Medication packing is free for concession and health care card holders, and $5 a week for everyone else.' },
+  { q: 'What is a Webster pack?', a: 'A Webster pack is a weekly blister pack. Each dose is sealed in its own compartment and labelled with the day and time it should be taken, so you can see at a glance what has and hasn’t been taken.' },
+  { q: 'Do I need to book to start medication packing?', a: 'No. Call us on (07) 5592 2099 or ask at the prescription counter at the back of the store, and bring in your current medicines and prescriptions.' },
+  { q: 'Can a family member or carer collect my packs?', a: 'Yes. Let us know who else can collect packs or talk to us about your medicines, and we’ll note it on your profile.' },
+  { q: 'What happens if my doctor changes my medicines?', a: 'Bring or send us the new prescription as soon as possible. We’ll update your packs and let you know when the new ones are ready. Please don’t push tablets out or add them to a pack yourself.' },
+  { q: 'Do I need to bring my prescriptions?', a: 'Bring in your current medicines and prescriptions, or ask your doctor to send your scripts straight to us. A pharmacist checks every medicine, dose and timing before we set up your packs.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Webster Packs & Medication Packing Broadbeach | Priceline"
+  description="Weekly medication packing at Pacific Fair, Broadbeach. Free for concession and health care card holders, $5 a week otherwise. Ideal for carers and families."
+  h1="Medication packing (Webster packs) at Pacific Fair"
+  lead="Keeping track of several medicines is hard, especially when doses change or you’re caring for someone else. The medication packing service at Priceline Pharmacy Pacific Fair in Broadbeach sorts your medicines into weekly blister packs, often called Webster packs, with each dose clearly labelled by day and time."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>What does it cost?</h2>
+  <Image src={counterImg} alt="The scripts-in counter at the Priceline Pharmacy Pacific Fair dispensary, where medication packs are set up and collected" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <p>Medication packing is <strong>free for concession and health care card holders</strong>, and $5 a week for everyone else.</p>
+
+  <h2>How does medication packing work?</h2>
+  <ol>
+    <li><strong>Talk to us.</strong> Bring in your current medicines and prescriptions, or ask your doctor to send scripts to us.</li>
+    <li><strong>We set up your profile.</strong> A pharmacist checks every medicine, dose and timing, and flags anything that needs a question to your doctor.</li>
+    <li><strong>We pack your medicines.</strong> Each week’s medicines are sealed into a blister pack labelled with the day and time of each dose.</li>
+    <li><strong>You collect.</strong> Pick up your packs each week, or have a family member or carer collect for you.</li>
+  </ol>
+
+  <h2>Who is medication packing for?</h2>
+  <ul>
+    <li>People taking several medicines at different times of day</li>
+    <li>Anyone who sometimes forgets whether they’ve taken a dose</li>
+    <li>Older people living independently</li>
+    <li>Family members and carers managing medicines for someone else</li>
+    <li>Anyone whose medicines change often after hospital visits or specialist appointments</li>
+  </ul>
+
+  <h2>Caring for a parent or partner?</h2>
+  <p>Blister packs make it easy to see at a glance whether today’s doses have been taken, which gives you peace of mind if you don’t live with the person you care for. Let us know who else can collect packs or talk to us about their medicines, and we’ll note it on their profile.</p>
+
+  <h2>What happens when a medicine changes?</h2>
+  <p>If a doctor changes a dose or adds a new medicine, bring or send us the new script as soon as possible. We’ll update the packs and let you know when the new ones are ready. Please don’t try to push tablets out or add them yourself.</p>
+
+  <h2>How do I get started?</h2>
+  <p>Call us on <a href={site.phoneHref}>{site.phone}</a> or ask at the prescription counter at the back of the store. If you take several medicines, a free <a href="/medication-reviews/">medication review</a> with one of our pharmacists is a good first step, and we can keep your repeat <a href="/prescriptions/">prescriptions on file</a> so you don’t need to bring the paperwork each week.</p>
+</ServicePage>

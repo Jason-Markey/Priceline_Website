@@ -1,0 +1,50 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import HoursCard from '../components/HoursCard.astro';
+import { site } from '../data/site';
+const fax = site.fax;
+---
+
+<ContentPage
+  title="Contact Priceline Pharmacy Pacific Fair | (07) 5592 2099"
+  description="Call (07) 5592 2099, email your script or send us a message. Priceline Pharmacy Pacific Fair, Shop 81, Pacific Fair Shopping Centre, Broadbeach QLD 4218."
+  path="/contact-us/"
+  h1="Contact us"
+  lead="Questions about a prescription, a service or a product? Call us, email us, or pop in. We’re on the ground floor of Pacific Fair Shopping Centre in Broadbeach."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Contact us', href: '/contact-us/' }]}
+  pageType="ContactPage"
+  dateModified="2026-10-07"
+>
+  <h2>Get in touch</h2>
+  <p>
+    <strong>{site.name}</strong><br />
+    {site.address.oneLine}
+  </p>
+  <ul class="contact-list">
+    <li><strong>Phone:</strong> <a href={site.phoneHref}>{site.phone}</a></li>
+    <li><strong>Fax:</strong> {fax}</li>
+    <li><strong>Pharmacy and prescriptions:</strong> <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a></li>
+    <li><strong>General enquiries:</strong> <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a></li>
+  </ul>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
+    <a class="btn btn--secondary" href={`mailto:${site.emailGeneral}`} data-event="email">Email us</a>
+  </div>
+
+  <h2>Opening hours</h2>
+  <HoursCard heading={site.name} hours={site.hours} note="Public holiday hours are updated on our Google listing." />
+  <p><a href="/visit-us/">Directions, parking and public holiday hours</a>.</p>
+
+  <h2>Sending a script?</h2>
+  <p>Send your eScript ahead through the MedAdvisor app or the <a href="/download-the-priceline-app/">Priceline Pharmacy app</a> and choose {site.name}, or show us the QR code at the prescription counter. <a href="/prescriptions/">More about prescriptions</a>.</p>
+
+  <h2>Need a doctor?</h2>
+  <p><a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store. Call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a> or book at <a href={site.helpMedical.bookingUrl} rel="noopener">helpmedical.au</a>.</p>
+
+  <h2>Email us</h2>
+  <p>Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a> for general enquiries, or <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a> for prescription and medicine questions, and we’ll get back to you as soon as we can. For anything urgent about your medicines, please call us. In an emergency, call 000.</p>
+</ContentPage>
+
+<style>
+  .contact-list { list-style: none; padding: 0; }
+</style>

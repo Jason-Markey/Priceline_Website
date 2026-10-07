@@ -1,0 +1,58 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import { site } from '../data/site';
+---
+
+<ContentPage
+  title="Common Illnesses A-Z: Pharmacist Advice | Priceline"
+  description="Plain-English pharmacist guides to 21 common conditions, from hayfever and reflux to cold sores and sprains, including when to see a GP."
+  path="/common-illness-information/"
+  h1="Common illnesses A–Z"
+  lead={`Plain-English guides to common health problems, written for Australians by the team at Priceline Pharmacy Pacific Fair in Broadbeach and reviewed by our pharmacist, ${site.reviewer.name} (${site.reviewer.credentials}). Each guide explains the symptoms, what you can do at home, how a pharmacist can help, and when to see a GP.`}
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Common illnesses A–Z', href: '/common-illness-information/' }]}
+  showNap
+  dateModified="2026-10-07"
+>
+  <p>For personal advice, just ask us in store. There’s no appointment needed.</p>
+
+  <h2>A–D</h2>
+  <ul>
+    <li><a href="/acne-treatment-pharmacy/"><strong>Acne</strong></a>: what causes breakouts, and which pharmacy options can help.</li>
+    <li><a href="/athletes-foot-treatment/"><strong>Athlete’s foot</strong></a>: how to clear it, and how to stop it coming back in Gold Coast humidity.</li>
+    <li><strong>Cold sores</strong>: tingling, blisters and sun triggers. Our pharmacists can suggest treatments to use at the first tingle.</li>
+    <li><a href="/common-cold-remedies/"><strong>Common cold</strong></a>: myths, facts, and what really helps you feel better.</li>
+    <li><a href="/constipation-relief/"><strong>Constipation</strong></a>: simple changes and pharmacy options, and when to see a GP.</li>
+    <li><a href="/how-to-treat-a-cut/"><strong>Cuts and scrapes</strong></a>: step-by-step first aid, and when a wound needs a doctor.</li>
+    <li><a href="/dandruff-treatment/"><strong>Dandruff</strong></a>: why it happens and how to manage a flaky scalp.</li>
+    <li><a href="/dry-skin-remedies/"><strong>Dry skin</strong></a>: a pharmacist’s checklist for itchy, dry skin.</li>
+  </ul>
+
+  <h2>E–H</h2>
+  <ul>
+    <li><strong>Eczema</strong>: keeping skin moisturised and avoiding triggers such as heat, sweat and chlorine. Ask our pharmacists about flare-up options.</li>
+    <li><a href="/haemorrhoids-treatment/"><strong>Haemorrhoids</strong></a>: myths, facts and home care.</li>
+    <li><strong>Hayfever</strong>: on the Gold Coast, grass pollen season runs through the warmer months. Our pharmacists can help you choose antihistamines, nasal sprays and eye drops.</li>
+    <li><a href="/headache-relief/"><strong>Headaches</strong></a>: common types, what helps, and the warning signs to act on.</li>
+    <li><a href="/heartburn-relief/"><strong>Heartburn and reflux (GORD)</strong></a>: what actually helps, and when to see a GP.</li>
+  </ul>
+
+  <h2>I–R</h2>
+  <ul>
+    <li><a href="/trouble-sleeping-tips/"><strong>Insomnia and trouble sleeping</strong></a>: practical tips for better sleep.</li>
+    <li><a href="/migraine-relief/"><strong>Migraine</strong></a>: what to do when an attack starts.</li>
+    <li><a href="/mouth-ulcer-treatment/"><strong>Mouth ulcers</strong></a>: home care, and when an ulcer needs checking.</li>
+    <li><a href="/nail-fungus-treatment/"><strong>Nail fungus</strong></a>: myths, facts and treatments that work.</li>
+  </ul>
+
+  <h2>S–Z</h2>
+  <ul>
+    <li><a href="/scabies-treatment-australia/"><strong>Scabies</strong></a>: treatment, and how to stop it spreading at home.</li>
+    <li><a href="/sprain-vs-strain/"><strong>Sprains and strains</strong></a>: the difference, and first aid that helps.</li>
+    <li><a href="/sunburn-treatment/"><strong>Sunburn</strong></a>: what to do after too much sun, and when sunburn needs a doctor.</li>
+    <li><strong>Travel sickness</strong>: tips for theme park rides, boats and road trips. Ask us which travel sickness remedies suit you and your children.</li>
+  </ul>
+
+  <h2>When to get help</h2>
+  <p>These guides are general information. If you’re unsure, symptoms are severe, or they aren’t improving, talk to our pharmacists or see a GP. <a href="/help-medical/">Help Medical</a> is inside our store. In an emergency, call 000.</p>
+  <p>Always read the label and follow the directions for use.</p>
+</ContentPage>

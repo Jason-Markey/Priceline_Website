@@ -1,0 +1,110 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import { site, hoursRows } from '../data/site';
+import { serviceBySlug } from '../data/services';
+import { helpMedicalDoctors } from '../data/team';
+import { helpMedicalNode } from '../lib/schema';
+import receptionImg from '../assets/images/help-medical-reception.jpg';
+const service = serviceBySlug('help-medical')!;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
+const doctors = helpMedicalDoctors.map((d) => ({
+  ...d,
+  img: d.photo ? images[`../assets/images/${d.photo}`]?.default : undefined,
+}));
+
+const hm = site.helpMedical;
+const hmHours = hoursRows(hm.hours);
+
+const faqs = [
+  { q: 'Is Help Medical part of Priceline Pharmacy?', a: 'No. Help Medical is an independent general practice located inside our store. The pharmacy and the clinic are run separately, but being under one roof means you can see a GP and fill your script in one visit.' },
+  { q: 'Does Help Medical bulk bill?', a: 'Help Medical bulk bills eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so check when you book. Patients without Medicare pay a private fee.' },
+  { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins and does its best to fit you in, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen.' },
+  { q: 'How do I book a GP appointment?', a: `Book online at helpmedical.au or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
+  { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form.` },
+  { q: 'Can I fill my prescription straight after seeing the doctor?', a: 'Yes. After your appointment, bring your script to our dispensary a few steps away and our pharmacists will fill it while you wait.' },
+  { q: 'Can visitors to the Gold Coast see a doctor at Help Medical?', a: 'Yes. New patients and visitors are welcome. If you don’t have a Medicare card, a private fee applies.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Bulk-Billing GP at Pacific Fair | Help Medical in Priceline"
+  description="See a GP at Help Medical, inside Priceline Pacific Fair, Broadbeach. Open 7 days, walk-ins welcome and bulk billing for eligible patients. Book online."
+  h1="Help Medical: GPs inside Priceline Pacific Fair"
+  lead="Need to see a doctor? Help Medical is an independent general practice located inside our store, Priceline Pharmacy Pacific Fair in Broadbeach. See a GP, then have your prescription filled at our dispensary a few steps away, all in one visit. Walk-ins are welcome subject to availability, and bulk billing is available for eligible Medicare card holders."
+  faqs={faqs}
+  hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
+  primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'book-gp' }}
+  secondaryCta={{ label: `Call Help Medical ${hm.phone}`, href: hm.phoneHref }}
+  noServiceSchema
+  extraSchema={[helpMedicalNode()]}
+  dateModified="2026-10-07"
+>
+  <h2>Does Help Medical bulk bill?</h2>
+  <Image src={receptionImg} alt="Help Medical reception desk and waiting area inside Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <p>Help Medical bulk bills eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so please check when you book. Patients without Medicare pay a private fee.</p>
+
+  <h2>Do I need an appointment?</h2>
+  <p>No, but it helps. Help Medical welcomes walk-ins and does its best to fit you in, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen. New patients and Gold Coast visitors are welcome.</p>
+  <p><a href={hm.bookingUrl} rel="noopener">Book online at helpmedical.au</a> or call Help Medical on <a href={hm.phoneHref}>{hm.phone}</a>.</p>
+
+  <h2>Help Medical opening hours</h2>
+  <dl>
+    {hmHours.map((r) => (
+      <div>
+        <dt>{r.label}</dt>
+        <dd>{r.value}</dd>
+      </div>
+    ))}
+  </dl>
+  <p>Public holiday hours may differ. Check with the clinic before you visit.</p>
+
+  <h2>What can the GPs help with?</h2>
+  <p>Help Medical offers the full range of general practice care, including:</p>
+  <ul>
+    <li>check-ups, health assessments and same-day illness</li>
+    <li>prescriptions, repeat scripts and referrals</li>
+    <li>women’s health, contraception and IUD insertion</li>
+    <li>men’s health</li>
+    <li>antenatal and postnatal care</li>
+    <li>children’s and adolescent health</li>
+    <li>skin checks and minor skin procedures</li>
+    <li>vaccinations and travel health</li>
+    <li>mental health care</li>
+    <li>chronic disease management</li>
+    <li>work medicals and WorkCover</li>
+  </ul>
+
+  <h2>Meet the doctors</h2>
+  {doctors.map((d) => (
+    <section>
+      <h3>{d.name}</h3>
+      {d.img && <Image src={d.img} alt={`${d.name}, GP at Help Medical, Pacific Fair`} width={240} height={240} />}
+      {d.credentials && <p><strong>{d.credentials}</strong></p>}
+      <p>{d.bio}</p>
+    </section>
+  ))}
+
+  <h2>QML Pathology collection</h2>
+  <p>A <a href={site.pathology.url} rel="noopener">{site.pathology.name}</a> collection room operates inside Help Medical, so you can have blood tests and other pathology collected without leaving the centre. Bring your request form from any doctor.</p>
+  <p>Collection hours: {site.pathology.hoursText} Phone <a href={site.pathology.phoneHref}>{site.pathology.phone}</a>.</p>
+
+  <h2>Can I fill my script straight after seeing the doctor?</h2>
+  <p>Yes. Having GPs and pharmacists under one roof means your script can go straight to our dispensary, a few steps away, and our pharmacists can refer you to a doctor quickly if you need one. If you have questions about a new medicine after your appointment, just ask at the counter.</p>
+
+  <h2>Where is Help Medical inside the store?</h2>
+  <p>Once you walk into Priceline Pharmacy Pacific Fair, Help Medical is on the right-hand side of the store. See <a href="/visit-us/">parking and directions</a>.</p>
+  <p>In an emergency, call 000.</p>
+</ServicePage>
+
+<style>
+  dl { margin: 0 0 var(--s5); display: grid; gap: 6px; max-width: 420px; }
+  dl > div { display: flex; justify-content: space-between; gap: var(--s4); border-bottom: 1px solid var(--hairline); padding-bottom: 6px; }
+  dl > div:last-child { border-bottom: 0; }
+  dt { font-weight: 600; color: var(--charcoal); }
+  dd { margin: 0; text-align: right; white-space: nowrap; }
+  section { margin-bottom: var(--s6); }
+  section :global(img) { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; margin: var(--s2) 0 var(--s3); display: block; }
+</style>

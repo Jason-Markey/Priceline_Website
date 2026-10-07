@@ -1,0 +1,95 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import { site } from '../data/site';
+import { faqNode } from '../lib/schema';
+
+type Faq = { q: string; a: string };
+const bookLink = `<a href="${site.links.book}" rel="noopener">book a time online</a>`;
+
+const groups: { id: string; heading: string; items: Faq[] }[] = [
+  {
+    id: 'scripts',
+    heading: 'Prescriptions and medicines',
+    items: [
+      { q: 'Can I fill a hospital prescription at a community pharmacy?', a: 'Yes. You can bring a hospital prescription to us and we’ll dispense it here, just as we would a prescription from your GP.' },
+      { q: 'How do I send my eScript before I arrive?', a: 'Use the MedAdvisor app or the Priceline Pharmacy app. Add your eScript by pasting the token link or scanning the QR code, choose Priceline Pharmacy Pacific Fair, and submit. Or just show us the QR code at the prescription counter. <a href="/prescriptions/">More about prescriptions</a>.' },
+      { q: 'Can you register me for an Active Script List?', a: 'Yes, we can register you in store. Once you’re set up, we can find your current eScripts whenever you visit, so you don’t need to keep track of individual tokens.' },
+      { q: 'Can you order in a medicine you don’t have in stock?', a: `Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on <a href="${site.phoneHref}">${site.phone}</a> with your prescription details and we’ll let you know how quickly we can get it in.` },
+      { q: 'Can you fill a prescription from my vet?', a: 'Yes. Bring in the script from your vet and we’ll dispense it where the medicine is one we can supply or order in.' },
+      { q: 'How do I get rid of expired or unwanted medicines?', a: 'Bring them to us. We take back expired and unwanted medicines for free, safe disposal through the national Return Unwanted Medicines program. Please don’t put medicines in the bin, down the sink or in the toilet.' },
+    ],
+  },
+  {
+    id: 'pharmacist',
+    heading: 'Seeing a pharmacist or doctor',
+    items: [
+      { q: 'Do I need to book to see a pharmacist?', a: 'No. Just come in and ask at the counter. When we’re busy there may be a short wait, but we’ll make sure your questions are answered. If you need to see a doctor, we’ll tell you.' },
+      { q: 'Can I see a doctor without an appointment?', a: `Often, yes. <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store with bulk billing for eligible patients, welcomes walk-ins, subject to doctor availability. Booking ahead at <a href="${site.helpMedical.bookingUrl}" rel="noopener">helpmedical.au</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a> is the surest way to be seen.` },
+      { q: 'Can a pharmacist prescribe contraception?', a: 'Yes. In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over. <a href="/hormonal-contraceptive-pill/">Find out how our contraception consultations work</a>.' },
+      { q: 'Can I get the morning-after pill without a prescription?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is a pharmacist-only medicine, so our pharmacists can supply it without a prescription after a short private conversation. No appointment is needed. <a href="/emergency-contraception/">More about emergency contraception</a>.' },
+      { q: 'Can a pharmacist treat a UTI?', a: 'Yes, for eligible women aged 18 to 65 with an uncomplicated bladder infection. <a href="/uti-treatment/">Find out about UTI treatment</a>.' },
+      { q: 'Can you help me quit smoking?', a: 'Yes. Our pharmacists can talk you through the quit-smoking options available, help you make a plan, and refer you to your GP or Quitline (13 78 48) for extra support. <a href="/quit-smoking/">More about quitting</a>.' },
+      { q: 'Do you do absence-from-work certificates?', a: 'Yes. Our pharmacists can issue absence-from-work certificates for short absences. Ask at the counter. Some employers don’t accept pharmacist certificates, so check with your workplace first.' },
+    ],
+  },
+  {
+    id: 'vaccinations',
+    heading: 'Vaccinations',
+    items: [
+      { q: 'Do I need to book a vaccination?', a: `No. We welcome walk-ins. Scan the QR code in store to join the queue, or ${bookLink}. <a href="/vaccination-information/">See the vaccines we offer</a>.` },
+      { q: 'Is my vaccination free?', a: 'Government-funded vaccines are free for eligible people with a Medicare card, and we don’t charge a service fee to give them. Ask us and we’ll check whether you’re eligible.' },
+      { q: 'How young can you vaccinate?', a: 'Our pharmacists vaccinate people aged 5 and over. For younger children, the GPs at Help Medical can help.' },
+    ],
+  },
+  {
+    id: 'everyday',
+    heading: 'Everyday services',
+    items: [
+      { q: 'Do you take passport photos?', a: 'Yes, for Australian and overseas passports and visas, while you wait. Photos cost $25, for people aged 5 and over. <a href="/passport-photos/">More about passport photos</a>.' },
+      { q: 'Do you pierce ears?', a: 'Yes, walk-ins are welcome. It’s $65, including the earrings, aftercare spray and a consultation, for ages 8 and over (under-16s need a parent or guardian). <a href="/ear-piercings/">More about ear piercing</a>.' },
+      { q: 'Do you sell rapid antigen tests?', a: 'Yes, we sell rapid antigen tests in store. We no longer offer supervised testing.' },
+      { q: 'Can I order online and pick up in store?', a: 'Yes. Order on the Priceline website and choose Priceline Pacific Fair at checkout. Orders are usually ready within 15 minutes. <a href="/click-and-collect/">Here’s how Click &amp; Collect works</a>.' },
+      { q: 'Do you deliver?', a: 'Yes, for everyday health and beauty products. Order through Uber Eats and we deliver anywhere on the Gold Coast. Prescription medicines can’t be ordered through Uber Eats, and we don’t offer a regular prescription delivery service. <a href="/delivery/">See delivery options</a>.' },
+    ],
+  },
+  {
+    id: 'finding-us',
+    heading: 'Finding us',
+    items: [
+      { q: 'Where are you in Pacific Fair?', a: 'We’re on the ground floor, on the north-eastern side of Pacific Fair Shopping Centre in Broadbeach, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Full directions</a>.' },
+      { q: 'What are your opening hours?', a: 'We’re open 7 days, including late nights on Thursdays until 9pm. <a href="/visit-us/">See our full opening hours</a>. Public holiday hours are always updated on our Google listing.' },
+      { q: 'Where should I park?', a: 'Pacific Fair has 4 hours of free parking. From the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath us, or use the undercover rooftop car park on the north-eastern side. By light rail, get off at Broadbeach South.' },
+    ],
+  },
+];
+
+const flat = groups.flatMap((g) => g.items.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })));
+---
+
+<ContentPage
+  title="Pharmacy FAQs | Priceline Pharmacy Pacific Fair, Broadbeach"
+  description="Answers to common questions about hospital scripts, walk-in vaccinations, seeing a GP without an appointment, returning old medicines and more."
+  path="/frequently-asked-questions/"
+  h1="Frequently asked questions"
+  lead="Quick answers to the questions we’re asked most at Priceline Pharmacy Pacific Fair in Broadbeach. Can’t see yours? Call us or send us an email."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'FAQs', href: '/frequently-asked-questions/' }]}
+  schema={[faqNode(flat)]}
+  showNap
+  dateModified="2026-10-07"
+>
+  <p>Can’t find your question below? Call us on <a href={site.phoneHref}>{site.phone}</a> or <a href="/contact-us/">get in touch</a>.</p>
+
+  {groups.map((g) => (
+    <section class="faq" aria-labelledby={`faq-${g.id}`}>
+      <h2 id={`faq-${g.id}`}>{g.heading}</h2>
+      {g.items.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <div class="faq-body"><p set:html={f.a} /></div>
+        </details>
+      ))}
+    </section>
+  ))}
+
+  <p><small>This information is general in nature and isn’t a substitute for personal advice from your doctor or pharmacist.</small></p>
+</ContentPage>

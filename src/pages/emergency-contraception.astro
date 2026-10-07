@@ -1,0 +1,55 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('emergency-contraception')!;
+
+const faqs = [
+  { q: 'Do I need a prescription or an appointment?', a: 'No. The emergency contraceptive pill (the morning-after pill) is a pharmacist-only medicine, so you can get it from our pharmacists without a prescription. There’s no appointment; just ask at the counter and we’ll talk with you privately.' },
+  { q: 'How soon do I need to take it?', a: 'As soon as possible. It is most effective within 72 hours (3 days) of unprotected sex, and depending on the medicine it can be taken up to 120 hours (5 days) afterwards, though it becomes less effective the longer you wait.' },
+  { q: 'Does the morning-after pill cause an abortion?', a: 'No. It works mainly by delaying or preventing ovulation, so an egg isn’t released. It won’t end an existing pregnancy.' },
+  { q: 'Can I get it for a partner or friend?', a: 'Ask us. Our pharmacists usually need to speak with the person who’ll be taking it, so they can check it’s suitable and explain how to take it, but we’ll do what we can to help.' },
+  { q: 'Does it protect against sexually transmitted infections?', a: 'No. If you’re worried about an STI, the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can arrange testing.' },
+  { q: 'Will it affect my chances of getting pregnant later?', a: 'No. The emergency contraceptive pill doesn’t affect your future fertility. It can be taken more than once if needed, but it isn’t meant to be your regular contraception; ask us about ongoing options.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Emergency Contraception Broadbeach | Priceline Pacific Fair"
+  description="The emergency contraceptive pill (morning-after pill) is available without a prescription from our pharmacists at Pacific Fair, Broadbeach. No appointment."
+  h1="Emergency contraception at Pacific Fair, Broadbeach"
+  lead="The emergency contraceptive pill (the morning-after pill) is available at Priceline Pharmacy Pacific Fair in Broadbeach without a prescription. It’s a pharmacist-only medicine, so one of our pharmacists will have a short private conversation with you first. No appointment is needed, and the sooner it’s taken, the better it works."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>How soon do I need to take it?</h2>
+  <p>As soon as you can. The emergency contraceptive pill is most effective when taken within 72 hours (3 days) of unprotected sex. Depending on the medicine, it can be taken up to 120 hours (5 days) afterwards, but it becomes less effective the longer you leave it. If it’s been longer than that, come and talk to us anyway, as there may still be options.</p>
+  <p>We’re open 7 days and until 9pm on Thursdays. See <a href="/visit-us/">hours and directions</a>.</p>
+
+  <h2>Do I need a prescription or an appointment?</h2>
+  <p>No. The emergency contraceptive pill is a pharmacist-only medicine, which means our pharmacists can supply it after a short conversation, without a prescription. There’s no appointment; just come to the counter and ask to speak to a pharmacist.</p>
+
+  <h2>What happens when I ask for it?</h2>
+  <p>A pharmacist will take you aside, or into our private consultation room if you prefer, and ask a few questions: when the unprotected sex happened, where you are in your cycle, and whether you take any other medicines. This helps us choose the most suitable option and make sure it will work for you.</p>
+  <p>We’ll explain how to take it and what to expect afterwards. Always read the label and follow the directions for use.</p>
+
+  <h2>How much does it cost?</h2>
+  <p>Ask at the counter. The price depends on the medicine supplied, and there’s no fee for the pharmacist’s time.</p>
+
+  <h2>What should I know afterwards?</h2>
+  <ul>
+    <li>The emergency contraceptive pill only covers the one episode. Use condoms or your regular contraception for the rest of your cycle.</li>
+    <li>Your next period may come a little earlier or later than usual. If it’s more than a week late, do a pregnancy test.</li>
+    <li>If you vomit within a few hours of taking it, come back and talk to us, as you may need another dose.</li>
+    <li>Mild side effects such as nausea, tiredness or a headache can happen and usually pass quickly.</li>
+  </ul>
+  <p><a href="https://www.healthdirect.gov.au/emergency-contraception" rel="noopener">healthdirect</a> has more general information on emergency contraception.</p>
+
+  <h2>What other options are there?</h2>
+  <p>A copper IUD, inserted by a doctor within 5 days, is another form of emergency contraception and can then stay in place as ongoing contraception. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can advise.</p>
+  <p>If you’d like to start or restart regular contraception, our trained pharmacists can prescribe the pill, the vaginal ring or the contraceptive injection for eligible women aged 16 and over. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page, or our <a href="/womens-health/">women’s health</a> page for other support.</p>
+</ServicePage>

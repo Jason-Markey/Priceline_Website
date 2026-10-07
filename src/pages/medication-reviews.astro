@@ -1,0 +1,58 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+import counterImg from '../assets/images/jason-dispensary-counter.jpg';
+const service = serviceBySlug('medication-reviews')!;
+
+const faqs = [
+  { q: 'Is a medication review free?', a: 'Yes. Medication reviews are free for people with a Medicare card.' },
+  { q: 'Do I need to book a medication review?', a: 'No. Just ask one of our pharmacists when you’re in store. If you’d rather set a time, call us on (07) 5592 2099.' },
+  { q: 'How long does a medication review take?', a: 'Allow about 20 to 30 minutes so your pharmacist can go through each medicine with you properly.' },
+  { q: 'What should I bring to a medication review?', a: 'Bring all your medicines in a bag, including vitamins, supplements, creams, inhalers and eye drops, so nothing gets missed.' },
+  { q: 'Who should have a medication review?', a: 'It’s most useful if you take five or more medicines, have recently come home from hospital, have had a medicine changed, are getting side effects, or aren’t sure whether a medicine is still needed.' },
+  { q: 'Will my doctor be told about the review?', a: 'You leave with an up-to-date medicines list, and if anything needs attention we’ll let your doctor know. The GPs at Help Medical, inside our store, are a short walk from the pharmacy counter.' },
+  { q: 'Can I have a review on behalf of someone I care for?', a: 'Yes. Carers managing medicines for someone else are welcome. Bring their medicines in and we’ll go through them with you.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Free Medication Reviews | Priceline Pharmacy Pacific Fair"
+  description="Taking several medicines? Get a free medication review with a pharmacist at Priceline Pacific Fair, Broadbeach, for Medicare card holders. No booking needed."
+  h1="Medication reviews at Pacific Fair"
+  lead="If you take several medicines, it’s worth having someone look at the whole picture now and then. A medication review is a free one-on-one conversation with a pharmacist at Priceline Pharmacy Pacific Fair in Broadbeach. We go through everything you take, including vitamins and over-the-counter products, to make sure it’s all working well together."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>Is a medication review free?</h2>
+  <Image src={counterImg} alt="Jason Markey, owner and pharmacist, at the dispensary counter of Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <p>Yes. Medication reviews are free if you have a Medicare card. There’s no need to book: just ask one of our pharmacists.</p>
+
+  <h2>Who might benefit from a medication review?</h2>
+  <ul>
+    <li>People taking five or more medicines</li>
+    <li>Anyone recently home from hospital, or whose medicines have changed</li>
+    <li>People experiencing side effects, or unsure whether a medicine is still needed</li>
+    <li>Anyone finding it hard to remember when to take their medicines</li>
+    <li>Carers managing medicines for someone else</li>
+  </ul>
+
+  <h2>What happens during a medication review?</h2>
+  <ol>
+    <li>Bring all your medicines in a bag, including vitamins, supplements, creams, inhalers and eye drops.</li>
+    <li>Your pharmacist goes through each one with you: what it’s for, how you take it, and how it’s going.</li>
+    <li>We check for interactions, doubling up and side effects.</li>
+    <li>You leave with an up-to-date medicines list, and we’ll let your doctor know if anything needs attention.</li>
+  </ol>
+  <p>Over-the-counter medicines, vitamins and supplements count too, because they can interact with prescription medicines. Always read the label and follow the directions for use.</p>
+
+  <h2>How long does it take?</h2>
+  <p>Allow about 20 to 30 minutes. If you’d prefer to set a time rather than drop in, call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+
+  <h2>What happens after the review?</h2>
+  <p>If your medicines are hard to keep track of, our <a href="/medication-packing/">medication packing</a> service sorts them into weekly blister packs labelled by day and time. You can also check your blood pressure and other key numbers for free at our in-store <a href="/health-station/">Health Station</a>. If something needs a doctor’s attention, the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you.</p>
+</ServicePage>

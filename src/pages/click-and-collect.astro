@@ -1,0 +1,44 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('click-and-collect')!;
+
+const faqs = [
+  { q: 'How long until my Click & Collect order is ready?', a: 'Usually within 15 minutes, and within 2 hours at the latest when everything is in stock. We’ll send you a message when it’s ready.' },
+  { q: 'Can I order prescription medicines with Click & Collect?', a: 'No. Click & Collect is for general products. To have a prescription ready when you arrive, send your eScript ahead through the Priceline Pharmacy app or MedAdvisor instead.' },
+  { q: 'Is there a fee for Click & Collect?', a: 'No. There’s no delivery fee, because you’re collecting from us.' },
+  { q: 'How do I choose Pacific Fair as my store?', a: 'At checkout on priceline.com.au, select Click & Collect and choose Priceline Pacific Fair as your store.' },
+  { q: 'What do I need to bring when I collect?', a: 'Show your order confirmation at the counter and we’ll hand your order over.' },
+  { q: 'Can I get my order delivered instead?', a: 'Yes. We deliver health, beauty and wellbeing products across the Gold Coast through Uber Eats. Uber Eats delivery fees apply.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Click & Collect at Priceline Pacific Fair, Broadbeach"
+  description="Shop online at priceline.com.au and collect from Priceline Pacific Fair, Broadbeach. Orders are usually ready within 15 minutes. Here’s how it works."
+  h1="Click & Collect at Pacific Fair"
+  lead="Shop the full Priceline range online at priceline.com.au, then pick up your order from Priceline Pharmacy Pacific Fair in Broadbeach. Orders are usually ready within 15 minutes, and there’s no delivery fee."
+  faqs={faqs}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  dateModified="2026-10-07"
+>
+  <h2>How does Click &amp; Collect work?</h2>
+  <ol>
+    <li><strong>Shop online.</strong> Go to <a href={site.links.pricelineShop} rel="noopener">priceline.com.au</a> and add your items to your cart.</li>
+    <li><strong>Choose Pacific Fair.</strong> At checkout, select Click &amp; Collect and choose Priceline Pacific Fair as your store.</li>
+    <li><strong>Wait for your message.</strong> We’ll let you know when your order is ready. That’s usually within 15 minutes, and within 2 hours at the latest when everything is in stock.</li>
+    <li><strong>Collect.</strong> Show your order confirmation at the counter and we’ll hand it over.</li>
+  </ol>
+
+  <h2>Can I order prescriptions this way?</h2>
+  <p>No. Click &amp; Collect is for general products. Prescription medicines can’t be ordered this way; see <a href="/prescriptions/">prescriptions</a> to send your eScript ahead so it’s ready when you arrive.</p>
+
+  <h2>Is there a fee?</h2>
+  <p>There’s no delivery fee, because you’re collecting from us. We’re open 7 days and until 9pm on Thursdays; see <a href="/visit-us/">opening hours and directions</a> for where to find us in Pacific Fair.</p>
+
+  <h2>Prefer delivery?</h2>
+  <p>We deliver across the Gold Coast through Uber Eats. See our <a href="/delivery/">delivery options</a>.</p>
+</ServicePage>

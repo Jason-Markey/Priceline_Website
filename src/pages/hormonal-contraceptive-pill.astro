@@ -1,0 +1,64 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('hormonal-contraceptive-pill')!;
+
+const faqs = [
+  { q: 'Do I need a script from my doctor?', a: 'No. If you’re eligible, the pharmacist can provide the prescription as part of the consultation.' },
+  { q: 'I’m already on the pill and my script has run out. Can you help?', a: 'Yes. This service can be used to continue contraception you’re already using, if you’re eligible.' },
+  { q: 'Is there a Medicare rebate for the consultation?', a: 'No. There’s no Medicare rebate for pharmacist consultations. The consultation costs $35, and your contraception is charged separately, with many types listed on the PBS.' },
+  { q: 'Can you give the contraceptive injection in store?', a: 'Our trained pharmacists can prescribe the contraceptive injection. Ask us how the injection is given when you book.' },
+  { q: 'Can I get an implant or IUD here?', a: 'Not from the pharmacy. For longer-acting options we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, offer IUD insertion.' },
+  { q: 'Can I get emergency contraception?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without an appointment. Ask at the counter and we’ll talk with you privately. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Contraception from a Pharmacist | Broadbeach Pharmacy"
+  description="Start, change or continue the pill, vaginal ring or contraceptive injection with a trained pharmacist at Pacific Fair, Broadbeach. $35 consultation."
+  h1="Contraception consultations with a pharmacist at Pacific Fair"
+  lead="In Queensland, specially trained pharmacists can help women aged 16 and over start, change or continue their contraception without first seeing a GP. At Priceline Pharmacy Pacific Fair in Broadbeach, you can have this consultation in our private consultation room for $35. Book online or call first, as trained pharmacists are usually available Monday to Friday."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  dateModified="2026-10-07"
+>
+  <h2>What can a pharmacist prescribe?</h2>
+  <p>If it’s suitable for you, our trained pharmacists can prescribe:</p>
+  <ul>
+    <li>the combined oral contraceptive pill</li>
+    <li>the progestogen-only pill (the “mini-pill”)</li>
+    <li>the vaginal ring</li>
+    <li>the contraceptive injection (ask us how the injection is given)</li>
+  </ul>
+  <p>For longer-acting options, such as an implant or IUD, we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, offer IUD insertion.</p>
+
+  <h2>Who can use this service?</h2>
+  <p>The Queensland service is for women aged 16 and over who want to start, restart, change or continue their contraception. It became a permanent service on 1 July 2025. If the method you’re interested in isn’t the most suitable choice for you, we’ll explain why and refer you to a GP.</p>
+
+  <h2>What happens in the consultation?</h2>
+  <p>A consultation usually takes 10 to 20 minutes. Your pharmacist will:</p>
+  <ul>
+    <li>go through your health and medical history, and any medicines you take;</li>
+    <li>check your blood pressure;</li>
+    <li>check your height and weight;</li>
+    <li>talk about your previous experience with contraception and what matters most to you;</li>
+    <li>explain your options, how to use your contraception correctly, and what to do if you miss a dose.</li>
+  </ul>
+  <p>If it’s appropriate, your pharmacist can then write your prescription and dispense it for you. With your permission, we’ll send a summary to your regular GP.</p>
+
+  <h2>How much does it cost?</h2>
+  <p>The consultation costs $35. Your contraception is charged separately, and many types are listed on the PBS. There’s no Medicare rebate for pharmacist consultations.</p>
+
+  <h2>How do I book?</h2>
+  <p><a href={site.links.book} rel="noopener">Book online</a>, or call us on <a href={site.phoneHref}>{site.phone}</a>. We have several trained pharmacists, usually available Monday to Friday, but it’s best to call first, because consultations take a little longer and depend on a trained pharmacist being on shift.</p>
+
+  <h2>When will we refer you to a GP?</h2>
+  <p>Sometimes a GP is the better next step. For example, if something in your health history means a method may not be suitable for you, if your blood pressure reading is high, or if you’d like an implant or IUD.</p>
+
+  <h2>Is the consultation private?</h2>
+  <p>Yes. Consultations happen in a private room, and your information is handled confidentially. You’re welcome to bring a support person. For other support, see our <a href="/womens-health/">women’s health</a> page.</p>
+</ServicePage>
