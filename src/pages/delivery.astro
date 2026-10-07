@@ -9,7 +9,7 @@ const faqs = [
   { q: 'Where do you deliver?', a: 'Right across the Gold Coast, through Uber Eats. Open the Uber Eats app and search for Priceline Pharmacy Pacific Fair.' },
   { q: 'What can I order on Uber Eats?', a: 'Skincare, sunscreen and self-tan, makeup, fragrance, haircare and nail care, vitamins and supplements, first aid supplies, baby care, bath and body, household health essentials, and cold and flu, allergy and pain relief products that don’t need a pharmacist’s consultation.' },
   { q: 'How long does delivery take?', a: 'Delivery times depend on where you are and how busy it is. Uber Eats shows you an estimate before you order.' },
-  { q: 'Can I buy pharmacist-only medicines through Uber Eats?', a: 'No. Pharmacist-only medicines need a conversation with a pharmacist before you can buy them, so please visit us in store or call (07) 5592 2099.' },
+  { q: 'Can I buy pharmacist-only medicines through Uber Eats?', a: 'No. Pharmacist-only medicines need a conversation with a pharmacist before you can buy them, so please visit us in store or call ' + site.phone + '.' },
   { q: 'Is there a way to avoid the delivery fee?', a: 'Yes. Shop online at priceline.com.au, choose Priceline Pacific Fair as your store at checkout, and collect from us. Click & Collect orders are usually ready within 15 minutes and there’s no delivery fee.' },
 ];
 ---
@@ -21,13 +21,13 @@ const faqs = [
   h1="Delivery and Click & Collect from Pacific Fair"
   lead="Can’t make it to Pacific Fair? Have health, beauty and wellbeing products from Priceline Pharmacy Pacific Fair delivered anywhere on the Gold Coast through Uber Eats, or order online and collect in store. Prescription medicines can’t be ordered this way."
   faqs={faqs}
-  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
-  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  primaryCta={{ label: 'Order on Uber Eats', href: site.links.uberEats, external: true, event: 'uber-eats' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
   dateModified="2026-10-07"
 >
   <h2>How do I order on Uber Eats?</h2>
   <p><a href={site.links.uberEats} rel="noopener"><strong>Order from Priceline on Uber Eats</strong></a></p>
-  <p>We’re the Priceline store delivering on Uber Eats on the Gold Coast, and we deliver right across the Gold Coast. Open the Uber Eats app, search for Priceline Pharmacy Pacific Fair, and choose from the Priceline range, including:</p>
+  <p>We’re the Priceline store on Uber Eats for the Gold Coast, delivering right across the coast. Open the Uber Eats app, search for Priceline Pharmacy Pacific Fair, and choose from the Priceline range, including:</p>
   <ul>
     <li>skincare, sunscreen and self-tan</li>
     <li>makeup, fragrance, haircare and nail care</li>

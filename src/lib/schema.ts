@@ -56,13 +56,11 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
     openingHoursSpecification: openingHoursSpec(site.hours),
     parentOrganization: { '@type': 'Organization', name: 'Priceline Pharmacy', url: site.links.pricelineNational },
     brand: { '@type': 'Brand', name: 'Priceline Pharmacy' },
-    founder: { '@id': ID.owner },
     employee: { '@id': ID.owner },
     sameAs: [site.links.googleBusinessProfile, site.links.pacificFairStorePage, site.social.facebook, site.social.instagram],
     isAccessibleForFree: true,
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Wheelchair-accessible entrance', value: true },
-      { '@type': 'LocationFeatureSpecification', name: 'Wheelchair-accessible consultation room', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Accessible parking nearby', value: true },
     ],
   };

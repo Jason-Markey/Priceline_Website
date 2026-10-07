@@ -5,7 +5,7 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('quit-smoking')!;
 
 const faqs = [
-  { q: 'Do I need an appointment to talk about quitting?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you. If you’d like a set time, you can book online.' },
+  { q: 'Do I need an appointment to talk about quitting?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you.' },
   { q: 'How much does nicotine replacement therapy cost?', a: 'Advice from our pharmacists is free; products are charged separately. Some nicotine replacement products are subsidised on the PBS when prescribed by a doctor, so ask us or the GPs at <a href="/help-medical/">Help Medical</a> about the cheapest way to get them.' },
   { q: 'Can I use a patch and gum at the same time?', a: 'Often, yes. Using a patch for steady background nicotine plus a faster-acting form such as gum, a lozenge or a mouth spray for cravings is a common approach. A pharmacist can help you choose the right combination and strength.' },
   { q: 'How long do I use nicotine replacement for?', a: 'Most people use it for 8 to 12 weeks and then reduce gradually, but it varies. Your pharmacist can help you plan the stepping down.' },
@@ -23,8 +23,8 @@ const faqs = [
   lead="Priceline Pharmacy Pacific Fair in Broadbeach can help you quit smoking. Our pharmacists can talk through your options, including nicotine replacement therapy, help you make a quit plan and point you to extra support such as Quitline. Advice is free and no appointment is needed."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
-  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
-  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
   dateModified="2026-10-07"
 >
   <h2>How can a pharmacist help me quit?</h2>
@@ -61,5 +61,5 @@ const faqs = [
   <p>The benefits start quickly. Within days your sense of taste and smell begin to improve, within weeks your breathing and circulation get better, and over the following years your risk of heart disease, stroke and cancer keeps falling. You’ll also notice the money you save.</p>
 
   <h2>Do I need to book?</h2>
-  <p>No. Walk in any day we’re open and ask to speak to a pharmacist, or <a href={site.links.book} rel="noopener">book a time online</a> if you’d like a longer chat. While you’re here, a free check at our <a href="/health-station/">Health Station</a> can give you a blood pressure baseline to track your progress.</p>
+  <p>No. Walk in any day we’re open and ask to speak to a pharmacist, or call ahead if you’d like a longer chat at a set time. While you’re here, a free check at our <a href="/health-station/">Health Station</a> can give you a blood pressure baseline to track your progress.</p>
 </ServicePage>

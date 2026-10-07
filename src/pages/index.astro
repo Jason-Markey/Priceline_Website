@@ -36,14 +36,14 @@ const tiles = [
 
 const faqs = [
   { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Ground floor, north-eastern side of the centre, Shop 81, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Directions and parking</a>.' },
-  { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days: 8am–5:30pm Monday to Friday (until 9pm on Thursdays), 9am–5:30pm Saturday and 9:30am–4:30pm Sunday.' },
+  { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. See our <a href="/visit-us/">full opening hours</a>, and check our Google listing for public holidays.' },
   { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk-ins are welcome every day we’re open. You can also <a href="' + site.links.book + '" rel="noopener">book a time online</a>.' },
   { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical, an independent bulk-billing GP clinic, is located inside our store. Walk-ins are welcome, or <a href="/help-medical/">book ahead</a>.' },
   { q: 'Can I send my prescription before I arrive?', a: 'Yes. Send your eScript through the Priceline Pharmacy app or MedAdvisor and choose Priceline Pharmacy Pacific Fair. <a href="/prescriptions/">How it works</a>.' },
 ];
 ---
 
-<Base title={title} description={description} path="/" ogImage={storeInterior} schema={[faqNode(faqs)]}>
+<Base title={title} description={description} path="/" ogImage={storeInterior} schema={[faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))]}>
   <!-- Hero: real text, real photo. Replaces the Slider Revolution carousel. -->
   <section class="hero">
     <div class="container hero__inner">
@@ -97,7 +97,7 @@ const faqs = [
       <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="visit__img" />
       <div class="visit__copy">
         <h2>Visit us in store today</h2>
-        <p>{site.address.oneLine}. {site.address.floor.toLowerCase().replace(/^./, (c) => c.toUpperCase())}, {site.address.landmarks.toLowerCase()}.</p>
+        <p>{site.address.oneLine}. {site.address.floor}, {site.address.landmarks}.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/visit-us/">Hours &amp; directions</a>
           <a class="btn btn--outline" href={site.directionsUrl} rel="noopener" data-event="directions">Open in Google Maps</a>
@@ -110,7 +110,7 @@ const faqs = [
   <section class="section">
     <div class="container">
       <h2 class="centre">Store hours</h2>
-      <p class="centre intro">Opening hours at Priceline Pharmacy Pacific Fair, and at Help Medical, the GP clinic inside our store.</p>
+      <p class="centre intro">Opening hours at Priceline Pharmacy Pacific Fair, and at Help Medical, the independent general practice inside our store.</p>
       <div class="hours-grid">
         <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note={site.hoursNote} />
         <HoursCard heading="Help Medical hours" hours={site.helpMedical.hours} note="Independent GP clinic inside our store. Bookings at helpmedical.au." />

@@ -58,7 +58,7 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
     items: [
       { q: 'Where are you in Pacific Fair?', a: 'We’re on the ground floor, on the north-eastern side of Pacific Fair Shopping Centre in Broadbeach, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Full directions</a>.' },
       { q: 'What are your opening hours?', a: 'We’re open 7 days, including late nights on Thursdays until 9pm. <a href="/visit-us/">See our full opening hours</a>. Public holiday hours are always updated on our Google listing.' },
-      { q: 'Where should I park?', a: 'Pacific Fair has 4 hours of free parking. From the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath us, or use the undercover rooftop car park on the north-eastern side. By light rail, get off at Broadbeach South.' },
+      { q: 'Where should I park?', a: 'Pacific Fair offers free parking each day with number-plate recognition; check Pacific Fair’s parking page for the current free period. From the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath us, or use the undercover rooftop car park on the north-eastern side. By light rail, get off at Broadbeach South.' },
     ],
   },
 ];
@@ -92,4 +92,5 @@ const flat = groups.flatMap((g) => g.items.map((f) => ({ q: f.q, a: f.a.replace(
   ))}
 
   <p><small>This information is general in nature and isn’t a substitute for personal advice from your doctor or pharmacist.</small></p>
+  <p class="disclaimer">Always read the label and follow the directions for use. This information is general in nature and isn’t a substitute for personal advice from your pharmacist or doctor.</p>
 </ContentPage>

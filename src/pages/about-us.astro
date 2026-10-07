@@ -6,10 +6,13 @@ import { pharmacyTeam } from '../data/team';
 import jason from '../assets/images/jason-pharmacist-portrait.jpg';
 import dispensary from '../assets/images/jason-dispensary-counter.jpg';
 
+const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
+const photoFor = (file?: string) => (file ? photos[`../assets/images/${file}`]?.default : undefined);
+
 const path = '/about-us/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'About us', href: path }];
 const faqs = [
-  { q: 'Is Priceline Pharmacy Pacific Fair locally owned?', a: 'Yes. We’re an independently owned Priceline Pharmacy franchise store, owned and run by pharmacist Jason Markey, who lives and works on the Gold Coast.' },
+  { q: 'Is Priceline Pharmacy Pacific Fair locally owned?', a: 'Yes. We’re an independently owned Priceline Pharmacy franchise store, owned and run by pharmacist Jason Markey.' },
   { q: 'How long has the store been at Pacific Fair?', a: 'The store opened in August 2009 and has been on the ground floor of Pacific Fair ever since. Our store manager, Ben, has been here from the start.' },
   { q: 'Is there a doctor in the store?', a: 'Yes. <a href="/help-medical/">Help Medical</a>, an independent general practice, is located inside our store, with QML Pathology collection on weekday mornings.' },
   { q: 'Can I just walk in and ask a pharmacist a question?', a: 'Of course. No appointment is needed to speak with a pharmacist. If we’re busy there may be a short wait, but we’ll make time for you.' },
@@ -49,7 +52,7 @@ const faqs = [
   <div class="team">
     {pharmacyTeam.map((m) => (
       <div class="member">
-        {m.photo && <Image src={jason} alt={`${m.name}, ${m.role}`} width={160} height={160} class="member__photo" />}
+        {photoFor(m.photo) && <Image src={photoFor(m.photo)!} alt={`${m.name}, ${m.role}`} width={160} height={160} class="member__photo" />}
         <div>
           <h3>{m.name}</h3>
           <p class="member__role">{m.role}{m.credentials && <> ({m.credentials})</>}</p>

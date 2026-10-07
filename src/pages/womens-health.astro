@@ -5,7 +5,7 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('womens-health')!;
 
 const faqs = [
-  { q: 'Do I need an appointment?', a: 'For most things, no. Just ask at the counter. For contraception and UTI consultations, please call first so we can check a trained pharmacist is on, or book online.' },
+  { q: 'Do I need an appointment?', a: 'For most things, no. Just ask at the counter. For contraception and UTI consultations, please call first so we can check a trained pharmacist is on.' },
   { q: 'Can I talk to a pharmacist in private?', a: 'Yes. We have a private consultation room, and you’re welcome to ask for it for any conversation about your health.' },
   { q: 'Can a pharmacist prescribe the pill?', a: 'Yes. In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over. The consultation costs $35. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page.' },
   { q: 'Can I get emergency contraception here?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without a prescription or appointment, after a short private conversation. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
@@ -22,8 +22,8 @@ const faqs = [
   lead="From contraception to pregnancy and menopause, women’s health questions deserve time and privacy. At Priceline Pharmacy Pacific Fair in Broadbeach, our pharmacists can help with many of them on the spot, in our private consultation room. When you need a doctor, the GPs at Help Medical are located inside our store."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
-  primaryCta={{ label: 'Book online', href: site.links.book, external: true, event: 'book' }}
-  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'call' }}
+  secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
   dateModified="2026-10-07"
 >
   <h2>What contraception help can a pharmacist give?</h2>

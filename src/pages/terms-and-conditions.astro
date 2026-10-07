@@ -1,51 +1,44 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
+const path = '/terms-and-conditions/';
+const year = new Date().getFullYear();
 ---
 
 <ContentPage
   title="Website Terms & Conditions | Priceline Pharmacy Pacific Fair"
   description="The terms and conditions that apply when you use the Priceline Pharmacy Pacific Fair website, including copyright, links and the limits of health information."
-  path="/terms-and-conditions/"
+  path={path}
   h1="Terms and conditions"
-  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Terms and conditions', href: '/terms-and-conditions/' }]}
+  lead="Please read these terms before using this website. By using the site you agree to them."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Terms and conditions', href: path }]}
   dateModified="2026-10-07"
 >
-  <p>PLEASE READ THE FOLLOWING TERMS AND CONDITIONS OF USE CAREFULLY BEFORE USING THIS WEBSITE. All users of this site agree that access to and use of this site are subject to the following terms and conditions and other applicable law. If you do not agree to these terms and conditions, please do not use this site.</p>
+  <p>This website is operated by {site.legalName}, trading as {site.name}, an independently owned Priceline Pharmacy franchise store at {site.address.oneLine}. In these terms “we”, “us” and “our” refer to {site.name}.</p>
 
-  <h2>Copyright</h2>
-  <p>The entire content included in this site, including but not limited to text, graphics or code is copyrighted as a collective work under the Australian and other copyright laws, and is the property of {site.name}. The collective work includes works that are licensed to {site.name}. Copyright 2014, {site.name} ALL RIGHTS RESERVED. Permission is granted to electronically copy and print hard copy portions of this site for the sole purpose of placing an order with {site.name} or purchasing {site.name} products. You may display and, subject to any expressly stated restrictions or limitations relating to specific material, download or print portions of the material from the different areas of the site solely for your own non-commercial use, or to place an order with {site.name} or to purchase {site.name} products. Any other use, including but not limited to the reproduction, distribution, display or transmission of the content of this site is strictly prohibited, unless authorised by {site.name}. You further agree not to change or delete any proprietary notices from materials downloaded from the site.</p>
+  <h2>Health information is general</h2>
+  <p>The health information on this site is general in nature and is provided for education only. It is not medical advice, it does not take your personal circumstances into account, and it is not a substitute for a consultation with a pharmacist, doctor or other health professional. Always read the label and follow the directions for use of any medicine. If symptoms persist, or you are worried, see your pharmacist or doctor. In an emergency, call 000.</p>
+  <p>Our articles are written by our team and reviewed by a registered pharmacist. We update them periodically, but health advice changes, so always check the “reviewed” date and confirm anything important with us in store.</p>
 
-  <h2>Trademarks</h2>
-  <p>All trademarks, service marks and trade names of Priceline used in the site are trademarks or registered trademarks of Priceline.</p>
+  <h2>Prices, services and availability</h2>
+  <p>Prices, eligibility criteria, opening hours and services described on this site are correct to the best of our knowledge at the date shown on each page, but may change without notice. Government-funded programs (for example the National Immunisation Program and the PBS) have eligibility rules set by the Australian Government, and we will confirm your eligibility in store. Prescription medicines are supplied only on a valid Australian prescription and at the pharmacist’s professional discretion.</p>
 
-  <h2>Warranty disclaimer</h2>
-  <p>This site and the materials and products on this site are provided “as is” and without warranties of any kind, whether express or implied. To the fullest extent permissible pursuant to applicable law, {site.name} disclaims all warranties, express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose and non-infringement. {site.name} does not represent or warrant that the functions contained in the site will be uninterrupted or error-free, that the defects will be corrected, or that this site or the server that makes the site available are free of viruses or other harmful components. {site.name} does not make any warranties or representations regarding the use of the materials in this site in terms of their correctness, accuracy, adequacy, usefulness, timeliness, reliability or otherwise. Some states do not permit limitations or exclusions on warranties, so the above limitations may not apply to you.</p>
+  <h2>Copyright and trade marks</h2>
+  <p>Unless stated otherwise, the text, images and design of this site are owned by or licensed to {site.legalName} and are protected by Australian copyright law. You may view, download and print pages for your personal, non-commercial use. You may not otherwise reproduce, publish or adapt any part of the site without our written permission. “Priceline” and the Priceline Pharmacy logo are trade marks of their owner and are used under franchise.</p>
 
-  <h2>Limitation of liability</h2>
-  <p>{site.name} shall not be liable for any special or consequential damages that result from the use of, or the inability to use, the materials on this site or the performance of the products, even if {site.name} has been advised of the possibility of such damages. Applicable law may not allow the limitation or exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you.</p>
+  <h2>Links to other websites</h2>
+  <p>This site links to third-party websites, including booking systems, Uber Eats, priceline.com.au, Help Medical and government health sites. We provide these links for convenience only. We do not control those sites, are not responsible for their content or privacy practices, and a link does not mean we endorse them.</p>
 
-  <h2>Typographical errors</h2>
-  <p>In the event that a {site.name} product is mistakenly listed at an incorrect price, {site.name} reserves the right to refuse or cancel any orders placed for product listed at the incorrect price. {site.name} reserves the right to refuse or cancel any such orders whether or not the order has been confirmed and your credit card charged. If your credit card has already been charged for the purchase and your order is cancelled, {site.name} shall issue a credit to your credit card account in the amount of the incorrect price.</p>
+  <h2>Liability</h2>
+  <p>We take care to keep this site accurate and available, but we do not guarantee that it will be error-free or uninterrupted. To the extent permitted by law, including the Australian Consumer Law, we exclude liability for any loss arising from your use of, or reliance on, this site or anything linked from it. Nothing in these terms excludes rights you have under the Australian Consumer Law that cannot be excluded.</p>
 
-  <h2>Term; termination</h2>
-  <p>These terms and conditions are applicable to you upon your accessing the site and/or completing the registration or shopping process. These terms and conditions, or any part of them, may be terminated by {site.name} without notice at any time, for any reason. The provisions relating to Copyrights, Trademark, Disclaimer, Limitation of Liability, Indemnification and Miscellaneous, shall survive any termination.</p>
+  <h2>Privacy</h2>
+  <p>Our <a href="/privacy-policy/">privacy policy</a> explains how we handle personal and health information in store and on this website.</p>
 
-  <h2>Notice</h2>
-  <p>{site.name} may deliver notice to you by means of e-mail, a general notice on the site, or by other reliable method to the address you have provided to {site.name}.</p>
+  <h2>Changes and governing law</h2>
+  <p>We may change these terms at any time by updating this page. These terms are governed by the laws of Queensland, Australia, and you submit to the non-exclusive jurisdiction of the courts of Queensland.</p>
 
-  <h2>Miscellaneous</h2>
-  <p>Your use of this site shall be governed in all respects by the laws of the state of QLD, Australia. You agree that jurisdiction over and venue in any legal proceeding directly or indirectly arising out of or relating to this site (including but not limited to the purchase of {site.name} products) shall be in the state or federal courts located in Qld, Australia. Any cause of action or claim you may have with respect to the site (including but not limited to the purchase of {site.name} products) must be commenced within one (1) year after the claim or cause of action arises. {site.name}’s failure to insist upon or enforce strict performance of any provision of these terms and conditions shall not be construed as a waiver of any provision or right. Neither the course of conduct between the parties nor trade practice shall act to modify any of these terms and conditions. {site.name} may assign its rights and duties under this Agreement to any party at any time without notice to you.</p>
-
-  <h2>Use of site</h2>
-  <p>Harassment in any manner or form on the site, including via e-mail, chat, or by use of obscene or abusive language, is strictly forbidden. Impersonation of others, including a {site.name} or other licensed employee, host, or representative, as well as other members or visitors on the site is prohibited. You may not upload to, distribute, or otherwise publish through the site any content which is libellous, defamatory, obscene, threatening, invasive of privacy or publicity rights, abusive, illegal, or otherwise objectionable which may constitute or encourage a criminal offence, violate the rights of any party or which may otherwise give rise to liability or violate any law. You may not upload commercial content on the site or use the site to solicit others to join or become members of any other commercial online service or other organisation.</p>
-
-  <h2>Participation disclaimer</h2>
-  <p>{site.name} does not and cannot review all communications and materials posted to or created by users accessing the site, and is not in any manner responsible for the content of these communications and materials. You acknowledge that by providing you with the ability to view and distribute user-generated content on the site, {site.name} is merely acting as a passive conduit for such distribution and is not undertaking any obligation or liability relating to any contents or activities on the site. However, {site.name} reserves the right to block or remove communications or materials that it determines to be (a) abusive, defamatory, or obscene, (b) fraudulent, deceptive, or misleading, (c) in violation of a copyright, trademark or other intellectual property right of another or (d) offensive or otherwise unacceptable to {site.name} in its sole discretion.</p>
-
-  <h2>Indemnification</h2>
-  <p>You agree to indemnify, defend, and hold harmless {site.name}, its officers, directors, employees, agents, licensors and suppliers (collectively the “Service Providers”) from and against all losses, expenses, damages and costs, including reasonable attorneys’ fees, resulting from any violation of these terms and conditions or any activity related to your account (including negligent or wrongful conduct) by you or any other person accessing the site using your Internet account.</p>
-
-  <h2>Third-party links</h2>
-  <p>In an attempt to provide increased value to our visitors, {site.name} may link to sites operated by third parties. However, even if the third party is affiliated with {site.name}, {site.name} has no control over these linked sites, all of which have separate privacy and data collection practices, independent of {site.name}. These linked sites are only for your convenience and therefore you access them at your own risk. Nonetheless, {site.name} seeks to protect the integrity of its web site and the links placed upon it and therefore requests any feedback on not only its own site, but for sites it links to as well (including if a specific link does not work). <a href="/contact-us/">Contact us</a>.</p>
+  <h2>Contact</h2>
+  <p>Questions about these terms: <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a> or <a href={site.phoneHref}>{site.phone}</a>.</p>
+  <p>© {year} {site.legalName}. All rights reserved.</p>
 </ContentPage>
