@@ -27,7 +27,7 @@ const faqs = [
   </div>
 
   <h2>How to book each service</h2>
-  <div class="table-wrap">
+  <div class="table-wrap table-wrap--stack">
     <table>
       <thead>
         <tr><th scope="col">Service</th><th scope="col">Booking</th><th scope="col">How</th></tr>
@@ -35,58 +35,58 @@ const faqs = [
       <tbody>
         <tr>
           <td><a href="/vaccination-information/">Vaccinations</a></td>
-          <td>Walk in, or book</td>
-          <td><a href={site.links.book} rel="noopener">Book online</a>, or scan the QR code at the counter to join the queue.</td>
+          <td data-label="Booking">Walk in, or book</td>
+          <td data-label="How"><a href={site.links.book} rel="noopener">Book online</a>, or scan the QR code at the counter to join the queue.</td>
         </tr>
         <tr>
           <td>Pharmacist consultations and health checks</td>
-          <td>Walk in, or book</td>
-          <td><a href={site.links.book} rel="noopener">Book online</a>, or ask at the counter.</td>
+          <td data-label="Booking">Walk in, or book</td>
+          <td data-label="How"><a href={site.links.book} rel="noopener">Book online</a>, or ask at the counter.</td>
         </tr>
         <tr>
           <td><a href="/hormonal-contraceptive-pill/">Contraception consultations</a></td>
-          <td>Book by phone</td>
-          <td>Call <a href={site.phoneHref}>{site.phone}</a> to book.</td>
+          <td data-label="Booking">Book by phone</td>
+          <td data-label="How">Call <a href={site.phoneHref}>{site.phone}</a> to book.</td>
         </tr>
         <tr>
           <td><a href="/uti-treatment/">UTI treatment</a></td>
-          <td>Call first</td>
-          <td>Call <a href={site.phoneHref}>{site.phone}</a> to check a trained pharmacist is on.</td>
+          <td data-label="Booking">Call first</td>
+          <td data-label="How">Call <a href={site.phoneHref}>{site.phone}</a> to check a trained pharmacist is on.</td>
         </tr>
         <tr>
           <td><a href="/emergency-contraception/">Emergency contraception</a></td>
-          <td>Walk in</td>
-          <td>Ask at the counter. We’ll talk with you privately.</td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">Ask at the counter. We’ll talk with you privately.</td>
         </tr>
         <tr>
           <td><a href="/help-medical/">GP at Help Medical</a></td>
-          <td>Walk in, or book</td>
-          <td>Book at <a href={site.helpMedical.bookingUrl} rel="noopener">helpmedical.au</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
+          <td data-label="Booking">Walk in, or book</td>
+          <td data-label="How">Book at <a href={site.helpMedical.bookingUrl} rel="noopener">helpmedical.au</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
         </tr>
         <tr>
           <td><a href="/medication-reviews/">Medication reviews</a></td>
-          <td>No booking needed</td>
-          <td>Just ask a pharmacist.</td>
+          <td data-label="Booking">No booking needed</td>
+          <td data-label="How">Just ask a pharmacist.</td>
         </tr>
         <tr>
           <td><a href="/quit-smoking/">Quit smoking</a></td>
-          <td>Walk in, or book</td>
-          <td>Ask at the counter, or <a href={site.links.book} rel="noopener">book online</a>.</td>
+          <td data-label="Booking">Walk in, or book</td>
+          <td data-label="How">Ask at the counter, or <a href={site.links.book} rel="noopener">book online</a>.</td>
         </tr>
         <tr>
           <td><a href="/ear-piercings/">Ear piercing</a></td>
-          <td>Walk in, or book</td>
-          <td>Come in during opening hours, or <a href={site.links.book} rel="noopener">book online</a>.</td>
+          <td data-label="Booking">Walk in, or book</td>
+          <td data-label="How">Come in during opening hours, or <a href={site.links.book} rel="noopener">book online</a>.</td>
         </tr>
         <tr>
           <td><a href="/passport-photos/">Passport photos</a></td>
-          <td>Walk in</td>
-          <td>No booking needed.</td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">No booking needed.</td>
         </tr>
         <tr>
           <td><a href="/health-station/">Blood pressure and health checks</a></td>
-          <td>Walk in</td>
-          <td>Use the Health Station in store any time we’re open.</td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">Use the Health Station in store any time we’re open.</td>
         </tr>
       </tbody>
     </table>

@@ -94,6 +94,17 @@ th, td { text-align: left; padding: var(--s3) var(--s4); border-bottom: 1px soli
 th { color: var(--charcoal); background: var(--bg); }
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: var(--s5); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
 .table-wrap table { margin: 0; min-width: 480px; }
+/* Stacking table: on phones each row becomes a card, with the column header shown as a label (needs data-label on each td) */
+@media (max-width: 699px) {
+  .table-wrap--stack { border: 0; background: transparent; overflow: visible; }
+  .table-wrap--stack table { min-width: 0; }
+  .table-wrap--stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+  .table-wrap--stack tr { display: block; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s3) var(--s4); margin-bottom: var(--s3); }
+  .table-wrap--stack td { display: block; border: 0; padding: var(--s1) 0; }
+  .table-wrap--stack td[data-label]::before { content: attr(data-label); display: block; font-size: 0.8125rem; font-weight: 600; color: var(--text-muted); }
+  .table-wrap--stack td:first-child { font-weight: 700; font-size: var(--fs-base); padding-bottom: var(--s2); }
+  .table-wrap--stack td:first-child::before { display: none; }
+}
 
 /* ---------- layout helpers ---------- */
 .container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); }
