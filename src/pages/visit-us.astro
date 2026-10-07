@@ -11,7 +11,7 @@ const mapsEmbed = `https://www.google.com/maps?q=${encodeURIComponent('Priceline
 const faqs = [
   { q: 'Are you open on Sundays?', a: 'Yes, we’re open 7 days a week, including Sundays. Our full hours are listed on this page, and public holiday hours are updated on our Google listing.' },
   { q: 'Which entrance is closest to the pharmacy?', a: 'We’re on the ground floor on the north-eastern side of Pacific Fair, near the outdoor entrance from the river and next to Proud Smile. Park in the car park beneath us or the undercover rooftop above us and you’ll be a short walk away.' },
-  { q: 'Is parking free?', a: 'Pacific Fair offers free parking each day, with ticketless entry and exit that reads your number plate. Check <a href="' + site.links.pacificFairParking + '" rel="noopener">Pacific Fair’s parking page</a> for the current free period, rates beyond it and accessible parking.' },
+  { q: 'Is parking free?', a: 'Yes, for the first 4 hours each day, and all day if you spend over $300 in the centre. Entry and exit are ticketless: a camera reads your number plate. See <a href="' + site.links.pacificFairParking + '" rel="noopener">Pacific Fair’s parking page</a> for rates beyond 4 hours and accessible parking.' },
   { q: 'Is the store wheelchair accessible?', a: 'Yes. The store has a level, step-free entrance from the centre and accessible parking nearby. Pacific Fair has accessible toilets and parents’ rooms.' },
   { q: 'How do I get there by public transport?', a: 'Take the G:link light rail to Broadbeach South station, right out the front of Pacific Fair, or a bus to the Pacific Fair interchange on Hooker Boulevard. Plan your trip with Translink.' },
 ];
@@ -49,12 +49,12 @@ const faqs = [
   </div>
 
   <h2>Where should I park?</h2>
-  <p>Pacific Fair offers free parking each day, with ticketless entry and exit that reads your number plate. Free all-day parking is available with an accessible parking permit.</p>
+  <p>Pacific Fair offers <strong>4 hours of free parking</strong> each day, and complimentary all-day parking when you spend over $300 in the centre. Entry and exit are ticketless: a camera reads your number plate, so remember your plate if you’re staying longer than 4 hours. Free all-day parking is available with an accessible parking permit.</p>
   <ul>
     <li><strong>Car park below us:</strong> from the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath the north-eastern side of the centre.</li>
     <li><strong>Undercover rooftop parking:</strong> head to the north-eastern side of the centre and park on the undercover rooftop level above us.</li>
   </ul>
-  <p>For car park maps, the current free period, rates beyond it and accessible parking, see <a href={site.links.pacificFairParking} rel="noopener">Pacific Fair’s parking page</a>.</p>
+  <p>For car park maps, rates beyond 4 hours and accessible parking, see <a href={site.links.pacificFairParking} rel="noopener">Pacific Fair’s parking page</a>.</p>
 
   <h2>Light rail and buses</h2>
   <p>Take the G:link light rail to <strong>Broadbeach South</strong> station, on the Gold Coast Highway right out the front of Pacific Fair. It’s a short walk into the centre, and we’re close to the Gold Coast Highway side. Many bus routes also stop at Broadbeach South and at the Pacific Fair bus interchange on Hooker Boulevard. Plan your trip with <a href={site.links.translink} rel="noopener">Translink</a>.</p>

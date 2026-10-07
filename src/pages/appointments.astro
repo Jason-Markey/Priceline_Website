@@ -3,7 +3,7 @@ import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
 
 const faqs = [
-  { q: 'Which services need an appointment?', a: 'Only contraception and UTI consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations, pharmacist consultations, ear piercing and quit-smoking support.' },
+  { q: 'Which services need an appointment?', a: 'Only contraception consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations and pharmacist consultations.' },
   { q: 'How do I book online?', a: `Use our online booking page at <a href="${site.links.book}" rel="noopener">MedAdvisor</a>, choose the service and pick a time. You can also scan the QR code at the counter to join the queue for a vaccination.` },
   { q: 'How do I book a doctor?', a: `<a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, takes bookings at <a href="${site.helpMedical.bookingUrl}" rel="noopener">helpmedical.au</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a>. Walk-ins are welcome subject to doctor availability.` },
   { q: 'Can I just walk in for a vaccination?', a: 'Yes. We welcome walk-ins every day we’re open. Booking a time is optional and handy if you’d rather not wait.' },
@@ -50,8 +50,8 @@ const faqs = [
         </tr>
         <tr>
           <td><a href="/uti-treatment/">UTI treatment</a></td>
-          <td data-label="Booking">Call first</td>
-          <td data-label="How">Call <a href={site.phoneHref}>{site.phone}</a> to check a trained pharmacist is on.</td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">Ask for a trained pharmacist at the prescription counter. No booking needed.</td>
         </tr>
         <tr>
           <td><a href="/emergency-contraception/">Emergency contraception</a></td>
