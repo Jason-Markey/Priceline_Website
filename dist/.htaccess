@@ -29,6 +29,9 @@ RewriteRule ^(.*)$ https://pricelinepacificfair.com.au/$1 [R=301,L]
 # --- Retired pages (301 to the best replacement) ---
 RewriteRule ^audiology-services/?$ /pharmacy-services/ [R=301,L]
 RewriteRule ^book-a-hormonal-contraceptive-pill-appointment/?$ /hormonal-contraceptive-pill/ [R=301,L]
+# Old WordPress slugs still in Google's index (Search Console 404 report, 9 Oct 2026)
+RewriteRule ^ear-nose-piercing/?$ /ear-piercings/ [R=301,L]
+RewriteRule ^vaccination-2/?$ /vaccination-information/ [R=301,L]
 
 # --- WordPress leftovers: taxonomy, feeds, author, paging, search, attachments ---
 RewriteRule ^tag/.*$ /health-blog/ [R=301,L]
@@ -44,6 +47,9 @@ RewriteCond %{QUERY_STRING} ^s=(.*)$
 RewriteRule ^/?$ /search/?q=%1 [R=301,L]
 RewriteCond %{QUERY_STRING} ^p=[0-9]+$
 RewriteRule ^/?$ /? [R=301,L]
+# Wordfence live-traffic links (?wordfence_lh=1&hid=...) crawled from the old site: drop the query string
+RewriteCond %{QUERY_STRING} (^|&)wordfence_lh=
+RewriteRule ^(.*)$ /$1? [R=301,L]
 RewriteRule ^(wp-sitemap.*|sitemap\.xml|sitemap_index\.xml|post-sitemap\.xml|page-sitemap\.xml)$ /sitemap-index.xml [R=301,L]
 
 # --- WordPress system paths: gone for good ---
