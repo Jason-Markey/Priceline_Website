@@ -8,6 +8,7 @@ import { faqNode } from '../lib/schema';
 import jason from '../assets/images/jason-cutout.png';
 import storeInterior from '../assets/images/store-interior.jpg';
 import beautyAisle from '../assets/images/beauty-aisle.jpg';
+import fragranceCabinets from '../assets/images/fragrance-cabinets.jpg';
 import scriptsCounter from '../assets/images/scripts-in-counter.jpg';
 import helpMedicalPhoto from '../assets/images/help-medical-reception.jpg';
 import icoVacc from '../assets/icons/vaccinations.png';
@@ -26,12 +27,12 @@ const description =
 // Home services grid — same eight tiles and hexagon icons as the current site. Every tile links internally.
 const tiles = [
   { slug: 'vaccination-information', label: 'Walk-in vaccinations', icon: icoVacc, cta: 'About vaccinations' },
+  { slug: 'beauty-fragrance', label: 'Makeup, skincare & fragrance', icon: icoCosmetics, cta: 'About beauty & fragrance' },
   { slug: 'help-medical', label: "Doctor's appointment", icon: icoDoctor, cta: 'About Help Medical' },
   { slug: 'medication-packing', label: 'Medication packing', icon: icoPacking, cta: 'About medication packing' },
   { slug: 'health-station', label: 'Free health checks', icon: icoHealth, cta: 'About health checks' },
   { slug: 'national-diabetes-services-scheme', label: 'Diabetes & NDSS', icon: icoDiabetes, cta: 'About diabetes & NDSS' },
   { slug: 'medication-reviews', label: 'Free medication reviews', icon: icoReviews, cta: 'About medication reviews' },
-  { slug: 'skincare-tanning', label: 'Skincare & cosmetics', icon: icoCosmetics, cta: 'About skincare & cosmetics' },
   { slug: 'download-the-priceline-app', label: 'Priceline app', icon: icoApp, cta: 'About the Priceline app' },
 ];
 
@@ -50,7 +51,7 @@ const faqs = [
     <div class="container hero__inner">
       <div class="hero__copy">
         <h1>Your local pharmacy at Pacific Fair, Broadbeach</h1>
-        <p class="hero__lead">Scripts ready in minutes, vaccinations with no appointment, and GPs you can see without leaving the store. Locally owned, open 7 days and until 9pm on Thursdays.</p>
+        <p class="hero__lead">Scripts ready in minutes, walk-in vaccinations, GPs in store, and the full Priceline beauty and fragrance range with free advice. Locally owned, open 7 days and until 9pm on Thursdays.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
           <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
@@ -82,15 +83,12 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Why locals choose us (existing copy, kept) -->
-  <section class="section">
-    <div class="container why" data-cta-location="home_body">
-      <div class="why__intro">
+  <!-- Band A: who we are + where we are -->
+  <section class="section section--white">
+    <div class="container band-a" data-cta-location="home_body">
+      <div class="band-a__text">
         <h2>A locally owned pharmacy inside Pacific Fair</h2>
         <p>Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre in Broadbeach. Whether you’re filling a script, getting a flu shot on your lunch break or after skincare that copes with the Gold Coast climate, our pharmacists and beauty advisors take the time to get it right.</p>
-        <a class="btn btn--outline" href="/about-us/">Meet the team</a>
-      </div>
-      <div class="why__list">
         <h3>Why locals choose us</h3>
         <ul>
           <li><strong>Here since 2009, pharmacist-owned.</strong> Ask our pharmacists anything, no appointment needed.</li>
@@ -98,16 +96,11 @@ const faqs = [
           <li><strong>Walk-in <a href="/vaccination-information/">vaccinations</a>, including <a href="/flu-vaccination/">flu shots</a></strong>, free for eligible people under the National Immunisation Program, with no service fee.</li>
           <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, with bulk billing for eligible patients.</li>
         </ul>
+        <a class="btn btn--outline" href="/about-us/">Meet the team</a>
       </div>
-    </div>
-  </section>
-
-  <!-- Visit us in store (existing section, kept) -->
-  <section class="section section--white">
-    <div class="container visit" data-cta-location="home_body">
-      <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="visit__img" />
-      <div class="visit__copy">
-        <h2>Find us on the ground floor of Pacific Fair</h2>
+      <div class="band-a__find">
+        <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="band-a__img" />
+        <h3>Find us on the ground floor</h3>
         <p>{site.address.oneLine}. {site.address.floor}, {site.address.landmarks}. Four hours of free parking each day, and the Broadbeach South light rail stop is right out the front.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/visit-us/">Hours &amp; directions</a>
@@ -155,12 +148,36 @@ const faqs = [
     </div>
   </section>
 
+  <!-- Beauty band: full width, the retail heart of the store -->
+  <section class="section section--pale">
+    <div class="container beauty" data-cta-location="home_body">
+      <div class="beauty__copy">
+        <h2>Beauty, makeup and fragrance, with advice built for the Gold Coast</h2>
+        <p>The full Priceline beauty range is here on the ground floor: makeup from NYX, Maybelline, L’Oréal Paris, Revlon, e.l.f. and Milani, lit fragrance cabinets of designer and celebrity scents, and skincare that copes with strong sun, humidity and salt water. Our beauty advisors help you match a shade, find a scent or choose a gift, with no booking and no charge.</p>
+        <ul class="beauty__list">
+          <li>Makeup, skincare, hair care and self-tan</li>
+          <li>Designer and celebrity fragrance, with testers in store</li>
+          <li>Free advice from trained beauty advisors</li>
+          <li>Shop in store, or order for <a href="/click-and-collect/">Click &amp; Collect</a> and <a href="/delivery/">Uber Eats delivery</a></li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="/beauty-fragrance/">Makeup &amp; fragrance</a>
+          <a class="btn btn--outline" href="/skincare-tanning/">Skincare &amp; self-tan</a>
+        </div>
+      </div>
+      <div class="beauty__photos">
+        <Image src={beautyAisle} alt="The beauty aisle at Priceline Pharmacy Pacific Fair, with NYX, Maybelline, L’Oréal and Revlon bays" widths={[480, 760, 1024]} sizes="(max-width: 900px) 100vw, 560px" class="beauty__img" />
+        <Image src={fragranceCabinets} alt="Lit fragrance cabinets at Priceline Pharmacy Pacific Fair" widths={[480, 760, 1024]} sizes="(max-width: 900px) 100vw, 560px" class="beauty__img" />
+      </div>
+    </div>
+  </section>
+
   <!-- Help Medical strip -->
   <section class="section">
     <div class="container hm" data-cta-location="home_body">
       <div class="hm__copy">
         <h2>See a GP without leaving the store</h2>
-        <p>Help Medical, {site.helpMedical.relationship}, bulk bills eligible patients and welcomes walk-ins, subject to doctor availability. See a doctor, then have your script filled a few steps away. A QML Pathology collection room operates inside Help Medical on weekday mornings.</p>
+        <p>Help Medical, {site.helpMedical.relationship}, bulk bills eligible patients and welcomes walk-ins, subject to doctor availability. See a doctor, then have your script filled a few steps away. QML Pathology collects inside Help Medical on weekday mornings.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href={site.helpMedical.bookingUrl} rel="noopener" data-event="book-gp">Book a GP</a>
           <a class="btn btn--outline" href="/help-medical/">About Help Medical</a>
@@ -170,24 +187,9 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Beauty strip -->
-  <section class="section section--pale">
-    <div class="container beauty" data-cta-location="home_body">
-      <Image src={beautyAisle} alt="The beauty aisle at Priceline Pharmacy Pacific Fair, with NYX, Maybelline, L’Oréal and Revlon bays" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="beauty__img" />
-      <div class="beauty__copy">
-        <h2>Skincare, makeup and fragrance, with advice built for the Gold Coast</h2>
-        <p>Strong sun, humidity, salt water and air-conditioning are hard on skin. Our trained beauty advisors help you find products that suit your skin and our climate, with no booking and no charge. Shop in store, or order for Click &amp; Collect and Uber Eats delivery.</p>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="/skincare-tanning/">Skincare &amp; self-tan</a>
-          <a class="btn btn--outline" href="/beauty-fragrance/">Makeup &amp; fragrance</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQs -->
-  <section class="section">
-    <div class="container measure" data-cta-location="home_body">
+  <!-- Band E: quick answers + ask a pharmacist -->
+  <section class="section section--white">
+    <div class="container band-e" data-cta-location="home_body">
       <div class="faq">
         <h2>Quick answers</h2>
         {faqs.map((f) => (
@@ -196,14 +198,8 @@ const faqs = [
             <div class="faq-body"><p set:html={f.a} /></div>
           </details>
         ))}
+        <p>More in our <a href="/frequently-asked-questions/">frequently asked questions</a>.</p>
       </div>
-      <p>More in our <a href="/frequently-asked-questions/">frequently asked questions</a>.</p>
-    </div>
-  </section>
-
-  <!-- Contact card (existing "Have any questions?") -->
-  <section class="section section--white">
-    <div class="container" data-cta-location="home_body">
       <div class="contact card">
         <div>
           <h2>Have a question? Ask a pharmacist</h2>
@@ -270,7 +266,13 @@ const faqs = [
   .visit, .hm, .beauty { display: grid; gap: var(--s8); align-items: center; }
   @media (min-width: 900px) { .visit, .hm, .beauty { grid-template-columns: 1fr 1fr; gap: var(--s16); } }
   .visit h2, .hm h2, .beauty h2 { margin-top: 0; }
-  .visit__img, .hm__img, .beauty__img { border-radius: var(--radius-lg); width: 100%; height: auto; }
+  .visit__img, .hm__img { border-radius: var(--radius-lg); width: 100%; height: auto; }
+  .beauty__photos { display: grid; gap: var(--s4); order: -1; }
+  @media (min-width: 900px) { .beauty__photos { order: 0; } }
+  .beauty :global(.beauty__img) { border-radius: var(--radius-lg); width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .beauty__list { padding-left: 1.2em; margin: 0 0 var(--s5); }
+  .beauty__list li + li { margin-top: var(--s1); }
+  @media (min-width: 900px) { .beauty { grid-template-columns: 1fr 1.1fr; } }
   @media (min-width: 900px) { .hm__img { order: 2; } }
 
   /* Hours */
@@ -302,4 +304,17 @@ const faqs = [
   .contact { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s5); background: var(--pink-pale); border: 0; }
   .contact h2 { margin: 0 0 var(--s2); font-size: 1.375rem; }
   .contact p { margin: 0; }
+  /* Bands (5-band layout) */
+  .band-a { display: grid; gap: var(--s8); }
+  .band-a h3 { margin-top: var(--s6); }
+  .band-a__text ul { padding-left: 1.2em; }
+  .band-a__text li + li { margin-top: var(--s2); }
+  .band-a__find { background: var(--bg); border-radius: var(--radius-lg); padding: var(--s5); }
+  .band-a__find h3 { margin-top: var(--s4); }
+  .band-a :global(.band-a__img) { border-radius: var(--radius); width: 100%; height: auto; }
+  @media (min-width: 900px) { .band-a { grid-template-columns: 1.15fr 1fr; gap: var(--s12); align-items: start; } }
+  .band-e { display: grid; gap: var(--s8); }
+  .band-e .faq { max-width: var(--measure); }
+  .band-e .contact { align-self: start; }
+  @media (min-width: 1024px) { .band-e { grid-template-columns: minmax(0, var(--measure)) 1fr; gap: var(--s12); align-items: start; } .band-e .contact { display: block; } .band-e .contact .btn { margin-top: var(--s4); } }
 </style>
