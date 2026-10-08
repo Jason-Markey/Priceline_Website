@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="436" viewBox="0 0 100 109">
+  <!-- white syringe, drawn diagonally like the other glyphs' weight; hexagon comes from the existing icon mask -->
+  <g transform="translate(48 56) rotate(-45) scale(0.9) translate(-50 -54)" fill="#fff">
+    <!-- needle -->
+    <rect x="48.6" y="12" width="2.8" height="16" />
+    <!-- needle hub -->
+    <rect x="44" y="27" width="12" height="4" rx="1" />
+    <!-- barrel -->
+    <rect x="40" y="31" width="20" height="40" rx="2.5" />
+    <!-- barrel graduations (green cut-outs) -->
+    <g fill="#70A645">
+      <rect x="44" y="38" width="8" height="2" />
+      <rect x="44" y="45" width="12" height="2" />
+      <rect x="44" y="52" width="8" height="2" />
+      <rect x="44" y="59" width="12" height="2" />
+    </g>
+    <!-- flange -->
+    <rect x="35" y="71" width="30" height="4.5" rx="1.5" />
+    <!-- plunger stem + thumb rest -->
+    <rect x="47" y="75.5" width="6" height="14" />
+    <rect x="40" y="89" width="20" height="5" rx="2" />
+  </g>
+  <!-- small cross badge, top right, matching the other icons' medical motif -->
+  <g transform="translate(73 33)">
+    <circle r="10" fill="#fff" />
+    <rect x="-1.8" y="-6" width="3.6" height="12" fill="#70A645" />
+    <rect x="-6" y="-1.8" width="12" height="3.6" fill="#70A645" />
+  </g>
+</svg>
