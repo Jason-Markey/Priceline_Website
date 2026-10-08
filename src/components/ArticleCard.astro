@@ -4,8 +4,10 @@
  */
 import type { CollectionEntry } from 'astro:content';
 import { categories } from '../data/categories';
-export interface Props { entry: CollectionEntry<'articles'>; }
-const { entry } = Astro.props;
+/** `level` = heading level for the card title: 'h3' under a section H2 (blog index), 'h2' directly under the page H1 (category pages). */
+export interface Props { entry: CollectionEntry<'articles'>; level?: 'h2' | 'h3'; }
+const { entry, level = 'h3' } = Astro.props;
+const Title = level;
 const d = entry.data;
 const slug = entry.id.replace(/\.md$/, '');
 const cat = categories[d.category];
@@ -13,7 +15,7 @@ const reviewed = d.modifiedDate.toLocaleDateString('en-AU', { day: 'numeric', mo
 ---
 <article class="acard">
   <a class="chip" href={`/category/${d.category}/`}>{cat.name}</a>
-  <h3 class="acard__title"><a href={`/${slug}/`}>{d.title}</a></h3>
+  <Title class="acard__title"><a href={`/${slug}/`}>{d.title}</a></Title>
   <p class="acard__desc">{d.description}</p>
   <p class="acard__meta">Reviewed <time datetime={d.modifiedDate.toISOString().slice(0, 10)}>{reviewed}</time></p>
 </article>

@@ -37,7 +37,7 @@ const path = `/category/${category}/`;
 >
   <p class="count">{articles.length} {articles.length === 1 ? 'article' : 'articles'}, reviewed by our pharmacist. <a href="/health-blog/">All advice</a></p>
   <div class="grid">
-    {articles.map((a) => <ArticleCard entry={a} />)}
+    {articles.map((a) => <ArticleCard entry={a} level="h2" />)}
   </div>
 
   <section class="measure after">
