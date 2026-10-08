@@ -59,4 +59,5 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
 - Old WordPress site is parked, untouched, at `/home/pricelin/pricelinepacificfair.com.au` (files + database). Rollback = set the document root back to that folder in cPanel > Domains > Manage. Jason intends to delete it once the new site has run for a while.
 - Keep `public/googlee1e8a4de870e1a5f.html` (Search Console verification).
 - Cron (added 8 Oct 2026, every 5 min): pulls main and copies `dist/` to `/home/pricelin/new.pricelinepf.com.au/`.
-- TODO at cutover: add `pricelinepacificfair.com` as an alias domain in cPanel (and check its DNS A record) so the .htaccess rule 301s it to the .com.au site.
+- `pricelinepacificfair.com` (8 Oct 2026): added in cPanel as an addon domain with document root `new.pricelinepf.com.au`, and its DNS switched in VIPcontrol from a forwarder to the hosting (A 110.232.143.7). The .htaccess rule 301s it to the .com.au site; AutoSSL covers https.
+- DOMAIN RENEWAL: VIPcontrol showed `pricelinepacificfair.com.au` as EXPIRING (about 1 Nov 2026) on 8 Oct 2026. Auto-renew is on; Jason to confirm the renewal goes through.
