@@ -19,6 +19,9 @@ RewriteEngine On
 # --- Canonical host + HTTPS (NOTE: staging runs on new.pricelinepf.com.au; these rules only fire on the live domain) ---
 RewriteCond %{HTTP_HOST} ^www\.pricelinepacificfair\.com\.au$ [NC]
 RewriteRule ^(.*)$ https://pricelinepacificfair.com.au/$1 [R=301,L]
+# pricelinepacificfair.com (and www.) -> the .com.au site. Needs the .com added as an alias domain in cPanel.
+RewriteCond %{HTTP_HOST} ^(www\.)?pricelinepacificfair\.com$ [NC]
+RewriteRule ^(.*)$ https://pricelinepacificfair.com.au/$1 [R=301,L]
 RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^pricelinepacificfair\.com\.au$ [NC]
 RewriteRule ^(.*)$ https://pricelinepacificfair.com.au/$1 [R=301,L]

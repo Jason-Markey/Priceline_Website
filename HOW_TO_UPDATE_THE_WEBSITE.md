@@ -57,3 +57,6 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
 - `.cpanel.yml` copies `dist/` to the web root when deployed from cPanel's Git Version Control screen.
 - Staging: new.pricelinepf.com.au. Live: pricelinepacificfair.com.au (switch the document root or the cron target at cutover).
 - Keep `public/googlee1e8a4de870e1a5f.html` (Search Console verification).
+- Cron (added 8 Oct 2026, every 5 min): pulls main and copies `dist/` to `/home/pricelin/new.pricelinepf.com.au/`.
+- Cutover plan: in cPanel change the document root of the addon domain `pricelinepacificfair.com.au` to `new.pricelinepf.com.au`; WordPress stays in `public_html` as rollback.
+- TODO at cutover: add `pricelinepacificfair.com` as an alias domain in cPanel (and check its DNS A record) so the .htaccess rule 301s it to the .com.au site.
