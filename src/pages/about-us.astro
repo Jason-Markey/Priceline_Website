@@ -5,6 +5,7 @@ import { site } from '../data/site';
 import { pharmacyTeam } from '../data/team';
 import jason from '../assets/images/jason-pharmacist-portrait.jpg';
 import dispensary from '../assets/images/jason-dispensary-counter.jpg';
+import helping from '../assets/images/jason-helping-customer.jpg';
 
 const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
 const photoFor = (file?: string) => (file ? photos[`../assets/images/${file}`]?.default : undefined);
@@ -46,7 +47,7 @@ const faqs = [
     <li><strong>Better technology, more time with you.</strong> Our robotic dispensary picks medicines in seconds, and electronic shelf labels keep prices accurate. Both free up our team to spend more time with customers. You can also order everyday items for delivery across the Gold Coast through <a href="/delivery/">Uber Eats</a>.</li>
   </ul>
 
-  <Image src={dispensary} alt="Jason Markey at the dispensary counter of Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <Image src={helping} alt="Jason Markey helping a customer choose a vitamin in the aisle at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" class="about__photo" />
 
   <h2>Meet the team</h2>
   <div class="team">
@@ -62,12 +63,15 @@ const faqs = [
     ))}
   </div>
 
+  <Image src={dispensary} alt="Jason Markey at the dispensary counter of Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+
   <h2>Part of Pacific Fair, part of Broadbeach</h2>
   <p>We’ve been part of Pacific Fair since the store opened in August 2009, and we work alongside the other health services in the centre and across Broadbeach. Whether you live locally or you’re here on holiday, you’ll get the same care: a pharmacist who listens, honest advice, and help finding what you need.</p>
   <p>Come and say hello. We’re open 7 days, until 9pm on Thursdays. <a href="/visit-us/">Opening hours and directions</a>.</p>
 </ContentPage>
 
 <style>
+  .about__photo { max-width: 560px; }
   .team { display: grid; gap: var(--s6); margin: var(--s4) 0 var(--s8); }
   .member { display: grid; gap: var(--s4); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5); }
   @media (min-width: 600px) { .member { grid-template-columns: auto 1fr; } }
