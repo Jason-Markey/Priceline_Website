@@ -55,8 +55,8 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
 - Server: VentraIP cPanel, account `pricelin`. Repo clone at `/home/pricelin/repos/priceline_website`.
 - Cron (every 5 min): `cd /home/pricelin/repos/priceline_website && git pull -q origin main && /bin/cp -R dist/. /home/pricelin/<web-root>/`
 - `.cpanel.yml` copies `dist/` to the web root when deployed from cPanel's Git Version Control screen.
-- Staging: new.pricelinepf.com.au. Live: pricelinepacificfair.com.au (switch the document root or the cron target at cutover).
+- LIVE since 8 Oct 2026 21:16 AEST: pricelinepacificfair.com.au's document root in cPanel points at `/home/pricelin/new.pricelinepf.com.au`, the same folder the cron deploys to, so every push to main goes live within 5 minutes. new.pricelinepf.com.au still serves the same files (handy for previewing nothing; there is no separate staging now).
+- Old WordPress site is parked, untouched, at `/home/pricelin/pricelinepacificfair.com.au` (files + database). Rollback = set the document root back to that folder in cPanel > Domains > Manage. Jason intends to delete it once the new site has run for a while.
 - Keep `public/googlee1e8a4de870e1a5f.html` (Search Console verification).
 - Cron (added 8 Oct 2026, every 5 min): pulls main and copies `dist/` to `/home/pricelin/new.pricelinepf.com.au/`.
-- Cutover plan: in cPanel change the document root of the addon domain `pricelinepacificfair.com.au` to `new.pricelinepf.com.au`; WordPress stays in `public_html` as rollback.
 - TODO at cutover: add `pricelinepacificfair.com` as an alias domain in cPanel (and check its DNS A record) so the .htaccess rule 301s it to the .com.au site.
