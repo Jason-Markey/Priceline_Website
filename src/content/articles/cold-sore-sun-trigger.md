@@ -2,8 +2,8 @@
 title: "Cold sores and the sun: triggers and what helps"
 description: "Can the sun trigger a cold sore? Why UV sets them off, SPF lip balm for Gold Coast beach days, what to do at the first tingle and when to see a GP."
 seoTitle: "Cold sores and the sun: triggers | Priceline Pacific Fair"
-publishDate: 2027-01-18
-modifiedDate: 2027-01-18
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

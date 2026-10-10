@@ -2,8 +2,8 @@
 title: "How to help an ageing parent manage their medicines"
 description: "Visiting Mum or Dad over the holidays? How to help an elderly parent with medication: warning signs, medicines lists, packs, reviews and safe disposal."
 seoTitle: "Helping a parent with medicines | Priceline Pacific Fair"
-publishDate: 2026-12-07
-modifiedDate: 2026-12-07
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

@@ -2,8 +2,8 @@
 title: "Hayfever on the Gold Coast: why our season is different"
 description: "Why hayfever on the Gold Coast peaks in summer, not spring: a local pollen calendar, tips to cut exposure and when to see a GP. Ask our Broadbeach team."
 seoTitle: "Hayfever on the Gold Coast | Priceline Pacific Fair"
-publishDate: 2026-11-03
-modifiedDate: 2026-11-03
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

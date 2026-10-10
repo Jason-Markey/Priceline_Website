@@ -2,8 +2,8 @@
 title: "Normal blood pressure: numbers explained (and when to act)"
 description: "What's a normal blood pressure? How to read the two numbers, Australian ranges, home vs in-store checks at Pacific Fair, and when to see a GP or call 000."
 seoTitle: "Normal blood pressure explained | Priceline Pacific Fair"
-publishDate: 2027-02-22
-modifiedDate: 2027-02-22
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

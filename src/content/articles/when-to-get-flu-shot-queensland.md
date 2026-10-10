@@ -2,8 +2,8 @@
 title: "Flu season in Queensland: when to get your flu shot"
 description: "When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair."
 seoTitle: "When to get your flu shot in Queensland"
-publishDate: 2027-03-15
-modifiedDate: 2027-03-15
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -46,7 +46,7 @@ Yes. Yearly flu vaccination is recommended for everyone aged 6 months and over. 
 
 ### Free under the National Immunisation Program
 
-In 2026, the flu vaccine was free under the NIP for these groups. The list is reviewed each year, so ask us about this year's eligibility:
+In 2026, the flu vaccine was free under the NIP for these groups. The list is reviewed each year, so ask us about eligibility for the current season:
 
 - Aboriginal and Torres Strait Islander people aged 6 months and over
 - children aged 6 months to under 5 years
@@ -58,7 +58,7 @@ Your pharmacist or GP can tell you whether a medical condition makes you eligibl
 
 ### Queensland's free flu vaccination program
 
-In 2026, the Queensland Government offered free flu vaccines to all Queenslanders aged 6 months and older from 1 March to 30 September, and you didn't need a Medicare card. Queensland's program is decided year by year, so ask us whether it's running again this year and what the dates are.
+In 2026, the Queensland Government offered free flu vaccines to all Queenslanders aged 6 months and older from 1 March to 30 September, and you didn't need a Medicare card. Queensland's program is decided year by year, so ask us whether it's running in the coming season and what the dates are.
 
 If you're not eligible for a free vaccine, you can pay for one at a pharmacy or GP. Some providers charge a service fee even when the vaccine is free, so ask us about our current price.
 

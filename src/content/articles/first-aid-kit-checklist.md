@@ -2,8 +2,8 @@
 title: "Summer holiday first aid kit checklist (Gold Coast edition)"
 description: "A first aid kit checklist for Gold Coast summer holidays: what to pack for the beach, pool, theme parks and road trips, plus keeping medicines cool."
 seoTitle: "Summer first aid kit checklist | Priceline Pacific Fair"
-publishDate: 2026-11-24
-modifiedDate: 2026-11-24
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

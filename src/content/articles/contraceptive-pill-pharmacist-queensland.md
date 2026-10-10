@@ -2,8 +2,8 @@
 title: "Contraceptive pill from a Queensland pharmacist: how it works"
 description: "How to get the contraceptive pill from a trained Queensland pharmacist: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair."
 seoTitle: "Contraceptive pill from a pharmacist in Queensland"
-publishDate: 2026-11-03
-modifiedDate: 2026-11-03
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

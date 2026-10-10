@@ -2,8 +2,8 @@
 title: "Shingles vaccine: who can get it free and why it matters"
 description: "Who may be eligible for the free shingles vaccine, why shingles risk rises with age, the 2-dose schedule and what to expect. Walk-ins at Pacific Fair."
 seoTitle: "Shingles vaccine: who can get it free?"
-publishDate: 2027-02-15
-modifiedDate: 2027-02-15
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
