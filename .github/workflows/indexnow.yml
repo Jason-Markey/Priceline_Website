@@ -7,6 +7,7 @@ on:
   push:
     branches: [main]
     paths: ['dist/**']
+  workflow_dispatch:   # run by hand from the Actions tab to resubmit every page in the sitemap
 permissions:
   contents: read
 jobs:
@@ -17,9 +18,14 @@ jobs:
         with:
           fetch-depth: 0
       - name: Wait for the cPanel deploy
+        if: github.event_name == 'push'
         run: sleep 420
       - name: Submit changed pages
+        if: github.event_name == 'push'
         run: |
           BEFORE="${{ github.event.before }}"
           if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then BEFORE=HEAD~1; fi
           python3 tools/indexnow.py --since "$BEFORE"
+      - name: Submit every page in the sitemap
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 tools/indexnow.py --all
