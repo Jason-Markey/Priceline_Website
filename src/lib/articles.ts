@@ -22,5 +22,7 @@ export function articlesAsOf(): number {
   if (import.meta.env.ARTICLES_AS_OF) return new Date(import.meta.env.ARTICLES_AS_OF).getTime();
   return Date.now() + 10 * 60 * 60 * 1000;
 }
-export const byNewest = (a: CollectionEntry<'articles'>, b: CollectionEntry<'articles'>) => b.data.publishDate.getTime() - a.data.publishDate.getTime();
+// Newest first; same-day articles in slug order so every build (local or CI) lists them identically.
+export const byNewest = (a: CollectionEntry<'articles'>, b: CollectionEntry<'articles'>) =>
+  b.data.publishDate.getTime() - a.data.publishDate.getTime() || a.id.localeCompare(b.id);
 export const slugOf = (a: CollectionEntry<'articles'>) => a.id.replace(/\.md$/, '');

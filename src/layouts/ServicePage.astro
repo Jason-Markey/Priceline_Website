@@ -54,7 +54,7 @@ const related = service.related.map(serviceBySlug).filter(Boolean) as Service[];
 const advice = (await getLiveArticles())
   .filter((a) => a.data.relatedServices.includes(service.slug))
   .sort((a, b) => a.data.relatedServices.indexOf(service.slug) - b.data.relatedServices.indexOf(service.slug)
-    || b.data.publishDate.getTime() - a.data.publishDate.getTime())
+    || b.data.publishDate.getTime() - a.data.publishDate.getTime() || a.id.localeCompare(b.id))
   .slice(0, 5);
 const schema = [
   ...(noServiceSchema ? [] : [serviceNode({ url, name: service.name, description: service.short, price: service.price })]),
