@@ -21,8 +21,13 @@ jobs:
       - run: npm run build
       - run: python3 tools/check-build.py
       - name: Commit dist if changed
+        id: commit
         run: |
           git config user.name "scheduled-rebuild"
           git config user.email "noreply@pricelinepf.com.au"
           git add -A dist
-          if git diff --cached --quiet; then echo "No changes"; else git commit -m "Scheduled rebuild: publish due articles" && git push; fi
+          if git diff --cached --quiet; then echo "No changes"; else git commit -m "Scheduled rebuild: publish due articles" && git push && echo "pushed=true" >> "$GITHUB_OUTPUT"; fi
+      # Pushes made with GITHUB_TOKEN don't trigger indexnow.yml, so ping IndexNow here (after the cPanel cron deploys).
+      - name: Tell IndexNow which pages changed
+        if: steps.commit.outputs.pushed == 'true'
+        run: sleep 420 && python3 tools/indexnow.py --since HEAD~1

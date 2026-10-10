@@ -1,7 +1,7 @@
 # How to update the website
 
 The site is a static site built with Astro. All content lives in this repository on GitHub
-(`Jason-Markey/priceline_website`). Pushing to `main` deploys automatically (the cPanel cron pulls and
+(`Jason-Markey/Priceline_Website`). Pushing to `main` deploys automatically (the cPanel cron pulls and
 copies `dist/` to the web root within 5 minutes). There is no admin panel and nothing to log into.
 
 The easiest way to make a change is to ask Claude in a chat with this repo attached: describe the change,
@@ -19,6 +19,8 @@ Claude edits the file, rebuilds, checks, and pushes. The notes below tell you (o
 | Home page | `src/pages/index.astro` |
 | A blog article | `src/content/articles/<slug>.md` (front-matter at the top: title, description, dates, category, tags, references) |
 | Add a new article | Copy an existing file in `src/content/articles/`, change the file name (that becomes the URL), update the front-matter. It appears automatically in the blog index, category page, RSS, sitemap and llms.txt |
+| Article categories (topics) | `src/data/categories.ts` and the `category` list in `src/content.config.ts` (keep both in step). A category page is noindex and left out of the sitemap until it has 3 live articles |
+| Research behind the article plan, verified priceline.com.au range links, ideas for future articles | `reference-content/research/2026-10-content-research.md` |
 | Photos | `src/assets/images/` then reference from the page with `import` + `<Image>` |
 | Redirects, caching, security headers | `public/.htaccess` |
 | Robots rules | `public/robots.txt` |
@@ -36,13 +38,36 @@ Rules that must hold on every page (the build check enforces most of them):
 ```bash
 npm install            # first time only (needs Node 20+)
 npm run build          # builds dist/ and the search index
+python3 tools/check-articles.py   # article front-matter, scheduled-link order, blocked words (no build needed)
 python3 tools/check-build.py   # one H1, unique titles, meta lengths, internal links, blocked words
+python3 tools/seo-audit.py     # canonical, schema, alt text, sitemap, image weight, AI crawler rules
 git add -A && git commit -m "Describe the change" && git push
 ```
 
 `dist/` is committed on purpose so the server never needs Node. Always commit after a build.
 
 Preview locally before pushing: `npm run preview` then open http://127.0.0.1:4321/.
+
+## Scheduling articles
+
+- An article is live once its `publishDate` (Brisbane date) has arrived and `draft` isn't true. Scheduled articles go
+  live at the next build on or after that date; the weekly rebuild runs every Monday at 6am Brisbane, so date scheduled
+  articles on a Monday.
+- An article may only link to articles that are live on or before its own `publishDate`, otherwise the weekly rebuild
+  fails its link check and nothing publishes. `python3 tools/check-articles.py` checks this (and titles, descriptions,
+  categories and blocked words) without a build. Run it after adding or editing any article.
+- To preview everything that's scheduled: `ARTICLES_AS_OF=2027-12-31 npm run build`, then rebuild normally before committing.
+- Product mentions: link to the matching range page on priceline.com.au (a `/c/` URL from the research notes), not to a
+  single product, and never name brands of therapeutic goods (medicines, sunscreens, supplements).
+
+## Search engines and AI assistants
+
+- Google: Search Console (sitemap `/sitemap-index.xml` submitted). Request indexing for new pages in URL Inspection
+  (about 10 a day).
+- Bing, ChatGPT search, Copilot, DuckDuckGo: IndexNow. After every push that changes `dist/`, GitHub Actions waits for
+  the deploy and sends the changed page addresses to IndexNow (`.github/workflows/indexnow.yml`, `tools/indexnow.py`).
+  The key file is `public/d453aba426cec5f9df251eb8c387754c.txt`; keep it.
+- `/llms.txt` lists the key facts, services and every live article by topic for AI assistants. It rebuilds itself.
 
 ## After a content change, check
 

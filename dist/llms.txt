@@ -1,6 +1,6 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 9 October 2026
+Last updated: 10 October 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
@@ -9,7 +9,7 @@ Last updated: 9 October 2026
 - Medication packing (Webster packs): Free for concession and health care card holders. $5 a week otherwise.
 - Ear piercing (ages 8 and over): $65 including earrings and aftercare.
 - Passport and visa photos: $25. About 10 minutes.
-- Contraception consultation: $35 consultation. Your contraception is charged separately; many types are on the PBS. Please call first; trained pharmacists are usually available Monday to Friday.
+- Contraception consultation: $35 consultation. Your contraception is charged separately; ask us about the cost of your option. Please call first; trained pharmacists are usually available Monday to Friday.
 - UTI treatment: No booking needed. Walk in. For women aged 18 to 65 with symptoms of an uncomplicated bladder infection.
 - Parking: 4 hours of free parking at Pacific Fair each day.
 - Delivery: Everyday health, beauty and wellbeing products delivered through Uber Eats. Prescription medicines can’t be delivered this way.
@@ -59,27 +59,61 @@ Last updated: 9 October 2026
 - [Common illnesses A–Z](https://pricelinepacificfair.com.au/common-illness-information/)
 - [Visiting the Gold Coast](https://pricelinepacificfair.com.au/visiting-the-gold-coast/)
 - [Appointments](https://pricelinepacificfair.com.au/appointments/)
+- [Health, beauty and medicines advice hub](https://pricelinepacificfair.com.au/health-blog/)
 
-## Health advice articles (pharmacist-reviewed)
+## Advice articles (pharmacist-reviewed), by topic
+
+### Health advice
 - [Acne treatment at the pharmacy: what actually helps](https://pricelinepacificfair.com.au/acne-treatment-pharmacy/): Acne treatment from the pharmacy: what helps, how long it takes and when to see a GP. Pharmacist tips on sunscreen and skincare for humid Gold Coast days.
 - [Athlete’s foot treatment: how to clear it for good](https://pricelinepacificfair.com.au/athletes-foot-treatment/): Athlete's foot treatment: pharmacy antifungal options, how long to use them and when to see a GP. Tips for humid Gold Coast summers, pools and gym showers.
 - [Bluebottle sting treatment: what to do (and what not to do)](https://pricelinepacificfair.com.au/bluebottle-sting-treatment/): Stung by a bluebottle on the Gold Coast? Step-by-step first aid from Australian guidelines, myths to ignore (vinegar, urine) and when to call 000.
+- [Can you take paracetamol and ibuprofen together?](https://pricelinepacificfair.com.au/paracetamol-and-ibuprofen-together/): Can you take paracetamol and ibuprofen together? Most adults can. Daily limits, combination tablets and who should avoid ibuprofen. Ask our Broadbeach team.
 - [Common cold remedies: myths, facts and what helps](https://pricelinepacificfair.com.au/common-cold-remedies/): Common cold remedies that ease symptoms, cold vs flu, why antibiotics don't help, and safe options for kids. Advice from our Pacific Fair pharmacists.
 - [Constipation relief: a pharmacist’s checklist](https://pricelinepacificfair.com.au/constipation-relief/): Constipation relief that works: fibre, fluids, toilet position and laxative types explained, plus tips for Gold Coast holidays and when to see a GP.
-- [Dandruff treatment: your questions answered](https://pricelinepacificfair.com.au/dandruff-treatment/): Dandruff treatment explained: causes, medicated shampoos, home tips and when to see a GP. Handy advice for Gold Coast swimmers who wash their hair often.
 - [Dry skin remedies: a pharmacist’s checklist](https://pricelinepacificfair.com.au/dry-skin-remedies/): Dry skin remedies that work: shower habits, choosing a moisturiser and when to see a GP. Tips for skin dried out by Gold Coast sun, salt water and air-con.
 - [Haemorrhoids treatment: myths, facts and home care](https://pricelinepacificfair.com.au/haemorrhoids-treatment/): Haemorrhoids treatment at home and from the pharmacy, why drinking water matters in Gold Coast heat, and when any bleeding means you should see a GP.
 - [Headache relief: your questions answered](https://pricelinepacificfair.com.au/headache-relief/): Headache relief explained: tension-type triggers like Gold Coast heat and dehydration, safe pain relief, medication-overuse headache and when to call 000.
 - [Heartburn relief and GORD: what actually helps](https://pricelinepacificfair.com.au/heartburn-relief/): Heartburn relief from our Broadbeach pharmacists: common triggers, eating and sleep tips, pharmacy reflux medicines, and when chest pain means call 000.
 - [How to treat a cut or scrape: step-by-step first aid](https://pricelinepacificfair.com.au/how-to-treat-a-cut/): How to treat a cut or scrape: stop bleeding, clean, cover and spot infection. Plus tetanus advice and red flags for Gold Coast beach and holiday injuries.
 - [Migraine relief: what to do when an attack starts](https://pricelinepacificfair.com.au/migraine-relief/): Migraine relief step by step: spot the warning signs, act early, know your triggers like Gold Coast storms and glare, and when a headache means call 000.
-- [Mouth ulcer treatment: home care and when to worry](https://pricelinepacificfair.com.au/mouth-ulcer-treatment/): Mouth ulcer treatment: saltwater rinses, soft foods (skip the salty beach chips), pharmacy gels, and when an ulcer needs a Gold Coast dentist or GP.
 - [Nail fungus treatment: myths, facts and what works](https://pricelinepacificfair.com.au/nail-fungus-treatment/): Nail fungus treatment myths vs facts: pharmacy nail lacquers, when you need a GP and why it takes months. Foot tips for humid Gold Coast summers and pools.
 - [Scabies treatment in Australia: your questions answered](https://pricelinepacificfair.com.au/scabies-treatment-australia/): Scabies treatment in Australia: pharmacy and GP options, treating your whole household, washing bedding, and advice for Gold Coast share houses.
 - [Sprain vs strain: what’s the difference and what to do](https://pricelinepacificfair.com.au/sprain-vs-strain/): Sprain vs strain explained, with RICE and No HARM first aid for ankles rolled on Gold Coast sand, plus the red flags that mean a GP visit or X-ray.
-- [Sun safety on the Gold Coast: why UV is a year-round job](https://pricelinepacificfair.com.au/sun-safety-gold-coast/): Gold Coast UV hits 3+ every day, even in winter. Simple sun safety for beach days, the school run and car parks, plus when to get a spot checked by a GP.
 - [Sunburn treatment: what to do after too much sun](https://pricelinepacificfair.com.au/sunburn-treatment/): Sunburn treatment step by step: cool, soothe and protect burnt skin, and know when to see a GP. Pharmacist tips for Gold Coast beach days and holidays.
 - [Trouble sleeping: tips from your local pharmacist](https://pricelinepacificfair.com.au/trouble-sleeping-tips/): Trouble sleeping tips for hot, humid Gold Coast nights: routines, caffeine timing, when to see a GP and how our Pacific Fair pharmacists can help.
+
+### Skincare & beauty
+- [Are gel nails and UV nail lamps safe? UV, allergies and removal](https://pricelinepacificfair.com.au/gel-nails-uv-lamp-safety/): Are gel nails and UV nail lamps safe? UV exposure, acrylate (HEMA) allergy, DIY kit risks, safe removal and infection signs. Ask our Broadbeach pharmacists.
+- [Does SPF in your foundation count? Sunscreen under makeup, done right](https://pricelinepacificfair.com.au/sunscreen-under-makeup/): Is the SPF in your foundation enough? Why makeup SPF falls short, how to layer sunscreen under makeup and reapply over it. Ask our Pacific Fair beauty team.
+- [Fake tan: how to apply it, make it last, and why you still need SPF](https://pricelinepacificfair.com.au/fake-tan-guide/): Fake tan tips: how to prep, apply with a mitt, make it last and remove it, plus why a fake tan gives no UV protection. Ask our Pacific Fair beauty advisors.
+- [How to make perfume last longer in Gold Coast heat](https://pricelinepacificfair.com.au/make-perfume-last-longer/): How to make perfume last longer in Gold Coast heat: moisturised skin, pulse points, clothes and hair, storage and a sun caution. Ask our Pacific Fair team.
+- [Pigmentation and melasma in Queensland: what helps](https://pricelinepacificfair.com.au/pigmentation-melasma-queensland/): Pigmentation and melasma in Queensland: sun spots vs melasma vs acne marks, why daily tinted SPF50+ helps and when to get a skin check. Ask us in Broadbeach.
+- [SPF30 vs SPF50+: does the number matter on the Gold Coast?](https://pricelinepacificfair.com.au/spf30-vs-spf50/): SPF30 vs SPF50+: how much UVB each filters, what 50+ means on an Australian label and why using enough matters more. Ask our Broadbeach pharmacists.
+- [Sun safety on the Gold Coast: why UV is a year-round job](https://pricelinepacificfair.com.au/sun-safety-gold-coast/): Gold Coast UV hits 3+ every day, even in winter. Simple sun safety for beach days, the school run and car parks, plus when to get a spot checked by a GP.
+
+### Prescriptions & medicines
+- [How to get rid of old medicines safely (free at the pharmacy)](https://pricelinepacificfair.com.au/how-to-dispose-of-old-medicines/): How to dispose of old medicines in Australia for free: what pharmacies accept, what to do with sharps and how to check expiry dates. Ask our Broadbeach team.
+- [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): What can pharmacists prescribe in Queensland? UTIs, the pill, reflux, skin and ear infections, who's eligible and what it costs. Ask our Broadbeach team.
+
+### Vitamins & supplements
+- [Magnesium supplements: which type, and what the evidence says](https://pricelinepacificfair.com.au/magnesium-supplements-guide/): Magnesium supplements explained: citrate vs oxide vs glycinate, the evidence for cramps and sleep, and medicine timing. Ask our Broadbeach pharmacists.
+- [Should you take a probiotic with antibiotics?](https://pricelinepacificfair.com.au/probiotics-and-antibiotics/): Should you take a probiotic with antibiotics? The evidence on preventing diarrhoea, which strains, timing and who should avoid them. Ask our Broadbeach team.
+- [Vitamin D on the Gold Coast: do you still need a supplement?](https://pricelinepacificfair.com.au/vitamin-d-gold-coast/): Vitamin D on the Gold Coast: who is still at risk of low levels, balancing sun and skin cancer, testing and supplement doses. Ask our Broadbeach pharmacists.
+
+### Dental & oral care
+- [Dry mouth: common causes (including medicines) and what helps](https://pricelinepacificfair.com.au/dry-mouth-causes-relief/): Dry mouth is often a side effect of medicines. Common causes, why it matters for your teeth and what helps. Ask our Broadbeach pharmacists.
+- [Electric vs manual toothbrush: which is better?](https://pricelinepacificfair.com.au/electric-vs-manual-toothbrush/): Electric vs manual toothbrush: what research and the Australian Dental Association say, who benefits most and which features matter. Ask our Broadbeach team.
+- [Mouth ulcer treatment: home care and when to worry](https://pricelinepacificfair.com.au/mouth-ulcer-treatment/): Mouth ulcer treatment: saltwater rinses, soft foods (skip the salty beach chips), pharmacy gels, and when an ulcer needs a Gold Coast dentist or GP.
+
+### Baby & child
+- [Gastro in kids: how to keep them hydrated and when to worry](https://pricelinepacificfair.com.au/gastro-in-kids-hydration/): Gastro in kids: how much fluid to give and how often, signs of dehydration, drinks to avoid and Queensland childcare rules. Ask our Broadbeach team.
+- [Paracetamol and ibuprofen for kids: doses, timing and safety](https://pricelinepacificfair.com.au/childrens-paracetamol-ibuprofen/): Paracetamol dose for your child by weight, how often to give ibuprofen, whether you can give both, and when to see a GP. Ask our Broadbeach pharmacists.
+- [Sun protection for babies: what's safe under 12 months](https://pricelinepacificfair.com.au/baby-sun-protection/): Sun protection for babies under 12 months on the Gold Coast: shade, clothing and hats first, sunscreen from 6 months, pram safety. Ask our Broadbeach team.
+
+### Hair & scalp
+- [Dandruff treatment: your questions answered](https://pricelinepacificfair.com.au/dandruff-treatment/): Dandruff treatment explained: causes, medicated shampoos, home tips and when to see a GP. Handy advice for Gold Coast swimmers who wash their hair often.
+- [Head lice: how to get rid of them (and stop them coming back)](https://pricelinepacificfair.com.au/head-lice-treatment/): Head lice treatment step by step: the conditioner-and-comb method, lotions, re-treating after 7 days and Queensland school rules. Ask our Broadbeach team.
+- [Postpartum hair loss: why it happens and when it stops](https://pricelinepacificfair.com.au/postpartum-hair-loss/): Postpartum hair loss: why shedding starts months after birth, when it usually stops and what to check with a GP. Ask our Broadbeach pharmacists.
 
 ## Notes
 - Information on this site is general in nature and is not a substitute for personal advice from a pharmacist or doctor.

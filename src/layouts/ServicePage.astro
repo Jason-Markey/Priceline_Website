@@ -12,6 +12,7 @@ import ServiceCard from '../components/ServiceCard.astro';
 import { site } from '../data/site';
 import { serviceBySlug, type Service } from '../data/services';
 import { serviceNode, faqNode } from '../lib/schema';
+import { getLiveArticles, slugOf } from '../lib/articles';
 
 export interface Props {
   service: Service;
@@ -49,6 +50,12 @@ const reviewedDate = dateModified ? new Date(dateModified).toLocaleDateString('e
 const url = `${site.url}${path}`;
 const breadcrumbs = [{ name: 'Home', href: '/' }, hub, { name: service.name, href: path }];
 const related = service.related.map(serviceBySlug).filter(Boolean) as Service[];
+// Pharmacist articles that list this service in relatedServices: the service named first counts most, then newest.
+const advice = (await getLiveArticles())
+  .filter((a) => a.data.relatedServices.includes(service.slug))
+  .sort((a, b) => a.data.relatedServices.indexOf(service.slug) - b.data.relatedServices.indexOf(service.slug)
+    || b.data.publishDate.getTime() - a.data.publishDate.getTime())
+  .slice(0, 5);
 const schema = [
   ...(noServiceSchema ? [] : [serviceNode({ url, name: service.name, description: service.short, price: service.price })]),
   ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
@@ -69,6 +76,14 @@ const schema = [
       <div class="glance-mobile"><AtAGlance service={service} bookHref={bookHref} /></div>
       <slot />
       {faqs.length > 0 && <Faq items={faqs} />}
+      {advice.length > 0 && (
+        <section class="advice" aria-labelledby="advice-h">
+          <h2 id="advice-h">Related advice</h2>
+          <ul class="advice__list">
+            {advice.map((a) => <li><a href={`/${slugOf(a)}/`}>{a.data.title}</a></li>)}
+          </ul>
+        </section>
+      )}
       <Nap />
       <p class="disclaimer">{disclaimer}</p>
     </article>
@@ -101,4 +116,8 @@ const schema = [
   .related h2 { font-size: 1.0625rem; margin: var(--s8) 0 var(--s3); }
   .glance-desktop + .related h2 { margin-top: 0; }
   .related__list { display: grid; gap: var(--s3); }
+  .advice { margin-top: var(--s10); }
+  .advice__list { list-style: none; padding: 0; margin: 0; }
+  .advice__list li { padding: var(--s3) 0; border-bottom: 1px solid var(--hairline); }
+  .advice__list li:first-child { border-top: 1px solid var(--hairline); }
 </style>

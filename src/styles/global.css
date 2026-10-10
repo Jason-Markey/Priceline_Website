@@ -181,6 +181,10 @@ th { color: var(--charcoal); background: var(--bg); }
 .prose .lead { font-size: var(--fs-lg); color: var(--charcoal); }
 .prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s5); }
 .prose table th:first-child, .prose table td:first-child { white-space: nowrap; }
+/* Article (markdown) tables are wrapped in .table-wrap.table-wrap--stack at build time (astro.config.mjs): a normal table
+   that can scroll sideways on tablets and desktops, and a stack of cards on phones. */
+.prose .table-wrap table { display: table; overflow: visible; border: 0; border-radius: 0; margin: 0; background: transparent; }
+.prose .table-wrap th:first-child, .prose .table-wrap td:first-child { white-space: normal; min-width: 8rem; }
 
 /* ---------- details / FAQ ---------- */
 .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s3); }

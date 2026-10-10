@@ -1,0 +1,25 @@
+# After a push to main that changes the built site, tell Bing and the other IndexNow search engines which pages changed
+# (Bing's index feeds ChatGPT search, Copilot and DuckDuckGo). The cPanel cron deploys within about 5 minutes of a push,
+# so this waits 7 minutes first. It never fails: see tools/indexnow.py.
+# Pushes made by scheduled-rebuild.yml don't trigger this workflow (GitHub blocks that), so that workflow pings itself.
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+    paths: ['dist/**']
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Wait for the cPanel deploy
+        run: sleep 420
+      - name: Submit changed pages
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then BEFORE=HEAD~1; fi
+          python3 tools/indexnow.py --since "$BEFORE"

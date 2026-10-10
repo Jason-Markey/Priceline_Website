@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getLiveArticles } from '../lib/articles';
 import { site, hoursRows, fmtTime } from '../data/site';
 import { services } from '../data/services';
+import { categories } from '../data/categories';
 
 /** llms.txt: a plain-text map of the site for AI answer engines (https://llmstxt.org). */
 export const GET: APIRoute = async () => {
@@ -49,9 +50,14 @@ export const GET: APIRoute = async () => {
     `- [Common illnesses A–Z](${site.url}/common-illness-information/)`,
     `- [Visiting the Gold Coast](${site.url}/visiting-the-gold-coast/)`,
     `- [Appointments](${site.url}/appointments/)`,
+    `- [Health, beauty and medicines advice hub](${site.url}/health-blog/)`,
     '',
-    '## Health advice articles (pharmacist-reviewed)',
-    ...posts.map((p) => `- [${p.data.title}](${site.url}/${p.id.replace(/\.md$/, '')}/): ${p.data.description}`),
+    '## Advice articles (pharmacist-reviewed), by topic',
+    ...Object.entries(categories).flatMap(([slug, c]) => {
+      const inCat = posts.filter((p) => p.data.category === slug);
+      if (!inCat.length) return [];
+      return ['', `### ${c.name}`, ...inCat.map((p) => `- [${p.data.title}](${site.url}/${p.id.replace(/\.md$/, '')}/): ${p.data.description}`)];
+    }),
     '',
     '## Notes',
     '- Information on this site is general in nature and is not a substitute for personal advice from a pharmacist or doctor.',
