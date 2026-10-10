@@ -85,7 +85,7 @@ If you agree, your pharmacist will send a summary of the consultation to your no
 
 ## How much does it cost?
 
-The pharmacist consultation is a private service, so a consultation fee applies. Ask us for the current fee. The medicine itself is paid for separately. Some types of the pill are listed on the Pharmaceutical Benefits Scheme (PBS), which makes them cheaper to buy. Ask us about costs when you book, so there are no surprises.
+The pharmacist consultation is a private service, so a consultation fee applies. Ask us for the current fee. The medicine itself is paid for separately. Ask us about costs when you book, so there are no surprises.
 
 ## When will the pharmacist refer you to a GP?
 

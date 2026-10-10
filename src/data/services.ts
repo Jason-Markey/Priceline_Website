@@ -223,7 +223,7 @@ export const services: Service[] = [
     atAGlance: {
       what: 'A private consultation with a trained pharmacist who can prescribe the pill, vaginal ring or contraceptive injection under the Queensland pharmacy service.',
       who: 'Women aged 16 and over who want to start, restart, change or continue their contraception.',
-      cost: '$35 consultation. Your contraception is charged separately; many types are on the PBS.',
+      cost: '$35 consultation. Your contraception is charged separately; ask us about the cost of your option.',
       time: '10 to 20 minutes.',
       booking: 'Please call first; trained pharmacists are usually available Monday to Friday.',
       howToBook: 'Call us to book.',

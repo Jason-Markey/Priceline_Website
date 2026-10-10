@@ -4,7 +4,7 @@ description: "Mouth ulcer treatment: saltwater rinses, soft foods (skip the salt
 seoTitle: "Mouth ulcer treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
-category: health-advice
+category: dental-oral-care
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: []

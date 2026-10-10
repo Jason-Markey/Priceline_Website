@@ -4,7 +4,7 @@ description: "Dandruff treatment explained: causes, medicated shampoos, home tip
 seoTitle: "Dandruff treatment Q&A | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
-category: health-advice
+category: haircare
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["skin-care"]

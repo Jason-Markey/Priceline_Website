@@ -55,6 +55,7 @@ export const primaryNav: NavGroup[] = [
     items: [
       { label: 'Health advice', href: '/category/health-advice/' },
       { label: 'Skincare & beauty', href: '/category/skincare-beauty/' },
+      { label: 'Baby & child', href: '/category/baby-child/' },
       { label: 'Common illnesses A–Z', href: '/common-illness-information/' },
       { label: 'FAQs', href: '/frequently-asked-questions/' },
       { label: 'Visiting the Gold Coast?', href: '/visiting-the-gold-coast/' },

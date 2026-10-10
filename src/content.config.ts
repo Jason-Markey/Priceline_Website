@@ -13,7 +13,7 @@ const articles = defineCollection({
     seoTitle: z.string().optional(),
     publishDate: z.coerce.date(),
     modifiedDate: z.coerce.date(),
-    category: z.enum(['health-advice', 'skincare-beauty', 'local-guides', 'prescriptions', 'vaccinations', 'travel']),
+    category: z.enum(['health-advice', 'skincare-beauty', 'local-guides', 'prescriptions', 'vaccinations', 'travel', 'vitamins-supplements', 'dental-oral-care', 'baby-child', 'haircare']),
     author: z.string().default('Priceline Pharmacy Pacific Fair team'),
     reviewer: z.string().default('Jason Markey'),
     tags: z.array(z.string()).default([]),
