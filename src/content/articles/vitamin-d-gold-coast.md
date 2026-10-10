@@ -102,7 +102,7 @@ Not on its own. healthdirect says most people can't get enough vitamin D from fo
 
 ## How our pharmacists can help
 
-At Pacific Fair, our pharmacists can help you work out whether you're in a higher-risk group, explain what the IU numbers on a label mean, and check a vitamin D supplement against your other medicines before you buy. Learn more about our [vitamins and supplements advice](/vitamins-supplements/), or [browse the vitamins and supplements range on priceline.com.au](https://www.priceline.com.au/c/vitamins-supplements) and ask our team in store.
+At Pacific Fair, our pharmacists can help you work out whether you're in a higher-risk group, explain what the IU numbers on a label mean, and check a vitamin D supplement against your other medicines before you buy. Our guide to [supplements that can interact with your medicines](/supplements-that-interact-with-medicines/) explains why that matters. Learn more about our [vitamins and supplements advice](/vitamins-supplements/), or [browse the vitamins and supplements range on priceline.com.au](https://www.priceline.com.au/c/vitamins-supplements) and ask our team in store.
 
 ## When to see a pharmacist or GP
 

@@ -2,8 +2,8 @@
 title: "60-day prescriptions: which medicines, who can get them and what you save"
 description: "60 day prescriptions explained: who can get one, which PBS medicines qualify and what you save at the 2026 co-payment. Ask our Broadbeach pharmacists."
 seoTitle: "60-day prescriptions explained | Priceline Pacific Fair"
-publishDate: 2026-10-19
-modifiedDate: 2026-10-19
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -65,7 +65,7 @@ Here's what that means for one eligible medicine taken every day for a year:
 | General patient | $300.00 | $150.00 | $150.00 |
 | Concession card holder | $92.40 | $46.20 | $46.20 |
 
-If you take two or three eligible medicines, the savings multiply. These figures are maximums: Services Australia describes the co-payment as the most you pay per medicine ("up to $25.00" for general patients), so if a medicine costs less than that, your saving will be smaller. If you choose a brand that carries a brand price premium, healthdirect notes you may need to pay that on top.
+If you take two or three eligible medicines, the savings multiply. These figures are maximums: Services Australia describes the co-payment as the most you pay per medicine ("up to $25.00" for general patients), so if a medicine costs less than that, your saving will be smaller. If you choose a brand that carries a brand price premium, healthdirect notes you may need to pay that on top. Our guide to [generic vs brand-name medicines](/generic-vs-brand-medicines/) explains how to avoid it.
 
 ## How do repeats, eScripts and the Safety Net work?
 
@@ -79,7 +79,7 @@ With twice as much medicine at home, store it as the label directs and out of re
 
 Because you pay fewer co-payments, the Department of Health says you or your family may reach the PBS Safety Net later in the year, or not at all. In 2026 the thresholds are $1,748.20 for general patients and $277.20 for concession card holders, according to Services Australia.
 
-Timing matters too. healthdirect describes a "20-day and 50-day rule": if you have a prescription dispensed more than 10 days early, the payment may not count towards your Safety Net threshold. It's best to fill repeats when you're running low, not well ahead of time.
+Timing matters too. healthdirect describes a "20-day and 50-day rule": if you have a prescription dispensed more than 10 days early, the payment may not count towards your Safety Net threshold. It's best to fill repeats when you're running low, not well ahead of time. Our [PBS Safety Net guide](/pbs-safety-net-explained/) explains the thresholds and how to track your spending.
 
 ## What should you ask your GP?
 

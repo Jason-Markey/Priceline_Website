@@ -91,7 +91,7 @@ A handful of nuts and seeds on your breakfast or in a beach bag goes a long way.
 - **some antibiotics** (the tetracycline and quinolone groups): take the antibiotic at least 2 hours before, or 4 to 6 hours after, a magnesium supplement
 - **some osteoporosis medicines** (bisphosphonates): separate them from magnesium by at least 2 hours
 
-If you take thyroid medicine or any other regular medicine, ask your pharmacist how to time a magnesium supplement around it. Don't change how you take a prescribed medicine without advice.
+If you take thyroid medicine or any other regular medicine, ask your pharmacist how to time a magnesium supplement around it. Don't change how you take a prescribed medicine without advice. For other common combinations to watch, see [supplements that can interact with your medicines](/supplements-that-interact-with-medicines/).
 
 ## How our pharmacists can help
 

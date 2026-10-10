@@ -2,8 +2,8 @@
 title: "Retinol for beginners: how to start without irritation"
 description: "Retinol for beginners: how much to use, how often, what not to mix, irritation vs purging, daily SPF and pregnancy advice. Ask our Pacific Fair team."
 seoTitle: "Retinol for beginners | Priceline Pacific Fair"
-publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -87,6 +87,8 @@ While your skin gets used to retinol, keep everything else gentle.
 - **Acne treatments.** If you already use pharmacy acne products or a prescription cream, ask your pharmacist or GP before adding retinol. Our guide to [acne treatment at the pharmacy](/acne-treatment-pharmacy/) explains the options.
 - **Vitamin C.** Keep it separate while you're starting out. One simple option is vitamin C in the morning and retinol at night.
 - **Salon treatments.** Tell your beauty therapist you're using retinol before facial waxing, peels or other treatments.
+
+Our guide to [skincare routine order](/skincare-routine-order/) shows where retinol fits in a full morning and night routine.
 
 ## Can you use retinol when pregnant or breastfeeding?
 

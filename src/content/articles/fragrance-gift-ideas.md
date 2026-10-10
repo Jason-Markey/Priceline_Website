@@ -2,8 +2,8 @@
 title: "Fragrance gift ideas from our beauty advisors"
 description: "Fragrance gift ideas from our Pacific Fair beauty advisors: scent families, EDT vs EDP, testing tips and how Gold Coast heat and humidity change fragrance."
 seoTitle: "Fragrance gift ideas | Priceline Pacific Fair"
-publishDate: 2026-11-16
-modifiedDate: 2026-11-16
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

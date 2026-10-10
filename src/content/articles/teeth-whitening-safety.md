@@ -2,8 +2,8 @@
 title: "Teeth whitening strips and kits: are they safe?"
 description: "Are teeth whitening strips and kits safe? Australia's peroxide limits, side effects and who should see a dentist first. Ask our Broadbeach team."
 seoTitle: "Are teeth whitening kits safe? | Priceline Pacific Fair"
-publishDate: 2026-11-16
-modifiedDate: 2026-11-16
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: dental-oral-care
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

@@ -2,8 +2,8 @@
 title: "Threadworms: how to treat the whole family and stop reinfection"
 description: "Threadworm treatment: why the whole household is treated at once, when to repeat the dose and hygiene steps to stop reinfection. Ask our Broadbeach team."
 seoTitle: "Threadworm treatment for families | Priceline Pacific Fair"
-publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: baby-child
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

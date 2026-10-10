@@ -115,7 +115,7 @@ healthdirect also suggests checking with your dental practitioner about low fluo
 
 ## How can our team help?
 
-At Priceline Pacific Fair you'll find electric and manual toothbrushes in our [dental and personal care range](/beauty-fragrance/), and our team can help you compare timers, pressure sensors and brush heads. If you have braces or gum problems, ask your dentist which type they suggest before you buy. And if your mouth often feels dry, have a read of our guide to [dry mouth causes and relief](/dry-mouth-causes-relief/).
+At Priceline Pacific Fair you'll find electric and manual toothbrushes in our [dental and personal care range](/beauty-fragrance/), and our team can help you compare timers, pressure sensors and brush heads. If you have braces or gum problems, ask your dentist which type they suggest before you buy. And if your mouth often feels dry, have a read of our guide to [dry mouth causes and relief](/dry-mouth-causes-relief/). Thinking about whitening? Read [teeth whitening strips and kits: are they safe?](/teeth-whitening-safety/) first.
 
 ## When to see a pharmacist or GP
 

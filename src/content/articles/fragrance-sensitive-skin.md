@@ -2,8 +2,8 @@
 title: "Fragrance and sensitive skin: allergies, sun reactions and wearing scent"
 description: "Fragrance and sensitive skin: signs of perfume allergy, patch testing, fragrance-free vs unscented, sun reactions and asthma. Ask our Broadbeach pharmacists."
 seoTitle: "Fragrance and sensitive skin | Priceline Pacific Fair"
-publishDate: 2026-11-23
-modifiedDate: 2026-11-23
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

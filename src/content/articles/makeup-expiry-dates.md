@@ -2,8 +2,8 @@
 title: "Does makeup expire? How long mascara, foundation and lipstick last"
 description: "Does makeup expire? How long mascara, foundation and lipstick last, the open-jar symbol, and storing makeup in Queensland heat. Ask our Broadbeach team."
 seoTitle: "Does makeup expire? | Priceline Pacific Fair"
-publishDate: 2026-11-02
-modifiedDate: 2026-11-02
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

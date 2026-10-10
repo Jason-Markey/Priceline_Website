@@ -2,8 +2,8 @@
 title: "Mineral vs chemical sunscreen: which is right for your skin?"
 description: "Mineral vs chemical sunscreen: how each works, which suits sensitive skin, acne, rosacea and kids, and what the TGA says on safety. Ask us in Broadbeach."
 seoTitle: "Mineral vs chemical sunscreen | Priceline Pacific Fair"
-publishDate: 2026-10-19
-modifiedDate: 2026-10-19
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

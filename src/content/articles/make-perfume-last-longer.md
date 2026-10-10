@@ -93,11 +93,11 @@ It belongs to a group of reactions called phytophotodermatitis, caused by natura
 
 DermNet also lists photosensitising ingredients in cosmetics and toiletries, especially perfumes, among the causes of poikiloderma of Civatte, a long-term change in skin colour on the sun-exposed sides of the neck, where long-term sun exposure is a main contributing factor.
 
-The simple fix: before a day outdoors, spray fragrance onto skin that will be covered, or onto clothing, rather than your neck and chest. If you're already dealing with patchy brown marks, read our guide to [pigmentation and melasma in Queensland](/pigmentation-melasma-queensland/).
+The simple fix: before a day outdoors, spray fragrance onto skin that will be covered, or onto clothing, rather than your neck and chest. If you're already dealing with patchy brown marks, read our guide to [pigmentation and melasma in Queensland](/pigmentation-melasma-queensland/). If fragrance tends to irritate your skin, see [fragrance and sensitive skin](/fragrance-sensitive-skin/).
 
 ## How our team can help
 
-Our beauty advisors can help you choose a concentration and style that suits our climate, find lighter options for summer days, and compare a few scents on testing strips before you commit. Pop in to see the fragrance range at Pacific Fair, ask about [makeup and fragrance advice](/beauty-fragrance/), or browse the [fragrance range on priceline.com.au](https://www.priceline.com.au/c/fragrances).
+Our beauty advisors can help you choose a concentration and style that suits our climate, find lighter options for summer days, and compare a few scents on testing strips before you commit. Pop in to see the fragrance range at Pacific Fair, ask about [makeup and fragrance advice](/beauty-fragrance/), or browse the [fragrance range on priceline.com.au](https://www.priceline.com.au/c/fragrances). Buying for someone else? Our [fragrance gift ideas](/fragrance-gift-ideas/) can help.
 
 ## When to see a pharmacist or GP
 

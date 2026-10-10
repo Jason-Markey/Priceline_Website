@@ -73,7 +73,7 @@ DermNet and the AJGP review list a range of ingredients used for pigmentation, a
 - **Niacinamide** (a form of vitamin B3) is on DermNet's list of topical options for post-inflammatory marks.
 - **Vitamin C** (ascorbic acid) appears on both lists. The AJGP review describes it as well tolerated but highly unstable, so keep the lid on and store it as directed.
 - **Azelaic acid** is included by both DermNet and the AJGP review, and is available in some skincare products.
-- **Retinol** belongs to the retinoid family, which DermNet lists among pigmentation treatments at prescription strength. Cosmetic retinol may help improve the appearance of uneven tone, but it can irritate, and inflamed skin is what leaves marks in the first place, so start slowly.
+- **Retinol** belongs to the retinoid family, which DermNet lists among pigmentation treatments at prescription strength. Cosmetic retinol may help improve the appearance of uneven tone, but it can irritate, and inflamed skin is what leaves marks in the first place, so start slowly. Our [retinol for beginners](/retinol-for-beginners/) guide explains how.
 
 A few tips:
 

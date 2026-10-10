@@ -2,8 +2,8 @@
 title: "Skincare routine order: what goes on first (and what not to mix)"
 description: "Skincare routine order for morning and night: where sunscreen goes, vitamin C with niacinamide, what not to mix and patch testing. Ask our Broadbeach team."
 seoTitle: "Skincare routine order | Priceline Pacific Fair"
-publishDate: 2026-11-16
-modifiedDate: 2026-11-16
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

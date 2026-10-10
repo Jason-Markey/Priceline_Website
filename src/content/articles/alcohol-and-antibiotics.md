@@ -2,8 +2,8 @@
 title: "Can you drink alcohol while taking antibiotics?"
 description: "Can you drink alcohol while taking antibiotics? Which ones react, why alcohol slows recovery and what warning labels mean. Ask our Broadbeach pharmacists."
 seoTitle: "Alcohol and antibiotics | Priceline Pacific Fair"
-publishDate: 2026-11-30
-modifiedDate: 2026-11-30
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

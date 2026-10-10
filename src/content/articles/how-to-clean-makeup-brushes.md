@@ -2,8 +2,8 @@
 title: "How often should you clean makeup brushes and sponges?"
 description: "How often should you clean makeup brushes and sponges? Step-by-step washing and drying, plus when to replace your tools. Ask our Pacific Fair beauty team."
 seoTitle: "How to clean makeup brushes | Priceline Pacific Fair"
-publishDate: 2026-11-09
-modifiedDate: 2026-11-09
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

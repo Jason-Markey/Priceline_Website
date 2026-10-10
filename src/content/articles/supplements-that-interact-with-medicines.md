@@ -2,8 +2,8 @@
 title: "Supplements that can interact with your medicines"
 description: "Supplements that can interact with your medicines, from St John's wort to vitamin K and minerals, and how a medication review helps. Ask our Broadbeach team."
 seoTitle: "Supplements and your medicines | Priceline Pacific Fair"
-publishDate: 2026-11-09
-modifiedDate: 2026-11-09
+publishDate: 2026-10-10
+modifiedDate: 2026-10-10
 category: vitamins-supplements
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"

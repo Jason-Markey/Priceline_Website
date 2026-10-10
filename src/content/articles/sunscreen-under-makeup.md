@@ -82,6 +82,7 @@ In a sticky Gold Coast summer, the sunscreen you're happy to wear every day is t
 - **Sensitive skin?** Cancer Council suggests fragrance-free and paraben-free products.
 - **Check the label.** Cancer Council recommends SPF50 or SPF50+, broad spectrum and water-resistant. A sunscreen is only water-resistant for the time stated on the label, so keep reapplying. Wondering whether the jump from SPF30 matters? See [SPF30 vs SPF50](/spf30-vs-spf50/).
 - **Tinted products.** If you like a tint, check whether it's a primary sunscreen with an AUST L number or a tinted foundation with SPF, which is a cosmetic.
+- **Mineral or chemical?** Both work well under makeup. Our guide to [mineral vs chemical sunscreen](/mineral-vs-chemical-sunscreen/) explains the difference.
 - **Keep it cool.** Cancer Council says to store sunscreen below 30°C in a cool, dark place, and ideally not in a car on a hot day.
 
 Sunscreen is one part of sun protection. Whenever the UV index is 3 or above, pair it with clothing, a broad-brimmed hat, shade and sunglasses: slip, slop, slap, seek and slide. Our [Gold Coast sun safety guide](/sun-safety-gold-coast/) has more. If you're working on uneven skin tone, consistent sun protection is part of the plan, and our guide to [pigmentation and melasma in Queensland](/pigmentation-melasma-queensland/) explains why.

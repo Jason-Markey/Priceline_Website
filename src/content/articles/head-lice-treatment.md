@@ -89,7 +89,7 @@ Not in Queensland, as long as treatment has started. Queensland Health's Time ou
 
 ## How our pharmacists can help
 
-Our pharmacists can help you choose a product that suits your child's age, check what's suitable if you're pregnant or breastfeeding, and suggest what to try next if a treatment hasn't worked. You can browse the [head lice treatments on priceline.com.au](https://www.priceline.com.au/c/head-lice-treatments), or [talk to our pharmacists at Pacific Fair](/pharmacy-services/) before you buy.
+Our pharmacists can help you choose a product that suits your child's age, check what's suitable if you're pregnant or breastfeeding, and suggest what to try next if a treatment hasn't worked. You can browse the [head lice treatments on priceline.com.au](https://www.priceline.com.au/c/head-lice-treatments), or [talk to our pharmacists at Pacific Fair](/pharmacy-services/) before you buy. Itchy bottom rather than an itchy head? Our [threadworms guide](/threadworms-treatment/) explains how to treat the whole family.
 
 ## When to see a pharmacist or GP
 

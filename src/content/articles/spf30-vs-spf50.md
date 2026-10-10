@@ -88,7 +88,7 @@ Sunscreen is also only one part of sun protection. When the UV Index is 3 or abo
 
 Choosing between SPF30 and SPF50+ is the easy part. Finding a texture you'll want to wear every day is harder, especially in a humid Gold Coast summer. Our beauty advisors can help you compare light fluids, gels, lotions and tinted options through our [skincare and sun care advice](/skincare-tanning/), and our pharmacists can help if you have sensitive skin or you're buying for children.
 
-You can [browse the sun protection range on priceline.com.au](https://www.priceline.com.au/c/sun-protection) or ask us in store at Pacific Fair. If you've already had too much sun, our guide to [sunburn treatment](/sunburn-treatment/) explains what to do next.
+You can [browse the sun protection range on priceline.com.au](https://www.priceline.com.au/c/sun-protection) or ask us in store at Pacific Fair. If you've already had too much sun, our guide to [sunburn treatment](/sunburn-treatment/) explains what to do next. For help choosing a formula, see our [sunscreen buyer's checklist](/best-sunscreen-gold-coast/) and our guide to [mineral vs chemical sunscreen](/mineral-vs-chemical-sunscreen/).
 
 ## When to see a pharmacist or GP
 
