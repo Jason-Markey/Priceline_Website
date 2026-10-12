@@ -4,7 +4,6 @@ import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
 import { pharmacyTeam } from '../data/team';
 import jason from '../assets/images/jason-pharmacist-portrait.jpg';
-import dispensary from '../assets/images/jason-dispensary-counter.jpg';
 import helping from '../assets/images/jason-helping-customer.jpg';
 
 const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
@@ -31,7 +30,7 @@ const faqs = [
   showNap
   pageType="AboutPage"
   ogImage={jason}
-  dateModified="2026-10-07"
+  dateModified="2026-10-12"
 >
   <p>Being locally owned means we can shape our services around the people we see every day: Gold Coast locals, families, workers and the many visitors who pass through Pacific Fair. If you have a question, just ask; no appointment is needed to speak with a pharmacist.</p>
   <div class="btn-row">
@@ -62,8 +61,6 @@ const faqs = [
       </div>
     ))}
   </div>
-
-  <Image src={dispensary} alt="Jason Markey at the dispensary counter of Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
 
   <h2>Part of Pacific Fair, part of Broadbeach</h2>
   <p>We’ve been part of Pacific Fair since the store opened in August 2009, and we work alongside the other health services in the centre and across Broadbeach. Whether you live locally or you’re here on holiday, you’ll get the same care: a pharmacist who listens, honest advice, and help finding what you need.</p>
