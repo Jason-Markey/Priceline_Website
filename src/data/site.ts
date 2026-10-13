@@ -168,8 +168,73 @@ export const dayNames: Record<DayKey, string> = {
 };
 export const dayOrder: DayKey[] = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 
-/** "17:30" -> "5:30pm" */
+/* ---------- one-off trading days ---------- */
+
+export type SpecialDay = { date: string; note?: string; hours: { open: string; close: string } | null };
+
+/**
+ * Christmas and New Year 2026: Pacific Fair's extended trading hours (centre memo, 8 Oct 2026), which Jason
+ * confirmed the store will trade in full (13 Oct 2026). Weekdays keep the usual 8am start; public holidays use
+ * the centre's hours. "24:00" = midnight; hours: null = closed. Dates are Brisbane dates (YYYY-MM-DD).
+ * Past dates drop off the site automatically at the next build.
+ */
+export const specialHours: SpecialDay[] = [
+  { date: '2026-11-27', note: 'Black Friday', hours: { open: '08:00', close: '19:00' } },
+  { date: '2026-12-18', hours: { open: '08:00', close: '19:00' } },
+  { date: '2026-12-19', hours: { open: '09:00', close: '19:00' } },
+  { date: '2026-12-20', hours: { open: '09:00', close: '18:00' } },
+  { date: '2026-12-21', hours: { open: '08:00', close: '21:00' } },
+  { date: '2026-12-22', hours: { open: '08:00', close: '21:00' } },
+  { date: '2026-12-23', hours: { open: '08:00', close: '24:00' } },
+  { date: '2026-12-24', note: 'Christmas Eve', hours: { open: '08:00', close: '18:00' } },
+  { date: '2026-12-25', note: 'Christmas Day', hours: null },
+  { date: '2026-12-26', note: 'Boxing Day', hours: { open: '08:00', close: '18:00' } },
+  { date: '2026-12-27', hours: { open: '09:00', close: '18:00' } },
+  { date: '2026-12-28', note: 'public holiday', hours: { open: '10:00', close: '17:00' } },
+  { date: '2026-12-29', hours: { open: '08:00', close: '17:30' } },
+  { date: '2026-12-30', hours: { open: '08:00', close: '17:30' } },
+  { date: '2026-12-31', note: 'New Year’s Eve', hours: { open: '08:00', close: '21:00' } },
+  { date: '2027-01-01', note: 'New Year’s Day', hours: { open: '10:00', close: '17:00' } },
+];
+
+/** Today's date in Brisbane, "YYYY-MM-DD" */
+export function brisbaneDate(d: Date = new Date()): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Australia/Brisbane', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+}
+
+/** Special trading days from today on (Brisbane), so a page built during the season only lists what's ahead */
+export function upcomingSpecialHours(now: Date = new Date()): SpecialDay[] {
+  const today = brisbaneDate(now);
+  return specialHours.filter((s) => s.date >= today);
+}
+
+/** "2026-11-27" -> "Fri 27 Nov" (or "Friday 27 November" with long) */
+export function fmtDay(date: string, long = false): string {
+  const [y, m, d] = date.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d))
+    .toLocaleDateString('en-AU', { weekday: long ? 'long' : 'short', day: 'numeric', month: long ? 'long' : 'short', timeZone: 'UTC' })
+    .replace(',', '');
+}
+
+/** Rows for an hours card: "Fri 27 Nov (Black Friday)" / "8am – 7pm" */
+export function specialRows(days: SpecialDay[]): { label: string; value: string }[] {
+  return days.map((s) => ({ label: `${fmtDay(s.date)}${s.note ? ` (${s.note})` : ''}`, value: fmtRange(s.hours) }));
+}
+
+/** schema.org specialOpeningHoursSpecification (closed = 00:00–00:00; midnight close = 23:59) */
+export function specialOpeningHoursSpec(days: SpecialDay[]) {
+  return days.map((s) => ({
+    '@type': 'OpeningHoursSpecification',
+    validFrom: s.date,
+    validThrough: s.date,
+    opens: s.hours ? s.hours.open : '00:00',
+    closes: s.hours ? (s.hours.close === '24:00' ? '23:59' : s.hours.close) : '00:00',
+  }));
+}
+
+/** "17:30" -> "5:30pm"; "24:00" -> "midnight" */
 export function fmtTime(t: string): string {
+  if (t === '24:00') return 'midnight';
   const [h, m] = t.split(':').map(Number);
   const suffix = h >= 12 ? 'pm' : 'am';
   const hh = h % 12 === 0 ? 12 : h % 12;

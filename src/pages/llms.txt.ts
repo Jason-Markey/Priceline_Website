@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getLiveArticles } from '../lib/articles';
-import { site, hoursRows, fmtTime } from '../data/site';
+import { site, hoursRows, fmtTime, upcomingSpecialHours, specialRows } from '../data/site';
 import { services } from '../data/services';
 import { categories } from '../data/categories';
 
@@ -11,6 +11,7 @@ export const GET: APIRoute = async () => {
   const hm = hoursRows(site.helpMedical.hours).map((r) => `${r.label}: ${r.value}`).join('; ');
   const today = new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
   const svc = (slug: string) => services.find((s) => s.slug === slug)!;
+  const xmas = upcomingSpecialHours();
   const lines = [
     `# ${site.name}`,
     '',
@@ -35,6 +36,7 @@ export const GET: APIRoute = async () => {
     `- Phone: ${site.phone}`,
     `- Email: ${site.emailGeneral} (general), ${site.emailPharmacy} (prescriptions)`,
     `- Opening hours: ${hours}. Public holiday hours are published on the Google Business Profile.`,
+    ...(xmas.length ? [`- Christmas and New Year hours: ${specialRows(xmas).map((r) => `${r.label} ${r.value}`).join('; ')}.`] : []),
     `- Owner and pharmacist: ${site.reviewer.name}, ${site.reviewer.credentials}. Independently owned Priceline Pharmacy franchise store, opened 2009.`,
     `- Book online: ${site.links.book}`,
     `- Help Medical (independent general practice inside the store): ${site.helpMedical.phone}, website ${site.helpMedical.websiteUrl}, online bookings ${site.helpMedical.bookingUrl}. Hours: ${hm}.`,

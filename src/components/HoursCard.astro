@@ -1,12 +1,13 @@
 ---
 import { hoursRows, type Hours } from '../data/site';
-export interface Props { heading: string; hours: Hours; note?: string; }
-const { heading, hours, note } = Astro.props;
-const rows = hoursRows(hours);
+/** Weekly hours (`hours`), or ready-made rows such as Christmas dates (`rows`). */
+export interface Props { heading: string; hours?: Hours; rows?: { label: string; value: string }[]; note?: string; id?: string; }
+const { heading, hours, rows, note, id } = Astro.props;
+const list = rows ?? (hours ? hoursRows(hours) : []);
 ---
-<div class="hours card">
+<div class="hours card" id={id}>
   <h3>{heading}</h3>
-  <dl>{rows.map((r) => <div><dt>{r.label}</dt><dd>{r.value}</dd></div>)}</dl>
+  <dl>{list.map((r) => <div><dt>{r.label}</dt><dd>{r.value}</dd></div>)}</dl>
   {note && <p class="hours__note">{note}</p>}
 </div>
 <style>

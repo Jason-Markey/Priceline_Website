@@ -3,7 +3,7 @@
  * and page types add Service / FAQPage / Article / MedicalClinic.
  * Nothing here is invented: every value comes from src/data/site.ts or the page itself.
  */
-import { site, openingHoursSpec } from '../data/site';
+import { site, openingHoursSpec, specialOpeningHoursSpec, upcomingSpecialHours } from '../data/site';
 import { services } from '../data/services';
 
 export const ID = {
@@ -55,6 +55,8 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
       { '@type': 'City', name: 'Gold Coast' },
     ],
     openingHoursSpecification: openingHoursSpec(site.hours),
+    // Christmas and New Year trading days still ahead at build time (left out once they've all passed)
+    specialOpeningHoursSpecification: upcomingSpecialHours().length ? specialOpeningHoursSpec(upcomingSpecialHours()) : undefined,
     parentOrganization: { '@type': 'Organization', name: 'Priceline Pharmacy', url: site.links.pricelineNational },
     brand: { '@type': 'Brand', name: 'Priceline Pharmacy' },
     employee: { '@id': ID.owner },

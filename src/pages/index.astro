@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import HoursCard from '../components/HoursCard.astro';
-import { site } from '../data/site';
+import { site, upcomingSpecialHours, fmtDay } from '../data/site';
 import { serviceBySlug } from '../data/services';
 import { faqNode } from '../lib/schema';
 import jason from '../assets/images/jason-cutout.png';
@@ -19,6 +19,10 @@ import icoPassport from '../assets/icons/passport-photos.png';
 import icoUti from '../assets/icons/uti-treatment.png';
 import icoPill from '../assets/icons/hormonal-contraceptive-pill.png';
 import icoCollect from '../assets/icons/click-and-collect.png';
+
+// Christmas and New Year trading still ahead: a one-line pointer under the hours cards
+const xmas = upcomingSpecialHours();
+const lateNight = xmas.find((s) => s.hours?.close === '24:00');
 
 const title = 'Priceline Pharmacy Pacific Fair | Broadbeach Chemist, 7 Days';
 const description =
@@ -118,6 +122,11 @@ const faqs = [
         <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note={site.hoursNote} />
         <HoursCard heading="Help Medical hours" hours={site.helpMedical.hours} note="An independent general practice located inside our store. Bookings at helpmedical.au." />
       </div>
+      {xmas.length > 0 && (
+        <p class="xmas-note">
+          {lateNight ? `Open late for Christmas, until midnight on ${fmtDay(lateNight.date)}. ` : ''}<a href="/visit-us/#christmas-hours">See all Christmas hours</a>
+        </p>
+      )}
     </div>
   </section>
 
@@ -283,6 +292,7 @@ const faqs = [
 
   /* Hours */
   .hours-grid { display: grid; gap: var(--s5); max-width: 820px; margin-inline: auto; }
+  .xmas-note { text-align: center; margin: var(--s5) auto 0; max-width: 820px; }
   @media (min-width: 700px) { .hours-grid { grid-template-columns: 1fr 1fr; } }
 
   /* Service tiles: cards on desktop, compact rows on phones */

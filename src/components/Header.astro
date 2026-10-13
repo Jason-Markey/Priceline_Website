@@ -1,17 +1,23 @@
 ---
 import { Image } from 'astro:assets';
 import logo from '../assets/images/logo-priceline-pacific-fair.png';
-import { site, fmtTime, dayOrder, type DayKey } from '../data/site';
+import { site, fmtTime, dayOrder, brisbaneDate, upcomingSpecialHours, type DayKey } from '../data/site';
 import { primaryNav } from '../data/navigation';
 
 // Today's hours for the utility strip. Rendered at build time; a tiny inline script
 // corrects it for the visitor's actual day (and does nothing if JS is off).
-const todayIdx = (new Date().getUTCDay() + 6) % 7; // Mon=0
+// One-off days (Christmas and New Year) override the weekly hours on their date.
+const specials = upcomingSpecialHours();
+const todayIdx = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].indexOf(
+  new Intl.DateTimeFormat('en-AU', { weekday: 'short', timeZone: 'Australia/Brisbane' }).format(new Date()).slice(0, 3),
+);
 const todayKey = dayOrder[todayIdx] as DayKey;
-const today = site.hours[todayKey];
+const todaySpecial = specials.find((s) => s.date === brisbaneDate());
+const today = todaySpecial ? todaySpecial.hours : site.hours[todayKey];
 const todayText = today ? `Open today ${fmtTime(today.open)} – ${fmtTime(today.close)}` : 'Closed today';
-// Raw 24h times per day (Mon..Sun); the script formats and works out open/closed state.
+// Raw 24h times per day (Mon..Sun) and per special date; the script formats and works out open/closed state.
 const hoursJson = JSON.stringify(dayOrder.map((d) => (site.hours[d] ? [site.hours[d]!.open, site.hours[d]!.close] : null)));
+const specialJson = JSON.stringify(Object.fromEntries(specials.map((s) => [s.date, s.hours ? [s.hours.open, s.hours.close] : null])));
 const { pathname } = Astro.url;
 const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 ---
@@ -20,7 +26,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
 
 <aside class="strip" aria-label="Today's hours and contact" data-pagefind-ignore>
   <div class="container strip__inner">
-    <span class="strip__hours" id="today-hours" data-hours={hoursJson}>{todayText}</span>
+    <span class="strip__hours" id="today-hours" data-hours={hoursJson} data-special={specialJson}>{todayText}</span>
     <span class="strip__sep" aria-hidden="true">·</span>
     <a class="strip__phone" href={site.phoneHref}>{site.phone}</a>
     <span class="strip__sep strip__addr" aria-hidden="true">·</span>
@@ -112,21 +118,28 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
   if (el) {
     try {
       const hours: ([string, string] | null)[] = JSON.parse(el.dataset.hours || '[]');
+      // One-off days ("YYYY-MM-DD" -> [open, close] or null when closed) override the weekly hours.
+      const special: Record<string, [string, string] | null> = JSON.parse(el.dataset.special || '{}');
       const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
       const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-      const parts = new Intl.DateTimeFormat('en-AU', { weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'Australia/Brisbane' }).formatToParts(new Date());
+      const parts = new Intl.DateTimeFormat('en-AU', { weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit', hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'Australia/Brisbane' }).formatToParts(new Date());
       const get = (t: string) => parts.find((x) => x.type === t)?.value || '';
       const idx = days.indexOf(get('weekday').slice(0, 3));
+      const base = Date.UTC(Number(get('year')), Number(get('month')) - 1, Number(get('day')));
+      const hoursOn = (i: number) => {
+        const key = new Date(base + i * 86400000).toISOString().slice(0, 10);
+        return key in special ? special[key] : hours[(idx + i) % 7];
+      };
       const mins = (t: string) => { const [h, m] = t.split(':').map(Number); return h * 60 + m; };
-      const fmt = (t: string) => { const [h, m] = t.split(':').map(Number); const hh = h % 12 || 12; const sfx = h >= 12 ? 'pm' : 'am'; return m ? `${hh}:${String(m).padStart(2, '0')}${sfx}` : `${hh}${sfx}`; };
+      const fmt = (t: string) => { if (t === '24:00') return 'midnight'; const [h, m] = t.split(':').map(Number); const hh = h % 12 || 12; const sfx = h >= 12 ? 'pm' : 'am'; return m ? `${hh}:${String(m).padStart(2, '0')}${sfx}` : `${hh}${sfx}`; };
       const now = (Number(get('hour')) % 24) * 60 + Number(get('minute'));
-      const today = idx >= 0 ? hours[idx] : null;
+      const today = idx >= 0 ? hoursOn(0) : null;
       let text = '';
       if (today && now < mins(today[0])) text = `Opens ${fmt(today[0])}`;
       else if (today && now < mins(today[1])) text = `Open now · closes ${fmt(today[1])}`;
-      else {
+      else if (idx >= 0) {
         for (let i = 1; i <= 7; i++) {
-          const n = hours[(idx + i) % 7];
+          const n = hoursOn(i);
           if (n) { text = `Closed · opens ${fmt(n[0])} ${i === 1 ? 'tomorrow' : dayNames[(idx + i) % 7]}`; break; }
         }
       }
