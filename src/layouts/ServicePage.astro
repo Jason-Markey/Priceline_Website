@@ -89,7 +89,7 @@ const schema = [
     </article>
     <aside class="svc-side">
       <div class="svc-side__sticky">
-        <div class="glance-desktop"><AtAGlance service={service} bookHref={bookHref} /></div>
+        <div class="glance-desktop" id="glance-slot"></div>
         {related.length > 0 && (
           <section class="related" aria-labelledby="related-h">
             <h2 id="related-h">Related services</h2>
@@ -99,6 +99,20 @@ const schema = [
       </div>
     </aside>
   </div>
+  <script is:inline>
+    // "At a glance" is in the page once (after the buttons). On wide screens it moves into the sidebar,
+    // so people see it in the same places as before while search engines and AI tools read it once.
+    (function () {
+      var slot = document.getElementById('glance-slot');
+      var home = document.querySelector('.glance-mobile');
+      var box = home && home.querySelector('.glance');
+      if (!slot || !box || !window.matchMedia) return;
+      var mq = window.matchMedia('(min-width: 1024px)');
+      function place() { var to = mq.matches ? slot : home; if (box.parentNode !== to) to.appendChild(box); }
+      place();
+      if (mq.addEventListener) mq.addEventListener('change', place); else if (mq.addListener) mq.addListener(place);
+    })();
+  </script>
 </Base>
 
 <style>
@@ -109,7 +123,6 @@ const schema = [
   /* Desktop: the whole sidebar (At a glance + Related) sticks and scrolls within the viewport if taller than it */
   @media (min-width: 1024px) {
     .glance-desktop { display: block; }
-    .glance-mobile { display: none; }
     .svc-side__sticky { position: sticky; top: var(--s5); max-height: calc(100vh - 40px); overflow: auto; }
   }
   .reviewed { font-size: var(--fs-sm); color: var(--text-muted); margin: calc(-1 * var(--s3)) 0 var(--s5); }

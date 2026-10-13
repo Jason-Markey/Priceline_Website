@@ -8,7 +8,7 @@ category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["fragrance", "summer"]
-relatedServices: ["beauty-fragrance"]
+relatedServices: ["fragrance", "beauty-fragrance"]
 references:
   - name: "DermNet – Fragrances and perfumes"
     url: "https://dermnetnz.org/topics/fragrances-and-perfumes"

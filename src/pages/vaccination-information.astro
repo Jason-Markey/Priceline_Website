@@ -7,6 +7,7 @@ const service = serviceBySlug('vaccination-information')!;
 const faqs = [
   { q: 'Do I need to book a vaccination?', a: 'No. Walk in any day we’re open and scan the QR code at the counter to join the queue. If you’d rather pick a time, book online.' },
   { q: 'Is there a service fee for free government vaccines?', a: 'No. Vaccines funded under the National Immunisation Program are free for eligible people with a Medicare card, and we don’t charge a fee to give them. Bring your Medicare card and we’ll check your eligibility.' },
+  { q: 'How much does the shingles vaccine cost?', a: 'It’s free under the National Immunisation Program for people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over at higher risk because of a medical condition or treatment, with no service fee. If you’re not eligible, a private fee applies: you’ll see the current price when you book online, or ask us in store.' },
   { q: 'Can I have more than one vaccine at the same visit?', a: 'Often, yes. Tell us what’s due and your pharmacist will check which vaccines can be given together.' },
   { q: 'What if I feel unwell on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, wait until you’re well. Not sure? Call us and ask.' },
   { q: 'Are there side effects?', a: 'A sore arm, tiredness or a mild temperature for a day or two are common. If you’re worried about any reaction after leaving the store, contact your GP. In an emergency, call 000.' },
@@ -17,15 +18,15 @@ const faqs = [
 
 <ServicePage
   service={service}
-  title="Vaccinations at Pacific Fair, Broadbeach | Walk-ins Welcome"
-  description="Walk in for flu, COVID-19, whooping cough, shingles and travel vaccines at Priceline Pacific Fair, Broadbeach. Free NIP vaccines, no service fee, ages 5+."
+  title="Priceline Vaccinations Pacific Fair | Walk-ins Welcome"
+  description="Walk in for flu, COVID-19, whooping cough, shingles and travel vaccines at Priceline Pacific Fair, Broadbeach. Free if eligible under the NIP, no service fee."
   h1="Vaccinations at Pacific Fair, Broadbeach"
   lead="Vaccinations at Priceline Pharmacy Pacific Fair in Broadbeach need no appointment: walk in any day we’re open. Our pharmacist immunisers give flu, COVID-19, whooping cough, shingles, pneumococcal and travel vaccines to adults and children aged 5 and over, in a private consultation area. National Immunisation Program vaccines are free for eligible people with no service fee; walk in, or book a time online."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book a vaccination time', href: site.links.book, external: true, event: 'cta_book' }}
   secondaryCta={{ label: 'Walk in: today’s hours', href: '/visit-us/' }}
-  dateModified="2026-10-07"
+  dateModified="2026-10-13"
 >
   <h2>Which vaccines are free?</h2>
   <p>Vaccines under the National Immunisation Program (NIP) are free for eligible people with a Medicare card, and we don’t charge a service fee to give them. Eligibility depends on your age, pregnancy, Aboriginal and Torres Strait Islander status and some medical conditions. The main groups are:</p>

@@ -32,11 +32,18 @@ RewriteRule ^book-a-hormonal-contraceptive-pill-appointment/?$ /hormonal-contrac
 # Old WordPress slugs still in Google's index (Search Console 404 report, 9 Oct 2026)
 RewriteRule ^ear-nose-piercing/?$ /ear-piercings/ [R=301,L]
 RewriteRule ^vaccination-2/?$ /vaccination-information/ [R=301,L]
+# Old WordPress URLs still showing in Search Console (13 Oct 2026)
+RewriteRule ^help-medical/dr-tariq-islam-1/?$ /help-medical/ [R=301,L]
+RewriteRule ^download-the-priceline-app/[0-9a-f]+/?$ /download-the-priceline-app/ [R=301,L]
+RewriteRule ^scholl-wet-and-dry-foot-file/?$ /dry-skin-remedies/ [R=301,L]
 
 # --- WordPress leftovers: taxonomy, feeds, author, paging, search, attachments ---
 RewriteRule ^tag/.*$ /health-blog/ [R=301,L]
 RewriteRule ^author/.*$ /about-us/ [R=301,L]
-RewriteRule ^category/(health-advice|skincare-beauty|prescriptions|vaccinations|travel|local-guides)/?$ - [L]
+# Category pages that exist in the build are served as they are (any new category works automatically);
+# old WordPress categories and their paging go to the blog.
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^category/[^/]+/?$ - [L]
 RewriteRule ^category/.*$ /health-blog/ [R=301,L]
 RewriteRule ^(.+)/feed/?$ /rss.xml [R=301,L]
 RewriteRule ^feed/?$ /rss.xml [R=301,L]

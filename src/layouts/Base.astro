@@ -4,6 +4,8 @@
  * Every page uses this. Pass extra schema nodes via `schema`.
  */
 import '@fontsource-variable/inter';
+// Preload the Latin font file so text doesn't wait for the stylesheet to discover it
+import interLatin from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
 import '../styles/global.css';
 import { getImage } from 'astro:assets';
 import Header from '../components/Header.astro';
@@ -74,6 +76,7 @@ const contentGroup =
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />

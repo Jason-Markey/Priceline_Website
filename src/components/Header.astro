@@ -18,7 +18,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
 
 <a class="skip-link" href="#main" data-pagefind-ignore>Skip to content</a>
 
-<div class="strip" data-pagefind-ignore>
+<aside class="strip" aria-label="Today's hours and contact" data-pagefind-ignore>
   <div class="container strip__inner">
     <span class="strip__hours" id="today-hours" data-hours={hoursJson}>{todayText}</span>
     <span class="strip__sep" aria-hidden="true">·</span>
@@ -26,7 +26,7 @@ const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname.s
     <span class="strip__sep strip__addr" aria-hidden="true">·</span>
     <a class="strip__addr" href="/visit-us/">Shop 81, Pacific Fair, Broadbeach</a>
   </div>
-</div>
+</aside>
 
 <header class="header" data-pagefind-ignore>
   <div class="container header__inner" data-cta-location="header">

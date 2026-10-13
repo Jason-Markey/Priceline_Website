@@ -14,30 +14,31 @@ import helpMedicalPhoto from '../assets/images/help-medical-reception.jpg';
 import icoVacc from '../assets/icons/vaccinations.png';
 import icoDoctor from '../assets/icons/doctor.png';
 import icoPacking from '../assets/icons/medication-packing.png';
-import icoHealth from '../assets/icons/health-station.png';
-import icoDiabetes from '../assets/icons/diabetes.png';
-import icoReviews from '../assets/icons/medication-reviews.png';
-import icoCosmetics from '../assets/icons/cosmetics.png';
-import icoApp from '../assets/icons/priceline-app.png';
+import icoEar from '../assets/icons/ear-piercing.png';
+import icoPassport from '../assets/icons/passport-photos.png';
+import icoUti from '../assets/icons/uti-treatment.png';
+import icoPill from '../assets/icons/hormonal-contraceptive-pill.png';
+import icoCollect from '../assets/icons/click-and-collect.png';
 
-const title = 'Priceline Pharmacy Pacific Fair | Broadbeach, Open 7 Days';
+const title = 'Priceline Pharmacy Pacific Fair | Broadbeach Chemist, 7 Days';
 const description =
-  'Locally owned pharmacy inside Pacific Fair, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, GPs in store and Uber Eats delivery.';
+  'Your local chemist at Pac Fair, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, GPs in store, ear piercing and passport photos.';
 
-// Home services grid — same eight tiles and hexagon icons as the current site. Every tile links internally.
+// Home services grid: the eight services people search for most (Search Console, Oct 2026), in the same
+// tile and hexagon-icon style as the original site. Every tile links internally; the rest are on /pharmacy-services/.
 const tiles = [
+  { slug: 'ear-piercings', label: 'Ear piercing', icon: icoEar, cta: 'About ear piercing' },
   { slug: 'vaccination-information', label: 'Walk-in vaccinations', icon: icoVacc, cta: 'About vaccinations' },
-  { slug: 'beauty-fragrance', label: 'Makeup, skincare & fragrance', icon: icoCosmetics, cta: 'About beauty & fragrance' },
   { slug: 'help-medical', label: "Doctor's appointment", icon: icoDoctor, cta: 'About Help Medical' },
+  { slug: 'passport-photos', label: 'Passport photos', icon: icoPassport, cta: 'About passport photos' },
+  { slug: 'uti-treatment', label: 'UTI treatment', icon: icoUti, cta: 'About UTI treatment' },
+  { slug: 'hormonal-contraceptive-pill', label: 'Contraception consults', icon: icoPill, cta: 'About contraception' },
+  { slug: 'click-and-collect', label: 'Click & Collect', icon: icoCollect, cta: 'About Click & Collect' },
   { slug: 'medication-packing', label: 'Medication packing', icon: icoPacking, cta: 'About medication packing' },
-  { slug: 'health-station', label: 'Free health checks', icon: icoHealth, cta: 'About health checks' },
-  { slug: 'national-diabetes-services-scheme', label: 'Diabetes & NDSS', icon: icoDiabetes, cta: 'About diabetes & NDSS' },
-  { slug: 'medication-reviews', label: 'Free medication reviews', icon: icoReviews, cta: 'About medication reviews' },
-  { slug: 'download-the-priceline-app', label: 'Priceline app', icon: icoApp, cta: 'About the Priceline app' },
 ];
 
 const faqs = [
-  { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Shop 81 on the ground floor, north-eastern side of the centre, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Get directions and parking tips</a>.' },
+  { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Shop 81 on the ground floor, north-eastern side of the centre, next to Proud Smile and near the outdoor entrance from the river. Park in the Orange car park, directly under us (Gate 7 is closest). The prescription counter is at the back of the store on the left. <a href="/visit-us/">Get directions and parking tips</a>.' },
   { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. Public holiday hours are updated on our Google listing. <a href="/visit-us/">See our full opening hours</a>.' },
   { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk in any day we’re open, including for <a href="/flu-vaccination/">flu shots</a>, and scan the QR code at the counter to join the queue, or <a href="' + site.links.book + '" rel="noopener">book a time online</a> if you’d rather not wait.' },
   { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical is an independent general practice located inside our store, with bulk billing for eligible patients. Walk in subject to doctor availability, or <a href="/help-medical/">book a GP ahead</a>.' },
@@ -50,8 +51,8 @@ const faqs = [
   <section class="hero" data-cta-location="hero">
     <div class="container hero__inner">
       <div class="hero__copy">
-        <h1>Your local pharmacy at Pacific Fair, Broadbeach</h1>
-        <p class="hero__lead">Scripts ready in minutes, walk-in vaccinations, GPs in store, and the full Priceline beauty and fragrance range with free advice. Locally owned, open 7 days and until 9pm on Thursdays.</p>
+        <h1>Your local chemist at Pacific Fair, Broadbeach</h1>
+        <p class="hero__lead">Scripts ready in minutes, walk-in vaccinations, GPs in store, and the full Priceline beauty and fragrance range with free advice. Locally owned on the ground floor of Pac Fair, open 7 days and until 9pm on Thursdays.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
           <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
@@ -87,8 +88,8 @@ const faqs = [
   <section class="section section--white">
     <div class="container band-a" data-cta-location="home_body">
       <div class="band-a__text">
-        <h2>A locally owned pharmacy inside Pacific Fair</h2>
-        <p>Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre in Broadbeach. Whether you’re filling a script, getting a flu shot on your lunch break or after skincare that copes with the Gold Coast climate, our pharmacists and beauty advisors take the time to get it right.</p>
+        <h2>A locally owned chemist inside Pacific Fair</h2>
+        <p>Priceline Pharmacy Pacific Fair is an independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre (Pac Fair) in Broadbeach. Whether you’re filling a script, getting a flu shot on your lunch break or after skincare that copes with the Gold Coast climate, our pharmacists and beauty advisors take the time to get it right.</p>
         <h3>Why locals choose us</h3>
         <ul>
           <li><strong>Here since 2009, pharmacist-owned.</strong> Ask our pharmacists anything, no appointment needed.</li>
@@ -101,7 +102,7 @@ const faqs = [
       <div class="band-a__find">
         <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="band-a__img" />
         <h3>Find us on the ground floor</h3>
-        <p>{site.address.oneLine}. {site.address.floor}, {site.address.landmarks}. Four hours of free parking each day, and the Broadbeach South light rail stop is right out the front.</p>
+        <p>{site.address.oneLine}. {site.address.floor}. {site.address.landmarks}. {site.parking.short} The Broadbeach South light rail stop is right out the front.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/visit-us/">Hours &amp; directions</a>
           <a class="btn btn--secondary" href={site.directionsUrl} rel="noopener" data-event="directions">Open in Google Maps</a>
@@ -156,7 +157,7 @@ const faqs = [
         <p>The full Priceline beauty range is here on the ground floor: makeup from NYX, Maybelline, L’Oréal Paris, Revlon, e.l.f. and Milani, lit fragrance cabinets of designer and celebrity scents, and skincare that copes with strong sun, humidity and salt water. Our beauty advisors help you match a shade, find a scent or choose a gift, with no booking and no charge.</p>
         <ul class="beauty__list">
           <li>Makeup, skincare, hair care and self-tan</li>
-          <li>Designer and celebrity fragrance, with testers in store</li>
+          <li><a href="/fragrance/">Designer and celebrity fragrance</a>, with testers in store and gift help</li>
           <li>Free advice from trained beauty advisors</li>
           <li>Shop in store, or order for <a href="/click-and-collect/">Click &amp; Collect</a> and <a href="/delivery/">Uber Eats delivery</a></li>
         </ul>
@@ -226,7 +227,7 @@ const faqs = [
      On phones it's capped at 38vh and anchored top so the face shows. */
   .hero__photo { position: relative; justify-self: center; width: min(70vw, 300px); max-height: 38vh; overflow: hidden; margin-top: var(--s4); margin-bottom: -4px; }
   .hero__photo img { width: 100%; height: auto; display: block; object-fit: cover; object-position: top; }
-  .hero__caption { position: absolute; left: 0; bottom: var(--s3); margin: 0; font-size: 0.8125rem; line-height: 1.3; color: var(--text-muted); background: rgba(252, 228, 239, .9); padding: 3px 8px 3px 0; border-radius: 0 var(--radius) var(--radius) 0; }
+  .hero__caption { position: absolute; left: 0; bottom: var(--s3); margin: 0; font-size: 0.8125rem; line-height: 1.3; color: #5f5f5f; background: rgba(252, 228, 239, .9); padding: 3px 8px 3px 0; border-radius: 0 var(--radius) var(--radius) 0; }
   @media (min-width: 900px) {
     .hero__inner { grid-template-columns: 1fr 440px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
     .hero__copy { padding-block: var(--s12) var(--s16); align-self: center; }

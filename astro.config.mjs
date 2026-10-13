@@ -36,11 +36,23 @@ function rehypeStackTables() {
     node.children = node.children.map((child) => {
       if (child.type === 'element' && child.tagName === 'table') {
         const head = els(child, 'thead')[0];
-        const labels = head ? els(els(head, 'tr')[0] || {}, 'th').map(text) : [];
+        const headCells = head ? els(els(head, 'tr')[0] || {}, 'th') : [];
+        const labels = headCells.map(text);
+        // An empty top-left header ("| | A | B |") means the first column labels each row. Give the corner an
+        // invisible label (an empty <th> is an accessibility error) and make first-column cells row headers.
+        const rowHeaders = headCells.length > 1 && !labels[0];
+        if (rowHeaders) {
+          headCells[0].children = [{ type: 'element', tagName: 'span', properties: { className: ['sr-only'] }, children: [{ type: 'text', value: 'Compared' }] }];
+        }
         for (const body of els(child, 'tbody')) {
           for (const tr of els(body, 'tr')) {
             els(tr, 'td').forEach((td, i) => {
-              if (i > 0 && labels[i]) td.properties = { ...(td.properties || {}), dataLabel: labels[i] };
+              if (i === 0 && rowHeaders) {
+                td.tagName = 'th';
+                td.properties = { ...(td.properties || {}), scope: 'row' };
+              } else if (i > 0 && labels[i]) {
+                td.properties = { ...(td.properties || {}), dataLabel: labels[i] };
+              }
             });
           }
         }
@@ -56,7 +68,7 @@ function rehypeStackTables() {
 export default defineConfig({
   site: 'https://pricelinepacificfair.com.au',
   trailingSlash: 'always',
-  build: { format: 'directory', inlineStylesheets: 'auto' },
+  build: { format: 'directory', inlineStylesheets: 'always' },
   compressHTML: true,
   markdown: { rehypePlugins: [rehypeStackTables] },
   integrations: [

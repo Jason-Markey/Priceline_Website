@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+import ServicePage from '../layouts/ServicePage.astro';
+import fragranceImg from '../assets/images/fragrance-cabinets.jpg';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('fragrance')!;
+
+// Brands as listed on /beauty-fragrance/ (confirmed range, Oct 2026). Fragrance is a cosmetic, so brand names are fine.
+const brands = 'YSL, Giorgio Armani, Prada, Lancôme, Estée Lauder, Versace, Dolce & Gabbana, Marc Jacobs, Jimmy Choo, Rabanne, Jean Paul Gaultier, Hugo Boss, Calvin Klein, Ariana Grande and Billie Eilish';
+
+const faqs = [
+  { q: 'Can I try a perfume before I buy it?', a: 'Yes. Testers are out in our fragrance cabinets. Try a scent on your skin and give it a few hours before you decide, because it changes as it settles.' },
+  { q: 'Do you sell fragrance gift sets?', a: 'Yes. Gift sets and smaller sizes come in through the year, usually with the most choice before Christmas and Mother’s Day. Ask our team what’s in store now.' },
+  { q: 'Can you help me choose a perfume for someone else?', a: 'Yes, at no charge. Tell us what they wear now (a photo of the bottle helps) and whether they like fresh, floral, warm or woody scents, and we’ll suggest a few to try.' },
+  { q: 'Do you have men’s fragrance?', a: 'Yes. Many of our brands have men’s fragrances, including Giorgio Armani, Hugo Boss, Calvin Klein, Jean Paul Gaultier, Versace and Rabanne, alongside men’s grooming gift sets. Ask us what’s in stock.' },
+  { q: 'Can I order online and collect at Pacific Fair?', a: 'Yes. Order on priceline.com.au and choose Priceline Pacific Fair for Click & Collect. Orders are usually ready within 15 minutes and held for up to 14 days.' },
+  { q: 'Where are you in Pacific Fair?', a: 'Shop 81 on the ground floor, on the north-eastern side of the centre next to Proud Smile. Park in the Orange car park, directly under us. Gate 7 is the closest entry, and the first 4 hours are free.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Perfume & Fragrance Gifts | Priceline Pacific Fair"
+  description="Designer and celebrity perfume at Priceline Pacific Fair, Broadbeach: YSL, Armani, Prada, Lancôme and more, with testers in store and free gift help."
+  h1="Perfume and fragrance gifts at Pacific Fair"
+  lead="Yes, Priceline Pharmacy Pacific Fair in Broadbeach stocks designer and celebrity fragrance, including YSL, Giorgio Armani, Prada, Lancôme and Versace, in lit cabinets with testers. Our beauty advisors will help you find a scent or choose a gift, free and with no booking, any day we’re open."
+  faqs={faqs}
+  hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
+  primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
+  secondaryCta={{ label: 'Shop online & collect', href: site.links.pricelineShop, external: true, event: 'cta_click_collect' }}
+  ogImage={fragranceImg}
+  dateModified="2026-10-13"
+>
+  <h2>Which perfume brands do you stock?</h2>
+  <Image src={fragranceImg} alt="Lit fragrance cabinets with designer and celebrity perfumes at Priceline Pharmacy Pacific Fair" widths={[480, 760]} quality={68} sizes="(max-width: 760px) 100vw, 760px" />
+  <p>Our fragrance cabinets carry {brands}, with options for every budget, from body mists and smaller celebrity fragrances to full-size designer perfumes. Stock changes through the year, so call us on <a href={site.phoneHref}>{site.phone}</a> if you’re after a particular scent.</p>
+
+  <h2>How do I choose a fragrance as a gift?</h2>
+  <ul>
+    <li><strong>Start with what they wear now.</strong> A photo of their current bottle tells us a lot.</li>
+    <li><strong>Think about the type of scent.</strong> Fresh and citrus, floral, warm and sweet, or woody. We’ll suggest a few in the family they like.</li>
+    <li><strong>Choose the size to suit your budget.</strong> A smaller bottle of a scent they’ll love beats a big bottle of one they won’t wear.</li>
+    <li><strong>Still not sure?</strong> A gift set or a body mist is an easy choice, and our team can help you narrow it down.</li>
+  </ul>
+
+  <h2>Christmas gift shopping at Pac Fair</h2>
+  <p>Fragrance gift sets and value packs usually arrive in store in the lead-up to Christmas, alongside makeup, skincare and men’s grooming gifts. We’re on the ground floor and open 7 days, until 9pm on Thursdays, so you can pick something up while you’re at the centre, or order online and collect it from us.</p>
+
+  <h2>Does perfume last in Gold Coast heat?</h2>
+  <p>Heat and humidity make fragrance project more and fade faster. A fresher scent or a lighter concentration often suits Gold Coast days better, and a few sprays on pulse points beats one heavy dose. Keep bottles out of the sun and never leave them in a hot car, because heat breaks fragrance down. See our tips to <a href="/make-perfume-last-longer/">make perfume last longer</a>.</p>
+
+  <h2>Can I shop online and collect?</h2>
+  <p>Yes. Order on <a href={site.links.pricelineShop} rel="noopener">priceline.com.au</a> and choose Priceline Pacific Fair for <a href="/click-and-collect/">Click &amp; Collect</a>. Orders are usually ready within 15 minutes and held for up to 14 days, and there’s no delivery fee. You can also <a href={site.links.uberEats} rel="noopener">order on Uber Eats</a> for delivery across the Gold Coast.</p>
+</ServicePage>

@@ -108,6 +108,7 @@ th { color: var(--charcoal); background: var(--bg); }
   .table-wrap--stack td[data-label]::before { content: attr(data-label); display: block; font-size: 0.8125rem; font-weight: 600; color: var(--text-muted); }
   .table-wrap--stack td:first-child { font-weight: 700; font-size: var(--fs-base); padding-bottom: var(--s2); }
   .table-wrap--stack td:first-child::before { display: none; }
+  .prose .table-wrap--stack tbody th[scope="row"] { display: block; border: 0; padding: var(--s1) 0 var(--s2); font-weight: 700; font-size: var(--fs-base); background: transparent; color: inherit; }
 }
 
 /* ---------- layout helpers ---------- */
@@ -185,6 +186,8 @@ th { color: var(--charcoal); background: var(--bg); }
    that can scroll sideways on tablets and desktops, and a stack of cards on phones. */
 .prose .table-wrap table { display: table; overflow: visible; border: 0; border-radius: 0; margin: 0; background: transparent; }
 .prose .table-wrap th:first-child, .prose .table-wrap td:first-child { white-space: normal; min-width: 8rem; }
+/* Row headers (first column of comparison tables) keep the plain-cell look */
+@media (min-width: 700px) { .prose .table-wrap tbody th[scope="row"] { background: transparent; color: inherit; font-weight: inherit; } }
 
 /* ---------- details / FAQ ---------- */
 .faq details { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: var(--s3); }
@@ -211,4 +214,6 @@ th { color: var(--charcoal); background: var(--bg); }
 .action-bar a:hover { color: var(--pink-deep); }
 @media (min-width: 768px) { .action-bar { display: none; } }
 body.has-action-bar { padding-bottom: 64px; }
+/* Keep keyboard-focused links clear of the fixed phone action bar (WCAG 2.4.11) */
+@media (max-width: 767px) { html { scroll-padding-bottom: 72px; } }
 @media (min-width: 768px) { body.has-action-bar { padding-bottom: 0; } }

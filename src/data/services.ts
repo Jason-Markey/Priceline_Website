@@ -194,9 +194,9 @@ export const services: Service[] = [
       what: 'Order from the full Priceline range online and collect in store.',
       who: 'Anyone. Prescription medicines are not available this way.',
       cost: 'No delivery fee.',
-      time: 'Usually ready within 15 minutes; within 2 hours at the latest when everything is in stock.',
+      time: 'Usually ready within 15 minutes; within 2 hours at the latest when everything is in stock. Held for up to 14 days.',
       booking: 'Order any time.',
-      howToBook: 'Choose Priceline Pacific Fair at checkout on priceline.com.au.',
+      howToBook: 'Choose Priceline Pacific Fair at checkout on priceline.com.au, then bring your order confirmation and photo ID.',
     },
     related: ['delivery'],
   },
@@ -239,7 +239,7 @@ export const services: Service[] = [
     atAGlance: {
       what: 'A private assessment by a trained pharmacist who can supply treatment for an uncomplicated urinary tract infection if suitable.',
       who: 'Women aged 18 to 65 with symptoms of an uncomplicated bladder infection.',
-      cost: 'A consultation fee applies and isn’t covered by Medicare. Ask us when you call.',
+      cost: 'One fee covers the consultation and any treatment, if suitable. It isn’t covered by Medicare; ask us when you call.',
       time: 'About 15 minutes.',
       booking: 'No booking needed. Walk in.',
       howToBook: 'Come in and ask for a trained pharmacist at the prescription counter.'
@@ -308,12 +308,12 @@ export const services: Service[] = [
   {
     slug: 'ear-piercings',
     name: 'Ear piercing',
-    short: 'Hygienic single-use system, earrings and aftercare included. $65, walk in.',
+    short: 'Both ears, with earrings and antiseptic spray included. $65, walk in.',
     group: 'beauty',
     atAGlance: {
-      what: 'Ear piercing with a hygienic single-use system, including your earrings, aftercare spray and a consultation.',
+      what: 'Ear piercing for both ears with a hygienic single-use system, including your earrings, an antiseptic aftercare spray and a consultation.',
       who: 'Ages 8 and over. Under-16s need a parent or guardian with them.',
-      cost: '$65 including earrings and aftercare.',
+      cost: '$65 for both ears, including earrings and an antiseptic aftercare spray.',
       time: 'About 15 minutes.',
       booking: 'Walk in.',
       howToBook: 'Come in during opening hours.',
@@ -349,6 +349,20 @@ export const services: Service[] = [
       howToBook: 'Come in and ask a beauty advisor.',
     },
     related: ['skincare-tanning', 'delivery'],
+  },
+  {
+    slug: 'fragrance',
+    name: 'Perfume & fragrance gifts',
+    short: 'Designer and celebrity fragrance with testers in store, and free help choosing a scent or gift.',
+    group: 'beauty',
+    atAGlance: {
+      what: 'Designer and celebrity fragrance for women and men, with testers in store and help choosing a scent or a gift.',
+      who: 'Anyone, including gift shoppers who aren’t sure what to buy.',
+      cost: 'Advice is free. Prices depend on the brand and size.',
+      booking: 'No booking needed.',
+      howToBook: 'Come in any day we’re open and ask a beauty advisor.',
+    },
+    related: ['beauty-fragrance', 'click-and-collect', 'skincare-tanning'],
   },
   {
     slug: 'vitamins-supplements',

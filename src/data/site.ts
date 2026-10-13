@@ -13,6 +13,8 @@ export type Hours = Record<DayKey, { open: string; close: string } | null>;
 export const site = {
   name: 'Priceline Pharmacy Pacific Fair',
   shortName: 'Priceline Pacific Fair',
+  /** Other names people search for (schema alternateName). Locals call the centre "Pac Fair". */
+  alternateNames: ['Priceline Pacific Fair', 'Priceline Pac Fair', 'Priceline Pharmacy Pac Fair', 'Priceline Pharmacy Broadbeach'],
   legalName: 'Markey Pharmacies Pty Ltd',
   url: 'https://pricelinepacificfair.com.au',
   tagline: 'Your local pharmacy at Pacific Fair, Broadbeach',
@@ -41,6 +43,12 @@ export const site = {
     oneLine: 'Shop 81, Pacific Fair Shopping Centre, Hooker Blvd, Broadbeach QLD 4218',
     floor: 'Ground floor, north-eastern side of the centre',
     landmarks: 'Next to Proud Smile, near the outdoor entrance from the river',
+  },
+  /** Parking: the Orange car park sits directly under the store (Pacific Fair car park map; Jason, 13 Oct 2026) */
+  parking: {
+    carPark: 'Orange car park',
+    gate: 'Gate 7',
+    short: 'Park in the Orange car park, directly under us. Gate 7 is the closest entry, and the first 4 hours are free.',
   },
   geo: { latitude: -28.03579, longitude: 153.42985 },
   mapsUrl: 'https://maps.app.goo.gl/T8QkWoxSwHfp4RLY9',
@@ -122,6 +130,9 @@ export const site = {
     pacificFairStorePage: 'https://www.pacificfair.com.au/stores-services/priceline-pharmacy',
     translink: 'https://jp.translink.com.au/',
     googleBusinessProfile: 'https://maps.app.goo.gl/T8QkWoxSwHfp4RLY9',
+    /** Our own listings elsewhere (schema sameAs) */
+    healthdirect:
+      'https://www.healthdirect.gov.au/australian-health-services/20080795/priceline-pharmacy-pacific-fair/services/broadbeach-4218-hooker',
   },
 
   social: {

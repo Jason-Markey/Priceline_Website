@@ -19,7 +19,7 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
     '@type': ['Pharmacy', 'MedicalBusiness', 'LocalBusiness'],
     '@id': ID.pharmacy,
     name: site.name,
-    alternateName: site.shortName,
+    alternateName: [...site.alternateNames],
     legalName: site.legalName,
     url: `${site.url}/`,
     telephone: site.phoneE164,
@@ -58,7 +58,8 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
     parentOrganization: { '@type': 'Organization', name: 'Priceline Pharmacy', url: site.links.pricelineNational },
     brand: { '@type': 'Brand', name: 'Priceline Pharmacy' },
     employee: { '@id': ID.owner },
-    sameAs: [site.links.googleBusinessProfile, site.links.pacificFairStorePage, site.social.facebook, site.social.instagram],
+    // Only profiles of THIS store (the Facebook page is Priceline's national page, so it isn't listed)
+    sameAs: [site.links.googleBusinessProfile, site.links.pacificFairStorePage, site.social.instagram, site.links.healthdirect, site.links.bookHealthEngine],
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Wheelchair-accessible entrance', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Accessible parking nearby', value: true },

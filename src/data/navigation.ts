@@ -41,6 +41,7 @@ export const primaryNav: NavGroup[] = [
     items: [
       { label: 'Skincare & self-tan', href: '/skincare-tanning/' },
       { label: 'Makeup & fragrance', href: '/beauty-fragrance/' },
+      { label: 'Perfume & fragrance gifts', href: '/fragrance/' },
       { label: 'Vitamins & supplements', href: '/vitamins-supplements/' },
       { label: 'Metagenics', href: '/metagenics-vitamins/' },
       { label: 'Passport & visa photos', href: '/passport-photos/' },

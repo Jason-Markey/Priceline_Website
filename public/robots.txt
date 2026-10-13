@@ -1,37 +1,53 @@
 # Priceline Pharmacy Pacific Fair — all legitimate search and AI crawlers welcome.
+# A crawler named in its own group ignores the * group, so each group repeats the one Disallow.
 User-agent: *
 Allow: /
 Disallow: /search/
 
 User-agent: Googlebot
 Allow: /
+Disallow: /search/
 User-agent: Bingbot
 Allow: /
+Disallow: /search/
 User-agent: GPTBot
 Allow: /
+Disallow: /search/
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /search/
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /search/
 User-agent: ClaudeBot
 Allow: /
+Disallow: /search/
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /search/
 User-agent: Claude-User
 Allow: /
+Disallow: /search/
 User-agent: PerplexityBot
 Allow: /
+Disallow: /search/
 User-agent: Google-Extended
 Allow: /
+Disallow: /search/
 User-agent: Applebot
 Allow: /
+Disallow: /search/
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /search/
 User-agent: CCBot
 Allow: /
+Disallow: /search/
 User-agent: Amazonbot
 Allow: /
+Disallow: /search/
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /search/
 
 Sitemap: https://pricelinepacificfair.com.au/sitemap-index.xml
