@@ -3,7 +3,7 @@ title: "Head lice: how to get rid of them (and stop them coming back)"
 description: "Head lice treatment step by step: the conditioner-and-comb method, lotions, re-treating after 7 days and Queensland school rules. Ask our Broadbeach team."
 seoTitle: "Head lice: how to get rid of them | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-13
 category: haircare
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -86,6 +86,10 @@ Not in Queensland, as long as treatment has started. Queensland Health's Time ou
 - **"The dog gave them lice."** Head lice only live on people, so your pets don't need treating.
 - **"You need to clean the whole house."** healthdirect says insect sprays and home disinfection aren't needed, and Raising Children says your child is unlikely to get lice from furniture, pillows or carpet. If you'd like to, wash combs, brushes, hats, clothes and bedding used in the last 48 hours in a hot wash and a hot dryer, and seal anything you can't wash in a plastic bag for several days.
 - **"A repellent spray will keep them away."** CHOICE found no product has been proven to repel head lice, and there's no evidence that anything you put on your child's hair acts as a repellent. Not sharing brushes or hats is still sensible.
+
+## Do you have head lice treatments in stock?
+
+Yes. We usually keep head lice lotions and fine-toothed metal lice combs in stock at Pacific Fair, so you can start treating the same day. Stock can run low when lice are doing the rounds at school, so call us on [(07) 5592 2099](tel:+61755922099) to check before you come in. If we've sold out, we can usually order more in for the next day.
 
 ## How our pharmacists can help
 

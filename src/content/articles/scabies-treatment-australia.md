@@ -3,7 +3,7 @@ title: "Scabies treatment in Australia: your questions answered"
 description: "Scabies treatment in Australia: pharmacy and GP options, treating your whole household, washing bedding, and advice for Gold Coast share houses."
 seoTitle: "Scabies treatment in Australia | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-13
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -79,6 +79,10 @@ You don’t need to fumigate or deep-clean your whole home. Following healthdire
 This is very common. The itch can hang around for weeks after the mites have gone; the Royal Children’s Hospital says it may take up to three weeks to settle. It doesn’t necessarily mean the treatment hasn’t worked.
 
 To ease the itch in the meantime, keep fingernails short, use a gentle soap-free wash and moisturiser, and try cool compresses. A pharmacist can suggest products to soothe itchy skin. If you’re still itchy after a few weeks, or you’re getting new burrows or spots, see your GP. You may be reacting to the treatment, or you may have been reinfected.
+
+## Do you have scabies cream in stock?
+
+Yes. We usually keep pharmacy-only scabies creams in stock at Pacific Fair. Ask at the dispensary counter, and a pharmacist will check the cream suits everyone in your household. Stock can run low when scabies is going around, so call us on [(07) 5592 2099](tel:+61755922099) to check before you come in. If we’ve sold out, we can usually order more in for the next day.
 
 ## How can a pharmacist help with scabies?
 
