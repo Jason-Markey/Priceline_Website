@@ -55,31 +55,29 @@ const faqs = [
         <p class="hero__lead">Scripts ready in minutes, walk-in vaccinations, GPs in store, and the full Priceline beauty and fragrance range with free advice. Locally owned on the ground floor of Pac Fair, open 7 days and until 9pm on Thursdays.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
-          <a class="btn btn--secondary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>
+          <a class="btn btn--secondary" href={site.directionsUrl} rel="noopener" data-event="directions">Get directions</a>
         </div>
       </div>
+      <!-- "Today at Shop 81": live status + the four things people come in for, straight under the buttons.
+           Charcoal ticket with the true-pink edge. -->
+      <section class="hero__today" aria-labelledby="today-h" data-cta-location="today">
+        <div class="today">
+          <div class="today__status">
+            <h2 id="today-h" class="today__h">Today at Shop 81</h2>
+            <p class="today__open" id="today-span">Open 7 days</p>
+            <p class="today__sub"><a href="/visit-us/">All hours &amp; directions</a></p>
+          </div>
+          <dl class="today__rows">
+            <div><dt>Scripts</dt><dd>Ready in minutes. <a href="/prescriptions/">Send yours ahead</a></dd></div>
+            <div><dt>Vaccinations</dt><dd><a href="/vaccination-information/">Walk in</a>, no appointment</dd></div>
+            <div><dt>GP</dt><dd>Help Medical in store. <a href="/help-medical/">Book a doctor</a></dd></div>
+            <div><dt>Late night</dt><dd>Thursdays until 9pm</dd></div>
+          </dl>
+        </div>
+      </section>
       <div class="hero__photo">
         <Image src={jason} alt="Jason Markey, owner and pharmacist at Priceline Pharmacy Pacific Fair" widths={[400, 600, 800]} sizes="(max-width: 900px) 70vw, 440px" format="webp" loading="eager" fetchpriority="high" />
         <p class="hero__caption">Jason Markey, owner and pharmacist</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- "Today at Shop 81": live status + the four things people come in for. Charcoal ticket with the true-pink edge. -->
-  <section class="today-band" aria-labelledby="today-h" data-cta-location="today">
-    <div class="container">
-      <div class="today">
-        <div class="today__status">
-          <h2 id="today-h" class="today__h">Today at Shop 81</h2>
-          <p class="today__open" id="today-span">Open 7 days</p>
-          <p class="today__sub"><a href="/visit-us/">All hours &amp; directions</a></p>
-        </div>
-        <dl class="today__rows">
-          <div><dt>Scripts</dt><dd>Ready in minutes. <a href="/prescriptions/">Send yours ahead</a></dd></div>
-          <div><dt>Vaccinations</dt><dd><a href="/vaccination-information/">Walk in</a>, no appointment</dd></div>
-          <div><dt>GP</dt><dd>Help Medical in store. <a href="/help-medical/">Book a doctor</a></dd></div>
-          <div><dt>Late night</dt><dd>Thursdays until 9pm</dd></div>
-        </dl>
       </div>
     </div>
   </section>
@@ -228,9 +226,12 @@ const faqs = [
   .hero__photo { position: relative; justify-self: center; width: min(70vw, 300px); max-height: 38vh; overflow: hidden; margin-top: var(--s4); margin-bottom: -4px; }
   .hero__photo img { width: 100%; height: auto; display: block; object-fit: cover; object-position: top; }
   .hero__caption { position: absolute; left: 0; bottom: var(--s3); margin: 0; font-size: 0.8125rem; line-height: 1.3; color: #5f5f5f; background: rgba(252, 228, 239, .9); padding: 3px 8px 3px 0; border-radius: 0 var(--radius) var(--radius) 0; }
+  .hero__today .today { margin-top: 0; }
   @media (min-width: 900px) {
-    .hero__inner { grid-template-columns: 1fr 440px; gap: var(--s12); padding-top: var(--s10); align-items: end; }
-    .hero__copy { padding-block: var(--s12) var(--s16); align-self: center; }
+    .hero__inner { grid-template-columns: 1fr 440px; grid-template-areas: "copy photo" "today photo"; column-gap: var(--s12); row-gap: 0; padding-top: var(--s10); align-items: end; }
+    .hero__copy { grid-area: copy; padding-block: var(--s10) 0; align-self: end; }
+    .hero__today { grid-area: today; padding-bottom: var(--s12); align-self: start; }
+    .hero__photo { grid-area: photo; }
     .hero__photo { width: 440px; max-height: none; overflow: visible; margin: 0; justify-self: end; }
     .hero__photo img { max-height: 560px; width: auto; margin-left: auto; }
     /* Desktop: caption sits on the pink to the left of the portrait (never over the photo) */
@@ -238,8 +239,7 @@ const faqs = [
   }
 
   /* Today at Shop 81 */
-  .today-band { background: var(--bg); }
-  .today { position: relative; background: var(--charcoal); color: #fff; border-radius: var(--radius-lg); padding: var(--s5) var(--s5) var(--s5) calc(var(--s5) + 6px); overflow: hidden; display: grid; gap: var(--s5); margin-top: var(--s5); box-shadow: var(--shadow-md); }
+    .today { position: relative; background: var(--charcoal); color: #fff; border-radius: var(--radius-lg); padding: var(--s5) var(--s5) var(--s5) calc(var(--s5) + 6px); overflow: hidden; display: grid; gap: var(--s5); margin-top: var(--s5); box-shadow: var(--shadow-md); }
   .today::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--pink); }
   .today__h { color: var(--pink-light); font-size: 0.8125rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; margin: 0 0 var(--s1); }
   .today__open { margin: 0; font-size: var(--fs-h3); font-weight: 700; line-height: 1.25; }
@@ -251,10 +251,15 @@ const faqs = [
   .today dt { color: #c9c9c9; font-weight: 600; }
   .today dd { margin: 0; color: #fff; }
   @media (min-width: 900px) {
-    .today { grid-template-columns: 300px 1fr; align-items: center; padding: var(--s6) var(--s8) var(--s6) calc(var(--s8) + 6px); margin-top: var(--s6); }
-    .today__status { border-right: 1px solid rgba(255,255,255,.18); padding-right: var(--s8); }
-    .today__rows { grid-template-columns: 1fr 1fr; gap: var(--s3) var(--s8); }
-    .today__rows > div { grid-template-columns: auto 1fr; }
+    .today { grid-template-columns: 210px 1fr; align-items: center; padding: var(--s5) var(--s6) var(--s5) calc(var(--s6) + 6px); margin-top: var(--s6); }
+    .today__status { border-right: 1px solid rgba(255,255,255,.18); padding-right: var(--s6); }
+    .today__rows { grid-template-columns: 1fr; gap: var(--s2); }
+    .today__rows > div { grid-template-columns: 104px 1fr; }
+  }
+  /* Small laptops and tablets in landscape: the hero's left column is narrow, so stack status above the rows */
+  @media (min-width: 900px) and (max-width: 1199px) {
+    .today { grid-template-columns: 1fr; gap: var(--s4); }
+    .today__status { border-right: 0; padding-right: 0; border-bottom: 1px solid rgba(255,255,255,.18); padding-bottom: var(--s4); }
   }
 
   /* Why */
