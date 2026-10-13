@@ -1,14 +1,24 @@
 ---
 import type { Service } from '../data/services';
+import { site } from '../data/site';
 export interface Props { service: Service; bookHref?: string; }
 const { service, bookHref } = Astro.props;
 const g = service.atAGlance;
+// Walk-in services where a wait is likely to put people off get the quietest time.
+// Left out: time-sensitive care (UTI, emergency contraception), call-first, online-only and partner services.
+const QUIET = new Set([
+  'prescriptions', 'vaccination-information', 'flu-vaccination', 'travel-health', 'health-station',
+  'medication-reviews', 'national-diabetes-services-scheme', 'weight-loss-counselling-and-advice',
+  'womens-health', 'quit-smoking', 'passport-photos', 'ear-piercings', 'skincare-tanning',
+  'beauty-fragrance', 'fragrance',
+]);
 const rows = [
   ['What it is', g.what],
   ["Who it's for", g.who],
   ['Cost', g.cost],
   g.time ? ['How long', g.time] : null,
   ['Booking', g.booking],
+  QUIET.has(service.slug) ? ['Quietest time', site.quietTime.short] : null,
   ['How to book', g.howToBook],
 ].filter(Boolean) as [string, string][];
 ---

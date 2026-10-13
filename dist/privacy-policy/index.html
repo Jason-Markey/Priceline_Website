@@ -4,7 +4,36 @@ const contentGroup = "legal";
           window.dataLayer = window.dataLayer || [];
           function gtag(){ dataLayer.push(arguments); }
           gtag('js', new Date());
-          gtag('config', id, { anonymize_ip: true, content_group: contentGroup });
+          // Staff devices: open any page with ?staff=1 once and this browser's visits are marked internal
+          // (GA4's "Internal Traffic" data filter drops them once it's active). ?staff=0 undoes it.
+          var staff = false, staffFlag = null;
+          try {
+            var params = new URLSearchParams(location.search);
+            staffFlag = params.get('staff');
+            if (staffFlag === '1') localStorage.setItem('pf_staff', '1');
+            if (staffFlag === '0') localStorage.removeItem('pf_staff');
+            if (staffFlag !== null) {
+              params.delete('staff');
+              var qs = params.toString();
+              history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+            }
+            staff = localStorage.getItem('pf_staff') === '1';
+          } catch (e) {}
+          var cfg = { anonymize_ip: true, content_group: contentGroup };
+          if (staff) cfg.traffic_type = 'internal';
+          gtag('config', id, cfg);
+          if (staffFlag === '1' || staffFlag === '0') {
+            document.addEventListener('DOMContentLoaded', function () {
+              var note = document.createElement('p');
+              note.setAttribute('role', 'status');
+              note.textContent = staffFlag === '1'
+                ? 'Saved: visits from this browser won’t count in Analytics.'
+                : 'Removed: visits from this browser count in Analytics again.';
+              note.style.cssText = 'position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:1000;margin:0;max-width:calc(100% - 32px);padding:10px 16px;border-radius:8px;background:#363636;color:#fff;font:600 15px/1.4 system-ui,sans-serif;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.2)';
+              document.body.appendChild(note);
+              setTimeout(function () { note.remove(); }, 6000);
+            });
+          }
           window.addEventListener('load', function () {
             var s = document.createElement('script'); s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;

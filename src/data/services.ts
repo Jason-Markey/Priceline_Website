@@ -311,7 +311,7 @@ export const services: Service[] = [
     short: 'Both ears, with earrings and antiseptic spray included. $65, walk in.',
     group: 'beauty',
     atAGlance: {
-      what: 'Ear piercing for both ears with a hygienic single-use system, including your earrings, an antiseptic aftercare spray and a consultation.',
+      what: 'Ear piercing for both ears, including second holes in the earlobe, with a hygienic single-use system. Your earrings, an antiseptic aftercare spray and a consultation are included.',
       who: 'Ages 8 and over. Under-16s need a parent or guardian with them.',
       cost: '$65 for both ears, including earrings and an antiseptic aftercare spray.',
       time: 'About 15 minutes.',

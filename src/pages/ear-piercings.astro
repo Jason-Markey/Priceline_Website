@@ -14,6 +14,11 @@ const faqs = [
   { q: 'How long do I leave the studs in?', a: 'At least 6 weeks for earlobes and around 12 weeks for cartilage piercings. Piercings keep healing on the inside for months after that, so follow the aftercare we give you.' },
   { q: 'Can I swim after getting my ears pierced?', a: 'Avoid pools, the ocean and spas until the piercing has healed, which is worth planning around in a Gold Coast summer. Ask us about timing when you come in.' },
   { q: 'Can you re-pierce an ear that has closed over?', a: 'Yes. Re-piercing is available for piercings that have closed or were placed incorrectly. Ask us and we’ll take a look.' },
+  { q: 'Can I get a second hole pierced?', a: 'Yes. We pierce second holes in the earlobe. Walk in any day we’re open.' },
+  { q: 'Do you pierce cartilage?', a: `Call us on ${site.phone} before you come in, and we’ll let you know whether we can do the piercing you’re after.` },
+  { q: 'Do you do nose piercing?', a: 'No. We pierce ears only.' },
+  { q: 'Do you sell sleepers?', a: 'Yes. We sell sleepers and other earrings for when your piercing has healed. Leave your starter studs in for at least 6 weeks for earlobes before you change them.' },
+  { q: 'When is the best time to come in?', a: `${site.quietTime.sentence} You can walk in any time we’re open.` },
 ];
 ---
 
@@ -36,17 +41,21 @@ const faqs = [
   <h2>Who can get their ears pierced?</h2>
   <ul>
     <li><strong>Ages 8 and over.</strong> Under-16s need a parent or guardian with them to give consent.</li>
+    <li><strong>Second holes</strong> in the earlobe are fine too.</li>
     <li><strong>Re-piercing</strong> is available for piercings that have closed or were placed incorrectly.</li>
+    <li><strong>Cartilage:</strong> call us first to check we can do the piercing you’re after.</li>
+    <li><strong>Ears only.</strong> We don’t do nose piercing.</li>
   </ul>
 
   <h2>Do I need to book for ear piercing?</h2>
-  <p>No. Walk in any day we’re open and our trained team will fit you in. If you’d like to check a quiet time to come in, call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+  <p>No. Walk in any day we’re open and our trained team will fit you in. {site.quietTime.sentence}</p>
 
   <h2>Which studs and earrings can I choose?</h2>
   <ul>
     <li>Studs suitable for sensitive ears, made from lead-free materials</li>
     <li>Gold-plated and sterling silver earrings</li>
     <li>Clear retainer studs for work or school</li>
+    <li>Sleepers and other earrings to change into once your piercing has healed</li>
   </ul>
 
   <h2>What happens during the piercing?</h2>

@@ -9,7 +9,7 @@ import jason from '../assets/images/jason-cutout.png';
 import storeInterior from '../assets/images/store-interior.jpg';
 import beautyAisle from '../assets/images/beauty-aisle.jpg';
 import fragranceCabinets from '../assets/images/fragrance-cabinets.jpg';
-import scriptsCounter from '../assets/images/scripts-in-counter.jpg';
+import shopfront from '../assets/images/shopfront.jpg';
 import helpMedicalPhoto from '../assets/images/help-medical-reception.jpg';
 import icoVacc from '../assets/icons/vaccinations.png';
 import icoDoctor from '../assets/icons/doctor.png';
@@ -40,7 +40,7 @@ const tiles = [
 const faqs = [
   { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Shop 81 on the ground floor, north-eastern side of the centre, next to Proud Smile and near the outdoor entrance from the river. Park in the Orange car park, directly under us (Gate 7 is closest). The prescription counter is at the back of the store on the left. <a href="/visit-us/">Get directions and parking tips</a>.' },
   { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. Public holiday hours are updated on our Google listing. <a href="/visit-us/">See our full opening hours</a>.' },
-  { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk in any day we’re open, including for <a href="/flu-vaccination/">flu shots</a>, and scan the QR code at the counter to join the queue, or <a href="' + site.links.book + '" rel="noopener">book a time online</a> if you’d rather not wait.' },
+  { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk in any day we’re open, including for <a href="/flu-vaccination/">flu shots</a>, and scan the QR code at the counter to join the queue, or <a href="' + site.links.book + '" rel="noopener">book a time online</a> if you’d rather not wait. ' + site.quietTime.sentence },
   { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical is an independent general practice located inside our store, with bulk billing for eligible patients. Walk in subject to doctor availability, or <a href="/help-medical/">book a GP ahead</a>.' },
   { q: 'Can I send my prescription before I arrive?', a: 'Yes. Send your eScript through the Priceline Pharmacy app or MedAdvisor, choose Priceline Pharmacy Pacific Fair, and we’ll have it ready to collect. <a href="/prescriptions/">Send a script ahead</a>.' },
 ];
@@ -98,7 +98,7 @@ const faqs = [
         <a class="btn btn--outline" href="/about-us/">Meet the team</a>
       </div>
       <div class="band-a__find">
-        <Image src={scriptsCounter} alt="The prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist ready to take scripts" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="band-a__img" />
+        <Image src={shopfront} alt="The red Priceline Pharmacy shopfront on the ground floor of Pacific Fair, below the centre signs to JB Hi-Fi, Myer and Kmart" widths={[480, 760, 1024]} sizes="(max-width: 768px) 100vw, 520px" class="band-a__img" />
         <h3>Find us on the ground floor</h3>
         <p>{site.address.oneLine}. {site.address.floor}. {site.address.landmarks}. {site.parking.short} The Broadbeach South light rail stop is right out the front.</p>
         <div class="btn-row">

@@ -67,6 +67,11 @@ export const site = {
   } as Hours,
   hoursNote:
     'Public holiday hours are updated on our Google listing. Search "Priceline Pharmacy Pacific Fair" to check before you visit.',
+  /** Quietest time to visit (Jason, 13 Oct 2026). Shown on walk-in service pages, the visit page and llms.txt. */
+  quietTime: {
+    short: 'Weekdays, 8am to 10am',
+    sentence: 'Weekday mornings, from 8am to 10am, are usually our quietest time.',
+  },
 
   /** Help Medical — independent GP clinic inside the store (hours per Google listing, 7 Oct 2026) */
   helpMedical: {
