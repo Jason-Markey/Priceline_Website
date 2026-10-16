@@ -68,6 +68,10 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
 
 - Google: Search Console (sitemap `/sitemap-index.xml` submitted). Request indexing for new pages in URL Inspection
   (about 10 a day).
+- Bing Webmaster Tools: site added 16 Oct 2026 under jason@ (imported from Search Console). Its AI Performance
+  report shows how often Microsoft Copilot cites our pages (40 citations on 12–14 Oct, led by the PBS Safety Net article).
+- Weekly check: the scheduled task "Pharmacy website weekly check" (Tuesdays 8:48am Brisbane) reads Search Console,
+  Bing and GA4 and sends Jason a short summary. It changes nothing.
 - Bing, ChatGPT search, Copilot, DuckDuckGo: IndexNow. After every push that changes `dist/`, GitHub Actions waits for
   the deploy and sends the changed page addresses to IndexNow (`.github/workflows/indexnow.yml`, `tools/indexnow.py`).
   The key file is `public/d453aba426cec5f9df251eb8c387754c.txt`; keep it.
