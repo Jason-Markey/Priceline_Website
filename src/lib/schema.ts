@@ -3,7 +3,17 @@
  * and page types add Service / FAQPage / Article / MedicalClinic.
  * Nothing here is invented: every value comes from src/data/site.ts or the page itself.
  */
-import { site, openingHoursSpec, specialOpeningHoursSpec, upcomingSpecialHours } from '../data/site';
+import { site, openingHoursSpec, specialOpeningHoursSpec, upcomingSpecialHours, upcomingPublicHolidays } from '../data/site';
+import type { SpecialDay } from '../data/site';
+
+/** Christmas/New Year trading days plus public holidays the store is closed (Good Friday, Anzac Day), date order */
+function specialDaysForSchema(): SpecialDay[] {
+  const special = upcomingSpecialHours();
+  const closed = upcomingPublicHolidays()
+    .filter((h) => !h.open && !special.some((s) => s.date === h.date))
+    .map((h) => ({ date: h.date, note: h.name, hours: null }));
+  return [...special, ...closed].sort((a, b) => a.date.localeCompare(b.date));
+}
 import { services } from '../data/services';
 
 export const ID = {
@@ -55,8 +65,8 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
       { '@type': 'City', name: 'Gold Coast' },
     ],
     openingHoursSpecification: openingHoursSpec(site.hours),
-    // Christmas and New Year trading days still ahead at build time (left out once they've all passed)
-    specialOpeningHoursSpecification: upcomingSpecialHours().length ? specialOpeningHoursSpec(upcomingSpecialHours()) : undefined,
+    // Christmas/New Year trading days and closed public holidays still ahead at build time (left out once all passed)
+    specialOpeningHoursSpecification: specialDaysForSchema().length ? specialOpeningHoursSpec(specialDaysForSchema()) : undefined,
     parentOrganization: { '@type': 'Organization', name: 'Priceline Pharmacy', url: site.links.pricelineNational },
     brand: { '@type': 'Brand', name: 'Priceline Pharmacy' },
     employee: { '@id': ID.owner },
@@ -121,7 +131,7 @@ export function websiteNode() {
   };
 }
 
-export function webPageNode(opts: { url: string; title: string; description: string; type?: string; datePublished?: string; dateModified?: string; imageUrl?: string; mainEntityId?: string }) {
+export function webPageNode(opts: { url: string; title: string; description: string; type?: string; datePublished?: string; dateModified?: string; imageUrl?: string; mainEntityId?: string; lang?: string }) {
   return {
     '@type': opts.type ?? 'WebPage',
     '@id': `${opts.url}#webpage`,
@@ -130,7 +140,7 @@ export function webPageNode(opts: { url: string; title: string; description: str
     description: opts.description,
     isPartOf: { '@id': ID.website },
     about: { '@id': ID.pharmacy },
-    inLanguage: 'en-AU',
+    inLanguage: opts.lang ?? 'en-AU',
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
     primaryImageOfPage: opts.imageUrl ? { '@type': 'ImageObject', url: opts.imageUrl } : undefined,

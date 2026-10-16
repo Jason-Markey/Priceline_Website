@@ -1,0 +1,149 @@
+---
+/**
+ * Simplified Chinese guide for visitors buying vitamins in bulk (Jason, 16 Oct 2026).
+ * Facts mirror the English pages: visitorFacts, hours and parking come from site.ts; TRS rules from the
+ * Australian Border Force / Australian Embassy China (checked 16 Oct 2026). Brand list mirrors /vitamins-supplements/.
+ * No health claims, no testimonials. English review copy: reference-content/zh-vitamins-gold-coast-english.md
+ */
+import ContentPage from '../../layouts/ContentPage.astro';
+import { site, dayOrder, type DayKey } from '../../data/site';
+
+const path = '/zh/vitamins-gold-coast/';
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Visiting the Gold Coast', href: '/visiting-the-gold-coast/' },
+  { name: '澳洲维生素选购指南', href: path },
+];
+
+// Opening hours in Chinese, merged like the English hours card ("周一至周三 8:00–17:30")
+const zhDay: Record<DayKey, string> = { mon: '周一', tue: '周二', wed: '周三', thu: '周四', fri: '周五', sat: '周六', sun: '周日' };
+const t24 = (t: string) => t.replace(/^0/, '');
+const rows: { days: DayKey[]; value: string }[] = [];
+for (const d of dayOrder) {
+  const h = site.hours[d];
+  const value = h ? `${t24(h.open)}–${t24(h.close)}` : '休息';
+  const last = rows[rows.length - 1];
+  if (last && last.value === value) last.days.push(d);
+  else rows.push({ days: [d], value });
+}
+const zhHours = rows.map((r) => ({
+  label: r.days.length === 1 ? zhDay[r.days[0]] : `${zhDay[r.days[0]]}至${zhDay[r.days[r.days.length - 1]]}`,
+  value: r.value,
+}));
+
+const intlPhone = '+61 7 5592 2099';
+const mailSubject = encodeURIComponent('批量购买维生素咨询 Bulk vitamin enquiry');
+const mailHref = `mailto:${site.emailGeneral}?subject=${mailSubject}`;
+
+const faqs = [
+  { q: '大量购买可以打折吗？', a: '可能可以，具体视产品和数量而定。请在到店前通过电话或邮件联系我们，告诉我们想买的产品和数量。' },
+  { q: '可以帮我把维生素寄回国吗？', a: '我们可以协助安排邮寄。请提前联系我们，告诉我们产品、数量和收件地址所在的国家或城市，我们会说明可行的寄送方式和费用。包裹须符合目的地海关的规定。' },
+  { q: '买维生素可以退税吗？', a: '一般可以。如果您将在 60 天内离开澳大利亚，并在我们店累计消费满 300 澳元（含 GST），可以在机场通过旅客退税计划（TRS）申请退还 GST。付款时请索取税务发票（tax invoice），商品保持未开封并随身携带。' },
+  { q: '店里有会说中文的员工吗？', a: '我们的员工讲英语，会使用翻译软件为您服务。把产品照片或名称给我们看会更方便。' },
+  { q: '可以用银联卡或支付宝付款吗？', a: '可以使用银联卡（UnionPay）。如需使用支付宝（Alipay），请先在柜台向店员确认。' },
+  { q: '你们每天都营业吗？', a: '是的，每天营业，周四营业至晚上 9 点。公众假期营业时间可能不同；圣诞节、耶稣受难日和澳新军团日（Anzac Day）休息。' },
+];
+---
+
+<ContentPage
+  title="黄金海岸购买澳洲维生素 | 批量购买欢迎咨询 | Priceline 药房"
+  description="Priceline 药房位于黄金海岸太平洋购物中心（Pacific Fair），每天营业。大量购买维生素和保健品请提前联系我们，可能享有折扣，并可协助邮寄；满 300 澳元可申请旅客退税。"
+  path={path}
+  h1="在黄金海岸购买澳洲维生素：大量购买请先联系我们"
+  lead="Priceline 药房（太平洋购物中心店）每天营业，有多种澳洲维生素和保健品。如需为家人朋友大量购买，请提前联系我们：可能享有折扣，我们也可以协助安排邮寄。"
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  faqHeading="常见问题"
+  lang="zh-Hans"
+  dateModified="2026-10-16"
+>
+  <div class="btn-row" data-cta-location="zh_bulk">
+    <a class="btn btn--primary" href={site.phoneHref} data-event="call">致电 {site.phone}</a>
+    <a class="btn btn--secondary" href={mailHref} data-event="email">发邮件咨询</a>
+  </div>
+  <p>国际拨打：<a href={site.phoneHref}>{intlPhone}</a>　邮箱：<a href={mailHref}>{site.emailGeneral}</a></p>
+
+  <h2>大量购买怎么联系我们？</h2>
+  <p>如果您打算一次购买较多维生素或保健品，最好提前几天联系我们，方便我们备货。请在电话或邮件中告诉我们：</p>
+  <ul>
+    <li>产品名称（可以附上照片）和数量</li>
+    <li>预计到店日期</li>
+    <li>是否需要邮寄，以及收件地址所在的国家或城市</li>
+  </ul>
+  <p>批量购买可能享有折扣，具体视产品和数量而定。我们也可以协助安排邮寄，并告诉您寄送方式和费用。</p>
+
+  <h2>店里有哪些维生素和保健品？</h2>
+  <p>我们有复合维生素和单一维生素、矿物质（例如钙、镁、维生素 C、维生素 D），孕期及备孕营养素，儿童维生素，鱼油（Omega-3）和益生菌等。常见的澳洲品牌包括 Blackmores（澳佳宝）、Swisse、Nature’s Way、Nature’s Own、Bioglan、Cenovis、Ostelin、BioCeuticals、Herbs of Gold 和 Ethical Nutrients。库存会有变化，大量购买请提前确认。</p>
+
+  <h2>选购时要注意什么？</h2>
+  <ul>
+    <li><strong>看标签上的 AUST L 或 AUST R 编号。</strong>这表示产品已在澳大利亚治疗用品管理局（TGA）的登记册（ARTG）中登记，可以在澳大利亚合法销售。大多数维生素属于 AUST L（低风险的“列名”产品）。</li>
+    <li><strong>看保质期。</strong>送礼或需要存放较久的，可以选保质期较长的，我们可以帮您核对。</li>
+    <li><strong>按使用者选择。</strong>孕期、哺乳期、儿童、老人，或正在服用处方药的人，购买前请先咨询药剂师，因为有些保健品可能与药物相互作用。药剂师咨询免费，无需预约。</li>
+    <li><strong>大量购买不等于多吃。</strong>请按标签说明服用，不要超过建议剂量。</li>
+  </ul>
+
+  <h2>可以退税吗？</h2>
+  <p>如果您将在 60 天内离开澳大利亚，并在我们店累计消费满 300 澳元（含 GST，可以分几次购买），一般可以通过澳大利亚旅客退税计划（Tourist Refund Scheme，简称 TRS）在机场申请退还商品及服务税（GST）。</p>
+  <ul>
+    <li>付款时请告诉我们您需要税务发票（tax invoice）。发票金额满 1,000 澳元的，需要写上与护照一致的全名。</li>
+    <li>商品请保持未开封，并放在手提行李中随身携带，以便澳大利亚边境执法署（ABF）查验。较大的液体、喷雾或凝胶类商品可以托运，但须在办理登机手续前先给 ABF 查验。</li>
+    <li>在国际机场的 TRS 柜台办理，航班起飞前 30 分钟停止受理，请预留充足时间。可以先用 TRS 应用程序填写资料。</li>
+    <li>大多数维生素、护肤品和香水含 GST；处方药不含 GST，不能退税。</li>
+  </ul>
+  <p>具体规定以<a href="https://www.abf.gov.au/entering-and-leaving-australia/tourist-refund-scheme" rel="noopener">澳大利亚边境执法署（ABF）官网</a>为准。</p>
+
+  <h2>带回国前要注意什么？</h2>
+  <ul>
+    <li>中国海关对入境旅客携带的个人物品有限额，并要求“自用、合理数量”，超出部分可能需要缴税或被暂扣。出发前请到<a href="https://www.customs.gov.cn/" rel="noopener">中国海关官网</a>查询最新规定。</li>
+    <li>注意航空公司的行李重量和液体限制。</li>
+    <li>保留好购物发票。</li>
+  </ul>
+
+  <h2>可以买处方药吗？</h2>
+  <p>处方药需要澳大利亚医生开具的处方，海外处方不能在澳大利亚配药。店内的 <a href="/help-medical/">Help Medical</a> 是一家独立的全科诊所，可以为游客看诊（没有 Medicare 的游客需要自费），开出处方后可以在我们药房直接配药。</p>
+
+  <h2>付款和语言</h2>
+  <p>我们接受大多数国际信用卡和借记卡，包括银联卡（UnionPay）。如需使用支付宝（Alipay），请先在柜台向店员确认。我们的员工讲英语，可以使用翻译软件为您服务；把产品照片或名称给我们看会更方便。</p>
+
+  <h2>怎么找到我们？</h2>
+  <p>我们在太平洋购物中心（Pacific Fair Shopping Centre）G 层的 81 号店，位于商场东北侧、靠近河边的室外入口，紧邻 Proud Smile。</p>
+  <ul>
+    <li><strong>轻轨：</strong>乘坐 G:link 轻轨到 Broadbeach South 站，商场就在站前。</li>
+    <li><strong>自驾：</strong>停在 Orange 停车场，7 号门（Gate 7）离我们最近，每天前 4 小时免费。</li>
+    <li><strong>地址（英文，方便导航）：</strong>{site.address.oneLine}</li>
+  </ul>
+  <div class="btn-row">
+    <a class="btn btn--outline" href={site.directionsUrl} rel="noopener" data-event="directions">在 Google 地图中导航</a>
+  </div>
+
+  <h2>营业时间</h2>
+  <dl class="zh-hours">
+    {zhHours.map((r) => (
+      <div>
+        <dt>{r.label}</dt>
+        <dd>{r.value}</dd>
+      </div>
+    ))}
+  </dl>
+  <p>公众假期营业时间可能不同，请查看 Google 或致电确认。圣诞节、耶稣受难日和澳新军团日（Anzac Day）休息。<a href="/public-holiday-hours/" hreflang="en-AU">公众假期营业安排（英文）</a></p>
+
+  <p class="zh-label"><strong>请务必阅读标签并按照使用说明服用。</strong><br /><span lang="en-AU">Always read the label and follow the directions for use.</span></p>
+
+  <p class="zh-updated">更新日期：2026年10月16日</p>
+
+  <div class="zh-english" lang="en-AU">
+    <p><strong>In English:</strong> buying vitamins in bulk to take overseas? Contact us before you visit: we may be able to offer a discount and help arrange postage. Call <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>. See also our <a href="/visiting-the-gold-coast/">guide for visitors to the Gold Coast</a>.</p>
+  </div>
+</ContentPage>
+
+<style>
+  .zh-hours { margin: 0 0 var(--s4); display: grid; gap: 6px; max-width: 420px; }
+  .zh-hours > div { display: flex; justify-content: space-between; gap: var(--s4); border-bottom: 1px solid var(--hairline); padding-bottom: 6px; }
+  .zh-hours dt { font-weight: 600; color: var(--charcoal); }
+  .zh-hours dd { margin: 0; }
+  .zh-label { margin-top: var(--s8); }
+  .zh-updated { font-size: var(--fs-sm); color: var(--text-muted); }
+  .zh-english { margin: var(--s8) 0 var(--s10); padding: var(--s4) var(--s5); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+  .zh-english p { margin: 0; }
+</style>

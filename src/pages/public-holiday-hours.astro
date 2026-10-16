@@ -1,0 +1,98 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import HoursCard from '../components/HoursCard.astro';
+import { site, upcomingPublicHolidays, upcomingSpecialHours, specialRows, fmtDay, fmtRange } from '../data/site';
+
+const path = '/public-holiday-hours/';
+const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Opening hours & directions', href: '/visit-us/' }, { name: 'Public holiday hours', href: path }];
+
+// Holidays still ahead at build time (the weekly rebuild drops past dates). Confirmed hours come from specialHours.
+const holidays = upcomingPublicHolidays();
+const xmas = upcomingSpecialHours();
+const dayLabel = (date: string) => `${fmtDay(date)} ${date.slice(0, 4)}`;
+const status = (h: (typeof holidays)[number]) => (!h.open ? 'Closed' : h.hours ? fmtRange(h.hours) : 'Open, hours vary');
+const anzacMonday2027 = holidays.some((h) => h.date === '2027-04-25');
+
+// "Boxing Day (Sat 26 Dec): 8am – 6pm" for holidays with confirmed hours, so the FAQ never shows stale dates
+const confirmed = (names: string[]) =>
+  holidays
+    .filter((h) => h.open && h.hours && names.some((n) => h.name.startsWith(n)))
+    .map((h) => `${h.name} (${fmtDay(h.date)}): ${fmtRange(h.hours!)}`)
+    .join('; ');
+const boxingNewYear = confirmed(['Boxing Day', 'New Year']);
+
+const faqs = [
+  { q: 'Is the pharmacy open on public holidays?', a: `Yes, on most of them. We’re open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day. Hours vary, so check our Google listing or call us on ${site.phone} before you come in.` },
+  { q: 'Are you open on Christmas Day?', a: 'No, we’re closed on Christmas Day. For urgent medical help call 000. For health advice at any hour, call healthdirect on 1800 022 222.' },
+  {
+    q: 'Are you open on Boxing Day and New Year’s Day?',
+    a: boxingNewYear ? `Yes. ${boxingNewYear}.` : `Yes. Hours vary, so check our Google listing or call us on ${site.phone}.`,
+  },
+  { q: 'Are you open over Easter?', a: 'We’re closed on Good Friday and open on Easter Saturday, Easter Sunday and Easter Monday. Hours vary over Easter, so check our Google listing or call us before you come in.' },
+  { q: 'Are you open on Anzac Day?', a: `No, we’re closed on Anzac Day.${anzacMonday2027 ? ` In 2027 Anzac Day falls on a Sunday and Queensland’s public holiday moves to Monday 26 April; call us on ${site.phone} to check our hours that day.` : ''}` },
+  { q: 'Can I get a prescription filled on a public holiday?', a: 'Yes, on any day we’re open. Our pharmacists dispense on every day we trade, including public holidays. <a href="/prescriptions/">Send your eScript ahead</a> through the app to skip the wait.' },
+];
+---
+
+<ContentPage
+  title="Pharmacy Open on Public Holidays | Priceline Pacific Fair"
+  description="Priceline Pharmacy Pacific Fair is open on most Queensland public holidays, including Boxing Day, New Year’s Day and Easter Monday. Dates and hours."
+  path={path}
+  h1="Public holiday opening hours"
+  lead="We’re open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day. Hours vary, so check Google or call us before you come in."
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  showNap
+  dateModified="2026-10-16"
+>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
+    <a class="btn btn--secondary" href={site.links.googleBusinessProfile} rel="noopener" data-event="directions">Check hours on Google</a>
+  </div>
+
+  <h2>Which public holidays are you open?</h2>
+  <p>Here are the Queensland public holidays coming up and whether we’re open. Where we’ve confirmed our hours, they’re shown; on other public holidays our hours vary, so check our Google listing or call us on <a href={site.phoneHref}>{site.phone}</a> before you come in.</p>
+  <div class="table-wrap table-wrap--stack">
+    <table>
+      <thead>
+        <tr><th scope="col">Date</th><th scope="col">Public holiday</th><th scope="col">Priceline Pacific Fair</th></tr>
+      </thead>
+      <tbody>
+        {holidays.map((h) => (
+          <tr>
+            <td>{dayLabel(h.date)}</td>
+            <td data-label="Public holiday">{h.name}</td>
+            <td data-label="Priceline Pacific Fair">{h.open ? status(h) : <strong>Closed</strong>}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  {anzacMonday2027 && (
+    <p>In 2027 Anzac Day falls on a Sunday, so Queensland’s public holiday moves to Monday 26 April. Call us to check our hours that day.</p>
+  )}
+  <p>Our regular hours, parking and directions are on the <a href="/visit-us/">opening hours page</a>.</p>
+
+  {xmas.length > 0 && (
+    <>
+      <h2>What are your Christmas and New Year hours?</h2>
+      <p>We trade Pacific Fair’s extended Christmas hours, including late nights in the week before Christmas.</p>
+      <div class="hours-grid hours-grid--full">
+        <HoursCard heading="Christmas and New Year hours" rows={specialRows(xmas)} note="Pacific Fair’s extended trading hours. Help Medical sets its own holiday hours." />
+      </div>
+    </>
+  )}
+
+  <h2>Is Help Medical open on public holidays?</h2>
+  <p>Help Medical, an independent general practice located inside our store, sets its own holiday hours. Call the clinic on <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a> or check <a href={site.helpMedical.websiteUrl} rel="noopener">helpmedical.au</a> before you come in.</p>
+
+  <h2>Going away for a long weekend?</h2>
+  <p>Check you have enough of your regular medicines before a long weekend or holiday. If you’re running low, fill your next repeat in advance or <a href="/prescriptions/">send your eScript ahead</a> through the app. Our <a href="/travel-health-checklist/">travel health checklist</a> covers what else to pack.</p>
+
+  <h2>Need help when we’re closed?</h2>
+  <p>For urgent medical help, call 000. For health advice at any hour, call healthdirect on 1800 022 222. Gold Coast University Hospital and Robina Hospital have emergency departments.</p>
+</ContentPage>
+
+<style>
+  .hours-grid--full { margin-bottom: var(--s6); }
+</style>

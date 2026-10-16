@@ -12,6 +12,10 @@ Claude edits the file, rebuilds, checks, and pushes. The notes below tell you (o
 | What you want to change | File |
 |---|---|
 | Opening hours, phone, email, address, Help Medical hours, QML hours, booking link | `src/data/site.ts` (one place; header strip, footer, Visit page, Contact page, schema and llms.txt all read from it) |
+| Christmas/New Year trading days | `specialHours` in `src/data/site.ts` |
+| Public holidays and whether we open | `publicHolidays` in `src/data/site.ts` (feeds /public-holiday-hours/, schema and llms.txt). Add next year's Queensland dates each October |
+| Facts for overseas visitors (cards, Alipay, language, bulk orders) | `visitorFacts` in `src/data/site.ts` (visitor page, vitamins page, llms.txt) |
+| Chinese guide for visitors buying vitamins | `src/pages/zh/vitamins-gold-coast.astro`; English copy for checking in `reference-content/zh-vitamins-gold-coast-english.md` (keep the two in step) |
 | A service's name, one-line description, "At a glance" facts, price, related services | `src/data/services.ts` |
 | Menus (header, mobile drawer, footer) | `src/data/navigation.ts` |
 | Team bios and Help Medical doctors | `src/data/team.ts` |

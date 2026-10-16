@@ -68,6 +68,7 @@ export const primaryNav: NavGroup[] = [
     href: '/visit-us/',
     items: [
       { label: 'Opening hours & directions', href: '/visit-us/' },
+      { label: 'Public holiday hours', href: '/public-holiday-hours/' },
       { label: 'Contact us', href: '/contact-us/' },
       { label: 'Appointments', href: '/appointments/' },
     ],

@@ -197,6 +197,51 @@ export const specialHours: SpecialDay[] = [
   { date: '2027-01-01', note: 'New Year’s Day', hours: { open: '10:00', close: '17:00' } },
 ];
 
+/**
+ * Queensland public holidays (qld.gov.au, checked 16 Oct 2026) and whether the store trades.
+ * Jason (16 Oct 2026): closed only on Christmas Day, Good Friday and Anzac Day; open on every other public
+ * holiday, with hours that vary, so the site points people to Google or a phone call for the hours.
+ * Where a date is also in specialHours (Christmas/New Year) the confirmed hours are shown instead.
+ * Add next year's dates each October. Past dates drop off at the next build.
+ */
+export type PublicHoliday = { date: string; name: string; open: boolean };
+export const publicHolidays: PublicHoliday[] = [
+  { date: '2026-12-24', name: 'Christmas Eve (public holiday from 6pm)', open: true },
+  { date: '2026-12-25', name: 'Christmas Day', open: false },
+  { date: '2026-12-26', name: 'Boxing Day', open: true },
+  { date: '2026-12-28', name: 'Boxing Day public holiday', open: true },
+  { date: '2027-01-01', name: 'New Year’s Day', open: true },
+  { date: '2027-01-26', name: 'Australia Day', open: true },
+  { date: '2027-03-26', name: 'Good Friday', open: false },
+  { date: '2027-03-27', name: 'Easter Saturday', open: true },
+  { date: '2027-03-28', name: 'Easter Sunday', open: true },
+  { date: '2027-03-29', name: 'Easter Monday', open: true },
+  // 2027: Anzac Day is a Sunday and Queensland's public holiday moves to Monday 26 April. The holiday page
+  // asks people to call about the Monday rather than guessing the store's hours.
+  { date: '2027-04-25', name: 'Anzac Day', open: false },
+  { date: '2027-05-03', name: 'Labour Day', open: true },
+  { date: '2027-10-04', name: 'King’s Birthday', open: true },
+];
+
+/** Public holidays from today on (Brisbane), with confirmed hours where specialHours has the date */
+export function upcomingPublicHolidays(now: Date = new Date()) {
+  const today = brisbaneDate(now);
+  return publicHolidays
+    .filter((h) => h.date >= today)
+    .map((h) => {
+      const special = specialHours.find((s) => s.date === h.date);
+      return { ...h, hours: h.open ? (special ? special.hours : undefined) : null };
+    });
+}
+
+/** Facts for overseas visitors (Jason, 16 Oct 2026). Alipay isn't confirmed, so pages say to check at the counter. */
+export const visitorFacts = {
+  cards: 'UnionPay',
+  alipay: 'check at the counter',
+  language: 'Our team speaks English and is happy to use a translation app.',
+  bulkOrders: 'Buying vitamins in bulk? Contact us before you visit: we may be able to offer a discount and help arrange postage.',
+};
+
 /** Today's date in Brisbane, "YYYY-MM-DD" */
 export function brisbaneDate(d: Date = new Date()): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Australia/Brisbane', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);

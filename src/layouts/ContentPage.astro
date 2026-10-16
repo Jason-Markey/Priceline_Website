@@ -29,10 +29,11 @@ export interface Props {
   ogImage?: ImageMetadata;
   dateModified?: string;
   noindex?: boolean;
+  lang?: string;
 }
 const {
   title, description, path, h1, lead, breadcrumbs = [{ name: 'Home', href: '/' }, { name: h1, href: path }],
-  faqs = [], faqHeading, showNap = false, wide = false, schema = [], pageType, ogImage, dateModified, noindex = false,
+  faqs = [], faqHeading, showNap = false, wide = false, schema = [], pageType, ogImage, dateModified, noindex = false, lang,
 } = Astro.props;
 const allSchema = [
   ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
@@ -41,7 +42,7 @@ const allSchema = [
 const hasSide = Astro.slots.has('side');
 ---
 
-<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={allSchema} pageType={pageType} ogImage={ogImage} dateModified={dateModified} noindex={noindex}>
+<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={allSchema} pageType={pageType} ogImage={ogImage} dateModified={dateModified} noindex={noindex} lang={lang}>
   <TitleBand title={h1} lead={lead} breadcrumbs={breadcrumbs} />
   <div class:list={['container', 'content-layout', { 'content-layout--side': hasSide, 'content-layout--wide': wide }]}>
     <article class:list={[{ prose: !wide }]}>

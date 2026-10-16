@@ -1,6 +1,6 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
-import { site } from '../data/site';
+import { site, visitorFacts } from '../data/site';
 
 const path = '/visiting-the-gold-coast/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: 'Visiting the Gold Coast', href: path }];
@@ -10,6 +10,9 @@ const faqs = [
   { q: 'Do I need an appointment to see a pharmacist or a doctor?', a: 'No appointment is needed for a pharmacist; just ask at the counter. Help Medical, an independent general practice located inside our store, welcomes walk-ins subject to availability, and booking ahead at helpmedical.au is the surest way to be seen.' },
   { q: 'Can you deliver to my hotel or apartment?', a: 'Yes, for everyday health and beauty products. Order through <a href="/delivery/">Uber Eats</a> and we deliver across the Gold Coast, including Broadbeach, Surfers Paradise and Main Beach. Prescription medicines can’t be ordered through Uber Eats.' },
   { q: 'Can I get a flu or travel vaccine while I’m on holiday?', a: 'Yes. Walk in for a <a href="/vaccination-information/">vaccination</a> any day we’re open, or book a time online. Your vaccination is recorded on the Australian Immunisation Register.' },
+  { q: 'Can I claim the GST back on what I buy here?', a: 'Often, yes. If you’re leaving Australia within 60 days and spend AU$300 or more (GST included) with us, you can claim the GST back at the airport through the Tourist Refund Scheme. Ask for a tax invoice when you pay. Prescription medicines don’t include GST, so they can’t be claimed.' },
+  { q: 'Do you accept UnionPay or Alipay?', a: `We accept most international cards, including ${visitorFacts.cards}. If you’d like to pay with Alipay, please ${visitorFacts.alipay} first.` },
+  { q: 'Can I buy vitamins in bulk to take home?', a: `Yes. Contact us before you visit with the products and quantities you’re after, on ${site.phone} or <a href="mailto:${site.emailGeneral}">${site.emailGeneral}</a>. We may be able to offer a discount and help arrange postage.` },
   { q: 'What if I need help outside your opening hours?', a: 'For urgent medical help call 000. For health advice, call healthdirect on 1800 022 222 (24 hours). Gold Coast University Hospital and Robina Hospital have emergency departments.' },
 ];
 ---
@@ -23,7 +26,7 @@ const faqs = [
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   showNap
-  dateModified="2026-10-07"
+  dateModified="2026-10-16"
 >
   <div class="btn-row">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
@@ -31,11 +34,22 @@ const faqs = [
   </div>
 
   <h2>Forgot your medicine or ran out?</h2>
-  <p>Bring us your <a href="/prescriptions/">prescription</a>, show us your eScript on your phone, or ask your doctor at home to send an eScript to your phone. Scripts from any Australian state can be filled here. If you have repeats on file at your usual pharmacy, we can often arrange a transfer; call us and we’ll explain what’s needed.</p>
+  <p>Bring us your <a href="/prescriptions/">prescription</a>, show us your eScript on your phone, or ask your doctor at home to send an eScript to your phone. Scripts from any Australian state can be filled here. If you have repeats on file at your usual pharmacy, we can often arrange a transfer; call us and we’ll explain what’s needed, or see <a href="/transfer-prescriptions-new-pharmacy/">how to move your scripts to another pharmacy</a>.</p>
   <p>If you’ve run out and have no script, a GP at <a href="/help-medical/">Help Medical</a>, inside our store, can assess you and write a new prescription if appropriate, which we can fill a few steps away.</p>
 
   <h2>Visiting from overseas?</h2>
   <p>Overseas prescriptions can’t be dispensed in Australia, but it’s usually a quick fix: see a GP at Help Medical, inside our store, with your medicine or its packaging. Many common medicines are available here under a different brand name, and our pharmacists can help you match them. Travel insurance may cover the consultation; keep your receipts.</p>
+
+  <h2>Can I claim the GST back on what I buy?</h2>
+  <p>If you’re leaving Australia within 60 days, you can usually claim the GST back through the Tourist Refund Scheme (TRS) when you spend AU$300 or more (GST included) in our store, in one purchase or several. Ask us for a tax invoice when you pay. For purchases of $1,000 or more, the invoice needs your full name as it appears on your passport.</p>
+  <p>Keep the goods unopened and carry them in your hand luggage. Larger liquids, aerosols and gels can go in checked luggage, but show them to the Australian Border Force before you check in. Make your claim at the TRS counter at the airport; claims close 30 minutes before departure. Most vitamins, skincare and fragrance include GST, while prescription medicines don’t. The full rules are on the <a href="https://www.abf.gov.au/entering-and-leaving-australia/tourist-refund-scheme" rel="noopener">Australian Border Force website</a>.</p>
+
+  <h2>Do you accept UnionPay or Alipay?</h2>
+  <p>We accept most international credit and debit cards, including {visitorFacts.cards}. If you’d like to pay with Alipay, please {visitorFacts.alipay} first. {visitorFacts.language} Showing us a photo of the product, or its name on your phone, helps.</p>
+
+  <h2>Buying vitamins in bulk to take home?</h2>
+  <p>Many visitors stock up on Australian vitamins and supplements for family back home. If you’re planning to buy in larger quantities, contact us before you visit: we may be able to offer a discount and help arrange postage. Call <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a> with the products and quantities you’re after. Our pharmacists can also check that a supplement suits the person who’ll be taking it. Always read the label and follow the directions for use.</p>
+  <p lang="zh-Hans"><a href="/zh/vitamins-gold-coast/" hreflang="zh-Hans">中文指南：在黄金海岸购买澳洲维生素，大量购买请先联系我们</a></p>
 
   <h2>Feeling unwell on holiday?</h2>
   <p>Ask our pharmacists first. We can help with colds, hayfever, upset stomachs, insect bites, minor cuts and sunburn, and tell you straight away if you should see a doctor. Help Medical offers bulk billing for eligible Medicare card holders and welcomes walk-ins; visitors without Medicare pay a private fee. For urgent problems, call 000.</p>

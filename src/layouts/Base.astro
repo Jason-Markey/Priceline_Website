@@ -29,9 +29,12 @@ export interface Props {
   dateModified?: string;
   noindex?: boolean;
   actionBar?: boolean;
+  /** Page language (BCP 47). Default en-AU; the Chinese visitor guide uses zh-Hans. */
+  lang?: string;
 }
 
-const { title, description, path, ogImage, breadcrumbs, schema = [], pageType, datePublished, dateModified, noindex = false, actionBar = true } = Astro.props;
+const { title, description, path, ogImage, breadcrumbs, schema = [], pageType, datePublished, dateModified, noindex = false, actionBar = true, lang = 'en-AU' } = Astro.props;
+const ogLocale = lang.startsWith('zh') ? 'zh_CN' : 'en_AU';
 const canonical = `${site.url}${path}`;
 const og = await getImage({ src: ogImage ?? storeImg, width: 1200, height: 630, format: 'jpg', fit: 'cover' });
 const ogUrl = `${site.url}${og.src}`;
@@ -54,7 +57,7 @@ const graph = clean([
   pharmacyNode(`${site.url}${logoImg.src}`, ogUrl),
   ownerNode(`${site.url}${jason.src}`),
   websiteNode(),
-  webPageNode({ url: canonical, title, description, type: pageType, datePublished, dateModified, imageUrl: ogUrl, mainEntityId }),
+  webPageNode({ url: canonical, title, description, type: pageType, datePublished, dateModified, imageUrl: ogUrl, mainEntityId, lang }),
   ...(breadcrumbs && breadcrumbs.length > 1 ? [breadcrumbNode(breadcrumbs)] : []),
   ...withImage,
 ]);
@@ -72,7 +75,7 @@ const contentGroup =
 ---
 
 <!doctype html>
-<html lang="en-AU">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -89,7 +92,7 @@ const contentGroup =
     <link rel="alternate" type="application/rss+xml" title={`${site.name} advice`} href="/rss.xml" />
 
     <meta property="og:site_name" content={site.name} />
-    <meta property="og:locale" content="en_AU" />
+    <meta property="og:locale" content={ogLocale} />
     <meta property="og:type" content={pageType === 'Article' ? 'article' : 'website'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

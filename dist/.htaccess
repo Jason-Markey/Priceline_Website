@@ -36,6 +36,8 @@ RewriteRule ^vaccination-2/?$ /vaccination-information/ [R=301,L]
 RewriteRule ^help-medical/dr-tariq-islam-1/?$ /help-medical/ [R=301,L]
 RewriteRule ^download-the-priceline-app/[0-9a-f]+/?$ /download-the-priceline-app/ [R=301,L]
 RewriteRule ^scholl-wet-and-dry-foot-file/?$ /dry-skin-remedies/ [R=301,L]
+# Search Console 404 report, 16 Oct 2026
+RewriteRule ^contact/?$ /contact-us/ [R=301,L]
 
 # --- WordPress leftovers: taxonomy, feeds, author, paging, search, attachments ---
 RewriteRule ^tag/.*$ /health-blog/ [R=301,L]

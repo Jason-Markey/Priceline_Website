@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getLiveArticles } from '../lib/articles';
-import { site, hoursRows, fmtTime, upcomingSpecialHours, specialRows } from '../data/site';
+import { site, hoursRows, fmtTime, upcomingSpecialHours, specialRows, visitorFacts } from '../data/site';
 import { services } from '../data/services';
 import { categories } from '../data/categories';
 
@@ -35,7 +35,8 @@ export const GET: APIRoute = async () => {
     `- Address: ${site.address.oneLine}`,
     `- Phone: ${site.phone}`,
     `- Email: ${site.emailGeneral} (general), ${site.emailPharmacy} (prescriptions)`,
-    `- Opening hours: ${hours}. Public holiday hours are published on the Google Business Profile.`,
+    `- Opening hours: ${hours}. Open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day; public holiday hours vary and are published on the Google Business Profile (dates: ${site.url}/public-holiday-hours/).`,
+    `- Overseas visitors: most international cards accepted, including ${visitorFacts.cards} (for Alipay, ${visitorFacts.alipay}). GST can usually be claimed back through the Tourist Refund Scheme on purchases of AU$300 or more (GST included) made within 60 days of leaving Australia. ${visitorFacts.bulkOrders} Staff speak English and use a translation app.`,
     ...(xmas.length ? [`- Christmas and New Year hours: ${specialRows(xmas).map((r) => `${r.label} ${r.value}`).join('; ')}.`] : []),
     `- Owner and pharmacist: ${site.reviewer.name}, ${site.reviewer.credentials}. Independently owned Priceline Pharmacy franchise store, opened 2009.`,
     `- Book online: ${site.links.book}`,
@@ -47,6 +48,8 @@ export const GET: APIRoute = async () => {
     '',
     '## Key pages',
     `- [Opening hours and directions](${site.url}/visit-us/)`,
+    `- [Public holiday hours](${site.url}/public-holiday-hours/)`,
+    `- [Guide in Simplified Chinese for visitors buying vitamins in bulk (澳洲维生素选购指南)](${site.url}/zh/vitamins-gold-coast/)`,
     `- [Contact](${site.url}/contact-us/)`,
     `- [About the pharmacy and team](${site.url}/about-us/)`,
     `- [Frequently asked questions](${site.url}/frequently-asked-questions/)`,

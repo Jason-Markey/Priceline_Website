@@ -36,7 +36,7 @@ const faqs = [
   faqs={faqs}
   showNap
   ogImage={shopfront}
-  dateModified="2026-10-13"
+  dateModified="2026-10-16"
 >
   <div class="btn-row">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
@@ -46,14 +46,14 @@ const faqs = [
 
   <h2>Opening hours</h2>
   <div class="hours-grid">
-    <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note={xmas.length ? 'Christmas and New Year hours are below. Other public holiday hours are updated on our Google listing.' : 'Public holiday hours (for example Christmas and Easter) are always updated on our Google listing. Search “Priceline Pharmacy Pacific Fair” to check before you visit.'} />
-    <HoursCard heading="Help Medical (GPs inside our store)" hours={site.helpMedical.hours} note={`Independent general practice. Bookings at helpmedical.au or ${site.helpMedical.phone}.`} />
+    <HoursCard heading="Priceline Pharmacy Pacific Fair" hours={site.hours} note={xmas.length ? 'Christmas and New Year hours are below. Other public holiday hours are updated on our Google listing.' : 'Public holiday hours (for example Christmas and Easter) are always updated on our Google listing. Search “Priceline Pharmacy Pacific Fair” to check before you visit.'} />    <HoursCard heading="Help Medical (GPs inside our store)" hours={site.helpMedical.hours} note={`Independent general practice. Bookings at helpmedical.au or ${site.helpMedical.phone}.`} />
   </div>
   {xmas.length > 0 && (
     <div class="hours-grid hours-grid--full">
       <HoursCard id="christmas-hours" heading="Christmas and New Year hours" rows={specialRows(xmas)} note="Pacific Fair’s extended trading hours. Help Medical sets its own holiday hours." />
     </div>
   )}
+  <p>We’re open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day. See <a href="/public-holiday-hours/">public holiday hours</a> for the dates.</p>
   <p>{site.quietTime.sentence}</p>
   <p>QML Pathology collection, inside Help Medical: {site.pathology.hoursText} <a href="/help-medical/">More about Help Medical and pathology</a>.</p>
 

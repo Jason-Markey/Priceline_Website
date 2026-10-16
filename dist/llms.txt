@@ -1,6 +1,6 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 13 October 2026
+Last updated: 16 October 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
@@ -20,7 +20,8 @@ Last updated: 13 October 2026
 - Address: Shop 81, Pacific Fair Shopping Centre, Hooker Blvd, Broadbeach QLD 4218
 - Phone: (07) 5592 2099
 - Email: info@pricelinepf.com.au (general), pharmacy@pricelinepf.com.au (prescriptions)
-- Opening hours: Monday to Wednesday: 8am – 5:30pm; Thursday: 8am – 9pm; Friday: 8am – 5:30pm; Saturday: 9am – 5:30pm; Sunday: 9:30am – 4:30pm. Public holiday hours are published on the Google Business Profile.
+- Opening hours: Monday to Wednesday: 8am – 5:30pm; Thursday: 8am – 9pm; Friday: 8am – 5:30pm; Saturday: 9am – 5:30pm; Sunday: 9:30am – 4:30pm. Open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day; public holiday hours vary and are published on the Google Business Profile (dates: https://pricelinepacificfair.com.au/public-holiday-hours/).
+- Overseas visitors: most international cards accepted, including UnionPay (for Alipay, check at the counter). GST can usually be claimed back through the Tourist Refund Scheme on purchases of AU$300 or more (GST included) made within 60 days of leaving Australia. Buying vitamins in bulk? Contact us before you visit: we may be able to offer a discount and help arrange postage. Staff speak English and use a translation app.
 - Christmas and New Year hours: Fri 27 Nov (Black Friday) 8am – 7pm; Fri 18 Dec 8am – 7pm; Sat 19 Dec 9am – 7pm; Sun 20 Dec 9am – 6pm; Mon 21 Dec 8am – 9pm; Tue 22 Dec 8am – 9pm; Wed 23 Dec 8am – midnight; Thu 24 Dec (Christmas Eve) 8am – 6pm; Fri 25 Dec (Christmas Day) Closed; Sat 26 Dec (Boxing Day) 8am – 6pm; Sun 27 Dec 9am – 6pm; Mon 28 Dec (public holiday) 10am – 5pm; Tue 29 Dec 8am – 5:30pm; Wed 30 Dec 8am – 5:30pm; Thu 31 Dec (New Year’s Eve) 8am – 9pm; Fri 1 Jan (New Year’s Day) 10am – 5pm.
 - Owner and pharmacist: Jason Markey, BPharmSci, MPharm. Independently owned Priceline Pharmacy franchise store, opened 2009.
 - Book online: https://app.medadvisor.com.au/Network/PRICELINEPHARMACYPACIFICFAIR
@@ -56,6 +57,8 @@ Last updated: 13 October 2026
 
 ## Key pages
 - [Opening hours and directions](https://pricelinepacificfair.com.au/visit-us/)
+- [Public holiday hours](https://pricelinepacificfair.com.au/public-holiday-hours/)
+- [Guide in Simplified Chinese for visitors buying vitamins in bulk (澳洲维生素选购指南)](https://pricelinepacificfair.com.au/zh/vitamins-gold-coast/)
 - [Contact](https://pricelinepacificfair.com.au/contact-us/)
 - [About the pharmacy and team](https://pricelinepacificfair.com.au/about-us/)
 - [Frequently asked questions](https://pricelinepacificfair.com.au/frequently-asked-questions/)
@@ -122,6 +125,7 @@ Last updated: 13 October 2026
 - [Generic vs brand-name medicines: are they the same?](https://pricelinepacificfair.com.au/generic-vs-brand-medicines/): Are generic medicines the same as brand? How the TGA checks them, why they look different, the PBS brand premium and how to ask. Ask our Broadbeach team.
 - [How to get rid of old medicines safely (free at the pharmacy)](https://pricelinepacificfair.com.au/how-to-dispose-of-old-medicines/): How to dispose of old medicines in Australia for free: what pharmacies accept, what to do with sharps and how to check expiry dates. Ask our Broadbeach team.
 - [How to help an ageing parent manage their medicines](https://pricelinepacificfair.com.au/help-elderly-parent-with-medication/): Visiting Mum or Dad over the holidays? How to help an elderly parent with medication: warning signs, medicines lists, packs, reviews and safe disposal.
+- [How to move your prescriptions to a new pharmacy](https://pricelinepacificfair.com.au/transfer-prescriptions-new-pharmacy/): Moving scripts to a new pharmacy is free. How to bring across eScripts, your Active Script List, paper repeats and your PBS Safety Net record, step by step.
 - [PBS Safety Net 2026: thresholds, tracking and what you pay after](https://pricelinepacificfair.com.au/pbs-safety-net-explained/): PBS Safety Net 2026 explained: the $1,748.20 and $277.20 thresholds, tracking family scripts and what you pay once you reach it. Ask our Broadbeach team.
 - [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): What can pharmacists prescribe in Queensland? UTIs, the pill, reflux, skin and ear infections, who's eligible and what it costs. Ask our Broadbeach team.
 
