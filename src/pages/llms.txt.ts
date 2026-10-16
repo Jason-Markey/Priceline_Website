@@ -28,6 +28,7 @@ export const GET: APIRoute = async () => {
     `- UTI treatment: ${svc('uti-treatment').atAGlance.booking} For ${svc('uti-treatment').atAGlance.who.charAt(0).toLowerCase()}${svc('uti-treatment').atAGlance.who.slice(1)}`,
     '- Parking: 4 hours of free parking at Pacific Fair each day.',
     `- Delivery: ${svc('delivery').atAGlance.what} ${svc('delivery').atAGlance.who.replace(/^Anyone on the Gold Coast\. /, '')}`,
+    `- Send scripts ahead: email the eScript link or QR code to ${site.emailPharmacy} (checked throughout the day while the store is open), or send it through MedAdvisor or the Priceline Pharmacy app. Paper prescriptions must be brought in.`,
     `- Late night: open until ${fmtTime(site.hours.thu!.close)} on Thursdays.`,
     `- Quietest time: ${site.quietTime.short.charAt(0).toLowerCase()}${site.quietTime.short.slice(1)} (walk-ins are welcome any time).`,
     `- Help Medical: ${site.helpMedical.relationship.charAt(0).toUpperCase()}${site.helpMedical.relationship.slice(1)}, with a QML Pathology collection room open ${site.pathology.hoursText}`,

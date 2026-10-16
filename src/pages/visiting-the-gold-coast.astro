@@ -5,7 +5,7 @@ import { site, visitorFacts } from '../data/site';
 const path = '/visiting-the-gold-coast/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: 'Visiting the Gold Coast', href: path }];
 const faqs = [
-  { q: 'Can I fill my prescription from another state at your pharmacy?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be dispensed here. Bring your Medicare card if you have one so PBS pricing applies, or send your eScript ahead through the app.' },
+  { q: 'Can I fill my prescription from another state at your pharmacy?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be dispensed here. Bring your Medicare card if you have one so PBS pricing applies, or email your eScript to ' + site.emailPharmacy + ' ahead of time.' },
   { q: 'I’m visiting from overseas. Can you fill my prescription?', a: 'Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate. Bring your medicine or its packaging so the doctor can see exactly what you take.' },
   { q: 'Do I need an appointment to see a pharmacist or a doctor?', a: 'No appointment is needed for a pharmacist; just ask at the counter. Help Medical, an independent general practice located inside our store, welcomes walk-ins subject to availability, and booking ahead at helpmedical.au is the surest way to be seen.' },
   { q: 'Can you deliver to my hotel or apartment?', a: 'Yes, for everyday health and beauty products. Order through <a href="/delivery/">Uber Eats</a> and we deliver across the Gold Coast, including Broadbeach, Surfers Paradise and Main Beach. Prescription medicines can’t be ordered through Uber Eats.' },
@@ -34,7 +34,7 @@ const faqs = [
   </div>
 
   <h2>Forgot your medicine or ran out?</h2>
-  <p>Bring us your <a href="/prescriptions/">prescription</a>, show us your eScript on your phone, or ask your doctor at home to send an eScript to your phone. Scripts from any Australian state can be filled here. If you have repeats on file at your usual pharmacy, we can often arrange a transfer; call us and we’ll explain what’s needed, or see <a href="/transfer-prescriptions-new-pharmacy/">how to move your scripts to another pharmacy</a>.</p>
+  <p>Bring us your <a href="/prescriptions/">prescription</a>, show us your eScript on your phone, or ask your doctor at home to send an eScript to your phone and email it to us at <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a>. Scripts from any Australian state can be filled here. If you have repeats on file at your usual pharmacy, we can often arrange a transfer; call us and we’ll explain what’s needed, or see <a href="/transfer-prescriptions-new-pharmacy/">how to move your scripts to another pharmacy</a>.</p>
   <p>If you’ve run out and have no script, a GP at <a href="/help-medical/">Help Medical</a>, inside our store, can assess you and write a new prescription if appropriate, which we can fill a few steps away.</p>
 
   <h2>Visiting from overseas?</h2>

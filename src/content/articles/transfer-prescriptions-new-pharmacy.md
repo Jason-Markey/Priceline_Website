@@ -26,7 +26,7 @@ Moving your prescriptions to a new pharmacy is free, and you don't need your doc
 
 | What you have | What to do |
 | --- | --- |
-| eScript tokens on your phone | Nothing. Show them to us, or send them ahead through the app. |
+| eScript tokens on your phone | Nothing. Show them to us, or send them ahead by email or through the app. |
 | An Active Script List | Give us your consent in store and we can see your current eScripts. |
 | eScript tokens your old pharmacy holds for you | Ask them to send the tokens to your phone. |
 | Paper repeats on file at your old pharmacy | Ask for them back, then bring them in. |
@@ -40,7 +40,7 @@ Moving your prescriptions to a new pharmacy is free, and you don't need your doc
 3. **Gather your eScripts.** Find the tokens in your SMS or email. If your old pharmacy has been holding tokens for you, ask them to send the tokens to your phone.
 4. **Ask for this year's PBS record.** Your spending on PBS medicines counts towards the [PBS Safety Net](/pbs-safety-net-explained/). Ask your old pharmacy for a printout of what you've spent this calendar year, or keep track yourself on the Services Australia form PB240.
 5. **Bring your cards.** Bring your Medicare card and any concession, health care or DVA card, so the right PBS price applies.
-6. **Bring it all in, or send it ahead.** Hand everything over at the prescription counter at the back of the store, or send your eScripts ahead through the app so they're ready when you arrive.
+6. **Bring it all in, or send it ahead.** Hand everything over at the prescription counter at the back of the store, or email your eScripts to pharmacy@pricelinepf.com.au (or send them through the app) so they're ready when you arrive.
 
 ## What about my Active Script List?
 
@@ -80,4 +80,4 @@ Yes. Prescriptions from any Australian state can be filled here. See our [guide 
 
 Talk to your pharmacist if you're not sure which repeats you have left, if your list of medicines has changed, or if you take several medicines and would like them checked. See your GP if a script has run out or your medicines need reviewing. Never stop a regular medicine because you're between pharmacies: ask us about your options the same day. In an emergency, call 000.
 
-Ready to switch? Bring your scripts to the prescription counter at the back of the store, or [send your eScript ahead](/prescriptions/) through the app.
+Ready to switch? Bring your scripts to the prescription counter at the back of the store, or [send your eScript ahead](/prescriptions/) by email or through the app.

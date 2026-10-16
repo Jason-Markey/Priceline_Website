@@ -44,7 +44,7 @@ export const services: Service[] = [
       cost: 'PBS and private prices apply to the medicine. No fee for dispensing or for sending your script ahead.',
       time: 'Most scripts are ready in minutes. Send it ahead and collect when it suits you.',
       booking: 'No appointment needed.',
-      howToBook: 'Send your eScript through the Priceline Pharmacy app or MedAdvisor, or bring it to the prescription counter at the back of the store.',
+      howToBook: 'Email your eScript to pharmacy@pricelinepf.com.au, send it through the Priceline Pharmacy app or MedAdvisor, or bring it to the prescription counter at the back of the store.',
     },
     related: ['download-the-priceline-app', 'medication-packing', 'medication-reviews', 'help-medical'],
   },
@@ -203,7 +203,7 @@ export const services: Service[] = [
   {
     slug: 'download-the-priceline-app',
     name: 'Priceline Pharmacy app',
-    short: 'Order scripts ahead, get reminders and manage your Sister Club rewards.',
+    short: 'Order scripts ahead, get reminders and manage your Pulse Rewards.',
     group: 'pharmacy',
     icon: 'priceline-app',
     atAGlance: {
