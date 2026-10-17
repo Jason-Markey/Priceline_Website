@@ -12,6 +12,7 @@ const faqs = [
   { q: 'Can you fill a prescription written overseas?', a: 'No. Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate, and we can fill it a few steps away.' },
   { q: 'Do you dispense veterinary prescriptions?', a: 'Yes. Bring in your pet’s script from your vet and we’ll dispense it where the medicine is one we can supply or order in.' },
   { q: 'Can you order in a medicine you don’t have?', a: 'Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on ' + site.phone + ' with the details and we’ll tell you how quickly we can get it in.' },
+  { q: 'Do you compound medicines?', a: 'No. We don’t compound medicines, which means making up a medicine specially for one person, such as a cream or liquid in a strength that isn’t made commercially. If your doctor prescribes a compounded medicine, you’ll need to take your script to a compounding pharmacy.' },
   { q: 'Do you deliver prescriptions?', a: 'We don’t offer a regular prescription delivery service, and prescription medicines can’t be ordered through Uber Eats. In an urgent situation, call us: if a team member is available we may be able to arrange a delivery for a fee, but we can’t promise it.' },
 ];
 ---
@@ -25,7 +26,7 @@ const faqs = [
   faqs={faqs}
   primaryCta={{ label: 'Email your eScript', href: `mailto:${site.emailPharmacy}?subject=${encodeURIComponent('eScript to fill')}`, event: 'cta_send_script' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-16"
+  dateModified="2026-10-17"
 >
   <div class="btn-row" data-cta-location="app_links">
     <a class="btn btn--outline btn--sm" href={site.links.appIos} rel="noopener" data-event="cta_app_download">Get the app (iPhone)</a>

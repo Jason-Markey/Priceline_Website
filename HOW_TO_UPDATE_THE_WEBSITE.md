@@ -39,6 +39,9 @@ Rules that must hold on every page (the build check enforces most of them):
 - No prices for medicines or vaccines (Jason, 16 Oct 2026); say "you'll see the price when you book".
 - Vaccines: anything free under the NIP or a Queensland Government program is given completely free, with no fee.
   We don't give rabies, dengue or yellow fever vaccines (Jason, 17 Oct 2026). Vaccine brand names are blocked words.
+- We don't compound medicines (Jason, 17 Oct 2026).
+- Australian Padel Shop: customers can pick up their online orders in store. Mention it only in the padel article,
+  never on the homepage, in the menus or on service pages (Jason, 17 Oct 2026).
 
 ## Build and publish (what Claude does, or you can do locally)
 

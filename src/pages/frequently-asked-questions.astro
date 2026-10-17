@@ -15,6 +15,7 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
       { q: 'How do I send my eScript before I arrive?', a: 'Use the MedAdvisor app or the Priceline Pharmacy app. Add your eScript by pasting the token link or scanning the QR code, choose Priceline Pharmacy Pacific Fair, and submit. Or just show us the QR code at the prescription counter. <a href="/prescriptions/">More about prescriptions</a>.' },
       { q: 'Can you register me for an Active Script List?', a: 'Yes. Once you’re set up, we can find your current eScripts whenever you visit, so you don’t need to keep track of individual tokens. Ask at the prescription counter and we’ll register you in store.' },
       { q: 'Can you order in a medicine you don’t have in stock?', a: `Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on <a href="${site.phoneHref}">${site.phone}</a> with your prescription details and we’ll let you know how quickly we can get it in.` },
+      { q: 'Do you compound medicines?', a: 'No. We don’t compound (specially make) medicines at Priceline Pharmacy Pacific Fair. If your doctor prescribes a compounded medicine, you’ll need to take your script to a compounding pharmacy.' },
       { q: 'Can you fill a prescription from my vet?', a: 'Yes. Bring in the script from your vet and we’ll dispense it where the medicine is one we can supply or order in. Call us first if you’d like to check.' },
       { q: 'How do I get rid of expired or unwanted medicines?', a: 'Bring them to us. We take back expired and unwanted medicines for free disposal through the national Return Unwanted Medicines program. Please don’t put medicines in the bin, down the sink or in the toilet.' },
     ],
@@ -77,7 +78,7 @@ const flat = groups.flatMap((g) => g.items.map((f) => ({ q: f.q, a: f.a.replace(
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'FAQs', href: '/frequently-asked-questions/' }]}
   schema={[faqNode(flat)]}
   showNap
-  dateModified="2026-10-07"
+  dateModified="2026-10-17"
 >
   <p>Can’t find your question below? Call us on <a href={site.phoneHref}>{site.phone}</a>, <a href="/contact-us/">send us an email</a>, or ask at the counter.</p>
 
