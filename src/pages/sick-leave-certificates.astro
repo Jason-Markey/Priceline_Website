@@ -1,0 +1,63 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('sick-leave-certificates')!;
+
+const faqs = [
+  { q: 'Can a pharmacist give me a medical certificate?', a: 'Not a doctor’s medical certificate, but a pharmacist can give you an absence from work certificate, which many people call a medical certificate, for some short absences caused by a minor illness they can assess. Walk in on the day you’re unwell and ask for a pharmacist.' },
+  { q: 'Will my employer accept a pharmacist’s certificate?', a: 'Often, but check first. A pharmacist’s certificate is one form of evidence. The Fair Work Ombudsman says evidence for sick or carer’s leave has to convince a reasonable person, and there are no strict rules on the type of evidence. Some awards and workplace agreements set their own rules, so check with your employer if you’re not sure.' },
+  { q: 'Can you backdate a certificate?', a: 'No. A pharmacist’s certificate can’t be backdated. It can only cover time from the day we see you, so come in on the day you’re unwell.' },
+  { q: 'Can I get a certificate to look after my sick child?', a: 'Yes, for carer’s leave, as long as the person who is unwell comes in with you. The pharmacist needs to assess them, not you.' },
+  { q: 'How many days can a certificate cover?', a: 'Only short absences. If you think you’ll need more than a day or two off, or you’re getting worse, see a GP. Help Medical, an independent general practice located inside our store, can help.' },
+  { q: 'Can I use it for uni, TAFE or a school assessment?', a: 'Check first. Some institutions don’t accept pharmacist certificates for missed exams or assessments, including Bond University and TAFE Queensland for higher education courses. A certificate from a GP is the safer choice for assessments.' },
+  { q: 'Can I get one over the phone?', a: 'No. The pharmacist needs to see you in person, in our private consultation area.' },
+  { q: 'Do I need to book?', a: 'No. Walk in any day we’re open and ask for a pharmacist at the prescription counter. Bring photo ID.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Pharmacist Sick Leave Certificates | Priceline Pacific Fair"
+  description="Too sick for work? Our Pacific Fair pharmacists can assess minor illnesses and, if suitable, give you an absence from work certificate. Walk in, no booking."
+  h1="Sick leave certificates at Pacific Fair"
+  lead="If a minor illness means you can’t work today, a pharmacist at Priceline Pharmacy Pacific Fair in Broadbeach can assess you and, if suitable, give you an absence from work certificate, often called a medical certificate. Walk in on the day you’re unwell, with no booking needed. A consultation fee applies. For carer’s leave, bring the person who is unwell with you."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
+  secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
+  dateModified="2026-10-17"
+>
+  <h2>Who can get a certificate from a pharmacist?</h2>
+  <p>Pharmacists can issue certificates for short absences caused by minor, short-term illnesses they can assess, such as a cold, flu-like symptoms or a stomach bug. Our pharmacist will talk with you in private about your symptoms, then decide whether a certificate is appropriate. Certificates are issued at the pharmacist’s discretion.</p>
+  <p>A certificate can cover:</p>
+  <ul>
+    <li><strong>Personal leave</strong>, when you’re too unwell to work.</li>
+    <li><strong>Carer’s leave</strong>, when you need to look after a member of your immediate family or household who is unwell. They need to come in with you so the pharmacist can see them.</li>
+  </ul>
+
+  <h2>What can’t a pharmacist’s certificate cover?</h2>
+  <ul>
+    <li><strong>Backdating.</strong> We can’t write a certificate for days before we saw you, so come in on the day you’re unwell.</li>
+    <li><strong>Longer absences.</strong> Pharmacist certificates are for short periods only. If you’re likely to need more time off, see a GP.</li>
+    <li><strong>Injuries at work.</strong> A WorkCover claim needs a work capacity certificate from a doctor (or, for some injuries, a nurse practitioner or dentist).</li>
+    <li><strong>Fitness to return to work</strong>, or extending a certificate a doctor has already given you.</li>
+    <li><strong>Pregnancy-related, compassionate or bereavement leave.</strong></li>
+    <li><strong>Anything outside a pharmacist’s scope.</strong> If your symptoms need a doctor, we’ll tell you and point you to one.</li>
+  </ul>
+
+  <h2>Will my employer accept it?</h2>
+  <p>Under the Fair Work Act, your employer can ask for evidence when you take sick or carer’s leave. The Fair Work Ombudsman says the evidence has to convince a reasonable person, and that medical certificates and statutory declarations are examples of what’s acceptable. Some awards and workplace agreements set out what evidence they need, so check with your employer if you’re unsure.</p>
+  <p>Studying? Uni, TAFE and school assessments often have their own rules. Some, including Bond University and TAFE Queensland for higher education courses, don’t accept certificates from pharmacists, so see a GP for those.</p>
+
+  <h2>How does it work?</h2>
+  <ol>
+    <li><strong>Walk in.</strong> Come in on the day you’re unwell and ask for a pharmacist at the prescription counter. No booking needed.</li>
+    <li><strong>A private chat.</strong> The pharmacist asks about your symptoms and health in our private consultation area.</li>
+    <li><strong>Your certificate.</strong> If it’s appropriate, you’ll get a certificate showing the date we saw you and the dates you’re unfit for work. We’ll also give you advice on treating your symptoms.</li>
+  </ol>
+  <p>Bring photo ID. There’s a fee for the consultation and certificate; ask us in store.</p>
+
+  <h2>When should I see a GP instead?</h2>
+  <p>See a GP if your symptoms are severe or getting worse, if you’ve been unwell for more than a few days, if you have a long-term condition that’s flaring up, if you’ve been injured, or if you need a certificate for a longer absence or an assessment. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you. In an emergency, call 000.</p>
+</ServicePage>

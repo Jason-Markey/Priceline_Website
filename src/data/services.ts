@@ -247,6 +247,20 @@ export const services: Service[] = [
     related: ['womens-health', 'hormonal-contraceptive-pill', 'help-medical'],
   },
   {
+    slug: 'sick-leave-certificates',
+    name: 'Sick leave certificates',
+    short: 'Absence from work certificates for minor, short-term illnesses, after a private chat with a pharmacist.',
+    group: 'health',
+    atAGlance: {
+      what: 'A certificate for a short absence from work because of a minor illness, or to care for someone who is unwell, issued by a pharmacist after a private consultation.',
+      who: 'People with a minor, short-term illness that a pharmacist can assess. For carer’s leave, the person who is unwell needs to come in too.',
+      cost: 'A consultation fee applies. Ask us in store.',
+      booking: 'No booking needed. Walk in on the day you’re unwell.',
+      howToBook: 'Come in and ask for a pharmacist at the prescription counter. Bring photo ID.',
+    },
+    related: ['help-medical', 'uti-treatment', 'prescriptions'],
+  },
+  {
     slug: 'emergency-contraception',
     name: 'Emergency contraception',
     short: 'Available from our pharmacists without an appointment, in private.',
@@ -406,6 +420,21 @@ export const services: Service[] = [
       howToBook: 'Book at helpmedical.au or call Help Medical.',
     },
     related: ['prescriptions', 'vaccination-information'],
+  },
+  {
+    slug: 'blood-tests',
+    name: 'Blood tests (QML Pathology)',
+    short: 'QML Pathology collection room inside Help Medical, in our store. Walk in with your request form, weekday mornings.',
+    group: 'partner',
+    atAGlance: {
+      what: 'Blood and other pathology tests collected by QML Pathology, in a collection room inside Help Medical, an independent general practice located inside our store.',
+      who: 'Anyone with a pathology request form, usually from a doctor, paper or electronic.',
+      cost: 'Set by QML. Concession card holders are bulk billed for Medicare-covered tests; some tests cost extra.',
+      time: 'Monday to Friday, 8am to 1pm. Closed weekends.',
+      booking: 'Walk in for most tests. Glucose tolerance tests must be booked with QML.',
+      howToBook: 'Walk in with your request form and Medicare card, or book online with QML (Broadbeach, K150).',
+    },
+    related: ['help-medical', 'prescriptions'],
   },
 ];
 

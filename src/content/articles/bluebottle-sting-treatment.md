@@ -3,21 +3,27 @@ title: "Bluebottle sting treatment: what to do (and what not to do)"
 description: "Stung by a bluebottle on the Gold Coast? Step-by-step first aid from Australian guidelines, myths to ignore (vinegar, urine) and when to call 000."
 seoTitle: "Bluebottle sting treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-17
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "first-aid", "summer"]
 relatedServices: ["help-medical"]
 references:
-  - name: "Australian and New Zealand Committee on Resuscitation (ANZCOR) – Guideline 9.4.5 First aid management of marine envenomation"
+  - name: "Australian and New Zealand Committee on Resuscitation (ANZCOR) – Guideline 9.4.5 First aid management of marine envenomation (approved June 2025)"
     url: "https://www.anzcor.org/home/first-aid/guideline-9-4-5-first-aid-management-of-marine-envenomation"
   - name: "healthdirect – Jellyfish stings"
     url: "https://www.healthdirect.gov.au/jellyfish-stings"
   - name: "Surf Life Saving Queensland – Marine stingers"
     url: "https://lifesaving.com.au/safety-info/marine-stingers"
-  - name: "ABC News – Bluebottle jellyfish surge ashore in onshore winds"
-    url: "https://www.abc.net.au/news/2019-01-05/rambunctious-blue-bottles-blown-in-on-onshore-winds/10685264"
+  - name: "Australian Museum – Bluebottle"
+    url: "https://australian.museum/learn/animals/jellyfish/bluebottle/"
+  - name: "CSIRO – The blue bottles are coming, but what exactly are these creatures?"
+    url: "https://www.csiro.au/en/news/all/articles/2015/the-blue-bottles-are-coming-but-what-exactly-are-these-creatures"
+  - name: "City of Gold Coast – Broadbeach beach patrols"
+    url: "https://www.goldcoast.qld.gov.au/Things-to-do/Gold-Coast-beaches/Beach-locations/Broadbeach"
+  - name: "healthdirect – 13 HEALTH"
+    url: "https://www.healthdirect.gov.au/13-health"
 draft: false
 ---
 
@@ -29,11 +35,11 @@ Here is the step-by-step first aid recommended by Australian authorities, the my
 
 The bluebottle (_Physalia_) is a floating marine stinger with a gas-filled blue float and long tentacles. It can’t swim. Instead, its float acts like a sail, so it goes wherever the wind pushes it.
 
-That’s why bluebottles turn up in numbers when strong onshore winds blow, pushing them in towards the beach. Along the Gold Coast, this often happens on summer days with a stiff breeze coming off the ocean. Surf Life Saving Queensland notes that bluebottles are found right around Australia. Even once they’ve washed up on the sand, bluebottles can still sting. Keep kids from picking up the “blue balloons” on the tideline.
+That’s why bluebottles turn up in numbers when strong onshore winds blow, pushing them in towards the beach. The Australian Museum notes that on the east coast it’s north-easterly winds and warmer currents that bring them, which makes summer the usual bluebottle season on the Gold Coast. Surf Life Saving Queensland notes that bluebottles are found right around Australia. Even once they’ve washed up on the sand, bluebottles can still sting: CSIRO says they can deliver painful stings long after they’ve died. Keep kids from picking up the “blue balloons” on the tideline.
 
 ### How to lower your chances of being stung
 
-- Swim at patrolled beaches, between the red and yellow flags, and check for lifeguard warning signs.
+- Swim at patrolled beaches, between the red and yellow flags, and check for lifeguard warning signs. At Broadbeach, the main lifeguard towers are patrolled from 8am to 5pm every day of the year, and more beaches are patrolled in summer and the school holidays.
 - On days when lifeguards report bluebottles, consider a stinger suit or rash vest and long boardshorts.
 - Look before you walk along the waterline, especially after a windy night.
 
@@ -45,7 +51,7 @@ These steps follow the Australian and New Zealand Committee on Resuscitation (AN
 2. **Don’t rub the area.** Don’t let anyone rub the sting with sand, a towel or their hand.
 3. **Pick off any tentacles.** ANZCOR notes this isn’t dangerous for the person helping. You can use your fingers or wash them off with seawater.
 4. **Rinse well with seawater, not fresh water.** This helps wash away stinging cells you can’t see.
-5. **Put the stung area in hot water.** Use water as hot as the person can comfortably tolerate without burning. Healthdirect suggests around 45°C for 20 minutes, while the ANZCOR guideline says 43–45°C for up to 30 minutes. A hot shower works if you can’t immerse the area. Always test the water yourself first, especially for children.
+5. **Put the stung area in hot water.** Use water as hot as the person can comfortably tolerate without burning. Healthdirect suggests around 45°C for 20 minutes, while the ANZCOR guideline says 43–45°C for up to 30 minutes. Always test the water yourself first, especially for children.
 6. **If hot water isn’t available or doesn’t help,** apply a cold pack or ice in a dry plastic bag.
 
 Healthdirect describes bluebottle sting pain as intense and lasting an hour or more, with a red line where the tentacles touched that can stay for a day or more.
@@ -63,25 +69,26 @@ Healthdirect describes bluebottle sting pain as intense and lasting an hour or m
 
 ## What about box jellyfish and Irukandji?
 
-Tropical stingers such as the box jellyfish and Irukandji are far more dangerous and need different first aid. Healthdirect says box jellyfish are found in northern Australian waters, north of Bundaberg in Queensland. Surf Life Saving Queensland describes a similar range, north of Agnes Water. The Gold Coast is well south of these areas, so standard bluebottle first aid applies on our beaches.
+Tropical stingers such as the box jellyfish and Irukandji are far more dangerous and need different first aid. Healthdirect says box jellyfish are found in the far north of Australia. Surf Life Saving Queensland describes box jellyfish north of Agnes Water and Irukandji north of southern K’gari (Fraser Island). The Gold Coast is well south of these areas, so standard bluebottle first aid applies on our beaches, although ANZCOR notes that dangerous stings have occasionally happened further south. Call 000 for any severe or unusual symptoms after a sting.
 
-If you’re heading north over the school holidays, know that tropical first aid is different. ANZCOR advises dousing the sting with vinegar for 30 seconds and calling 000. Irukandji symptoms can be delayed, so anyone stung in tropical waters needs to be watched and to get medical care. Healthdirect advises that if you’re stung by an unknown jellyfish in tropical waters, treat it as a box jellyfish sting and seek medical help straight away. Always follow the lifeguards’ advice at tropical beaches.
+If you’re heading north over the school holidays, know that tropical first aid is different. ANZCOR’s advice is to get the person out of the water, call 000 if they have more than a small single sting or feel unwell, start CPR if needed, and consider dousing the sting with vinegar for 30 seconds. Irukandji symptoms can be delayed, so anyone stung in tropical waters needs to be watched and to get medical care. Healthdirect advises that if you’re stung by an unknown jellyfish in tropical waters, treat it as a box jellyfish sting and seek medical help straight away. Always follow the lifeguards’ advice at tropical beaches.
 
 ## When to see a pharmacist or GP, or call 000
 
 ### Call 000 for an ambulance if the person:
 
 - has difficulty breathing, or signs of a serious allergic reaction such as swelling of the face, lips or tongue;
+- has severe pain, heavy sweating, nausea or vomiting;
 - collapses, becomes confused or unresponsive;
-- has pain that keeps getting worse or spreads through the body;
+- has pain that doesn’t ease with hot water or cold packs, keeps getting worse, or spreads through the body;
 - has a large sting area (ANZCOR says half a limb or more), or a sting on a sensitive area such as the eye;
 - was stung in tropical waters and feels unwell.
 
-If you’re not sure, call 000 anyway. For non-urgent advice, you can call the Poisons Information Centre on 13 11 26 or the healthdirect helpline on 1800 022 222.
+If you’re not sure, call 000 anyway. For non-urgent advice, you can call the Poisons Information Centre on 13 11 26, or 13 HEALTH (13 43 25 84) to talk to a registered nurse at any hour in Queensland.
 
 ### See a GP if:
 
-- the pain hasn’t settled after first aid;
+- soreness or itching lingers in the days after the sting;
 - the skin blisters or looks infected, such as increasing redness, swelling or pus;
 - you’re worried about someone who is very young, or who has a history of severe allergies.
 

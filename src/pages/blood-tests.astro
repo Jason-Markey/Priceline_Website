@@ -1,0 +1,68 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('blood-tests')!;
+const qmlBooking = 'https://bookings.qml.com.au/?location=Broadbeach&locationcode=K150';
+
+const faqs = [
+  { q: 'Is there a pathology collection centre at Pacific Fair?', a: `Yes. QML Pathology has a collection room inside Help Medical, an independent general practice located inside Priceline Pharmacy Pacific Fair. It’s open ${site.pathology.hoursText}` },
+  { q: 'Do I need an appointment for a blood test?', a: 'Not for standard tests. Walk in with your request form. A glucose tolerance test must be booked with QML, and some specialised tests need a booking too.' },
+  { q: 'Do I need to fast before my blood test?', a: 'Only if your doctor has asked you to. Fasting usually means 8 to 12 hours with nothing but water, and you should keep taking your usual medicines unless your doctor says otherwise. If you have diabetes, check with your doctor before you fast.' },
+  { q: 'Is my blood test bulk billed?', a: 'QML sets its own fees. Concession card holders are bulk billed for tests covered by Medicare. QML says it bulk bills Medicare-covered tests, but a fee may apply in some cases, and tests Medicare doesn’t cover are paid for at collection. Check with QML on ' + site.pathology.phone + ' if you’re unsure.' },
+  { q: 'How do I get my results?', a: 'QML sends your results to the doctor who requested the test. Book a follow-up with your doctor to go through them.' },
+  { q: 'I don’t have a request form. What should I do?', a: 'For most tests, you need a request from a doctor. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and arrange tests if you need them.' },
+  { q: 'Is the collection room run by the pharmacy?', a: 'No. QML Pathology runs the collection room, and Help Medical is an independent general practice. For questions about a test, call QML on ' + site.pathology.phone + '.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Blood Tests at Pacific Fair | QML Pathology inside Priceline"
+  description="Need a blood test at Pacific Fair? QML Pathology's collection room is inside Help Medical, in Priceline Pharmacy, Broadbeach. Walk in weekday mornings."
+  h1="Blood tests at Pacific Fair: QML Pathology"
+  lead={`QML Pathology has a collection room inside Help Medical, an independent general practice located inside Priceline Pharmacy Pacific Fair in Broadbeach. It’s open ${site.pathology.hoursText} Walk in with the request form from your doctor for most blood and urine tests. Glucose tolerance tests need to be booked with QML.`}
+  faqs={faqs}
+  hub={{ name: 'Help Medical', href: '/help-medical/' }}
+  primaryCta={{ label: 'Book with QML', href: qmlBooking, external: true, event: 'cta_book_pathology' }}
+  secondaryCta={{ label: `Call QML ${site.pathology.phone}`, href: site.pathology.phoneHref, event: 'cta_call_pathology' }}
+  dateModified="2026-10-17"
+>
+  <h2>Where is the collection room?</h2>
+  <p>The QML collection room is inside <a href="/help-medical/">Help Medical</a>, which is {site.helpMedical.whereInStore.charAt(0).toLowerCase() + site.helpMedical.whereInStore.slice(1)} at Priceline Pharmacy Pacific Fair, Shop 81 on the ground floor of Pacific Fair. The first 4 hours of parking at Pacific Fair are free each day. See <a href="/visit-us/">directions and parking</a>.</p>
+  <p>QML lists this centre as <strong>Broadbeach (K150)</strong>. If you book online, choose that one: QML has another collection centre elsewhere in Pacific Fair, at a different medical centre.</p>
+
+  <h2>When is it open?</h2>
+  <p>{site.pathology.hoursText} Hours can change, especially around public holidays, so check <a href={site.pathology.url} rel="noopener">QML’s page for this centre</a> before you come in.</p>
+
+  <h2>Do I need to book?</h2>
+  <p>Not for standard blood tests. Walk in with your request form. Some tests need a booking:</p>
+  <ul>
+    <li><strong>Glucose tolerance tests</strong> must be booked with QML. They take about 2 hours. You’ll need to fast (water only) for at least 8 hours beforehand, ideally no more than 12, and avoid smoking and exercise before and during the test.</li>
+    <li><strong>Some specialised tests</strong> are only done by appointment. Your request form or doctor will usually tell you, or call QML on <a href={site.pathology.phoneHref}>{site.pathology.phone}</a>.</li>
+  </ul>
+  <p>You can <a href={qmlBooking} rel="noopener">book online with QML</a> to choose a time.</p>
+
+  <h2>What should I bring?</h2>
+  <ul>
+    <li>Your pathology request form from your doctor. Paper forms and electronic requests on your phone are both accepted.</li>
+    <li>Your Medicare card (or your private health or overseas student health cover card) and photo ID.</li>
+    <li>Your concession card, if you have one.</li>
+    <li>A list of the medicines you take, with doses.</li>
+  </ul>
+
+  <h2>Do I need to fast?</h2>
+  <p>Only if your doctor has told you to. If you do need to fast, it usually means 8 to 12 hours with nothing to eat and only plain water to drink. Keep taking your usual medicines unless your doctor says otherwise. If you have diabetes, don’t fast without checking with your doctor first. Children under 12 shouldn’t fast for more than 4 to 6 hours.</p>
+
+  <h2>How much does it cost?</h2>
+  <p>QML sets its own fees; it isn’t part of the pharmacy. Concession card holders are bulk billed for tests covered by Medicare. QML says it bulk bills Medicare-covered tests for other patients too, though a fee may apply in some cases. Tests that Medicare doesn’t cover are paid for at the time of collection. If you’re not sure, call QML before you come in.</p>
+
+  <h2>How do I get my results?</h2>
+  <p>Your results go to the doctor who requested the test, so book a follow-up with them. If your tests were requested by a GP at Help Medical, you can book your follow-up there.</p>
+
+  <h2>Bringing a child?</h2>
+  <p>QML lists this centre for children aged 6 to 12 (walk-in), and children over 12 can be seen at any QML centre. For children under 6, call QML on <a href={site.pathology.phoneHref}>{site.pathology.phone}</a> to find a paediatric centre.</p>
+
+  <h2>Need a request form?</h2>
+  <p>For most tests, you need a request from a doctor. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and arrange tests if you need them. While you’re here, our pharmacists can fill any prescriptions a few steps away.</p>
+</ServicePage>

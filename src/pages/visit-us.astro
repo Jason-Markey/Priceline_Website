@@ -4,6 +4,18 @@ import ContentPage from '../layouts/ContentPage.astro';
 import HoursCard from '../components/HoursCard.astro';
 import { site, upcomingSpecialHours, specialRows } from '../data/site';
 import shopfront from '../assets/images/shopfront.jpg';
+import scriptsCounter from '../assets/images/scripts-in-counter.jpg';
+import dispensaryCounter from '../assets/images/jason-dispensary-counter.jpg';
+import beautyAisle from '../assets/images/beauty-aisle.jpg';
+import fragranceCabinets from '../assets/images/fragrance-cabinets.jpg';
+import helpMedicalReception from '../assets/images/help-medical-reception.jpg';
+const gallery = [
+  { src: scriptsCounter, alt: 'The green "scripts in" prescription counter at Priceline Pharmacy Pacific Fair, with a pharmacist behind it', caption: 'The prescription counter, at the back of the store' },
+  { src: dispensaryCounter, alt: 'Pharmacist Jason Markey at the dispensary counter, in front of shelves of pharmacy medicines', caption: 'Pharmacist Jason Markey at the dispensary' },
+  { src: beautyAisle, alt: 'The brightly lit makeup and beauty aisle at Priceline Pharmacy Pacific Fair', caption: 'The beauty aisle' },
+  { src: fragranceCabinets, alt: 'Glass fragrance cabinets lit in pink under a fragrance sign', caption: 'Fragrance cabinets' },
+  { src: helpMedicalReception, alt: 'The reception desk and waiting area at Help Medical inside Priceline Pharmacy Pacific Fair', caption: 'Help Medical, an independent general practice located inside our store' },
+];
 
 const path = '/visit-us/';
 // Christmas and New Year trading days still ahead (the card and FAQ disappear once they've passed)
@@ -36,7 +48,7 @@ const faqs = [
   faqs={faqs}
   showNap
   ogImage={shopfront}
-  dateModified="2026-10-16"
+  dateModified="2026-10-17"
 >
   <div class="btn-row">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
@@ -83,6 +95,17 @@ const faqs = [
     <li>A private consultation room for vaccinations and pharmacist consultations.</li>
   </ul>
 
+  <h2>Photos of our store</h2>
+  <p>Here’s what to look for when you visit. The red Priceline shopfront is on the ground floor of Pacific Fair, and the prescription counter is at the back of the store.</p>
+  <div class="gallery">
+    {gallery.map((g) => (
+      <figure>
+        <Image src={g.src} alt={g.alt} widths={[320, 480]} sizes="(max-width: 700px) 50vw, 260px" quality={70} />
+        <figcaption>{g.caption}</figcaption>
+      </figure>
+    ))}
+  </div>
+
   <h2>Questions before you visit?</h2>
   <p>Call us on <a href={site.phoneHref}>{site.phone}</a> or <a href="/contact-us/">send us an email</a>. If we’re closed, call 13 HEALTH (<a href="tel:134325584">13 43 25 84</a>) for health advice any time, or 000 in an emergency.</p>
 </ContentPage>
@@ -92,4 +115,9 @@ const faqs = [
   @media (min-width: 700px) { .hours-grid { grid-template-columns: 1fr 1fr; } .hours-grid--full { grid-template-columns: 1fr; } }
   .map { margin: var(--s5) 0 var(--s8); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); background: var(--surface); }
   .map iframe { display: block; width: 100%; height: 360px; border: 0; }
+  .gallery { display: grid; gap: var(--s4); grid-template-columns: repeat(2, minmax(0, 1fr)); margin: var(--s4) 0 var(--s8); }
+  @media (min-width: 700px) { .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .gallery figure { margin: 0; }
+  .gallery img { display: block; width: 100%; height: 180px; object-fit: cover; object-position: center top; border-radius: var(--radius); border: 1px solid var(--border); }
+  .gallery figcaption { font-size: var(--fs-sm); color: var(--text-muted); margin-top: var(--s2); }
 </style>

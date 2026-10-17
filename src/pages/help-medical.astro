@@ -23,7 +23,7 @@ const faqs = [
   { q: 'Does Help Medical bulk bill?', a: 'Yes, for eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so check with the clinic when you book. Patients without Medicare pay a private fee.' },
   { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead online is the surest way to be seen.' },
   { q: 'How do I book a GP appointment?', a: `Book online through HotDoc (the link on helpmedical.au) or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
-  { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form.` },
+  { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form. See <a href="/blood-tests/">blood tests at Pacific Fair</a>.` },
   { q: 'Can I fill my prescription straight after seeing the doctor?', a: 'Yes. After your appointment, bring your script to our dispensary a few steps away and our pharmacists will fill it while you wait, usually within minutes.' },
   { q: 'Can visitors to the Gold Coast see a doctor here?', a: 'Yes. Help Medical welcomes visitors and new patients, and walk-ins are seen subject to doctor availability. Medicare applies for eligible card holders; otherwise a private fee applies. See our <a href="/visiting-the-gold-coast/">guide for visitors to the Gold Coast</a>.' },
   { q: 'Can my child under 5 be vaccinated here?', a: 'Our pharmacists vaccinate people aged 5 and over, so children under 5 can see the GPs at Help Medical for their vaccinations. See <a href="/vaccination-information/">vaccinations</a> and <a href="/flu-vaccination/">flu vaccination</a> for what the pharmacy offers.' },
@@ -42,7 +42,7 @@ const faqs = [
   secondaryCta={{ label: `Call Help Medical ${hm.phone}`, href: hm.phoneHref }}
   noServiceSchema
   extraSchema={[helpMedicalNode()]}
-  dateModified="2026-10-16"
+  dateModified="2026-10-17"
 >
   <h2>Does Help Medical bulk bill?</h2>
   <Image src={receptionImg} alt="Help Medical reception desk and waiting area inside Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
@@ -91,7 +91,7 @@ const faqs = [
 
   <h2>Can I get a blood test at Help Medical?</h2>
   <p>Yes. A <a href={site.pathology.url} rel="noopener">{site.pathology.name}</a> collection room operates inside Help Medical, so you can have blood tests and other pathology collected without leaving the centre. Bring your request form from any doctor.</p>
-  <p>Collection hours: {site.pathology.hoursText} Phone <a href={site.pathology.phoneHref}>{site.pathology.phone}</a>.</p>
+  <p>Collection hours: {site.pathology.hoursText} Phone <a href={site.pathology.phoneHref}>{site.pathology.phone}</a>. See <a href="/blood-tests/">blood tests at Pacific Fair</a> for what to bring, fasting and fees.</p>
 
   <h2>Can I fill my script straight after seeing the doctor?</h2>
   <p>Yes. Having GPs and pharmacists under one roof means your script can go straight to our dispensary, a few steps away, and our pharmacists can refer you to a doctor quickly if you need one. If you have questions about a new medicine after your appointment, just ask at the counter.</p>

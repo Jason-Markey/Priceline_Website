@@ -27,6 +27,7 @@ export const GET: APIRoute = async () => {
     `- Passport and visa photos: ${svc('passport-photos').atAGlance.cost} ${svc('passport-photos').atAGlance.time}`,
     `- Contraception consultation: ${svc('hormonal-contraceptive-pill').atAGlance.cost} ${svc('hormonal-contraceptive-pill').atAGlance.booking}`,
     `- UTI treatment: ${svc('uti-treatment').atAGlance.booking} For ${svc('uti-treatment').atAGlance.who.charAt(0).toLowerCase()}${svc('uti-treatment').atAGlance.who.slice(1)}`,
+    '- Sick leave certificates: pharmacists issue absence from work certificates (personal or carer’s leave) for minor, short-term illnesses they can assess. Walk in on the day; certificates can’t be backdated; a consultation fee applies. Some universities and TAFE courses don’t accept pharmacist certificates for assessments.',
     '- Parking: 4 hours of free parking at Pacific Fair each day.',
     `- Delivery: ${svc('delivery').atAGlance.what} ${svc('delivery').atAGlance.who.replace(/^Anyone on the Gold Coast\. /, '')}`,
     `- Send scripts ahead: email the eScript link or QR code to ${site.emailPharmacy} (checked throughout the day while the store is open), or send it through MedAdvisor or the Priceline Pharmacy app. Paper prescriptions must be brought in.`,
