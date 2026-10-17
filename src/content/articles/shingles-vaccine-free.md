@@ -3,7 +3,7 @@ title: "Shingles vaccine: who can get it free and why it matters"
 description: "Who may be eligible for the free shingles vaccine, why shingles risk rises with age, the 2-dose schedule and what to expect. Walk-ins at Pacific Fair."
 seoTitle: "Shingles vaccine: who can get it free?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-17
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -20,7 +20,7 @@ references:
     url: "https://www.healthdirect.gov.au/shingles"
 draft: false
 ---
-You may be able to get the shingles vaccine free under the National Immunisation Program (NIP) if you're 65 or older, an Aboriginal or Torres Strait Islander person aged 50 or older, or an adult aged 18 or older at higher risk because of a medical condition or treatment. Shingles becomes more common, and more likely to cause lasting pain, as you get older. That's why vaccination matters.
+You may be able to get the shingles vaccine free under the National Immunisation Program (NIP) if you're 65 or older, an Aboriginal or Torres Strait Islander person aged 50 or older, or an adult aged 18 or older with certain conditions that severely weaken the immune system, such as a stem cell or organ transplant, a blood cancer or advanced HIV. Shingles becomes more common, and more likely to cause lasting pain, as you get older. That's why vaccination matters.
 
 Here's a plain-English explainer on shingles, who may be eligible for the free vaccine, and what to expect. You can also read about all the vaccines we offer on our [vaccinations at Pacific Fair](/vaccination-information/) page.
 
@@ -49,7 +49,7 @@ According to the Australian Government Department of Health, Disability and Agei
 | --- | --- |
 | People aged 65 and over | Yes, 2-dose course |
 | Aboriginal and Torres Strait Islander people aged 50 and over | Yes, 2-dose course |
-| People aged 18 and over at increased risk of shingles because of an underlying condition and/or treatment that affects the immune system | Yes, 2-dose course |
+| People aged 18 and over with certain conditions that severely weaken the immune system, such as a stem cell or organ transplant, a blood cancer or advanced HIV | Yes, 2-dose course |
 | People aged 50 to 64 who aren't in the groups above | Recommended, but not free under the NIP. You can pay for it privately |
 | People aged 50 and over who live with someone with a weakened immune system | Recommended. Free only if you're in one of the eligible groups above |
 
@@ -74,7 +74,7 @@ Because it's 2 doses, plan ahead if you've got a cruise, an overseas trip or a l
 
 ## What to expect on the day
 
-1. **Walk in or call ahead.** Our pharmacists offer walk-in vaccinations. Call ahead to check the vaccine is in stock and ask about any fee.
+1. **Walk in or call ahead.** Our pharmacists offer walk-in vaccinations. Call ahead to check the vaccine is in stock. If you're eligible for the free vaccine, there's no fee.
 2. **A quick health check.** The pharmacist will ask about your health, medicines, allergies, past vaccines and whether you're unwell on the day. Bring a list of your medicines if you take several.
 3. **The vaccine.** It's a needle, usually in the upper arm.
 4. **A short wait.** You'll be asked to stay nearby for at least 15 minutes afterwards, in case of a rare allergic reaction. Don't drive during this time.

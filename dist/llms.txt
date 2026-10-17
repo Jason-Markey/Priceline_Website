@@ -1,11 +1,12 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 16 October 2026
+Last updated: 17 October 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
 ## Key facts
 - Vaccinations (ages 5 and over): Free for eligible people under the National Immunisation Program, with no service fee.
+- Vaccines: COVID-19 vaccines are free only for eligible groups since 1 October 2026 (75+, 65–74, Aboriginal and Torres Strait Islander people 50–74, adults 18–64 with severe immunocompromise). Rabies, dengue and yellow fever vaccines are not offered in store; we refer to a GP or travel clinic.
 - Medication packing (Webster packs): Free for concession and health care card holders. $5 a week otherwise.
 - Ear piercing (ages 8 and over): $65 for both ears, including earrings and an antiseptic aftercare spray. Walk in. Second holes in the earlobe are fine; sleepers and other earrings are sold in store. No nose piercing; call first about cartilage.
 - Passport and visa photos: $25. About 10 minutes.
@@ -132,11 +133,16 @@ Last updated: 16 October 2026
 
 ### Vaccinations
 - [Flu season in Queensland: when to get your flu shot](https://pricelinepacificfair.com.au/when-to-get-flu-shot-queensland/): When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair.
+- [Free vaccines at the pharmacy in Queensland: who's eligible in 2026](https://pricelinepacificfair.com.au/free-vaccines-pharmacy-queensland/): Which vaccines are free at a Queensland pharmacy in 2026: flu, COVID-19, RSV, shingles, pneumococcal, catch-ups and more, who qualifies and what changed.
 - [Shingles vaccine: who can get it free and why it matters](https://pricelinepacificfair.com.au/shingles-vaccine-free/): Who may be eligible for the free shingles vaccine, why shingles risk rises with age, the 2-dose schedule and what to expect. Walk-ins at Pacific Fair.
+- [Vaccines for uni students: placements, colleges and catch-ups](https://pricelinepacificfair.com.au/vaccines-for-uni-students/): Starting uni? Which vaccines health students need before clinical placements, why college students need meningococcal vaccines, and which catch-ups are free.
 - [Whooping cough vaccine in pregnancy: what you need to know](https://pricelinepacificfair.com.au/whooping-cough-vaccine-pregnancy/): Why the whooping cough vaccine is recommended in every pregnancy, the 20 to 32 week window and who else should be vaccinated. Walk-ins at Pacific Fair.
 
 ### Travel health
+- [Do you need vaccinations for Japan? What Australians should know](https://pricelinepacificfair.com.au/japan-vaccinations/): Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's strict medicine rules.
 - [Travel health checklist: what to sort 6–8 weeks before you fly](https://pricelinepacificfair.com.au/travel-health-checklist/): Our travel health checklist counts down from 8 weeks to the day before you fly: vaccines, scripts, PBS rules and a travel kit, sorted at Pacific Fair.
+- [Vaccinations for Bali: what Australians need before they go](https://pricelinepacificfair.com.au/bali-vaccinations/): Heading to Bali? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and Japanese encephalitis, plus how to avoid Bali belly.
+- [Vaccinations for Thailand and Vietnam: a pharmacist's guide](https://pricelinepacificfair.com.au/thailand-vietnam-vaccinations/): Going to Thailand or Vietnam? The vaccines to check before you go, from hepatitis A, typhoid and measles to rabies and JE, plus malaria and food safety tips.
 
 ### Vitamins & supplements
 - [Magnesium supplements: which type, and what the evidence says](https://pricelinepacificfair.com.au/magnesium-supplements-guide/): Magnesium supplements explained: citrate vs oxide vs glycinate, the evidence for cramps and sleep, and medicine timing. Ask our Broadbeach pharmacists.

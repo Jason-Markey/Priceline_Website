@@ -13,6 +13,10 @@ BLOCKED = [
     'champix', 'varenicline', 'zyban', 'bupropion', 'yasmin', 'levlen', 'microgynon', 'implanon', 'depo-provera',
     'nuvaring', 'shingrix', 'gardasil', 'prevenar', 'boostrix', 'comirnaty', 'spikevax', 'arexvy', 'abrysvo',
     'fluad', 'fluarix', 'vaxigrip', 'afluria', 'ellaone', 'postinor', 'levonorgestrel', 'ulipristal',
+    'qdenga', 'bexsero', 'trumenba', 'nimenrix', 'menquadfi', 'priorix', 'proquad', 'varivax', 'varilrix',
+    'engerix', 'h-b-vax', 'havrix', 'vaqta', 'twinrix', 'typhim', 'vivotif', 'vivaxim', 'dukoral', 'imojev',
+    'jespect', 'ixiaro', 'rabipur', 'verorab', 'stamaril', 'capvaxive', 'pneumovax', 'vaxneuvance', 'adacel',
+    'beyfortus', 'nirsevimab', 'mresvia',
     'healthengine', 'servicebookings', 'audiology-services', 'wp-content', 'wp-admin',
     'testimonial', 'guaranteed', 'miracle', 'clinically proven',
 ]

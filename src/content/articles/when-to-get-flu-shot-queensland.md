@@ -3,7 +3,7 @@ title: "Flu season in Queensland: when to get your flu shot"
 description: "When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair."
 seoTitle: "When to get your flu shot in Queensland"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-17
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -60,7 +60,7 @@ Your pharmacist or GP can tell you whether a medical condition makes you eligibl
 
 In 2026, the Queensland Government offered free flu vaccines to all Queenslanders aged 6 months and older from 1 March to 30 September, and you didn't need a Medicare card. Queensland's program is decided year by year, so ask us whether it's running in the coming season and what the dates are.
 
-If you're not eligible for a free vaccine, you can pay for one at a pharmacy or GP. Some providers charge a service fee even when the vaccine is free, so ask us about our current price.
+If you're eligible for a free flu vaccine, we give it completely free at Pacific Fair, with no service fee. If you're not eligible, you can pay for one at a pharmacy or GP, and you'll see our current price when you book. Our [vaccinations page](/vaccination-information/) lists the other vaccines that are free in 2026.
 
 ## Can I just walk in at Pacific Fair?
 

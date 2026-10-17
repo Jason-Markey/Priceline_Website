@@ -21,6 +21,7 @@ export const GET: APIRoute = async () => {
     '',
     '## Key facts',
     `- Vaccinations (ages 5 and over): ${svc('vaccination-information').atAGlance.cost.split(' Private')[0]}`,
+    '- Vaccines: COVID-19 vaccines are free only for eligible groups since 1 October 2026 (75+, 65–74, Aboriginal and Torres Strait Islander people 50–74, adults 18–64 with severe immunocompromise). Rabies, dengue and yellow fever vaccines are not offered in store; we refer to a GP or travel clinic.',
     `- Medication packing (Webster packs): ${svc('medication-packing').atAGlance.cost}`,
     `- Ear piercing (ages 8 and over): ${svc('ear-piercings').atAGlance.cost} Walk in. Second holes in the earlobe are fine; sleepers and other earrings are sold in store. No nose piercing; call first about cartilage.`,
     `- Passport and visa photos: ${svc('passport-photos').atAGlance.cost} ${svc('passport-photos').atAGlance.time}`,

@@ -6,8 +6,10 @@ const service = serviceBySlug('vaccination-information')!;
 
 const faqs = [
   { q: 'Do I need to book a vaccination?', a: 'No. Walk in any day we’re open and scan the QR code at the counter to join the queue. If you’d rather pick a time, book online.' },
-  { q: 'Is there a service fee for free government vaccines?', a: 'No. Vaccines funded under the National Immunisation Program are free for eligible people with a Medicare card, and we don’t charge a fee to give them. Bring your Medicare card and we’ll check your eligibility.' },
-  { q: 'How much does the shingles vaccine cost?', a: 'It’s free under the National Immunisation Program for people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over at higher risk because of a medical condition or treatment, with no service fee. If you’re not eligible, a private fee applies: you’ll see the current price when you book online, or ask us in store.' },
+  { q: 'Is there a service fee for free government vaccines?', a: 'No. If a vaccine is free for you under the National Immunisation Program or a Queensland Government program, we give it completely free. Bring your Medicare card and we’ll check your eligibility. See <a href="/free-vaccines-pharmacy-queensland/">which vaccines are free in 2026</a>.' },
+  { q: 'Is the COVID-19 vaccine still free?', a: 'Only for some people. Since 1 October 2026 it’s free for people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 to 74, and adults aged 18 to 64 with a severely weakened immune system. Anyone else can choose to pay for a dose privately.' },
+  { q: 'Do you give rabies, dengue or yellow fever vaccines?', a: 'No, not at the moment. If your trip calls for one of these, we’ll point you to a GP or travel clinic. Yellow fever vaccine is only given at approved yellow fever vaccination centres.' },
+  { q: 'How much does the shingles vaccine cost?', a: 'It’s free under the National Immunisation Program for people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over with certain conditions that severely weaken the immune system, such as a stem cell or organ transplant, a blood cancer or advanced HIV, with no service fee. If you’re not eligible, a private fee applies: you’ll see the current price when you book online, or ask us in store.' },
   { q: 'Can I have more than one vaccine at the same visit?', a: 'Often, yes. Tell us what’s due and your pharmacist will check which vaccines can be given together.' },
   { q: 'What if I feel unwell on the day?', a: 'A mild cold usually isn’t a problem. If you have a fever, wait until you’re well. Not sure? Call us and ask.' },
   { q: 'Are there side effects?', a: 'A sore arm, tiredness or a mild temperature for a day or two are common. If you’re worried about any reaction after leaving the store, contact your GP. In an emergency, call 000.' },
@@ -26,24 +28,28 @@ const faqs = [
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book a vaccination time', href: site.links.book, external: true, event: 'cta_book' }}
   secondaryCta={{ label: 'Walk in: today’s hours', href: '/visit-us/' }}
-  dateModified="2026-10-13"
+  dateModified="2026-10-17"
 >
   <h2>Which vaccines are free?</h2>
-  <p>Vaccines under the National Immunisation Program (NIP) are free for eligible people with a Medicare card, and we don’t charge a service fee to give them. Eligibility depends on your age, pregnancy, Aboriginal and Torres Strait Islander status and some medical conditions. The main groups are:</p>
+  <p>Vaccines under the National Immunisation Program (NIP) are free for eligible people with, or eligible for, a Medicare card, and some are free through Queensland Government programs. If a vaccine is free for you, we give it completely free, with no service fee. Eligibility depends on your age, pregnancy, Aboriginal and Torres Strait Islander status and some medical conditions. The main groups are:</p>
   <ul>
-    <li><strong>Flu:</strong> children aged 6 months to under 5, pregnant women, people aged 65 and over, Aboriginal and Torres Strait Islander people, and people with certain medical conditions.</li>
+    <li><strong>Flu:</strong> pregnant women, people aged 65 and over, Aboriginal and Torres Strait Islander people, people with certain medical conditions, and children aged 6 months to under 5 (we vaccinate from age 5, so younger children can see a GP at Help Medical). Queensland’s free flu program for everyone ran from 1 March to 30 September 2026.</li>
+    <li><strong>COVID-19:</strong> since 1 October 2026, people aged 75 and over (2 doses a year), people aged 65 to 74 (1 dose a year), Aboriginal and Torres Strait Islander people aged 50 to 74, and adults aged 18 to 64 with a severely weakened immune system. Anyone else can pay for a dose privately.</li>
     <li><strong>Whooping cough:</strong> pregnant women, ideally between 20 and 32 weeks of each pregnancy.</li>
-    <li><strong>Shingles:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over at higher risk because of a medical condition or treatment.</li>
-    <li><strong>Pneumococcal:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 25 and over, and adults with certain medical conditions.</li>
-    <li><strong>COVID-19:</strong> free for everyone in Australia, in line with current advice.</li>
+    <li><strong>RSV:</strong> pregnant women from 28 weeks (ideally by 36 weeks), people aged 75 and over, and Aboriginal and Torres Strait Islander people aged 60 and over.</li>
+    <li><strong>Shingles:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 50 and over, and people aged 18 and over with certain conditions that severely weaken the immune system, such as a stem cell or organ transplant, a blood cancer or advanced HIV.</li>
+    <li><strong>Pneumococcal:</strong> people aged 65 and over, Aboriginal and Torres Strait Islander people aged 25 and over, and people with certain medical conditions. Most need just one dose.</li>
+    <li><strong>Teens and young adults:</strong> catch-up vaccines for people under 20, HPV for people under 26, and meningococcal B for Queensland residents aged 15 to under 20.</li>
+    <li><strong>Measles, mumps and rubella:</strong> anyone born in or after 1966 without records of 2 doses (a Queensland Government program).</li>
   </ul>
-  <p>Not sure if you’re eligible? Ask us and we’ll check for you, or see the <a href="https://www.health.gov.au/our-work/national-immunisation-program" rel="noopener">National Immunisation Program</a>. If you’re not eligible, a private fee applies; you’ll see current prices when you book online.</p>
+  <p>Not sure if you’re eligible? Ask us and we’ll check for you, or read <a href="/free-vaccines-pharmacy-queensland/">which vaccines are free at the pharmacy in 2026</a>. If you’re not eligible, a private fee applies; you’ll see current prices when you book online.</p>
 
   <h2>Which vaccines do you offer?</h2>
   <ul>
     <li>Influenza (flu). See our <a href="/flu-vaccination/">flu vaccination</a> page.</li>
     <li>COVID-19</li>
     <li>Whooping cough (diphtheria, tetanus and pertussis)</li>
+    <li>RSV (respiratory syncytial virus), in pregnancy and for older adults</li>
     <li>Shingles</li>
     <li>Pneumococcal</li>
     <li>Human papillomavirus (HPV)</li>
@@ -54,6 +60,7 @@ const faqs = [
     <li>Haemophilus influenzae type b (Hib)</li>
     <li>Travel vaccines: typhoid, cholera, Japanese encephalitis and polio. See <a href="/travel-health/">travel health</a>.</li>
   </ul>
+  <p>We don’t currently give rabies, dengue or yellow fever vaccines. If your trip needs one, we’ll point you to a GP or travel clinic.</p>
 
   <h2>Who can we vaccinate?</h2>
   <p>Our pharmacists vaccinate adults and children aged 5 and over. For younger children, the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can help.</p>
@@ -76,8 +83,11 @@ const faqs = [
   </ul>
 
   <h2>Which vaccines do I need for overseas travel?</h2>
-  <p>It depends on where you’re going. Some travel vaccines need several doses or take time to work, so start planning 6 to 8 weeks before you fly if you can. See our <a href="/travel-health/">travel health</a> page, or book a travel consultation online.</p>
+  <p>It depends on where you’re going. Some travel vaccines need several doses or take time to work, so start planning 6 to 8 weeks before you fly if you can. See our <a href="/travel-health/">travel health</a> page, or book a travel consultation online. Our destination guides cover <a href="/bali-vaccinations/">Bali</a>, <a href="/thailand-vietnam-vaccinations/">Thailand and Vietnam</a> and <a href="/japan-vaccinations/">Japan</a>.</p>
+
+  <h2>Starting uni or a health placement?</h2>
+  <p>Students aged 15 to 24 living in residential colleges are recommended meningococcal ACWY and B vaccines, and health students need proof of protection against measles, chickenpox, whooping cough and hepatitis B before clinical placements. Start early, as some courses take months. See <a href="/vaccines-for-uni-students/">vaccines for uni students</a>.</p>
 
   <h2>Which vaccines are recommended in pregnancy?</h2>
-  <p>Whooping cough and flu vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and both are free under the NIP. Talk to your pharmacist, GP or midwife about timing, then walk in or book a time with us.</p>
+  <p>Whooping cough, flu and RSV vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and all three are free under the NIP. Talk to your pharmacist, GP or midwife about timing, then walk in or book a time with us.</p>
 </ServicePage>

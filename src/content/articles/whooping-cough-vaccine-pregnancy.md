@@ -3,7 +3,7 @@ title: "Whooping cough vaccine in pregnancy: what you need to know"
 description: "Why the whooping cough vaccine is recommended in every pregnancy, the 20 to 32 week window and who else should be vaccinated. Walk-ins at Pacific Fair."
 seoTitle: "Whooping cough vaccine in pregnancy | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-17
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -54,7 +54,7 @@ Yes. You should be vaccinated during **each** pregnancy, even if your pregnancie
 
 The whooping cough vaccine is free for pregnant women under the National Immunisation Program (NIP). You generally need to hold, or be eligible for, a Medicare card to receive NIP vaccines.
 
-Not every vaccination provider stocks every free NIP vaccine, and some providers charge a consultation or service fee even when the vaccine itself is free. Ask us about any fee when you visit or call ahead.
+Not every vaccination provider stocks every free NIP vaccine, and some providers charge a consultation or service fee even when the vaccine itself is free. At Pacific Fair, if you're eligible for the free vaccine, we give it completely free. It's worth calling ahead to check it's in stock.
 
 ## Can I get it at the pharmacy?
 
