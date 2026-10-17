@@ -5,6 +5,7 @@ import { site } from '../data/site';
 import { pharmacyTeam } from '../data/team';
 import jason from '../assets/images/jason-pharmacist-portrait.jpg';
 import helping from '../assets/images/jason-helping-customer.jpg';
+import teamPhoto from '../assets/images/team-pacific-fair.jpg';
 
 const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
 const photoFor = (file?: string) => (file ? photos[`../assets/images/${file}`]?.default : undefined);
@@ -30,7 +31,7 @@ const faqs = [
   showNap
   pageType="AboutPage"
   ogImage={jason}
-  dateModified="2026-10-12"
+  dateModified="2026-10-17"
 >
   <p>Being locally owned means we can shape our services around the people we see every day: Gold Coast locals, families, workers and the many visitors who pass through Pacific Fair. If you have a question, just ask; no appointment is needed to speak with a pharmacist.</p>
   <div class="btn-row">
@@ -49,6 +50,7 @@ const faqs = [
   <Image src={helping} alt="Jason Markey helping a customer choose a vitamin in the aisle at Priceline Pharmacy Pacific Fair" width={640} widths={[480, 640]} quality={64} sizes="(max-width: 640px) 100vw, 560px" class="about__photo" />
 
   <h2>Meet the team</h2>
+  <Image src={teamPhoto} alt="The Priceline Pharmacy Pacific Fair team in uniform, standing outside the store" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} class="about__team" />
   <div class="team">
     {pharmacyTeam.map((m) => (
       <div class="member">
@@ -69,6 +71,7 @@ const faqs = [
 
 <style>
   .about__photo { max-width: 560px; }
+  .about__team { margin-bottom: var(--s6); }
   .team { display: grid; gap: var(--s6); margin: var(--s4) 0 var(--s8); }
   .member { display: grid; gap: var(--s4); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s5); }
   @media (min-width: 600px) { .member { grid-template-columns: auto 1fr; } }

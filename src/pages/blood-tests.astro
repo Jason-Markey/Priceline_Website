@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import entranceImg from '../assets/images/help-medical-entrance.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('blood-tests')!;
@@ -29,6 +31,7 @@ const faqs = [
   dateModified="2026-10-17"
 >
   <h2>Where is the collection room?</h2>
+  <Image src={entranceImg} alt="The entrance to Help Medical inside Priceline Pharmacy Pacific Fair, where the QML collection room is" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
   <p>The QML collection room is inside <a href="/help-medical/">Help Medical</a>, which is {site.helpMedical.whereInStore.charAt(0).toLowerCase() + site.helpMedical.whereInStore.slice(1)} at Priceline Pharmacy Pacific Fair, Shop 81 on the ground floor of Pacific Fair. The first 4 hours of parking at Pacific Fair are free each day. See <a href="/visit-us/">directions and parking</a>.</p>
   <p>QML lists this centre as <strong>Broadbeach (K150)</strong>. If you book online, choose that one: QML has another collection centre elsewhere in Pacific Fair, at a different medical centre.</p>
 

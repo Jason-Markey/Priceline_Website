@@ -6,6 +6,7 @@ import { serviceBySlug } from '../data/services';
 import { helpMedicalDoctors } from '../data/team';
 import { helpMedicalNode } from '../lib/schema';
 import receptionImg from '../assets/images/help-medical-reception.jpg';
+import entranceImg from '../assets/images/help-medical-entrance.jpg';
 const service = serviceBySlug('help-medical')!;
 
 const images = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
@@ -97,6 +98,7 @@ const faqs = [
   <p>Yes. Having GPs and pharmacists under one roof means your script can go straight to our dispensary, a few steps away, and our pharmacists can refer you to a doctor quickly if you need one. If you have questions about a new medicine after your appointment, just ask at the counter.</p>
 
   <h2>Where is Help Medical inside the store?</h2>
+  <Image src={entranceImg} alt="The Help Medical entrance and sign inside Priceline Pharmacy Pacific Fair" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
   <p>Once you walk into Priceline Pharmacy Pacific Fair, Help Medical is on the right-hand side of the store. See <a href="/visit-us/">parking and directions</a>.</p>
   <p>In an emergency, call 000.</p>
 </ServicePage>

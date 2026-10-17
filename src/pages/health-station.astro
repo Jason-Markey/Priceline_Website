@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import kioskImg from '../assets/images/health-check-kiosk.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('health-station')!;
@@ -24,9 +26,10 @@ const faqs = [
   faqs={faqs}
   primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-07"
+  dateModified="2026-10-17"
 >
   <h2>What can I check at the Health Station?</h2>
+  <Image src={kioskImg} alt="Checking blood pressure at the free health check kiosk inside Priceline Pharmacy Pacific Fair" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
   <h3>Blood pressure</h3>
   <p>High blood pressure usually has no symptoms, which is why regular checks matter. It’s a major risk factor for heart attack, stroke and kidney disease.</p>
   <h3>Height, weight and BMI</h3>
