@@ -10,6 +10,8 @@ reviewer: "Jason Markey"
 tags: ["summer", "sun-safety", "first-aid"]
 relatedServices: []
 references:
+  - name: "Padel Australia – Home"
+    url: "https://www.padelaus.com.au/"
   - name: "Padel Australia – What is padel?"
     url: "https://www.padelaus.com.au/play/what-is-padel"
   - name: "Padel Australia – How to play padel"
@@ -20,7 +22,7 @@ references:
     url: "https://thepadelpaper.com/fip-world-padel-report-2025/"
   - name: "InDaily – The padel boom is coming, and Southeast Queensland is getting a front-row seat (August 2026)"
     url: "https://www.indailyqld.com.au/theweekendedition-brisbane/lifestyle/2026/08/12/padel-clubs-southeast-queensland"
-  - name: "Sánchez-Alcaraz and Courel-Ibáñez – The role of padel in improving physical fitness and health promotion: a narrative review (IJERPH, 2022)"
+  - name: "Sánchez-Alcaraz and Courel-Ibáñez – The role of padel in improving physical fitness and health promotion: progress, limitations, and future perspectives. A narrative review (IJERPH, 2022)"
     url: "https://www.mdpi.com/1660-4601/19/11/6582"
   - name: "Oja et al. – Associations of specific types of sports and exercise with all-cause and cardiovascular-disease mortality: a cohort study of 80 306 British adults (BJSM, 2017)"
     url: "https://bjsm.bmj.com/content/51/10/812"
@@ -52,9 +54,9 @@ references:
     url: "https://www.healthdirect.gov.au/accidents-and-injuries/sprains-and-strains"
   - name: "Better Health Channel – Sprains and strains"
     url: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/sprains-and-strains"
-draft: true
+draft: false
 ---
-Padel is a racquet sport played mostly in doubles on a small, enclosed court, and Padel Australia calls it "one of the world's fastest-growing sports". It's easy to pick up and social by design, and a game gets your heart rate up, which counts towards your weekly exercise. Like any racquet sport it has its injuries, most often to the elbow, back, shoulder and legs, so warm up, build up gradually and protect your skin on outdoor courts.
+Padel is a racquet sport played mostly in doubles on a small, enclosed court, and Padel Australia calls it "one of the world's fastest-growing sports". It's easy to pick up and social by design, and a game gets your heart rate up, which counts towards your weekly exercise. Like any racquet sport it has its injuries, most often to the elbow, knee, shoulder and lower back, so warm up, build up gradually and protect your skin on outdoor courts.
 
 With new clubs opening across the Gold Coast, here's a pharmacist's guide to getting the most out of padel without getting hurt.
 
@@ -66,11 +68,11 @@ The sport is growing fast. The International Padel Federation's World Padel Repo
 
 ## What are the health benefits of padel?
 
-Padel hasn't been studied for long. A 2022 review found that the research so far is based on observational studies, and concluded that "the long-term benefits of regular padel practice for health are yet to be demonstrated". Here's what we do know.
+Padel hasn't been studied for long. A 2022 review found that the research so far is based on cross-sectional and observational studies, and noted that "the long-term benefits of regular padel practice for health are yet to be demonstrated". Here's what we do know.
 
 - **It gets your heart pumping.** Studies of padel matches have recorded average heart rates of 140 to 160 beats a minute, around 70 to 80% of players' maximum heart rate.
-- **It counts towards your weekly exercise.** Australia's physical activity guidelines recommend adults do 2.5 to 5 hours of moderate activity, or 1.25 to 2.5 hours of vigorous activity, each week, plus muscle-strengthening activities on at least 2 days. Doing any physical activity is better than doing none.
-- **Racquet sports are linked with a longer life.** A British study that followed more than 80,000 adults for about 9 years found that people who played racquet sports such as tennis, badminton and squash had a 47% lower risk of death from any cause, and a 56% lower risk of death from cardiovascular disease, such as heart disease and stroke, than people who didn't play them.
+- **It counts towards your weekly exercise.** Australia's physical activity guidelines recommend adults aged 18 to 64 do 2.5 to 5 hours of moderate activity, or 1.25 to 2.5 hours of vigorous activity, each week, plus muscle-strengthening activities on at least 2 days. Doing any physical activity is better than doing none, and there are separate guidelines for people aged 65 and over.
+- **Racquet sports are linked with a lower risk of early death.** A British study that followed more than 80,000 adults for about 9 years found that people who played racquet sports such as tennis, badminton and squash had a 47% lower risk of dying from any cause during the study, and a 56% lower risk of dying from cardiovascular disease, such as heart disease and stroke, than people who didn't. Padel wasn't included.
 - **It's social.** Padel is usually played in pairs. A review of research on adults found that sport, especially club or team sport, is linked with better mental and social health than other forms of exercise, and researchers think the social side is a big part of the reason.
 - **It's easy to start.** With a smaller court, an underarm serve and walls that keep rallies going, Padel Australia says it's "fun and easy to play right away".
 
@@ -81,12 +83,11 @@ Most of this research shows links, not proof that the sport itself caused the be
 A 2023 systematic review found that injuries are common among padel players, and that most are tendon or muscle injuries rather than broken bones. The areas most often injured were:
 
 - **the elbow**, the most frequently reported site, often from tennis elbow;
-- **the lower back and shoulder**;
-- **the legs**, including calf muscle strains, knee and ankle sprains, and heel pain from plantar fasciitis.
+- **the knee**;
+- **the shoulder and lower back**;
+- **other parts of the leg**, with calf muscle strains, ankle sprains and heel pain from plantar fasciitis.
 
 Tennis elbow causes pain on the outside of the elbow and weakness in the forearm, and it comes from repeated use of the wrist and arm. healthdirect says using the wrong equipment, such as a racquet that's too big, and poor physical condition can contribute.
-
-One study in the review found injuries were more common in older players: 87% of players aged 55 to 67 had been injured at some point, compared with 60% of junior players aged 14 to 20.
 
 ## How can I avoid padel injuries?
 
@@ -119,10 +120,10 @@ The GPs at [Help Medical](/help-medical/), an independent general practice locat
 Plenty of Gold Coast courts are outdoors, although several of the new clubs have indoor courts. In Queensland, the UV index reaches 3 or higher every day, so Cancer Council Queensland says sun protection needs to be a priority all year round.
 
 - **Use all five SunSmart steps:** sun-protective clothing, SPF50 or higher broad-spectrum, water-resistant sunscreen, a hat, shade between games, and sunglasses that meet Australian Standards.
-- **Apply sunscreen 20 minutes before you play**, then reapply at least every two hours, and after sweating or towelling dry.
+- **Apply sunscreen 20 minutes before you play**, then reapply at least every two hours, and after sweating or towelling dry. Always read the label and follow the directions for use.
 - **Avoid the hottest part of the day.** The Queensland Government recommends avoiding strenuous exercise between 11am and 3pm if possible, so book an early or late court, or play indoors.
 - **Drink water** before, during and after you play.
-- **Know the signs of heat exhaustion**, such as pale skin and heavy sweating, a fast, weak pulse, fast, shallow breathing, and feeling faint. Stop, move somewhere cool, lie down and sip water. Heatstroke, with confusion, hot, dry skin or vomiting, is an emergency: call 000.
+- **Know the signs of heat exhaustion**, such as pale skin and heavy sweating, a fast, weak pulse, fast, shallow breathing, and feeling faint. Stop, move somewhere cool, lie down and sip water. Heatstroke is an emergency: call 000 if someone becomes confused, collapses or vomits, or has hot skin, which may be dry, although someone who's been exercising may still be sweating.
 
 Our guides to [choosing between SPF30 and SPF50](/spf30-vs-spf50/) and [treating sunburn](/sunburn-treatment/) have more tips.
 
@@ -154,7 +155,7 @@ Buying a racquet, balls or a bag online? [Australian Padel Shop](https://austral
 
 ## When to see a pharmacist, physio or GP
 
-Talk to our pharmacists about sun protection, strapping, supports, blister care and pain relief for minor aches and pains.
+Talk to our pharmacists about sun protection, strapping, supports, blister care and pain relief for minor aches and pains. Always read the label and follow the directions for use.
 
 See a physiotherapist or GP if:
 
@@ -176,14 +177,14 @@ Many people find it quicker to pick up. The court is about a third of the size, 
 
 ### What is padel elbow?
 
-It's tennis elbow, a painful overuse injury of the tendons on the outside of the elbow, and the elbow is the most commonly injured area in padel studies. healthdirect says tennis elbow usually gets better on its own, but recovery can take 6 to 12 months. Resting your arm, ice packs and pain relief can help, and a physiotherapist can suggest exercises if it hasn't improved after 6 to 12 weeks.
+It's tennis elbow, a painful overuse injury of the tendons on the outside of the elbow, and the elbow is the most commonly injured area in padel studies. healthdirect says tennis elbow usually gets better on its own, but recovery can take 6 to 12 months. Resting your arm, ice packs and pain relief can help, and a physiotherapist can suggest exercises if it hasn't improved after 6 to 12 weeks. If you use pain relief, always read the label and follow the directions for use.
 
 ### Do I need to see a doctor before I start playing padel?
 
-Most people don't, but check with your GP first if you have a heart condition, chest pain or dizziness during exercise, asthma that has needed urgent care in the last year, or diabetes that's been hard to control.
+Most people don't, but check with your GP first if you have a heart condition or have had a stroke, get chest pain (at rest or during exercise), feel dizzy or faint during exercise, have had asthma that needed urgent care in the last year, or have diabetes that's been hard to control.
 
 ### What should I do if I roll my ankle playing padel?
 
-Stop playing, then rest, ice, compress and elevate it, and avoid heat, alcohol, running and massage for the first 72 hours. Get urgent care if you can't put weight on it, and see a doctor or physio if it isn't improving after a few days.
+Stop playing, then rest, ice, compress and elevate it, and avoid heat, alcohol, running and firm massage for the first 72 hours. Get urgent care if you can't put weight on it, and see a doctor or physio if it isn't improving after a few days.
 
 Taking up padel this summer? Pop in to Pacific Fair and ask our pharmacists about sun protection, strapping and first aid for your padel bag. No appointment needed.
