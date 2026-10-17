@@ -40,6 +40,8 @@ Rules that must hold on every page (the build check enforces most of them):
 - Vaccines: anything free under the NIP or a Queensland Government program is given completely free, with no fee.
   We don't give rabies, dengue or yellow fever vaccines (Jason, 17 Oct 2026). Vaccine brand names are blocked words.
 - We don't compound medicines (Jason, 17 Oct 2026).
+- Help Medical bulk bills everyone with a Medicare card; patients without Medicare are private patients and pay a fee
+  (Jason, 17 Oct 2026). Say "bulk bills everyone with a Medicare card", not "eligible patients".
 - Australian Padel Shop: customers can pick up their online orders in store. Mention it only in the padel article,
   never on the homepage, in the menus or on service pages (Jason, 17 Oct 2026).
 

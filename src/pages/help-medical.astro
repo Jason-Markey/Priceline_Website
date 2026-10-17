@@ -19,9 +19,9 @@ const hm = site.helpMedical;
 const hmHours = hoursRows(hm.hours);
 
 const faqs = [
-  { q: 'Is there a doctor at Pacific Fair?', a: `Yes. Help Medical, an independent general practice, is inside Priceline Pharmacy Pacific Fair at Shop 81 on the ground floor, ${site.helpMedical.whereInStore.toLowerCase()}. The GPs see patients 7 days, bulk bill eligible Medicare card holders and have a QML Pathology collection room on site.` },
+  { q: 'Is there a doctor at Pacific Fair?', a: `Yes. Help Medical, an independent general practice, is inside Priceline Pharmacy Pacific Fair at Shop 81 on the ground floor, ${site.helpMedical.whereInStore.toLowerCase()}. The GPs see patients 7 days, bulk bill everyone with a Medicare card and have a QML Pathology collection room on site.` },
   { q: 'Is Help Medical part of Priceline Pharmacy?', a: 'No. Help Medical is an independent general practice located inside our store. The pharmacy and the clinic are run separately, but being under one roof means you can see a GP and fill your script in one visit.' },
-  { q: 'Does Help Medical bulk bill?', a: 'Yes, for eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so check with the clinic when you book. Patients without Medicare pay a private fee.' },
+  { q: 'Does Help Medical bulk bill?', a: 'Yes. Help Medical bulk bills everyone with a Medicare card. Patients without Medicare, such as overseas visitors, are private patients and pay a fee, so ask about the cost when you book.' },
   { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead online is the surest way to be seen.' },
   { q: 'How do I book a GP appointment?', a: `Book online through HotDoc (the link on helpmedical.au) or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
   { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form. See <a href="/blood-tests/">blood tests at Pacific Fair</a>.` },
@@ -34,9 +34,9 @@ const faqs = [
 <ServicePage
   service={service}
   title="Help Medical Pacific Fair | Bulk-Billing GP inside Priceline"
-  description="Need a doctor at Pacific Fair? Help Medical is an independent general practice inside Priceline. Open 7 days, walk-ins welcome, bulk billing if eligible."
+  description="Need a doctor at Pacific Fair? Help Medical is an independent general practice inside Priceline. Open 7 days, walk-ins welcome, bulk billed with Medicare."
   h1="Help Medical: GPs inside Priceline Pacific Fair"
-  lead="Help Medical, an independent general practice located inside our store, means you can see a GP and fill the script in one visit at Pacific Fair in Broadbeach. The clinic is open 7 days, with bulk billing for eligible Medicare card holders and a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead online is the surest way to be seen, and you can fill your script a few steps away afterwards."
+  lead="Help Medical, an independent general practice located inside our store, means you can see a GP and fill the script in one visit at Pacific Fair in Broadbeach. The clinic is open 7 days, bulk bills everyone with a Medicare card, and has a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead online is the surest way to be seen, and you can fill your script a few steps away afterwards."
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'cta_book_gp' }}
@@ -47,7 +47,7 @@ const faqs = [
 >
   <h2>Does Help Medical bulk bill?</h2>
   <Image src={receptionImg} alt="Help Medical reception desk and waiting area inside Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
-  <p>Help Medical bulk bills eligible patients with a Medicare card. Conditions apply, for example on weekends and public holidays, so please check when you book. Patients without Medicare pay a private fee.</p>
+  <p>Yes. Help Medical bulk bills everyone with a Medicare card. Patients without Medicare, such as overseas visitors, are private patients and pay a fee, so ask about the cost when you book.</p>
 
   <h2>Do I need an appointment to see a GP?</h2>
   <p>No, but it helps. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead is the surest way to be seen. New patients and Gold Coast visitors are welcome.</p>

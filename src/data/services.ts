@@ -409,13 +409,13 @@ export const services: Service[] = [
   {
     slug: 'help-medical',
     name: 'Help Medical GPs',
-    short: 'An independent general practice located inside our store. Bulk billing for eligible patients, QML pathology collection, walk-ins welcome.',
+    short: 'An independent general practice located inside our store. Bulk billing for everyone with a Medicare card, QML pathology collection, walk-ins welcome.',
     group: 'partner',
     icon: 'doctor',
     atAGlance: {
       what: 'An independent general practice located inside Priceline Pharmacy Pacific Fair, with a QML Pathology collection room.',
       who: 'Everyone, including visitors without Medicare (a private fee applies).',
-      cost: 'Bulk billing for eligible patients with a Medicare card; conditions apply on weekends and public holidays.',
+      cost: 'Bulk billed for everyone with a Medicare card. Patients without Medicare, such as overseas visitors, pay a private fee.',
       booking: 'Walk-ins welcome, subject to doctor availability. Booking ahead is the surest way to be seen.',
       howToBook: 'Book at helpmedical.au or call Help Medical.',
     },

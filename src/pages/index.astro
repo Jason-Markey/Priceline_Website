@@ -45,7 +45,7 @@ const faqs = [
   { q: 'Where is Priceline Pharmacy inside Pacific Fair?', a: 'Shop 81 on the ground floor, north-eastern side of the centre, next to Proud Smile and near the outdoor entrance from the river. Park in the Orange car park, directly under us (Gate 7 is closest). The prescription counter is at the back of the store on the left. <a href="/visit-us/">Get directions and parking tips</a>.' },
   { q: 'Are you open on Sundays?', a: 'Yes. We’re open 7 days a week, and until 9pm on Thursdays. Public holiday hours are updated on our Google listing. <a href="/visit-us/">See our full opening hours</a>.' },
   { q: 'Do I need an appointment for a vaccination?', a: 'No. Walk in any day we’re open, including for <a href="/flu-vaccination/">flu shots</a>, and scan the QR code at the counter to join the queue, or <a href="' + site.links.book + '" rel="noopener">book a time online</a> if you’d rather not wait. ' + site.quietTime.sentence },
-  { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical is an independent general practice located inside our store, with bulk billing for eligible patients. Walk in subject to doctor availability, or <a href="/help-medical/">book a GP ahead</a>.' },
+  { q: 'Is there a doctor inside the pharmacy?', a: 'Yes. Help Medical is an independent general practice located inside our store, and it bulk bills everyone with a Medicare card. Walk in subject to doctor availability, or <a href="/help-medical/">book a GP ahead</a>.' },
   { q: 'Can I send my prescription before I arrive?', a: `Yes. Email your eScript to ${site.emailPharmacy}, or send it through the Priceline Pharmacy app or MedAdvisor, and we’ll have it ready to collect. <a href="/prescriptions/">Send a script ahead</a>.` },
 ];
 ---
@@ -97,7 +97,7 @@ const faqs = [
           <li><strong>Here since 2009, pharmacist-owned.</strong> Ask our pharmacists anything, no appointment needed.</li>
           <li><strong>Scripts ready in minutes</strong>, thanks to our robotic dispensary. <a href="/prescriptions/">Send yours ahead</a>.</li>
           <li><strong>Walk-in <a href="/vaccination-information/">vaccinations</a>, including <a href="/flu-vaccination/">flu shots</a></strong>, free for eligible people under the National Immunisation Program, with no service fee.</li>
-          <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, with bulk billing for eligible patients.</li>
+          <li><strong>GPs in store</strong> at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, bulk billing everyone with a Medicare card.</li>
         </ul>
         <a class="btn btn--outline" href="/about-us/">Meet the team</a>
       </div>
@@ -185,7 +185,7 @@ const faqs = [
     <div class="container hm" data-cta-location="home_body">
       <div class="hm__copy">
         <h2>See a GP without leaving the store</h2>
-        <p>Help Medical, {site.helpMedical.relationship}, bulk bills eligible patients and welcomes walk-ins, subject to doctor availability. See a doctor, then have your script filled a few steps away. QML Pathology collects inside Help Medical on weekday mornings.</p>
+        <p>Help Medical, {site.helpMedical.relationship}, bulk bills everyone with a Medicare card and welcomes walk-ins, subject to doctor availability. See a doctor, then have your script filled a few steps away. QML Pathology collects inside Help Medical on weekday mornings.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href={site.helpMedical.bookingUrl} rel="noopener" data-event="book-gp">Book a GP</a>
           <a class="btn btn--outline" href="/help-medical/">About Help Medical</a>
