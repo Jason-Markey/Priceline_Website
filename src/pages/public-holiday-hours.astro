@@ -23,7 +23,7 @@ const boxingNewYear = confirmed(['Boxing Day', 'New Year']);
 
 const faqs = [
   { q: 'Is the pharmacy open on public holidays?', a: `Yes, on most of them. We’re open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day. Hours vary, so check our Google listing or call us on ${site.phone} before you come in.` },
-  { q: 'Are you open on Christmas Day?', a: 'No, we’re closed on Christmas Day. For urgent medical help call 000. For health advice at any hour, call healthdirect on 1800 022 222.' },
+  { q: 'Are you open on Christmas Day?', a: 'No, we’re closed on Christmas Day. For urgent medical help call 000. For health advice at any hour, call 13 HEALTH on 13 43 25 84 to talk to a registered nurse.' },
   {
     q: 'Are you open on Boxing Day and New Year’s Day?',
     a: boxingNewYear ? `Yes. ${boxingNewYear}.` : `Yes. Hours vary, so check our Google listing or call us on ${site.phone}.`,
@@ -43,7 +43,7 @@ const faqs = [
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   showNap
-  dateModified="2026-10-16"
+  dateModified="2026-10-20"
 >
   <div class="btn-row">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
@@ -90,7 +90,7 @@ const faqs = [
   <p>Check you have enough of your regular medicines before a long weekend or holiday. If you’re running low, fill your next repeat in advance or <a href="/prescriptions/">send your eScript ahead</a> through the app. Our <a href="/travel-health-checklist/">travel health checklist</a> covers what else to pack.</p>
 
   <h2>Need help when we’re closed?</h2>
-  <p>For urgent medical help, call 000. For health advice at any hour, call healthdirect on 1800 022 222. Gold Coast University Hospital and Robina Hospital have emergency departments.</p>
+  <p>For urgent medical help, call 000. For health advice at any hour, call 13 HEALTH (<a href="tel:13432584">13 43 25 84</a>), Queensland’s 24/7 nurse advice line. Gold Coast University Hospital and Robina Hospital have emergency departments.</p>
 </ContentPage>
 
 <style>
