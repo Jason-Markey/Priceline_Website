@@ -24,6 +24,10 @@ references:
     url: "https://www.servicesaustralia.gov.au/running-out-pbs-medicines-when-overseas"
   - name: "healthdirect – Pharmaceutical Benefits Scheme (PBS)"
     url: "https://www.healthdirect.gov.au/pharmaceutical-benefits-scheme-pbs"
+  - name: "Services Australia – Travelling with medicines that are prohibited exports"
+    url: "https://www.servicesaustralia.gov.au/travelling-with-medicines-are-prohibited-exports"
+  - name: "Office of Drug Control – Travelling to or from Australia with medicines and medical devices"
+    url: "https://www.odc.gov.au/travellers/travelling-or-australia-medicines-and-medical-devices"
 draft: false
 ---
 The most useful travel health checklist starts about 6 to 8 weeks before you fly. That's when Smartraveller recommends seeing your doctor, so there's time to get vaccines, sort your scripts and act on any advice before you leave. Below is a simple countdown you can follow, and our [travel health services at Pacific Fair](/vaccination-information/) can help with many of the steps along the way.
@@ -95,13 +99,15 @@ Longer trips take more planning, because you can't fill PBS scripts overseas and
 Services Australia sets clear rules for taking PBS medicines overseas:
 
 - You can only take PBS medicines for your own personal use, or for someone travelling with you.
-- It's illegal to take or send PBS medicines overseas for anyone else, including family members and relatives who aren't travelling with you. Penalties include large fines and possible prison time.
-- Check the medicine is legal in every country you're visiting or transiting through. The embassy or consulate is the place to ask.
-- Carry your doctor's letter. If you can't get one, you can fill in a Medicine Export Declaration form.
+- It's illegal to take or send PBS medicines overseas for anyone else, including family members and relatives who aren't travelling with you. Penalties include a fine of up to $16,500 (as of February 2026) and up to 2 years in prison.
+- Take only enough to cover your trip. Services Australia says the amount depends on PBS rules, your prescriber's judgement, Australian export laws and the import laws of the countries you visit.
+- Check the medicine is legal in every country you're visiting or transiting through. The embassy or consulate is the place to ask, and some countries have very strict rules on certain medicines, such as strong pain relievers.
+- Carry your doctor's letter listing your medicines, with their strength and daily dose. If you can't get one, fill in a Medicine Export Declaration form and take it through customs.
 - Leave medicines in their original packaging.
-- PBS medicines can't be posted or couriered to you while you're away.
+- PBS medicines can't be posted or couriered to you while you're away, even if they were dispensed before you left.
+- A few PBS medicines can't legally leave Australia at all. Services Australia points to the Australian Border Force website for the details.
 
-For specific questions, Services Australia runs a PBS taking or sending medicine overseas line on 1800 500 147.
+For specific questions, Services Australia runs a PBS taking or sending medicine overseas line on 1800 500 147, 24 hours a day, 7 days a week.
 
 ## 1 week before you fly
 
