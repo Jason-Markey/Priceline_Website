@@ -105,7 +105,7 @@ Services Australia sets clear rules for taking PBS medicines overseas:
 - Carry your doctor's letter listing your medicines, with their strength and daily dose. If you can't get one, fill in a Medicine Export Declaration form and take it through customs.
 - Leave medicines in their original packaging.
 - PBS medicines can't be posted or couriered to you while you're away, even if they were dispensed before you left.
-- A few PBS medicines can't legally leave Australia at all. Services Australia points to the Australian Border Force website for the details.
+- Some PBS medicines can't legally leave Australia at all. Services Australia points to the Australian Border Force website for the details.
 
 For specific questions, Services Australia runs a PBS taking or sending medicine overseas line on 1800 500 147, 24 hours a day, 7 days a week.
 
