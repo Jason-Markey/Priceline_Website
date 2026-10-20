@@ -128,7 +128,7 @@ We supply the full quantity on your script, not part of it. If we're short of st
 
 eScripts make that choice easy. The Australian Digital Health Agency explains you can visit the pharmacy of your choice and present your token. If you have paper repeats on file somewhere, our guide to [moving your prescriptions](/transfer-prescriptions-new-pharmacy/) explains what to do.
 
-To save time, [send your eScript ahead](/prescriptions/) by email or through the app. You can also [contact us](/contact-us/) to ask about a medicine before you come in.
+To save time, [send your eScript ahead](/prescriptions/) by email or through the app. You can also [call or email us](/contact-us/) to check a medicine is in stock before you come in.
 
 ## How our pharmacists can help
 

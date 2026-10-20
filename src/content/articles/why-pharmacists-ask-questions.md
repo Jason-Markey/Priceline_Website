@@ -82,13 +82,15 @@ If you relied on one of these, ask your pharmacist about other options, or see y
 
 ## Can I get my repeat early?
 
-Often, yes. Just ask. But there are a few reasons a repeat may not be available straight away, or may not count towards your PBS Safety Net:
+Often, yes, for many regular medicines, such as blood pressure and cholesterol medicines. Just ask. Some medicines can't be supplied early without your doctor's approval. If you're travelling, we're always happy to try calling your doctor for their approval.
+
+There are a few reasons a repeat may not be available straight away, or may not count towards your PBS Safety Net:
 
 - **Intervals set on the script.** Your doctor may set a minimum time between repeats, and some medicines have legal limits on how soon they can be supplied again.
 - **Monitored medicines.** Before dispensing some strong pain relievers, sleeping and anxiety medicines, nerve pain medicines and ADHD medicines, Queensland pharmacists generally must check QScript. The Queensland Government explains it gives doctors and pharmacists up-to-date information about these medicines you've received, to help spot risks such as taking too much. Whether to dispense is still the pharmacist's clinical decision.
 - **The PBS early supply rule.** For some long-term PBS medicines, a repeat supplied too soon falls outside the PBS Safety Net. Too soon means within 20 days of the last supply, or 50 days for a 60-day script. What you pay for it then doesn't count towards your Safety Net total. The PBS says this rule replaced the old Safety Net 20-day rule in 2016. See our [PBS Safety Net guide](/pbs-safety-net-explained/).
 
-If you genuinely need a supply early, tell your pharmacist. The PBS notes there are arrangements when you need an early supply to continue your treatment. If you're running out because you're taking more than prescribed, talk to your pharmacist and doctor.
+If you need a supply early, tell your pharmacist. The PBS notes there are arrangements when you need an early supply to continue your treatment. If you're running out because you're taking more than prescribed, talk to your pharmacist and doctor.
 
 ## What happens if the pharmacist can't supply a medicine?
 

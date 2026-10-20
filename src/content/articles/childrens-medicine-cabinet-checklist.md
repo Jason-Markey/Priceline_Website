@@ -42,7 +42,7 @@ Fevers and tummy bugs have a habit of starting in the middle of the night. Here'
 
 ### For fever and pain
 
-- **A digital thermometer.** The Royal Children's Hospital Melbourne (RCH) suggests measuring your child's temperature under the arm with a digital thermometer. Ear thermometers can be used too, but the RCH doesn't recommend them for babies under six months. It says forehead infrared and plastic-tape thermometers can be unreliable for children, and to always follow the thermometer's instructions. See the [thermometer range on priceline.com.au](https://www.priceline.com.au/c/thermometers).
+- **A digital thermometer.** The Royal Children's Hospital Melbourne (RCH) suggests measuring your child's temperature under the arm with a digital thermometer. Ear thermometers can be used too, but the RCH doesn't recommend them for babies under six months. It says forehead infrared and plastic-tape thermometers can be unreliable for children, and to always follow the thermometer's instructions. The thermometers we sell come with instructions, in a booklet or online, so have a read before you need it. See the [thermometer range on priceline.com.au](https://www.priceline.com.au/c/thermometers).
 - **Children's paracetamol and ibuprofen.** healthdirect says children's medicines often come in different strengths for different age groups, so check the strength is right for your child's age and weight. It notes paracetamol is for babies over 1 month and ibuprofen for babies over 3 months. Our guide to [paracetamol and ibuprofen for kids](/childrens-paracetamol-ibuprofen/) covers doses, timing and who shouldn't have ibuprofen.
 - **The measuring syringe or cup.** healthdirect says to always use the one that comes with a liquid medicine. If you've lost it, ask your pharmacist for another.
 
@@ -64,9 +64,8 @@ The RCH defines a fever as 38°C or more, and says it's more important to watch 
 
 ### For cuts, scrapes and bumps
 
-- **Non-stick dressings and plasters.** The RCH says a non-stick dressing is a good option for grazes, and a plaster works for most cuts, as long as the sticky part stays off the cut.
+- **Non-stick dressings and plasters.** The RCH says a non-stick dressing is a good option for grazes, and a plaster works for most cuts, as long as the sticky part stays off the cut. See [how to treat a cut](/how-to-treat-a-cut/).
 - **Saline tubes, small scissors and tweezers** for cleaning and dressing small wounds.
-- **Skip the antiseptic cream.** For children, the RCH says most wounds only need cleaning with running water, and advises against antiseptic creams on cuts and grazes because they can irritate the wound and delay healing. See [how to treat a cut](/how-to-treat-a-cut/).
 - **An instant cold pack** for bumps and sprains. Wrap it in a light cloth rather than putting it straight on the skin.
 
 For a family kit for the beach, pool and car, see our [summer first aid kit checklist](/first-aid-kit-checklist/). You can also browse the [children's medicine](https://www.priceline.com.au/c/childrens-medicine) and [baby health](https://www.priceline.com.au/c/baby-health) ranges on priceline.com.au. Always read the label and follow the directions for use.
@@ -111,8 +110,6 @@ Take anything old or unwanted to a pharmacy. We take back unwanted medicines for
 You don't need an appointment to ask. Our pharmacists can:
 
 - help you choose the right product and strength for your child's age and weight
-- show you how to measure a dose with an oral syringe
-- show you how your thermometer works, before you need it
 - check whether a medicine you already have is in date and suitable for your child
 
 Anyone can ask to talk to a pharmacist privately in our consultation room. We're open 7 days, with a late night on Thursdays; see [our opening hours](/visit-us/).
