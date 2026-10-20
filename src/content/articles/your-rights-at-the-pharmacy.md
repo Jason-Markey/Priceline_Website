@@ -24,7 +24,7 @@ references:
     url: "https://www.healthdirect.gov.au/how-to-read-cmis"
   - name: "Australian Digital Health Agency – Electronic prescribing"
     url: "https://www.digitalhealth.gov.au/initiatives-and-programs/electronic-prescriptions"
-draft: true
+draft: false
 ---
 At the pharmacy, as anywhere you receive health care in Australia, you can expect respect and privacy. You can also ask questions and share in decisions about your care. The Australian Charter of Healthcare Rights sets out what you can expect.
 

@@ -16,7 +16,7 @@ references:
     url: "https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/buying-products-and-services/guarantees-warranties-refunds/when-you-can-get-a-refund"
   - name: "Priceline – Returns and Exchange Policy"
     url: "https://www.priceline.com.au/priceline-policies/returns-and-exchange-policy"
-draft: true
+draft: false
 ---
 Start by spraying a few fragrances onto testing cards, then try your favourite on your skin and give it a few hours before you decide. A perfume changes as it settles, so the scent you smell in the first minute isn't the one you'll be wearing all afternoon.
 

@@ -24,7 +24,7 @@ references:
     url: "https://www.healthdirect.gov.au/medicines-safety-for-older-people"
   - name: "Better Health Channel – Medicines: safety issues"
     url: "https://betterhealth.vic.gov.au/health/conditionsandtreatments/medicines-safety-issues"
-draft: true
+draft: false
 ---
 Before you leave the counter, take a moment to check your medicine. Look for your name, the medicine's name and strength, the directions, the quantity and the expiry date. If anything looks different from last time, ask before you go.
 

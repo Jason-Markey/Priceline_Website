@@ -28,7 +28,7 @@ references:
     url: "https://www.digitalhealth.gov.au/initiatives-and-programs/electronic-prescriptions"
   - name: "Better Health Channel – Medicines: safety issues"
     url: "https://betterhealth.vic.gov.au/health/conditionsandtreatments/medicines-safety-issues"
-draft: true
+draft: false
 ---
 A medicine can be out of stock for two quite different reasons. Sometimes there's a national shortage, which the Therapeutic Goods Administration (TGA) tracks and publishes. Other times, a medicine is briefly unavailable at one pharmacy or in one area while new stock works its way through the supply chain.
 

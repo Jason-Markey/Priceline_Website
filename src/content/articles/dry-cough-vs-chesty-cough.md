@@ -26,7 +26,7 @@ references:
     url: "https://www.healthdirect.gov.au/croup"
   - name: "Queensland Government – Whooping cough (pertussis)"
     url: "https://www.qld.gov.au/health/condition/infections-and-parasites/bacterial-infections/whooping-cough-pertussis"
-draft: true
+draft: false
 ---
 A dry cough is tickly and brings nothing up. A chesty cough brings up mucus, also called phlegm. The difference matters when you choose a medicine: cough suppressants are meant for a dry cough, while expectorants and mucolytics are meant for a chesty one. Most coughs from a cold settle on their own, and healthdirect says this kind of cough normally goes away within 2 to 4 weeks in healthy people.
 

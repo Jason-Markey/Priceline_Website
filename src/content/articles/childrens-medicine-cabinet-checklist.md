@@ -32,7 +32,7 @@ references:
     url: "https://www.rch.org.au/kidsinfo/fact_sheets/Nappy_rash/"
   - name: "RCH Kids Health Info – Cuts, grazes and lacerations"
     url: "https://rch.org.au/kidsinfo/fact_sheets/Cuts_grazes_lacerations/"
-draft: true
+draft: false
 ---
 Stock a few basics before your child gets sick: a digital thermometer, children's paracetamol and ibuprofen in the right strength with their measuring syringe, oral rehydration solution, saline nose drops, a nappy rash cream and some first aid supplies. Add a card with key phone numbers and your child's current weight, and keep everything up high and out of sight.
 

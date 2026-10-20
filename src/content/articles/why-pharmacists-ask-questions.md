@@ -30,7 +30,7 @@ references:
     url: "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19"
   - name: "healthdirect – Medicines for babies and children"
     url: "https://www.healthdirect.gov.au/medicines-for-babies-and-children"
-draft: true
+draft: false
 ---
 When a pharmacist asks who a medicine is for, what your symptoms are or what else you take, they're not judging you. Some medicines are only safe for some people, and the rules ask pharmacists to check before supplying them. A few quick answers help us choose something that works, or spot when you need a doctor.
 

@@ -26,7 +26,7 @@ references:
     url: "https://www.hconc.org.au/wp-content/uploads/2019/01/5-questions-to-ask-your-doctor-before-you-get-any-test-treatment-or-procedure-old.pdf"
   - name: "Queensland Government – Medicines that affect driving"
     url: "https://www.qld.gov.au/transport/licensing/healthy-to-drive/can-i-drive/medications-and-treatments/medicines"
-draft: true
+draft: false
 ---
 When you start a new medicine, ask what it's for, how to take it and for how long. Ask what to do if you miss a dose, and which side effects to watch for. Then check it's safe with your other medicines, with alcohol and for driving.
 
