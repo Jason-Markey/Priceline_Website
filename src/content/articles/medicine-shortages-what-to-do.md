@@ -24,11 +24,15 @@ references:
     url: "https://tga.gov.au/sites/default/files/2024-07/medicine-shortages-report-2024.pdf"
   - name: "healthdirect – Medicines safety for older people"
     url: "https://www.healthdirect.gov.au/medicines-safety-for-older-people"
+  - name: "Australian Digital Health Agency – Electronic prescribing"
+    url: "https://www.digitalhealth.gov.au/initiatives-and-programs/electronic-prescriptions"
+  - name: "Better Health Channel – Medicines: safety issues"
+    url: "https://betterhealth.vic.gov.au/health/conditionsandtreatments/medicines-safety-issues"
 draft: true
 ---
 A medicine can be out of stock for two quite different reasons. Sometimes there's a national shortage, which the Therapeutic Goods Administration (TGA) tracks and publishes. Other times, a medicine is briefly unavailable at one pharmacy or in one area while new stock works its way through the supply chain.
 
-Either way, the TGA's advice is to speak to your doctor or pharmacist. Ask early, and keep taking your medicine while you sort it out. Here's why shortages happen, how to check for one, and what a pharmacist can and can't do.
+Either way, the TGA's advice is to speak to your doctor or pharmacist, and it says early awareness helps you manage a shortage. Don't stop taking your medicine without talking to your doctor. Here's why shortages happen, how to check for one, and what a pharmacist can and can't do.
 
 ## Why do medicines go out of stock?
 
@@ -113,16 +117,16 @@ If your medicine can't be sourced or substituted, a pharmacist can contact your 
 
 - **Don't wait for your last dose.** The TGA says early awareness of a shortage can help you, your doctor and your pharmacist manage its impact.
 - **Check your repeats.** If you're on your last repeat, book in with your doctor for a new script before you run out.
-- **Keep an Active Script List.** An [Active Script List](/how-to-use-escripts/) holds your eScripts in one place. healthdirect explains you can give any pharmacy in the program consent to see it, which makes it easy to fill a script elsewhere. We can register you in store.
+- **Keep an Active Script List.** An [Active Script List](/how-to-use-escripts/) holds your eScripts in one place. The Australian Digital Health Agency explains you can give a participating pharmacy consent to access your list and dispense your medicines, which makes it easy to fill a script elsewhere. We can register you in store.
 - **Only buy what you need.** The TGA says this helps avoid local supply disruptions.
 - **Never stop or swap a medicine on your own.** healthdirect says never to stop taking your medicine without talking to your doctor. Talk to a doctor or pharmacist before changing any medicine, too.
-- **Never share medicines.** Borrowing someone else's medicine isn't a safe fix. The Better Health Channel advises never giving your medicines to other people.
+- **Never share medicines.** Borrowing someone else's medicine isn't a safe fix, and the Better Health Channel advises never giving your medicines to other people.
 
 ## What happens when you bring your script to us?
 
 We supply the full quantity on your script, not part of it. If we're short of stock, we tell you when you hand your script in. Then it's your choice: we can order it in for you, or you can take your script elsewhere.
 
-eScripts make that choice easy. healthdirect explains you can take your eScript to any pharmacy set up to dispense them. If you have paper repeats on file somewhere, our guide to [moving your prescriptions](/transfer-prescriptions-new-pharmacy/) explains what to do.
+eScripts make that choice easy. The Australian Digital Health Agency explains you can visit the pharmacy of your choice and present your token. If you have paper repeats on file somewhere, our guide to [moving your prescriptions](/transfer-prescriptions-new-pharmacy/) explains what to do.
 
 To save time, [send your eScript ahead](/prescriptions/) by email or through the app. You can also [contact us](/contact-us/) to ask about a medicine before you come in.
 

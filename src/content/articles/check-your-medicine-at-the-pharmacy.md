@@ -89,7 +89,7 @@ Our guide to [eScripts, Active Script Lists and scripts on file](/how-to-use-esc
 
 ## What if something looks wrong?
 
-If something doesn't look right, don't take it. Instead:
+If something doesn't look right, check with us before you take it, and call us straight away if it's a dose you can't miss. To sort it out:
 
 1. Come back to the prescription counter, or [contact us](/contact-us/).
 2. Bring the medicine, with its box and label.

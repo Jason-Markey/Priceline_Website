@@ -1,6 +1,6 @@
 ---
 title: "Why your pharmacist asks questions (and sometimes for ID)"
-description: "Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and why repeats can't be early. Ask our Broadbeach team."
+description: "Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and the rules on early repeats. Ask our Broadbeach team."
 seoTitle: "Why pharmacists ask questions | Priceline Pacific Fair"
 publishDate: 2026-10-26
 modifiedDate: 2026-10-26
@@ -26,6 +26,10 @@ references:
     url: "https://www.pbs.gov.au/pbs/general/safety-net-faq"
   - name: "Queensland Government – QScript"
     url: "https://www.qld.gov.au/health/conditions/all/qscript"
+  - name: "healthdirect – Medicines for colds, flu and COVID-19"
+    url: "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19"
+  - name: "healthdirect – Medicines for babies and children"
+    url: "https://www.healthdirect.gov.au/medicines-for-babies-and-children"
 draft: true
 ---
 When a pharmacist asks who a medicine is for, what your symptoms are or what else you take, they're not judging you. Some medicines are only safe for some people, and the rules ask pharmacists to check before supplying them. A few quick answers help us choose something that works, or spot when you need a doctor.
@@ -48,7 +52,7 @@ Because you can only buy a Pharmacist Only Medicine after speaking to the pharma
 
 ## What will the pharmacist ask, and why?
 
-You might be asked some or all of these. Pharmacy assistants are trained to ask questions too, and to bring in the pharmacist when needed.
+You might be asked some or all of these, by the pharmacist or another member of the team.
 
 - **Who is it for?** The answers need to be about the person taking it. healthdirect notes a child's dose depends on their age and weight. It also says cough and cold medicines, including nasal sprays, aren't suitable for children under 6.
 - **What are your symptoms?** This helps the pharmacist match the medicine to the problem, or suggest something else.
@@ -72,15 +76,15 @@ So we'll ask to see photo ID, such as your driver licence, and a few extra quest
 Some medicines that used to be sold over the counter have been moved or removed:
 
 - **February 2018.** Some stronger pain relievers and some cough and cold medicines became prescription-only. The TGA pointed to substantial evidence of harm from misuse, and the risk of tolerance and dependence. It also found little evidence these low-dose products worked better than alternatives for most people.
-- **2023.** The TGA cancelled some cough medicines and recalled them from pharmacy shelves. It had found a link with a higher risk of severe allergic reactions to certain muscle relaxants used in general anaesthesia.
+- **2023.** The TGA cancelled some cough medicines and recalled them from pharmacy shelves. This followed a review that linked them to a risk of severe allergic reactions to certain muscle relaxants used during a general anaesthetic.
 
 If you relied on one of these, ask your pharmacist about other options, or see your GP.
 
-## Why can't I get my repeat early?
+## Can I get my repeat early?
 
-A pharmacist may not be able to supply a repeat as soon as you ask, for a few reasons:
+Often, yes. Just ask. But there are a few reasons a repeat may not be available straight away, or may not count towards your PBS Safety Net:
 
-- **Intervals set on the script.** For Controlled Drugs, Queensland's medicines regulation requires the prescription to state the minimum number of days before a repeat can be dispensed.
+- **Intervals set on the script.** Your doctor may set a minimum time between repeats, and some medicines have legal limits on how soon they can be supplied again.
 - **Monitored medicines.** Before dispensing some strong pain relievers, sleeping and anxiety medicines, nerve pain medicines and ADHD medicines, Queensland pharmacists generally must check QScript. The Queensland Government explains it gives doctors and pharmacists up-to-date information about these medicines you've received, to help spot risks such as taking too much. Whether to dispense is still the pharmacist's clinical decision.
 - **The PBS early supply rule.** For some long-term PBS medicines, a repeat supplied too soon falls outside the PBS Safety Net. Too soon means within 20 days of the last supply, or 50 days for a 60-day script. What you pay for it then doesn't count towards your Safety Net total. The PBS says this rule replaced the old Safety Net 20-day rule in 2016. See our [PBS Safety Net guide](/pbs-safety-net-explained/).
 
@@ -114,7 +118,7 @@ Talk to a pharmacist or see a GP if:
 - you're pregnant, breastfeeding or caring for a young child and aren't sure what's safe
 - you've run out of a regular medicine and can't get a repeat
 
-healthdirect says to go to the nearest emergency department straight away if a baby under 3 months has a fever above 38°C. If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26.
+If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26.
 
 **Call 000 in an emergency.** If someone has collapsed, isn't breathing or is having a severe allergic reaction, call triple zero (000) straight away.
 
@@ -122,7 +126,7 @@ healthdirect says to go to the nearest emergency department straight away if a b
 
 ### Can a pharmacist refuse to sell me a medicine?
 
-Yes. A pharmacist must be satisfied that a Pharmacist Only Medicine is appropriate before supplying it. If it isn't, they may suggest another treatment or refer you to a doctor.
+Yes. Pharmacist Only Medicines need a pharmacist's advice, so if a medicine isn't right for you, the pharmacist won't supply it. They may suggest another treatment or refer you to a doctor.
 
 ### Why am I asked questions when I've bought it before?
 

@@ -26,6 +26,12 @@ references:
     url: "https://poisonsinfo.health.qld.gov.au/"
   - name: "Lifeline – Crisis support"
     url: "https://www.lifeline.org.au/crisis-support/"
+  - name: "Queensland Government – Tugun Satellite Hospital, Banyahrmabah"
+    url: "https://qld.gov.au/health/services/satellite-hospitals/tugun-satellite-hospital"
+  - name: "Queensland Government – Anaphylaxis"
+    url: "https://www.qld.gov.au/health/condition/accidents-injuries-and-poisonings/allergic-reactions/anaphylaxis"
+  - name: "Better Health Channel – Medicines: safety issues"
+    url: "https://betterhealth.vic.gov.au/health/conditionsandtreatments/medicines-safety-issues"
 draft: true
 ---
 If you're unwell after hours near Broadbeach, call triple zero (000) in an emergency. If it isn't an emergency but you're worried, call 13 HEALTH on 13 43 25 84. A registered nurse answers any time, day or night, and can tell you how urgent it is and where to get care.
@@ -87,7 +93,9 @@ According to healthdirect, they can treat problems such as:
 
 The Australian Government says Medicare Urgent Care Clinics are bulk billed. healthdirect advises bringing your Medicare card if you have one.
 
-On the Gold Coast, the [Australian Government's Medicare Urgent Care Clinic finder](https://www.health.gov.au/find-a-medicare-ucc) lists clinics in Southport (178 Nerang Street) and Oxenford (2 Leo Graham Way). Check the clinic's opening hours on the finder before you go.
+On the Gold Coast, there are Medicare Urgent Care Clinics in Southport and Oxenford. Use the [Australian Government's Medicare Urgent Care Clinic finder](https://www.health.gov.au/find-a-medicare-ucc) to check the nearest clinic and its hours before you go.
+
+The Queensland Government's Tugun Satellite Hospital also has a walk-in Minor Injury and Illness Clinic for urgent illnesses and injuries that aren't life-threatening. Check its hours before you go.
 
 ## Is there a GP open late near Broadbeach?
 

@@ -22,8 +22,10 @@ references:
     url: "https://www.healthdirect.gov.au/medicines-safety-for-older-people"
   - name: "Australian Commission on Safety and Quality in Health Care – Top tips for safe health care"
     url: "https://www.safetyandquality.gov.au/sites/default/files/2019-06/d17-33203_top_tips_safe_care_-_print_marks.pdf"
-  - name: "Choosing Wisely Australia – 5 questions to ask your doctor or other health care provider before you get any test, treatment or procedure"
+  - name: "Choosing Wisely Australia (poster via Health Consumers' Council WA) – 5 questions to ask your doctor or other health care provider before you get any test, treatment or procedure"
     url: "https://www.hconc.org.au/wp-content/uploads/2019/01/5-questions-to-ask-your-doctor-before-you-get-any-test-treatment-or-procedure-old.pdf"
+  - name: "Queensland Government – Medicines that affect driving"
+    url: "https://www.qld.gov.au/transport/licensing/healthy-to-drive/can-i-drive/medications-and-treatments/medicines"
 draft: true
 ---
 When you start a new medicine, ask what it's for, how to take it and for how long. Ask what to do if you miss a dose, and which side effects to watch for. Then check it's safe with your other medicines, with alcohol and for driving.
@@ -58,17 +60,17 @@ healthdirect suggests asking about both common side effects, which are usually l
 
 ### Will it interact with my other medicines?
 
-Tell your pharmacist about everything you take, including over-the-counter medicines, vitamins and herbal products. healthdirect notes that interactions can also involve food, drinks and alcohol.
+Tell your pharmacist about everything you take, including over-the-counter medicines, vitamins and herbal products.
 
 Why it matters: the Better Health Channel warns that mixing medicines can cause side effects. Our guide to [supplements that can interact with your medicines](/supplements-that-interact-with-medicines/) covers common examples. Always read the label and follow the directions for use.
 
 ### Can I drink alcohol with it?
 
-healthdirect warns that alcohol can interact with many medicines, even in small amounts. It can make side effects stronger and affect your ability to drive, work safely or care for children. Our guide to [alcohol and antibiotics](/alcohol-and-antibiotics/) explains more.
+healthdirect warns that alcohol can interact with many medicines, even in small amounts. It can change how both the alcohol and the medicine affect you, and affect your ability to drive, work safely or care for children. Our guide to [alcohol and antibiotics](/alcohol-and-antibiotics/) explains more.
 
 ### Is it safe to drive?
 
-The Queensland Government says many types of medicines can affect driving, including some cold and flu tablets you can buy without a prescription. Ask whether your new medicine could make you drowsy or dizzy. Watch for any effects when you start a medicine or change a dose.
+The Queensland Government says some medicines can affect your driving, including some over-the-counter cold and flu tablets. Ask whether your new medicine could make you drowsy or dizzy. Watch for any effects when you start a medicine or change a dose.
 
 ### How should I store it?
 
@@ -80,7 +82,7 @@ Some medicines work almost straight away. healthdirect explains that others, suc
 
 ### Is there a generic?
 
-A generic is another brand of the same medicine. The TGA says generic prescription medicines meet the same standards of quality, safety and effectiveness as the original brand, though they may look different. Choosing a generic or the brand is your choice, unless your doctor has marked the script "brand substitution not permitted". Read more in [generic vs brand-name medicines](/generic-vs-brand-medicines/).
+A generic is another brand of the same medicine. Generics must meet the same standards for quality, safety and effectiveness as the original brand, though they may look different. Choosing a generic or the brand is your choice, unless your doctor has marked the script "brand substitution not permitted". Read more in [generic vs brand-name medicines](/generic-vs-brand-medicines/).
 
 ## What are the Choosing Wisely questions?
 

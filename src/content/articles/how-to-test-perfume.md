@@ -38,8 +38,8 @@ That's why a quick sniff can mislead. The bright opening that won you over may b
 
 1. **Start on testing cards.** The testers are out in our fragrance cabinets, and our team can spray the ones you like onto testing cards. Write the name on each card, so you don't mix them up.
 2. **Narrow it down.** Smell the cards again after a few minutes and set aside any you're unsure about. Aim for a shortlist of one or two.
-3. **Try your favourite on skin.** A card shows you the fragrance; your skin shows you how it wears on you. Spray once on the inside of your wrist or forearm, holding the bottle about 20 cm away. Comparing two? Put one on each arm.
-4. **Don't rub.** Rubbing your wrists together warms the skin and can change how the scent develops. Let it dry on its own.
+3. **Try your favourite on skin.** A card shows you the fragrance; your skin shows you how it wears on you. Spray once on the inside of your wrist or forearm, holding the bottle a little way from your skin. Comparing two? Put one on each arm.
+4. **Don't rub.** Rubbing can break down the scent before it settles. Let it dry on its own.
 5. **Walk away and wait.** Smell your skin again after 30 minutes, after an hour and after a few hours. Do you still like it? How long does it last?
 6. **Take a card home.** Still deciding? We can spray the fragrance on a testing card for you to take home, so you can see how you feel about it the next day.
 
@@ -75,7 +75,7 @@ You can't test a gift on the person who'll wear it, so work from clues:
 
 - Start with what they already wear. A photo of the bottle on their dresser is a great starting point.
 - Think about the scent family they like: fresh, floral, warm or woody. You can [shop fragrance by scent on priceline.com.au](https://www.priceline.com.au/c/fragrance-shop-by-scent).
-- Keep the receipt, and suggest they keep the seal intact until they're sure, in case it needs to come back. If you're shopping early, note the date on your receipt (see the returns rules below).
+- Keep the receipt, and suggest they keep the seal intact until they're sure, in case it needs to come back. Change-of-mind returns are 30 days from the day you buy, so keep that in mind if you're shopping early (see the returns rules below).
 
 For more ideas, see our [fragrance gift guide](/fragrance-gift-ideas/).
 

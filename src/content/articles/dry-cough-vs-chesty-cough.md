@@ -16,8 +16,10 @@ references:
     url: "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19"
   - name: "RCH Kids Health Info – Cough"
     url: "https://www.rch.org.au/kidsinfo/fact_sheets/cough"
-  - name: "Therapeutic Goods Administration – TGA response: proposed advisory statements for cough and cold medicines for use in children"
-    url: "https://www.tga.gov.au/submissions-tga-response-proposed-advisory-statements-medicines-cough-and-cold-medicines-use-children"
+  - name: "Therapeutic Goods Administration – 2018 changes to over-the-counter pain relievers: frequently asked questions"
+    url: "https://www.tga.gov.au/final-decision-re-scheduling-codeine-frequently-asked-questions"
+  - name: "Therapeutic Goods Administration – Safety alert: some cough medicines cancelled and recalled (2023)"
+    url: "https://tga.gov.au/node/349339"
   - name: "Monash University – Health Check: do cough medicines work?"
     url: "https://www.monash.edu/news/articles/health-check-do-cough-medicines-work"
   - name: "healthdirect – Croup"
@@ -83,11 +85,11 @@ Not as well as most people hope. healthdirect says there isn't much evidence tha
 
 ## Can children have cough medicine?
 
-The Therapeutic Goods Administration (TGA) advises that cough and cold medicines should not be used to treat cough and cold in children under 6, and should only be used in children aged 6 to 11 on the advice of a doctor, pharmacist or nurse practitioner. healthdirect's cough page, reviewed in November 2025, repeats that they should not be given to children under 6.
+healthdirect says cough and cold medicines should not be given to children under 6, and that children should only have them if a doctor or pharmacist advises it.
 
 The RCH adds that there's no evidence cough medicines help children with a cough, and that they can be harmful, especially for children under six. Rest, fluids and honey (for children over 12 months) are a better place to start.
 
-healthdirect notes that babies under 6 months are at the highest risk of serious complications from whooping cough. Our guide to the [whooping cough vaccine in pregnancy](/whooping-cough-vaccine-pregnancy/) explains how to protect a newborn.
+The Queensland Government notes that most whooping cough hospitalisations and deaths are in babies under 6 months. Our guide to the [whooping cough vaccine in pregnancy](/whooping-cough-vaccine-pregnancy/) explains how to protect a newborn.
 
 ## Why can't I buy the cough medicine I used to?
 
@@ -96,7 +98,7 @@ If a cough or cold medicine you remember is no longer available, one of two chan
 - **2018: some became prescription only.** From 1 February 2018, a group of over-the-counter pain relievers and cough and cold medicines became prescription only. The TGA pointed to substantial evidence of harm from misuse, and little evidence they worked better than products without that ingredient. It says safer, more effective medicines are available that may relieve coughs and colds.
 - **2023: some were taken off the market.** The TGA cancelled the registration of a group of medicines used for dry coughs, and remaining stock was recalled from pharmacies. This followed a suspected link to potentially life-threatening allergic reactions (anaphylaxis) in people having a general anaesthetic with certain muscle relaxants.
 
-So if a pharmacist suggests something different, the product you remember either needs a prescription now or is no longer registered for sale in Australia. It's also why they'll ask who the medicine is for, what the cough is like and what else you take.
+So if you can't find a product you remember, it may need a prescription now or may no longer be sold in Australia. Your pharmacist will ask who the medicine is for, what the cough is like and what else you take, so they can suggest something that suits.
 
 ## How our pharmacists can help
 

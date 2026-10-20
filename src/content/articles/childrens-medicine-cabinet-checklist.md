@@ -24,6 +24,14 @@ references:
     url: "https://www.cancer.org.au/about-us/policy-and-advocacy/prevention/uv-radiation/related-resources/sun-protection-babies"
   - name: "Queensland Government – Prevent mosquito-borne diseases"
     url: "https://qld.gov.au/health/conditions/all/prevention/prevent-mosquito-bites/prevent-mosquito-borne-diseases"
+  - name: "healthdirect – Fever in children"
+    url: "https://www.healthdirect.gov.au/fever-in-children"
+  - name: "RCH Kids Health Info – Dehydration in babies and children"
+    url: "https://www.rch.org.au/kidsinfo/fact_sheets/Dehydration/"
+  - name: "RCH Kids Health Info – Nappy rash"
+    url: "https://www.rch.org.au/kidsinfo/fact_sheets/Nappy_rash/"
+  - name: "RCH Kids Health Info – Cuts, grazes and lacerations"
+    url: "https://rch.org.au/kidsinfo/fact_sheets/Cuts_grazes_lacerations/"
 draft: true
 ---
 Stock a few basics before your child gets sick: a digital thermometer, children's paracetamol and ibuprofen in the right strength with their measuring syringe, oral rehydration solution, saline nose drops, a nappy rash cream and some first aid supplies. Add a card with key phone numbers and your child's current weight, and keep everything up high and out of sight.
@@ -42,24 +50,24 @@ The RCH defines a fever as 38°C or more, and says it's more important to watch 
 
 ### For tummy bugs
 
-- **Oral rehydration solution.** The RCH describes oral rehydration fluids as replacing lost fluids and body salts, and the best option if your child is dehydrated. They also come as icy poles, which children are often happy to have. See our guide to [keeping kids hydrated with gastro](/gastro-in-kids-hydration/).
+- **Oral rehydration solution.** The RCH describes oral rehydration fluids as replacing lost fluids and body salts, and the best option if your child is dehydrated. They also come as icy poles, which some children find easier to take. See our guide to [keeping kids hydrated with gastro](/gastro-in-kids-hydration/).
 
 ### For colds and blocked noses
 
-- **Saline nose drops or spray.** healthdirect says saline can help a blocked nose. Saline is salt water, which is different from a medicated spray: healthdirect says cough and cold medicines, including nasal sprays, aren't suitable for children under 6.
+- **Saline nose drops or spray.** Saline can help with a blocked nose. It's salt water, which is different from a medicated spray: healthdirect says cough and cold medicines, including nasal sprays, aren't suitable for children under 6.
 
 ### For skin
 
-- **A barrier cream for nappy rash.** The RCH advises applying a thick barrier cream thickly at every nappy change.
+- **A barrier cream for nappy rash.** The RCH advises a thick layer of barrier cream, so you can't see the skin through it, at every nappy change.
 - **Sunscreen, for babies 6 months and older.** Cancer Council says widespread sunscreen use on babies under six months isn't generally recommended. For older babies, sunscreen is the last line of defence after shade, clothing and a hat. See [sun protection for babies](/baby-sun-protection/).
-- **Insect repellent, for babies 3 months and older.** The Queensland Government says repellent isn't recommended for babies under 3 months (use mosquito nets over prams and cots instead), and children under 5 shouldn't put it on themselves. The RCH suggests spraying it onto your hand first and keeping it off young children's hands, eyes and mouth. More in our guide to [mosquito bites and Ross River virus](/mosquito-bites-ross-river-virus/).
+- **Insect repellent, for babies 3 months and older.** The Queensland Government says repellent isn't recommended for babies under 3 months (use mosquito nets over prams and cots instead), and children under 5 shouldn't put it on themselves. It says to put repellent on your own hands first, then on your child's exposed skin. More in our guide to [mosquito bites and Ross River virus](/mosquito-bites-ross-river-virus/).
 
 ### For cuts, scrapes and bumps
 
 - **Non-stick dressings and plasters.** The RCH says a non-stick dressing is a good option for grazes, and a plaster works for most cuts, as long as the sticky part stays off the cut.
-- **Saline tubes, small scissors and tweezers,** which the Better Health Channel lists for a basic first aid kit.
-- **Antiseptic is optional.** The RCH says most children's wounds only need cleaning with running water, and that antiseptic creams can irritate a wound, cause pain and delay healing. Use an antiseptic solution only if a health professional suggests it. See [how to treat a cut](/how-to-treat-a-cut/).
-- **An instant cold pack.** The Raising Children Network suggests an ice pack wrapped in light cloth to reduce pain and swelling. Children's Health Queensland says not to apply it directly to the skin.
+- **Saline tubes, small scissors and tweezers** for cleaning and dressing small wounds.
+- **Skip the antiseptic cream.** For children, the RCH says most wounds only need cleaning with running water, and advises against antiseptic creams on cuts and grazes because they can irritate the wound and delay healing. See [how to treat a cut](/how-to-treat-a-cut/).
+- **An instant cold pack** for bumps and sprains. Wrap it in a light cloth rather than putting it straight on the skin.
 
 For a family kit for the beach, pool and car, see our [summer first aid kit checklist](/first-aid-kit-checklist/). You can also browse the [children's medicine](https://www.priceline.com.au/c/childrens-medicine) and [baby health](https://www.priceline.com.au/c/baby-health) ranges on priceline.com.au. Always read the label and follow the directions for use.
 
@@ -92,8 +100,8 @@ Check storage instructions too: healthdirect notes some medicines must go in the
 
 ## What shouldn't be in the cabinet?
 
-- **Expired medicines.** The Raising Children Network says expired medicine doesn't work and can be harmful. Check expiry dates every time you restock.
-- **Adult medicines and other people's medicines.** Raising Children warns that adult medicines, or medicines prescribed for someone else, might seriously harm your child.
+- **Expired medicines.** Medicines shouldn't be used after their expiry date, so check the dates every time you restock.
+- **Adult medicines and other people's medicines.** Only give your child medicines made for children, at the dose for their weight, and never medicine prescribed for someone else.
 - **Aspirin.** healthdirect says it shouldn't be given to children under 12 unless a doctor specifically prescribes it.
 
 Take anything old or unwanted to a pharmacy. We take back unwanted medicines for free at Pacific Fair; see [how to get rid of old medicines safely](/how-to-dispose-of-old-medicines/).
@@ -111,9 +119,10 @@ Anyone can ask to talk to a pharmacist privately in our consultation room. We're
 
 ## When to see a pharmacist or GP
 
+If your baby is under 3 months old and has a fever above 38°C, see a doctor straight away. healthdirect says to take them to the nearest hospital emergency department immediately, and the RCH says a baby under 1 month with a fever should go to hospital.
+
 Talk to a pharmacist if you're unsure about a product, strength or dose. See a GP (the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option) if:
 
-- your baby is under 3 months old and has a fever above 38°C. The RCH says a baby under 1 month with a fever above 38°C should go to hospital
 - your child seems to be getting sicker, or isn't getting better after two days
 - nappy rash doesn't improve within a week, or is severe
 - a cut shows signs of infection, such as redness, swelling, ooze or pus
