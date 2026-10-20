@@ -3,7 +3,7 @@ title: "How to treat a cut or scrape: step-by-step first aid"
 description: "How to treat a cut or scrape: stop bleeding, clean, cover and spot infection. Plus tetanus advice and red flags for Gold Coast beach and holiday injuries."
 seoTitle: "How to treat a cut: first aid | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-20
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -14,6 +14,10 @@ references:
     url: "https://www.healthdirect.gov.au/wounds-cuts-and-grazes"
   - name: "Better Health Channel – Skin cuts and abrasions"
     url: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/skin-cuts-and-abrasions"
+  - name: "Better Health Channel – Blisters"
+    url: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/blisters"
+  - name: "Better Health Channel – Burns and scalds"
+    url: "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/burns-and-scalds"
 draft: false
 ---
 
@@ -41,6 +45,19 @@ On the Gold Coast, we see plenty of all three: knees scraped on footpaths and sk
 ### A note on beach and outdoor wounds
 
 Cuts from rocks, shells, soil, rusty metal or anything dirty are more likely to get infected. Rinse them thoroughly, watch them closely over the next few days, and check whether you’re up to date with your tetanus vaccination (more on that below).
+
+## Which dressing should I use?
+
+The right cover depends on the wound. As a general guide:
+
+| Wound | What to use |
+| --- | --- |
+| Small, clean cut | An adhesive strip (a plaster). Waterproof strips help keep it dry when your hands are often wet. |
+| Graze or scrape | A non-stick sterile dressing big enough to cover the whole area. The Better Health Channel notes some can stay on for several days to a week. |
+| Blister | Try not to burst it. Cover it with a dressing or plaster to protect it, and if it bursts, leave the loose skin in place. The Better Health Channel suggests changing the dressing daily. |
+| Minor burn | Cool it under cool running water for 20 minutes first, then cover it with a non-stick dressing. See a doctor if a burn blisters. |
+
+Not sure which to choose? Show us the wound and we’ll help you pick a dressing that suits where it is, such as a fingertip, knee or heel.
 
 ## Signs your cut might be infected
 

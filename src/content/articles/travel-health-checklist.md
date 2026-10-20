@@ -3,7 +3,7 @@ title: "Travel health checklist: what to sort 6–8 weeks before you fly"
 description: "Our travel health checklist counts down from 8 weeks to the day before you fly: vaccines, scripts, PBS rules and a travel kit, sorted at Pacific Fair."
 seoTitle: "Travel health checklist | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-20
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -22,6 +22,8 @@ references:
     url: "https://www.servicesaustralia.gov.au/how-to-manage-your-pbs-medicine-overseas"
   - name: "Services Australia – Running out of PBS medicines when overseas"
     url: "https://www.servicesaustralia.gov.au/running-out-pbs-medicines-when-overseas"
+  - name: "healthdirect – Pharmaceutical Benefits Scheme (PBS)"
+    url: "https://www.healthdirect.gov.au/pharmaceutical-benefits-scheme-pbs"
 draft: false
 ---
 The most useful travel health checklist starts about 6 to 8 weeks before you fly. That's when Smartraveller recommends seeing your doctor, so there's time to get vaccines, sort your scripts and act on any advice before you leave. Below is a simple countdown you can follow, and our [travel health services at Pacific Fair](/vaccination-information/) can help with many of the steps along the way.
@@ -80,12 +82,20 @@ Ideally, take enough of your regular medicines for the whole trip, plus a little
 - Fill your scripts early so there's time to order anything the pharmacy doesn't have on the shelf. Our [prescription team](/pharmacy-services/) can help you plan this.
 - Ask your doctor for a letter listing your medicines, including strength and daily dosage, and stating they're for your personal use.
 
+### Going away for a few months?
+
+Longer trips take more planning, because you can't fill PBS scripts overseas and PBS medicines can't be sent to you once you're there.
+
+- **See your doctor early.** Your doctor decides how much to prescribe, and some medicines have a minimum time between repeats, so ask how you'll cover the whole trip.
+- **Know how early repeats affect the Safety Net.** If you fill a repeat within 20 days of the last supply (or within 50 days for a 60-day script), it may not count towards your [PBS Safety Net](/pbs-safety-net-explained/). Our guide to [60-day prescriptions](/60-day-prescriptions-explained/) explains how longer scripts work.
+- **Tell us your travel dates.** Mention them when you bring in your scripts, so we can make sure we have enough stock to fill everything before you fly.
+
 ### Travelling with PBS medicines: the basics
 
 Services Australia sets clear rules for taking PBS medicines overseas:
 
 - You can only take PBS medicines for your own personal use, or for someone travelling with you.
-- It's illegal to take or send PBS medicines overseas for anyone else, including family members. Penalties include large fines and possible prison time.
+- It's illegal to take or send PBS medicines overseas for anyone else, including family members and relatives who aren't travelling with you. Penalties include large fines and possible prison time.
 - Check the medicine is legal in every country you're visiting or transiting through. The embassy or consulate is the place to ask.
 - Carry your doctor's letter. If you can't get one, you can fill in a Medicine Export Declaration form.
 - Leave medicines in their original packaging.

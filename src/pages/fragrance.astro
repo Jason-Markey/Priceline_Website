@@ -10,7 +10,9 @@ const service = serviceBySlug('fragrance')!;
 const brands = 'YSL, Giorgio Armani, Prada, Lancôme, Estée Lauder, Versace, Dolce & Gabbana, Marc Jacobs, Jimmy Choo, Rabanne, Jean Paul Gaultier, Hugo Boss, Calvin Klein, Ariana Grande and Billie Eilish';
 
 const faqs = [
+  { q: 'Are your fragrances genuine?', a: 'Yes. Every fragrance we sell is genuine.' },
   { q: 'Can I try a perfume before I buy it?', a: 'Yes. Testers are out in our fragrance cabinets. Try a scent on your skin and give it a few hours before you decide, because it changes as it settles.' },
+  { q: 'Can I return a perfume if I change my mind?', a: 'Yes, if it’s unopened. Under Priceline’s <a href="https://www.priceline.com.au/priceline-policies/returns-and-exchange-policy" rel="noopener">Returns and Exchange Policy</a>, you can return fragrance within 30 days with your receipt, as long as it’s unused and in its original packaging with the seal intact. Items bought as part of a gift-with-purchase or bundle offer need to come back together. If a product is faulty, your rights under the Australian Consumer Law apply.' },
   { q: 'Do you sell fragrance gift sets?', a: 'Yes. Gift sets and smaller sizes come in through the year, usually with the most choice before Christmas and Mother’s Day. Ask our team what’s in store now.' },
   { q: 'Can you help me choose a perfume for someone else?', a: 'Yes, at no charge. Tell us what they wear now (a photo of the bottle helps) and whether they like fresh, floral, warm or woody scents, and we’ll suggest a few to try.' },
   { q: 'Do you have men’s fragrance?', a: 'Yes. Many of our brands have men’s fragrances, including Giorgio Armani, Hugo Boss, Calvin Klein, Jean Paul Gaultier, Versace and Rabanne, alongside men’s grooming gift sets. Ask us what’s in stock.' },
@@ -30,7 +32,7 @@ const faqs = [
   primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
   secondaryCta={{ label: 'Shop online & collect', href: site.links.pricelineShop, external: true, event: 'cta_click_collect' }}
   ogImage={fragranceImg}
-  dateModified="2026-10-13"
+  dateModified="2026-10-20"
 >
   <h2>Which perfume brands do you stock?</h2>
   <Image src={fragranceImg} alt="Lit fragrance cabinets with designer and celebrity perfumes at Priceline Pharmacy Pacific Fair" widths={[480, 760]} quality={68} sizes="(max-width: 760px) 100vw, 760px" />

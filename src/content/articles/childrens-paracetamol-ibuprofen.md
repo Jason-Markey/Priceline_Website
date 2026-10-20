@@ -3,7 +3,7 @@ title: "Paracetamol and ibuprofen for kids: doses, timing and safety"
 description: "Paracetamol dose for your child by weight, how often to give ibuprofen, whether you can give both, and when to see a GP. Ask our Broadbeach pharmacists."
 seoTitle: "Kids' paracetamol and ibuprofen | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-20
 category: baby-child
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -22,6 +22,8 @@ references:
     url: "https://www.healthdirect.gov.au/ibuprofen"
   - name: "Medical Journal of Australia – New TGA warning label for use of NSAIDs in fluid-depleted children"
     url: "https://www.mja.com.au/journal/2014/201/7/new-tga-warning-label-use-nsaids-fluid-depleted-children"
+  - name: "Queensland Government – 13 HEALTH"
+    url: "https://www.qld.gov.au/health/contacts/advice/13health"
 draft: false
 ---
 
@@ -120,3 +122,5 @@ Talk to a pharmacist if you're unsure about a dose or a product. See a GP (our i
 - you're worried. You know your child best.
 
 **Call 000 in an emergency.** Call triple zero if your child is struggling to breathe, looks blue or very pale, can't be woken, or has a seizure.
+
+**Need advice after hours?** In Queensland, call 13 HEALTH (13 43 25 84) any time, day or night, to talk to a registered nurse. Outside Queensland, call healthdirect on 1800 022 222.

@@ -5,15 +5,19 @@ import { faqNode } from '../lib/schema';
 
 type Faq = { q: string; a: string };
 const bookLink = `<a href="${site.links.book}" rel="noopener">book a time online</a>`;
+const returnsPolicy = 'https://www.priceline.com.au/priceline-policies/returns-and-exchange-policy';
 
 const groups: { id: string; heading: string; items: Faq[] }[] = [
   {
     id: 'scripts',
     heading: 'Prescriptions and medicines',
     items: [
+      { q: 'How long will my prescription take?', a: 'Most prescriptions are ready in 5 minutes or less. Sometimes it takes 5 to 10 minutes, and it’s rare to wait longer. Our robotic dispensary picks medicines in seconds, and we run extra dispensary staff, so you still get the counselling and information you need about your medicine without a long wait. If we need to order something in or check with your doctor, we’ll tell you how long it will be. <a href="/prescriptions/">More about prescriptions</a>.' },
       { q: 'Can I fill a hospital prescription at a community pharmacy?', a: 'Yes. Bring your hospital prescription to our prescription counter and we’ll dispense it here, just as we would a prescription from your GP.' },
       { q: 'How do I send my eScript before I arrive?', a: 'Use the MedAdvisor app or the Priceline Pharmacy app. Add your eScript by pasting the token link or scanning the QR code, choose Priceline Pharmacy Pacific Fair, and submit. Or just show us the QR code at the prescription counter. <a href="/prescriptions/">More about prescriptions</a>.' },
       { q: 'Can you register me for an Active Script List?', a: 'Yes. Once you’re set up, we can find your current eScripts whenever you visit, so you don’t need to keep track of individual tokens. Ask at the prescription counter and we’ll register you in store.' },
+      { q: 'Can I choose a generic medicine instead of the brand?', a: 'Usually, yes. It’s your choice. When a generic (a different brand of the same medicine) is available, we’ll ask which you’d prefer, unless your doctor has marked your script “brand substitution not permitted”. Generics have the same active ingredient in the same amount, and they’re often cheaper. <a href="/generic-vs-brand-medicines/">Generic and brand medicines explained</a>.' },
+      { q: 'Can I get my repeat early?', a: 'Often, yes. Just ask. Your doctor may set a minimum time between repeats, and some medicines have legal limits on how soon they can be supplied again, so we’ll check yours. If you fill a PBS repeat within 20 days of the last supply (or within 50 days for a 60-day script), it may not count towards your PBS Safety Net. Going away? Tell us your travel dates and we’ll help you plan. <a href="/pbs-safety-net-explained/">How the PBS Safety Net works</a>.' },
       { q: 'Can you order in a medicine you don’t have in stock?', a: `Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on <a href="${site.phoneHref}">${site.phone}</a> with your prescription details and we’ll let you know how quickly we can get it in.` },
       { q: 'Do you compound medicines?', a: 'No. We don’t compound (specially make) medicines at Priceline Pharmacy Pacific Fair. If your doctor prescribes a compounded medicine, you’ll need to take your script to a compounding pharmacy.' },
       { q: 'Can you fill a prescription from my vet?', a: 'Yes. Bring in the script from your vet and we’ll dispense it where the medicine is one we can supply or order in. Call us first if you’d like to check.' },
@@ -21,10 +25,24 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
     ],
   },
   {
+    id: 'travel',
+    heading: 'Visitors and travel',
+    items: [
+      { q: 'I’m on holiday and forgot my medicine. Can you help?', a: `Yes. Come in and talk to us. If you have an eScript, we can fill it here. If your usual pharmacy keeps your paper scripts on file, ask them to email a copy to <a href="mailto:${site.emailPharmacy}">${site.emailPharmacy}</a> or fax it to ${site.fax}, and post us the original. We can usually fill your medicine from the copy. You can also see a GP for a new script at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store that bulk bills everyone with a Medicare card. <a href="/forgot-medication-on-holiday/">More options for visitors</a>.` },
+      { q: 'Can you fill a prescription from another state?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be filled here, so visitors to the Gold Coast are welcome. Bring your Medicare card if you have one.' },
+      { q: 'Can you fill a prescription written overseas?', a: 'No. Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you and write an Australian prescription if appropriate. If you don’t have a Medicare card, the GP visit and the medicine are charged privately, so keep your receipts for your travel insurance.' },
+      { q: 'Can I take my PBS medicines overseas?', a: 'Yes, for your own use, or for someone who is travelling with you. It’s illegal to take or send PBS medicines overseas for anyone else, including family members who aren’t travelling with you. Carry a letter from your doctor, keep your medicines in their original packaging, and check they’re legal in each country you’re visiting. <a href="/travel-health-checklist/">See our travel health checklist</a>.' },
+    ],
+  },
+  {
     id: 'pharmacist',
     heading: 'Seeing a pharmacist or doctor',
     items: [
       { q: 'Do I need to book to see a pharmacist?', a: 'No. Just come in and ask at the counter. When we’re busy there may be a short wait, but we’ll make sure your questions are answered. If you need to see a doctor, we’ll tell you.' },
+      { q: 'Can I talk to a pharmacist in private?', a: 'Yes. We have a private consultation room. Just ask at the counter and a pharmacist will talk with you there. No appointment needed.' },
+      { q: 'Why does the pharmacist ask so many questions?', a: 'To make sure a medicine is safe and right for you. We’ll ask who it’s for, about the symptoms, and about other medicines, allergies or health conditions, because some medicines interact or don’t suit everyone. For Pharmacist Only medicines, the law requires a pharmacist to be involved in the sale. It only takes a minute, and you can ask to talk in our private consultation room.' },
+      { q: 'Why do I need photo ID for some cold and flu tablets?', a: 'Some cold and flu tablets contain an ingredient that can be misused, so they’re Pharmacist Only medicines and each sale has to be recorded in a real-time monitoring system. We’ll ask for photo ID, such as your driver licence, and the pharmacist will check the medicine suits you. Many other cold and flu products don’t need ID, so ask us what’s right for your symptoms.' },
+      { q: 'Why do some pain and cough medicines now need a prescription?', a: 'Since 1 February 2018, some stronger pain relievers and cold and flu medicines that used to be sold over the counter need a prescription, because of the risk of dependence and other harms. In 2023, some cough medicines were also taken off the market over a safety concern. Our pharmacists can suggest over-the-counter options that suit you, or tell you when it’s time to see a doctor.' },
       { q: 'Can I see a doctor without an appointment?', a: `Often, yes. <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store that bulk bills everyone with a Medicare card, welcomes walk-ins, subject to doctor availability. Booking ahead <a href="${site.helpMedical.bookingUrl}" rel="noopener">online</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a> is the surest way to be seen.` },
       { q: 'Can a pharmacist prescribe contraception?', a: 'Yes. In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over. <a href="/hormonal-contraceptive-pill/">Find out how our contraception consultations work</a>.' },
       { q: 'Can I get the morning-after pill without a prescription?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is a pharmacist-only medicine, so our pharmacists can supply it without a prescription after a short private conversation. No appointment is needed. <a href="/emergency-contraception/">More about emergency contraception</a>.' },
@@ -56,11 +74,22 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
     ],
   },
   {
+    id: 'shopping',
+    heading: 'Shopping and returns',
+    items: [
+      { q: 'What’s your returns policy?', a: `We follow Priceline’s Returns and Exchange Policy. If something you bought is faulty, you’re entitled to a refund or exchange under the Australian Consumer Law; just bring your proof of purchase. If you change your mind, you can return most items within 30 days with your receipt, as long as they’re unopened, unused and in their original packaging with any seals intact. Medicines, vitamins and supplements, baby formula, food and other consumable items, gift cards, and products with less than 3 months until they expire can’t be returned for change of mind. <a href="${returnsPolicy}" rel="noopener">Read Priceline’s full policy</a>.` },
+      { q: 'Can I return a medicine or vitamins I don’t need?', a: 'Not for change of mind. Prescription, Pharmacist Only and Pharmacy Only medicines, vitamins and supplements can’t be returned once they’ve left the store, because we can’t resell them. If a product is faulty, your rights under the Australian Consumer Law still apply. If you no longer need a medicine, bring it in and we’ll dispose of it safely for free.' },
+      { q: 'Are your fragrances genuine?', a: 'Yes. Every fragrance we sell is genuine. <a href="/fragrance/">See the fragrance brands we stock</a>.' },
+      { q: 'Can I try a fragrance before I buy?', a: 'Yes. Testers are out in our fragrance cabinets, and our team can help you choose. If you change your mind, unopened fragrance in its original sealed packaging can be returned within 30 days with your receipt.' },
+    ],
+  },
+  {
     id: 'finding-us',
     heading: 'Finding us',
     items: [
       { q: 'Where are you in Pacific Fair?', a: 'We’re on the ground floor, on the north-eastern side of Pacific Fair Shopping Centre in Broadbeach, next to Proud Smile and near the outdoor entrance from the river. The prescription counter is at the back of the store on the left. <a href="/visit-us/">Full directions</a>.' },
       { q: 'What are your opening hours?', a: 'We’re open 7 days, including late nights on Thursdays until 9pm. <a href="/visit-us/">See our full opening hours</a>. Public holiday hours are always updated on our Google listing.' },
+      { q: 'What if I need health advice when you’re closed?', a: 'In Queensland, call 13 HEALTH (<a href="tel:13432584">13 43 25 84</a>) any time, day or night, to talk to a registered nurse. In an emergency, call 000. Check our <a href="/visit-us/">opening hours</a> and <a href="/public-holiday-hours/">public holiday hours</a> before you visit.' },
       { q: 'Where should I park?', a: 'Pacific Fair has 4 hours of free parking each day with number-plate recognition. From the Gold Coast Highway, cross the bridge into Pacific Fair and turn right into the car park beneath us, or use the undercover rooftop car park on the north-eastern side. By light rail, get off at Broadbeach South. <a href="/visit-us/">Full directions</a>.' },
     ],
   },
@@ -71,14 +100,14 @@ const flat = groups.flatMap((g) => g.items.map((f) => ({ q: f.q, a: f.a.replace(
 
 <ContentPage
   title="Pharmacy FAQs | Priceline Pharmacy Pacific Fair, Broadbeach"
-  description="Answers to common questions about hospital scripts, walk-in vaccinations, seeing a GP without an appointment, returning old medicines and more."
+  description="How long scripts take, generics, early repeats, holiday scripts, vaccinations, returns and more: answers to the questions we’re asked most at Pacific Fair."
   path="/frequently-asked-questions/"
   h1="Frequently asked questions"
-  lead="Quick answers to the questions we’re asked most at Priceline Pharmacy Pacific Fair in Broadbeach: scripts, vaccinations, seeing a doctor, delivery and finding us. Can’t see yours? Call us or send an email."
+  lead="Quick answers to the questions we’re asked most at Priceline Pharmacy Pacific Fair in Broadbeach: scripts, travel, seeing a pharmacist or doctor, vaccinations, returns and finding us. Can’t see yours? Call us or send an email."
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'FAQs', href: '/frequently-asked-questions/' }]}
   schema={[faqNode(flat)]}
   showNap
-  dateModified="2026-10-17"
+  dateModified="2026-10-20"
 >
   <p>Can’t find your question below? Call us on <a href={site.phoneHref}>{site.phone}</a>, <a href="/contact-us/">send us an email</a>, or ask at the counter.</p>
 

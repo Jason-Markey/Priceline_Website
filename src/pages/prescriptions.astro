@@ -11,6 +11,7 @@ const faqs = [
   { q: 'Can I email my eScript to you?', a: 'Yes. Forward the eScript link from your SMS or email (or a screenshot of the QR code) to <a href="mailto:' + site.emailPharmacy + '">' + site.emailPharmacy + '</a> with your name and mobile number. We check this inbox throughout the day while we’re open and will let you know when it’s ready. Paper prescriptions need to come in, as we need the original.' },
   { q: 'Can I fill a hospital prescription here?', a: 'Yes. We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Bring it to the prescription counter at the back of the store.' },
   { q: 'Can you fill a prescription from another state?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be filled here, so visitors to the Gold Coast are welcome. Bring your Medicare card if you have one.' },
+  { q: 'My paper scripts are at my usual pharmacy. Can you fill them while I’m away?', a: 'Usually, yes. Ask your usual pharmacy to email a copy to <a href="mailto:' + site.emailPharmacy + '">' + site.emailPharmacy + '</a> or fax it to ' + site.fax + ', and post us the original. We can usually fill your medicine from the copy. If you have an eScript, just show us the token.' },
   { q: 'Can you fill a prescription written overseas?', a: 'No. Prescriptions written outside Australia can’t be dispensed here. The GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can see you and write an Australian prescription if appropriate, and we can fill it a few steps away.' },
   { q: 'Do you dispense veterinary prescriptions?', a: 'Yes. Bring in your pet’s script from your vet and we’ll dispense it where the medicine is one we can supply or order in.' },
   { q: 'Can you order in a medicine you don’t have?', a: 'Usually, yes. We work with several wholesalers and can source most medicines, including specialised and hard-to-find ones. Call us on ' + site.phone + ' with the details and we’ll tell you how quickly we can get it in.' },
@@ -28,7 +29,7 @@ const faqs = [
   faqs={faqs}
   primaryCta={{ label: 'Email your eScript', href: `mailto:${site.emailPharmacy}?subject=${encodeURIComponent('eScript to fill')}`, event: 'cta_send_script' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-17"
+  dateModified="2026-10-20"
 >
   <div class="btn-row" data-cta-location="app_links">
     <a class="btn btn--outline btn--sm" href={site.links.appIos} rel="noopener" data-event="cta_app_download">Get the app (iPhone)</a>
@@ -60,12 +61,15 @@ const faqs = [
   <h3>Scripts on file</h3>
   <p>We can keep your repeat prescriptions on file, so you don’t need to bring the paperwork each time.</p>
   <h3>Hospital, private and interstate prescriptions</h3>
-  <p>We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Prescriptions from doctors in other Australian states can be filled here too, which makes us a handy stop for visitors to the Gold Coast. Visiting the Gold Coast? See our <a href="/visiting-the-gold-coast/">guide for visitors</a>. Prescriptions written overseas can’t be dispensed in Australia; the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.</p>
+  <p>We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Prescriptions from doctors in other Australian states can be filled here too, which makes us a handy stop for visitors to the Gold Coast. On holiday and your paper scripts are on file at your usual pharmacy? Ask them to email or fax us a copy and post us the original, and we can usually fill your medicine from the copy. Visiting the Gold Coast? See our <a href="/visiting-the-gold-coast/">guide for visitors</a>. Prescriptions written overseas can’t be dispensed in Australia; the GPs at <a href="/help-medical/">Help Medical</a>, inside our store, can help.</p>
   <h3>Veterinary prescriptions</h3>
   <p>We also dispense prescriptions written by your vet. Bring in the script and we’ll supply the medicine where it’s one we can stock or order.</p>
 
+  <h2>How long will my prescription take?</h2>
+  <p>Most prescriptions are ready in 5 minutes or less. Sometimes it takes 5 to 10 minutes, and it’s rare to wait longer than that. If we need to order a medicine in or check something with your doctor, we’ll tell you how long it will be.</p>
+
   <h2>Why is dispensing so fast here?</h2>
-  <p>Our dispensary uses a robotic system that stores and picks medicines automatically. It finds the right medicine in seconds, which frees our pharmacists to spend more time checking your prescription and talking with you, not searching shelves.</p>
+  <p>Our dispensary uses a robotic system that stores and picks medicines automatically. It finds the right medicine in seconds, which frees our pharmacists to spend more time checking your prescription and talking with you, not searching shelves. We also run extra dispensary staff, so you still get the counselling and information you need about your medicine without waiting long for it.</p>
 
   <h2>Can you get hard-to-find medicines?</h2>
   <p>We work with several wholesalers and can order in most medicines, including specialised and less common ones. If a medicine is short nationally, we’ll let you know your options and speak to your doctor if needed. Call us on <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a> to check availability.</p>

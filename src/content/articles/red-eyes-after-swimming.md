@@ -3,7 +3,7 @@ title: "Red, stinging eyes after swimming: causes and relief"
 description: "Why your eyes go red after the pool or beach, how to soothe them, why you should never swim in contact lenses, and the warning signs that need a doctor."
 seoTitle: "Red eyes after swimming: causes, relief and red flags"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-20
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -18,6 +18,8 @@ references:
     url: "https://www.healthdirect.gov.au/treatments-and-self-care/eye-care"
   - name: "healthdirect – Objects or chemicals in the eye"
     url: "https://www.healthdirect.gov.au/accidents-and-injuries/objects-or-chemicals-in-eye"
+  - name: "HealthyWA – First aid for eye injuries"
+    url: "https://healthywa.health.wa.gov.au/Articles/F_I/First-aid-for-eye-injuries"
   - name: "HealthyWA – Acanthamoeba and contact lens use"
     url: "https://www.healthywa.wa.gov.au/Articles/A_E/Acanthamoeba-and-contact-lens-use"
   - name: "CDC – Keeping water away from contact lenses"
@@ -51,6 +53,17 @@ Sometimes red eyes after swimming are conjunctivitis, which can be caused by a v
 - **Rest them.** Minor irritation from things like shampoo or dust often gets better within 24 hours.
 
 Ask our pharmacists which eye drops suit you, especially if you wear contact lenses, and always read the label and follow the directions for use.
+
+### Sand or grit in your eye?
+
+Sand in the eye is common on a windy beach day. HealthyWA's first aid advice is:
+
+- **Don't rub.** Rubbing can make it worse.
+- **Look for it.** Look up and gently pull your lower eyelid down. If you can see the grain, lift it off with the corner of a clean, damp cloth.
+- **Rinse it out.** If you can't see it, or it won't come away, wash the eye with sterile saline or clean water.
+- **Leave anything stuck in the eye alone.** Don't try to remove something that's embedded. Cover the eye and get medical help.
+
+If your eye still feels gritty after rinsing, or it's painful or your vision is blurry, see a doctor or optometrist.
 
 ## Can I swim in contact lenses?
 
