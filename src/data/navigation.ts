@@ -27,6 +27,7 @@ export const primaryNav: NavGroup[] = [
     items: [
       { label: 'Vaccinations', href: '/vaccination-information/' },
       { label: 'Flu vaccination', href: '/flu-vaccination/' },
+      { label: 'Whooping cough vaccine', href: '/whooping-cough-vaccine/' },
       { label: 'Travel health & vaccines', href: '/travel-health/' },
       { label: "Women's health", href: '/womens-health/' },
       { label: 'Contraception consultations', href: '/hormonal-contraceptive-pill/' },
