@@ -1,6 +1,6 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 25 October 2026
+Last updated: 26 October 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
@@ -150,6 +150,7 @@ Last updated: 25 October 2026
 - [How to move your prescriptions to a new pharmacy](https://pricelinepacificfair.com.au/transfer-prescriptions-new-pharmacy/): Moving scripts to a new pharmacy is free. How to bring across eScripts, your Active Script List, paper repeats and your PBS Safety Net record, step by step.
 - [PBS Safety Net 2026: thresholds, tracking and what you pay after](https://pricelinepacificfair.com.au/pbs-safety-net-explained/): The 2026 PBS Safety Net thresholds, how to count your family’s scripts, the 20-day rule and what you pay once you reach it. Ask our Broadbeach pharmacists.
 - [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): What can pharmacists prescribe in Queensland? UTIs, the pill, reflux, skin and ear infections, who's eligible and what it costs. Ask our Broadbeach team.
+- [Why your pharmacist asks questions (and sometimes for ID)](https://pricelinepacificfair.com.au/why-pharmacists-ask-questions/): Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and the rules on early repeats. Ask our Broadbeach team.
 
 ### Vaccinations
 - [Flu season in Queensland: when to get your flu shot](https://pricelinepacificfair.com.au/when-to-get-flu-shot-queensland/): When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair.
