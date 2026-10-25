@@ -87,7 +87,7 @@ export const services: Service[] = [
     atAGlance: {
       what: 'The whooping cough vaccine (combined with tetanus and diphtheria), given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Recommended in every pregnancy, and if your last dose was over 10 years ago for partners, grandparents and carers of babies under 6 months, adults 65 and over, and healthcare and early childhood workers.',
-      cost: 'Free in pregnancy, and for catch-up doses under 20, with no service fee. Otherwise a private fee applies; you’ll see the price when you book.',
+      cost: 'Free with no service fee in pregnancy, for catch-up doses under 20, for refugees and humanitarian entrants, and for Aboriginal and Torres Strait Islander people aged 20 and over who are due a dose (Queensland program). Otherwise a private fee applies; you’ll see the price when you book.',
       time: 'About 20 minutes including the wait afterwards.',
       booking: 'Walk in, or book a time.',
       howToBook: 'Book online or ask at the counter.',
