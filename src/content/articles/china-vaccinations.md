@@ -70,7 +70,7 @@ Our pharmacist immunisers at Priceline Pharmacy Pacific Fair give most of these 
 
 ## Which vaccines do I need for China?
 
-China is Australians' fourth most-visited overseas country, with about 744,000 short-term trips in 2025-26, according to the Australian Bureau of Statistics. The right mix depends on your health and plans, so treat this table as a starting point for a chat with a pharmacist or doctor. It covers mainland China, as Hong Kong and Macau have separate Smartraveller pages.
+China is Australians' fourth most-visited overseas country, with about 744,000 short-term trips in 2025-26, according to the Australian Bureau of Statistics. The right mix depends on your health and plans, so treat this table as a starting point for a chat with a pharmacist or doctor. This guide covers mainland China. Hong Kong and Macau have separate Smartraveller pages.
 
 | Vaccine | Who should consider it for China | Can we give it? |
 | --- | --- | --- |
@@ -83,9 +83,9 @@ China is Australians' fourth most-visited overseas country, with about 744,000 s
 | Japanese encephalitis | Stays of a month or more, or shorter trips with time in rural areas. Not usually needed for short city trips | Yes |
 | Rabies (before you travel) | Long stays, rural trips, children, and anyone likely to be around dogs | No. We'll point you to a GP or travel clinic |
 | Dengue | Mainly people who've had dengue before | No. We'll point you to a GP or travel clinic |
-| Yellow fever | Not needed when you fly from Australia | No. We'll point you to a GP or travel clinic |
+| Yellow fever | Not needed when you fly from Australia. Only required if you arrive from, or transit through, a country with yellow fever risk | No. We'll point you to a GP or travel clinic |
 
-Most travel vaccines aren't free, so a private fee usually applies. You'll see current prices when you book online.
+Most travel vaccines aren't free, so a private fee usually applies. You'll see current prices when you book online. If a vaccine is free for you, such as MMR, there's no fee.
 
 ## Visiting family? Your risks are different
 
@@ -118,7 +118,7 @@ The Handbook recommends the vaccine if you'll spend a month or more in areas wit
 
 Rabies is found in animals in China, especially free-roaming dogs, and healthdirect says it almost always causes death once symptoms appear. The CDC advises treating any dog or other mammal bite in China, even in a city, as high risk. It also warns that an injection unvaccinated people may need after a bite is often not available to international standards, so you could need to go to Bangkok, Hong Kong or home for treatment. Having the vaccine before you go means you won't need that injection.
 
-The Handbook recommends deciding before you travel, based on how likely you are to be around animals and how easily you could get medical care, and suggests parents consider it for younger children. The CDC suggests strongly considering it for rural trips and long stays. The course is 2 visits a week apart or 3 doses over about 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early.
+The Handbook recommends deciding before you travel, based on how likely you are to be around animals and how easily you could get medical care, and suggests parents consider it for younger children. The course is 2 visits a week apart or 3 doses over about 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early.
 
 ### What to do if an animal bites or scratches you
 
@@ -133,13 +133,13 @@ No. The World Health Organization certified China malaria-free in 2021. If your 
 
 ## Dengue and mosquito bites
 
-Dengue is a risk in China, mostly in the south, in places such as Guangdong, Fujian, Guangxi, Hainan and Yunnan. UK government advice says it's mainly a risk in the rainy season, from May to November. A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart, but UK travel health advice mainly suggests it for people who've had dengue before. We don't offer it, so ask a GP or travel doctor.
+Dengue is a risk in China, mostly in the south, in places such as Guangdong, Fujian, Guangxi, Hainan and Yunnan, and mainly in the rainy season from May to November. A dengue vaccine is registered in Australia for people aged 4 and over, but it's mainly for people who've had dengue before. We don't offer it, so ask a GP or travel doctor.
 
 To avoid bites, use an insect repellent containing DEET, picaridin or oil of lemon eucalyptus, wear loose-fitting, light-coloured clothing, and choose rooms with insect screens or a mosquito net. Always read the label and follow the directions for use.
 
 ## Bird flu: avoid live animal markets
 
-Bird flu rarely spreads to people, but the Government of Canada says most human cases worldwide have been reported in China. Avoid live bird and animal markets and poultry farms, don't touch birds, alive or dead, and only eat poultry and eggs that are thoroughly cooked. Your flu vaccine won't protect you against bird flu.
+Bird flu rarely spreads to people, but the Government of Canada says most human cases worldwide have been reported in China. Avoid live bird and animal markets and poultry farms, don't touch birds, alive or dead, and only eat poultry and eggs that are thoroughly cooked. Your seasonal flu vaccine won't protect you against bird flu.
 
 ## Air pollution and lung conditions
 
