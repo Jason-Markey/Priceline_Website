@@ -33,9 +33,15 @@ const fmt = (dt: Date) => dt.toLocaleDateString('en-AU', { day: 'numeric', month
 const relatedServices = d.relatedServices.map(serviceBySlug).filter(Boolean) as Service[];
 // The closing call to action matches the article: beauty topics point to the beauty advisors, everything else to a pharmacist.
 const isBeauty = ['skincare-beauty', 'haircare'].includes(d.category);
-const ctaHeading = isBeauty ? 'Not sure which product suits you?' : 'Talk to our pharmacists at Pacific Fair';
+// Vaccine and travel articles get a "Book a vaccination" button (25 Oct 2026): readers spent over a minute on the
+// travel pages but almost never reached the booking link, which only lived on the service pages.
+const vaxServices = ['vaccination-information', 'travel-health', 'flu-vaccination', 'whooping-cough-vaccine'];
+const isVax = d.category === 'vaccinations' || (d.category === 'travel' && vaxServices.includes(d.relatedServices[0]));
+const ctaHeading = isBeauty ? 'Not sure which product suits you?' : isVax ? 'Book your vaccination at Pacific Fair' : 'Talk to our pharmacists at Pacific Fair';
 const ctaText = isBeauty
   ? 'Ask our beauty advisors in store, where you can compare textures, shades and scents before you buy. No appointment needed.'
+  : isVax
+  ? 'Walk in any day we’re open, or book a time online so you don’t have to wait.'
   : 'Pop in, no appointment needed.';
 const schema = [
   articleNode({
@@ -90,8 +96,9 @@ const schema = [
         <h2>{ctaHeading}</h2>
         <p>{ctaText} We’re on the ground floor of Pacific Fair (Pac Fair), Broadbeach, open 7 days and until 9pm on Thursdays. {site.parking.short}</p>
         <div class="btn-row">
-          <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
-          <a class="btn btn--secondary" href="/visit-us/">Hours &amp; directions</a>
+          {isVax && <a class="btn btn--primary" href={site.links.book} rel="noopener" data-event="book-vaccination">Book a vaccination</a>}
+          <a class={isVax ? 'btn btn--secondary' : 'btn btn--primary'} href={site.phoneHref} data-event="call">Call {site.phone}</a>
+          <a class={isVax ? 'btn btn--outline' : 'btn btn--secondary'} href="/visit-us/">Hours &amp; directions</a>
         </div>
       </div>
     </article>

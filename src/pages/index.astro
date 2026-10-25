@@ -55,7 +55,7 @@ const faqs = [
   <section class="hero" data-cta-location="hero">
     <div class="container hero__inner">
       <div class="hero__copy">
-        <h1>Your local chemist at Pacific Fair, Broadbeach</h1>
+        <h1>Priceline Pharmacy Pacific Fair<span class="hero__tag"><span class="sr-only">: </span>Your local chemist in Broadbeach</span></h1>
         <p class="hero__lead">Scripts ready in minutes, walk-in vaccinations, GPs in store, and the full Priceline beauty and fragrance range with free advice. Locally owned on the ground floor of Pac Fair, open 7 days and until 9pm on Thursdays.</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="/prescriptions/" data-event="send-script">Send a script ahead</a>
@@ -228,6 +228,8 @@ const faqs = [
   .hero__copy { padding-bottom: var(--s2); }
   .hero h1 { font-size: clamp(2rem, 1.3rem + 2.8vw, var(--fs-hero)); margin-bottom: var(--s4); max-width: 18ch; }
   .hero__lead { font-size: var(--fs-lg); color: var(--charcoal); max-width: 52ch; }
+  /* Store name leads the H1 (brand searches, 25 Oct 2026); the descriptor sits underneath, smaller. */
+  .hero__tag { display: block; font-size: 0.5em; font-weight: 600; line-height: 1.3; margin-top: var(--s2); }
   .hero .btn-row { margin-bottom: var(--s5); }
   /* Quick links are desktop-only (the phone hero keeps just the H1, lead and two CTAs) */
   /* Cut-out portrait sits on the pink and bleeds off the bottom edge, like the store's banner artwork.

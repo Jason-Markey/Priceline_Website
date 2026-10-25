@@ -1,9 +1,9 @@
 ---
 title: "Can you take paracetamol and ibuprofen together?"
-description: "Can you take paracetamol and ibuprofen together? Most adults can. Daily limits, combination tablets and who should avoid ibuprofen. Ask our Broadbeach team."
-seoTitle: "Paracetamol and ibuprofen together | Priceline Pacific Fair"
+description: "Taking paracetamol and ibuprofen together? How to time the doses, the daily limit for each, how to avoid doubling up, and who should skip ibuprofen."
+seoTitle: "Paracetamol and ibuprofen together: timing and dose limits"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-25
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -28,6 +28,17 @@ draft: false
 Yes, most healthy adults can take paracetamol and ibuprofen together, as long as each medicine stays within its own dose limits and ibuprofen is safe for you. The UK's NHS says adults can take ibuprofen at the same time as paracetamol if needed, although it's a good idea to try each one on its own first. For some kinds of short-term pain, such as a toothache, the pair works better than either medicine alone.
 
 The catch is that ibuprofen doesn't suit everyone, and it's easy to double up without realising, because the same ingredients turn up in cold and flu tablets and combination products. This guide is for adults. If you're looking after a child, read our guide to [children's paracetamol and ibuprofen](/childrens-paracetamol-ibuprofen/) instead, as the advice is different.
+
+## Can I take 2 paracetamol and 2 ibuprofen at the same time?
+
+For most adults, yes, as long as that's the dose on each pack and ibuprofen is safe for you. Most standard paracetamol tablets are 500 mg, so 2 tablets is 1 gram, the most healthdirect suggests for one adult dose. For ibuprofen, take the dose on its label.
+
+After that, each medicine runs on its own clock:
+
+- **Paracetamol:** wait at least 4 hours before the next dose, and take no more than 4 grams (8 standard tablets) in 24 hours.
+- **Ibuprofen:** follow the label for how often you can take it and the most you can take in a day.
+
+Write down the time of each dose so you don't double up. Slow-release paracetamol is taken differently, so check the table below.
 
 ## How do paracetamol and ibuprofen work?
 

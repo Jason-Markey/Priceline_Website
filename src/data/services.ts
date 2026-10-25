@@ -105,7 +105,7 @@ export const services: Service[] = [
       who: 'People taking several medicines, anyone who forgets doses, and carers managing someone else’s medicines.',
       cost: 'Free for concession and health care card holders. $5 a week otherwise.',
       booking: 'No appointment needed.',
-      howToBook: 'Call us or ask at the prescription counter.',
+      howToBook: 'Call, email us or ask at the prescription counter.',
     },
     related: ['medication-reviews', 'prescriptions'],
     price: 5,

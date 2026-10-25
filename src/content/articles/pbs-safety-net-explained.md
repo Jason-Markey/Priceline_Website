@@ -1,7 +1,7 @@
 ---
 title: "PBS Safety Net 2026: thresholds, tracking and what you pay after"
-description: "PBS Safety Net 2026 explained: the $1,748.20 and $277.20 thresholds, tracking family scripts and what you pay once you reach it. Ask our Broadbeach team."
-seoTitle: "PBS Safety Net 2026 explained | Priceline Pacific Fair"
+description: "The 2026 PBS Safety Net thresholds, how to count your family’s scripts, the 20-day rule and what you pay once you reach it. Ask our Broadbeach pharmacists."
+seoTitle: "PBS Safety Net 2026: thresholds and how close you are"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: prescriptions
