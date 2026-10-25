@@ -37,7 +37,8 @@ Rules that must hold on every page (the build check enforces most of them):
 - Help Medical is "an independent general practice located inside our store".
 - Don't type opening hours into page copy; link to `/visit-us/` or use `HoursCard`.
 - No prices for medicines or vaccines (Jason, 16 Oct 2026); say "you'll see the price when you book".
-- Vaccines: anything free under the NIP or a Queensland Government program is given completely free, with no fee.
+- Vaccines: anything free under the NIP or a Queensland Government program is given completely free, with no fee,
+  even when Queensland Health doesn't reimburse the pharmacy (Jason, 25 Oct 2026).
   We don't give rabies, dengue or yellow fever vaccines (Jason, 17 Oct 2026). Vaccine brand names are blocked words.
 - We don't compound medicines (Jason, 17 Oct 2026).
 - Help Medical bulk bills everyone with a Medicare card; patients without Medicare are private patients and pay a fee
