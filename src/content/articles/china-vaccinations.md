@@ -70,7 +70,7 @@ Our pharmacist immunisers at Priceline Pharmacy Pacific Fair give most of these 
 
 ## Which vaccines do I need for China?
 
-China is Australians' fourth most-visited overseas country, with about 744,000 short-term trips in 2025-26, according to the Australian Bureau of Statistics. The right mix depends on your health and plans, so treat the table below as a starting point for a chat with a pharmacist or doctor. This guide covers mainland China, as Hong Kong and Macau have separate Smartraveller pages.
+China is Australians' fourth most-visited overseas country, with about 744,000 short-term trips in 2025-26, according to the Australian Bureau of Statistics. The right mix depends on your health and plans, so treat this table as a starting point for a chat with a pharmacist or doctor. It covers mainland China, as Hong Kong and Macau have separate Smartraveller pages.
 
 | Vaccine | Who should consider it for China | Can we give it? |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ The Australian Immunisation Handbook says people visiting friends and relatives 
 
 ## Measles, tetanus and flu
 
-The US Centers for Disease Control and Prevention (CDC) says high vaccination rates have kept measles low in China since 2020, but it's worth checking your MMR before any overseas trip. Two doses give lifelong protection against measles to 99 in 100 people. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having your final dose at least 2 weeks before you leave.
+The US Centers for Disease Control and Prevention (CDC) says high vaccination rates have kept measles low in China since 2020, but check your MMR before any overseas trip. Two doses give lifelong protection against measles to 99 in 100 people. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having your final dose at least 2 weeks before you leave.
 
 Have a tetanus booster if your last one was more than 10 years ago. The Northern Hemisphere flu season usually runs from October to May, so a Christmas visit, or one for Lunar New Year (6 February 2027), falls right in it. If you've already had this year's flu vaccine, the Handbook says you may have a second dose before you go.
 
@@ -139,15 +139,15 @@ To avoid bites, use an insect repellent containing DEET, picaridin or oil of lem
 
 ## Bird flu: avoid live animal markets
 
-Bird flu rarely spreads to people, but the Government of Canada says most human cases worldwide have been reported in China. Avoid live bird and animal markets and poultry farms, don't touch birds, alive or dead, and only eat poultry and eggs that are thoroughly cooked. Your seasonal flu vaccine won't protect you against bird flu.
+Bird flu rarely spreads to people, but the Government of Canada says most human cases worldwide have been reported in China. Avoid live bird and animal markets and poultry farms, don't touch birds, alive or dead, and only eat poultry and eggs that are thoroughly cooked. Your flu vaccine won't protect you against bird flu.
 
 ## Air pollution and lung conditions
 
-The CDC says air quality in Beijing has greatly improved, but pollution is still a problem in many parts of China, and people with heart or lung conditions, children and older adults are the most likely to be affected. If you have asthma or another heart or lung condition, talk to your doctor before you go, pack plenty of your regular medicines, and check local air quality before heading out. Ordinary face masks don't filter the fine particles in polluted air, so ask your doctor whether a well-fitted N95 mask suits you.
+The CDC says pollution is still a problem in many parts of China, and people with heart or lung conditions, children and older adults are the most likely to be affected. If you have asthma or another heart or lung condition, talk to your doctor before you go, pack plenty of your regular medicines, and check local air quality before heading out. Ordinary face masks don't filter the fine particles in polluted air, so ask your doctor whether a well-fitted N95 mask suits you.
 
 ## Going to Tibet or other high places?
 
-Altitude sickness can happen above about 2,500 metres, and Lhasa, in Tibet, sits at 3,658 metres. The main symptoms are a headache, cough, racing heart or trouble breathing. Go up slowly, and once you're above 3,000 metres, climb no more than 500 metres a day. If you have heart or lung problems, see your doctor before you go. A doctor can also give you medicine to help you adjust, and the CDC says supply in China is unreliable, so take it with you.
+Altitude sickness can start above about 2,500 metres, and Lhasa, in Tibet, sits at 3,658 metres. Watch for a headache, cough, racing heart or trouble breathing. Go up slowly, and once you're above 3,000 metres, climb no more than 500 metres a day. See your doctor before you go, especially if you have heart or lung problems. A doctor can give you medicine to help you adjust, and the CDC says supply in China is unreliable, so take it with you.
 
 ## Food and water in China
 
@@ -162,13 +162,13 @@ Pack a small travel health kit with oral rehydration solution, pain relief, anti
 
 ## How far ahead should I start?
 
-Ideally 6 to 8 weeks before you fly, as some vaccines need more than one dose or take a couple of weeks to work. Flying out at short notice, perhaps for a family emergency? Come in anyway. A single dose of hepatitis A vaccine still gives protection, and some courses can be sped up. Just don't count on finishing a course in China, as the CDC warns some vaccines may be hard to get there.
+Ideally 6 to 8 weeks before you fly, as some vaccines need more than one dose or take a couple of weeks to work. Flying out at short notice, perhaps for a family emergency? Come in anyway. A single dose of hepatitis A vaccine still gives protection, and some courses can be sped up. Don't count on finishing a course in China, as the CDC warns some vaccines may be hard to get there.
 
 ## When to see a pharmacist or GP
 
-Talk to your pharmacist about which vaccines suit your trip, what to pack, and your regular medicines. Some medicines may not be available in China, so take enough for the whole trip.
+Talk to your pharmacist about which vaccines suit your trip, what to pack, and your regular medicines. Some medicines may not be available in China, and some may not be allowed in, so take enough for the whole trip and check with China's embassy if you're unsure.
 
-See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term health condition, are travelling with children under 5, are heading to high altitude, or need rabies or dengue vaccine. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need rabies or dengue vaccine. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 After you get home, see a doctor if you have a fever, a rash, diarrhoea that doesn't settle, or any animal bite or scratch, and tell them you've been to China. In an emergency, call 000.
 
