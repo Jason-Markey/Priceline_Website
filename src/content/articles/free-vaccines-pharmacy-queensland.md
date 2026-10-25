@@ -77,7 +77,7 @@ Common vaccines that you'll usually pay for include:
 - COVID-19 vaccines for anyone outside the free groups;
 - the RSV vaccine for people aged 60 to 74 who aren't Aboriginal or Torres Strait Islander;
 - the shingles vaccine for people aged 50 to 64 who aren't in a free group;
-- whooping cough boosters for adults who aren't pregnant;
+- [whooping cough boosters](/whooping-cough-vaccine/) for adults who aren't pregnant;
 - meningococcal B for people aged 20 and over, unless a medical condition makes them eligible.
 
 ## How do I get my free vaccine at Pacific Fair?

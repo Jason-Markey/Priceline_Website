@@ -8,7 +8,7 @@ category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "womens-health"]
-relatedServices: ["vaccination-information", "womens-health"]
+relatedServices: ["whooping-cough-vaccine", "vaccination-information", "womens-health"]
 references:
   - name: "Australian Government Department of Health, Disability and Ageing – Whooping cough vaccine in pregnancy"
     url: "https://www.health.gov.au/maternal-vaccinations/whooping-cough"

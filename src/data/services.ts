@@ -62,7 +62,7 @@ export const services: Service[] = [
       booking: 'Walk-ins welcome every day we’re open. Booking optional.',
       howToBook: 'Book online, or scan the QR code at the counter to join the queue.',
     },
-    related: ['flu-vaccination', 'travel-health', 'help-medical'],
+    related: ['flu-vaccination', 'whooping-cough-vaccine', 'travel-health', 'help-medical'],
   },
   {
     slug: 'flu-vaccination',
@@ -77,7 +77,22 @@ export const services: Service[] = [
       booking: 'Walk in, or book a time.',
       howToBook: 'Book online or ask at the counter.',
     },
-    related: ['vaccination-information', 'travel-health'],
+    related: ['vaccination-information', 'whooping-cough-vaccine', 'travel-health'],
+  },
+  {
+    slug: 'whooping-cough-vaccine',
+    name: 'Whooping cough vaccine',
+    short: 'Whooping cough booster for ages 5 and over, walk in or book. Free in pregnancy under the NIP.',
+    group: 'health',
+    atAGlance: {
+      what: 'The whooping cough vaccine (combined with tetanus and diphtheria), given by a pharmacist immuniser.',
+      who: 'Ages 5 and over. Recommended in every pregnancy, and if your last dose was over 10 years ago for partners, grandparents and carers of babies under 6 months, adults 65 and over, and healthcare and early childhood workers.',
+      cost: 'Free in pregnancy, and for catch-up doses under 20, with no service fee. Otherwise a private fee applies; you’ll see the price when you book.',
+      time: 'About 20 minutes including the wait afterwards.',
+      booking: 'Walk in, or book a time.',
+      howToBook: 'Book online or ask at the counter.',
+    },
+    related: ['vaccination-information', 'flu-vaccination', 'travel-health'],
   },
   {
     slug: 'travel-health',

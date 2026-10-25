@@ -1,0 +1,98 @@
+---
+import ServicePage from '../layouts/ServicePage.astro';
+import { site } from '../data/site';
+import { serviceBySlug } from '../data/services';
+const service = serviceBySlug('whooping-cough-vaccine')!;
+
+const faqs = [
+  { q: 'Can I get the whooping cough vaccine at Priceline Pacific Fair?', a: 'Yes. Our pharmacist immunisers give the whooping cough vaccine to anyone aged 5 and over, with no doctor’s visit needed. Walk in any day we’re open and scan the QR code at the counter to join the queue, or book a time online.' },
+  { q: 'How much does the whooping cough vaccine cost?', a: 'It’s free in pregnancy under the National Immunisation Program, and we don’t charge a fee. It’s also free for people under 20 catching up on a missed dose. For most other adults a private fee applies: you’ll see the price when you book online, or ask us in store.' },
+  { q: 'Do grandparents need a whooping cough booster?', a: 'If you’ll be caring for or in close contact with a baby under 6 months, a booster is recommended if your last dose was more than 10 years ago. Have it at least 2 weeks before you have close contact with the baby. A dose is also recommended for adults aged 65 and over who haven’t had one in the past 10 years.' },
+  { q: 'How often do adults need a whooping cough vaccine?', a: 'It’s recommended in every pregnancy, and every 10 years for healthcare workers and early childhood educators. Carers of babies under 6 months and adults aged 65 and over are recommended a dose if their last one was more than 10 years ago. At 50, it’s recommended as your tetanus booster if you haven’t had a tetanus vaccine in the past 10 years.' },
+  { q: 'Can my child have the whooping cough vaccine here?', a: 'Our pharmacists vaccinate children aged 5 and over. If your child is up to date, their next whooping cough dose is usually the Year 7 school booster, and teenagers who missed it can catch up free with us until they turn 20. Children under 5 can see the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store.' },
+  { q: 'When should I have the whooping cough vaccine in pregnancy?', a: 'In every pregnancy, ideally between 20 and 32 weeks, although it can be given up to delivery. It’s free under the National Immunisation Program and we don’t charge a fee. Read more in our guide to the <a href="/whooping-cough-vaccine-pregnancy/">whooping cough vaccine in pregnancy</a>.' },
+];
+---
+
+<ServicePage
+  service={service}
+  title="Whooping Cough Vaccine Broadbeach | Priceline Pacific Fair"
+  description="Walk in for the whooping cough vaccine at Priceline Pacific Fair, Broadbeach. Ages 5 and over, including grandparents. Free in pregnancy under the NIP, no fee."
+  h1="Whooping cough vaccine at Pacific Fair, Broadbeach"
+  lead="Yes, Priceline Pharmacy Pacific Fair in Broadbeach gives the whooping cough vaccine to anyone aged 5 and over, including partners, grandparents and carers of new babies: walk in any day we’re open, or book a time online. It’s free in pregnancy under the National Immunisation Program, with no fee. For most other adults a private fee applies, and you’ll see the price when you book."
+  faqs={faqs}
+  hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
+  primaryCta={{ label: 'Book a vaccination time', href: site.links.book, external: true, event: 'cta_book' }}
+  secondaryCta={{ label: 'Walk in: today’s hours', href: '/visit-us/' }}
+  dateModified="2026-10-26"
+>
+  <h2>Who should get the whooping cough vaccine?</h2>
+  <p>National guidelines in the <a href="https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/pertussis-whooping-cough" rel="noopener">Australian Immunisation Handbook</a> recommend it for:</p>
+  <ul>
+    <li><strong>Pregnant women:</strong> one dose in every pregnancy, ideally between 20 and 32 weeks, although it can be given up to delivery. It’s free under the National Immunisation Program (NIP). If you missed it and your last dose was more than 10 years ago, have it as soon as possible after the birth, even if you’re breastfeeding. See our guide to the <a href="/whooping-cough-vaccine-pregnancy/">whooping cough vaccine in pregnancy</a>.</li>
+    <li><strong>Partners, family and carers of babies:</strong> adults who live with or care for a baby under 6 months, if their last dose was more than 10 years ago. Have it at least 2 weeks before you have close contact with the baby.</li>
+    <li><strong>Grandparents:</strong> if you’ll be helping with a baby under 6 months, the advice for carers applies to you, whatever your age.</li>
+    <li><strong>Adults aged 65 and over:</strong> a dose is recommended if you haven’t had one in the past 10 years.</li>
+    <li><strong>Adults aged 50:</strong> a tetanus booster is recommended at 50 if you haven’t had one in the past 10 years. The Handbook recommends having it as the whooping cough vaccine, so it also helps protect you against whooping cough.</li>
+    <li><strong>Healthcare and early childhood workers:</strong> a dose every 10 years for all healthcare workers, and for early childhood educators and carers who look after children under 4. Starting a health placement? See <a href="/vaccines-for-uni-students/">vaccines for uni students</a>.</li>
+    <li><strong>Travellers:</strong> a tetanus and diphtheria booster is recommended if your last one was more than 10 years ago, or more than 5 years ago for some higher-risk trips. If you haven’t had a whooping cough dose in the past 10 years, the whooping cough vaccine is recommended instead. See <a href="/travel-health/">travel health</a>.</li>
+    <li><strong>Children and teenagers:</strong> doses at 2, 4 and 6 months, 18 months and 4 years, then a booster in Year 7 through the Queensland School Immunisation Program. We vaccinate from age 5, so younger children can see the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store.</li>
+  </ul>
+  <p>Any other adult who wants to lower their chance of getting whooping cough can also consider having it.</p>
+
+  <h2>Is the whooping cough vaccine free?</h2>
+  <p>The whooping cough vaccine is free for:</p>
+  <ul>
+    <li>pregnant women, in every pregnancy, under the NIP</li>
+    <li>children at 2, 4 and 6 months, 18 months and 4 years, under the NIP (we vaccinate from age 5, so younger children can see a GP)</li>
+    <li>Year 7 students, at school through the Queensland School Immunisation Program</li>
+    <li>people under 20 catching up on a missed dose, including the Year 7 school dose, and refugees and other humanitarian entrants of any age who missed doses</li>
+  </ul>
+  <p>You need to have, or be eligible for, a Medicare card for free NIP vaccines. If the vaccine is free for you, we give it completely free, with no fee.</p>
+  <p>For most other adults, including partners, grandparents, carers, workers and travellers, a private fee applies. You’ll see the current price when you <a href={site.links.book} rel="noopener">book online</a>, or ask us at the counter.</p>
+  <p>Not sure whether you qualify for a free dose? Ask us and we’ll check, or read <a href="/free-vaccines-pharmacy-queensland/">which vaccines are free at the pharmacy in 2026</a>.</p>
+
+  <h2>How long does it last, and when do I need a booster?</h2>
+  <p>Protection fades over time. In teenagers and adults, some protection may last for up to 10 years, according to the Australian Immunisation Handbook. Having had whooping cough doesn’t give you lifelong protection either, so the Handbook says people who’ve had it should still have their recommended doses.</p>
+  <p>When you need a booster depends on your situation:</p>
+  <ul>
+    <li><strong>Every pregnancy:</strong> a new dose each time, ideally at 20 to 32 weeks.</li>
+    <li><strong>Every 10 years:</strong> healthcare workers, and early childhood educators and carers of children under 4.</li>
+    <li><strong>If it’s been more than 10 years:</strong> adults who live with or care for a baby under 6 months (at least 2 weeks before close contact), adults aged 65 and over, and travellers whose last tetanus and diphtheria booster was more than 10 years ago.</li>
+    <li><strong>At 50:</strong> as your tetanus booster, if you haven’t had a tetanus vaccine in the past 10 years.</li>
+  </ul>
+  <p>Children’s protection fades too, which is why they have boosters at 18 months and 4 years, and another dose in Year 7. Not sure when you last had a whooping cough or tetanus vaccine? Check your immunisation history statement through your Medicare online account in myGov, or ask us and we’ll look it up with you.</p>
+
+  <h2>What does the whooping cough vaccine protect against?</h2>
+  <p>The whooping cough vaccine (combined with tetanus and diphtheria) helps protect you against three serious diseases in one injection. In Australia, the whooping cough vaccine only comes combined with tetanus and diphtheria. You may see it called dTpa.</p>
+  <ul>
+    <li><strong>Whooping cough (pertussis):</strong> a contagious bacterial infection of the airways that causes long coughing fits.</li>
+    <li><strong>Tetanus:</strong> a serious bacterial infection that affects the nervous system and causes muscle spasms. The bacteria mainly live in soil, dust and manure, and get into the body through a wound.</li>
+    <li><strong>Diphtheria:</strong> an infection that usually affects the nose and throat. It can cause a thick grey coating at the back of the throat that makes it hard to breathe and swallow, and it can be life-threatening.</li>
+  </ul>
+  <p>So if you’re due a tetanus booster, you can have the whooping cough vaccine as that booster and get all three in one. Have a deep or dirty wound? Read <a href="/how-to-treat-a-cut/">how to treat a cut</a>, including when you may need a tetanus shot.</p>
+
+  <h2>Why are babies most at risk from whooping cough?</h2>
+  <p>Whooping cough spreads through droplets when someone who has it coughs or sneezes. It can lead to pneumonia, fits and brain damage from a lack of oxygen, particularly in babies and young children. Babies under 6 months are most at risk because they aren’t old enough to be fully vaccinated, and most hospital stays and deaths from whooping cough happen in this age group.</p>
+  <p>Babies often catch it from someone at home. The Handbook notes that parents are the source in more than half of cases, and brothers and sisters are another significant source. That’s why vaccination is recommended both in pregnancy, which passes protective antibodies to your baby before birth, and for the adults who live with or care for a new baby.</p>
+  <p>Whooping cough hasn’t gone away. Queensland Health reported 15,033 cases in Queensland in 2024 and 3,827 in 2025, and says cases tend to rise and fall in a natural cycle of 3 to 4 years.</p>
+  <h3>What are the symptoms?</h3>
+  <ul>
+    <li>It usually starts like a cold, with a runny nose, sneezing, a mild dry cough, a fever and tiredness.</li>
+    <li>After 1 to 2 weeks, the cough gets worse and comes in long, uncontrollable bursts. Some people make a “whoop” sound as they breathe in between coughs.</li>
+    <li>Coughing fits can end in gagging or vomiting, and the cough can take months to go away completely.</li>
+    <li>Babies may barely cough or may not whoop at all. Instead, they may have pauses in their breathing or turn blue.</li>
+  </ul>
+  <p>Symptoms usually start 7 to 10 days after you catch it, but can take up to 3 weeks. People are infectious for about 3 weeks after the cough starts, or until 5 days after starting antibiotics. <a href="https://www.healthdirect.gov.au/whooping-cough" rel="noopener">healthdirect</a> has more on symptoms and treatment.</p>
+  <p>If you think you or your child has whooping cough, see your GP, and stay away from babies and pregnant women. If someone is having trouble breathing, including a baby who turns blue or stops breathing during a coughing fit, call 000.</p>
+
+  <h2>Do I need to book?</h2>
+  <p>No. Walk in any day we’re open and scan the QR code at the counter to join the queue, or <a href={site.links.book} rel="noopener">book a time online</a>.</p>
+  <p>We’ll ask a few quick questions about your health, allergies and past vaccines, give the vaccine in our private consultation area, and ask you to stay in store for 15 minutes afterwards. Allow about 20 minutes in total.</p>
+  <p>Bring your Medicare card if you have one, and if you’re pregnant, tell us how many weeks along you are. Your vaccination is recorded on the Australian Immunisation Register. To check it’s in stock before you come in, call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+  <p>Due for other vaccines too, such as your <a href="/flu-vaccination/">flu vaccine</a>? Tell us what’s due and your pharmacist will check which can be given at the same visit, or see the full list of <a href="/vaccination-information/">vaccines we offer</a>.</p>
+
+  <h2>What are the side effects?</h2>
+  <p>Most side effects are mild and settle within a day or two. The most common are pain, redness or swelling where the needle went in, and some people have a mild fever or feel tired. Tell us before your vaccine if you’ve had a reaction to a vaccine before.</p>
+  <p>Serious reactions, such as a severe allergic reaction, are very rare, but we ask you to wait in store for 15 minutes afterwards just in case. If you’re worried about a reaction after you leave, contact your GP. In an emergency, call 000.</p>
+</ServicePage>
