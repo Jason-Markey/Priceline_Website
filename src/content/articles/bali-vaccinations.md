@@ -91,7 +91,7 @@ Depending on the type, the JE vaccine is a single dose or a 2-dose course. We ca
 
 ## Dengue and mosquito bites
 
-Dengue is spread by mosquitoes that bite throughout the day, especially around dawn and dusk, and Smartraveller says insect-borne illnesses are common in Indonesia throughout the year. A dengue vaccine is now registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly for people who've had dengue before, or who'll spend long or repeated periods where dengue is common, and it isn't suitable for everyone. Talk to a GP or travel doctor about whether it suits you. We don't offer it yet.
+Dengue is spread by mosquitoes that bite throughout the day and are most active in the early morning and late afternoon, and Smartraveller says insect-borne illnesses are common in Indonesia throughout the year. A dengue vaccine is now registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly for people who've had dengue before, or who'll spend long or repeated periods where dengue is common, and it isn't suitable for everyone. Talk to a GP or travel doctor about whether it suits you. We don't offer it yet.
 
 Whatever you decide, avoiding bites is still your best protection:
 
