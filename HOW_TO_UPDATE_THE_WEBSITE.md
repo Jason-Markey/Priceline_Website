@@ -97,10 +97,33 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
   on for this repo in `.claude/settings.json`. Claude Code picks it up from there (it may ask you to trust or install it
   the first time). If `/seo` isn't available, run `/plugin install claude-seo@agricidaniel-claude-seo`, then `/seo setup` once.
 - Useful commands: `/seo audit https://pricelinepacificfair.com.au` (full audit with parallel agents), `/seo page <url>`,
-  `/seo schema <url>`, `/seo local <url>`, `/seo geo <url>`, `/seo agentic <url>`. `/seo google setup` adds PageSpeed,
-  CrUX and Search Console data with a free Google API key.
-- It needs to reach the live site. A cloud session whose network settings block the domain can still audit the built
-  files in `dist/`; that's how the first audit was run (`reference-content/seo-audit-2026-10-26.md`).
+  `/seo schema <url>`, `/seo local <url>`, `/seo geo <url>`, `/seo agentic <url>`, `/seo google` (Search Console,
+  GA4 and PageSpeed data).
+- **Network access.** The cloud environment "Default" allows these domains (set 26 Oct 2026):
+  `pricelinepacificfair.com.au`, `*.pricelinepacificfair.com.au`, `pricelinepacificfair.com`, `*.pricelinepacificfair.com`,
+  `index.commoncrawl.org`, `data.commoncrawl.org` and `ssl.bing.com`, plus the default package-manager list. Google's
+  APIs are reachable by default.
+- **Data access (read-only, set up 26 Oct 2026).** The same environment holds four environment variables:
+
+  | Variable | What it holds |
+  |---|---|
+  | `GOOGLE_API_KEY` | PageSpeed Insights and Chrome UX Report key, Google Cloud project `priceline-seo`, restricted to those APIs |
+  | `GA4_PROPERTY_ID` | The GA4 property number |
+  | `BING_WEBMASTER_API_KEY` | The Bing Webmaster Tools API key |
+  | `GOOGLE_SERVICE_ACCOUNT_JSON` | The key for `claude-seo-reader@priceline-seo.iam.gserviceaccount.com`, which is Restricted in Search Console (property `https://pricelinepacificfair.com.au/`) and Viewer in GA4 |
+
+  Never print or commit these values. To use them, at the start of a session:
+  1. Write `GOOGLE_SERVICE_ACCOUNT_JSON` to `~/.config/claude-seo/service-account.json` with `umask 077`.
+  2. Write `~/.config/claude-seo/google-api.json` with these keys:
+     - `service_account_path`
+     - `ga4_property_id` (from `GA4_PROPERTY_ID`)
+     - `default_property`: `https://pricelinepacificfair.com.au/`
+  3. Run `claude-seo run google_auth.py --check`. It should report "Tier 2 -- Full".
+
+  The Bing API is `https://ssl.bing.com/webmaster/api.svc/json/<Method>?siteUrl=…&apikey=$BING_WEBMASTER_API_KEY`, for
+  example `GetQueryStats`, `GetPageStats`, `GetCrawlStats` or `GetCrawlIssues`.
+- Without network access to the site, a session can still audit the built files in `dist/`. That's how the first audit
+  was run (`reference-content/seo-audit-2026-10-26.md`).
 - Its suggestions never override the page rules above (no prescription-only medicine names, no medicine or vaccine
   prices, no testimonials on clinical pages, and so on).
 - It adds about 4,700 tokens to every Claude session in this repo. To switch it off, set it to `false` under
