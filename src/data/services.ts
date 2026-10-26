@@ -143,12 +143,12 @@ export const services: Service[] = [
   },
   {
     slug: 'health-station',
-    name: 'Free SiSU health checks',
-    short: 'Free blood pressure, heart rate, weight, BMI, body fat and diabetes risk checks on our SiSU Health Station.',
+    name: 'Free health checks',
+    short: 'Free blood pressure, heart rate, weight, BMI, body fat and diabetes risk checks, by SiSU Health.',
     group: 'pharmacy',
     icon: 'health-station',
     atAGlance: {
-      what: 'Self-service health checks on the SiSU Health Station inside the store, including the Shane Warne Legacy Health Check, with a pharmacist nearby to explain results.',
+      what: 'Self-service health checks inside the store, provided by SiSU Health, including the Shane Warne Legacy Health Check, with a pharmacist nearby to explain results.',
       who: 'Anyone. Worth checking each time you fill a script.',
       cost: 'Free.',
       time: 'About 4 minutes.',

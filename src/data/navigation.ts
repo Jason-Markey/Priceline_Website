@@ -15,7 +15,7 @@ export const primaryNav: NavGroup[] = [
       { label: 'Medication packing', href: '/medication-packing/' },
       { label: 'Medication reviews', href: '/medication-reviews/' },
       { label: 'Diabetes & NDSS', href: '/national-diabetes-services-scheme/' },
-      { label: 'Free SiSU health checks', href: '/health-station/' },
+      { label: 'Free health checks', href: '/health-station/' },
       { label: 'Weight management support', href: '/weight-loss-counselling-and-advice/' },
       { label: 'Delivery', href: '/delivery/' },
       { label: 'Click & Collect', href: '/click-and-collect/' },
