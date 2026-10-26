@@ -60,8 +60,6 @@ references:
     url: "https://travelhealthpro.org.uk/factsheets/malaria"
   - name: "CDC Yellow Book (US) – India"
     url: "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
-  - name: "World Health Organization – Rabies epidemiology and burden"
-    url: "https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/epidemiology-and-burden"
   - name: "World Health Organization – Tuberculosis fact sheet"
     url: "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
   - name: "Government of India, Ministry of Health and Family Welfare – Yellow fever vaccination"
@@ -70,6 +68,12 @@ references:
     url: "https://ihpoe.mohfw.gov.in/assets/pdf/Requirement%20of%20Polio%20Vaccination.pdf"
   - name: "Services Australia – How to manage your PBS medicine overseas"
     url: "https://www.servicesaustralia.gov.au/how-to-manage-your-pbs-medicine-overseas"
+  - name: "US Centers for Disease Control and Prevention – Malaria information by country: India"
+    url: "https://www.cdc.gov/malaria/travelers/country_table/i.html"
+  - name: "The Medical Republic – ATAGI advice on the dengue vaccine"
+    url: "https://www.medicalrepublic.com.au/dengue-vaccine-lands-for-travellers/129499"
+  - name: "TravelHealthPro – Falsified rabies vaccine in India"
+    url: "https://travelhealthpro.org.uk/news/867/falsified-rabies-vaccine-india"
 draft: false
 ---
 You don't need any vaccines to enter India from Australia, but several are recommended. Make sure you're up to date with measles (MMR) and tetanus, and most travellers should have the hepatitis A and typhoid vaccines, as both diseases spread through food and water. Rabies, Japanese encephalitis (JE) and hepatitis B vaccines depend on how long you're going and what you'll be doing. Visiting family? Your risks are often higher. Try to start 6 to 8 weeks before you fly.
@@ -82,8 +86,8 @@ Treat this as a starting point for a chat with a pharmacist or doctor.
 
 | Vaccine | Who should consider it for India | Can we give it? |
 | --- | --- | --- |
-| Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses. Measles is common in India | Yes, and it's free in Queensland if you were born in or after 1966 and haven't had 2 doses |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago | Yes |
+| Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses. Measles is common in India | Yes, free in Queensland for this group |
+| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago, or more than 5 years for higher-risk trips, such as rural areas far from medical care | Yes |
 | Hepatitis A | Most travellers | Yes |
 | Typhoid | Most travellers, even on short trips, especially if you're visiting family | Yes |
 | Flu | Worth considering for all travellers. Swine flu is widespread in India in winter | Yes |
@@ -93,8 +97,8 @@ Treat this as a starting point for a chat with a pharmacist or doctor.
 | Rabies (before you travel) | Stays of more than a month, children, people staying with family, and anyone likely to be around dogs or far from medical care | No. We'll point you to a GP or travel clinic |
 | Cholera | Not needed by most travellers. Worth discussing for aid workers and some people with medical conditions | Yes |
 | Polio | Not usually needed, and you don't need proof of polio vaccination to enter India from Australia | Yes |
-| Dengue | Some people who've had dengue before | No. We'll point you to a GP or travel clinic |
-| Yellow fever | Not needed when you travel from Australia | No. We'll point you to a GP or travel clinic |
+| Dengue | People who've had dengue before, and people spending long or repeated periods in India | No. We'll point you to a GP or travel clinic |
+| Yellow fever | Not needed when you travel from Australia | No. It's only given at approved yellow fever vaccination centres |
 
 Most travel vaccines aren't free, so a private fee usually applies. You'll see current prices when you book online.
 
@@ -125,11 +129,11 @@ Both spread through contaminated food and water.
 
 ## Is the rabies vaccine worth it for India?
 
-India has the highest burden of rabies in the world, with about 35% of global rabies deaths by WHO estimates, and rabid dogs are common. According to healthdirect, rabies is almost always fatal once symptoms appear.
+India has the highest burden of rabies in the world, and rabid dogs are common. According to healthdirect, rabies is almost always fatal once symptoms appear.
 
 The Handbook recommends a risk assessment before you travel, based on how likely you are to be around animals and how easily you could reach emergency care, and suggests parents consider the vaccine for younger children.
 
-The vaccine doesn't replace treatment after a bite, but it makes treatment simpler and usually avoids the need for an antibody injection, which US advice says is generally unavailable in India. The course is 2 visits a week apart, or 3 doses over 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early.
+The vaccine doesn't replace treatment after a bite, but it makes treatment simpler and usually avoids the need for an antibody injection, which can be hard to find in India, especially outside major hospitals. The course is 2 visits a week apart, or 3 doses over 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early to leave time to finish the course.
 
 ### What to do if an animal bites or scratches you
 
@@ -140,7 +144,7 @@ The vaccine doesn't replace treatment after a bite, but it makes treatment simpl
 
 ### Fake rabies vaccine in India
 
-In December 2025, NSW Health warned that a counterfeit (fake) rabies vaccine had been circulating in India since 1 November 2023. If you've had a rabies vaccine in India since then, see your GP and take any records, as some doses may need to be replaced.
+In December 2025, Australian health authorities warned that a counterfeit rabies vaccine had been given in India from 1 November 2023, and in January 2026 they linked it to a single batch of one brand. If you've had a rabies vaccine in India since November 2023, see your GP and take any records showing the brand and batch number, so they can check whether any doses need to be replaced.
 
 ## Japanese encephalitis
 
@@ -150,15 +154,15 @@ The Handbook recommends the vaccine for stays of a month or more in areas with J
 
 ## Do I need malaria tablets for India?
 
-Smartraveller says malaria is a risk in most parts of India, including major cities. UK travel health advice recommends malaria tablets for the states of Mizoram, Odisha and Tripura, and rates the risk as low in the rest of India, including Goa. In low-risk areas, tablets may occasionally be considered for higher-risk travellers, such as long-stay travellers visiting family. See a GP or travel doctor about whether you need malaria tablets, which need a prescription. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+Malaria is found in most of India, including major cities, but the risk varies a lot between states, and advice on tablets differs between countries. US advice recommends malaria tablets for most of India. UK advice recommends them for Mizoram, Odisha and Tripura, rates the risk as low elsewhere, including Goa, and suggests tablets there only in exceptional cases, such as long stays visiting family. Either way, avoid mosquito bites, especially from dusk to dawn. See a GP or travel doctor about whether you need malaria tablets for your itinerary, as they need a prescription. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ## Dengue and mosquito bites
 
-Smartraveller says dengue is widespread in India after the monsoon, which runs from about June to September, and chikungunya and Zika also occur. There's no vaccine for Zika, so if you're pregnant or planning a pregnancy, see your GP before you go.
+Smartraveller says dengue is widespread in India after the monsoon, which runs from about June to October, and that Zika outbreaks can occur. UK and US advice add that chikungunya is also a risk. There's no vaccine for Zika, so if you're pregnant or planning a pregnancy, see your GP before you go.
 
-A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart, and UK travel health advice says it can be considered for people who've had dengue before. We don't give it, so ask a GP or travel doctor whether it suits you.
+A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly recommended for people who've had dengue before, or who'll spend long or repeated periods where dengue is common. It isn't suitable for everyone, including people with a weakened immune system, and it isn't recommended during pregnancy. We don't give it, so ask a GP or travel doctor whether it suits you.
 
-Dengue mosquitoes bite during the day and malaria mosquitoes mostly bite between dusk and dawn, so protect yourself around the clock:
+Dengue mosquitoes bite throughout the day and malaria mosquitoes mostly bite between dusk and dawn, so protect yourself around the clock:
 
 - Use an insect repellent containing DEET or picaridin, and reapply it as directed.
 - Wear light-coloured, long-sleeved shirts and long pants.
@@ -168,7 +172,7 @@ Always read the label and follow the directions for use.
 
 ## Air pollution and heat
 
-Smartraveller warns that air pollution in parts of India can spike to hazardous levels from October to February. Check the local air quality each day and avoid outdoor activity when it's poor, especially with children or older relatives. Heat-related illness is also a risk, especially in summer, so eat and drink regularly, wear loose, lightweight clothing and take it easy when it's hottest.
+Smartraveller warns that air pollution in parts of India can spike to hazardous levels from October to February. Check the local air quality each day and avoid outdoor activity when it's poor, especially with children or older relatives, or if you have asthma or a heart or lung condition. Heat-related illness is also a risk, especially in summer, so eat and drink regularly, wear loose, lightweight clothing and take it easy when it's hottest.
 
 ## How to avoid Delhi belly
 
@@ -183,15 +187,11 @@ If you get diarrhoea, drink plenty of fluids. Oral rehydration solution is bette
 
 Pack a small travel health kit with oral rehydration solution, pain relief, antiseptic and insect repellent. See our [travel health checklist](/travel-health-checklist/) for a full countdown to your trip.
 
-## How far ahead should I start?
-
-Ideally 6 to 8 weeks before you fly, as some vaccines need more than one dose or take a couple of weeks to work. Allow longer for rabies vaccine, and at least 3 months if a child under 5 needs a TB vaccine. Leaving sooner? Come in anyway. A single dose of hepatitis A vaccine still gives protection, and some courses can be sped up.
-
 ## When to see a pharmacist or GP
 
 Talk to your pharmacist about which vaccines suit your trip, what to pack, and how to take your regular medicines with you.
 
-See a GP or travel doctor before you go if you're pregnant or planning a pregnancy, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need rabies vaccine, dengue vaccine or malaria tablets.
+See a GP or travel doctor before you go if you're pregnant or planning a pregnancy, or have a weakened immune system or a long-term health condition.
 
 After you get home, see a doctor if you have a fever, a rash, diarrhoea that doesn't settle, or any animal bite or scratch, and tell them you've been to India. Malaria symptoms can appear up to a year after you return. In an emergency, call 000.
 
@@ -199,7 +199,7 @@ After you get home, see a doctor if you have a fever, a rash, diarrhoea that doe
 
 ### Do I need vaccinations to travel to India?
 
-None are required to enter India from Australia. But most travellers should be up to date with measles and tetanus, and have the hepatitis A and typhoid vaccines.
+None are required to enter India from Australia, but most travellers should have hepatitis A and typhoid vaccines and be up to date with measles and tetanus.
 
 ### Do I need a yellow fever certificate for India?
 
@@ -207,10 +207,10 @@ Not if you're flying from Australia, even via Asia or the Middle East. India ask
 
 ### Can I get India travel vaccines at a pharmacy on the Gold Coast?
 
-Yes. At Pacific Fair we give hepatitis A and B, typhoid, cholera, Japanese encephalitis, polio, measles, tetanus and whooping cough, flu and COVID-19 vaccines to people aged 5 and over. For rabies, dengue and yellow fever vaccines, see a GP or travel clinic.
+Yes. At Pacific Fair we give hepatitis A and B, typhoid, cholera, Japanese encephalitis, polio, measles, tetanus and whooping cough, flu and COVID-19 vaccines to people aged 5 and over. For rabies and dengue vaccines, see a GP or travel clinic. Yellow fever vaccine is only given at approved yellow fever vaccination centres.
 
 ### Do children need vaccines for India?
 
-Usually the same as adults, plus a few extra checks. Babies aged 6 to 11 months can have an early, Queensland-funded dose of MMR. Children under 5 may need a tuberculosis (TB) vaccine, as India has more TB cases than any other country, and in Queensland it's usually given free by TB services. The Handbook also suggests parents consider rabies vaccination for younger children. We vaccinate from age 5, so see a GP for younger children.
+Usually the same as adults, plus a few extra checks. Babies aged 6 to 11 months can have an early, Queensland-funded dose of MMR. Children under 5 may need a tuberculosis (TB) vaccine, as India has more TB cases than any other country, and in Queensland it's usually given free by TB services, at least 3 months before you travel. We vaccinate from age 5, so see a GP for younger children.
 
 Planning a trip to India? Walk in to Pacific Fair, or [book a travel vaccination](/travel-health/) 6 to 8 weeks before you fly.
