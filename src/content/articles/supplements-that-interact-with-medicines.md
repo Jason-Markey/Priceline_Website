@@ -94,7 +94,7 @@ Bring every bottle, box and packet, including creams, drops, inhalers and anythi
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist or see a GP, such as the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store,, if:
+Talk to a pharmacist or see a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - you take prescription medicines and want to start a new supplement or herbal product
 - you've been taking St John's wort with any other medicine

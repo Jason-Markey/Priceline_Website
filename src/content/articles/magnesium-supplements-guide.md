@@ -99,7 +99,7 @@ Our pharmacists can help you choose a form and dose, check magnesium against you
 
 ## When to see a pharmacist or GP
 
-See a GP, such as the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store,, if:
+See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - you have frequent or painful cramps, or they disturb your sleep
 - you've been tired, weak or off your food for a while
