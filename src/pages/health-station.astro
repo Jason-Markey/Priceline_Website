@@ -6,51 +6,60 @@ import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('health-station')!;
 
+// Jason (26 Oct 2026): the station is a SiSU Health Station. It checks blood pressure, heart rate, height, weight,
+// BMI and body fat, asks about diabetes risk, stress and smoking, and offers the Shane Warne Legacy Health Check
+// as well as the standard health check (the in-store sign says "Complete in 4 minutes").
 const faqs = [
-  { q: 'Is the Health Station free?', a: 'Yes. Blood pressure, height, weight, BMI and type 2 diabetes risk checks at the Health Station are all free. Just come in any day we’re open.' },
-  { q: 'Do I need to book a blood pressure check?', a: 'No. Just come in during opening hours and use the Health Station. A pharmacist is nearby to explain your results.' },
-  { q: 'What can I check at the Health Station?', a: 'Blood pressure, height, weight and BMI, plus the AUSDRISK questionnaire, which estimates your risk of developing type 2 diabetes in the next five years. Ask a pharmacist to talk you through any result.' },
+  { q: 'Is the SiSU Health Station free?', a: 'Yes. Every check on the SiSU Health Station at Priceline Pacific Fair is free, including the Shane Warne Legacy Health Check. There’s no appointment needed: just come in any day we’re open.' },
+  { q: 'What does the SiSU Health Station check?', a: 'Blood pressure, heart rate, height, weight, body mass index (BMI) and body fat, plus short questions about your type 2 diabetes risk, stress and smoking. It takes about 4 minutes.' },
+  { q: 'What is the Shane Warne Legacy Health Check?', a: 'A free, quick check on the SiSU Health Station that focuses on heart health. It looks at things like your blood pressure, heart rate, BMI, smoking and diabetes risk, and gives you a heart age estimate. If a result suggests something worth following up, such as high blood pressure, it prompts you to see your GP.' },
+  { q: 'Do I need to book a blood pressure check?', a: 'No. Just come in during opening hours and use the SiSU Health Station. A pharmacist is nearby to explain your results.' },
   { q: 'Can I keep a record of my results?', a: 'Yes. Ask us to email your results to you, so you can track them over time or share them with your doctor.' },
-  { q: 'What do blood pressure numbers mean?', a: 'A reading has two numbers, for example 120/80. The top number is the pressure when your heart beats; the bottom number is the pressure between beats. A single high reading doesn’t mean you have high blood pressure, but it’s a sign to check again and talk to a pharmacist or your doctor.' },
   { q: 'What if my reading is outside the healthy range?', a: 'Our pharmacists can talk it through with you and refer you to a GP. Help Medical is an independent general practice located inside our store, so you can be seen without leaving the centre.' },
-  { q: 'How often should I check my blood pressure?', a: 'High blood pressure usually has no symptoms, so regular checks matter. Many people find it easy to check each time they fill a script, so make it part of your next visit.' },
+  { q: 'How often should I check my blood pressure?', a: 'High blood pressure usually has no symptoms, so regular checks matter. The Heart Foundation recommends that adults have their blood pressure checked at least every 2 years, and many people find it easy to check each time they fill a script.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Free Blood Pressure Checks Broadbeach | Priceline"
-  description="Check your blood pressure, weight, BMI and type 2 diabetes risk for free at the Health Station inside Priceline Pacific Fair, Broadbeach. No appointment."
-  h1="Health Station: free blood pressure and health checks at Pacific Fair"
-  lead="Yes, you can check your blood pressure for free at the Health Station inside Priceline Pharmacy Pacific Fair in Broadbeach, along with your weight, BMI and type 2 diabetes risk. There’s no appointment and no charge, and a pharmacist is nearby to explain what your numbers mean. Just come in any day we’re open."
+  title="Free SiSU Health Check Broadbeach | Priceline Pacific Fair"
+  description="Free SiSU Health Station checks at Priceline Pacific Fair, Broadbeach: blood pressure, heart rate, BMI, body fat and diabetes risk in about 4 minutes. No booking."
+  h1="Free SiSU health checks at Pacific Fair, Broadbeach"
+  lead="Yes, you can do a free health check on the SiSU Health Station inside Priceline Pharmacy Pacific Fair in Broadbeach. In about 4 minutes it checks your blood pressure, heart rate, weight, BMI and body fat, and asks a few questions about diabetes risk, stress and smoking. There’s no appointment and no charge, and a pharmacist is nearby to explain what your numbers mean."
   faqs={faqs}
   primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-17"
+  dateModified="2026-10-26"
 >
-  <h2>What can I check at the Health Station?</h2>
-  <Image src={kioskImg} alt="Checking blood pressure at the free health check kiosk inside Priceline Pharmacy Pacific Fair" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
-  <h3>Blood pressure</h3>
-  <p>High blood pressure usually has no symptoms, which is why regular checks matter. It’s a major risk factor for heart attack, stroke and kidney disease.</p>
-  <h3>Height, weight and BMI</h3>
-  <p>A quick way to track changes over time. BMI is a rough guide only and doesn’t account for things like muscle mass.</p>
-  <h3>AUSDRISK: type 2 diabetes risk</h3>
-  <p>A short questionnaire that estimates your risk of developing type 2 diabetes in the next five years.</p>
+  <h2>What does the SiSU Health Station check?</h2>
+  <Image src={kioskImg} alt="The free SiSU Health Station inside Priceline Pharmacy Pacific Fair" widths={[480, 760, 1100]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
+  <ul>
+    <li><strong>Blood pressure and heart rate.</strong> High blood pressure usually has no symptoms, which is why regular checks matter. It’s a major risk factor for heart attack, stroke and kidney disease. See <a href="/normal-blood-pressure/">what your blood pressure numbers mean</a>.</li>
+    <li><strong>Height, weight and BMI.</strong> A quick way to track changes over time. BMI is a rough guide only and doesn’t account for things like muscle mass.</li>
+    <li><strong>Body fat.</strong> An estimate of how much of your weight is body fat, which adds to what BMI tells you.</li>
+    <li><strong>Type 2 diabetes risk.</strong> The AUSDRISK questionnaire estimates your risk of developing type 2 diabetes in the next five years.</li>
+    <li><strong>Stress and smoking.</strong> A few quick questions about how stressed you’ve been feeling and whether you smoke.</li>
+  </ul>
 
-  <h2>How does the Health Station work?</h2>
+  <h2>What is the Shane Warne Legacy Health Check?</h2>
+  <p>It’s a free check on the SiSU Health Station that focuses on your heart health. SiSU Health runs it with the <a href="https://shanewarnelegacy.com/" rel="noopener">Shane Warne Legacy</a>, and Priceline Pharmacy is one of the Legacy’s partners. It looks at things like your blood pressure, heart rate, BMI, smoking and diabetes risk, and whether you take blood pressure medicine, then gives you a heart age estimate.</p>
+  <p>It’s a quick check, not a diagnosis. If your results suggest something worth following up, such as high blood pressure, it prompts you to see your GP, who can do a full heart health check. You can choose this check or the standard health check when you start.</p>
+
+  <h2>How does it work?</h2>
   <ul>
     <li>It’s free, and there’s no appointment needed. Just come in during <a href="/visit-us/">opening hours</a>.</li>
+    <li>The station talks you through each step, and a check takes about 4 minutes.</li>
     <li>We can email your results to you, so you can track them or share them with your doctor.</li>
     <li>Check in each time you fill your scripts, and you’ll see how your health is changing over time.</li>
     <li>If a result is outside the healthy range, our pharmacists can talk it through and refer you to a GP. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store.</li>
   </ul>
 
   <h2>What do blood pressure numbers mean?</h2>
-  <p>A reading has two numbers, for example 120/80. The top number is the pressure when your heart beats; the bottom number is the pressure between beats. A single high reading doesn’t mean you have high blood pressure, but it’s a sign to check again and talk to your doctor.</p>
+  <p>A reading has two numbers, for example 120/80. The top number is the pressure when your heart beats; the bottom number is the pressure between beats. A single high reading doesn’t mean you have high blood pressure, but it’s a sign to check again and talk to your doctor. Our guide to <a href="/normal-blood-pressure/">normal blood pressure</a> has a simple chart of the Australian ranges.</p>
 
   <h2>When should I see a doctor straight away?</h2>
   <p>If you have a very high reading along with chest pain, shortness of breath, severe headache, weakness, or changes in vision or speech, call 000.</p>
 
   <h2>What else can help?</h2>
-  <p>If your numbers suggest a change is worth making, our pharmacists offer free <a href="/weight-loss-counselling-and-advice/">weight management support</a>. If you have diabetes, we’re an access point for <a href="/national-diabetes-services-scheme/">NDSS supplies</a>. And if you take several medicines, a free <a href="/medication-reviews/">medication review</a> checks they’re all working well together.</p>
+  <p>If your numbers suggest a change is worth making, our pharmacists offer free <a href="/weight-loss-counselling-and-advice/">weight management support</a> and <a href="/quit-smoking/">quit smoking support</a>. If you have diabetes, we’re an access point for <a href="/national-diabetes-services-scheme/">NDSS supplies</a>. And if you take several medicines, a free <a href="/medication-reviews/">medication review</a> checks they’re all working well together.</p>
 </ServicePage>
