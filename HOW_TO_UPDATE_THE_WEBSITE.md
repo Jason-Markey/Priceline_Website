@@ -44,6 +44,10 @@ Rules that must hold on every page (the build check enforces most of them):
 - We don't compound medicines (Jason, 17 Oct 2026).
 - Help Medical bulk bills everyone with a Medicare card; patients without Medicare are private patients and pay a fee
   (Jason, 17 Oct 2026). Say "bulk bills everyone with a Medicare card", not "eligible patients".
+- Health checks: lead with the free service and name SiSU Health as the provider; don't promote the station itself as a product
+  (TGA health-service advertising guidance). Priceline isn't a Shane Warne Legacy partner; SiSU Health is (fact-check, 26 Oct 2026).
+- Re-check /normal-blood-pressure/ when the final "2027" Australian guideline on elevated blood pressure and hypertension is
+  published (draft consultation closed 12 Oct 2026); its categories may change.
 - Australian Padel Shop: customers can pick up their online orders in store. Mention it only in the padel article,
   never on the homepage, in the menus or on service pages (Jason, 17 Oct 2026).
 

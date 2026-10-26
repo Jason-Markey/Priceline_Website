@@ -1,32 +1,40 @@
 ---
 title: "Normal blood pressure: numbers explained (and when to act)"
-description: "What's a normal blood pressure? How to read the two numbers, Australian ranges, home vs in-store checks at Pacific Fair, and when to see a GP or call 000."
-seoTitle: "Normal blood pressure explained | Priceline Pacific Fair"
+description: "What's a normal blood pressure? Australian ranges in a simple chart, what readings like 120/84 mean, and where to get a free check at Pacific Fair, Broadbeach."
+seoTitle: "Normal blood pressure: chart and free check at Pac Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-26
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "womens-health"]
 relatedServices: ["health-station", "medication-reviews"]
 references:
-  - name: "Heart Foundation – Blood pressure and heart health"
+  - name: "Heart Foundation – Blood pressure and your heart"
     url: "https://www.heartfoundation.org.au/your-heart/blood-pressure-and-your-heart"
   - name: "Heart Foundation – What is blood pressure and why does it matter?"
     url: "https://www.heartfoundation.org.au/blog/what-is-blood-pressure-and-why-does-it-matter"
-  - name: "Heart Foundation – New hypertension guideline with dynamic modular approach"
-    url: "https://www.heartfoundation.org.au/for-professionals/clinical-guidelines-pioneering-dynamic-modular-approach"
+  - name: "Stroke Foundation – Public consultation on the new Australian elevated blood pressure and hypertension guideline (2026)"
+    url: "https://strokefoundation.org.au/news-and-events/latest-news/2026/09/public-consultation-new-australian-elevated-blood-pressure-hypertension-guideline"
+  - name: "Medical Journal of Australia – Guideline for the diagnosis and management of hypertension in adults (2016)"
+    url: "https://www.mja.com.au/journal/2016/205/2/guideline-diagnosis-and-management-hypertension-adults-2016"
+  - name: "Heart Foundation – Heart Health Checks"
+    url: "https://www.heartfoundation.org.au/heart-health-education/heart-health-checks"
   - name: "healthdirect – What is a healthy blood pressure?"
     url: "https://www.healthdirect.gov.au/what-is-a-healthy-blood-pressure"
   - name: "healthdirect – High blood pressure (hypertension)"
     url: "https://www.healthdirect.gov.au/high-blood-pressure-hypertension"
   - name: "healthdirect – Blood pressure monitoring at home"
     url: "https://www.healthdirect.gov.au/blood-pressure-monitoring-at-home"
+  - name: "SiSU Health – The SiSU Health Station"
+    url: "https://sisuhealthgroup.com/sisu-health-station"
+  - name: "SiSU Health – Shane Warne Legacy Health Check"
+    url: "https://www.sisuhealthgroup.com/shane-warne-legacy-health-check"
 draft: false
 ---
-For most adults, a normal blood pressure is below 120/80 mmHg, according to the Heart Foundation. Blood pressure is considered high when readings are consistently 140/90 mmHg or above. One reading on its own isn't a diagnosis, so it's the pattern over time that matters.
+The Heart Foundation says a normal blood pressure for most adults is under 120/80 mmHg, and healthdirect counts a reading under 130/85 mmHg as healthy for most people. Blood pressure is considered high when readings are consistently 140/90 mmHg or above. One reading on its own isn't a diagnosis, so it's the pattern over time that matters.
 
-You can get a quick check at the [Health Station in our Pacific Fair pharmacy](/health-station/). Here's how to read the numbers and when to take the next step.
+You can check your blood pressure for free, with no appointment, at the [free health check station in our Pacific Fair pharmacy](/health-station/). Here's how to read the numbers and when to take the next step.
 
 ## What do the two blood pressure numbers mean?
 
@@ -35,7 +43,7 @@ Blood pressure is written as two numbers, such as 120/80 mmHg (said "120 over 80
 - **The top number is systolic pressure.** It's the pressure in your arteries when your heart muscle contracts and pumps blood out.
 - **The bottom number is diastolic pressure.** It's the pressure in your arteries when your heart relaxes between beats.
 
-Either number can be high on its own. healthdirect notes that blood pressure counts as high if the systolic number, the diastolic number, or both are consistently raised.
+Either number can be high on its own. Under the Australian guideline, your blood pressure counts as high if the top number is 140 or more, the bottom number is 90 or more, or both.
 
 ## What is a normal blood pressure? The categories explained
 
@@ -48,10 +56,20 @@ This table shows the adult categories from the Australian guideline, as set out 
 | High-normal | 130 to 139 | 85 to 89 |
 | High (hypertension) | 140 and over | 90 and over |
 
+These categories are for readings taken at a clinic or pharmacy. If you're measuring at home, an average of 135/85 mmHg or higher is considered high.
+
+If your two numbers fall into different rows, the higher category applies. Some examples, using the guideline's ranges:
+
+- **116/80:** in the normal range, because the bottom number is 80 to 84.
+- **120/84:** in the normal range.
+- **120/89:** high-normal, because the bottom number is 85 to 89.
+- **135/85:** high-normal.
+- **145/92:** in the high range. If your readings stay at this level, see your GP.
+
 A few things to keep in mind:
 
 - Low blood pressure is usually a reading below 90/60 mmHg. It often causes no problems, but talk to your GP if you feel dizzy or faint.
-- Your doctor will tell you what your own target should be, based on your health history. The Heart Foundation is also updating Australia's hypertension guideline in stages, so ask your GP what the current advice means for you.
+- Your doctor will tell you what your own target should be, based on your health history. A new Australian guideline from the Heart Foundation, Stroke Foundation and Hypertension Australia is being finalised after public consultation in 2026, and it may change these categories. Ask your GP what the current advice means for you.
 
 ## Why one reading isn't a diagnosis
 
@@ -61,9 +79,9 @@ A high reading at the pharmacy is a prompt to check again, not a reason to panic
 
 ## Home vs in-store blood pressure checks
 
-### Checking in store
+### Free checks at Pacific Fair
 
-A Health Station check is quick and handy when you're already at Pacific Fair. It's a useful way to spot a reading worth following up, or to keep an eye on things between GP visits. Write your result down or take a photo of it so you can show your doctor.
+The [free health check station](/health-station/) inside our store, provided by SiSU Health, checks your blood pressure and heart rate in about 4 minutes, with no appointment. You can also choose the Shane Warne Legacy Health Check, which focuses on heart health and gives you a heart age estimate. It's a useful way to spot a reading worth following up, or to keep an eye on things between GP visits. Ask us to email your results, or take a photo, so you can show your doctor.
 
 ### Checking at home
 
@@ -79,7 +97,7 @@ Bring your log to your GP appointment, whether it's on paper or in an app.
 
 ## How often should you have your blood pressure checked?
 
-The Heart Foundation recommends that everyone aged 18 and over has their blood pressure checked at least every two years. If you're 45 or older, blood pressure should be part of a regular heart health check with your GP. You may need more frequent checks if your readings have been high before, you're pregnant, or your doctor has asked you to monitor.
+The Heart Foundation recommends that everyone aged 18 and over has their blood pressure checked at least every two years. If you're 45 or older (35 or older if you have diabetes, or 30 or older for Aboriginal and Torres Strait Islander people), have your blood pressure checked as part of a regular Heart Health Check with your GP. You may need more frequent checks if your readings have been high before, you're pregnant, or your doctor has asked you to monitor.
 
 High blood pressure usually causes no symptoms, and healthdirect estimates it affects around 1 in 3 Australian adults. Many people only find out when they have it checked.
 
@@ -99,7 +117,7 @@ Some medicines can also affect blood pressure. If you take several medicines, in
 ## When to see a pharmacist or GP
 
 - **Talk to a pharmacist** if you'd like a check, help choosing a validated home monitor, or advice on how your medicines might affect your blood pressure.
-- **See a GP** if your readings are regularly 140/90 mmHg or higher, if you're in the high-normal range and have other risk factors such as diabetes or a family history of heart disease, if your readings are very different from one day to the next, or if low readings make you feel dizzy or faint. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- **See a GP** if your readings are regularly 140/90 mmHg or higher, or your home average is 135/85 mmHg or higher, if you're in the high-normal range and have other risk factors such as diabetes or a family history of heart disease, if your readings are very different from one day to the next, or if low readings make you feel dizzy or faint. Our in-store [Help Medical GPs](/help-medical/) are one option.
 - **Keep taking prescribed blood pressure medicines** unless your doctor tells you otherwise, even if your readings look good.
 
 ### Emergency signs: call 000
