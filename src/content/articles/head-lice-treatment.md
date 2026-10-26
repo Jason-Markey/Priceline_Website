@@ -97,7 +97,7 @@ Our pharmacists can help you choose a product that suits your child's age, check
 
 ## When to see a pharmacist or GP
 
-healthdirect notes that you don't usually need to see a doctor to treat head lice. Talk to a pharmacist first if you're pregnant or breastfeeding, or treating a baby. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if, as Raising Children suggests:
+healthdirect notes that you don't usually need to see a doctor to treat head lice. Talk to a pharmacist first if you're pregnant or breastfeeding, or treating a baby. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if, as Raising Children suggests:
 
 - you've used the treatments properly, including a second treatment, and they're not working
 - your child is scratching a lot and it's interrupting their sleep

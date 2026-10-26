@@ -110,6 +110,6 @@ See a GP promptly, or talk to our pharmacists, if:
 - your symptoms haven't settled after treatment, or keep returning
 - you're not sure which service you need
 
-Our in-store [Help Medical GPs](/help-medical/) are one option, with walk-ins welcome subject to doctor availability.
+The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option, with walk-ins welcome subject to doctor availability.
 
 **Call 000 in an emergency.** If you or someone else is seriously unwell, call triple zero (000) straight away.

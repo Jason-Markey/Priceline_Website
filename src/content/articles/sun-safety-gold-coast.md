@@ -112,7 +112,7 @@ A change doesn’t automatically mean skin cancer, but it does mean you should g
 
 ## When to see a pharmacist or GP
 
-See a GP about any spot that is new, changing or different, and any mole that appears after the age of 25, which Cancer Council Australia flags as worth checking. If you’d like to have a spot looked at while you’re at the centre, our in-store [Help Medical GPs](/help-medical/) can see you.
+See a GP about any spot that is new, changing or different, and any mole that appears after the age of 25, which Cancer Council Australia flags as worth checking. If you’d like to have a spot looked at while you’re at the centre, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you.
 
 Your pharmacist can help with mild sunburn and with choosing a sunscreen for sensitive skin or for children. According to healthdirect, see a doctor if sunburn causes:
 

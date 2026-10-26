@@ -115,7 +115,7 @@ See your GP if:
 - you’re not sure if your headaches are migraines;
 - your headache pattern has changed.
 
-A GP can confirm the diagnosis, prescribe other treatments and talk to you about prevention. Our in-store [Help Medical GPs](/help-medical/) make it easy to see a doctor while you’re at Pacific Fair.
+A GP can confirm the diagnosis, prescribe other treatments and talk to you about prevention. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, make it easy to see a doctor while you’re at Pacific Fair.
 
 ### Emergency red flags: call 000
 

@@ -98,7 +98,7 @@ At Pacific Fair, we'll tell you whether alcohol is a problem with your antibioti
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist or see a GP, such as our in-store [Help Medical GPs](/help-medical/), if:
+Talk to a pharmacist or see a GP, such as the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store,, if:
 
 - you're not sure whether your antibiotic mixes with alcohol
 - you've had a drink while taking an antibiotic with an alcohol warning and you feel unwell

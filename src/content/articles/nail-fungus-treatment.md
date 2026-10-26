@@ -102,4 +102,4 @@ See your GP if:
 - you’re not sure it’s a fungal infection;
 - you’re pregnant or breastfeeding, or the infection is in a child.
 
-If you have diabetes or a weakened immune system, healthdirect recommends you also see a podiatrist. The [Help Medical GPs in our store](/help-medical/) can assess your nails and talk about prescription options.
+If you have diabetes or a weakened immune system, healthdirect recommends you also see a podiatrist. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can assess your nails and talk about prescription options.

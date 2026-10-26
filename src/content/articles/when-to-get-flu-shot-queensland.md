@@ -66,7 +66,7 @@ If you're eligible for a free flu vaccine, we give it completely free at Pacific
 
 Yes. Our pharmacists offer walk-in flu vaccinations, with no appointment needed. Ask us about age limits if you're bringing children. It's easy to add to a shopping trip, and we're open until 9pm on Thursdays if you can't get away during the day.
 
-Younger children, or anyone who'd prefer to see a doctor, can also be vaccinated by [Help Medical GPs inside our store](/help-medical/).
+Younger children, or anyone who'd prefer to see a doctor, can also be vaccinated by the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store.
 
 ### My child is getting a flu shot for the first time. Is it different?
 

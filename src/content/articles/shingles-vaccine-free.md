@@ -80,7 +80,7 @@ Because it's 2 doses, plan ahead if you've got a cruise, an overseas trip or a l
 4. **A short wait.** You'll be asked to stay nearby for at least 15 minutes afterwards, in case of a rare allergic reaction. Don't drive during this time.
 5. **Book your second dose.** Put a reminder in your phone or diary for the right interval.
 
-If you'd rather talk it through with a doctor, especially if you have a complex medical condition, [Help Medical GPs are located inside our store](/help-medical/).
+If you'd rather talk it through with a doctor, especially if you have a complex medical condition, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ### Common side effects
 

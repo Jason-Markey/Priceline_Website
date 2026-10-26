@@ -107,7 +107,7 @@ If you're not sure whether a rash is eczema at all, our [pharmacists](/pharmacy-
 
 ## When to see a pharmacist or GP
 
-See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your eczema isn't improving with regular moisturising and your usual routine
 - it's keeping you or your child awake at night

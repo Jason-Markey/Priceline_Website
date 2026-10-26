@@ -1,7 +1,7 @@
 ---
 title: "PBS Safety Net 2026: thresholds, tracking and what you pay after"
-description: "The 2026 PBS Safety Net thresholds, how to count your family’s scripts, the 20-day rule and what you pay once you reach it. Ask our Broadbeach pharmacists."
-seoTitle: "PBS Safety Net 2026: thresholds and how close you are"
+description: "In 2026 the PBS Safety Net is $1,748.20 for general patients and $277.20 with a concession card. How to count family scripts, and what you pay after."
+seoTitle: "PBS Safety Net 2026 thresholds: $1,748.20 and $277.20"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: prescriptions
@@ -98,4 +98,4 @@ Talk to your pharmacist or GP if:
 - you've been charged more than you expected for a PBS script
 - you're thinking about skipping doses because of cost; please talk to us or your GP first
 
-If you need a review of your medicines or new scripts, our in-store [Help Medical GPs](/help-medical/) are one option, with walk-ins welcome subject to doctor availability.
+If you need a review of your medicines or new scripts, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option, with walk-ins welcome subject to doctor availability.

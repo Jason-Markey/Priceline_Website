@@ -100,7 +100,7 @@ Not sure whether something is past its best? Bring it in and our beauty advisors
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if you're unsure whether a medicine is still OK to use, or if you can't find its expiry date. See a pharmacist, optometrist or GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if you're unsure whether a medicine is still OK to use, or if you can't find its expiry date. See a pharmacist, optometrist or GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your eyes are red, sore, sticky or watery and not improving after a day or two
 - you have eye pain, a sudden change in your vision or light hurts your eyes: see a doctor or optometrist straight away

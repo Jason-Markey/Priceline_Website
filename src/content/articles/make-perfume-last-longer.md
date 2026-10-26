@@ -101,7 +101,7 @@ Our beauty advisors can help you choose a concentration and style that suits our
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if a fragrance leaves your skin red, itchy or stinging. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if a fragrance leaves your skin red, itchy or stinging. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - a rash keeps coming back where you apply perfume, or spreads beyond that spot
 - you get blisters or streaky red marks after wearing perfume in the sun

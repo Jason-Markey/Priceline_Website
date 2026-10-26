@@ -125,7 +125,7 @@ Your dentist is the best first stop for most tooth and gum problems. Talk to you
 - you find it hard to hold or control a toothbrush (an occupational therapist can also help with handle changes)
 - you're not sure which toothpaste is right for your child's age
 
-See a dentist or a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if you have:
+See a dentist or a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if you have:
 
 - tooth pain, or swelling in your gums or face
 - a mouth sore that isn't healing (our guide to [mouth ulcer treatment](/mouth-ulcer-treatment/) has more)

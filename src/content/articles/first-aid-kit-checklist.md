@@ -131,7 +131,7 @@ healthdirect points out that a first aid course teaches you how to use what's in
 ## When to see a pharmacist or GP
 
 - **Pharmacist:** minor cuts, grazes, bites, sunburn, blisters, and questions about which medicine suits a child.
-- **GP:** wounds that are deep, gaping or won't stop bleeding, a wound that becomes red, hot, swollen or oozing, burns larger than a small patch, or a sick child you're worried about. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- **GP:** wounds that are deep, gaping or won't stop bleeding, a wound that becomes red, hot, swollen or oozing, burns larger than a small patch, or a sick child you're worried about. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 - **Call 000:** if someone is unconscious, has trouble breathing, has a serious injury, a tropical jellyfish sting, or signs of heatstroke such as confusion or hot, dry skin.
 
 Need to top up your kit without leaving the pool? Order online and pick up your first aid supplies with [Click & Collect](/click-and-collect/), or pop in. We're open 7 days.

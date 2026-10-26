@@ -193,6 +193,8 @@ const contentGroup =
     )}
   </head>
   <body class:list={[{ 'has-action-bar': actionBar }]}>
+    {/* Cloudflare's Email Address Obfuscation hides addresses from crawlers and AI assistants; these comments switch it off for the page. */}
+    <Fragment set:html={'<!--email_off-->'} />
     <Header />
     <main id="main">
       <slot />
@@ -218,5 +220,6 @@ const contentGroup =
         </a>
       </nav>
     )}
+    <Fragment set:html={'<!--/email_off-->'} />
   </body>
 </html>

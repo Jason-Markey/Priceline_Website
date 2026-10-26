@@ -109,7 +109,7 @@ Our pharmacists can look at a rash, suggest ways to soothe it and let you know w
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if a product leaves your skin mildly red, dry or itchy. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if a product leaves your skin mildly red, dry or itchy. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - a rash is widespread, appears suddenly, is painful or gets worse when you use a product you were advised to try
 - you have a fever or pus in blisters, which healthdirect says needs urgent medical attention

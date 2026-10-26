@@ -121,5 +121,5 @@ Sunscreen is the step that matters most for a Gold Coast summer. Cancer Council 
 - **Heat rash** usually settles if you keep cool and dry. Healthdirect advises seeing a doctor if it's severe, looks infected, keeps coming back, or doesn't improve after a few days in a cooler place.
 - **Acne** that is bothering you, spreading beyond your face or leaving marks is worth discussing with your GP. Healthdirect notes untreated acne can scar. Your pharmacist can talk you through non-prescription options first.
 - **New patchy pigmentation**, especially during pregnancy or after starting a new medicine, is worth checking with your GP.
-- **Any spot or mole** that is new, changing or different should be checked by a GP. Our in-store [Help Medical GPs](/help-medical/) are right here at Pacific Fair.
+- **Any spot or mole** that is new, changing or different should be checked by a GP. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can check it.
 - **Signs of heat illness**, such as confusion or collapse, are a medical emergency. Call 000.

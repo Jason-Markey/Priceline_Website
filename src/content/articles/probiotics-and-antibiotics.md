@@ -89,7 +89,7 @@ Keep taking your antibiotic unless your doctor tells you otherwise, and see a GP
 - signs of dehydration, such as feeling very tired, passing less urine, thirst or a dry mouth
 - severe tummy pain
 
-Tell the doctor you've recently taken antibiotics. Our in-store [Help Medical GPs](/help-medical/) are one option. Older people and young children can become unwell quickly with diarrhoea, so don't wait. For children, see our guide to [gastro and keeping kids hydrated](/gastro-in-kids-hydration/).
+Tell the doctor you've recently taken antibiotics. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option. Older people and young children can become unwell quickly with diarrhoea, so don't wait. For children, see our guide to [gastro and keeping kids hydrated](/gastro-in-kids-hydration/).
 
 Oral rehydration solution from the pharmacy is a better choice than plain water for older people and children, and healthdirect doesn't recommend sports drinks. Check with a pharmacist before taking anti-diarrhoea medicine, and don't take it if you have a fever or blood in your poo.
 

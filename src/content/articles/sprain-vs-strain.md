@@ -76,7 +76,7 @@ Pop in and we can help you put together what you need for the first few days, an
 - **Cold packs, compression bandages, tubular supports and braces,** plus how to fit a bandage properly.
 - **Crutches or supports** to keep weight off a sore ankle or knee.
 
-We’ll also ask a few questions to make sure it doesn’t sound like a fracture or something that needs an X-ray. You can see the [Help Medical GPs inside our store](/help-medical/) if we think you need a doctor.
+We’ll also ask a few questions to make sure it doesn’t sound like a fracture or something that needs an X-ray. You can see the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, if we think you need a doctor.
 
 ## When should you see a GP or go to hospital?
 

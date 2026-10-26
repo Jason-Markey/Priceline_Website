@@ -114,4 +114,4 @@ Our beauty advisors can help you put a routine together that suits your skin typ
 - You develop a rash, swelling or blisters.
 - Acne, eczema or rosacea isn't improving, or is getting worse.
 - You're pregnant or breastfeeding and want to use actives such as retinol or salicylic acid. DermNet advises telling your doctor if you're pregnant or breastfeeding before using salicylic acid, as it can be absorbed through the skin.
-- You notice a spot or mole that is new, changing or looks different. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- You notice a spot or mole that is new, changing or looks different. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.

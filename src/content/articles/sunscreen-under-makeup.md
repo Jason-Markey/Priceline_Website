@@ -93,7 +93,7 @@ Our beauty advisors can help you find a sunscreen texture that sits well under m
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if a sunscreen or makeup product stings, burns or brings you out in a rash. Stop using it and bring it in so we can help you find an alternative. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if a sunscreen or makeup product stings, burns or brings you out in a rash. Stop using it and bring it in so we can help you find an alternative. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - a spot or mole is new, changing or looks different from your others
 - you notice new patches of pigmentation on your face

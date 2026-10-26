@@ -88,7 +88,7 @@ Medicare only covers a vitamin D test in certain situations. Under Medicare Bene
 - chronic kidney failure or a kidney transplant
 - some calcium, phosphate or parathyroid problems
 
-There are separate criteria for babies and children. If you don't meet the criteria, ask your GP about the cost before you have the test. Help Medical, the independent GP practice inside our store, has a QML Pathology collection room, so if your GP orders a test you may be able to have it collected on site.
+There are separate criteria for babies and children. If you don't meet the criteria, ask your GP about the cost before you have the test. Help Medical, an independent general practice located inside our store, has a QML Pathology collection room, so if your GP orders a test you may be able to have it collected on site.
 
 ## Can you get enough vitamin D from food?
 
@@ -106,7 +106,7 @@ At Pacific Fair, our pharmacists can help you work out whether you're in a highe
 
 ## When to see a pharmacist or GP
 
-See a GP, such as our in-store [Help Medical GPs](/help-medical/), if:
+See a GP ([Help Medical](/help-medical/) is one option) if:
 
 - you're in one of the higher-risk groups above and have never talked to a doctor about vitamin D
 - you have ongoing bone pain, muscle weakness or tiredness

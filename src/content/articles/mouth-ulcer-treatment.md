@@ -93,4 +93,4 @@ Also see your GP or dentist if you have:
 
 If mouth pain or swelling makes it hard to breathe or swallow, call 000.
 
-If you need a doctor, the [Help Medical GPs inside our store](/help-medical/) are close by. Your dentist can also check your mouth, and regular dental check-ups include a look for oral cancer.
+If you need a doctor, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by. Your dentist can also check your mouth, and regular dental check-ups include a look for oral cancer.

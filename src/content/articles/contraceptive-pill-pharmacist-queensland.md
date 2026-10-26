@@ -98,7 +98,7 @@ Pharmacists work within clear clinical guidelines. The pill may not be recommend
 - have high blood pressure
 - have severe liver problems, breast cancer or some types of migraine
 
-In these situations, or if you'd like to talk about longer-acting options, your pharmacist will refer you to a doctor. Handily, [Help Medical GPs are located inside our store](/help-medical/), so you often don't need to go far.
+In these situations, or if you'd like to talk about longer-acting options, your pharmacist will refer you to a doctor. Handily, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by, so you often don't need to go far.
 
 ## When to see a pharmacist or GP
 

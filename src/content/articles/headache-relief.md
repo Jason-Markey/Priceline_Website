@@ -105,7 +105,7 @@ Book in with your GP if:
 - you need pain relief more than twice a week;
 - you have a new type of headache that’s different from any you’ve had before.
 
-Our in-store [Help Medical GPs](/help-medical/) are handy if you’re already at Pacific Fair.
+The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are handy if you’re already at Pacific Fair.
 
 ### Call 000 if you have
 

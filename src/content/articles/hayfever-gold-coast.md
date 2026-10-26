@@ -112,7 +112,7 @@ It's mainly a south-eastern Australia concern, but Gold Coast summers bring plen
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if your symptoms are mild or come and go. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if your symptoms are mild or come and go. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - you have symptoms at least 4 days a week for 4 weeks or more
 - hayfever is affecting your sleep, work, study or daily activities

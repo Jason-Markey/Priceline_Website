@@ -71,7 +71,7 @@ healthdirect lists nutritional deficiencies, such as iron or zinc deficiency, am
 
 Iron is worth a closer look after a baby. healthdirect lists people who are breastfeeding among those who need more iron, and says "the only reliable way of telling if you are iron deficient is through an iron study blood test".
 
-Your GP may refer you for blood tests to rule out health conditions that can lead to hair loss. If you need one, the Help Medical GPs inside our store have a QML Pathology collection room on site.
+Your GP may refer you for blood tests to rule out health conditions that can lead to hair loss. If you need one, Help Medical, an independent general practice located inside our store, has a QML Pathology collection room on site.
 
 ## Do supplements help postpartum hair loss?
 
@@ -107,13 +107,13 @@ If you're refreshing your routine, you can [browse the hair care range on pricel
 - Check whether a supplement, vitamin or medicine is suitable while you're breastfeeding.
 - Talk you through iron supplements if your GP finds your levels are low, including side effects like constipation.
 - Help with other [women's health](/womens-health/) questions, from contraception to pregnancy supplements and vaccines, in a private consultation room.
-- Point you to a GP when something needs a closer look. Help Medical, the independent general practice inside our store, welcomes walk-ins subject to doctor availability, and booking ahead is the surest way to be seen.
+- Point you to a GP when something needs a closer look. Help Medical welcomes walk-ins subject to doctor availability, and booking ahead is the surest way to be seen.
 
 Pacific Fair's 4 hours of free parking also makes it easier to get everything done in one trip with a baby in tow.
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist before starting any supplement or medicine while you're breastfeeding. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist before starting any supplement or medicine while you're breastfeeding. See a GP ([Help Medical](/help-medical/) is one option) if:
 
 - your hair is falling out in clumps, or you're losing a lot more than usual
 - shedding hasn't eased, or there's no sign of regrowth, after about six months

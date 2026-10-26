@@ -104,7 +104,7 @@ Our beauty advisors can help you find sunscreens made for babies and sensitive s
 
 ## When to see a pharmacist or GP
 
-See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your baby gets sunburnt. A baby's skin is sensitive, so we'd always suggest having sunburn checked by a doctor.
 - there are large blisters, swollen skin or a lot of pain, which the RCH lists as reasons to see a doctor about sunburn

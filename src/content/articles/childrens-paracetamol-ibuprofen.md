@@ -110,7 +110,7 @@ You can browse the [children's medicine range on priceline.com.au](https://www.p
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if you're unsure about a dose or a product. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if you're unsure about a dose or a product. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your baby is under 3 months old and has a temperature of 38°C or more. healthdirect says to seek urgent medical attention, and the RCH says a baby under 1 month with a fever should go to hospital
 - your child needs pain relief for more than 48 hours, or isn't better after 2 days

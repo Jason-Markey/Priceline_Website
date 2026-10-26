@@ -107,4 +107,4 @@ Seek medical help urgently for:
 - a newborn or young baby who may have been exposed to a cold sore, or who you think may have a herpes infection;
 - a young child with painful mouth sores who isn't drinking. The Better Health Channel notes a first infection can cause dehydration because swallowing hurts.
 
-Call 000 in an emergency. If you'd like a same-day consultation while you're at the centre, our in-store [Help Medical GPs](/help-medical/) can see you.
+Call 000 in an emergency. If you'd like a same-day consultation while you're at the centre, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you.

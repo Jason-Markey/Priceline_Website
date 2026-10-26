@@ -88,7 +88,7 @@ Yes. We usually keep pharmacy-only scabies creams in stock at Pacific Fair. Ask 
 
 We can look at your symptoms, talk you through a pharmacy-only scabies cream and how to use it for the whole household, suggest options for the itch, and tell you when you need to see a doctor instead. You can ask in private if you’d rather not discuss it at the counter.
 
-If you need a prescription or a diagnosis, the [Help Medical GPs located inside our store](/help-medical/) can help.
+If you need a prescription or a diagnosis, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ## When should I see a GP about scabies?
 

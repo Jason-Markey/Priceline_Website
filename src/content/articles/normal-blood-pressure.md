@@ -117,7 +117,7 @@ Some medicines can also affect blood pressure. If you take several medicines, in
 ## When to see a pharmacist or GP
 
 - **Talk to a pharmacist** if you'd like a check, help choosing a validated home monitor, or advice on how your medicines might affect your blood pressure.
-- **See a GP** if your readings are regularly 140/90 mmHg or higher, or your home average is 135/85 mmHg or higher, if you're in the high-normal range and have other risk factors such as diabetes or a family history of heart disease, if your readings are very different from one day to the next, or if low readings make you feel dizzy or faint. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- **See a GP** if your readings are regularly 140/90 mmHg or higher, or your home average is 135/85 mmHg or higher, if you're in the high-normal range and have other risk factors such as diabetes or a family history of heart disease, if your readings are very different from one day to the next, or if low readings make you feel dizzy or faint. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 - **Keep taking prescribed blood pressure medicines** unless your doctor tells you otherwise, even if your readings look good.
 
 ### Emergency signs: call 000

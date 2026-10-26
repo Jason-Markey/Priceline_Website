@@ -58,7 +58,7 @@ Not every vaccination provider stocks every free NIP vaccine, and some providers
 
 ## Can I get it at the pharmacy?
 
-Yes. Our pharmacists offer walk-in vaccinations, with no appointment needed. It's worth calling ahead to check the vaccine is in stock. You can also have it with your GP or midwife. If you'd rather see a doctor, [Help Medical GPs are located inside our store](/help-medical/).
+Yes. Our pharmacists offer walk-in vaccinations, with no appointment needed. It's worth calling ahead to check the vaccine is in stock. You can also have it with your GP or midwife. If you'd rather see a doctor, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 Before your vaccine, the pharmacist will check you're well on the day and ask about allergies and past reactions to vaccines. Tell them how many weeks pregnant you are.
 

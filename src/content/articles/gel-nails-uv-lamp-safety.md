@@ -101,7 +101,7 @@ Our beauty team can help you choose gentle removal tools and nail care products,
 
 ## When to see a pharmacist or GP
 
-See a pharmacist or GP (our in-store [Help Medical GPs](/help-medical/) are one option) if you have:
+See a pharmacist or GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if you have:
 
 - redness, swelling and pain around a nail, especially with pus, as some infections need prescription treatment or drainage
 - an itchy or swollen rash on your fingertips, eyelids or face after a manicure, which may need patch testing to confirm an allergy

@@ -97,7 +97,7 @@ Talk to a pharmacist if:
 - a sunscreen stings, itches or causes a rash (stop using it and bring it in so we can help you find an alternative)
 - you're choosing sun protection for a baby, a young child or someone with very sensitive skin
 
-See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your sunburn has large areas of blistering, severe pain, or signs of infection such as fever or yellow crusts
 - you have signs of dehydration after time in the sun, such as dizziness, tiredness or passing less urine

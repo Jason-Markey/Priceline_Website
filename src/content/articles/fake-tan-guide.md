@@ -114,4 +114,4 @@ Our beauty advisors can help you choose a shade and a formula, from mousses and 
 - You get an itchy rash, redness or swelling after using fake tan. Stop using it and ask a pharmacist, as DermNet notes DHA can cause contact dermatitis.
 - Your eyes sting, or you start coughing or wheezing, after a spray tan (call 000 if someone is struggling to breathe).
 - You've been sunburnt under your tan. Our guide to [sunburn treatment](/sunburn-treatment/) explains what to do.
-- You notice a spot or mole that is new, changing or looks different. Check your skin before you tan, and see a GP about anything that worries you. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- You notice a spot or mole that is new, changing or looks different. Check your skin before you tan, and see a GP about anything that worries you. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.

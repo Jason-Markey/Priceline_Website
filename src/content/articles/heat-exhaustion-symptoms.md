@@ -115,6 +115,6 @@ Heat can affect some medicines. healthdirect notes that many medicines are label
 ## When to see a pharmacist or GP
 
 - **Ask a pharmacist** about oral rehydration products, how to store your medicines, and whether your medicines could affect how you cope with heat.
-- **See a GP** if heat exhaustion symptoms aren't improving after cooling down and drinking fluids, if you keep getting unwell in the heat, or if you have a chronic condition and need a hot-weather plan. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- **See a GP** if heat exhaustion symptoms aren't improving after cooling down and drinking fluids, if you keep getting unwell in the heat, or if you have a chronic condition and need a hot-weather plan. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 - **Call 13 HEALTH (13 43 25 84)** for Queensland Health advice over the phone.
 - **Call 000** for any signs of heatstroke, or if someone with heat exhaustion becomes confused, vomits, faints, can't drink, has a seizure or becomes unconscious.

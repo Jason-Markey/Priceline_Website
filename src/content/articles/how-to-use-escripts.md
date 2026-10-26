@@ -1,7 +1,7 @@
 ---
 title: "eScripts, Active Script Lists and scripts on file, explained"
-description: "How to use eScripts, set up an Active Script List and keep paper scripts on file, plus what to do if you lose a token. Plain guide from Pacific Fair."
-seoTitle: "How to use eScripts, explained | Priceline Pacific Fair"
+description: "An eScript is a QR code token sent to your phone. How to use it at any pharmacy, when an Active Script List is easier, and what to do if you lose a token."
+seoTitle: "eScripts explained: tokens, Active Script Lists and repeats"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: prescriptions

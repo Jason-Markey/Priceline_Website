@@ -91,7 +91,7 @@ We're happy to have a discreet chat, so [talk to our pharmacists at Pacific Fair
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist before treating if you're pregnant or breastfeeding, or if your child is under two. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist before treating if you're pregnant or breastfeeding, or if your child is under two. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - you've tried a threadworm treatment and the symptoms haven't improved
 - you notice a large worm in your child's poo or around their bottom

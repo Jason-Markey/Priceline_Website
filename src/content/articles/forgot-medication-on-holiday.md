@@ -71,7 +71,7 @@ If you have a Medicare card, the PBS applies wherever you fill your script in Au
 
 ## Step 4: See a local GP
 
-If your own doctor can't help, or you need a new medicine reviewed or started, you'll need to see a doctor here. Bring the packaging or a photo of the label, and any letters about your condition. If you're staying nearby, there's a GP clinic right inside our store (details at the end of this guide).
+If your own doctor can't help, or you need a new medicine reviewed or started, you'll need to see a doctor here. Bring the packaging or a photo of the label, and any letters about your condition. If you're staying nearby, there's an independent general practice located inside our store (details at the end of this guide).
 
 ## Step 5: Visiting from overseas? Know how Medicare and the PBS apply
 
@@ -116,4 +116,4 @@ Talk to a pharmacist or GP the same day if you've missed doses of a medicine for
 - a seizure;
 - sudden confusion, drowsiness or collapse, including signs of very high or very low blood sugar.
 
-Need to see a doctor while you're here? [See a GP at Help Medical, located inside our store](/help-medical/). Ask Help Medical about fees when you book.
+Need to see a doctor while you're here? [Help Medical](/help-medical/), an independent general practice located inside our store, can see you. Ask Help Medical about fees when you book.

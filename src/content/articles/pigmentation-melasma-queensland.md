@@ -98,7 +98,7 @@ Our beauty advisors can help you find a tinted SPF50+ sunscreen or foundation th
 
 ## When to see a pharmacist or GP
 
-Ask a pharmacist if you're unsure which products suit your skin. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Ask a pharmacist if you're unsure which products suit your skin. See a GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - a spot or mole is new, or is changing in size, shape or colour
 - a mole looks different from your others, or a new mole appears after the age of 25, which Cancer Council says is worth getting checked

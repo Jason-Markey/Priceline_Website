@@ -105,5 +105,5 @@ Our beauty advisors can help you choose a gentle retinol to start with, plus a m
 - You have burning, swelling, blistering or a spreading rash after using retinol.
 - Irritation doesn't settle after you stop using it.
 - You have eczema, rosacea or very sensitive skin and want to try retinol.
-- Your acne is painful, leaving marks or scars, or not improving. A GP can talk to you about prescription options, and our in-store [Help Medical GPs](/help-medical/) are one option.
+- Your acne is painful, leaving marks or scars, or not improving. A GP can talk to you about prescription options, and the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 - You're pregnant, trying to conceive or breastfeeding.

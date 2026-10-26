@@ -101,7 +101,7 @@ Our beauty advisors can help you choose brushes, sponges and cleaners that suit 
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if you're getting breakouts, a rash or itchy skin where you apply makeup. See a pharmacist, optometrist or GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if you're getting breakouts, a rash or itchy skin where you apply makeup. See a pharmacist, optometrist or GP ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if:
 
 - your eyes are red, sticky or watery and aren't improving after a few days
 - you have eye pain, any loss of vision or new sensitivity to light: get help urgently

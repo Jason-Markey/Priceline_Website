@@ -124,4 +124,4 @@ Make an appointment with your GP if:
 - Severe tummy pain
 - Vomiting
 
-If you have severe abdominal pain and feel very unwell, go to an emergency department or call 000. Our in-store [Help Medical GPs](/help-medical/) are another option if you’d like to see a doctor while you’re here.
+If you have severe abdominal pain and feel very unwell, go to an emergency department or call 000. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are another option if you’d like to see a doctor while you’re here.

@@ -94,4 +94,4 @@ Our beauty advisors can help you compare mineral, chemical and tinted formulas s
 - A sunscreen stings, itches or causes a rash. Stop using it and bring it in so we can suggest an alternative. If reactions keep happening, DermNet notes that patch testing (arranged through your GP or a dermatologist) can identify the ingredient responsible.
 - Your rosacea, eczema or acne flares up, even with gentle products.
 - You need sun protection advice for a baby under six months.
-- You notice a spot or mole that is new, changing or looks different from your others. Our in-store [Help Medical GPs](/help-medical/) are one option.
+- You notice a spot or mole that is new, changing or looks different from your others. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.

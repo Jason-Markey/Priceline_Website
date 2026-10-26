@@ -96,4 +96,4 @@ Your dentist is the right person for most whitening questions, but here's a quic
 - **Stop and see your dentist** if your teeth become very sensitive or painful.
 - **Stop and get advice** if gel has burned or irritated your gums, lips or tongue. Our pharmacists can suggest something to ease a sore mouth while it heals.
 - **Ask a pharmacist** if a product's ingredients or strength aren't clear, and don't use it until you know.
-- **See a dentist or GP** (our in-store [Help Medical GPs](/help-medical/) are one option) if a mouth sore isn't healing.
+- **See a dentist or GP** ([Help Medical](/help-medical/), an independent general practice located inside our store, is one option) if a mouth sore isn't healing.

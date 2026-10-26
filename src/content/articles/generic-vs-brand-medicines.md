@@ -107,6 +107,6 @@ Talk to your pharmacist or GP if:
 - you're not sure whether a new-looking tablet is the right medicine
 - you develop a rash or other signs of an allergic reaction after starting a new brand
 
-If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26. Our in-store [Help Medical GPs](/help-medical/) are also an option for anything that needs a doctor.
+If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are also an option for anything that needs a doctor.
 
 **Call 000 in an emergency.** If someone is not breathing, is unresponsive or has a severe allergic reaction, call triple zero (000) straight away.

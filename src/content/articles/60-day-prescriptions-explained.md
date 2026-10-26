@@ -107,4 +107,4 @@ Talk to your pharmacist or GP if:
 - you're unsure how much to take from a larger pack
 - you're finding your medicines hard to afford
 
-If you need a new script or a review, our in-store [Help Medical GPs](/help-medical/) are one option, with walk-ins welcome subject to doctor availability.
+If you need a new script or a review, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option, with walk-ins welcome subject to doctor availability.

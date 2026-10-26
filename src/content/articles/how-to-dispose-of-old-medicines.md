@@ -126,6 +126,6 @@ Talk to a pharmacist or GP if:
 - you've found medicines in a family member's home and aren't sure whether they're still meant to take them
 - you're not sure how to store a medicine or how long it lasts once opened
 
-If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26. For a medicine review or new symptoms, our in-store [Help Medical GPs](/help-medical/) are one option.
+If someone has taken the wrong medicine or too much, call the Poisons Information Centre on 13 11 26. For a medicine review or new symptoms, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 
 **Call 000 in an emergency.** If someone is not breathing or is unresponsive after taking a medicine, call triple zero (000) straight away.

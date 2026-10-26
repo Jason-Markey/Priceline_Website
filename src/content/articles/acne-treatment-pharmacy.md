@@ -98,4 +98,4 @@ See your GP if:
 - you’re an adult with ongoing acne and wonder whether a hormonal condition, such as polycystic ovary syndrome (PCOS), could be involved;
 - it’s affecting your confidence, mood or daily life.
 
-Acne can have a real effect on how you feel about yourself. If it’s making you anxious or low, please mention that to your GP, and don’t wait for it to get worse before asking for help. healthdirect notes that getting treatment matters, because untreated acne can leave scars. The [Help Medical GPs in our store](/help-medical/) are a convenient option while you’re at Pacific Fair.
+Acne can have a real effect on how you feel about yourself. If it’s making you anxious or low, please mention that to your GP, and don’t wait for it to get worse before asking for help. healthdirect notes that getting treatment matters, because untreated acne can leave scars. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are a convenient option while you’re at Pacific Fair.

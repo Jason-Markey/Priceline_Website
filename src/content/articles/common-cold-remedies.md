@@ -110,7 +110,7 @@ See your GP if:
 
 For children, see a doctor if symptoms get worse or haven’t improved after 48 hours, or they’re not eating or drinking, or are weeing less. See a doctor straight away if a baby under 3 months has a fever.
 
-Our in-store [Help Medical GPs](/help-medical/) can see you while you’re at Pacific Fair.
+The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you while you’re at Pacific Fair.
 
 ### Call 000 if
 

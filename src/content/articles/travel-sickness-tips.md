@@ -107,7 +107,7 @@ Travel sickness usually settles once you stop moving. See a GP if:
 - vomiting continues after the trip, or you or your child can't keep fluids down;
 - there are signs of dehydration, such as extreme thirst, dizziness, dark urine, weeing less than usual, or fewer wet nappies in babies.
 
-If you're planning a bigger trip and want advice before you go, you can also [see a GP at Help Medical inside our store](/help-medical/).
+If you're planning a bigger trip and want advice before you go, you can also see a GP at [Help Medical](/help-medical/), an independent general practice located inside our store.
 
 **Call 000 in an emergency**, for example if someone has a knock to the head (on a ride or anywhere else) and then vomits more than once, has a seizure, becomes confused or drowsy, or has other signs of a serious head injury. healthdirect advises seeking emergency care in these situations. Also call 000 for severe dehydration, such as fast breathing, a fast heartbeat, confusion, cold hands and feet, or sunken eyes.
 

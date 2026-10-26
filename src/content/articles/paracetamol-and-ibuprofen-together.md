@@ -1,7 +1,7 @@
 ---
 title: "Can you take paracetamol and ibuprofen together?"
-description: "Taking paracetamol and ibuprofen together? How to time the doses, the daily limit for each, how to avoid doubling up, and who should skip ibuprofen."
-seoTitle: "Paracetamol and ibuprofen together: timing and dose limits"
+description: "Yes, most healthy adults can. How to time doses, the daily limit for each, how to avoid doubling up with cold and flu tablets, and who should skip ibuprofen."
+seoTitle: "Can you take paracetamol and ibuprofen at the same time?"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-25
 category: health-advice
@@ -120,7 +120,7 @@ Talk to your pharmacist or see a GP if:
 - you get side effects such as tummy pain, heartburn, nausea or dizziness
 - you're pregnant or breastfeeding, or you have any of the conditions listed above
 
-Our in-store [Help Medical GPs](/help-medical/) are one option if you're already at the centre.
+The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option if you're already at the centre.
 
 Get urgent medical help if you have severe tummy pain, vomit blood, have black stools or notice swollen ankles while taking ibuprofen. If you think you've taken too much paracetamol, healthdirect says to call triple zero (000) straight away and ask for an ambulance, even if you feel fine. For advice, you can call the Poisons Information Centre on 13 11 26.
 

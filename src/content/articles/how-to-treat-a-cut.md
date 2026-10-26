@@ -104,7 +104,7 @@ You’re welcome to show us a cut or graze. Our pharmacists can:
 - suggest wound care options for sensitive skin or children;
 - advise on caring for a wound while swimming or in the humid heat.
 
-If you need a doctor to look at a wound, the [Help Medical GPs inside our store](/help-medical/) are close by.
+If you need a doctor to look at a wound, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by.
 
 ## When to see a GP or get urgent help
 

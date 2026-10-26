@@ -108,11 +108,11 @@ What you can do is raise it. Your doctor may be able to change the dose or swap 
 
 A [medication review](/medication-reviews/) is a good place to start. It's a free one-on-one conversation with a pharmacist for Medicare card holders, covering everything you take, including vitamins and over-the-counter products. It takes about 20 to 30 minutes and you don't need to book. We can help you work out which medicines might be contributing and what to ask your GP.
 
-We can also help you choose between saliva substitutes, xylitol lozenges, alcohol-free mouthwash and high-fluoride toothpaste, and check they suit your other medicines. If you need a doctor, the Help Medical GPs are right inside our store at Pacific Fair.
+We can also help you choose between saliva substitutes, xylitol lozenges, alcohol-free mouthwash and high-fluoride toothpaste, and check they suit your other medicines. If you need a doctor, the GPs at Help Medical, an independent general practice located inside our store, are close by.
 
 ## When to see a pharmacist or GP
 
-Talk to a pharmacist if your mouth has felt dry since you started a new medicine, or you'd like help choosing dry mouth products. See a GP (our in-store [Help Medical GPs](/help-medical/) are one option) if:
+Talk to a pharmacist if your mouth has felt dry since you started a new medicine, or you'd like help choosing dry mouth products. See a GP ([Help Medical](/help-medical/) is one option) if:
 
 - your dry mouth bothers you or affects your quality of life
 - it's severe and you don't know the cause (the ADA suggests a check-up with your doctor or dentist)
