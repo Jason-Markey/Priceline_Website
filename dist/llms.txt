@@ -46,6 +46,7 @@ Last updated: 26 October 2026
 - [Prescriptions & eScripts](https://pricelinepacificfair.com.au/prescriptions/): Paper scripts, eScripts, Active Script Lists, hospital, interstate and vet scripts. Send yours ahead.
 - [Vaccinations](https://pricelinepacificfair.com.au/vaccination-information/): Flu, COVID-19, whooping cough, shingles, RSV, pneumococcal and travel vaccines. Walk in or book.
 - [Flu vaccination](https://pricelinepacificfair.com.au/flu-vaccination/): Yearly flu shot, walk in or book. Free for eligible people under the NIP.
+- [Whooping cough vaccine](https://pricelinepacificfair.com.au/whooping-cough-vaccine/): Whooping cough booster for ages 5 and over, walk in or book. Free in pregnancy under the NIP.
 - [Travel health & vaccinations](https://pricelinepacificfair.com.au/travel-health/): Travel vaccines, a travel health kit and advice on taking your medicines overseas.
 - [Medication packing (Webster packs)](https://pricelinepacificfair.com.au/medication-packing/): Your medicines sorted by day and time in weekly blister packs.
 - [Medication reviews](https://pricelinepacificfair.com.au/medication-reviews/): A free one-on-one check of all your medicines with a pharmacist.
@@ -164,6 +165,9 @@ Last updated: 26 October 2026
 - [Passport photo requirements: Australia and common visa sizes](https://pricelinepacificfair.com.au/passport-photo-requirements/): Australian passport photo rules (35–40mm by 45–50mm, plain background, no glasses), guarantor endorsement, and photo sizes for US, UK, China and more.
 - [Travel health checklist: what to sort 6–8 weeks before you fly](https://pricelinepacificfair.com.au/travel-health-checklist/): Our travel health checklist counts down from 8 weeks to the day before you fly: vaccines, scripts, PBS rules and a travel kit, sorted at Pacific Fair.
 - [Vaccinations for Bali: what Australians need before they go](https://pricelinepacificfair.com.au/bali-vaccinations/): Heading to Bali? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and Japanese encephalitis, plus how to avoid Bali belly.
+- [Vaccinations for China: what Australians need before they go](https://pricelinepacificfair.com.au/china-vaccinations/): Heading to China? The vaccines to check before you go, from measles, hepatitis A and typhoid to JE and rabies, plus tips for family visits, smog and altitude.
+- [Vaccinations for Fiji: what Australians need before they go](https://pricelinepacificfair.com.au/fiji-vaccinations/): Heading to Fiji? The vaccines to check before you go, from measles, hepatitis A and typhoid to flu for cruises, plus dengue, leptospirosis and food safety tips.
+- [Vaccinations for India: what Australians need before they go](https://pricelinepacificfair.com.au/india-vaccinations/): Going to India? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and JE, plus tips for visiting family and Delhi belly.
 - [Vaccinations for Thailand and Vietnam: a pharmacist's guide](https://pricelinepacificfair.com.au/thailand-vietnam-vaccinations/): Going to Thailand or Vietnam? The vaccines to check before you go, from hepatitis A, typhoid and measles to rabies and JE, plus malaria and food safety tips.
 
 ### Vitamins & supplements
