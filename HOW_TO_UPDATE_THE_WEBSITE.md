@@ -87,6 +87,23 @@ Preview locally before pushing: `npm run preview` then open http://127.0.0.1:432
   The key file is `public/d453aba426cec5f9df251eb8c387754c.txt`; keep it.
 - `/llms.txt` lists the key facts, services and every live article by topic for AI assistants. It rebuilds itself.
 
+## SEO audits (claude-seo)
+
+- The claude-seo plugin (github.com/AgriciDaniel/claude-seo, MIT licence, v2.5.0 when added on 26 Oct 2026) is switched
+  on for this repo in `.claude/settings.json`. Claude Code picks it up from there (it may ask you to trust or install it
+  the first time). If `/seo` isn't available, run `/plugin install claude-seo@agricidaniel-claude-seo`, then `/seo setup` once.
+- Useful commands: `/seo audit https://pricelinepacificfair.com.au` (full audit with parallel agents), `/seo page <url>`,
+  `/seo schema <url>`, `/seo local <url>`, `/seo geo <url>`, `/seo agentic <url>`. `/seo google setup` adds PageSpeed,
+  CrUX and Search Console data with a free Google API key.
+- It needs to reach the live site. A cloud session whose network settings block the domain can still audit the built
+  files in `dist/`; that's how the first audit was run (`reference-content/seo-audit-2026-10-26.md`).
+- Its suggestions never override the page rules above (no prescription-only medicine names, no medicine or vaccine
+  prices, no testimonials on clinical pages, and so on).
+- It adds about 4,700 tokens to every Claude session in this repo. To switch it off, set it to `false` under
+  `enabledPlugins` in `.claude/settings.json`.
+- Known issue in v2.5.0: its schema check (a hook that runs after file edits) only looks at `.html` files, and it crashes
+  on a JSON-LD `@type` given as a list, which our schema uses. It never runs on `.astro` edits, so normal updates aren't affected.
+
 ## After a content change, check
 
 1. The page renders (open it in the preview or on staging).
