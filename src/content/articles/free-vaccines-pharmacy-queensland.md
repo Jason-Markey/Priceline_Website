@@ -56,7 +56,7 @@ This table covers the free vaccines our pharmacists can give to people aged 5 an
 | Meningococcal ACWY | Catch-up up to and including age 19 | Usually given in Year 10 at school. |
 | Meningococcal B | Queensland residents aged 15 to under 20 (a Queensland Government program) | 2 doses at least 8 weeks apart. Start before you turn 20 and the second dose is still free. |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without records of 2 doses (a Queensland Government program) | 2 doses at least 4 weeks apart. Worth checking before overseas travel. |
-| Childhood catch-up vaccines | People under 20 who missed vaccines on the NIP schedule, such as polio, hepatitis B or chickenpox | Start before 20 and you can finish the course free. |
+| Childhood catch-up vaccines | People under 20 who missed vaccines on the NIP schedule, such as hepatitis B or chickenpox | Start before 20 and you can finish the course free. |
 
 Not sure which group you're in? Tell us your age, whether you're pregnant, and any medical conditions, and we'll check for you before you're vaccinated.
 

@@ -100,7 +100,7 @@ export const services: Service[] = [
     short: 'Travel vaccines, a travel health kit and advice on taking your medicines overseas.',
     group: 'health',
     atAGlance: {
-      what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, polio, MMR, flu, whooping cough) plus travel health advice and kits.',
+      what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, MMR, flu, whooping cough) plus travel health advice and kits.',
       who: 'Anyone aged 5 and over heading overseas. Ideally 6 to 8 weeks before you fly.',
       cost: 'Most travel vaccines are private; you’ll see prices when you book.',
       time: 'Allow 20 to 30 minutes.',

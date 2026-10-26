@@ -96,7 +96,7 @@ Treat this as a starting point for a chat with a pharmacist or doctor.
 | Japanese encephalitis | Stays of a month or more, or shorter trips to rural or farming areas, especially around the monsoon | Yes |
 | Rabies (before you travel) | Stays of more than a month, children, people staying with family, and anyone likely to be around dogs or far from medical care | No. We'll point you to a GP or travel clinic |
 | Cholera | Not needed by most travellers. Worth discussing for aid workers and some people with medical conditions | Yes |
-| Polio | Not usually needed, and you don't need proof of polio vaccination to enter India from Australia | Yes |
+| Polio | Not usually needed, and you don't need proof of polio vaccination to enter India from Australia | No. We'll point you to a GP or travel clinic |
 | Dengue | People who've had dengue before, and people spending long or repeated periods in India | No. We'll point you to a GP or travel clinic |
 | Yellow fever | Not needed when you travel from Australia | No. It's only given at approved yellow fever vaccination centres |
 
@@ -207,7 +207,7 @@ Not if you're flying from Australia, even via Asia or the Middle East. India ask
 
 ### Can I get India travel vaccines at a pharmacy on the Gold Coast?
 
-Yes. At Pacific Fair we give hepatitis A and B, typhoid, cholera, Japanese encephalitis, polio, measles, tetanus and whooping cough, flu and COVID-19 vaccines to people aged 5 and over. For rabies and dengue vaccines, see a GP or travel clinic. Yellow fever vaccine is only given at approved yellow fever vaccination centres.
+Yes. At Pacific Fair we give hepatitis A and B, typhoid, cholera, Japanese encephalitis, measles, tetanus and whooping cough, flu and COVID-19 vaccines to people aged 5 and over. For rabies and dengue vaccines, see a GP or travel clinic. Yellow fever vaccine is only given at approved yellow fever vaccination centres.
 
 ### Do children need vaccines for India?
 
