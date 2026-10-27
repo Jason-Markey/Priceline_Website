@@ -332,7 +332,7 @@ export const services: Service[] = [
     name: 'Quit smoking',
     short: 'Help choosing quit options, making a plan and staying on track.',
     group: 'health',
-    image: 'quit-smoking-aisle.jpg',
+    image: 'nicotine-replacement-shelf.jpg',
     atAGlance: {
       what: 'A conversation with a pharmacist about the quit-smoking options available, help making a plan, and referral to your GP or Quitline for extra support.',
       who: 'Anyone who wants to quit.',
