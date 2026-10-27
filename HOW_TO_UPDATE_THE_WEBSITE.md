@@ -56,6 +56,9 @@ Rules that must hold on every page (the build check enforces most of them):
   (TGA health-service advertising guidance). Priceline isn't a Shane Warne Legacy partner; SiSU Health is (fact-check, 26 Oct 2026).
 - Re-check /normal-blood-pressure/ when the final "2027" Australian guideline on elevated blood pressure and hypertension is
   published (draft consultation closed 12 Oct 2026); its categories may change.
+- Photos: no medicine advertising or medicine prices in shot (digital screens and shelf promotions included), no
+  prescription-only medicines, and no customers' faces. Medicine and supplement brands mustn't be the focus of a photo
+  used on a health page (Jason, 27 Oct 2026).
 - Australian Padel Shop: customers can pick up their online orders in store. Mention it only in the padel article,
   never on the homepage, in the menus or on service pages (Jason, 17 Oct 2026).
 

@@ -221,7 +221,7 @@ export const services: Service[] = [
     name: 'Click & Collect',
     short: 'Shop online at priceline.com.au and collect from us, usually within 15 minutes.',
     group: 'pharmacy',
-    image: 'shopfront.jpg',
+    image: 'checkout-counter.jpg',
     atAGlance: {
       what: 'Order from the full Priceline range online and collect in store.',
       who: 'Anyone. Prescription medicines are not available this way.',
@@ -381,7 +381,7 @@ export const services: Service[] = [
     name: 'Skincare & self-tan',
     short: 'Free advice from trained beauty advisors, and brands that suit the Gold Coast climate.',
     group: 'beauty',
-    image: 'beauty-aisle.jpg',
+    image: 'skincare-aisle.jpg',
     icon: 'cosmetics',
     atAGlance: {
       what: 'Skincare, sun care and self-tan ranges with free advice from trained beauty advisors.',
