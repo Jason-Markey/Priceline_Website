@@ -22,7 +22,7 @@ draft: false
 ---
 The best time to get your flu shot in Queensland is in autumn, before flu season peaks. Flu usually peaks between June and September in most parts of Australia, and the Australian Government advises getting vaccinated any time from April onwards. That way, you're protected when flu is at its busiest.
 
-Below, we answer the flu shot questions we hear most at the counter. You can also find details of our walk-in service on our [vaccinations at Pacific Fair](/vaccination-information/) page.
+Below, we answer the flu shot questions we hear most at the counter. You can also find details of our walk-in service on our [flu shots at Pacific Fair](/flu-vaccination/) page.
 
 ## Your flu shot questions answered
 
@@ -89,7 +89,7 @@ Yes. The egg-based flu vaccines contain only tiny traces of egg protein. People 
 
 ### I'm travelling overseas later in the year. Do I need anything else?
 
-If you're heading to the Northern Hemisphere during its flu season (usually October to May), you may be able to have a second flu vaccine before you go. See our travel health page and chat with a pharmacist before you fly.
+If you're heading to the Northern Hemisphere during its flu season (usually October to May), you may be able to have a second flu vaccine before you go. See our [travel health page](/travel-health/) and chat with a pharmacist before you fly.
 
 ## What are the side effects of the flu vaccine?
 

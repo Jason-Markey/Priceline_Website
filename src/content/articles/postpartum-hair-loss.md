@@ -71,7 +71,7 @@ healthdirect lists nutritional deficiencies, such as iron or zinc deficiency, am
 
 Iron is worth a closer look after a baby. healthdirect lists people who are breastfeeding among those who need more iron, and says "the only reliable way of telling if you are iron deficient is through an iron study blood test".
 
-Your GP may refer you for blood tests to rule out health conditions that can lead to hair loss. If you need one, Help Medical, an independent general practice located inside our store, has a QML Pathology collection room on site.
+Your GP may refer you for blood tests to rule out health conditions that can lead to hair loss. If you need one, Help Medical, an independent general practice located inside our store, has a [QML Pathology collection room](/blood-tests/) on site.
 
 ## Do supplements help postpartum hair loss?
 

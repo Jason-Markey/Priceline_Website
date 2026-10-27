@@ -85,7 +85,7 @@ China is Australians' fourth most-visited overseas country, with about 744,000 s
 | Vaccine | Who should consider it for China | Can we give it? |
 | --- | --- | --- |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses | Yes, and it's free in Queensland if you were born in or after 1966 and haven't had 2 doses |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago | Yes |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Anyone whose last tetanus booster was more than 10 years ago | Yes |
 | Flu | Worth considering for all travellers, especially from October to May | Yes |
 | Hepatitis A | All travellers who haven't had it | Yes |
 | Typhoid | Most travellers, and especially people visiting family, going to rural areas or staying a while | Yes |

@@ -18,7 +18,7 @@ references:
     url: "https://www.healthdirect.gov.au/head-injuries"
 draft: false
 ---
-The best travel sickness tips are simple: keep your eyes on the horizon, stay near the front of whatever you're travelling in, get fresh air, eat lightly, and plan ahead if you know you're prone to it. If that's not enough, a pharmacist can talk you through medicine options that suit your age and health. Here's how to put those tips to work in real Gold Coast situations, and our [travel health advice at Pacific Fair](/vaccination-information/) can help before your next outing.
+The best travel sickness tips are simple: keep your eyes on the horizon, stay near the front of whatever you're travelling in, get fresh air, eat lightly, and plan ahead if you know you're prone to it. If that's not enough, a pharmacist can talk you through medicine options that suit your age and health. Here's how to put those tips to work in real Gold Coast situations, and our [travel health advice at Pacific Fair](/travel-health/) can help before your next outing.
 
 ## Why does motion sickness happen?
 

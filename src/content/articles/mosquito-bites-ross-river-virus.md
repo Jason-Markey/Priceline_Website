@@ -85,7 +85,7 @@ Most bites just itch for a few days. Try not to scratch, which can break the ski
 
 ## When to see a pharmacist or GP
 
-See a GP if you develop a fever, rash, headache, or muscle or joint pain in the weeks after mosquito bites or overseas travel. Only a blood test can tell whether your illness is caused by a mosquito-borne virus. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you and arrange tests, and the QML Pathology collection room is inside Help Medical too.
+See a GP if you develop a fever, rash, headache, or muscle or joint pain in the weeks after mosquito bites or overseas travel. Only a blood test can tell whether your illness is caused by a mosquito-borne virus. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you and arrange tests, and the [QML Pathology collection room](/blood-tests/) is inside Help Medical too.
 
 Go to an emergency department or call 000 if someone has a sudden high fever, a severe headache with neck stiffness, confusion, drowsiness, weakness or paralysis, seizures or trouble staying awake. For health advice any time in Queensland, call 13 HEALTH (13 43 25 84).
 

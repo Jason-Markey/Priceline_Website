@@ -1,20 +1,14 @@
 ---
 import { Image } from 'astro:assets';
 import logo from '../assets/images/logo-priceline-pacific-fair.png';
-import { site, fmtTime, dayOrder, brisbaneDate, upcomingSpecialHours, type DayKey } from '../data/site';
+import { site, dayOrder, upcomingSpecialHours } from '../data/site';
 import { primaryNav } from '../data/navigation';
 
-// Today's hours for the utility strip. Rendered at build time; a tiny inline script
-// corrects it for the visitor's actual day (and does nothing if JS is off).
+// Today's hours for the utility strip. The HTML says "Open 7 days", which is true whatever day the page was built
+// (crawlers and AI assistants read it as is); a tiny inline script replaces it with the visitor's open/closed state.
 // One-off days (Christmas and New Year) override the weekly hours on their date.
 const specials = upcomingSpecialHours();
-const todayIdx = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].indexOf(
-  new Intl.DateTimeFormat('en-AU', { weekday: 'short', timeZone: 'Australia/Brisbane' }).format(new Date()).slice(0, 3),
-);
-const todayKey = dayOrder[todayIdx] as DayKey;
-const todaySpecial = specials.find((s) => s.date === brisbaneDate());
-const today = todaySpecial ? todaySpecial.hours : site.hours[todayKey];
-const todayText = today ? `Open today ${fmtTime(today.open)} – ${fmtTime(today.close)}` : 'Closed today';
+const todayText = 'Open 7 days';
 // Raw 24h times per day (Mon..Sun) and per special date; the script formats and works out open/closed state.
 const hoursJson = JSON.stringify(dayOrder.map((d) => (site.hours[d] ? [site.hours[d]!.open, site.hours[d]!.close] : null)));
 const specialJson = JSON.stringify(Object.fromEntries(specials.map((s) => [s.date, s.hours ? [s.hours.open, s.hours.close] : null])));

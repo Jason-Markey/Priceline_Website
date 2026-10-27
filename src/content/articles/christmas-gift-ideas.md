@@ -75,3 +75,4 @@ Small gifts that people actually use:
 - **Order online and collect.** Order on priceline.com.au and choose Priceline Pacific Fair for [Click & Collect](/click-and-collect/). Orders are usually ready within 15 minutes and held for up to 14 days.
 - **Park close by.** We’re on the ground floor of Pacific Fair. Park in the Orange car park, directly under us. Gate 7 is the closest entry, and the first 4 hours are free.
 - **Can’t get to the centre?** Order on [Uber Eats](/delivery/) for delivery across the Gold Coast.
+- **Check our hours.** See our [Christmas and public holiday hours](/public-holiday-hours/) before you visit.

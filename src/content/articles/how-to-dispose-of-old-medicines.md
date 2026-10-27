@@ -68,7 +68,7 @@ If you use insulin, other injections or a finger-prick device, your used sharps 
 - Put used sharps straight into a purpose-made sharps container. healthdirect notes these are available from pharmacies.
 - When the container is full, take it to a hospital, some pharmacies and medical centres, or a community sharps bin run by your local council.
 
-healthdirect also points to Diabetes Australia's safe sharps resource for disposal locations around the country. On the Gold Coast, contact your local council to find out where to take a full container.
+healthdirect also points to Diabetes Australia's safe sharps resource for disposal locations around the country. On the Gold Coast, contact your local council to find out where to take a full container. If you have diabetes and are registered with the [National Diabetes Services Scheme (NDSS)](/national-diabetes-services-scheme/), you can get subsidised pen needles and syringes from us.
 
 ## Why shouldn't you put medicines in the bin or down the toilet?
 

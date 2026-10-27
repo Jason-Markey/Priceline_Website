@@ -104,6 +104,8 @@ So if you can't find a product you remember, it may need a prescription now or m
 
 Tell us what your cough sounds like, how long you've had it and what else you take. Our pharmacists can help you work out whether it's dry or chesty, which class of medicine (if any) may suit, and when it needs a GP instead. Anyone can ask to talk to a pharmacist privately in our consultation room, with no appointment needed. For other everyday conditions, see [what a pharmacist can treat in Queensland](/what-can-a-pharmacist-treat-queensland/).
 
+If a cough keeps you home from work and your workplace needs evidence, a pharmacist can assess you and, if suitable, give you an [absence from work certificate](/sick-leave-certificates/).
+
 ## When to see a pharmacist or GP
 
 See a GP if your cough comes with any of the following. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.

@@ -80,7 +80,7 @@ Tetanus is a serious infection that can enter the body through cuts and wounds, 
 - it’s been more than 5 years and the wound is dirty or deep; or
 - you can’t remember when you last had one (healthdirect suggests seeing a doctor within a few hours in this case).
 
-Our pharmacists can talk to you about your options, and you can read more about [vaccinations at our pharmacy](/vaccination-information/).
+Our pharmacists can talk to you about your options. If you don’t have a wound but are due for a booster, you can have the [whooping cough vaccine as your tetanus booster](/whooping-cough-vaccine/). You can also read more about [vaccinations at our pharmacy](/vaccination-information/).
 
 ## What to keep in your first aid kit
 

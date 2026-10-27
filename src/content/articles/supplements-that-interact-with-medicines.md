@@ -3,7 +3,7 @@ title: "Supplements that can interact with your medicines"
 description: "Supplements that can interact with your medicines, from St John's wort to vitamin K and minerals, and how a medication review helps. Ask our Broadbeach team."
 seoTitle: "Supplements and your medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-27
 category: vitamins-supplements
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -25,7 +25,7 @@ references:
 draft: false
 ---
 
-Yes, some common supplements can change how your medicines work. healthdirect warns that supplements can have side effects or interact with other medicines, making them dangerous or less effective. The best-documented examples include St John's wort with antidepressants and the contraceptive pill, vitamin K-rich foods with the blood thinner warfarin, and minerals such as magnesium with some antibiotics and osteoporosis medicines.
+Yes, some common supplements can change how your medicines work. healthdirect warns that supplements can have side effects or interact with other medicines, making them dangerous or less effective. The best-documented examples include St John's wort with antidepressants and the contraceptive pill, vitamin K-rich foods with some blood thinners, and minerals such as magnesium with some antibiotics and osteoporosis medicines.
 
 The good news is that most problems are avoidable. Tell every doctor and pharmacist about everything you take, and bring it all along to a medication review. Here's what to look out for.
 
@@ -44,18 +44,18 @@ These are some of the well-documented examples, described by type of medicine.
 | St John's wort | Antidepressants and some migraine medicines (triptans) | A higher risk of toxicity, including serotonin syndrome, which can be life-threatening |
 | St John's wort | The combined oral contraceptive pill | The pill works less well, raising the risk of an unplanned pregnancy |
 | St John's wort | Some transplant, HIV, epilepsy and heart medicines | These medicines may not work properly, with risks such as organ rejection, seizures or blood clots |
-| Vitamin K-rich foods, grapefruit and cranberry juice | Warfarin | healthdirect advises keeping vitamin K foods steady and avoiding grapefruit and cranberry juice |
+| Vitamin K-rich foods, grapefruit and cranberry juice | Some blood thinners (ask your pharmacist whether yours is affected) | healthdirect advises keeping vitamin K foods steady and avoiding grapefruit and cranberry juice |
 | Magnesium supplements | Some antibiotics and some osteoporosis medicines | Less of the medicine is absorbed unless doses are spaced apart |
 
 ### St John's wort
 
-St John's wort is a herbal product often taken for low mood. healthdirect advises not taking it with other antidepressants, because together they increase the risk of toxicity. It also reduces the effectiveness of the combined pill, and it can affect some transplant, HIV, epilepsy and heart medicines, including warfarin.
+St John's wort is a herbal product often taken for low mood. healthdirect advises not taking it with other antidepressants, because together they increase the risk of toxicity. It also reduces the effectiveness of the combined pill, and it can affect some transplant, HIV, epilepsy and heart medicines, including some blood thinners.
 
 If you already take St John's wort with another medicine, healthdirect says to seek medical advice, and not to stop taking it before talking to your doctor. Ask your doctor or pharmacist before starting it if you use any other medication.
 
 ### Vitamin K, grapefruit and blood thinners
 
-If you take warfarin, your diet matters. healthdirect advises eating the same types of food regularly, especially foods high in vitamin K such as green leafy vegetables and the cabbage family, so your intake stays steady. It also advises avoiding grapefruit and cranberry juice, and drinking no more than 1 or 2 standard drinks of alcohol a day.
+If you take a blood thinner that works against vitamin K (your pharmacist can tell you if yours does), your diet matters. healthdirect advises eating the same types of food regularly, especially foods high in vitamin K such as green leafy vegetables and the cabbage family, so your intake stays steady. It also advises avoiding grapefruit and cranberry juice, and drinking no more than 1 or 2 standard drinks of alcohol a day.
 
 More broadly, healthdirect says blood thinners can interact with many different medicines, including ones you buy over the counter at a pharmacy, vitamins, and herbal or complementary medicines. So if you take any blood thinner, ask your pharmacist before starting a new supplement, including popular ones such as fish oil or ginkgo.
 

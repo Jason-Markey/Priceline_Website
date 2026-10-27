@@ -16,9 +16,9 @@ BLOCKED = [
     'qdenga', 'bexsero', 'trumenba', 'nimenrix', 'menquadfi', 'priorix', 'proquad', 'varivax', 'varilrix',
     'engerix', 'h-b-vax', 'havrix', 'vaqta', 'twinrix', 'typhim', 'vivotif', 'vivaxim', 'dukoral', 'imojev',
     'jespect', 'ixiaro', 'rabipur', 'verorab', 'stamaril', 'capvaxive', 'pneumovax', 'vaxneuvance', 'adacel',
-    'beyfortus', 'nirsevimab', 'mresvia',
+    'beyfortus', 'nirsevimab', 'mresvia', 'warfarin',
     'healthengine', 'servicebookings', 'audiology-services', 'wp-content', 'wp-admin',
-    'testimonial', 'guaranteed', 'miracle', 'clinically proven',
+    'testimonial', 'guaranteed', 'miracle', 'clinically proven', 'dermatologist recommended', 'dermatologist-recommended',
 ]
 TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 H1_RE = re.compile(r'<h1[^>]*>', re.I)

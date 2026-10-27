@@ -87,7 +87,7 @@ Treat this as a starting point for a chat with a pharmacist or doctor.
 | Vaccine | Who should consider it for India | Can we give it? |
 | --- | --- | --- |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses. Measles is common in India | Yes, free in Queensland for this group |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago, or more than 5 years for higher-risk trips, such as rural areas far from medical care | Yes |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Anyone whose last tetanus booster was more than 10 years ago, or more than 5 years for higher-risk trips, such as rural areas far from medical care | Yes |
 | Hepatitis A | Most travellers | Yes |
 | Typhoid | Most travellers, even on short trips, especially if you're visiting family | Yes |
 | Flu | Worth considering for all travellers. Swine flu is widespread in India in winter | Yes |

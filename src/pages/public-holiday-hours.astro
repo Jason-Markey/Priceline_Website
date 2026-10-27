@@ -1,7 +1,7 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import HoursCard from '../components/HoursCard.astro';
-import { site, upcomingPublicHolidays, upcomingSpecialHours, specialRows, fmtDay, fmtRange } from '../data/site';
+import { site, upcomingPublicHolidays, upcomingSpecialHours, specialRows, fmtDay, fmtRange, brisbaneDate } from '../data/site';
 
 const path = '/public-holiday-hours/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Opening hours & directions', href: '/visit-us/' }, { name: 'Public holiday hours', href: path }];
@@ -9,6 +9,9 @@ const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Opening hours & direc
 // Holidays still ahead at build time (the weekly rebuild drops past dates). Confirmed hours come from specialHours.
 const holidays = upcomingPublicHolidays();
 const xmas = upcomingSpecialHours();
+// In November and December, while Christmas trading hours are on the page, the title and description lead with
+// Christmas, which is what people search for then. The weekly rebuild switches this on and off by itself.
+const christmasSeason = xmas.length > 0 && Number(brisbaneDate().slice(5, 7)) >= 11;
 const dayLabel = (date: string) => `${fmtDay(date)} ${date.slice(0, 4)}`;
 const status = (h: (typeof holidays)[number]) => (!h.open ? 'Closed' : h.hours ? fmtRange(h.hours) : 'Open, hours vary');
 const anzacMonday2027 = holidays.some((h) => h.date === '2027-04-25');
@@ -35,8 +38,10 @@ const faqs = [
 ---
 
 <ContentPage
-  title="Pharmacy Open on Public Holidays | Priceline Pacific Fair"
-  description="Priceline Pharmacy Pacific Fair is open on most Queensland public holidays, including Boxing Day, New Year’s Day and Easter Monday. Dates and hours."
+  title={christmasSeason ? 'Christmas & Public Holiday Hours | Priceline Pacific Fair' : 'Pharmacy Open on Public Holidays | Priceline Pacific Fair'}
+  description={christmasSeason
+    ? 'Christmas trading hours at Priceline Pharmacy Pacific Fair, Broadbeach: closed Christmas Day, open Boxing Day and New Year’s Day, plus public holiday dates.'
+    : 'Priceline Pharmacy Pacific Fair is open on most Queensland public holidays, including Boxing Day, New Year’s Day and Easter Monday. See the dates here.'}
   path={path}
   h1="Public holiday opening hours"
   lead="We’re open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day. Hours vary, so check Google or call us before you come in."

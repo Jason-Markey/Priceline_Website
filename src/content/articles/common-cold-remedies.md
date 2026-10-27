@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children"]
-relatedServices: ["prescriptions"]
+relatedServices: ["sick-leave-certificates", "flu-vaccination"]
 references:
   - name: "healthdirect – Colds"
     url: "https://www.healthdirect.gov.au/colds"
@@ -57,7 +57,7 @@ It can be hard to tell at first. The flu is caused by a different virus (influen
 | How unwell you feel | Usually mild | Can be severe and lead to serious illness |
 | Vaccine available? | No | Yes, every year |
 
-Healthdirect recommends a yearly flu vaccine for everyone, ideally from April before flu season starts. You can learn more about [walk-in flu vaccinations in store](/vaccination-information/).
+Healthdirect recommends a yearly flu vaccine for everyone, ideally from April before flu season starts. You can learn more about [walk-in flu vaccinations in store](/flu-vaccination/).
 
 ## Common cold myths vs facts
 
@@ -75,7 +75,7 @@ Healthdirect recommends a yearly flu vaccine for everyone, ideally from April be
 
 ### Myth: you should push through and go to work
 
-**Fact:** Staying home when you’re sick helps stop colds spreading to your workmates, classmates and anyone vulnerable.
+**Fact:** Staying home when you’re sick helps stop colds spreading to your workmates, classmates and anyone vulnerable. If your workplace needs evidence, a pharmacist can assess you and, if suitable, give you an [absence from work certificate](/sick-leave-certificates/).
 
 ## Common cold remedies you can try at home
 

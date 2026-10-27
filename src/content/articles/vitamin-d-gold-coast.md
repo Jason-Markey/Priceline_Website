@@ -88,7 +88,7 @@ Medicare only covers a vitamin D test in certain situations. Under Medicare Bene
 - chronic kidney failure or a kidney transplant
 - some calcium, phosphate or parathyroid problems
 
-There are separate criteria for babies and children. If you don't meet the criteria, ask your GP about the cost before you have the test. Help Medical, an independent general practice located inside our store, has a QML Pathology collection room, so if your GP orders a test you may be able to have it collected on site.
+There are separate criteria for babies and children. If you don't meet the criteria, ask your GP about the cost before you have the test. Help Medical, an independent general practice located inside our store, has a [QML Pathology collection room](/blood-tests/), so if your GP orders a test you may be able to have it collected on site.
 
 ## Can you get enough vitamin D from food?
 

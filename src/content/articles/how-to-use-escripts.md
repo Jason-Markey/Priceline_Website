@@ -16,7 +16,7 @@ references:
     url: "https://www.healthdirect.gov.au/escript-electronic-prescription"
 draft: false
 ---
-An eScript is a digital prescription sent to your phone as a token, an Active Script List keeps all your eScripts in one place so you don't need the tokens, and "scripts on file" means your pharmacy safely holds your paper prescriptions for you. Knowing how to use eScripts, and which option suits you, can save you time at the counter. Our [prescription service at Priceline Pharmacy Pacific Fair](/pharmacy-services/) works with all three, and this guide explains each in plain English.
+An eScript is a digital prescription sent to your phone as a token, an Active Script List keeps all your eScripts in one place so you don't need the tokens, and "scripts on file" means your pharmacy safely holds your paper prescriptions for you. Knowing how to use eScripts, and which option suits you, can save you time at the counter. Our [prescription service at Priceline Pharmacy Pacific Fair](/prescriptions/) works with all three, and this guide explains each in plain English.
 
 ## What is an eScript?
 

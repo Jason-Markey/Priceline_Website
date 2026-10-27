@@ -45,7 +45,7 @@ Treat this as a starting point for a chat with your pharmacist or doctor. The ri
 | Vaccine | Thailand | Vietnam | Can we give it? |
 | --- | --- | --- | --- |
 | Measles, mumps and rubella (MMR) | Check you've had 2 doses. Measles outbreaks have been reported | Check you've had 2 doses. Measles outbreaks have been reported | Yes, and it's free in Queensland if you were born in or after 1966 and haven't had 2 doses |
-| Tetanus, diphtheria and whooping cough | Booster if your last was more than 10 years ago | Booster if your last was more than 10 years ago | Yes |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Booster if your last was more than 10 years ago | Booster if your last was more than 10 years ago | Yes |
 | Hepatitis A | Most travellers | Most travellers | Yes |
 | Typhoid | Some travellers, such as those visiting family or eating street food | Most travellers | Yes |
 | Hepatitis B | Some travellers | Some travellers | Yes |

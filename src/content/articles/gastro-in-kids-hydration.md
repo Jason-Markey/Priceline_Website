@@ -8,7 +8,7 @@ category: baby-child
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "babies"]
-relatedServices: ["help-medical"]
+relatedServices: ["help-medical", "sick-leave-certificates"]
 references:
   - name: "RCH Kids Health Info – Gastroenteritis (gastro)"
     url: "https://www.rch.org.au/kidsinfo/fact_sheets/Gastroenteritis_gastro/"
@@ -89,6 +89,8 @@ Gastro is very contagious, so the whole household needs to pitch in.
 Queensland Health's Time out poster (last revised January 2026) says a child with diarrhoea and/or vomiting should stay home until they have had none for at least 24 hours. For norovirus, it's at least 48 hours. Brothers and sisters without symptoms don't need to stay home, and anyone who prepares or serves food should stay away from that work until they've had no symptoms for 48 hours. The poster also says children should be well before they return.
 
 Some health services suggest a longer break. The RCH says to wait until there's been no diarrhoea or vomiting for 48 hours, and Children's Health Queensland suggests 48 hours since the last diarrhoea. Your centre or school may also have its own policy, so check with them.
+
+Need to stay home to care for them? A pharmacist can see your child and, if suitable, give you a [carer's leave certificate](/sick-leave-certificates/). Bring your child with you.
 
 ## How our pharmacists can help
 

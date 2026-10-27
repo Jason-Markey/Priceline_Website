@@ -69,7 +69,7 @@ Here's what you'll find at our Pacific Fair store:
 - **UTI treatment**: for women aged 18 to 65 with symptoms of an uncomplicated bladder infection. No booking needed: ask for a trained pharmacist at the prescription counter and allow about 15 minutes.
 - **Contraception consultations**: for women aged 16 and over who want to start, restart, change or continue the pill, vaginal ring or contraceptive injection. Please call first, as our trained pharmacists are usually available Monday to Friday.
 
-For the other conditions on the list, our pharmacists can still give advice and talk you through over-the-counter options, for example for [heartburn and reflux](/heartburn-relief/). If you need a prescription, we can point you to a GP.
+For the other conditions on the list, our pharmacists can still give advice and talk you through over-the-counter options, for example for [heartburn and reflux](/heartburn-relief/), [quitting smoking](/quit-smoking/) and [weight management](/weight-loss-counselling-and-advice/). If you need a prescription, we can point you to a GP.
 
 ## What happens in a pharmacist consultation?
 

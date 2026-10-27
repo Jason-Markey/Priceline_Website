@@ -19,7 +19,7 @@ const faqs = [
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Appointments', href: '/appointments/' }]}
   faqs={faqs}
   showNap
-  dateModified="2026-10-07"
+  dateModified="2026-10-27"
 >
   <div class="btn-row">
     <a class="btn btn--primary" href={site.links.book} rel="noopener" data-event="book">Book online</a>
@@ -54,14 +54,24 @@ const faqs = [
           <td data-label="How">Ask for a trained pharmacist at the prescription counter. No booking needed.</td>
         </tr>
         <tr>
+          <td><a href="/sick-leave-certificates/">Sick leave certificates</a></td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">Come in on the day you’re unwell and ask for a pharmacist. Bring photo ID.</td>
+        </tr>
+        <tr>
           <td><a href="/emergency-contraception/">Emergency contraception</a></td>
           <td data-label="Booking">Walk in</td>
-          <td data-label="How">Ask at the counter. We’ll talk with you privately.</td>
+          <td data-label="How">Ask at the counter and fill in a short questionnaire. No consultation fee.</td>
         </tr>
         <tr>
           <td><a href="/help-medical/">GP at Help Medical</a></td>
           <td data-label="Booking">Walk in, or book</td>
           <td data-label="How"><a href={site.helpMedical.bookingUrl} rel="noopener">Book online</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
+        </tr>
+        <tr>
+          <td><a href="/blood-tests/">Blood tests (QML Pathology)</a></td>
+          <td data-label="Booking">Walk in</td>
+          <td data-label="How">Bring your request form and Medicare card to the QML collection room inside Help Medical. Glucose tolerance tests must be booked with QML.</td>
         </tr>
         <tr>
           <td><a href="/medication-reviews/">Medication reviews</a></td>

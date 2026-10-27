@@ -58,7 +58,7 @@ Not every vaccination provider stocks every free NIP vaccine, and some providers
 
 ## Can I get it at the pharmacy?
 
-Yes. Our pharmacists offer walk-in vaccinations, with no appointment needed. It's worth calling ahead to check the vaccine is in stock. You can also have it with your GP or midwife. If you'd rather see a doctor, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+Yes. Our pharmacists offer the [whooping cough vaccine](/whooping-cough-vaccine/) as a walk-in service, with no appointment needed. It's worth calling ahead to check the vaccine is in stock. You can also have it with your GP or midwife. If you'd rather see a doctor, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 Before your vaccine, the pharmacist will check you're well on the day and ask about allergies and past reactions to vaccines. Tell them how many weeks pregnant you are.
 
@@ -68,7 +68,7 @@ It's a good idea. According to the Australian Immunisation Handbook, adult house
 
 This matters because babies often catch whooping cough from someone at home. The Handbook notes that parents are the source in more than half of cases, and older brothers and sisters are also a common source.
 
-So if grandparents are flying up to the Gold Coast to meet the new baby, or a relative will be helping with day care, suggest they check when they last had a booster. The free NIP vaccine is for the pregnant woman, so partners and family may need to pay for theirs.
+So if grandparents are flying up to the Gold Coast to meet the new baby, or a relative will be helping with day care, suggest they check when they last had a [whooping cough booster](/whooping-cough-vaccine/). The free NIP vaccine is for the pregnant woman, so partners and family may need to pay for theirs.
 
 ## What about the flu vaccine in pregnancy?
 
@@ -96,4 +96,4 @@ Talk to your pharmacist, midwife or GP if:
 
 **Call 000 and ask for an ambulance** if you or someone near you is having trouble breathing, or has signs of a severe allergic reaction (anaphylaxis). For any concerns about your pregnancy, contact your midwife, doctor or maternity unit.
 
-For more support through pregnancy and beyond, see our [women's health services](/hormonal-contraceptive-pill/).
+For more support through pregnancy and beyond, see our [women's health services](/womens-health/).

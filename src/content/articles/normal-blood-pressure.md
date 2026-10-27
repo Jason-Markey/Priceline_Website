@@ -108,8 +108,8 @@ Your genes and age play a part, but the Heart Foundation highlights things you c
 - **Eat less salt.** Watch processed foods, takeaway and sauces.
 - **Swap unhealthy fats for healthier ones.**
 - **Move more.** Aim for around 30 minutes of physical activity on most days. A walk along the beach or the Broadwater parklands counts.
-- **Keep to a healthy weight.**
-- **Don't smoke.**
+- **Keep to a healthy weight.** Our pharmacists offer [free weight management support](/weight-loss-counselling-and-advice/).
+- **Don't smoke.** We can [help you quit](/quit-smoking/).
 - **Limit alcohol.**
 
 Some medicines can also affect blood pressure. If you take several medicines, including ones from the supermarket or complementary medicines, a [medication review](/medication-reviews/) with a pharmacist can help you understand how they fit together.

@@ -1,6 +1,6 @@
 ---
 title: "Why your pharmacist asks questions (and sometimes for ID)"
-description: "Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and the rules on early repeats. Ask our Broadbeach team."
+description: "Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and rules on early repeats. Ask our Broadbeach team."
 seoTitle: "Why pharmacists ask questions | Priceline Pacific Fair"
 publishDate: 2026-10-26
 modifiedDate: 2026-10-26

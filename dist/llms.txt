@@ -1,12 +1,12 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 26 October 2026
+Last updated: 27 October 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
 ## Key facts
 - Vaccinations (ages 5 and over): Free for eligible people under the National Immunisation Program, with no service fee.
-- Vaccines: COVID-19 vaccines are free only for eligible groups since 1 October 2026 (75+, 65–74, Aboriginal and Torres Strait Islander people 50–74, adults 18–64 with severe immunocompromise). Rabies, dengue and yellow fever vaccines are not offered in store; we refer to a GP or travel clinic.
+- Vaccines: COVID-19 vaccines are free only for eligible groups since 1 October 2026 (75+, 65–74, Aboriginal and Torres Strait Islander people 50–74, adults 18–64 with severe immunocompromise). Rabies, dengue, yellow fever and polio vaccines are not offered in store; we refer to a GP or travel clinic.
 - Medication packing (Webster packs): Free for concession and health care card holders. $5 a week otherwise.
 - Ear piercing (ages 8 and over): $65 for both ears, including earrings and an antiseptic aftercare spray. Walk in. Second holes in the earlobe are fine; sleepers and other earrings are sold in store. No nose piercing; call first about cartilage.
 - Passport and visa photos: $25. About 10 minutes.
@@ -59,7 +59,7 @@ Last updated: 26 October 2026
 - [Contraception consultations](https://pricelinepacificfair.com.au/hormonal-contraceptive-pill/): Start, change or continue the pill, ring or injection with a trained pharmacist. $35.
 - [UTI treatment](https://pricelinepacificfair.com.au/uti-treatment/): Assessment and treatment for uncomplicated bladder infections, women 18 to 65.
 - [Sick leave certificates](https://pricelinepacificfair.com.au/sick-leave-certificates/): Absence from work certificates for minor, short-term illnesses, after a private chat with a pharmacist.
-- [Emergency contraception](https://pricelinepacificfair.com.au/emergency-contraception/): Available from our pharmacists without an appointment, in private.
+- [Emergency contraception](https://pricelinepacificfair.com.au/emergency-contraception/): No appointment or consultation fee. Fill in a short questionnaire and you only pay for the pill.
 - [Women's health](https://pricelinepacificfair.com.au/womens-health/): Contraception, UTI treatment, pregnancy, periods and menopause support from our pharmacists.
 - [Quit smoking](https://pricelinepacificfair.com.au/quit-smoking/): Help choosing quit options, making a plan and staying on track.
 - [Passport & visa photos](https://pricelinepacificfair.com.au/passport-photos/): Australian and overseas passport and visa photos while you wait. $25.
@@ -115,7 +115,7 @@ Last updated: 26 October 2026
 - [Sprain vs strain: what’s the difference and what to do](https://pricelinepacificfair.com.au/sprain-vs-strain/): Sprain vs strain explained, with RICE and No HARM first aid for ankles rolled on Gold Coast sand, plus the red flags that mean a GP visit or X-ray.
 - [Summer holiday first aid kit checklist (Gold Coast edition)](https://pricelinepacificfair.com.au/first-aid-kit-checklist/): A first aid kit checklist for Gold Coast summer holidays: what to pack for the beach, pool, theme parks and road trips, plus keeping medicines cool.
 - [Sunburn treatment: what to do after too much sun](https://pricelinepacificfair.com.au/sunburn-treatment/): Sunburn treatment step by step: cool, soothe and protect burnt skin, and know when to see a GP. Pharmacist tips for Gold Coast beach days and holidays.
-- [Swimmer's ear: symptoms, treatment and how to prevent it](https://pricelinepacificfair.com.au/swimmers-ear/): Swimmer's ear is an infection of the outer ear canal that's common in a Gold Coast summer. Symptoms, prevention, when you need a GP and how a pharmacist can help.
+- [Swimmer's ear: symptoms, treatment and how to prevent it](https://pricelinepacificfair.com.au/swimmers-ear/): Swimmer's ear is an outer ear canal infection that's common in a Gold Coast summer. Symptoms, prevention, when you need a GP and how a pharmacist can help.
 - [Travel sickness on theme park rides, boats and road trips](https://pricelinepacificfair.com.au/travel-sickness-tips/): Travel sickness tips for Gold Coast theme parks, whale-watching tours and winding hinterland drives, for kids and adults, plus when to see a GP.
 - [Trouble sleeping: tips from your local pharmacist](https://pricelinepacificfair.com.au/trouble-sleeping-tips/): Trouble sleeping tips for hot, humid Gold Coast nights: routines, caffeine timing, when to see a GP and how our Pacific Fair pharmacists can help.
 
@@ -151,7 +151,7 @@ Last updated: 26 October 2026
 - [How to move your prescriptions to a new pharmacy](https://pricelinepacificfair.com.au/transfer-prescriptions-new-pharmacy/): Moving scripts to a new pharmacy is free. How to bring across eScripts, your Active Script List, paper repeats and your PBS Safety Net record, step by step.
 - [PBS Safety Net 2026: thresholds, tracking and what you pay after](https://pricelinepacificfair.com.au/pbs-safety-net-explained/): In 2026 the PBS Safety Net is $1,748.20 for general patients and $277.20 with a concession card. How to count family scripts, and what you pay after.
 - [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): What can pharmacists prescribe in Queensland? UTIs, the pill, reflux, skin and ear infections, who's eligible and what it costs. Ask our Broadbeach team.
-- [Why your pharmacist asks questions (and sometimes for ID)](https://pricelinepacificfair.com.au/why-pharmacists-ask-questions/): Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and the rules on early repeats. Ask our Broadbeach team.
+- [Why your pharmacist asks questions (and sometimes for ID)](https://pricelinepacificfair.com.au/why-pharmacists-ask-questions/): Pharmacist Only Medicine explained: why pharmacists ask questions, why some cold and flu tablets need ID, and rules on early repeats. Ask our Broadbeach team.
 
 ### Vaccinations
 - [Flu season in Queensland: when to get your flu shot](https://pricelinepacificfair.com.au/when-to-get-flu-shot-queensland/): When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair.
@@ -161,7 +161,7 @@ Last updated: 26 October 2026
 - [Whooping cough vaccine in pregnancy: what you need to know](https://pricelinepacificfair.com.au/whooping-cough-vaccine-pregnancy/): Why the whooping cough vaccine is recommended in every pregnancy, the 20 to 32 week window and who else should be vaccinated. Walk-ins at Pacific Fair.
 
 ### Travel health
-- [Do you need vaccinations for Japan? What Australians should know](https://pricelinepacificfair.com.au/japan-vaccinations/): Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's strict medicine rules.
+- [Do you need vaccinations for Japan? What Australians should know](https://pricelinepacificfair.com.au/japan-vaccinations/): Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's medicine rules.
 - [Passport photo requirements: Australia and common visa sizes](https://pricelinepacificfair.com.au/passport-photo-requirements/): Australian passport photo rules (35–40mm by 45–50mm, plain background, no glasses), guarantor endorsement, and photo sizes for US, UK, China and more.
 - [Travel health checklist: what to sort 6–8 weeks before you fly](https://pricelinepacificfair.com.au/travel-health-checklist/): Our travel health checklist counts down from 8 weeks to the day before you fly: vaccines, scripts, PBS rules and a travel kit, sorted at Pacific Fair.
 - [Vaccinations for Bali: what Australians need before they go](https://pricelinepacificfair.com.au/bali-vaccinations/): Heading to Bali? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and Japanese encephalitis, plus how to avoid Bali belly.

@@ -2,11 +2,19 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 
-// Optional per-URL lastmod overrides (e.g. article modifiedDate), as { "<url or path>": "YYYY-MM-DD" }.
-// Generated separately; the build date is used when the file is absent or has no entry for a URL.
+// Sitemap lastmod is only given when it's true: an article's modifiedDate, or a page's dateModified prop (read from
+// the .astro file below); the blog index takes the newest article's. Pages without a date (home, category pages) get
+// none, rather than the build date on every URL every week, which search engines learn to ignore.
+// src/data/lastmod.json, if present, overrides these, as { "<url or path>": "YYYY-MM-DD" }.
 let lastmodMap = {};
 try { lastmodMap = JSON.parse(readFileSync(new URL('./src/data/lastmod.json', import.meta.url), 'utf8')); } catch { /* none */ }
 const buildDate = new Date();
+const lastmodByPath = {};
+for (const f of readdirSync(new URL('./src/pages/', import.meta.url), { recursive: true })) {
+  if (!f.endsWith('.astro') || f.includes('[')) continue;
+  const mod = (readFileSync(new URL(`./src/pages/${f}`, import.meta.url), 'utf8').match(/dateModified="(\d{4}-\d{2}-\d{2})"/) || [])[1];
+  if (mod) lastmodByPath[f === 'index.astro' ? '/' : `/${f.replace(/(\/?index)?\.astro$/, '')}/`] = mod;
+}
 
 // Category pages with fewer than 3 live articles are rendered noindex (see src/pages/category/[category].astro),
 // so keep them out of the sitemap too. Counts live articles the same way src/lib/articles.ts does.
@@ -19,7 +27,15 @@ for (const f of readdirSync(new URL('./src/content/articles/', import.meta.url))
   const cat = (fm.match(/^category:\s*([\w-]+)/m) || [])[1];
   const date = (fm.match(/^publishDate:\s*([\d-]+)/m) || [])[1];
   const draft = /^draft:\s*true/m.test(fm);
-  if (cat && date && !draft && new Date(date).getTime() <= asOf.getTime()) liveByCategory[cat] = (liveByCategory[cat] || 0) + 1;
+  const live = date && !draft && new Date(date).getTime() <= asOf.getTime();
+  if (cat && live) liveByCategory[cat] = (liveByCategory[cat] || 0) + 1;
+  // An article's lastmod is its modifiedDate. The blog index changes whenever an article goes live or is updated, so it
+  // takes the newest of those dates.
+  const changed = [date, (fm.match(/^modifiedDate:\s*([\d-]+)/m) || [])[1]].filter(Boolean).sort().pop();
+  if (live && changed) {
+    lastmodByPath[`/${f.replace(/\.md$/, '')}/`] = changed;
+    if (changed > (lastmodByPath['/health-blog/'] || '')) lastmodByPath['/health-blog/'] = changed;
+  }
 }
 const thinCategories = Object.keys(liveByCategory).filter((c) => liveByCategory[c] < 3);
 
@@ -77,8 +93,8 @@ export default defineConfig({
       changefreq: 'weekly',
       serialize: (item) => {
         const path = item.url.replace(/^https?:\/\/[^/]+/, '');
-        const override = lastmodMap[item.url] ?? lastmodMap[path];
-        item.lastmod = override ? new Date(override).toISOString() : buildDate.toISOString();
+        const date = lastmodMap[item.url] ?? lastmodMap[path] ?? lastmodByPath[path];
+        if (date) item.lastmod = new Date(date).toISOString();
         return item;
       },
     }),

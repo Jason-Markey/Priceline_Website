@@ -57,7 +57,7 @@ const advice = (await getLiveArticles())
     || b.data.publishDate.getTime() - a.data.publishDate.getTime() || a.id.localeCompare(b.id))
   .slice(0, 5);
 const schema = [
-  ...(noServiceSchema ? [] : [serviceNode({ url, name: service.name, description: service.short, price: service.price })]),
+  ...(noServiceSchema ? [] : [serviceNode({ url, name: service.name, description: service.short, price: service.price, priceUnit: service.priceUnit })]),
   ...(faqs.length ? [faqNode(faqs.map((f) => ({ q: f.q, a: f.a.replace(/<[^>]+>/g, '') })))] : []),
   ...extraSchema,
 ];

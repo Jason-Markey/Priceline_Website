@@ -22,7 +22,7 @@ references:
     url: "https://www.servicesaustralia.gov.au/reciprocal-health-care-agreements-visiting-from-united-kingdom"
 draft: false
 ---
-If you forgot your medication on holiday and you're now on the Gold Coast without it, the quickest first step is to walk into a pharmacy and talk to the pharmacist. Depending on your medicine and your situation, the answer might be an eScript from your usual doctor, a visit to a local GP, or in some cases a small supply to tide you over. Our [prescription and dispensing service at Pacific Fair](/pharmacy-services/) sorts this out for interstate and overseas visitors all year round, so you're not the first, and you won't be the last.
+If you forgot your medication on holiday and you're now on the Gold Coast without it, the quickest first step is to walk into a pharmacy and talk to the pharmacist. Depending on your medicine and your situation, the answer might be an eScript from your usual doctor, a visit to a local GP, or in some cases a small supply to tide you over. Our [prescription and dispensing service at Pacific Fair](/prescriptions/) sorts this out for interstate and overseas visitors all year round, so you're not the first, and you won't be the last.
 
 Here's a simple step-by-step guide to work out which option fits you.
 
@@ -40,6 +40,8 @@ If you can't remember the name, don't guess. Someone at home may be able to phot
 ### How urgent is it?
 
 Missing a dose of some medicines is an inconvenience. Missing others, such as insulin, reliever puffers, seizure medicines or some heart medicines, can quickly become a health risk. If you're not sure which group yours falls into, tell the pharmacist straight away and let them help you judge the urgency.
+
+Left diabetes supplies behind? If you're registered with the NDSS, we can supply subsidised test strips, pen needles and syringes. See [diabetes supplies and the NDSS](/national-diabetes-services-scheme/).
 
 ## Step 2: Ask a pharmacist first
 
@@ -96,7 +98,7 @@ Your medicine may have a different brand name in Australia, or may not be availa
 
 ## Step 6: Find us, and plan better next time
 
-Pacific Fair is a popular stop for Gold Coast holidaymakers, especially during the Queensland school holidays, and it's easy to reach by car or public transport. You'll find directions and parking tips on our [Visit Us page](/visit-us/).
+Pacific Fair is a popular stop for Gold Coast holidaymakers, especially during the Queensland school holidays, and it's easy to reach by car or public transport. You'll find directions and parking tips on our [Visit Us page](/visit-us/). Visiting from overseas? See our [guide for visitors to the Gold Coast](/visiting-the-gold-coast/).
 
 For your next trip, a few small habits make forgetting much less stressful:
 

@@ -29,6 +29,8 @@ export type Service = {
   };
   related: string[];
   price?: number;
+  /** Set when `price` is charged per period, e.g. 'week' (schema: UnitPriceSpecification) */
+  priceUnit?: 'week';
 };
 
 export const services: Service[] = [
@@ -100,7 +102,7 @@ export const services: Service[] = [
     short: 'Travel vaccines, a travel health kit and advice on taking your medicines overseas.',
     group: 'health',
     atAGlance: {
-      what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, MMR, flu, whooping cough) plus travel health advice and kits.',
+      what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, meningococcal, MMR, flu, whooping cough) plus travel health advice and kits.',
       who: 'Anyone aged 5 and over heading overseas. Ideally 6 to 8 weeks before you fly.',
       cost: 'Most travel vaccines are private; you’ll see prices when you book.',
       time: 'Allow 20 to 30 minutes.',
@@ -124,6 +126,7 @@ export const services: Service[] = [
     },
     related: ['medication-reviews', 'prescriptions'],
     price: 5,
+    priceUnit: 'week',
   },
   {
     slug: 'medication-reviews',
@@ -278,15 +281,15 @@ export const services: Service[] = [
   {
     slug: 'emergency-contraception',
     name: 'Emergency contraception',
-    short: 'Available from our pharmacists without an appointment, in private.',
+    short: 'No appointment or consultation fee. Fill in a short questionnaire and you only pay for the pill.',
     group: 'health',
     atAGlance: {
-      what: 'Emergency contraception supplied by a pharmacist after a short private conversation.',
+      what: 'The emergency contraceptive pill (the morning-after pill), supplied by a pharmacist if it’s suitable after you fill in a short private questionnaire.',
       who: 'Anyone who needs it. The sooner the better.',
-      cost: 'Ask at the counter.',
+      cost: 'No consultation fee. You only pay for the pill.',
       time: 'A few minutes.',
       booking: 'No appointment needed.',
-      howToBook: 'Ask at the counter and we’ll talk with you privately.',
+      howToBook: 'Ask at the counter for the questionnaire.',
     },
     related: ['hormonal-contraceptive-pill', 'womens-health'],
   },
@@ -434,7 +437,7 @@ export const services: Service[] = [
       booking: 'Walk-ins welcome, subject to doctor availability. Booking ahead is the surest way to be seen.',
       howToBook: 'Book at helpmedical.au or call Help Medical.',
     },
-    related: ['prescriptions', 'vaccination-information'],
+    related: ['blood-tests', 'prescriptions', 'sick-leave-certificates', 'vaccination-information'],
   },
   {
     slug: 'blood-tests',

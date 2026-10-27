@@ -45,7 +45,7 @@ This table covers the free vaccines our pharmacists can give to people aged 5 an
 
 | Vaccine | Free for | Good to know |
 | --- | --- | --- |
-| Flu | People aged 65 and over, pregnant women, Aboriginal and Torres Strait Islander people, and people with certain medical conditions | Every year. People aged 65 and over get an enhanced vaccine. |
+| Flu | People aged 65 and over, pregnant women, Aboriginal and Torres Strait Islander people, and people with certain medical conditions | Every year. People aged 65 and over get an enhanced vaccine. See [flu vaccination at Pacific Fair](/flu-vaccination/). |
 | COVID-19 | People aged 75 and over (2 doses a year, about 6 months apart); people aged 65 to 74 (1 dose a year); Aboriginal and Torres Strait Islander people aged 50 to 74 (1 dose a year); adults aged 18 to 64 with a severely weakened immune system (1 dose a year) | Anyone else can buy it privately. |
 | Whooping cough | Pregnant women, in every pregnancy | Ideally between 20 and 32 weeks. See [whooping cough vaccine in pregnancy](/whooping-cough-vaccine-pregnancy/). |
 | RSV (pregnancy) | Pregnant women from 28 weeks (ideally by 36 weeks) | One dose, to help protect your baby in their first months. Ask us about later pregnancies. |

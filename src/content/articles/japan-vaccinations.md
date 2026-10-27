@@ -1,6 +1,6 @@
 ---
 title: "Do you need vaccinations for Japan? What Australians should know"
-description: "Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's strict medicine rules."
+description: "Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's medicine rules."
 seoTitle: "Vaccinations for Japan: what Australians need"
 publishDate: 2026-10-17
 modifiedDate: 2026-10-17
@@ -36,7 +36,7 @@ Our pharmacist immunisers at Priceline Pharmacy Pacific Fair can give the vaccin
 | --- | --- |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses. Smartraveller notes measles and rubella cases have been reported in Japan in recent years |
 | Flu | Most travellers, especially between October and May, which is flu season in the Northern Hemisphere |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Anyone whose last tetanus booster was more than 10 years ago |
 | COVID-19 | Check whether you're due. It's free for people aged 65 and over and some other groups |
 | Japanese encephalitis | Longer stays, or time in rural areas near rice fields between July and November |
 | Hepatitis B | Longer stays, work or study, or if you might need medical or dental care |

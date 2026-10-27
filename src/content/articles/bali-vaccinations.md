@@ -43,7 +43,7 @@ It depends on your health, how long you're staying and what you're planning, so 
 | Vaccine | Who should consider it for Bali | Can we give it? |
 | --- | --- | --- |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses. Indonesia, including Bali, has had prolonged measles outbreaks. | Yes, and it's free in Queensland if you were born in or after 1966 and haven't had 2 doses |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago | Yes |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Anyone whose last tetanus booster was more than 10 years ago | Yes |
 | Hepatitis A | Recommended for travellers to countries where hepatitis A is common, which includes Indonesia | Yes |
 | Typhoid | Recommended for travellers to regions where typhoid is common and food hygiene or drinking water may not be safe | Yes |
 | Flu | Worth considering for all travellers | Yes |

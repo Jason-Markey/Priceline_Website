@@ -1,6 +1,6 @@
 ---
 title: "Swimmer's ear: symptoms, treatment and how to prevent it"
-description: "Swimmer's ear is an infection of the outer ear canal that's common in a Gold Coast summer. Symptoms, prevention, when you need a GP and how a pharmacist can help."
+description: "Swimmer's ear is an outer ear canal infection that's common in a Gold Coast summer. Symptoms, prevention, when you need a GP and how a pharmacist can help."
 seoTitle: "Swimmer's ear: symptoms, treatment and prevention"
 publishDate: 2026-10-17
 modifiedDate: 2026-10-17

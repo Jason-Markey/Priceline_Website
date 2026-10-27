@@ -20,7 +20,7 @@ draft: false
 ---
 The best fragrance gift starts with the scents the person already loves, matches how strong they like it, and suits the climate they live in. Get those three things right and you're most of the way there, even if you've never bought perfume for anyone before.
 
-Our beauty advisors help Pacific Fair shoppers choose fragrance gifts every day, and this guide shares the questions they ask at the counter. When you're ready to browse, see our [beauty and fragrance range](/skincare-tanning/) or come and smell a few in store.
+Our beauty advisors help Pacific Fair shoppers choose fragrance gifts every day, and this guide shares the questions they ask at the counter. When you're ready to browse, see our [fragrance range](/fragrance/) or come and smell a few in store.
 
 ## Start with what they already wear
 

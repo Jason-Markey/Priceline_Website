@@ -3,7 +3,7 @@ title: "Vaccines for uni students: placements, colleges and catch-ups"
 description: "Starting uni? Which vaccines health students need before clinical placements, why college students need meningococcal vaccines, and which catch-ups are free."
 seoTitle: "Vaccines for uni students: placements and colleges"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-27
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -85,13 +85,13 @@ The best time to start is in your first weeks of uni, or before semester begins.
 
 ### Where do blood tests fit in?
 
-Our pharmacists can give the vaccines, but blood tests to check your immunity need a request from a doctor. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can arrange them, and there's a QML Pathology collection room inside Help Medical. You could have a blood test and a vaccine in the same trip to Pacific Fair.
+Our pharmacists can give the vaccines, but blood tests to check your immunity need a request from a doctor. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can arrange them, and there's a [QML Pathology collection room](/blood-tests/) inside Help Medical. You could have a blood test and a vaccine in the same trip to Pacific Fair.
 
 ## Catch-up vaccines that are free while you're young
 
 If you missed vaccines at school, these are worth checking while they're still free:
 
-- **Most childhood vaccines** are free as catch-ups for people under 20 with a Medicare card, including measles, mumps and rubella, hepatitis B, chickenpox and polio. Start before 20 and you can finish the course free.
+- **Most childhood vaccines** are free as catch-ups for people under 20 with a Medicare card, including measles, mumps and rubella, hepatitis B, chickenpox and polio (we don't give polio vaccines, but a GP can). Start before 20 and you can finish the course free.
 - **HPV vaccine** is free for people under 26 who missed it at school. Most people need just one dose.
 - **Measles, mumps and rubella** is also free in Queensland for anyone born in or after 1966 without records of 2 doses.
 - **Flu vaccine** is recommended every year for everyone aged 6 months and over. It's free for some groups, such as Aboriginal and Torres Strait Islander people and people with certain medical conditions. Otherwise there's a private fee.
@@ -116,7 +116,7 @@ See a GP if you need blood tests to check your immunity, a TB test, or a medical
 
 ### Can I get my placement vaccines at a pharmacy?
 
-Yes. Our pharmacists can give the MMR, chickenpox, whooping cough, hepatitis B and flu vaccines that most health placements ask for. Blood tests to prove immunity need a GP's request.
+Yes. Our pharmacists can give the MMR, chickenpox, [whooping cough](/whooping-cough-vaccine/), hepatitis B and [flu](/flu-vaccination/) vaccines that most health placements ask for. Blood tests to prove immunity need a GP's request.
 
 ### How long does the hepatitis B course take?
 

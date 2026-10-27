@@ -77,7 +77,7 @@ It depends on your health, how long you're staying and what you're planning, so 
 | Vaccine | Who should consider it for Fiji | Can we give it? |
 | --- | --- | --- |
 | Measles, mumps and rubella (MMR) | Anyone born in or after 1966 without 2 documented doses | Yes, and it's free in Queensland if you were born in or after 1966 and haven't had 2 doses |
-| Tetanus, diphtheria and whooping cough | Anyone whose last tetanus booster was more than 10 years ago | Yes |
+| [Tetanus, diphtheria and whooping cough](/whooping-cough-vaccine/) | Anyone whose last tetanus booster was more than 10 years ago | Yes |
 | Flu | Worth considering for all travellers, and especially relevant on a cruise | Yes |
 | COVID-19 | Check whether you're due, especially before a cruise. It's free for people aged 65 and over and some other groups | Yes |
 | Hepatitis A | Recommended for travellers to places where hepatitis A is found, which includes Fiji | Yes |

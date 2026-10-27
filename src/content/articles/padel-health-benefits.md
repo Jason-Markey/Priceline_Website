@@ -8,7 +8,7 @@ category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["summer", "sun-safety", "first-aid"]
-relatedServices: []
+relatedServices: ["skincare-tanning"]
 references:
   - name: "Padel Australia – Home"
     url: "https://www.padelaus.com.au/"

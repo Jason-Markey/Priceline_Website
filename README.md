@@ -2,6 +2,6 @@
 
 Static rebuild of pricelinepacificfair.com.au. The project brief and status checklist live in Jason's "Website Redo" folder (PROJECT.md), not in this repo.
 
-- `dist/` — built site. cPanel Git Version Control deploys this folder to staging (`new.pricelinepf.com.au`) via `.cpanel.yml`.
+- `dist/` — built site. A cPanel cron copies this folder to the live site within 5 minutes of a push to `main`.
 - `inventory/urls.txt` — frozen list of URLs that must survive the rebuild.
-- `site/` — Astro source (coming).
+- `src/` — Astro source: pages, layouts, components, data and articles. See `HOW_TO_UPDATE_THE_WEBSITE.md`.

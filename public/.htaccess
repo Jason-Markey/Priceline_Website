@@ -38,6 +38,9 @@ RewriteRule ^download-the-priceline-app/[0-9a-f]+/?$ /download-the-priceline-app
 RewriteRule ^scholl-wet-and-dry-foot-file/?$ /dry-skin-remedies/ [R=301,L]
 # Search Console 404 report, 16 Oct 2026
 RewriteRule ^contact/?$ /contact-us/ [R=301,L]
+# Old WordPress URLs Bing still requests (Bing Webmaster Tools, 26 Oct 2026)
+RewriteRule ^newsletter-sign-up/?$ / [R=301,L]
+RewriteRule ^spray-tanning-gold-coast/?$ /skincare-tanning/ [R=301,L]
 
 # --- WordPress leftovers: taxonomy, feeds, author, paging, search, attachments ---
 RewriteRule ^tag/.*$ /health-blog/ [R=301,L]

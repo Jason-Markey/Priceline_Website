@@ -3,7 +3,7 @@ title: "Contraceptive pill from a Queensland pharmacist: how it works"
 description: "How to get the contraceptive pill from a trained Queensland pharmacist: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair."
 seoTitle: "Contraceptive pill from a pharmacist in Queensland"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-27
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -24,7 +24,7 @@ references:
     url: "https://www.healthdirect.gov.au/blood-clots"
 draft: false
 ---
-In Queensland, a specially trained pharmacist can now assess you and, if it's safe and suitable, write you a prescription for the contraceptive pill. You don't need to see a doctor first. The service became a permanent part of Queensland community pharmacy on 1 July 2025, and the consultation happens in a private room.
+In Queensland, a specially trained pharmacist can now assess you and, if it's suitable, write you a prescription for the contraceptive pill. You don't need to see a doctor first. The service became a permanent part of Queensland community pharmacy on 1 July 2025, and the consultation happens in a private room.
 
 To book or find out more, see our page on [contraceptive pill consultations with a pharmacist](/hormonal-contraceptive-pill/), or ask at the dispensary counter next time you're at Pacific Fair. Here's what to expect, step by step.
 
@@ -32,9 +32,9 @@ To book or find out more, see our page on [contraceptive pill consultations with
 
 It started as a pilot, and the Queensland Government then confirmed that pharmacist hormonal contraception services would continue permanently. Pharmacists who have done extra training can talk with you about your contraception needs and may prescribe a hormonal contraceptive. That can be your first one, or something new if you'd like to change.
 
-The service is designed for straightforward, low-risk situations. Most people come in about the pill, but the Queensland service can also include some other hormonal options. Ask us which options our pharmacists can help with.
+The service is designed for straightforward, low-risk situations. Most people come in about the pill, but our trained pharmacists can also prescribe the vaginal ring and the contraceptive injection.
 
-Not every pharmacist can offer the service, because it needs that additional training. Our trained pharmacists run these consultations, so call ahead on (07) 5592 2099 to check when one is on.
+Not every pharmacist can offer the service, because it needs that additional training. Our trained pharmacists are usually available Monday to Friday, so call ahead on (07) 5592 2099 to book.
 
 ## Who is eligible for the contraceptive pill from a pharmacist?
 
@@ -49,9 +49,9 @@ People often find the service useful when they:
 
 ## What happens at your appointment: step by step
 
-### Step 1: Book ahead or ask when you arrive
+### Step 1: Call to book
 
-It's a good idea to book, so a trained pharmacist is available when it suits you. We're open 7 days, and until 9pm on Thursdays, which helps if you work or study during the day. Our [Visit Us page](/visit-us/) has directions and parking tips.
+Booking means a trained pharmacist is on shift when you arrive, and the consultation takes 10 to 20 minutes. Our [Visit Us page](/visit-us/) has directions and parking tips.
 
 ### Step 2: A private chat in our consultation room
 
@@ -85,7 +85,7 @@ If you agree, your pharmacist will send a summary of the consultation to your no
 
 ## How much does it cost?
 
-The pharmacist consultation is a private service, so a consultation fee applies. Ask us for the current fee. The medicine itself is paid for separately. Ask us about costs when you book, so there are no surprises.
+The consultation costs $35, and there's no Medicare rebate for pharmacist consultations. Your contraception is paid for separately, so ask us about the cost of your option when you book.
 
 ## When will the pharmacist refer you to a GP?
 
@@ -107,7 +107,7 @@ See a pharmacist or GP if you:
 - have missed pills, or have had vomiting or diarrhoea, and aren't sure whether you're protected
 - think you might be pregnant
 - have side effects that haven't settled after a few months
-- need emergency contraception (ask your pharmacist straight away)
+- need [emergency contraception](/emergency-contraception/) (ask your pharmacist straight away)
 
 See a doctor urgently if you have pain and swelling in your calf or thigh, especially with redness. These can be signs of a blood clot.
 

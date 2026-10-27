@@ -80,6 +80,13 @@ export function pharmacyNode(logoUrl: string, imageUrl: string) {
   };
 }
 
+/** "$5 a week": the price per unit, so it isn't read as a one-off price (UN/CEFACT unit code WEE = week) */
+function unitPrice(price: number, unit?: 'week') {
+  return unit
+    ? { '@type': 'UnitPriceSpecification', price, priceCurrency: 'AUD', referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'WEE', unitText: unit } }
+    : undefined;
+}
+
 /** Fixed-price services from services.ts (those with `price` set) as an OfferCatalog */
 function offerCatalog() {
   return {
@@ -94,6 +101,7 @@ function offerCatalog() {
         url: `${site.url}/${s.slug}/`,
         price: s.price,
         priceCurrency: 'AUD',
+        priceSpecification: unitPrice(s.price!, s.priceUnit),
         availability: 'https://schema.org/InStock',
         itemOffered: { '@type': 'Service', name: s.name, url: `${site.url}/${s.slug}/` },
       })),
@@ -160,7 +168,7 @@ export function breadcrumbNode(items: { name: string; href: string }[]) {
   };
 }
 
-export function serviceNode(opts: { url: string; name: string; description: string; price?: number; category?: string }) {
+export function serviceNode(opts: { url: string; name: string; description: string; price?: number; priceUnit?: 'week'; category?: string }) {
   return {
     '@type': 'Service',
     '@id': `${opts.url}#service`,
@@ -171,7 +179,7 @@ export function serviceNode(opts: { url: string; name: string; description: stri
     areaServed: { '@type': 'City', name: 'Gold Coast' },
     url: opts.url,
     offers: opts.price !== undefined
-      ? { '@type': 'Offer', price: opts.price, priceCurrency: 'AUD', availability: 'https://schema.org/InStock' }
+      ? { '@type': 'Offer', price: opts.price, priceCurrency: 'AUD', priceSpecification: unitPrice(opts.price, opts.priceUnit), availability: 'https://schema.org/InStock' }
       : undefined,
   };
 }

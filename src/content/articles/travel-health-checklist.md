@@ -30,7 +30,7 @@ references:
     url: "https://www.odc.gov.au/travellers/travelling-or-australia-medicines-and-medical-devices"
 draft: false
 ---
-The most useful travel health checklist starts about 6 to 8 weeks before you fly. That's when Smartraveller recommends seeing your doctor, so there's time to get vaccines, sort your scripts and act on any advice before you leave. Below is a simple countdown you can follow, and our [travel health services at Pacific Fair](/vaccination-information/) can help with many of the steps along the way.
+The most useful travel health checklist starts about 6 to 8 weeks before you fly. That's when Smartraveller recommends seeing your doctor, so there's time to get vaccines, sort your scripts and act on any advice before you leave. Below is a simple countdown you can follow, and our [travel health services at Pacific Fair](/travel-health/) can help with many of the steps along the way.
 
 ## Why start 6 to 8 weeks out?
 
@@ -83,7 +83,7 @@ Make sure it's valid for long enough for your destinations. If you need a new on
 Ideally, take enough of your regular medicines for the whole trip, plus a little extra in case of delays. Once you leave Australia, you can't get medicines under the PBS, and your medicine may not be available, or even legal, where you're going.
 
 - Check your repeats. If you're running low, see your doctor now for a new script.
-- Fill your scripts early so there's time to order anything the pharmacy doesn't have on the shelf. Our [prescription team](/pharmacy-services/) can help you plan this.
+- Fill your scripts early so there's time to order anything the pharmacy doesn't have on the shelf. Our [prescription team](/prescriptions/) can help you plan this.
 - Ask your doctor for a letter listing your medicines, including strength and daily dosage, and stating they're for your personal use.
 
 ### Going away for a few months?
@@ -148,4 +148,4 @@ See your GP before you go if you're pregnant, have a long-term health condition,
 
 After your trip, see a doctor if you feel unwell, especially with a fever, ongoing diarrhoea, a rash, or any symptoms after visiting an area with malaria or other infectious diseases. Tell them where you've been. In an emergency, call 000.
 
-Ready to start your countdown? Check which vaccinations you can get with our pharmacists, with no appointment needed for many services.
+Ready to start your countdown? Check which [travel vaccinations](/travel-health/) you can get with our pharmacists, with no appointment needed for many services.

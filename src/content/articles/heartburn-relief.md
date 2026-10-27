@@ -71,7 +71,7 @@ Raising the head of your bed, for example with a wedge pillow, can help keep aci
 
 ### “Small lifestyle changes add up”
 
-Losing weight if you’re above a healthy weight, and quitting smoking, can both reduce reflux. If you’d like to check your weight and BMI, our [Health Station](/health-station/) is in store.
+Losing weight if you’re above a healthy weight, and quitting smoking, can both reduce reflux. If you’d like to check your weight and BMI, our [Health Station](/health-station/) is in store. Our pharmacists also offer [free weight management support](/weight-loss-counselling-and-advice/) and [help to quit smoking](/quit-smoking/).
 
 ## Which heartburn medicine should I take?
 
