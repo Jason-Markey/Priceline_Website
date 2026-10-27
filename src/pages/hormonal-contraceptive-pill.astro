@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import roomImg from '../assets/images/consult-room.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('hormonal-contraceptive-pill')!;
@@ -49,6 +51,8 @@ const faqs = [
     <li>explain your options, how to use your contraception correctly, and what to do if you miss a dose.</li>
   </ul>
   <p>If it’s appropriate, your pharmacist can then write your prescription and dispense it for you. With your permission, we’ll send a summary to your regular GP.</p>
+
+  <Image src={roomImg} alt="The private consultation room at Priceline Pharmacy Pacific Fair, used for vaccinations and pharmacist consultations" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
 
   <h2>How much does it cost?</h2>
   <p>The consultation costs $35. Your contraception is charged separately, so ask us about the cost of your option when you book. There’s no Medicare rebate for pharmacist consultations.</p>

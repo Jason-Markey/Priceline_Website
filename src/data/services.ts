@@ -58,7 +58,7 @@ export const services: Service[] = [
     name: 'Vaccinations',
     short: 'Flu, COVID-19, whooping cough, shingles, RSV, pneumococcal and travel vaccines. Walk in or book.',
     group: 'health',
-    image: 'team-pacific-fair.jpg',
+    image: 'consult-room.jpg',
     icon: 'vaccinations',
     atAGlance: {
       what: 'Vaccinations given by our pharmacist immunisers in a private consultation area.',
@@ -75,7 +75,7 @@ export const services: Service[] = [
     name: 'Flu vaccination',
     short: 'Yearly flu shot, walk in or book. Free for eligible people under the NIP.',
     group: 'health',
-    image: 'team-pacific-fair.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'The seasonal influenza vaccine, given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Free for people 65 and over, pregnant women, children under 5 (via Help Medical), Aboriginal and Torres Strait Islander people, and people with certain medical conditions.',
@@ -91,7 +91,7 @@ export const services: Service[] = [
     name: 'Whooping cough vaccine',
     short: 'Whooping cough booster for ages 5 and over, walk in or book. Free in pregnancy under the NIP.',
     group: 'health',
-    image: 'team-pacific-fair.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'The whooping cough vaccine (combined with tetanus and diphtheria), given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Recommended in every pregnancy, and if your last dose was over 10 years ago for partners, grandparents and carers of babies under 6 months, adults 65 and over, and healthcare and early childhood workers.',
@@ -107,7 +107,7 @@ export const services: Service[] = [
     name: 'Travel health & vaccinations',
     short: 'Travel vaccines, a travel health kit and advice on taking your medicines overseas.',
     group: 'health',
-    image: 'team-pacific-fair.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, meningococcal, MMR, flu, whooping cough) plus travel health advice and kits.',
       who: 'Anyone aged 5 and over heading overseas. Ideally 6 to 8 weeks before you fly.',
@@ -253,7 +253,7 @@ export const services: Service[] = [
     name: 'Contraception consultations',
     short: 'Start, change or continue the pill, ring or injection with a trained pharmacist. $35.',
     group: 'health',
-    image: 'scripts-in-counter.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'A private consultation with a trained pharmacist who can prescribe the pill, vaginal ring or contraceptive injection under the Queensland pharmacy service.',
       who: 'Women aged 16 and over who want to start, restart, change or continue their contraception.',
@@ -270,7 +270,7 @@ export const services: Service[] = [
     name: 'UTI treatment',
     short: 'Assessment and treatment for uncomplicated bladder infections, women 18 to 65.',
     group: 'health',
-    image: 'scripts-in-counter.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'A private assessment by a trained pharmacist who can supply treatment for an uncomplicated urinary tract infection if suitable.',
       who: 'Women aged 18 to 65 with symptoms of an uncomplicated bladder infection.',
@@ -286,7 +286,7 @@ export const services: Service[] = [
     name: 'Sick leave certificates',
     short: 'Absence from work certificates for minor, short-term illnesses, after a private chat with a pharmacist.',
     group: 'health',
-    image: 'scripts-in-counter.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'A certificate for a short absence from work because of a minor illness, or to care for someone who is unwell, issued by a pharmacist after a private consultation.',
       who: 'People with a minor, short-term illness that a pharmacist can assess. For carer’s leave, the person who is unwell needs to come in too.',
@@ -317,7 +317,7 @@ export const services: Service[] = [
     name: "Women's health",
     short: 'Contraception, UTI treatment, pregnancy, periods and menopause support from our pharmacists.',
     group: 'health',
-    image: 'scripts-in-counter.jpg',
+    image: 'consult-room.jpg',
     atAGlance: {
       what: 'Pharmacist support for contraception, UTIs, pregnancy supplements and vaccines, periods, menopause and everyday health, in a private consultation room.',
       who: 'Women of all ages.',

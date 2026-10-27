@@ -11,6 +11,7 @@ import { categories } from '../../data/categories';
 import { getLiveArticles, byNewest, slugOf } from '../../lib/articles';
 import portrait from '../../assets/images/jason-pharmacist-portrait.jpg';
 import shareImg from '../../assets/images/jason-share.jpg';
+import internImg from '../../assets/images/jason-with-intern.jpg';
 
 const r = site.reviewer;
 const path = r.profilePath;
@@ -43,6 +44,10 @@ const groups = Object.entries(categories)
     <li>Registered pharmacist with the Pharmacy Board of Australia. Ahpra registration number: <strong>{r.registration}</strong></li>
   </ul>
   <p>You can check any health practitioner’s registration on the <a href={r.registerUrl} rel="noopener">Ahpra public register</a> by searching for their name or registration number.</p>
+
+  <h2>Training new pharmacists</h2>
+  <p>Every year we take on an intern pharmacist, and {firstName} supervises them as their preceptor: the registered pharmacist responsible for an intern’s year of supervised practice before they can register as a pharmacist.</p>
+  <Image src={internImg} alt={`${r.name} with an intern pharmacist he supervised, holding her certificate for completing the Priceline Pharmacy Intern Program`} width={420} widths={[420, 765]} sizes="(max-width: 480px) 100vw, 420px" quality={72} />
 
   <h2>How are articles reviewed?</h2>
   <p>Our articles are written by the {site.name} team. Before an article is published, {firstName} checks it against the sources listed at the end of it, current Australian guidelines and the advertising rules for medicines. The date of the latest review is shown at the top of every article.</p>

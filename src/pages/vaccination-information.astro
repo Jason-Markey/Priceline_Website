@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import roomImg from '../assets/images/consult-room.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('vaccination-information')!;
@@ -43,6 +45,8 @@ const faqs = [
     <li><strong>Measles, mumps and rubella:</strong> anyone born in or after 1966 without records of 2 doses (a Queensland Government program).</li>
   </ul>
   <p>Not sure if you’re eligible? Ask us and we’ll check for you, or read <a href="/free-vaccines-pharmacy-queensland/">which vaccines are free at the pharmacy in 2026</a>. If you’re not eligible, a private fee applies; you’ll see current prices when you book online.</p>
+
+  <Image src={roomImg} alt="The private consultation room at Priceline Pharmacy Pacific Fair, used for vaccinations and pharmacist consultations" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
 
   <h2>Which vaccines do you offer?</h2>
   <ul>
