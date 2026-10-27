@@ -5,7 +5,7 @@ seoTitle: "Does makeup expire? | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
-image: makeup-nyx-bay.jpg
+image: makeup-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["makeup"]

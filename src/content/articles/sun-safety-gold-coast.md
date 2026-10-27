@@ -5,6 +5,7 @@ seoTitle: "Sun safety on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-07
 category: skincare-beauty
+image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "skin-care", "summer", "sun-safety"]

@@ -5,6 +5,7 @@ seoTitle: "Postpartum hair loss: when it stops | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: haircare
+image: hair-colour-aisle.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["hair", "womens-health"]

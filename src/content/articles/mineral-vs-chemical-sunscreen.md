@@ -5,6 +5,7 @@ seoTitle: "Mineral vs chemical sunscreen | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
+image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["sun-safety", "skin-care"]

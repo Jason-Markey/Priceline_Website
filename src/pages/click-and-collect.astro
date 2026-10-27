@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import photo from '../assets/images/checkout-counter.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('click-and-collect')!;
@@ -34,6 +36,8 @@ const faqs = [
     <li><strong>Wait for your message.</strong> We’ll let you know when your order is ready. That’s usually within 15 minutes, and within 2 hours at the latest when everything is in stock.</li>
     <li><strong>Collect.</strong> Bring your order confirmation and photo ID that matches the name on the order. We hold orders for up to 14 days.</li>
   </ol>
+
+  <Image src={photo} alt="The front counters near the entrance of Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />
 
   <h2>Can I order prescriptions this way?</h2>
   <p>No. Click &amp; Collect is for general products. Prescription medicines can’t be ordered this way; see <a href="/prescriptions/">prescriptions</a> to send your eScript ahead so it’s ready when you arrive.</p>

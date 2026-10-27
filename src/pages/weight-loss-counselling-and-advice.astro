@@ -1,5 +1,7 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
+import { Image } from 'astro:assets';
+import photo from '../assets/images/weight-management-shelves.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('weight-loss-counselling-and-advice')!;
@@ -33,6 +35,8 @@ const faqs = [
     <li><strong>Practical advice.</strong> We cover eating patterns, activity you can realistically keep up, sleep, and staying hydrated in the Gold Coast heat.</li>
     <li><strong>A local dietitian.</strong> We work with a local dietitian and can put you in touch if you’d like tailored nutrition advice.</li>
   </ul>
+
+  <Image src={photo} alt="Meal replacement shakes, vitamins and weight management products on the shelves at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={60} />
 
   <h2>What if I’ve been prescribed a weight-loss medicine?</h2>
   <p>Starting a new medicine can raise a lot of questions. If your doctor has prescribed a weight-loss medicine, our pharmacists can help you:</p>

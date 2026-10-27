@@ -5,6 +5,7 @@ seoTitle: "Gel nails and UV lamp safety | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
+image: makeup-nail-eye.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["makeup", "skin-care"]

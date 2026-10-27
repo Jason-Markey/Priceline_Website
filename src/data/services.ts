@@ -123,7 +123,7 @@ export const services: Service[] = [
     name: 'Medication packing (Webster packs)',
     short: 'Your medicines sorted by day and time in weekly blister packs.',
     group: 'pharmacy',
-    image: 'prescriptions-and-advice.jpg',
+    image: 'dispensary.jpg',
     icon: 'medication-packing',
     atAGlance: {
       what: 'Weekly blister packs with each dose labelled by day and time, checked by a pharmacist.',
@@ -141,7 +141,7 @@ export const services: Service[] = [
     name: 'Medication reviews',
     short: 'A free one-on-one check of all your medicines with a pharmacist.',
     group: 'pharmacy',
-    image: 'prescriptions-and-advice.jpg',
+    image: 'dispensary.jpg',
     icon: 'medication-reviews',
     atAGlance: {
       what: 'A one-on-one conversation with a pharmacist about everything you take, including vitamins and over-the-counter products.',
@@ -175,7 +175,7 @@ export const services: Service[] = [
     name: 'Diabetes & NDSS',
     short: 'NDSS access point for subsidised diabetes supplies, with pharmacist advice.',
     group: 'pharmacy',
-    image: 'prescriptions-and-advice.jpg',
+    image: 'dispensary.jpg',
     icon: 'diabetes',
     atAGlance: {
       what: 'Collection of subsidised NDSS supplies (test strips, pen needles, pump consumables, glucose monitoring products) and advice on managing diabetes.',
@@ -191,7 +191,7 @@ export const services: Service[] = [
     name: 'Weight management support',
     short: 'Free, private one-on-one support from our pharmacists.',
     group: 'pharmacy',
-    image: 'health-check-kiosk.jpg',
+    image: 'weight-management-shelves.jpg',
     atAGlance: {
       what: 'Private conversations, free health checks and practical advice, including support if your doctor has prescribed a medicine for weight management.',
       who: 'Anyone who wants support managing their weight.',
@@ -237,7 +237,7 @@ export const services: Service[] = [
     name: 'Priceline Pharmacy app',
     short: 'Order scripts ahead, get reminders and manage your Pulse Rewards.',
     group: 'pharmacy',
-    image: 'prescriptions-and-advice.jpg',
+    image: 'dispensary.jpg',
     icon: 'priceline-app',
     atAGlance: {
       what: 'The Priceline Pharmacy app for ordering prescriptions ahead, eScript reminders and rewards.',
@@ -332,7 +332,7 @@ export const services: Service[] = [
     name: 'Quit smoking',
     short: 'Help choosing quit options, making a plan and staying on track.',
     group: 'health',
-    image: 'scripts-in-counter.jpg',
+    image: 'quit-smoking-aisle.jpg',
     atAGlance: {
       what: 'A conversation with a pharmacist about the quit-smoking options available, help making a plan, and referral to your GP or Quitline for extra support.',
       who: 'Anyone who wants to quit.',
@@ -472,7 +472,7 @@ export const services: Service[] = [
     name: 'Blood tests (QML Pathology)',
     short: 'QML Pathology collection room inside Help Medical, in our store. Walk in with your request form, weekday mornings.',
     group: 'partner',
-    image: 'help-medical-entrance.jpg',
+    image: 'store-entrance-qml.jpg',
     atAGlance: {
       what: 'Blood and other pathology tests collected by QML Pathology, in a collection room inside Help Medical, an independent general practice located inside our store.',
       who: 'Anyone with a pathology request form, usually from a doctor, paper or electronic.',

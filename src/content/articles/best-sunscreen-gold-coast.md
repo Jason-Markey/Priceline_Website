@@ -5,6 +5,7 @@ seoTitle: "Which sunscreen for the Gold Coast? | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
+image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["children", "skin-care", "summer", "sun-safety"]

@@ -5,6 +5,7 @@ seoTitle: "Sunscreen under makeup | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
+image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["makeup", "sun-safety", "skin-care"]
