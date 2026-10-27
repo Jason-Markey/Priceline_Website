@@ -1,1 +1,1 @@
-{"version":"1.5.2","languages":{"en-au":{"hash":"en-au_4d2211ee45aaf","wasm":"en-au","page_count":142},"zh-hans":{"hash":"zh-hans_beabe959ce887af","wasm":null,"page_count":1}},"include_characters":["_","‿","⁀","⁔","︳","︴","﹍","﹎","﹏","＿"]}
+{"version":"1.5.2","languages":{"zh-hans":{"hash":"zh-hans_beabe959ce887af","wasm":null,"page_count":1},"en-au":{"hash":"en-au_4d2211ee45aaf","wasm":"en-au","page_count":142}},"include_characters":["_","‿","⁀","⁔","︳","︴","﹍","﹎","﹏","＿"]}
