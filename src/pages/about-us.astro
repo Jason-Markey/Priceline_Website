@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
 import { pharmacyTeam } from '../data/team';
-import jason from '../assets/images/jason-pharmacist-portrait.jpg';
+import jasonShare from '../assets/images/jason-share.jpg';
 import helping from '../assets/images/jason-helping-customer.jpg';
 import teamPhoto from '../assets/images/team-pacific-fair.jpg';
 
@@ -30,7 +30,7 @@ const faqs = [
   faqs={faqs}
   showNap
   pageType="AboutPage"
-  ogImage={jason}
+  ogImage={jasonShare}
   dateModified="2026-10-17"
 >
   <p>Being locally owned means we can shape our services around the people we see every day: Gold Coast locals, families, workers and the many visitors who pass through Pacific Fair. If you have a question, just ask; no appointment is needed to speak with a pharmacist.</p>
@@ -59,6 +59,7 @@ const faqs = [
           <h3>{m.name}</h3>
           <p class="member__role">{m.role}{m.credentials && <> ({m.credentials})</>}</p>
           <p>{m.bio}</p>
+          {m.reviewsArticles && <p class="member__reg">Registered pharmacist, Ahpra registration {site.reviewer.registration}. <a href={site.reviewer.profilePath}>Qualifications and the articles reviewed</a>.</p>}
         </div>
       </div>
     ))}

@@ -14,6 +14,9 @@ import { serviceBySlug, type Service } from '../data/services';
 import { serviceNode, faqNode } from '../lib/schema';
 import { getLiveArticles, slugOf } from '../lib/articles';
 
+// Share image (og:image and schema): the page's own photo if it passes one, otherwise the service's from services.ts.
+const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
+
 export interface Props {
   service: Service;
   title: string;
@@ -32,6 +35,9 @@ export interface Props {
   extraSchema?: Record<string, unknown>[];
   /** Hide the Service schema node (for partner pages) */
   noServiceSchema?: boolean;
+  /** Phone action bar overrides for partner pages (see Base) */
+  actionCall?: { href: string; event: string };
+  actionBook?: { href: string; event: string };
 }
 
 const {
@@ -42,10 +48,12 @@ const {
   secondaryCta = { label: 'Hours & directions', href: '/visit-us/' },
   bookHref,
   disclaimer = 'This information is general in nature and isn’t a substitute for personal advice from your pharmacist or doctor.',
-  ogImage, dateModified, extraSchema = [], noServiceSchema = false,
+  ogImage, dateModified, extraSchema = [], noServiceSchema = false, actionCall, actionBook,
 } = Astro.props;
 
 const path = `/${service.slug}/`;
+const shareImage = ogImage ?? (service.image ? photos[`../assets/images/${service.image}`]?.default : undefined);
+if (service.image && !shareImage) throw new Error(`services.ts: share image ${service.image} isn't in src/assets/images/`);
 const reviewedDate = dateModified ? new Date(dateModified).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' }) : undefined;
 const url = `${site.url}${path}`;
 const breadcrumbs = [{ name: 'Home', href: '/' }, hub, { name: service.name, href: path }];
@@ -63,12 +71,12 @@ const schema = [
 ];
 ---
 
-<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={schema} ogImage={ogImage} dateModified={dateModified}>
+<Base title={title} description={description} path={path} breadcrumbs={breadcrumbs} schema={schema} ogImage={shareImage} dateModified={dateModified} actionCall={actionCall} actionBook={actionBook}>
   <TitleBand title={h1 ?? service.name} breadcrumbs={breadcrumbs} />
   <div class="container svc-layout">
     <article class="prose">
       <p class="lead">{lead}</p>
-      {reviewedDate && <p class="reviewed">Reviewed by {site.reviewer.name}, {site.reviewer.role.toLowerCase()} · Updated {reviewedDate}</p>}
+      {reviewedDate && <p class="reviewed">Reviewed by <a href={site.reviewer.profilePath}>{site.reviewer.name}</a>, {site.reviewer.role.toLowerCase()} · Updated {reviewedDate}</p>}
       <div class="btn-row" data-cta-location="service_cta">
         <a class="btn btn--primary" href={primaryCta.href} rel={primaryCta.external ? 'noopener' : undefined} data-event={primaryCta.event}>{primaryCta.label}</a>
         <a class="btn btn--secondary" href={secondaryCta.href} rel={secondaryCta.external ? 'noopener' : undefined} data-event={secondaryCta.event}>{secondaryCta.label}</a>

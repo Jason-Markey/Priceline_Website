@@ -1,0 +1,67 @@
+---
+/**
+ * Pharmacist profile: qualifications, Ahpra registration and every live article this pharmacist has reviewed
+ * (built from the articles' `reviewer` field, so the list keeps itself up to date). The Person schema's `url`
+ * points here, and every article's reviewer panel links here.
+ */
+import { Image } from 'astro:assets';
+import ContentPage from '../../layouts/ContentPage.astro';
+import { site } from '../../data/site';
+import { categories } from '../../data/categories';
+import { getLiveArticles, byNewest, slugOf } from '../../lib/articles';
+import portrait from '../../assets/images/jason-pharmacist-portrait.jpg';
+import shareImg from '../../assets/images/jason-share.jpg';
+
+const r = site.reviewer;
+const path = r.profilePath;
+const firstName = r.name.split(' ')[0];
+const reviewed = (await getLiveArticles()).filter((a) => a.data.reviewer === r.name).sort(byNewest);
+const groups = Object.entries(categories)
+  .map(([slug, c]) => ({ slug, name: c.name, articles: reviewed.filter((a) => a.data.category === slug) }))
+  .filter((g) => g.articles.length > 0);
+---
+
+<ContentPage
+  title={`${r.name}, Pharmacist | ${site.shortName}`}
+  description={`${r.name}, ${r.credentials}, owns Priceline Pharmacy Pacific Fair in Broadbeach and reviews its health articles. Ahpra registration ${r.registration}.`}
+  path={path}
+  h1={`${r.name}, pharmacist and owner`}
+  lead="Owner of Priceline Pharmacy Pacific Fair and the registered pharmacist who reviews every health article on this website."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'About us', href: '/about-us/' }, { name: r.name, href: path }]}
+  pageType="ProfilePage"
+  ogImage={shareImg}
+  dateModified="2026-10-27"
+>
+  <div class="profile">
+    <Image src={portrait} alt={`${r.name}, pharmacist and owner of Priceline Pharmacy Pacific Fair`} width={280} widths={[280, 560]} sizes="280px" class="profile__photo" />
+    <p>{r.bio}</p>
+  </div>
+
+  <h2>Qualifications and registration</h2>
+  <ul>
+    {r.credentialList.map((c) => <li>{c}</li>)}
+    <li>Registered pharmacist with the Pharmacy Board of Australia. Ahpra registration number: <strong>{r.registration}</strong></li>
+  </ul>
+  <p>You can check any health practitioner’s registration on the <a href={r.registerUrl} rel="noopener">Ahpra public register</a> by searching for their name or registration number.</p>
+
+  <h2>How are articles reviewed?</h2>
+  <p>Our articles are written by the {site.name} team. Before an article is published, {firstName} checks it against the sources listed at the end of it, current Australian guidelines and the advertising rules for medicines. The date of the latest review is shown at the top of every article.</p>
+  <p>Read more about <a href="/editorial-policy/">how we write and check our health information</a>.</p>
+
+  <h2>Articles reviewed by {r.name} ({reviewed.length})</h2>
+  {groups.map((g) => (
+    <>
+      <h3><a href={`/category/${g.slug}/`}>{g.name}</a></h3>
+      <ul class="reviewed-list">{g.articles.map((a) => <li><a href={`/${slugOf(a)}/`}>{a.data.title}</a></li>)}</ul>
+    </>
+  ))}
+</ContentPage>
+
+<style>
+  .profile { display: grid; gap: var(--s5); align-items: start; margin-bottom: var(--s6); }
+  @media (min-width: 640px) { .profile { grid-template-columns: 220px 1fr; } }
+  .profile__photo { width: 100%; max-width: 220px; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; border-radius: var(--radius); }
+  .profile p { margin: 0; }
+  .reviewed-list { columns: 2 260px; column-gap: var(--s8); }
+  .reviewed-list li { break-inside: avoid; }
+</style>

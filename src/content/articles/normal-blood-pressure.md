@@ -5,6 +5,7 @@ seoTitle: "Normal blood pressure: chart and free check at Pac Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-26
 category: health-advice
+image: health-check-kiosk.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["seniors", "womens-health"]

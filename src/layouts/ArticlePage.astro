@@ -13,6 +13,9 @@ import { serviceBySlug, type Service } from '../data/services';
 import { articleNode } from '../lib/schema';
 import jason from '../assets/images/jason-pharmacist-portrait.jpg';
 
+// Share image (og:image and the Article schema image): the article's own photo, otherwise its category's.
+const photos = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
+
 export interface Props {
   entry: CollectionEntry<'articles'>;
   related: CollectionEntry<'articles'>[];
@@ -23,6 +26,8 @@ const slug = entry.id.replace(/\.md$/, '');
 const path = `/${slug}/`;
 const url = `${site.url}${path}`;
 const cat = categories[d.category];
+const ogImage = photos[`../assets/images/${d.image ?? cat.image}`]?.default;
+if (!ogImage) throw new Error(`${entry.id}: share image ${d.image ?? cat.image} isn't in src/assets/images/`);
 const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Advice', href: '/health-blog/' },
@@ -58,6 +63,7 @@ const schema = [
   description={d.description}
   path={path}
   breadcrumbs={breadcrumbs}
+  ogImage={ogImage}
   schema={schema}
   pageType="Article"
   datePublished={d.publishDate.toISOString().slice(0, 10)}
@@ -76,8 +82,8 @@ const schema = [
       <div class="reviewer">
         <Image src={jason} alt="" width={64} height={128} class="reviewer__photo" />
         <div>
-          <p class="reviewer__line"><strong>Written by the {site.name} team.</strong> Reviewed by <a href="/about-us/">{site.reviewer.name}</a>, {site.reviewer.credentials}, {site.reviewer.role}.</p>
-          <p class="reviewer__sub">General health information from a registered pharmacist. It doesn’t replace advice from your own pharmacist or doctor.</p>
+          <p class="reviewer__line"><strong>Written by the {site.name} team.</strong> Reviewed by <a href={site.reviewer.profilePath}>{site.reviewer.name}</a>, {site.reviewer.credentials}, {site.reviewer.role}, Ahpra registration {site.reviewer.registration}.</p>
+          <p class="reviewer__sub">General health information from a registered pharmacist. It doesn’t replace advice from your own pharmacist or doctor. <a href="/editorial-policy/">How we write and check our articles</a>.</p>
         </div>
       </div>
 

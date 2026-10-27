@@ -151,6 +151,11 @@ export const site = {
     role: 'Owner and Pharmacist',
     credentials: 'BPharmSci, MPharm',
     credentialList: ['Bachelor of Pharmaceutical Science', 'Master of Pharmacy'],
+    /** Ahpra registration (Jason, 27 Oct 2026). Anyone can check it on the public register. */
+    registration: 'PHA0001976405',
+    registerUrl: 'https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx',
+    /** Profile page: credentials, registration and every article reviewed (src/pages/about-us/jason-markey.astro) */
+    profilePath: '/about-us/jason-markey/',
     bio: 'Jason bought Priceline Pharmacy Pacific Fair in December 2023, bringing his career full circle: this is the store where he first trained. He completed his Master of Pharmacy at Griffith University, finished his internship in 2015, and spent five years with Priceline before working as a locum pharmacist across North Queensland.',
   },
 } as const;

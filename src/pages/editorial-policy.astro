@@ -1,0 +1,48 @@
+---
+/**
+ * How the health articles are written, checked and kept up to date. Linked from every article's reviewer panel and the
+ * footer. Keep it true: if the process changes, change this page.
+ */
+import ContentPage from '../layouts/ContentPage.astro';
+import { site } from '../data/site';
+
+const path = '/editorial-policy/';
+const r = site.reviewer;
+---
+
+<ContentPage
+  title="Editorial Policy | Priceline Pacific Fair"
+  description="How Priceline Pharmacy Pacific Fair writes, checks and updates its health articles: pharmacist review, Australian sources, advertising rules and corrections."
+  path={path}
+  h1="How we write and check our health information"
+  lead="Every health article on this site is reviewed by a registered pharmacist before it’s published. Here’s how we write, check and update them."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'About us', href: '/about-us/' }, { name: 'Editorial policy', href: path }]}
+  dateModified="2026-10-27"
+>
+  <h2>Who writes our articles?</h2>
+  <p>Our articles are written by the {site.name} team for people in our community and visitors to the Gold Coast. We use AI writing tools to help draft some articles. Nothing is published until our pharmacist has reviewed it.</p>
+
+  <h2>Who reviews them?</h2>
+  <p>Every health article is reviewed by <a href={r.profilePath}>{r.name}</a>, {r.credentials}, a registered pharmacist (Ahpra registration {r.registration}) and the owner of {site.name}. Each article shows who reviewed it and when.</p>
+
+  <h2>Where does our information come from?</h2>
+  <p>We use current Australian sources first, such as healthdirect, the Therapeutic Goods Administration (TGA), the Australian Immunisation Handbook, Queensland Health and Services Australia. Each article lists its sources at the end, so you can read them yourself.</p>
+
+  <h2>Which rules do we follow?</h2>
+  <ul>
+    <li>We follow the Therapeutic Goods Advertising Code. We don’t name prescription-only medicines, and we don’t claim that a product will cure anything.</li>
+    <li>We don’t use testimonials or reviews in our health information.</li>
+    <li>When we mention an over-the-counter medicine, we remind you to read the label and follow the directions for use.</li>
+    <li>We don’t publish prices for medicines or vaccines, because they change. You’ll see the price in store or when you book.</li>
+    <li>Help Medical is an independent general practice located inside our store. We mention it when seeing a GP is the right next step, alongside other options.</li>
+  </ul>
+
+  <h2>How do we keep articles up to date?</h2>
+  <p>Each article shows the date it was published and the date it was last reviewed. When guidelines, government prices or vaccine eligibility change, we update the articles affected and review them again.</p>
+
+  <h2>Found a mistake?</h2>
+  <p>Please tell us. Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a> or ask at the counter, and we’ll check it with a pharmacist and correct it.</p>
+
+  <h2>General information only</h2>
+  <p>Our articles are general information. They don’t replace personal advice from your pharmacist or doctor about your own health. In an emergency, call 000.</p>
+</ContentPage>

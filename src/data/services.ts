@@ -31,6 +31,8 @@ export type Service = {
   price?: number;
   /** Set when `price` is charged per period, e.g. 'week' (schema: UnitPriceSpecification) */
   priceUnit?: 'week';
+  /** Share image for the service page (og:image and schema): a file in src/assets/images/ */
+  image?: string;
 };
 
 export const services: Service[] = [
@@ -39,6 +41,7 @@ export const services: Service[] = [
     name: 'Prescriptions & eScripts',
     short: 'Paper scripts, eScripts, Active Script Lists, hospital, interstate and vet scripts. Send yours ahead.',
     group: 'pharmacy',
+    image: 'scripts-in-counter.jpg',
     icon: 'priceline-app',
     atAGlance: {
       what: 'Dispensing of paper prescriptions, eScripts, hospital, private, interstate and veterinary prescriptions, with repeats kept on file.',
@@ -55,6 +58,7 @@ export const services: Service[] = [
     name: 'Vaccinations',
     short: 'Flu, COVID-19, whooping cough, shingles, RSV, pneumococcal and travel vaccines. Walk in or book.',
     group: 'health',
+    image: 'team-pacific-fair.jpg',
     icon: 'vaccinations',
     atAGlance: {
       what: 'Vaccinations given by our pharmacist immunisers in a private consultation area.',
@@ -71,6 +75,7 @@ export const services: Service[] = [
     name: 'Flu vaccination',
     short: 'Yearly flu shot, walk in or book. Free for eligible people under the NIP.',
     group: 'health',
+    image: 'team-pacific-fair.jpg',
     atAGlance: {
       what: 'The seasonal influenza vaccine, given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Free for people 65 and over, pregnant women, children under 5 (via Help Medical), Aboriginal and Torres Strait Islander people, and people with certain medical conditions.',
@@ -86,6 +91,7 @@ export const services: Service[] = [
     name: 'Whooping cough vaccine',
     short: 'Whooping cough booster for ages 5 and over, walk in or book. Free in pregnancy under the NIP.',
     group: 'health',
+    image: 'team-pacific-fair.jpg',
     atAGlance: {
       what: 'The whooping cough vaccine (combined with tetanus and diphtheria), given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Recommended in every pregnancy, and if your last dose was over 10 years ago for partners, grandparents and carers of babies under 6 months, adults 65 and over, and healthcare and early childhood workers.',
@@ -101,6 +107,7 @@ export const services: Service[] = [
     name: 'Travel health & vaccinations',
     short: 'Travel vaccines, a travel health kit and advice on taking your medicines overseas.',
     group: 'health',
+    image: 'team-pacific-fair.jpg',
     atAGlance: {
       what: 'Travel vaccines (hepatitis A and B, typhoid, cholera, Japanese encephalitis, meningococcal, MMR, flu, whooping cough) plus travel health advice and kits.',
       who: 'Anyone aged 5 and over heading overseas. Ideally 6 to 8 weeks before you fly.',
@@ -116,6 +123,7 @@ export const services: Service[] = [
     name: 'Medication packing (Webster packs)',
     short: 'Your medicines sorted by day and time in weekly blister packs.',
     group: 'pharmacy',
+    image: 'prescriptions-and-advice.jpg',
     icon: 'medication-packing',
     atAGlance: {
       what: 'Weekly blister packs with each dose labelled by day and time, checked by a pharmacist.',
@@ -133,6 +141,7 @@ export const services: Service[] = [
     name: 'Medication reviews',
     short: 'A free one-on-one check of all your medicines with a pharmacist.',
     group: 'pharmacy',
+    image: 'prescriptions-and-advice.jpg',
     icon: 'medication-reviews',
     atAGlance: {
       what: 'A one-on-one conversation with a pharmacist about everything you take, including vitamins and over-the-counter products.',
@@ -149,6 +158,7 @@ export const services: Service[] = [
     name: 'Free health checks',
     short: 'Free blood pressure, heart rate, weight, BMI, body fat and diabetes risk checks, by SiSU Health.',
     group: 'pharmacy',
+    image: 'health-check-kiosk.jpg',
     icon: 'health-station',
     atAGlance: {
       what: 'Self-service health checks inside the store, provided by SiSU Health, including the Shane Warne Legacy Health Check, with a pharmacist nearby to explain results.',
@@ -165,6 +175,7 @@ export const services: Service[] = [
     name: 'Diabetes & NDSS',
     short: 'NDSS access point for subsidised diabetes supplies, with pharmacist advice.',
     group: 'pharmacy',
+    image: 'prescriptions-and-advice.jpg',
     icon: 'diabetes',
     atAGlance: {
       what: 'Collection of subsidised NDSS supplies (test strips, pen needles, pump consumables, glucose monitoring products) and advice on managing diabetes.',
@@ -180,6 +191,7 @@ export const services: Service[] = [
     name: 'Weight management support',
     short: 'Free, private one-on-one support from our pharmacists.',
     group: 'pharmacy',
+    image: 'health-check-kiosk.jpg',
     atAGlance: {
       what: 'Private conversations, free health checks and practical advice, including support if your doctor has prescribed a medicine for weight management.',
       who: 'Anyone who wants support managing their weight.',
@@ -194,6 +206,7 @@ export const services: Service[] = [
     name: 'Delivery',
     short: 'Health and beauty products delivered across the Gold Coast via Uber Eats.',
     group: 'pharmacy',
+    image: 'shopfront.jpg',
     atAGlance: {
       what: 'Everyday health, beauty and wellbeing products delivered through Uber Eats.',
       who: 'Anyone on the Gold Coast. Prescription medicines can’t be delivered this way.',
@@ -208,6 +221,7 @@ export const services: Service[] = [
     name: 'Click & Collect',
     short: 'Shop online at priceline.com.au and collect from us, usually within 15 minutes.',
     group: 'pharmacy',
+    image: 'shopfront.jpg',
     atAGlance: {
       what: 'Order from the full Priceline range online and collect in store.',
       who: 'Anyone. Prescription medicines are not available this way.',
@@ -223,6 +237,7 @@ export const services: Service[] = [
     name: 'Priceline Pharmacy app',
     short: 'Order scripts ahead, get reminders and manage your Pulse Rewards.',
     group: 'pharmacy',
+    image: 'prescriptions-and-advice.jpg',
     icon: 'priceline-app',
     atAGlance: {
       what: 'The Priceline Pharmacy app for ordering prescriptions ahead, eScript reminders and rewards.',
@@ -238,6 +253,7 @@ export const services: Service[] = [
     name: 'Contraception consultations',
     short: 'Start, change or continue the pill, ring or injection with a trained pharmacist. $35.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'A private consultation with a trained pharmacist who can prescribe the pill, vaginal ring or contraceptive injection under the Queensland pharmacy service.',
       who: 'Women aged 16 and over who want to start, restart, change or continue their contraception.',
@@ -254,6 +270,7 @@ export const services: Service[] = [
     name: 'UTI treatment',
     short: 'Assessment and treatment for uncomplicated bladder infections, women 18 to 65.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'A private assessment by a trained pharmacist who can supply treatment for an uncomplicated urinary tract infection if suitable.',
       who: 'Women aged 18 to 65 with symptoms of an uncomplicated bladder infection.',
@@ -269,6 +286,7 @@ export const services: Service[] = [
     name: 'Sick leave certificates',
     short: 'Absence from work certificates for minor, short-term illnesses, after a private chat with a pharmacist.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'A certificate for a short absence from work because of a minor illness, or to care for someone who is unwell, issued by a pharmacist after a private consultation.',
       who: 'People with a minor, short-term illness that a pharmacist can assess. For carer’s leave, the person who is unwell needs to come in too.',
@@ -283,6 +301,7 @@ export const services: Service[] = [
     name: 'Emergency contraception',
     short: 'No appointment or consultation fee. Fill in a short questionnaire and you only pay for the pill.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'The emergency contraceptive pill (the morning-after pill), supplied by a pharmacist if it’s suitable after you fill in a short private questionnaire.',
       who: 'Anyone who needs it. The sooner the better.',
@@ -298,6 +317,7 @@ export const services: Service[] = [
     name: "Women's health",
     short: 'Contraception, UTI treatment, pregnancy, periods and menopause support from our pharmacists.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'Pharmacist support for contraception, UTIs, pregnancy supplements and vaccines, periods, menopause and everyday health, in a private consultation room.',
       who: 'Women of all ages.',
@@ -312,6 +332,7 @@ export const services: Service[] = [
     name: 'Quit smoking',
     short: 'Help choosing quit options, making a plan and staying on track.',
     group: 'health',
+    image: 'scripts-in-counter.jpg',
     atAGlance: {
       what: 'A conversation with a pharmacist about the quit-smoking options available, help making a plan, and referral to your GP or Quitline for extra support.',
       who: 'Anyone who wants to quit.',
@@ -326,6 +347,7 @@ export const services: Service[] = [
     name: 'Passport & visa photos',
     short: 'Australian and overseas passport and visa photos while you wait. $25.',
     group: 'beauty',
+    image: 'shopfront.jpg',
     atAGlance: {
       what: 'Passport and visa photos taken in store and printed while you wait, with digital copies.',
       who: 'Ages 5 and over. Australian and overseas formats.',
@@ -342,6 +364,7 @@ export const services: Service[] = [
     name: 'Ear piercing',
     short: 'Both ears, with earrings and antiseptic spray included. $65, walk in.',
     group: 'beauty',
+    image: 'ear-piercing.jpg',
     atAGlance: {
       what: 'Ear piercing for both ears, including second holes in the earlobe, with a hygienic single-use system. Your earrings, an antiseptic aftercare spray and a consultation are included.',
       who: 'Ages 8 and over. Under-16s need a parent or guardian with them.',
@@ -358,6 +381,7 @@ export const services: Service[] = [
     name: 'Skincare & self-tan',
     short: 'Free advice from trained beauty advisors, and brands that suit the Gold Coast climate.',
     group: 'beauty',
+    image: 'beauty-aisle.jpg',
     icon: 'cosmetics',
     atAGlance: {
       what: 'Skincare, sun care and self-tan ranges with free advice from trained beauty advisors.',
@@ -373,6 +397,7 @@ export const services: Service[] = [
     name: 'Makeup & fragrance',
     short: 'Makeup, fragrance, dental care and men’s grooming with help from our beauty team.',
     group: 'beauty',
+    image: 'beauty-aisle.jpg',
     atAGlance: {
       what: 'Makeup, fragrance, dental and personal care ranges with help choosing shades, scents and gifts.',
       who: 'Anyone.',
@@ -401,6 +426,7 @@ export const services: Service[] = [
     name: 'Vitamins & supplements',
     short: 'Everyday and practitioner ranges, checked against your medicines by a pharmacist.',
     group: 'beauty',
+    image: 'vitamins-aisle.jpg',
     atAGlance: {
       what: 'Vitamins, minerals, probiotics, pregnancy and children’s supplements and practitioner ranges, with a pharmacist to check them against your medicines.',
       who: 'Anyone. Especially worth asking if you take prescription medicines.',
@@ -415,6 +441,7 @@ export const services: Service[] = [
     name: 'Metagenics',
     short: 'Practitioner-range supplements in stock or ordered in, with pharmacist advice.',
     group: 'beauty',
+    image: 'vitamins-aisle.jpg',
     atAGlance: {
       what: 'A selection of Metagenics practitioner products on the shelf, with anything else from the range special-ordered.',
       who: 'People recommended a practitioner supplement by a health professional.',
@@ -429,6 +456,7 @@ export const services: Service[] = [
     name: 'Help Medical GPs',
     short: 'An independent general practice located inside our store. Bulk billing for everyone with a Medicare card, QML pathology collection, walk-ins welcome.',
     group: 'partner',
+    image: 'help-medical-reception.jpg',
     icon: 'doctor',
     atAGlance: {
       what: 'An independent general practice located inside Priceline Pharmacy Pacific Fair, with a QML Pathology collection room.',
@@ -444,6 +472,7 @@ export const services: Service[] = [
     name: 'Blood tests (QML Pathology)',
     short: 'QML Pathology collection room inside Help Medical, in our store. Walk in with your request form, weekday mornings.',
     group: 'partner',
+    image: 'help-medical-entrance.jpg',
     atAGlance: {
       what: 'Blood and other pathology tests collected by QML Pathology, in a collection room inside Help Medical, an independent general practice located inside our store.',
       who: 'Anyone with a pathology request form, usually from a doctor, paper or electronic.',

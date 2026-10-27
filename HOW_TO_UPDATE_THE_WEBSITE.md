@@ -19,6 +19,9 @@ Claude edits the file, rebuilds, checks, and pushes. The notes below tell you (o
 | A service's name, one-line description, "At a glance" facts, price, related services | `src/data/services.ts` |
 | Menus (header, mobile drawer, footer) | `src/data/navigation.ts` |
 | Team bios and Help Medical doctors | `src/data/team.ts` |
+| Jason's qualifications, Ahpra registration and profile page (lists every article reviewed, automatically) | `reviewer` in `src/data/site.ts`; page `src/pages/about-us/jason-markey.astro` |
+| How articles are written and checked (keep it true if the process changes) | `src/pages/editorial-policy.astro` |
+| Share image (the photo shown when a page is shared, and in Google Discover) | Articles: `image` in categories.ts, or `image:` in an article's front-matter. Service pages: `image` in services.ts. Files live in `src/assets/images/` |
 | A service page's body text and FAQs | `src/pages/<slug>.astro` (e.g. `src/pages/prescriptions.astro`) |
 | Home page | `src/pages/index.astro` |
 | A blog article | `src/content/articles/<slug>.md` (front-matter at the top: title, description, dates, category, tags, references) |

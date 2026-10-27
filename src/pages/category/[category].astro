@@ -21,6 +21,8 @@ const { category } = Astro.params;
 const { articles } = Astro.props as { articles: CollectionEntry<'articles'>[] };
 const cat = categories[category!];
 const path = `/category/${category}/`;
+const photos = import.meta.glob<{ default: ImageMetadata }>('../../assets/images/*', { eager: true });
+const ogImage = photos[`../../assets/images/${cat.image}`]?.default;
 ---
 
 <ContentPage
@@ -31,11 +33,12 @@ const path = `/category/${category}/`;
   lead={cat.description}
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: cat.name, href: path }]}
   pageType="CollectionPage"
+  ogImage={ogImage}
   noindex={articles.length < 3}
   wide
   dateModified="2026-10-07"
 >
-  <p class="count">{articles.length} {articles.length === 1 ? 'article' : 'articles'}, reviewed by our pharmacist. <a href="/health-blog/">All advice</a></p>
+  <p class="count">{articles.length} {articles.length === 1 ? 'article' : 'articles'}, reviewed by <a href={site.reviewer.profilePath}>our pharmacist</a>. <a href="/health-blog/">All advice</a></p>
   <div class="grid">
     {articles.map((a) => <ArticleCard entry={a} level="h2" />)}
   </div>

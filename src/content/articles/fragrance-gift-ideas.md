@@ -5,6 +5,7 @@ seoTitle: "Fragrance gift ideas | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: skincare-beauty
+image: fragrance-cabinets.jpg
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["skin-care"]

@@ -117,9 +117,19 @@ export function ownerNode(photoUrl?: string) {
     description: site.reviewer.bio,
     image: photoUrl,
     worksFor: { '@id': ID.pharmacy },
-    hasCredential: site.reviewer.credentialList.map((c) => ({ '@type': 'EducationalOccupationalCredential', name: c })),
+    hasCredential: [
+      ...site.reviewer.credentialList.map((c) => ({ '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: c })),
+      {
+        '@type': 'EducationalOccupationalCredential',
+        credentialCategory: 'Professional registration',
+        name: 'Registered pharmacist (Pharmacy Board of Australia)',
+        identifier: site.reviewer.registration,
+        recognizedBy: { '@type': 'Organization', name: 'Australian Health Practitioner Regulation Agency (Ahpra)', url: 'https://www.ahpra.gov.au/' },
+      },
+    ],
+    identifier: { '@type': 'PropertyValue', propertyID: 'Ahpra registration number', value: site.reviewer.registration },
     alumniOf: { '@type': 'CollegeOrUniversity', name: 'Griffith University' },
-    url: `${site.url}/about-us/`,
+    url: `${site.url}${site.reviewer.profilePath}`,
   };
 }
 

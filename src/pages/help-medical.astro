@@ -40,7 +40,9 @@ const faqs = [
   faqs={faqs}
   hub={{ name: 'Pharmacy services', href: '/pharmacy-services/' }}
   primaryCta={{ label: 'Book a GP', href: hm.bookingUrl, external: true, event: 'cta_book_gp' }}
-  secondaryCta={{ label: `Call Help Medical ${hm.phone}`, href: hm.phoneHref }}
+  secondaryCta={{ label: `Call Help Medical ${hm.phone}`, href: hm.phoneHref, event: 'cta_call_gp' }}
+  actionCall={{ href: hm.phoneHref, event: 'cta_call_gp' }}
+  actionBook={{ href: hm.bookingUrl, event: 'cta_book_gp' }}
   noServiceSchema
   extraSchema={[helpMedicalNode()]}
   dateModified="2026-10-25"

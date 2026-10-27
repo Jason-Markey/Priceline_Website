@@ -28,6 +28,8 @@ const faqs = [
   hub={{ name: 'Help Medical', href: '/help-medical/' }}
   primaryCta={{ label: 'Book with QML', href: qmlBooking, external: true, event: 'cta_book_pathology' }}
   secondaryCta={{ label: `Call QML ${site.pathology.phone}`, href: site.pathology.phoneHref, event: 'cta_call_pathology' }}
+  actionCall={{ href: site.pathology.phoneHref, event: 'cta_call_pathology' }}
+  actionBook={{ href: qmlBooking, event: 'cta_book_pathology' }}
   dateModified="2026-10-17"
 >
   <h2>Where is the collection room?</h2>

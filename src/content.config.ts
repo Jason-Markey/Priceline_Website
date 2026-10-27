@@ -19,6 +19,7 @@ const articles = defineCollection({
     tags: z.array(z.string()).default([]),
     relatedServices: z.array(z.string()).default([]),
     references: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
+    /** Share image: a file name in src/assets/images/. Without it the article uses its category's (categories.ts). */
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     draft: z.boolean().default(false),
