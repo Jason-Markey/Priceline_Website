@@ -42,9 +42,11 @@ Rules that must hold on every page (the build check enforces most of them):
   We don't give rabies, dengue, yellow fever or polio vaccines (Jason, 17 and 26 Oct 2026). Travel vaccines we do give:
   hepatitis A and B, typhoid, cholera, Japanese encephalitis, plus whooping cough and meningococcal (Jason, 26 Oct 2026). Vaccine brand names are blocked words.
 - We don't compound medicines (Jason, 17 Oct 2026).
-- Emergency contraception: no appointment and no consultation fee. You fill in a short questionnaire, a pharmacist assesses it
-  and supplies the pill if it's suitable, and you only pay for the pill. Contraception consultations cost $35; call first, as
-  trained pharmacists are usually available Monday to Friday (Jason, 27 Oct 2026).
+- Hormonal contraception consultations are for ongoing (long-term) contraception: $35, and the pharmacist issues a script if
+  appropriate. Call first, as trained pharmacists are usually available Monday to Friday (Jason, 27 Oct 2026).
+- Emergency contraception is a separate service, not part of that consultation: no appointment and no consultation fee. You
+  fill in a short questionnaire, a pharmacist assesses it and supplies the pill if it's suitable, and you only pay for the pill
+  (Jason, 27 Oct 2026).
 - Help Medical bulk bills everyone with a Medicare card; patients without Medicare are private patients and pay a fee
   (Jason, 17 Oct 2026). Say "bulk bills everyone with a Medicare card", not "eligible patients".
 - Health checks: lead with the free service and name SiSU Health as the provider; don't promote the station itself as a product
