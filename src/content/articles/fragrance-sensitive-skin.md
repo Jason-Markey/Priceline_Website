@@ -1,6 +1,6 @@
 ---
 title: "Fragrance and sensitive skin: allergies, sun reactions and wearing scent"
-description: "Fragrance and sensitive skin: signs of perfume allergy, patch testing, fragrance-free vs unscented, sun reactions and asthma. Ask our Broadbeach pharmacists."
+description: "Fragrance is the most common cause of contact dermatitis from cosmetics. Allergy or irritation, patch testing, fragrance-free vs unscented, and sun reactions."
 seoTitle: "Fragrance and sensitive skin | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

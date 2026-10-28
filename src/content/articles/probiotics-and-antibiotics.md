@@ -1,6 +1,6 @@
 ---
 title: "Should you take a probiotic with antibiotics?"
-description: "Should you take a probiotic with antibiotics? The evidence on preventing diarrhoea, which strains, timing and who should avoid them. Ask our Broadbeach team."
+description: "Some probiotic strains may reduce antibiotic-associated diarrhoea, but not every product has been studied. Timing, choosing a strain and who should avoid them."
 seoTitle: "Probiotics with antibiotics | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

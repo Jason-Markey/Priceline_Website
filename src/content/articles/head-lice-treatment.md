@@ -1,6 +1,6 @@
 ---
 title: "Head lice: how to get rid of them (and stop them coming back)"
-description: "Head lice treatment step by step: the conditioner-and-comb method, lotions, re-treating after 7 days and Queensland school rules. Ask our Broadbeach team."
+description: "Treat, then treat again: conditioner and a lice comb every 2 to 3 days, or a lotion repeated after 7 days. Why lice come back, the myths, and school rules."
 seoTitle: "Head lice: how to get rid of them | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-13

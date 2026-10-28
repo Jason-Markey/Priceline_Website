@@ -1,6 +1,6 @@
 ---
 title: "Dry cough vs chesty cough: what helps each"
-description: "Dry or chesty cough? How to tell them apart, what helps each, why some cough medicines now need a script, and when to see a GP. Ask our Broadbeach team."
+description: "A dry cough is tickly; a chesty cough brings up mucus. Which medicines suit each, what helps at home, why some now need a script, and what's safe for kids."
 seoTitle: "Dry cough vs chesty cough | Priceline Pacific Fair"
 publishDate: 2026-11-30
 modifiedDate: 2026-11-30

@@ -9,7 +9,9 @@ Fails (exit 1) on anything that would break a scheduled publish or the house rul
 - internal links to pages that don't exist, or to an article that goes live AFTER this one
   (the weekly rebuild would fail check-build and nothing would publish)
 - blocked words (same list as check-build.py)
-Warnings: description outside 120-165, em dashes, no references, shop links outside priceline.com.au/c/.
+Warnings: description outside 120-165, em dashes, no references, shop links outside priceline.com.au/c/,
+descriptions ending in a stock closer ("Ask our Broadbeach team.") or sharing a last sentence with 5+ others,
+and a title or seoTitle naming a past year (e.g. PBS figures that change every 1 January).
 """
 import pathlib, re, sys
 
@@ -88,6 +90,21 @@ for slug, a in articles.items():
             errors.append(f'{where}: broken internal link {href}')
     for url in re.findall(r'\]\((https?://[^)\s]+)', body):
         if 'priceline.com.au' in url and '/c/' not in url: warnings.append(f'{where}: shop link not a /c/ range page: {url}')
+
+# Stock closers and repeated endings make descriptions look bulk-written (content audit, 26 Oct 2026)
+STOCK = re.compile(r'(Ask (our|us)\b[^.]*|Walk-ins at Pacific Fair|Plain guide from Pacific Fair)\.?$')
+last = {}
+for slug, a in articles.items():
+    if STOCK.search(a['desc']): warnings.append(f'{slug}.md: description ends with a stock closer: {a["desc"][-40:]}')
+    last.setdefault(re.split(r'(?<=[.!?])\s+', a['desc'].strip())[-1], []).append(slug)
+for sentence, slugs in last.items():
+    if len(slugs) > 5: warnings.append(f'{len(slugs)} descriptions share the last sentence "{sentence}": {", ".join(slugs[:6])}')
+# Year-specific titles go stale on 1 January
+import datetime
+this_year = datetime.date.today().year
+for slug, a in articles.items():
+    for y in re.findall(r'\b(20\d\d)\b', f"{a['title'] or ''} {a['seo'] or ''}"):
+        if int(y) < this_year: warnings.append(f'{slug}.md: title names {y}; check the figures are current for {this_year}')
 
 if only:
     errors = [e for e in errors if e.split(':')[0].split(' ')[0].replace('.md', '') in only]

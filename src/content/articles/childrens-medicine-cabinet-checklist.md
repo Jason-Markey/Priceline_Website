@@ -1,6 +1,6 @@
 ---
 title: "The 2am medicine cabinet: what to have before your child gets sick"
-description: "A children's medicine cabinet checklist: thermometer, pain relief, rehydration, first aid, key phone numbers and safe storage. Ask our Broadbeach pharmacists."
+description: "What to stock before your child gets sick: a digital thermometer, the right-strength pain relief, rehydration solution, saline drops and an emergency card."
 seoTitle: "Kids' medicine cabinet checklist | Priceline Pacific Fair"
 publishDate: 2026-12-07
 modifiedDate: 2026-12-07

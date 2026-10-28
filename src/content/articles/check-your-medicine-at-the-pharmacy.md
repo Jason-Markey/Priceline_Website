@@ -1,6 +1,6 @@
 ---
 title: "Check before you leave: what to look at on your medicine"
-description: "How to check your prescription is right before you leave: your name, strength, directions, quantity and expiry, plus keeping scripts safe. Ask our Broadbeach team."
+description: "Before you leave the counter, check your name, the medicine and strength, the directions, quantity and expiry, and speak up if anything looks different."
 seoTitle: "How to read your medicine label | Priceline Pacific Fair"
 publishDate: 2026-12-21
 modifiedDate: 2026-12-21

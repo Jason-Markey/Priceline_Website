@@ -1,6 +1,6 @@
 ---
 title: "Your rights at the pharmacy counter: privacy and choice"
-description: "Your rights at the pharmacy: the Charter of Healthcare Rights, privacy, generic or brand, choosing your pharmacy and giving feedback. Ask our Broadbeach team."
+description: "The Charter of Healthcare Rights at the counter: privacy when you describe symptoms, how your information is protected, generic or brand, and giving feedback."
 seoTitle: "Your rights at the pharmacy | Priceline Pacific Fair"
 publishDate: 2026-11-23
 modifiedDate: 2026-11-23

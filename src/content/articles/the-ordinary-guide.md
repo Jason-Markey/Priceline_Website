@@ -1,6 +1,6 @@
 ---
 title: "The Ordinary guide: what to use for your skin, and what not to mix"
-description: "A pharmacist-reviewed guide to The Ordinary: which serums suit oily, dry or acne-prone skin, what not to mix, patch testing and pregnancy. Ask our team."
+description: "Niacinamide, salicylic acid, retinal and more: which The Ordinary products suit oily, dry or acne-prone skin, what not to mix, and the Peeling Solution rules."
 seoTitle: "The Ordinary guide | Priceline Pacific Fair"
 publishDate: 2026-10-27
 modifiedDate: 2026-10-27

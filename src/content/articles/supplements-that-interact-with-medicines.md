@@ -1,6 +1,6 @@
 ---
 title: "Supplements that can interact with your medicines"
-description: "Supplements that can interact with your medicines, from St John's wort to vitamin K and minerals, and how a medication review helps. Ask our Broadbeach team."
+description: "St John's wort with antidepressants and the pill, vitamin K with some blood thinners, minerals with some antibiotics: supplement interactions and staying safe."
 seoTitle: "Supplements and your medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-27

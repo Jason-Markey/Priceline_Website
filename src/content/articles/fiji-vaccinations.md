@@ -1,6 +1,6 @@
 ---
 title: "Vaccinations for Fiji: what Australians need before they go"
-description: "Heading to Fiji? The vaccines to check before you go, from measles, hepatitis A and typhoid to flu for cruises, plus dengue, leptospirosis and food safety tips."
+description: "Fiji has no malaria and is rabies-free, but dengue and leptospirosis after floods are risks. The vaccines to check, from measles to typhoid, and food safety."
 seoTitle: "Vaccinations for Fiji: what you need before you go"
 publishDate: 2026-10-26
 modifiedDate: 2026-10-26

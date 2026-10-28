@@ -1,6 +1,6 @@
 ---
 title: "Generic vs brand-name medicines: are they the same?"
-description: "Are generic medicines the same as brand? How the TGA checks them, why they look different, the PBS brand premium and how to ask. Ask our Broadbeach team."
+description: "Generics have the same active ingredient in the same amount, checked by the TGA. Why the box looks different, what the PBS brand premium is and how to ask."
 seoTitle: "Generic vs brand medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

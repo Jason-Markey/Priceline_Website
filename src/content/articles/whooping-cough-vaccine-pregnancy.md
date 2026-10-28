@@ -1,6 +1,6 @@
 ---
 title: "Whooping cough vaccine in pregnancy: what you need to know"
-description: "Why the whooping cough vaccine is recommended in every pregnancy, the 20 to 32 week window and who else should be vaccinated. Walk-ins at Pacific Fair."
+description: "Recommended in every pregnancy, ideally at 20 to 32 weeks, so antibodies reach your baby before birth. Whether it's free, and why partners and carers matter."
 seoTitle: "Whooping cough vaccine in pregnancy | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-17

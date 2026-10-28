@@ -1,6 +1,6 @@
 ---
 title: "SPF30 vs SPF50+: does the number matter on the Gold Coast?"
-description: "SPF30 vs SPF50+: how much UVB each filters, what 50+ means on an Australian label and why using enough matters more. Ask our Broadbeach pharmacists."
+description: "SPF30 filters about 96.7% of UVB and SPF50+ about 98.3%. Why Cancer Council still recommends 50+, what the label means, and why using enough matters more."
 seoTitle: "SPF30 vs SPF50+ explained | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

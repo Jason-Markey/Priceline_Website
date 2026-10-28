@@ -1,6 +1,6 @@
 ---
 title: "Retinol for beginners: how to start without irritation"
-description: "Retinol for beginners: how much to use, how often, what not to mix, irritation vs purging, daily SPF and pregnancy advice. Ask our Pacific Fair team."
+description: "Start low and slow: two or three nights a week, a moisturiser after and SPF every morning. Irritation vs purging, what not to mix, and pregnancy advice."
 seoTitle: "Retinol for beginners | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

@@ -1,6 +1,6 @@
 ---
 title: "Teeth whitening strips and kits: are they safe?"
-description: "Are teeth whitening strips and kits safe? Australia's peroxide limits, side effects and who should see a dentist first. Ask our Broadbeach team."
+description: "Home whitening kits in Australia are limited to lower peroxide strengths, but sensitivity and gum burns still happen. Who should see a dentist first."
 seoTitle: "Are teeth whitening kits safe? | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

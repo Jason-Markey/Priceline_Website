@@ -1,6 +1,6 @@
 ---
 title: "Threadworms: how to treat the whole family and stop reinfection"
-description: "Threadworm treatment: why the whole household is treated at once, when to repeat the dose and hygiene steps to stop reinfection. Ask our Broadbeach team."
+description: "Treat everyone in the house at once, even people without symptoms, and usually repeat in one to two weeks. The hygiene steps that stop eggs reinfecting you."
 seoTitle: "Threadworm treatment for families | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

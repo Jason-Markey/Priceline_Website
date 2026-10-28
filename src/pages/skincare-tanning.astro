@@ -3,7 +3,7 @@ import ServicePage from '../layouts/ServicePage.astro';
 import { Image } from 'astro:assets';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
-import skincareImg from '../assets/images/skincare.jpg';
+import skincareImg from '../assets/images/team-skincare-display.jpg';
 const service = serviceBySlug('skincare-tanning')!;
 
 const faqs = [
@@ -26,10 +26,10 @@ const faqs = [
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-27"
+  dateModified="2026-10-28"
 >
   <h2>Can I get free skincare advice?</h2>
-  <Image src={skincareImg} alt="Woman smiling with a towel on her head, applying face cream" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
+  <Image src={skincareImg} alt="Owner Jason Markey and two of our beauty advisors in store at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
   <p>Yes. Not sure where to start, or tired of products that don’t suit you? Come in and chat with one of our trained beauty advisors. We’ll ask about your skin, your current routine and your budget, then suggest a few products worth trying. There’s no charge and no need to book.</p>
 
   <h2>Which skin concerns can you help with?</h2>

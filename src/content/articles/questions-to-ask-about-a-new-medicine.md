@@ -1,6 +1,6 @@
 ---
 title: "Starting a new medicine? Questions to ask your pharmacist"
-description: "The questions to ask your pharmacist about a new medicine, from food and missed doses to side effects, interactions and driving. Ask our Broadbeach team."
+description: "What it's for, how to take it, missed doses, side effects, and whether it's safe with your other medicines, alcohol and driving: what to ask before you start."
 seoTitle: "New medicine? Questions to ask | Priceline Pacific Fair"
 publishDate: 2026-11-09
 modifiedDate: 2026-11-09

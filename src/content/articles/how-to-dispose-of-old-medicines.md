@@ -1,6 +1,6 @@
 ---
 title: "How to get rid of old medicines safely (free at the pharmacy)"
-description: "How to dispose of old medicines in Australia for free: what pharmacies accept, what to do with sharps and how to check expiry dates. Ask our Broadbeach team."
+description: "Unwanted medicines go back to any pharmacy for free, safe disposal. What we accept at our Pacific Fair counter, where sharps go, and how to read expiry dates."
 seoTitle: "How to dispose of old medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

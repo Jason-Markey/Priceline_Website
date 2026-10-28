@@ -1,6 +1,6 @@
 ---
 title: "Gastro in kids: how to keep them hydrated and when to worry"
-description: "Gastro in kids: how much fluid to give and how often, signs of dehydration, drinks to avoid and Queensland childcare rules. Ask our Broadbeach team."
+description: "Small sips often, even if they're vomiting: using oral rehydration solution (frozen into ice blocks), signs of dehydration and Queensland childcare rules."
 seoTitle: "Gastro in kids: hydration tips | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

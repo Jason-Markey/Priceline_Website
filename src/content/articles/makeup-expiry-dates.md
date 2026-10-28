@@ -1,6 +1,6 @@
 ---
 title: "Does makeup expire? How long mascara, foundation and lipstick last"
-description: "Does makeup expire? How long mascara, foundation and lipstick last, the open-jar symbol, and storing makeup in Queensland heat. Ask our Broadbeach team."
+description: "Mascara lasts about three months once opened; powders keep longest. Reading the open-jar symbol, why old eye makeup is risky, and storing makeup in the heat."
 seoTitle: "Does makeup expire? | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

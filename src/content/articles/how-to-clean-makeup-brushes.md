@@ -1,6 +1,6 @@
 ---
 title: "How often should you clean makeup brushes and sponges?"
-description: "How often should you clean makeup brushes and sponges? Step-by-step washing and drying, plus when to replace your tools. Ask our Pacific Fair beauty team."
+description: "Foundation brushes need washing every one or two uses, powder brushes every week or two. Step-by-step cleaning and drying, and when to replace your tools."
 seoTitle: "How to clean makeup brushes | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

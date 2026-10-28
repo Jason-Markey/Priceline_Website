@@ -1,6 +1,6 @@
 ---
 title: "Vaccinations for Thailand and Vietnam: a pharmacist's guide"
-description: "Going to Thailand or Vietnam? The vaccines to check before you go, from hepatitis A, typhoid and measles to rabies and JE, plus malaria and food safety tips."
+description: "Hepatitis A for most trips, typhoid especially for Vietnam or street food, and when rabies and JE vaccines make sense. Start 6 to 8 weeks before you fly."
 seoTitle: "Vaccines for Thailand and Vietnam | Priceline Pacific Fair"
 publishDate: 2026-10-17
 modifiedDate: 2026-10-17

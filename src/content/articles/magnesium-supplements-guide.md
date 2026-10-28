@@ -1,6 +1,6 @@
 ---
 title: "Magnesium supplements: which type, and what the evidence says"
-description: "Magnesium supplements explained: citrate vs oxide vs glycinate, the evidence for cramps and sleep, and medicine timing. Ask our Broadbeach pharmacists."
+description: "Citrate, chloride and lactate forms absorb better than magnesium oxide. The evidence for cramps and sleep, who runs low, and which medicines to space it from."
 seoTitle: "Magnesium supplements guide | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

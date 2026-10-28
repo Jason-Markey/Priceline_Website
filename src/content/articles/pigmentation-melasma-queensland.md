@@ -1,6 +1,6 @@
 ---
 title: "Pigmentation and melasma in Queensland: what helps"
-description: "Pigmentation and melasma in Queensland: sun spots vs melasma vs acne marks, why daily tinted SPF50+ helps and when to get a skin check. Ask us in Broadbeach."
+description: "Most uneven skin tone in Queensland comes back to the sun. Sun spots vs melasma vs acne marks, why daily tinted SPF50+ helps, and which ingredients may help."
 seoTitle: "Pigmentation and melasma in Qld | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

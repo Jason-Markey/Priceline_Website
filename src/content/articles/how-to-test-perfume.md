@@ -1,6 +1,6 @@
 ---
 title: "How to test a perfume before you buy"
-description: "How to test perfume: start on a card, try your favourite on skin, give it a few hours and rest your nose, plus the returns rules. Ask our Pacific Fair team."
+description: "A perfume changes as it settles, so the first minute isn't what you'll wear all day. Test on cards, then skin, wait a few hours, and know the returns rules."
 seoTitle: "How to test perfume | Priceline Pacific Fair"
 publishDate: 2026-11-16
 modifiedDate: 2026-11-16

@@ -1,6 +1,6 @@
 ---
 title: "How to make perfume last longer in Gold Coast heat"
-description: "How to make perfume last longer in Gold Coast heat: moisturised skin, pulse points, clothes and hair, storage and a sun caution. Ask our Pacific Fair team."
+description: "Apply to moisturised skin on warm pulse points, let it dry without rubbing, and store it cool and dark: how to make scent last in Gold Coast heat and humidity."
 seoTitle: "Make perfume last longer | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

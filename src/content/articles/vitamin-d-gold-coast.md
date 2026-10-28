@@ -1,6 +1,6 @@
 ---
 title: "Vitamin D on the Gold Coast: do you still need a supplement?"
-description: "Vitamin D on the Gold Coast: who is still at risk of low levels, balancing sun and skin cancer, testing and supplement doses. Ask our Broadbeach pharmacists."
+description: "Most Gold Coast locals get enough vitamin D from everyday sun. Who still runs low, how to balance sun and skin cancer risk, testing, and supplement doses."
 seoTitle: "Vitamin D on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

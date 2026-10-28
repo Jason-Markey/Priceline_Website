@@ -1,6 +1,6 @@
 ---
 title: "Vaccinations for Bali: what Australians need before they go"
-description: "Heading to Bali? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and Japanese encephalitis, plus how to avoid Bali belly."
+description: "No vaccines are needed to enter Bali, but measles, hepatitis A and typhoid are worth having. When rabies and JE vaccines make sense, and avoiding Bali belly."
 seoTitle: "Vaccinations for Bali: what you need before you go"
 publishDate: 2026-10-17
 modifiedDate: 2026-10-26

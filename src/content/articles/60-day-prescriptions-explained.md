@@ -1,6 +1,6 @@
 ---
 title: "60-day prescriptions: which medicines, who can get them and what you save"
-description: "60 day prescriptions explained: who can get one, which PBS medicines qualify and what you save at the 2026 co-payment. Ask our Broadbeach pharmacists."
+description: "Two months' supply for one PBS co-payment: who can get a 60-day script, how to check if your medicine qualifies, and what it saves a general patient."
 seoTitle: "60-day prescriptions explained | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

@@ -1,6 +1,6 @@
 ---
 title: "Sun protection for babies: what's safe under 12 months"
-description: "Sun protection for babies under 12 months on the Gold Coast: shade, clothing and hats first, sunscreen from 6 months, pram safety. Ask our Broadbeach team."
+description: "Queensland's UV Index is 3 or above all year, so babies need shade, clothing and hats. Why sunscreen waits until 6 months, and how to cover a pram safely."
 seoTitle: "Sun protection for babies | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

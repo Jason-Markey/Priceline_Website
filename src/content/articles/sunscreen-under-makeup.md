@@ -1,6 +1,6 @@
 ---
 title: "Does SPF in your foundation count? Sunscreen under makeup, done right"
-description: "Is the SPF in your foundation enough? Why makeup SPF falls short, how to layer sunscreen under makeup and reapply over it. Ask our Pacific Fair beauty team."
+description: "SPF in foundation isn't as effective as a primary sunscreen, UQ researchers say. How to layer sunscreen under makeup, reapply over it, and humid-day textures."
 seoTitle: "Sunscreen under makeup | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

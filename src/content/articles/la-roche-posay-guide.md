@@ -1,6 +1,6 @@
 ---
 title: "La Roche-Posay guide: Effaclar, Cicaplast, Lipikar, Anthelios and more"
-description: "La Roche-Posay ranges explained: Effaclar for oily skin, Toleriane, Lipikar and Cicaplast for dry or sensitive skin, Anthelios SPF50+ and the serums. Ask us."
+description: "Effaclar for oily skin, Toleriane for sensitive skin, Lipikar and Cicaplast for dry patches, Anthelios SPF50+ and the serums: La Roche-Posay explained."
 seoTitle: "La Roche-Posay guide | Priceline Pacific Fair"
 publishDate: 2026-10-27
 modifiedDate: 2026-10-27

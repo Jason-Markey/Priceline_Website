@@ -1,6 +1,6 @@
 ---
 title: "Are gel nails and UV nail lamps safe? UV, allergies and removal"
-description: "Are gel nails and UV nail lamps safe? UV exposure, acrylate (HEMA) allergy, DIY kit risks, safe removal and infection signs. Ask our Broadbeach pharmacists."
+description: "Gel nails carry two risks: UV from the curing lamp and allergy to acrylates such as HEMA. How to reduce both, why DIY kits add risk, and safe removal."
 seoTitle: "Gel nails and UV lamp safety | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

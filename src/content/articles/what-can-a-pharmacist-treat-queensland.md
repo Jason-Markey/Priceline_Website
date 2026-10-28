@@ -1,6 +1,6 @@
 ---
 title: "What can a pharmacist treat in Queensland without a GP?"
-description: "What can pharmacists prescribe in Queensland? UTIs, the pill, reflux, skin and ear infections, who's eligible and what it costs. Ask our Broadbeach team."
+description: "Trained Queensland pharmacists can treat UTIs, prescribe the pill and manage reflux, ear infections, school sores, eczema, mild acne and shingles."
 seoTitle: "What Qld pharmacists can treat | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

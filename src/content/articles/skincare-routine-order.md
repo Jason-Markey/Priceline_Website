@@ -1,6 +1,6 @@
 ---
 title: "Skincare routine order: what goes on first (and what not to mix)"
-description: "Skincare routine order for morning and night: where sunscreen goes, vitamin C with niacinamide, what not to mix and patch testing. Ask our Broadbeach team."
+description: "Cleanse, then go thinnest to thickest. Where sunscreen goes in the morning, why retinol and acids go on different nights, and niacinamide with vitamin C."
 seoTitle: "Skincare routine order | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

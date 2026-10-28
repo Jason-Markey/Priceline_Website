@@ -1,6 +1,6 @@
 ---
 title: "Paracetamol and ibuprofen for kids: doses, timing and safety"
-description: "Paracetamol dose for your child by weight, how often to give ibuprofen, whether you can give both, and when to see a GP. Ask our Broadbeach pharmacists."
+description: "Dose by weight, not age: how often to give children's paracetamol and ibuprofen, the daily limits, who shouldn't have ibuprofen, and whether to give both."
 seoTitle: "Kids' paracetamol and ibuprofen | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-20

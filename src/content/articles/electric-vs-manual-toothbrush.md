@@ -1,6 +1,6 @@
 ---
 title: "Electric vs manual toothbrush: which is better?"
-description: "Electric vs manual toothbrush: what research and the Australian Dental Association say, who benefits most and which features matter. Ask our Broadbeach team."
+description: "A Cochrane review of 56 trials found powered brushes cut plaque and gingivitis more, but technique matters most. Who benefits and which features are worth it."
 seoTitle: "Electric vs manual toothbrush | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

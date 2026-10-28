@@ -1,6 +1,6 @@
 ---
 title: "Fake tan: how to apply it, make it last, and why you still need SPF"
-description: "Fake tan tips: how to prep, apply with a mitt, make it last and remove it, plus why a fake tan gives no UV protection. Ask our Pacific Fair beauty advisors."
+description: "Fake tan gives no UV protection, so you still need sunscreen daily in Queensland. How to prep, apply with a mitt without streaks, make it last and remove it."
 seoTitle: "How to apply fake tan | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

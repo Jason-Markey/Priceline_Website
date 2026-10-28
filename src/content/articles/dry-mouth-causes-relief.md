@@ -1,6 +1,6 @@
 ---
 title: "Dry mouth: common causes (including medicines) and what helps"
-description: "Dry mouth is often a side effect of medicines. Common causes, why it matters for your teeth and what helps. Ask our Broadbeach pharmacists."
+description: "About 600 medicines can cause dry mouth, including antidepressants and antihistamines. Why it matters for your teeth, and what helps if a medicine is the cause."
 seoTitle: "Dry mouth: causes and relief | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

@@ -1,6 +1,6 @@
 ---
 title: "Postpartum hair loss: why it happens and when it stops"
-description: "Postpartum hair loss: why shedding starts months after birth, when it usually stops and what to check with a GP. Ask our Broadbeach pharmacists."
+description: "Shedding often starts two to three months after birth and usually settles on its own. Why it happens, what's normal, supplements, and when to see a GP."
 seoTitle: "Postpartum hair loss: when it stops | Priceline Pacific Fair"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10

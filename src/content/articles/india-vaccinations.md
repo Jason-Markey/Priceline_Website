@@ -1,6 +1,6 @@
 ---
 title: "Vaccinations for India: what Australians need before they go"
-description: "Going to India? The vaccines to check before you go, from measles, hepatitis A and typhoid to rabies and JE, plus tips for visiting family and Delhi belly."
+description: "Most travellers to India need hepatitis A and typhoid vaccines. Why visiting family raises your risk, rabies and JE advice, and a fake rabies vaccine alert."
 seoTitle: "Vaccinations for India: what you need before you go"
 publishDate: 2026-10-26
 modifiedDate: 2026-10-26

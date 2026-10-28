@@ -1,6 +1,6 @@
 ---
 title: "Vaccinations for China: what Australians need before they go"
-description: "Heading to China? The vaccines to check before you go, from measles, hepatitis A and typhoid to JE and rabies, plus tips for family visits, smog and altitude."
+description: "China needs no entry vaccines, but check measles, flu, hepatitis A and typhoid. Extra advice for family visits, altitude in Tibet and live animal markets."
 seoTitle: "Vaccinations for China: what you need before you go"
 publishDate: 2026-10-26
 modifiedDate: 2026-10-26

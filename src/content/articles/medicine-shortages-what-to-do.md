@@ -1,6 +1,6 @@
 ---
 title: "Medicine out of stock? What happens in a shortage"
-description: "Why medicines run short, how to check the TGA's shortage list, what a pharmacist can and can't swap, and how to avoid running out. Ask our Broadbeach team."
+description: "A national shortage or a short delay at one pharmacy? How to check the TGA shortage list, what a pharmacist can substitute, and how to avoid running out."
 seoTitle: "Medicine shortages: what to do | Priceline Pacific Fair"
 publishDate: 2026-11-02
 modifiedDate: 2026-11-02
