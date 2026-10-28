@@ -73,10 +73,9 @@ Your pharmacist can take a look, check it’s likely to be a simple ulcer, and h
 | Protective gels and pastes | Film-forming or barrier ingredients | Cover the ulcer so food and drink sting less | Usually suitable for most ages |
 | Antiseptic mouthwashes | Chlorhexidine | Help keep the area clean while it heals | Can temporarily stain teeth. Follow the label for how long to use it |
 | Anti-inflammatory gels | Choline salicylate | Ease pain and inflammation | Not for children or teenagers under 16 |
-| Anti-inflammatory pastes | Corticosteroid pastes | Reduce inflammation in a painful ulcer | Some need a pharmacist’s advice, and stronger ones a prescription |
 | Pain relief | Paracetamol, ibuprofen | Ease pain, especially before meals | Only if they’re suitable for you |
 
-Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice. You can also [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments) or ask us in store.
+If an ulcer is very painful, stronger anti-inflammatory options are available after a pharmacist’s advice or from your GP. Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice. You can also [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments) or ask us in store.
 
 If a medicine you take might be causing ulcers, or you keep getting them, it’s worth mentioning. A [medication review](/medication-reviews/) can help you look at your medicines as a whole.
 

@@ -81,8 +81,7 @@ There are different types of reflux medicine at the pharmacy, and they work in d
 | --- | --- | --- | --- |
 | Antacids | Calcium carbonate, magnesium hydroxide, aluminium hydroxide | Neutralise stomach acid for fast, short-term relief | Work within minutes but don’t last long. Can stop some medicines being absorbed, such as some antibiotics, iron and thyroid medicine, so space them apart |
 | Alginates | Sodium alginate, often combined with an antacid | Form a protective layer on top of your stomach contents | Handy after meals and at bedtime. Some are high in sodium |
-| H2 blockers | Famotidine | Reduce how much acid your stomach makes, for several hours | Some are available after talking to a pharmacist |
-| Proton pump inhibitors (PPIs) | Esomeprazole, omeprazole, pantoprazole, rabeprazole | Reduce acid production more strongly | Small packs for up to 14 days are available after talking to a pharmacist. Take before a meal. Longer use needs a GP |
+| Proton pump inhibitors (PPIs) | Esomeprazole, omeprazole, pantoprazole, rabeprazole | Reduce how much acid your stomach makes | Small packs of 7 or 14 days are available from the pharmacy. Take before a meal. If you need them for longer than 14 days, see your GP |
 
 The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. Some reflux medicines need to be taken at a certain time before meals to work best. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
 

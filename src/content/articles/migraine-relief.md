@@ -74,7 +74,7 @@ Options in Australia fall into a few groups:
 | --- | --- | --- |
 | Everyday pain relievers | Paracetamol, ibuprofen, aspirin, naproxen | Can help milder attacks, especially taken early. Aspirin isn’t for under 16s, and anti-inflammatories aren’t suitable for everyone |
 | Anti-nausea medicines | Some are available after a pharmacist’s advice, others need a prescription | Ease nausea and vomiting, which can make it easier to keep other medicines down |
-| Triptans (migraine-specific medicines) | Some are available from a pharmacist after a consultation, others need a prescription | Not suitable for everyone, for example people with some heart or circulation conditions or a previous stroke |
+| Migraine-specific medicines | Ask your pharmacist or GP | Not suitable for everyone, for example people with some heart or circulation conditions or a previous stroke |
 
 Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. If you’re thinking of taking paracetamol and ibuprofen together, read our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/) first.
 
