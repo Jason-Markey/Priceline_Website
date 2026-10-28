@@ -12,13 +12,13 @@ BLOCKED = [
     'healthengine', 'servicebookings', 'audiology-services', 'wp-content', 'wp-admin',
     'testimonial', 'guaranteed', 'miracle', 'clinically proven', 'dermatologist recommended', 'dermatologist-recommended',
 ]
-# Medicines the public may not be advertised: Schedule 4 and 8, and Schedule 3 (the site names none, rather than relying
-# on Appendix H), plus product types and narrow classes that point to them. Checked in everything published: text,
+# Medicines the public may not be advertised: Schedule 4 and 8, and Schedule 3 apart from the Appendix H ones in
+# APPENDIX_H below, plus product types and narrow classes that point to them. Checked in everything published: text,
 # titles, descriptions, alt text and structured data (URLs excluded). Pharmacy Medicines and general sale medicines
 # are fine to name; broad words like "antibiotics" stay allowed for safety warnings.
 MEDICINES = [
-    # Contraception, including emergency contraception
-    'levonorgestrel', 'ulipristal', 'postinor', 'ellaone', 'morning-after pill', 'morning after pill', 'emergency contraceptive pill',
+    # Contraception (the site calls emergency contraception "the morning-after pill" and names no ingredient or brand)
+    'levonorgestrel', 'ulipristal', 'postinor', 'ellaone',
     'yasmin', 'levlen', 'microgynon', 'slinda', 'noriday', 'microlut', 'implanon', 'depo-provera', 'nuvaring', 'mirena', 'kyleena',
     'vaginal ring', 'contraceptive injection', 'mini-pill', 'progestogen-only pill', 'drospirenone', 'desogestrel', 'norethisterone',
     'cyproterone', 'etonogestrel', 'medroxyprogesterone', 'ethinylestradiol',
@@ -73,6 +73,10 @@ MEDICINES = [
 ]
 # Names whose schedule depends on the form or pack: allowed only in their pharmacy form, so a warning to check the context
 MEDICINES_REVIEW = ['insulin', 'aciclovir', 'acyclovir', 'diclofenac', 'hyoscine', 'minoxidil', 'amorolfine', 'econazole', 'bifonazole', 'tranexamic']
+# Schedule 3 medicines in Appendix H (levonorgestrel from 1 February 2019, ulipristal from 1 February 2018): they may be
+# advertised, but any page that mentions one must carry the Advertising Code's statement for Pharmacist Only Medicines
+APPENDIX_H = ['morning-after pill', 'morning after pill', 'emergency contraceptive pill']
+APPENDIX_H_STATEMENT = 'ask your pharmacist about this product'
 TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 H1_RE = re.compile(r'<h1[^>]*>', re.I)
 DESC_RE = re.compile(r'<meta name="description" content="([^"]*)"')
@@ -93,6 +97,8 @@ def check_medicines(where, text):
     # Plurals count too ("triptans", "autoinjectors")
     for w in find_words(MEDICINES, text, plurals=True): errors.append(f'{where}: medicine that can\'t be advertised "{w}"')
     for w in find_words(MEDICINES_REVIEW, text, plurals=True): warnings.append(f'{where}: check "{w}" is only named in its pharmacy form')
+    if where.endswith('/') and find_words(APPENDIX_H, text, plurals=True) and APPENDIX_H_STATEMENT not in text:
+        errors.append(f'{where}: mentions a Pharmacist Only Medicine without "Ask your pharmacist about this product"')
 
 pages = sorted(p for p in DIST.rglob('index.html') if 'pagefind' not in p.parts)
 errors, warnings = [], []
