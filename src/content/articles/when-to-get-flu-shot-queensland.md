@@ -3,7 +3,7 @@ title: "Flu season in Queensland: when to get your flu shot"
 description: "When to get your flu shot in Queensland before the winter peak, who may get it free, side effects and what to expect. Walk-in flu shots at Pacific Fair."
 seoTitle: "When to get your flu shot in Queensland"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -85,7 +85,7 @@ Yes. The flu vaccine can be given on the same day as a COVID-19 vaccine. If you'
 
 ### I have an egg allergy. Can I have the flu vaccine?
 
-Yes. The egg-based flu vaccines contain only tiny traces of egg protein. People with an egg allergy, including those who have had anaphylaxis, can safely have a flu vaccine. Let the pharmacist know so they can talk it through with you.
+Yes. People with an egg allergy, including those who have had anaphylaxis, can have a flu vaccine. Let the pharmacist know so they can talk it through with you.
 
 ### I'm travelling overseas later in the year. Do I need anything else?
 

@@ -46,10 +46,6 @@ references:
     url: "https://www.healthdirect.gov.au/dengue-fever"
   - name: "Queensland Government – Dengue"
     url: "https://www.qld.gov.au/health/condition/infections-and-parasites/viral-infections/dengue"
-  - name: "TGA – Australian prescription medicine decision summary: dengue vaccine"
-    url: "https://www.tga.gov.au/node/558741"
-  - name: "The Medical Republic – Dengue vaccine lands for travellers (ATAGI advice, October 2026)"
-    url: "https://www.medicalrepublic.com.au/dengue-vaccine-lands-for-travellers/129499"
   - name: "healthdirect – Leptospirosis"
     url: "https://www.healthdirect.gov.au/conditions/bacterial-infections/leptospirosis"
   - name: "World Health Organization – Countries and territories certified malaria-free"
@@ -92,7 +88,7 @@ Most travel vaccines aren't free, so a private fee usually applies. You'll see c
 
 ## Measles: check you've had 2 doses
 
-Fiji has had a measles outbreak in the past. Two doses of MMR vaccine give lifelong protection against measles to 99 in 100 people, so check your records, and have your final dose at least 2 weeks before you leave.
+Fiji has had a measles outbreak in the past, so check your records for 2 doses of MMR vaccine, and have your final dose at least 2 weeks before you leave.
 
 ## Hepatitis A and typhoid
 
@@ -110,7 +106,7 @@ Both spread through contaminated food and water, and foodborne and waterborne il
 
 Fiji is prone to outbreaks of mosquito-borne illnesses, and dengue, Zika and chikungunya are all risks there. Before you leave, check Smartraveller and Fiji's Ministry of Health and Medical Services for current outbreaks. The mosquitoes that spread dengue bite throughout the day, and are most active in the early morning and late afternoon.
 
-A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly recommended for people who've had dengue before, or who'll spend long or repeated periods where dengue is common. It can't be given to people with a weakened immune system, isn't recommended during pregnancy or breastfeeding, and hasn't been studied in people over 60. It needs a prescription and we don't give it, so ask a GP or travel doctor whether it suits you.
+We don't give the dengue vaccine at Pacific Fair. If you're wondering about it, ask a GP or travel doctor.
 
 Vaccinated or not, avoiding bites matters:
 

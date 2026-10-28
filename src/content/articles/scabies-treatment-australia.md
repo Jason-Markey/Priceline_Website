@@ -3,7 +3,7 @@ title: "Scabies treatment in Australia: your questions answered"
 description: "Scabies treatment in Australia: pharmacy and GP options, treating your whole household, washing bedding, and advice for Gold Coast share houses."
 seoTitle: "Scabies treatment in Australia | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-13
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -17,7 +17,7 @@ references:
 draft: false
 ---
 
-Scabies treatment in Australia usually means a pharmacy-only cream or a prescription medicine from your GP, used by everyone in your household at the same time, plus hot-washing your bedding, towels and clothes. Scabies is very itchy and spreads easily, but it’s treatable, and nobody should feel embarrassed about it. Here are the questions we’re asked most, answered using Australian health advice. For other itchy skin problems, browse our [A–Z of common illnesses](/common-illness-information/).
+Scabies treatment in Australia usually means a pharmacy-only cream, or treatment from your GP, used by everyone in your household at the same time, plus hot-washing your bedding, towels and clothes. Scabies is very itchy and spreads easily, but it’s treatable, and nobody should feel embarrassed about it. Here are the questions we’re asked most, answered using Australian health advice. For other itchy skin problems, browse our [A–Z of common illnesses](/common-illness-information/).
 
 ## What is scabies?
 
@@ -51,7 +51,7 @@ Places where people live or sleep close together make spread easier. Think share
 There are two main types of treatment:
 
 - **a pharmacy-only cream for scabies**, which you can get from a pharmacist without a prescription;
-- **a prescription medicine** from your GP, which your doctor may recommend in some situations.
+- **other treatment** from your GP, which your doctor may recommend in some situations.
 
 Scabies treatments usually need to be used more than once to catch mites that hatch after the first round, so follow the label or your pharmacist’s or doctor’s advice carefully. Your pharmacist will explain how and where to apply the cream so you don’t miss any areas.
 

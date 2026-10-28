@@ -60,10 +60,6 @@ references:
     url: "https://www.healthdirect.gov.au/altitude-sickness"
   - name: "Queensland Government – Prevent mosquito borne diseases"
     url: "https://www.qld.gov.au/health/conditions/all/prevention/prevent-mosquito-bites/prevent-mosquito-borne-diseases"
-  - name: "TGA – Australian prescription medicine decision summary: dengue vaccine"
-    url: "https://www.tga.gov.au/node/558741"
-  - name: "The Medical Republic – ATAGI advice on the dengue vaccine"
-    url: "https://www.medicalrepublic.com.au/dengue-vaccine-lands-for-travellers/129499"
   - name: "Services Australia – How to manage your PBS medicine overseas"
     url: "https://www.servicesaustralia.gov.au/how-to-manage-your-pbs-medicine-overseas"
   - name: "Smartraveller – Hong Kong travel advice"
@@ -124,7 +120,7 @@ The Handbook recommends the vaccine if you'll spend a month or more in areas wit
 
 ## Is the rabies vaccine worth it for China?
 
-Rabies is found in animals in China, especially free-roaming dogs, and healthdirect says it almost always causes death once symptoms appear. The CDC advises treating any dog or other mammal bite in China, even in a city, as high risk. It also warns that an injection unvaccinated people may need after a bite is often not available to international standards, so you could need to go to Bangkok, Hong Kong or home for treatment. Having the vaccine before you go means you usually won't need that injection, only 2 more vaccine doses after a bite.
+Rabies is found in animals in China, especially free-roaming dogs, and healthdirect says it almost always causes death once symptoms appear. The CDC advises treating any dog or other mammal bite in China, even in a city, as high risk. It also warns that an injection unvaccinated people may need after a bite is often not available to international standards, so you could need to go to Bangkok, Hong Kong or home for treatment. Talk to a GP or travel clinic about whether the rabies vaccine is right for your trip.
 
 The Handbook recommends deciding before you travel, based on how likely you are to be around animals and how easily you could get medical care, and suggests parents consider it for younger children. The course is 2 visits a week apart or 3 doses over about 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early.
 
@@ -143,7 +139,7 @@ No. The World Health Organization certified China malaria-free in 2021. If your 
 
 Dengue is a risk in China, mostly in the south, in places such as Guangdong, Fujian, Guangxi, Hainan and Yunnan, and mainly in the rainy season from May to November. Chikungunya, spread by the same mosquitoes, caused more than 29,000 cases in China in 2025, mostly in Guangdong, so the same bite precautions apply.
 
-A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly recommended for people who've had dengue before, or who'll spend long or repeated periods where dengue is common. It isn't suitable for everyone, including people with a weakened immune system, and isn't recommended in pregnancy. We don't offer it, so ask a GP or travel doctor.
+We don't give the dengue vaccine at Pacific Fair. If you're wondering about it, ask a GP or travel doctor.
 
 To avoid bites, use an insect repellent containing DEET, picaridin or oil of lemon eucalyptus, wear loose-fitting, light-coloured clothing, and choose rooms with insect screens or a mosquito net. Always read the label and follow the directions for use.
 
@@ -159,7 +155,7 @@ The CDC says pollution is still a problem in many parts of China, and people wit
 
 Altitude sickness can start above about 2,500 metres, and Lhasa, in Tibet, sits at 3,658 metres. Watch for a headache, cough, racing heart or trouble breathing. If you get any of these, don't go any higher, get medical help straight away and head down as soon as you can. If you arrive in Lhasa by plane or train, rest for the first 48 hours. Once you're above 3,000 metres, climb no more than 500 metres a day.
 
-See your doctor before you go, especially if you have heart or lung problems. A doctor can give you medicine to help you adjust, and the CDC says supply in China is unreliable, so take it with you.
+See your doctor before you go, especially if you have heart or lung problems.
 
 ## Food and water in China
 

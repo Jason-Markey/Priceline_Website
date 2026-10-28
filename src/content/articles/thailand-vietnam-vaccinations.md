@@ -58,7 +58,7 @@ Most travel vaccines aren't free, so a private fee usually applies. You'll see c
 
 ## Why measles comes first
 
-NSW Health lists both Thailand and Vietnam among the countries with prolonged measles outbreaks. Two doses of MMR vaccine give lifelong protection against measles to 99 in 100 people. If you were born in or after 1966 and don't have records of 2 doses, you can have the vaccine free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
+NSW Health lists both Thailand and Vietnam among the countries with prolonged measles outbreaks. If you were born in or after 1966 and don't have records of 2 doses, you can have the vaccine free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
 
 For 3 weeks after you get home, watch for fever, cough, runny nose, sore red eyes and a spotty rash that starts on the head and neck. If they appear, call your GP or the emergency department before you go in, and mention your trip.
 
@@ -99,7 +99,7 @@ If you're heading off the tourist trail, see a GP or travel doctor about malaria
 
 ## Dengue and mosquito bites
 
-Dengue is a risk in both countries, especially in the rainy season, and the mosquitoes that spread it bite throughout the day. A dengue vaccine is now registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly for people who've had dengue before, or who'll spend long or repeated periods where dengue is common, and it isn't suitable for everyone. We don't offer it yet, so ask a GP or travel doctor whether it suits you.
+Dengue is a risk in both countries, especially in the rainy season, and the mosquitoes that spread it bite throughout the day. We don't give the dengue vaccine at Pacific Fair. If you're wondering about it, ask a GP or travel doctor.
 
 To avoid bites, use an insect repellent containing DEET, picaridin or oil of lemon eucalyptus, cover your arms and legs, and choose rooms with air-conditioning or screens. Always read the label and follow the directions for use.
 

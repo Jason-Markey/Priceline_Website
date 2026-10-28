@@ -16,8 +16,6 @@ references:
     url: "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19"
   - name: "RCH Kids Health Info – Cough"
     url: "https://www.rch.org.au/kidsinfo/fact_sheets/cough"
-  - name: "Therapeutic Goods Administration – 2018 changes to over-the-counter pain relievers: frequently asked questions"
-    url: "https://www.tga.gov.au/final-decision-re-scheduling-codeine-frequently-asked-questions"
   - name: "Therapeutic Goods Administration – Safety alert: some cough medicines cancelled and recalled (2023)"
     url: "https://tga.gov.au/node/349339"
   - name: "Monash University – Health Check: do cough medicines work?"

@@ -3,7 +3,7 @@ title: "Free vaccines at the pharmacy in Queensland: who's eligible in 2026"
 description: "Which vaccines are free at a Queensland pharmacy in 2026: flu, COVID-19, RSV, shingles, pneumococcal, catch-ups and more, who qualifies and what changed."
 seoTitle: "Free vaccines at a Qld pharmacy: who's eligible in 2026"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -37,7 +37,7 @@ At Priceline Pharmacy Pacific Fair, if a vaccine is free for you, we give it com
 - **COVID-19 vaccines moved onto the National Immunisation Program (NIP) on 1 October 2026.** They're now free only for older adults and some higher-risk groups (see the table below). Anyone else can choose to pay for one privately.
 - **Queensland's free flu program has ended.** It ran from 1 March to 30 September 2026 and covered everyone aged 6 months and over. The flu vaccine is still free under the NIP for eligible people.
 - **A free RSV vaccine for older adults.** It's now free for people aged 75 and over, and for Aboriginal and Torres Strait Islander people aged 60 and over.
-- **Simpler pneumococcal vaccination for adults.** Since 1 July 2026, most eligible adults need just one dose of the newer pneumococcal vaccine.
+- **Simpler pneumococcal vaccination for adults.** Since 1 July 2026, most eligible adults need just one dose of pneumococcal vaccine.
 
 ## Which vaccines are free at the pharmacy?
 
@@ -45,7 +45,7 @@ This table covers the free vaccines our pharmacists can give to people aged 5 an
 
 | Vaccine | Free for | Good to know |
 | --- | --- | --- |
-| Flu | People aged 65 and over, pregnant women, Aboriginal and Torres Strait Islander people, and people with certain medical conditions | Every year. People aged 65 and over get an enhanced vaccine. See [flu vaccination at Pacific Fair](/flu-vaccination/). |
+| Flu | People aged 65 and over, pregnant women, Aboriginal and Torres Strait Islander people, and people with certain medical conditions | Every year. See [flu vaccination at Pacific Fair](/flu-vaccination/). |
 | COVID-19 | People aged 75 and over (2 doses a year, about 6 months apart); people aged 65 to 74 (1 dose a year); Aboriginal and Torres Strait Islander people aged 50 to 74 (1 dose a year); adults aged 18 to 64 with a severely weakened immune system (1 dose a year) | Anyone else can buy it privately. |
 | Whooping cough | Pregnant women, in every pregnancy | Ideally between 20 and 32 weeks. See [whooping cough vaccine in pregnancy](/whooping-cough-vaccine-pregnancy/). |
 | RSV (pregnancy) | Pregnant women from 28 weeks (ideally by 36 weeks) | One dose, to help protect your baby in their first months. Ask us about later pregnancies. |

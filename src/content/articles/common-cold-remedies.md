@@ -3,7 +3,7 @@ title: "Common cold remedies: myths, facts and what helps"
 description: "Common cold remedies that ease symptoms, cold vs flu, why antibiotics don't help, and safe options for kids. Advice from our Pacific Fair pharmacists."
 seoTitle: "Common cold remedies: myths & facts | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -91,7 +91,7 @@ Pharmacy medicines can’t cure a cold, but some can ease symptoms. The main gro
 
 - **Pain and fever relievers,** such as paracetamol or ibuprofen, for headache, aches and sore throat.
 - **Decongestants,** as tablets or nasal sprays, for a blocked nose. Healthdirect says not to use decongestant nasal sprays for more than 5 days in a row. Some decongestants aren’t suitable if you have high blood pressure that isn’t well managed.
-- **Cough medicines,** which can cause drowsiness. Some are only available after talking to a pharmacist.
+- **Cough medicines,** which can cause drowsiness.
 - **Throat lozenges and sprays** for a sore throat.
 
 Be careful with multi-symptom cold and flu products. Many contain paracetamol or ibuprofen, and it’s easy to double up by accident. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.

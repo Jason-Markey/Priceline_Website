@@ -18,8 +18,6 @@ references:
     url: "https://findapharmacy.com.au/latest-updates/how-to-dispose-of-old-medicines-safely-in-australia"
   - name: "healthdirect – Out-of-date medicines"
     url: "https://www.healthdirect.gov.au/out-of-date-medicines"
-  - name: "healthdirect – Safe disposal of needles and sharps"
-    url: "https://www.healthdirect.gov.au/insulin"
   - name: "healthdirect – Accidental overdose of medicines"
     url: "https://www.healthdirect.gov.au/accidental-overdose-of-medicines"
 draft: false
@@ -62,13 +60,13 @@ The Pharmacy Guild lists these as items not to return through the medicines prog
 
 ### What should you do with used needles and sharps?
 
-If you use injectable medicines or a finger-prick device, your used sharps need their own disposal route. healthdirect advises:
+If you use injectable medicines or a finger-prick device, your used sharps need their own disposal route:
 
 - Never put sharps in your household general waste bin.
-- Put used sharps straight into a purpose-made sharps container. healthdirect notes these are available from pharmacies.
+- Put used sharps straight into a purpose-made sharps container, available from pharmacies.
 - When the container is full, take it to a hospital, some pharmacies and medical centres, or a community sharps bin run by your local council.
 
-healthdirect also points to Diabetes Australia's safe sharps resource for disposal locations around the country. On the Gold Coast, contact your local council to find out where to take a full container. If you have diabetes and are registered with the [National Diabetes Services Scheme (NDSS)](/national-diabetes-services-scheme/), you can get subsidised pen needles and syringes from us.
+Diabetes Australia's safe sharps resource lists disposal locations around the country. On the Gold Coast, contact your local council to find out where to take a full container. If you have diabetes and are registered with the [National Diabetes Services Scheme (NDSS)](/national-diabetes-services-scheme/), you can get subsidised pen needles and syringes from us.
 
 ## Why shouldn't you put medicines in the bin or down the toilet?
 

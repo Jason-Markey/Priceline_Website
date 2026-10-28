@@ -68,8 +68,8 @@ If you need a supplement, Healthy Bones Australia gives this general guide:
 | Your situation | Healthy Bones Australia general guide |
 | --- | --- |
 | Some sun exposure, but not enough | At least 600 IU a day for adults, or at least 800 IU a day if you're over 70 |
-| Sun avoiders and people at risk of deficiency | Higher doses of 1,000 to 2,000 IU a day may be needed |
-| Moderate to severe deficiency, confirmed by a blood test | 3,000 to 4,000 IU a day for 6 to 12 weeks, then 1,000 to 2,000 IU a day, as advised by a doctor |
+| Sun avoiders and people at risk of deficiency | Higher doses, such as 1,000 IU a day or more, may be needed |
+| Moderate to severe deficiency, confirmed by a blood test | A higher dose for a set time, as advised by your doctor |
 
 Healthy Bones describes this as a general guide only. Your doctor will advise the dose you need, and your pharmacist can give general advice on vitamin D supplements.
 

@@ -58,7 +58,7 @@ Queensland is also running a separate pilot for some long-term conditions, such 
 
 ### What if you just want to continue your usual contraception?
 
-You don't need a separate service. The contraception consultation covers continuing your current contraception as well as starting or changing it. Under the Queensland rules, a pharmacist's prescription for contraception can cover up to 12 months' supply.
+You don't need a separate service. The contraception consultation covers continuing your current contraception as well as starting or changing it.
 
 ## Does every pharmacy offer every service?
 
@@ -69,7 +69,7 @@ Here's what you'll find at our Pacific Fair store:
 - **UTI treatment**: for women aged 18 to 65 with symptoms of an uncomplicated bladder infection. No booking needed: ask for a trained pharmacist at the prescription counter and allow about 15 minutes.
 - **Contraception consultations**: for women aged 16 and over who want to start, restart, change or continue their contraception. Please call first, as our trained pharmacists are usually available Monday to Friday.
 
-For the other conditions on the list, our pharmacists can still give advice and talk you through over-the-counter options, for example for [heartburn and reflux](/heartburn-relief/), [quitting smoking](/quit-smoking/) and [weight management](/weight-loss-counselling-and-advice/). If you need a prescription, we can point you to a GP.
+For the other conditions on the list, our pharmacists can still give advice, for example on [heartburn and reflux](/heartburn-relief/), [quitting smoking](/quit-smoking/) and [weight management](/weight-loss-counselling-and-advice/). If you need a prescription, we can point you to a GP.
 
 ## What happens in a pharmacist consultation?
 
@@ -89,8 +89,7 @@ These are private services, so expect a consultation fee plus the cost of any me
 At our store:
 
 - the contraception consultation is $35, and your contraception is charged separately
-- the UTI consultation fee isn't covered by Medicare, so ask us about the current fee when you call or arrive
-- any medicine supplied or prescribed is an extra cost
+- the UTI fee covers the consultation and any treatment, and isn't covered by Medicare, so ask us about the current fee when you call or arrive
 
 Some people will soon pay less. The Australian Government has announced a 12-month trial from January 2027 for concession card holders aged 18 to 55, with pharmacist-prescribed contraception and UTI treatment available at the $7.70 concession rate.
 

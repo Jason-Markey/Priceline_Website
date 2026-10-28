@@ -10,14 +10,12 @@ reviewer: "Jason Markey"
 tags: ["womens-health"]
 relatedServices: ["hormonal-contraceptive-pill", "womens-health"]
 references:
-  - name: "Pharmacy Guild of Australia (Find a Pharmacy) – Hormonal contraception services in Queensland"
+  - name: "Pharmacy Guild of Australia (Find a Pharmacy) – Queensland pharmacy contraception services"
     url: "https://findapharmacy.com.au/our-services/hormonal-contraception/qld-contraception"
   - name: "Queensland Government Ministerial Media Statements – Delivering easier access to health services at the pharmacy"
     url: "https://statements.qld.gov.au/statements/102216"
   - name: "Queensland Government Ministerial Media Statements – Changes to make it easier for Queensland women to access contraceptives"
     url: "https://statements.qld.gov.au/statements/99941"
-  - name: "Meridian Lawyers – From advice to authority: hormonal contraceptive scripts"
-    url: "https://www.meridianlawyers.com.au/insights/from-advice-to-authority-hormonal-contraceptive-scripts-unlocked/"
   - name: "healthdirect – Blood clots"
     url: "https://www.healthdirect.gov.au/blood-clots"
 draft: false
@@ -73,7 +71,7 @@ Your pharmacist will usually check your blood pressure and measure your height a
 
 ### Step 5: Deciding together
 
-Based on everything you've discussed, you might get a prescription for suitable contraception, a referral to a GP, or both. If you get a prescription, it can be filled at any community pharmacy in Queensland. Your pharmacist will explain how to start and what to do if you miss a dose. Always follow the leaflet and your pharmacist's advice.
+Based on everything you've discussed, you might get a prescription for suitable contraception, a referral to a GP, or both. If you get a prescription, it can be filled at any community pharmacy in Queensland. Your pharmacist will explain how to start and how to use it correctly. Always follow the leaflet and your pharmacist's advice.
 
 Some people notice side effects when they start a new contraceptive. Your pharmacist will explain what to expect, and if side effects haven't settled after a few months, come back and talk to us.
 

@@ -67,7 +67,7 @@ MEDICINES = [
     'comirnaty', 'spikevax', 'nuvaxovid', 'arexvy', 'abrysvo', 'mresvia', 'beyfortus', 'nirsevimab', 'fluad', 'fluarix', 'vaxigrip',
     'afluria', 'influvac', 'flucelvax', 'efluelda', 'adjuvanted', 'qdenga', 'bexsero', 'trumenba', 'nimenrix', 'menquadfi', 'menveo',
     'priorix', 'proquad', 'varivax', 'varilrix', 'engerix', 'h-b-vax', 'havrix', 'vaqta', 'twinrix', 'typhim', 'vivotif', 'vivaxim',
-    'dukoral', 'imojev', 'jespect', 'ixiaro', 'rabipur', 'verorab', 'stamaril',
+    'dukoral', 'imojev', 'jespect', 'ixiaro', 'rabipur', 'verorab', 'stamaril', 'dengvaxia', 'bcg',
     # Cosmetic injectables
     'anti-wrinkle injection', 'botox', 'dysport',
 ]

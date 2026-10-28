@@ -3,7 +3,7 @@ title: "Whooping cough vaccine in pregnancy: what you need to know"
 description: "Recommended in every pregnancy, ideally at 20 to 32 weeks, so antibodies reach your baby before birth. Whether it's free, and why partners and carers matter."
 seoTitle: "Whooping cough vaccine in pregnancy | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -34,7 +34,7 @@ Below, we answer the questions we hear most often from mums-to-be at our counter
 
 Whooping cough (pertussis) is a serious infection of the airways. It can lead to pneumonia, brain damage and sometimes death, and it's especially serious for babies. Whooping cough is most dangerous for babies under 6 months old. Most hospital stays and deaths happen in babies who aren't yet old enough to have had all their vaccine doses.
 
-Your baby can have their first whooping cough vaccine at 8 weeks (2 months) of age. Being vaccinated during pregnancy helps cover that early gap. The Australian Government Department of Health reports that vaccinating pregnant women before delivery has been shown to reduce whooping cough in infants by 80–91%.
+Your baby can have their first whooping cough vaccine at 8 weeks (2 months) of age. Being vaccinated during pregnancy helps cover that early gap.
 
 ## How does the vaccine protect my baby?
 
@@ -78,7 +78,7 @@ There are other vaccines recommended during pregnancy too, including one for RSV
 
 ## Is the whooping cough vaccine safe in pregnancy?
 
-The Australian Government describes vaccination as a safe and effective way to protect yourself and your baby from whooping cough. Like any vaccine, it can cause reactions where the needle went in, such as soreness, redness or swelling. Talk to your pharmacist, midwife or GP if you have questions about your own situation, or if you've had a reaction to a vaccine before.
+The Australian Government recommends the vaccine in every pregnancy. Like any vaccine, it can cause reactions where the needle went in, such as soreness, redness or swelling. Talk to your pharmacist, midwife or GP if you have questions about your own situation, or if you've had a reaction to a vaccine before.
 
 ## What happens after the vaccine?
 

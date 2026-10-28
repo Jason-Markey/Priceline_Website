@@ -28,7 +28,7 @@ references:
     url: "https://immunisationhandbook.health.gov.au/recommendations/travellers-spending-1-month-or-more-in-endemic-areas-outside-australia-during-the-je-virus-transmission-season-are-recommended-to-receive-je-vaccine"
   - name: "Australian Immunisation Handbook – Rabies and other lyssaviruses"
     url: "https://immunisationhandbook.health.gov.au/contents/vaccine-preventable-diseases/rabies-and-other-lyssaviruses"
-  - name: "Australian Immunisation Handbook – BCG vaccine for children under 5 travelling to high TB countries"
+  - name: "Australian Immunisation Handbook – Tuberculosis vaccination for young children travelling to high-risk countries"
     url: "https://immunisationhandbook.health.gov.au/recommendations/children-aged-3"
   - name: "NSW Health – Measles: information for travellers"
     url: "https://www.health.nsw.gov.au/Infectious/measles/Pages/travellers.aspx"
@@ -36,7 +36,7 @@ references:
     url: "https://www.health.nsw.gov.au/Infectious/alerts/Documents/rabies-vaccine-india-alert.pdf"
   - name: "Queensland Health – Vaccinations in pharmacy and state-funded programs"
     url: "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/immunisation/schedule/nipvip"
-  - name: "Queensland Health – BCG vaccination"
+  - name: "Queensland Health – Tuberculosis vaccination"
     url: "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/diseases-infection/diseases/tuberculosis/treatment/bcg-vaccination"
   - name: "Queensland Health – Japanese encephalitis"
     url: "https://www.health.qld.gov.au/cdcg/index/jev"
@@ -46,8 +46,6 @@ references:
     url: "https://www.healthdirect.gov.au/travel-health-advice"
   - name: "healthdirect – Diarrhoea"
     url: "https://www.healthdirect.gov.au/diarrhoea"
-  - name: "TGA – Australian prescription medicine decision summary: dengue vaccine"
-    url: "https://www.tga.gov.au/node/558741"
   - name: "TravelHealthPro (UK) – India"
     url: "https://travelhealthpro.org.uk/countries/india"
   - name: "TravelHealthPro (UK) – Travelling to visit friends and relatives"
@@ -70,8 +68,6 @@ references:
     url: "https://www.servicesaustralia.gov.au/how-to-manage-your-pbs-medicine-overseas"
   - name: "US Centers for Disease Control and Prevention – Malaria information by country: India"
     url: "https://www.cdc.gov/malaria/travelers/country_table/i.html"
-  - name: "The Medical Republic – ATAGI advice on the dengue vaccine"
-    url: "https://www.medicalrepublic.com.au/dengue-vaccine-lands-for-travellers/129499"
   - name: "TravelHealthPro – Falsified rabies vaccine in India"
     url: "https://travelhealthpro.org.uk/news/867/falsified-rabies-vaccine-india"
 draft: false
@@ -116,7 +112,7 @@ So even if you grew up in India or go back every year, check your vaccines befor
 
 ## Measles: check you're protected
 
-NSW Health lists India among the countries where measles is common. Two doses of MMR vaccine give lifelong protection against measles to 99 in 100 people. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
+NSW Health lists India among the countries where measles is common. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
 
 For 3 weeks after you get home, watch for fever, cough, runny nose, sore red eyes and a spotty rash that starts on the head and neck. If they appear, call your GP or the emergency department before you go in, and mention your trip.
 
@@ -133,7 +129,7 @@ India has the highest burden of rabies in the world, and rabid dogs are common. 
 
 The Handbook recommends a risk assessment before you travel, based on how likely you are to be around animals and how easily you could reach emergency care, and suggests parents consider the vaccine for younger children.
 
-The vaccine doesn't replace treatment after a bite, but it makes treatment simpler and usually avoids the need for an antibody injection, which can be hard to find in India, especially outside major hospitals. The course is 2 visits a week apart, or 3 doses over 3 to 4 weeks. We don't give it at Pacific Fair, so see a GP or travel clinic early to leave time to finish the course.
+Treatment after a bite can be hard to find in India, especially outside major hospitals. We don't give the rabies vaccine at Pacific Fair, so if you're considering it, see a GP or travel clinic early, as the course takes a few weeks.
 
 ### What to do if an animal bites or scratches you
 
@@ -160,7 +156,7 @@ Malaria is found in most of India, including major cities, but the risk varies a
 
 Smartraveller says dengue is widespread in India after the monsoon, which runs from about June to October, and that Zika outbreaks can occur. UK and US advice add that chikungunya is also a risk. There's no vaccine for Zika, so if you're pregnant or planning a pregnancy, see your GP before you go.
 
-A dengue vaccine is registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly recommended for people who've had dengue before, or who'll spend long or repeated periods where dengue is common. It isn't suitable for everyone, including people with a weakened immune system, and it isn't recommended during pregnancy. We don't give it, so ask a GP or travel doctor whether it suits you.
+We don't give the dengue vaccine at Pacific Fair. If you're wondering about it, ask a GP or travel doctor.
 
 Dengue mosquitoes bite throughout the day and malaria mosquitoes mostly bite between dusk and dawn, so protect yourself around the clock:
 

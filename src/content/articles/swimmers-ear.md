@@ -20,7 +20,7 @@ references:
     url: "https://www.mja.com.au/journal/2022/216/8/wipeout-drill-out-history-exostosis-management-and-australian-surfing"
 draft: false
 ---
-Swimmer's ear (otitis externa) is an infection of the outer ear canal. It usually starts when water gets trapped in the ear after swimming, letting bacteria build up, and it's most common in summer and in children. Typical symptoms are ear pain that gets worse when you chew or pull on your ear, itching, a blocked feeling and sometimes discharge. It needs treatment, usually prescription ear drops from a doctor, so see a GP if you have ear pain or discharge. Keeping your ears dry is the best way to prevent it.
+Swimmer's ear (otitis externa) is an infection of the outer ear canal. It usually starts when water gets trapped in the ear after swimming, letting bacteria build up, and it's most common in summer and in children. Typical symptoms are ear pain that gets worse when you chew or pull on your ear, itching, a blocked feeling and sometimes discharge. It needs treatment from a doctor, so see a GP if you have ear pain or discharge. Keeping your ears dry is the best way to prevent it.
 
 If you spend a lot of time at the beach or in the pool this summer, here's how to spot swimmer's ear early and keep it from coming back.
 
@@ -58,7 +58,7 @@ While you're being treated:
 
 Pain relief such as paracetamol or ibuprofen can help with the pain. Ask our pharmacists which suits you, and always read the label and follow the directions for use.
 
-Most people start to feel better within 3 days of starting treatment. If your symptoms haven't improved after 3 days, go back to your doctor.
+If your symptoms haven't improved after 3 days of treatment, go back to your doctor.
 
 ## How can I prevent swimmer's ear?
 
@@ -101,7 +101,7 @@ Check with your doctor first. Keeping your ear canal dry while it heals is an im
 
 ### Can I treat swimmer's ear at home?
 
-Not usually. Swimmer's ear needs treatment, most often prescription ear drops, so see a GP. You can ease the pain with pain relief while you wait to be seen.
+Not usually. Swimmer's ear needs treatment from a doctor, so see a GP. You can ease the pain with pain relief while you wait to be seen.
 
 ### How do I stop my child getting swimmer's ear?
 

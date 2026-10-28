@@ -193,7 +193,7 @@ export const services: Service[] = [
     group: 'pharmacy',
     image: 'weight-management-shelves.jpg',
     atAGlance: {
-      what: 'Private conversations, free health checks and practical advice, including a check of the medicines you already take.',
+      what: 'Private conversations, free health checks and practical advice on eating, activity and sleep.',
       who: 'Anyone who wants support managing their weight.',
       cost: 'Free.',
       booking: 'No booking needed.',
@@ -305,7 +305,7 @@ export const services: Service[] = [
     atAGlance: {
       what: 'Emergency contraception from a pharmacist, if it’s suitable, after you fill in a short private questionnaire.',
       who: 'Anyone who needs it. The sooner the better.',
-      cost: 'No consultation fee. You only pay for any medicine supplied.',
+      cost: 'No consultation fee.',
       time: 'A few minutes.',
       booking: 'No appointment needed.',
       howToBook: 'Ask at the counter for the questionnaire.',

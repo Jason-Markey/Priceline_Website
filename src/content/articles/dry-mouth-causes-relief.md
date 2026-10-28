@@ -3,7 +3,7 @@ title: "Dry mouth: common causes (including medicines) and what helps"
 description: "About 600 medicines can cause dry mouth, including antidepressants and antihistamines. Why it matters for your teeth, and what helps if a medicine is the cause."
 seoTitle: "Dry mouth: causes and relief | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: dental-oral-care
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -90,13 +90,13 @@ Saliva helps protect your mouth, and the Queensland Government notes it helps pr
 - **Saliva substitutes.** The Queensland Government says these are available from most pharmacies. The ADA describes products that act as a replacement for saliva, including gels, mouthwashes, mouth sprays and toothpastes.
 - **Dry mouth lozenges** that contain xylitol (ADA).
 - **An alcohol-free mouthwash.** The Queensland Government advises avoiding mouth rinses that contain alcohol or peroxide.
-- **Higher-fluoride toothpaste.** healthdirect suggests toothpaste and mouthwash with higher fluoride levels, and the ADA notes that high fluoride toothpaste is sold at pharmacies and some dental clinics, not supermarkets. The Queensland Government says a dental practitioner may recommend it, so ask your dentist whether it's right for you.
+- **Higher-fluoride toothpaste.** healthdirect suggests toothpaste and mouthwash with higher fluoride levels. The Queensland Government says a dental practitioner may recommend higher-fluoride toothpaste, so ask your dentist whether it's right for you.
 
 You can [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments), which include dry mouth gels and sprays, or ask our pharmacists in store.
 
 ### Help from your dentist and doctor
 
-Your dentist may suggest brushing gently after meals, flossing every day and having check-ups more often (ADA). healthdirect says your doctor may prescribe a medicine to help stimulate saliva, and the ADA notes that some medicines can help your saliva glands produce more saliva.
+Your dentist may suggest brushing gently after meals, flossing every day and having check-ups more often (ADA).
 
 ## Should you stop a medicine that's drying out your mouth?
 
@@ -108,7 +108,7 @@ What you can do is raise it. Your doctor may be able to change the dose or swap 
 
 A [medication review](/medication-reviews/) is a good place to start. It's a free one-on-one conversation with a pharmacist for Medicare card holders, covering everything you take, including vitamins and over-the-counter products. It takes about 20 to 30 minutes and you don't need to book. We can help you work out which medicines might be contributing and what to ask your GP.
 
-We can also help you choose between saliva substitutes, xylitol lozenges, alcohol-free mouthwash and high-fluoride toothpaste, and check they suit your other medicines. If you need a doctor, the GPs at Help Medical, an independent general practice located inside our store, are close by.
+We can also help you choose between saliva substitutes, xylitol lozenges and alcohol-free mouthwash, and check they suit your other medicines. If you need a doctor, the GPs at Help Medical, an independent general practice located inside our store, are close by.
 
 ## When to see a pharmacist or GP
 

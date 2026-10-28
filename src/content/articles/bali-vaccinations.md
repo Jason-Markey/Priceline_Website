@@ -26,8 +26,6 @@ references:
     url: "https://www.healthdirect.gov.au/rabies"
   - name: "healthdirect – Dengue fever"
     url: "https://www.healthdirect.gov.au/dengue-fever"
-  - name: "TGA – Australian prescription medicine decision summary: dengue vaccine"
-    url: "https://www.tga.gov.au/node/558741"
   - name: "NHS Fit for Travel – Indonesia (malaria map)"
     url: "https://www.fitfortravel.nhs.uk/destinations/asia-east/indonesia"
 draft: false
@@ -57,7 +55,7 @@ Most travel vaccines aren't free, so a private fee usually applies. You'll see c
 
 ## Measles: the one most people forget
 
-NSW Health lists Indonesia, including Bali, among the countries with prolonged measles outbreaks. Two doses of MMR vaccine give lifelong protection against measles to 99 in 100 people. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
+NSW Health lists Indonesia, including Bali, among the countries with prolonged measles outbreaks. If you were born in or after 1966 and don't have records of 2 doses, you can have it free in Queensland. NSW Health advises having the final dose at least 2 weeks before you leave.
 
 After you get home, watch for measles symptoms for 3 weeks: fever, cough, runny nose, sore red eyes and a spotty rash that starts on the head and neck. If they appear, call your GP or the emergency department before you go in, and mention your trip.
 
@@ -91,7 +89,7 @@ Depending on the type, the JE vaccine is a single dose or a 2-dose course. We ca
 
 ## Dengue and mosquito bites
 
-Dengue is spread by mosquitoes that bite throughout the day and are most active in the early morning and late afternoon, and Smartraveller says insect-borne illnesses are common in Indonesia throughout the year. A dengue vaccine is now registered in Australia for people aged 4 and over, given as 2 doses 3 months apart. It's mainly for people who've had dengue before, or who'll spend long or repeated periods where dengue is common, and it isn't suitable for everyone. Talk to a GP or travel doctor about whether it suits you. We don't offer it yet.
+Dengue is spread by mosquitoes that bite throughout the day and are most active in the early morning and late afternoon, and Smartraveller says insect-borne illnesses are common in Indonesia throughout the year. We don't give the dengue vaccine at Pacific Fair. If you're wondering about it, ask a GP or travel doctor.
 
 Whatever you decide, avoiding bites is still your best protection:
 

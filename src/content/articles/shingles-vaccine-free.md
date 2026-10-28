@@ -55,7 +55,7 @@ According to the Australian Government Department of Health, Disability and Agei
 
 ### If you've had a shingles vaccine before
 
-An older, live shingles vaccine was used in the past. If you had that older vaccine free under the NIP, you're not eligible for the current free vaccine until 5 years after that dose. If you paid for the older vaccine privately, you may still be eligible for the free vaccine. You should wait at least 12 months after the older vaccine. Ask your pharmacist or GP to check your immunisation history.
+If you've had a shingles vaccine before, it can affect whether and when you can have the free vaccine. Ask your pharmacist or GP to check your immunisation history.
 
 ### If you've already had shingles
 
@@ -68,7 +68,7 @@ The current shingles vaccine is a **2-dose course**:
 - If you have a healthy immune system, the 2 doses are given **2 to 6 months apart**.
 - If you have a weakened immune system, the doses are given **1 to 2 months apart**.
 
-The current vaccine doesn't contain live virus, which is why it can be given to people with a weakened immune system. At this stage, a booster dose isn't recommended.
+At this stage, a booster dose isn't recommended.
 
 Because it's 2 doses, plan ahead if you've got a cruise, an overseas trip or a long stay with the grandkids coming up. Starting early means you're more likely to finish the course before you go.
 

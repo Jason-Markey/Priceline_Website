@@ -3,7 +3,7 @@ title: "Threadworms: how to treat the whole family and stop reinfection"
 description: "Treat everyone in the house at once, even people without symptoms, and usually repeat in one to two weeks. The hygiene steps that stop eggs reinfecting you."
 seoTitle: "Threadworm treatment for families | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: baby-child
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -48,7 +48,7 @@ Queensland Health's Time out poster doesn't exclude children with intestinal wor
 
 ## How do you treat threadworms in the whole family?
 
-healthdirect explains that worming tablets are available from a pharmacy without a prescription. The RCH says medicines such as pyrantel or mebendazole are effective and very safe for children over two years old.
+healthdirect explains that worming tablets are available from a pharmacy without a prescription. The RCH says medicines such as pyrantel or mebendazole can be used for children over two years old.
 
 The key is timing. Everyone in the household should be treated at the same time, even if they don't have symptoms (RCH, healthdirect). The RCH adds that most medicines recommend repeating the treatment for all family members one or two weeks later, and Raising Children says children usually need to repeat the dose after 2 weeks. Follow the directions on your pack.
 
@@ -61,7 +61,7 @@ The key is timing. Everyone in the household should be treated at the same time,
 
 ### Pregnancy, breastfeeding and young children
 
-Treatment isn't one-size-fits-all. The RCH advises telling the pharmacist if you're pregnant or breastfeeding, as they may suggest a different treatment. The RCH describes the common medicines as very safe for children over two, so for a child under two, check with the pharmacist or a GP before treating. Everyone can follow the hygiene steps below.
+Treatment isn't one-size-fits-all. The RCH advises telling the pharmacist if you're pregnant or breastfeeding, as they may suggest a different treatment. The common medicines are for children over two, so for a child under two, check with the pharmacist or a GP before treating. Everyone can follow the hygiene steps below.
 
 ## How do I stop threadworms coming back?
 
