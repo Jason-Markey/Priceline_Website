@@ -3,7 +3,7 @@ title: "Vaccinations for Thailand and Vietnam: a pharmacist's guide"
 description: "Hepatitis A for most trips, typhoid especially for Vietnam or street food, and when rabies and JE vaccines make sense. Start 6 to 8 weeks before you fly."
 seoTitle: "Vaccines for Thailand and Vietnam | Priceline Pacific Fair"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -67,7 +67,7 @@ For 3 weeks after you get home, watch for fever, cough, runny nose, sore red eye
 Both spread through contaminated food and water.
 
 - **Hepatitis A** is recommended for travellers to countries where it's common, including Thailand and Vietnam. One dose gives protection, and a second dose 6 to 12 months later makes it last longer.
-- **Typhoid** is common in most Southeast Asian countries. The Australian Immunisation Handbook recommends the vaccine for travellers where food hygiene or drinking water may not be safe, and for people visiting friends and relatives. It's a single injection, or capsules taken over several days from age 6. It doesn't give full protection, so careful eating and drinking still matter.
+- **Typhoid** is common in most Southeast Asian countries. The Australian Immunisation Handbook recommends the vaccine for travellers where food hygiene or drinking water may not be safe, and for people visiting friends and relatives. It doesn't give full protection, so careful eating and drinking still matter.
 
 ## Rabies
 
@@ -88,14 +88,14 @@ We don't give the rabies vaccine at Pacific Fair. If it sounds right for your tr
 
 JE is spread by mosquitoes in rural and farming areas, such as rice fields and pig farms. The Handbook recommends the vaccine for people spending a month or more in areas where JE is found, and says it may be worth it for shorter trips in the wet season or with lots of outdoor activity. The risk is very low for short city stays. Depending on the type, the vaccine is a single dose or a 2-dose course, and we can give it at Pacific Fair.
 
-## Do I need malaria tablets?
+## Is there malaria in Thailand and Vietnam?
 
-For most holidays, no. According to UK travel health advice:
+In most tourist areas, the risk is very low or nil. According to UK travel health advice:
 
 - **Thailand:** there's no malaria risk in Bangkok, Chiang Mai, Chiang Rai, Koh Samui, Koh Phangan or Pattaya, and only a very low risk in most other areas. The risk is low in the rural, forested border areas next to Cambodia, Laos and Myanmar.
 - **Vietnam:** there's no risk in big cities including Hanoi and Ho Chi Minh City, the Red River delta, the coast north of Nha Trang, or Phu Quoc Island. There's a low risk in some southern provinces and other rural areas.
 
-If you're heading off the tourist trail, see a GP or travel doctor about whether you need malaria tablets, which need a prescription. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+If you're heading off the tourist trail, see a GP or travel doctor about malaria prevention before you go. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ## Dengue and mosquito bites
 
@@ -116,7 +116,7 @@ Our [travel health checklist](/travel-health-checklist/) has a full countdown, a
 
 Talk to your pharmacist about which vaccines suit your trip, a travel health kit, and travelling with your regular medicines.
 
-See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term condition, are travelling with children under 5, or need rabies vaccine, dengue vaccine or malaria tablets.
+See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term condition, are travelling with children under 5, or need rabies vaccine, dengue vaccine or advice on preventing malaria.
 
 After you get home, see a doctor if you develop a fever, a rash or diarrhoea that doesn't settle, or if an animal bit or scratched you, and tell them where you've been. In an emergency, call 000.
 
@@ -136,6 +136,6 @@ Ideally 6 to 8 weeks before you fly. If you're leaving sooner, come in anyway. A
 
 ### Can I get travel vaccines without seeing a GP?
 
-Yes. Our pharmacists can give hepatitis A and B, typhoid, cholera, JE, measles, tetanus and whooping cough, and flu vaccines to people aged 5 and over, with no GP visit needed. You'll need a GP or travel clinic for rabies and dengue vaccines and for malaria tablets.
+Yes. Our pharmacists can give hepatitis A and B, typhoid, cholera, JE, measles, tetanus and whooping cough, and flu vaccines to people aged 5 and over, with no GP visit needed. You'll need a GP or travel clinic for rabies and dengue vaccines and for advice on preventing malaria.
 
 Planning Southeast Asia? Walk in to Pacific Fair, or [book a travel vaccination](/travel-health/) 6 to 8 weeks before you go.

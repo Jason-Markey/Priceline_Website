@@ -76,7 +76,7 @@ Paracetamol and ibuprofen are common choices for tension-type headaches. They’
 | Paracetamol | Eases pain and fever, and is gentle on the stomach | Check the total dose across everything you take, including cold and flu tablets, and don’t go over the daily limit on the pack |
 | Ibuprofen | An anti-inflammatory that eases pain | Take it with food. Not suitable for some people with stomach, kidney or heart conditions, some people with asthma, or during pregnancy |
 | Aspirin | An anti-inflammatory that eases pain | Not for children or teenagers under 16, and it can irritate the stomach |
-| Combination products | Two pain relievers together, or one with caffeine | Some are only available after a pharmacist’s advice. Products with caffeine raise the risk of medication-overuse headache |
+| Combination products | Two pain relievers together, or one with caffeine | Check the label for what’s in it. Products with caffeine raise the risk of medication-overuse headache |
 
 Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. Take care with cold and flu tablets too, as they often contain the same pain relievers. Doubling up by accident is easy to do. Some stronger pain relievers need a prescription. Wondering whether you can take paracetamol and ibuprofen together? See our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/), and for children, our guide to [children’s paracetamol and ibuprofen](/childrens-paracetamol-ibuprofen/).
 

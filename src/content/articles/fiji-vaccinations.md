@@ -3,7 +3,7 @@ title: "Vaccinations for Fiji: what Australians need before they go"
 description: "Fiji has no malaria and is rabies-free, but dengue and leptospirosis after floods are risks. The vaccines to check, from measles to typhoid, and food safety."
 seoTitle: "Vaccinations for Fiji: what you need before you go"
 publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -99,7 +99,7 @@ Fiji has had a measles outbreak in the past. Two doses of MMR vaccine give lifel
 Both spread through contaminated food and water, and foodborne and waterborne illnesses are common in Fiji.
 
 - **Hepatitis A.** One dose gives protection, and a second dose 6 to 12 months later makes it last longer.
-- **Typhoid.** Cases have been reported in Fiji, though the risk is low for most travellers. The vaccine is a single injection, or capsules taken over several days (from age 6). The injection is estimated to be about 65% effective over 3 years, so careful eating and drinking still matter.
+- **Typhoid.** Cases have been reported in Fiji, though the risk is low for most travellers. The vaccine doesn't give full protection, so careful eating and drinking still matter.
 
 ## Hepatitis B and meningococcal disease
 
@@ -128,7 +128,7 @@ Leptospirosis cases have been reported in Fiji. It spreads through water or soil
 
 ## Is there malaria or rabies in Fiji?
 
-- **Malaria: no.** The World Health Organization lists Fiji among the countries where malaria never existed or disappeared without specific measures, so you don't need malaria tablets for Fiji.
+- **Malaria: no.** The World Health Organization lists Fiji among the countries where malaria never existed or disappeared without specific measures, so malaria isn't a risk in Fiji.
 - **Rabies:** the Biosecurity Authority of Fiji says Fiji is recognised as a rabies-free country, so most travellers won't need the vaccine. Bats anywhere in the world can carry rabies-like viruses, so don't touch them. If a bat or any other animal bites or scratches you, wash the wound with soap and water for 15 minutes, apply an antiseptic and get medical care as soon as possible.
 
 ## Food, water and drinks
@@ -155,7 +155,7 @@ UV is stronger closer to the equator, and water and sand reflect it, so pack SPF
 If your cruise from Brisbane stops in Fiji, everything above applies when you go ashore. Life on board adds a few things.
 
 - **Flu, COVID-19 and gastro.** All three are common on cruise ships, where people are confined together for days at a time. Check whether you're due for flu and COVID-19 vaccines before you sail, and pack hand sanitiser for when soap and water aren't handy.
-- **Every port is different.** For example, Smartraveller says malaria occurs in parts of Vanuatu, mainly the northern provinces, which include Espiritu Santo, and a dengue outbreak was declared on Efate, the island Port Vila is on, in June 2026. Read the travel advice for each stop, and ask us or a GP about any port you're unsure of. If you need malaria tablets, which need a prescription, [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+- **Every port is different.** For example, Smartraveller says malaria occurs in parts of Vanuatu, mainly the northern provinces, which include Espiritu Santo, and a dengue outbreak was declared on Efate, the island Port Vila is on, in June 2026. Read the travel advice for each stop, and ask us or a GP about any port you're unsure of. If a port carries a malaria risk, see a GP or travel doctor about prevention before you sail. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 - **Travel insurance.** Whether you sail or fly, medical care may not match Australian standards and evacuation can be very expensive, so get insurance that covers medical evacuation, plus cruising and shore excursions if you sail.
 - **Your medicines.** Pack enough to cover any delays, and if you have a health condition, talk to your doctor about your cruise plans before you commit.
 
@@ -167,7 +167,7 @@ Ideally 6 to 8 weeks before you fly, as some vaccines need more than one dose or
 
 Talk to your pharmacist about which vaccines suit your trip, what to pack, and how to take your regular medicines with you.
 
-See a GP or travel doctor before you go if you're pregnant or planning a pregnancy, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need dengue vaccine or malaria tablets.
+See a GP or travel doctor before you go if you're pregnant or planning a pregnancy, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need dengue vaccine or advice on preventing malaria.
 
 After you get home, see a doctor if you have a fever, a rash or diarrhoea that doesn't settle. Call ahead and tell them you've been to Fiji. In an emergency, call 000.
 

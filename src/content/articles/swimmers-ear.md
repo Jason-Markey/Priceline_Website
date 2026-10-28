@@ -3,7 +3,7 @@ title: "Swimmer's ear: symptoms, treatment and how to prevent it"
 description: "Swimmer's ear is an outer ear canal infection that's common in a Gold Coast summer. Symptoms, prevention, when you need a GP and how a pharmacist can help."
 seoTitle: "Swimmer's ear: symptoms, treatment and prevention"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -48,7 +48,7 @@ Symptoms usually appear within 2 days and can include:
 
 ## How is swimmer's ear treated?
 
-See a GP if you think you have swimmer's ear. It's important to start treatment early so the infection doesn't get worse or spread. Your doctor will usually prescribe ear drops to fight the infection, and may clean out your ear canal first. Antibiotic tablets usually aren't needed for an uncomplicated infection.
+See a GP if you think you have swimmer's ear. It's important to start treatment early so the infection doesn't get worse or spread. Your doctor will check your ear, may clean out your ear canal, and can recommend treatment.
 
 While you're being treated:
 

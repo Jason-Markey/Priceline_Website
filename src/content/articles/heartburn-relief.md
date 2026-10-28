@@ -81,9 +81,8 @@ There are different types of reflux medicine at the pharmacy, and they work in d
 | --- | --- | --- | --- |
 | Antacids | Calcium carbonate, magnesium hydroxide, aluminium hydroxide | Neutralise stomach acid for fast, short-term relief | Work within minutes but don’t last long. Can stop some medicines being absorbed, such as some antibiotics, iron and thyroid medicine, so space them apart |
 | Alginates | Sodium alginate, often combined with an antacid | Form a protective layer on top of your stomach contents | Handy after meals and at bedtime. Some are high in sodium |
-| Proton pump inhibitors (PPIs) | Esomeprazole, omeprazole, pantoprazole, rabeprazole | Reduce how much acid your stomach makes | Small packs of 7 or 14 days are available from the pharmacy. Take before a meal. If you need them for longer than 14 days, see your GP |
 
-The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. Some reflux medicines need to be taken at a certain time before meals to work best. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
+The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. If antacids and alginates aren’t enough, talk to our pharmacists or your GP about other options. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
 
 Medicines can help, but healthdirect notes they aren’t always a long-term fix. If you find you need them regularly, see your GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store.
 
@@ -104,7 +103,7 @@ See your GP if:
 
 ### What will my GP do?
 
-Your GP can often diagnose reflux by asking about your symptoms and what sets them off. If symptoms aren’t responding to treatment, they may suggest a gastroscopy. This is a test where a thin, flexible tube with a camera is passed through your mouth and down your oesophagus into your stomach so the doctor can look for any damage. Your GP can also prescribe stronger reflux medicines if you need them.
+Your GP can often diagnose reflux by asking about your symptoms and what sets them off. If symptoms aren’t responding to treatment, they may suggest a gastroscopy. This is a test where a thin, flexible tube with a camera is passed through your mouth and down your oesophagus into your stomach so the doctor can look for any damage. Your GP can also talk to you about other treatments if you need them.
 
 ### Red flags: see a doctor promptly
 

@@ -57,10 +57,10 @@ Last updated: 28 October 2026
 - [Delivery](https://pricelinepacificfair.com.au/delivery/): Health and beauty products delivered across the Gold Coast via Uber Eats.
 - [Click & Collect](https://pricelinepacificfair.com.au/click-and-collect/): Shop online at priceline.com.au and collect from us, usually within 15 minutes.
 - [Priceline Pharmacy app](https://pricelinepacificfair.com.au/download-the-priceline-app/): Order scripts ahead, get reminders and manage your Pulse Rewards.
-- [Contraception consultations](https://pricelinepacificfair.com.au/hormonal-contraceptive-pill/): Start, change or continue the pill, ring or injection with a trained pharmacist. $35.
+- [Contraception consultations](https://pricelinepacificfair.com.au/hormonal-contraceptive-pill/): Start, change or continue your contraception with a trained pharmacist. $35.
 - [UTI treatment](https://pricelinepacificfair.com.au/uti-treatment/): Assessment and treatment for uncomplicated bladder infections, women 18 to 65.
 - [Sick leave certificates](https://pricelinepacificfair.com.au/sick-leave-certificates/): Absence from work certificates for minor, short-term illnesses, after a private chat with a pharmacist.
-- [Emergency contraception](https://pricelinepacificfair.com.au/emergency-contraception/): No appointment or consultation fee. Fill in a short questionnaire and you only pay for the pill.
+- [Emergency contraception](https://pricelinepacificfair.com.au/emergency-contraception/): No appointment or consultation fee. Fill in a short private questionnaire and a pharmacist checks what’s suitable.
 - [Women's health](https://pricelinepacificfair.com.au/womens-health/): Contraception, UTI treatment, pregnancy, periods and menopause support from our pharmacists.
 - [Quit smoking](https://pricelinepacificfair.com.au/quit-smoking/): Help choosing quit options, making a plan and staying on track.
 - [Passport & visa photos](https://pricelinepacificfair.com.au/passport-photos/): Australian and overseas passport and visa photos while you wait. $25.
@@ -149,14 +149,14 @@ Last updated: 28 October 2026
 
 ### Prescriptions & medicines
 - [60-day prescriptions: which medicines, who can get them and what you save](https://pricelinepacificfair.com.au/60-day-prescriptions-explained/): Two months' supply for one PBS co-payment: who can get a 60-day script, how to check if your medicine qualifies, and what it saves a general patient.
-- [Contraceptive pill from a Queensland pharmacist: how it works](https://pricelinepacificfair.com.au/contraceptive-pill-pharmacist-queensland/): How to get the contraceptive pill from a trained Queensland pharmacist: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair.
+- [Contraception consultations with a Queensland pharmacist: how they work](https://pricelinepacificfair.com.au/contraceptive-pill-pharmacist-queensland/): How contraception consultations with a trained Queensland pharmacist work: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair.
 - [eScripts, Active Script Lists and scripts on file, explained](https://pricelinepacificfair.com.au/how-to-use-escripts/): An eScript is a QR code token sent to your phone. How to use it at any pharmacy, when an Active Script List is easier, and what to do if you lose a token.
 - [Generic vs brand-name medicines: are they the same?](https://pricelinepacificfair.com.au/generic-vs-brand-medicines/): Generics have the same active ingredient in the same amount, checked by the TGA. Why the box looks different, what the PBS brand premium is and how to ask.
 - [How to get rid of old medicines safely (free at the pharmacy)](https://pricelinepacificfair.com.au/how-to-dispose-of-old-medicines/): Unwanted medicines go back to any pharmacy for free, safe disposal. What we accept at our Pacific Fair counter, where sharps go, and how to read expiry dates.
 - [How to help an ageing parent manage their medicines](https://pricelinepacificfair.com.au/help-elderly-parent-with-medication/): Visiting Mum or Dad over the holidays? How to help an elderly parent with medication: warning signs, medicines lists, packs, reviews and safe disposal.
 - [How to move your prescriptions to a new pharmacy](https://pricelinepacificfair.com.au/transfer-prescriptions-new-pharmacy/): Moving scripts to a new pharmacy is free. How to bring across eScripts, your Active Script List, paper repeats and your PBS Safety Net record, step by step.
 - [PBS Safety Net 2026: thresholds, tracking and what you pay after](https://pricelinepacificfair.com.au/pbs-safety-net-explained/): In 2026 the PBS Safety Net is $1,748.20 for general patients and $277.20 with a concession card. How to count family scripts, and what you pay after.
-- [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): Trained Queensland pharmacists can treat UTIs, prescribe the pill and manage reflux, ear infections, school sores, eczema, mild acne and shingles.
+- [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): Trained Queensland pharmacists can treat UTIs, offer contraception consultations and help with reflux, ear infections, school sores, eczema, acne and shingles.
 - [Why your pharmacist asks questions (and sometimes for ID)](https://pricelinepacificfair.com.au/why-pharmacists-ask-questions/): How medicines are grouped in Australia, why pharmacists ask who it's for, why some cold and flu tablets need photo ID, and the rules on early repeats.
 
 ### Vaccinations

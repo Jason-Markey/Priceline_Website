@@ -3,7 +3,7 @@ title: "Retinol for beginners: how to start without irritation"
 description: "Start low and slow: two or three nights a week, a moisturiser after and SPF every morning. Irritation vs purging, what not to mix, and pregnancy advice."
 seoTitle: "Retinol for beginners | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -28,7 +28,7 @@ Start low and slow. Use a gentle retinol at night, on clean, dry skin, two or th
 
 The aim in the first few weeks isn't speed, it's getting your skin used to it. And if you're pregnant, trying for a baby or breastfeeding, check with your GP or pharmacist before using any retinoid product.
 
-## Retinol, retinal or prescription retinoid: what's the difference?
+## Retinol or retinal: what's the difference?
 
 Retinoids are a family of vitamin A ingredients. DermNet explains that some, such as retinol and retinaldehyde (often shortened to retinal), are commonly added to cosmetics, while others are prescription medicines used for acne and other skin conditions.
 
@@ -36,7 +36,6 @@ Retinoids are a family of vitamin A ingredients. DermNet explains that some, suc
 | --- | --- | --- |
 | Retinol | Skincare and beauty counters | Widely available in serums and night creams. Strengths vary between products |
 | Retinal (retinaldehyde) | Skincare and beauty counters | Another vitamin A form used in cosmetics |
-| Prescription retinoids | A GP or dermatologist | Medicines for acne and other conditions. Some aren't suitable in pregnancy |
 
 What can retinol do? DermNet notes that retinoid creams used regularly over the long term may reduce fine wrinkles and even out pigmentation. At cosmetic strengths, retinol may help improve the appearance of fine lines and uneven skin tone. It won't work overnight, and it's not a substitute for sun protection.
 
@@ -105,5 +104,5 @@ Our beauty advisors can help you choose a gentle retinol to start with, plus a m
 - You have burning, swelling, blistering or a spreading rash after using retinol.
 - Irritation doesn't settle after you stop using it.
 - You have eczema, rosacea or very sensitive skin and want to try retinol.
-- Your acne is painful, leaving marks or scars, or not improving. A GP can talk to you about prescription options, and the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
+- Your acne is painful, leaving marks or scars, or not improving. A GP can talk to you about other options, and the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option.
 - You're pregnant, trying to conceive or breastfeeding.

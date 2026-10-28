@@ -3,7 +3,7 @@ title: "CeraVe guide: which cleanser and moisturiser suits your skin?"
 description: "Which CeraVe cleanser and moisturiser suits your skin? A pharmacist-reviewed guide to ceramides, oily, acne-prone and eczema-prone skin, and CeraVe SPF 50."
 seoTitle: "Which CeraVe is right for you? | Priceline Pacific Fair"
 publishDate: 2026-10-27
-modifiedDate: 2026-10-27
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -92,7 +92,7 @@ For oily skin with blackheads and the odd breakout, the Blemish Control range is
 - Wear sunscreen every morning. DermNet notes that alpha hydroxy acids, such as glycolic acid, can make your skin more sensitive to the sun.
 - Give it 6 to 8 weeks before you decide whether it's working.
 
-If your acne is painful, leaving marks or scars, or not improving, read our guide to [acne treatment at the pharmacy](/acne-treatment-pharmacy/) and talk to a pharmacist or GP, because prescription treatments may help.
+If your acne is painful, leaving marks or scars, or not improving, read our guide to [acne treatment at the pharmacy](/acne-treatment-pharmacy/) and talk to a pharmacist or GP about other treatments.
 
 ## CeraVe for very dry or eczema-prone skin
 
@@ -143,4 +143,4 @@ Comparing brands? See our guides to [La Roche-Posay](/la-roche-posay-guide/), [T
 - You want to use retinol or acids and you're pregnant, trying to conceive or breastfeeding.
 - You're choosing products for a baby or young child with eczema.
 
-A GP can talk to you about prescription treatments for eczema and acne. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.
+A GP can talk to you about other treatments for eczema and acne. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.

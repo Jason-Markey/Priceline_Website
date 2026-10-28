@@ -3,7 +3,7 @@ title: "Vaccinations for India: what Australians need before they go"
 description: "Most travellers to India need hepatitis A and typhoid vaccines. Why visiting family raises your risk, rabies and JE advice, and a fake rabies vaccine alert."
 seoTitle: "Vaccinations for India: what you need before you go"
 publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -125,7 +125,7 @@ For 3 weeks after you get home, watch for fever, cough, runny nose, sore red eye
 Both spread through contaminated food and water.
 
 - **Hepatitis A.** One dose gives protection. A second dose 6 to 12 months later gives longer-lasting protection, which is handy if you visit India often.
-- **Typhoid.** The Handbook says the risk is considerably greater in the Indian subcontinent than in other regions, and strains resistant to many antibiotics are being found more often, particularly there. The vaccine is a single injection, or capsules taken over several days (from age 6). The injection is estimated to be about 65% effective over 3 years, so you still need to be careful with food and water.
+- **Typhoid.** The Handbook says the risk is considerably greater in the Indian subcontinent than in other regions, and strains resistant to many antibiotics are being found more often, particularly there. The vaccine doesn't give full protection, so you still need to be careful with food and water.
 
 ## Is the rabies vaccine worth it for India?
 
@@ -152,9 +152,9 @@ JE is a virus spread by mosquitoes, mainly in rural and farming areas such as ri
 
 The Handbook recommends the vaccine for stays of a month or more in areas with JE during its transmission season, and suggests considering it for shorter trips in the wet season or with lots of time outdoors. The risk is probably negligible on short city trips. Depending on the type, it's a single dose or a 2-dose course, and we can give it at Pacific Fair.
 
-## Do I need malaria tablets for India?
+## Is there malaria in India?
 
-Malaria is found in most of India, including major cities, but the risk varies a lot between states, and advice on tablets differs between countries. US advice recommends malaria tablets for most of India. UK advice recommends them for Mizoram, Odisha and Tripura, rates the risk as low elsewhere, including Goa, and suggests tablets there only in exceptional cases, such as long stays visiting family. Either way, avoid mosquito bites, especially from dusk to dawn. See a GP or travel doctor about whether you need malaria tablets for your itinerary, as they need a prescription. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+Malaria is found in most of India, including major cities, but the risk varies a lot between states, and advice differs between countries. UK advice rates the risk as higher in Mizoram, Odisha and Tripura and low elsewhere, including Goa, while US advice treats most of India as a malaria risk. Either way, avoid mosquito bites, especially from dusk to dawn, and see a GP or travel doctor about malaria prevention for your itinerary. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ## Dengue and mosquito bites
 

@@ -3,7 +3,7 @@ title: "Head lice: how to get rid of them (and stop them coming back)"
 description: "Treat, then treat again: conditioner and a lice comb every 2 to 3 days, or a lotion repeated after 7 days. Why lice come back, the myths, and school rules."
 seoTitle: "Head lice: how to get rid of them | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-13
+modifiedDate: 2026-10-28
 category: haircare
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -55,7 +55,7 @@ Pharmacies stock a few different types of head lice products, and they work in d
 
 - **Insecticide lotions and liquids.** Raising Children lists permethrin, maldison and pyrethrins as active ingredients in these products, and says lotions, liquids and creams are more effective than shampoos. CHOICE notes that insecticide treatments are registered with the Therapeutic Goods Administration, so look for the AUST R number on the pack.
 - **Non-insecticide options.** The conditioner-and-comb method is the main one. Herbal products made from essential oils and plant extracts are also sold, but CHOICE says most haven't been clinically tested or independently assessed for effectiveness or safety. For a heavy infestation, it suggests trying an insecticide-based product first.
-- **Prescription options.** healthdirect notes that some treatments are only available on prescription, so see a GP if pharmacy products haven't worked.
+- **See a GP if pharmacy products haven't worked.** healthdirect notes that some treatments are only available on prescription.
 
 Before you buy, check the age on the pack. healthdirect explains that some products are suitable for babies over 2 months, while others are only for children over 2 years. If you're pregnant or breastfeeding, talk to a doctor or pharmacist before using any lice treatment. Combing with conditioner is safe in pregnancy.
 

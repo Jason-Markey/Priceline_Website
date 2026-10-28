@@ -3,7 +3,7 @@ title: "Gastro in kids: how to keep them hydrated and when to worry"
 description: "Small sips often, even if they're vomiting: using oral rehydration solution (frozen into ice blocks), signs of dehydration and Queensland childcare rules."
 seoTitle: "Gastro in kids: hydration tips | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: baby-child
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -70,7 +70,7 @@ The RCH says there are no specific dietary restrictions during or after gastro. 
 
 ### Should I give medicine for gastro?
 
-Medicines that stop vomiting or diarrhoea aren't the answer for children. The RCH says over-the-counter medicines that reduce vomiting and diarrhoea may be harmful for children, and healthdirect says anti-diarrhoeal medicines should not be used to treat diarrhoea in children. If vomiting is a real problem, a doctor can decide whether a prescription anti-nausea medicine is needed.
+Medicines that stop vomiting or diarrhoea aren't the answer for children. The RCH says over-the-counter medicines that reduce vomiting and diarrhoea may be harmful for children, and healthdirect says anti-diarrhoeal medicines should not be used to treat diarrhoea in children. If vomiting is a real problem, see a doctor, who can decide whether any treatment is needed.
 
 Paracetamol can help if your child is in pain (RCH). Don't give aspirin. Ask our pharmacist before giving ibuprofen to a child who is dehydrated, and see our guide to [paracetamol and ibuprofen for kids](/childrens-paracetamol-ibuprofen/) for doses.
 

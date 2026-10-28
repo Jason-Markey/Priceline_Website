@@ -3,7 +3,7 @@ title: "Vaccinations for Bali: what Australians need before they go"
 description: "No vaccines are needed to enter Bali, but measles, hepatitis A and typhoid are worth having. When rabies and JE vaccines make sense, and avoiding Bali belly."
 seoTitle: "Vaccinations for Bali: what you need before you go"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -66,7 +66,7 @@ After you get home, watch for measles symptoms for 3 weeks: fever, cough, runny 
 Both spread through contaminated food and water.
 
 - **Hepatitis A.** One dose gives protection. A second dose 6 to 12 months later gives longer-lasting protection, which is handy if you visit Bali often.
-- **Typhoid.** It comes as a single injection, or as capsules you take over several days (from age 6). The injection is estimated to be about 65% effective over 3 years, so you still need to be careful with food and water.
+- **Typhoid.** The vaccine doesn't give full protection, so you still need to be careful with food and water.
 
 ## Is the rabies vaccine worth it for Bali?
 
@@ -101,9 +101,9 @@ Whatever you decide, avoiding bites is still your best protection:
 
 Always read the label and follow the directions for use.
 
-## Do I need malaria tablets for Bali?
+## Is there malaria in Bali?
 
-Bali itself is generally considered low risk for malaria, but some other parts of Indonesia, such as Papua, carry a higher risk. If your trip goes beyond Bali, see a GP or travel doctor about whether you need malaria tablets, which need a prescription. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
+Bali itself is generally considered low risk for malaria, but some other parts of Indonesia, such as Papua, carry a higher risk. If your trip goes beyond Bali, see a GP or travel doctor about malaria prevention before you go. [Help Medical](/help-medical/), an independent general practice located inside our store, can help.
 
 ## How to avoid Bali belly
 
@@ -125,7 +125,7 @@ Ideally 6 to 8 weeks before you fly, as some vaccines need more than one dose or
 
 Talk to your pharmacist about which vaccines suit your trip, what to pack, and how to take your regular medicines with you.
 
-See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need rabies vaccine, dengue vaccine or malaria tablets.
+See a GP or travel doctor before you go if you're pregnant, have a weakened immune system or a long-term health condition, are travelling with children under 5, or need rabies vaccine, dengue vaccine or advice on preventing malaria.
 
 After you get home, see a doctor if you have a fever, a rash, diarrhoea that doesn't settle, or any animal bite or scratch, and tell them you've been to Bali. In an emergency, call 000.
 

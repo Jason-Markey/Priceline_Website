@@ -9,8 +9,8 @@ const service = serviceBySlug('womens-health')!;
 const faqs = [
   { q: 'Do I need an appointment?', a: 'For most things, no. Just ask at the counter. UTI consultations are walk-in. For contraception consultations, please call first so we can check a trained pharmacist is on.' },
   { q: 'Can I talk to a pharmacist in private?', a: 'Yes. We have a private consultation room, and you’re welcome to ask for it for any conversation about your health. Just ask at the counter.' },
-  { q: 'Can a pharmacist prescribe the pill?', a: 'Yes. In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over. The consultation costs $35. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page.' },
-  { q: 'Can I get emergency contraception here?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without a prescription, appointment or consultation fee. You fill in a short questionnaire, and a pharmacist checks it’s suitable. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
+  { q: 'Can a pharmacist prescribe contraception?', a: 'Yes. In Queensland, our trained pharmacists offer contraception consultations for eligible women aged 16 and over, and can prescribe contraception if it’s suitable. The consultation costs $35. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page.' },
+  { q: 'Can I get emergency contraception here?', a: 'Yes. Emergency contraception is available from our pharmacists without a prescription, appointment or consultation fee. You fill in a short questionnaire, and a pharmacist checks what’s suitable. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
   { q: 'How much do consultations cost?', a: 'Advice from our pharmacists is free. Contraception consultations cost $35, and UTI consultations have a fee that isn’t covered by Medicare. Call us or ask at the counter.' },
   { q: 'Can I see a doctor here?', a: 'Yes. Help Medical is an independent general practice located inside our store. Walk-ins are welcome subject to doctor availability, and you can <a href="/help-medical/">book online</a>.' },
 ];
@@ -26,13 +26,13 @@ const faqs = [
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-27"
+  dateModified="2026-10-28"
 >
   <h2>What contraception help can a pharmacist give?</h2>
   <ul>
-    <li><a href="/hormonal-contraceptive-pill/"><strong>Contraception consultations.</strong></a> In Queensland, our trained pharmacists can prescribe the pill, the vaginal ring and the contraceptive injection for eligible women aged 16 and over, without a GP visit.</li>
-    <li><a href="/emergency-contraception/"><strong>Emergency contraception.</strong></a> The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without an appointment or consultation fee. Ask at the counter for a short questionnaire.</li>
-    <li><strong>Longer-acting options.</strong> For implants or IUDs, we can refer you to a GP at <a href="/help-medical/">Help Medical</a>.</li>
+    <li><a href="/hormonal-contraceptive-pill/"><strong>Contraception consultations.</strong></a> In Queensland, our trained pharmacists can help eligible women aged 16 and over start, restart, change or continue their contraception, without a GP visit.</li>
+    <li><a href="/emergency-contraception/"><strong>Emergency contraception.</strong></a> Available from our pharmacists without a prescription, appointment or consultation fee. Ask at the counter for a short questionnaire.</li>
+    <li><strong>Longer-acting options.</strong> We can refer you to a GP at <a href="/help-medical/">Help Medical</a>.</li>
   </ul>
 
   <Image src={roomImg} alt="The private consultation room at Priceline Pharmacy Pacific Fair, used for vaccinations and pharmacist consultations" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={72} />

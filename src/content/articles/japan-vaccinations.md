@@ -3,7 +3,7 @@ title: "Do you need vaccinations for Japan? What Australians should know"
 description: "Most trips to Japan need no special vaccines, but check measles and flu, ask about Japanese encephalitis for rural stays, and know Japan's medicine rules."
 seoTitle: "Vaccinations for Japan: what Australians need"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -107,6 +107,6 @@ Usually, yes, within limits. Some medicines that are legal in Australia are bann
 
 ### Is there malaria in Japan?
 
-No. You don't need malaria tablets for Japan.
+No. Malaria isn't a risk in Japan.
 
 Planning a trip to Japan? Walk in to Pacific Fair for your flu or MMR vaccine, or [book a travel vaccination](/travel-health/) before you go.

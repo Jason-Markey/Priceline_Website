@@ -3,7 +3,7 @@ title: "Magnesium supplements: which type, and what the evidence says"
 description: "Citrate, chloride and lactate forms absorb better than magnesium oxide. The evidence for cramps and sleep, who runs low, and which medicines to space it from."
 seoTitle: "Magnesium supplements guide | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: vitamins-supplements
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -56,7 +56,7 @@ healthdirect says deficiency is rare in healthy people. You're more likely to be
 - have a digestive condition such as Crohn's disease, or long-term vomiting or diarrhoea
 - have kidney problems
 - have alcohol dependence
-- take some medicines long term, including fluid tablets (diuretics) and reflux medicines called proton pump inhibitors. The NIH notes these reflux medicines can cause low magnesium when taken for a long time, typically more than a year.
+- take some medicines long term, including fluid tablets (diuretics) and some reflux medicines. The NIH notes these reflux medicines can cause low magnesium when taken for a long time, typically more than a year.
 
 healthdirect lists signs of low magnesium as poor appetite, nausea and vomiting, tiredness and weakness. Severe deficiency can cause muscle spasms and abnormal heart rhythms. It's diagnosed with a blood or urine test, so see your GP rather than guessing.
 
@@ -88,8 +88,8 @@ A handful of nuts and seeds on your breakfast or in a beach bag goes a long way.
 
 **Medicine timing:** magnesium can bind to some medicines in the gut so less is absorbed. The NIH advises:
 
-- **some antibiotics** (the tetracycline and quinolone groups): take the antibiotic at least 2 hours before, or 4 to 6 hours after, a magnesium supplement
-- **some osteoporosis medicines** (bisphosphonates): separate them from magnesium by at least 2 hours
+- **some antibiotics**: take the antibiotic at least 2 hours before, or 4 to 6 hours after, a magnesium supplement (ask your pharmacist whether yours is one of them)
+- **some osteoporosis medicines**: separate them from magnesium by at least 2 hours
 
 If you take thyroid medicine or any other regular medicine, ask your pharmacist how to time a magnesium supplement around it. Don't change how you take a prescribed medicine without advice. For other common combinations to watch, see [supplements that can interact with your medicines](/supplements-that-interact-with-medicines/).
 

@@ -3,7 +3,7 @@ title: "Hayfever on the Gold Coast: why our season is different"
 description: "Our subtropical grasses flower through summer and autumn, so Gold Coast hayfever peaks later than down south. A local pollen calendar and ways to cut exposure."
 seoTitle: "Hayfever on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -120,6 +120,6 @@ Talk to a pharmacist if your symptoms are mild or come and go. See a GP ([Help M
 - you also wheeze, cough at night, or feel tight in the chest
 - you're pregnant or breastfeeding, or you're buying for a young child
 
-Your GP may refer you to an allergy specialist, who can test your triggers and discuss longer-term options such as allergen immunotherapy.
+Your GP may refer you to an allergy specialist, who can test your triggers and talk to you about longer-term options.
 
 **Call 000 in an emergency.** If you or someone else has severe trouble breathing or shows signs of a severe asthma attack, call triple zero (000) immediately.

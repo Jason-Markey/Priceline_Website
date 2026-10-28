@@ -75,7 +75,7 @@ Your pharmacist can take a look, check it’s likely to be a simple ulcer, and h
 | Anti-inflammatory gels | Choline salicylate | Ease pain and inflammation | Not for children or teenagers under 16 |
 | Pain relief | Paracetamol, ibuprofen | Ease pain, especially before meals | Only if they’re suitable for you |
 
-If an ulcer is very painful, stronger anti-inflammatory options are available after a pharmacist’s advice or from your GP. Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice. You can also [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments) or ask us in store.
+If an ulcer is very painful, talk to our pharmacists or your GP about other options. Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice. You can also [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments) or ask us in store.
 
 If a medicine you take might be causing ulcers, or you keep getting them, it’s worth mentioning. A [medication review](/medication-reviews/) can help you look at your medicines as a whole.
 

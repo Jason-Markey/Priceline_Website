@@ -3,7 +3,7 @@ title: "Shingles vaccine: who can get it free and why it matters"
 description: "The shingles vaccine is free under the NIP from 65, from 50 for Aboriginal and Torres Strait Islander people, and for some immunocompromised adults."
 seoTitle: "Shingles vaccine: who can get it free?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-28
 category: vaccinations
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -94,7 +94,7 @@ Serious reactions are rare. Ask your pharmacist about simple ways to ease any di
 
 ## When to see a pharmacist or GP
 
-See your GP **as soon as possible** if you think you have shingles, especially if you are pregnant or have a weakened immune system. Starting antiviral medicine within 3 days of the rash appearing may reduce the severity of symptoms and the risk of complications, so don't wait.
+See your GP **as soon as possible** if you think you have shingles, especially if you are pregnant or have a weakened immune system. Treatment works best when it's started early, ideally within 3 days of the rash appearing, so don't wait.
 
 See a doctor urgently if you have:
 

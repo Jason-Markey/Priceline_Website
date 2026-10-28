@@ -3,7 +3,7 @@ title: "Why your pharmacist asks questions (and sometimes for ID)"
 description: "How medicines are grouped in Australia, why pharmacists ask who it's for, why some cold and flu tablets need photo ID, and the rules on early repeats."
 seoTitle: "Why pharmacists ask questions | Priceline Pacific Fair"
 publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -16,7 +16,7 @@ references:
     url: "https://www.healthdirect.gov.au/over-the-counter-medicines"
   - name: "Better Health Channel – Medicines: safety issues"
     url: "https://betterhealth.vic.gov.au/health/conditionsandtreatments/medicines-safety-issues"
-  - name: "Queensland Health – Departmental Standard: Pseudoephedrine recording"
+  - name: "Queensland Health – Departmental Standard: recording sales of some cold and flu medicines"
     url: "https://www.health.qld.gov.au/__data/assets/pdf_file/0030/1108938/ds-pseudoephedrine-recording.pdf"
   - name: "Therapeutic Goods Administration – 2018 changes to over-the-counter pain relievers: frequently asked questions"
     url: "https://www.tga.gov.au/final-decision-re-scheduling-codeine-frequently-asked-questions"

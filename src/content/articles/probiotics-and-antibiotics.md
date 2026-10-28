@@ -3,7 +3,7 @@ title: "Should you take a probiotic with antibiotics?"
 description: "Some probiotic strains may reduce antibiotic-associated diarrhoea, but not every product has been studied. Timing, choosing a strain and who should avoid them."
 seoTitle: "Probiotics with antibiotics | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: vitamins-supplements
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -72,7 +72,7 @@ These are a good everyday habit. If your goal is specifically to lower your chan
 
 ## How our pharmacists can help
 
-When we dispense your antibiotic, we can explain which side effects to watch for, whether a probiotic is a sensible add-on for you, which strains to look for, and how to fit the doses around your antibiotic. You can [send your script to us ahead of time](/prescriptions/) and collect it when it suits you. Wondering about a drink while you're on the course? See our guide to [alcohol and antibiotics](/alcohol-and-antibiotics/).
+If you're starting a course, ask us which side effects to watch for, whether a probiotic is a sensible add-on for you, which strains to look for, and how to fit the doses together. You can [send your script to us ahead of time](/prescriptions/) and collect it when it suits you. Wondering about a drink while you're on the course? See our guide to [alcohol and antibiotics](/alcohol-and-antibiotics/).
 
 Antibiotics can also lead to thrush in the mouth or vagina, which healthdirect lists among their common side effects. If that happens during or after your course, talk to one of our pharmacists about treatment options, or about whether it's time to see a GP.
 

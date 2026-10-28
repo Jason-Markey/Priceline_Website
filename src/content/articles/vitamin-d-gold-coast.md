@@ -3,7 +3,7 @@ title: "Vitamin D on the Gold Coast: do you still need a supplement?"
 description: "Most Gold Coast locals get enough vitamin D from everyday sun. Who still runs low, how to balance sun and skin cancer risk, testing, and supplement doses."
 seoTitle: "Vitamin D on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: vitamins-supplements
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -84,7 +84,7 @@ Medicare only covers a vitamin D test in certain situations. Under Medicare Bene
 - deeply pigmented skin, or a chronic and severe lack of sun exposure for cultural, medical, work or living reasons
 - signs or symptoms of osteoporosis or osteomalacia (softening of the bones)
 - conditions that affect absorption, such as untreated coeliac disease, inflammatory bowel disease or previous bariatric surgery
-- taking a medicine known to lower vitamin D levels, such as some anticonvulsants
+- taking a medicine known to lower vitamin D levels, such as some epilepsy medicines
 - chronic kidney failure or a kidney transplant
 - some calcium, phosphate or parathyroid problems
 

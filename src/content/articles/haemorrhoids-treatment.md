@@ -83,7 +83,7 @@ The main culprit is straining on the toilet, usually because of [constipation](/
 
 Buying haemorrhoid products can feel awkward, but it’s an everyday conversation for us, and you’re welcome to ask to talk in private. We can help with:
 
-- **creams, ointments and suppositories** from the pharmacy that may help ease itching, pain and swelling. Some contain a local anaesthetic or a mild steroid, and some are only meant for short-term use, so ask your pharmacist which suits you;
+- **creams, ointments and suppositories** from the pharmacy that may help ease itching, pain and swelling. Some contain a local anaesthetic, and some are only meant for short-term use, so ask your pharmacist which suits you;
 - **fibre supplements and gentle laxatives** if diet changes alone aren’t softening things enough;
 - **pain relief** such as paracetamol. Follow the label or your pharmacist’s advice;
 - **advice for pregnancy and breastfeeding,** when some products aren’t suitable.
@@ -97,8 +97,7 @@ Most pharmacy haemorrhoid products combine one or more of these ingredients. Oin
 | Ingredient type | Examples | What it does | Good to know |
 | --- | --- | --- | --- |
 | Soothing and protective | Zinc oxide, barrier ointments | Protects irritated skin and eases itching | Gentle, and suitable for longer use |
-| Local anaesthetic | Lidocaine (lignocaine), cinchocaine | Numbs pain and itching | Usually for short-term use only |
-| Mild corticosteroid | Hydrocortisone, often combined with a local anaesthetic | Reduces inflammation, swelling and itch | Short courses only, usually no more than about a week. Some are Pharmacist Only Medicines |
+| Local anaesthetic | Lidocaine (lignocaine) | Numbs pain and itching | Usually for short-term use only |
 | Fibre supplement or stool softener | Psyllium, docusate | Softens your poo so you don’t strain | Treats the cause, not just the symptoms |
 
 Follow the label for how often and how long to use each product, and talk to a pharmacist before using them in pregnancy or breastfeeding. If you’re still using a haemorrhoid cream after a week and things aren’t settling, it’s time to see a GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store, with no awkwardness.

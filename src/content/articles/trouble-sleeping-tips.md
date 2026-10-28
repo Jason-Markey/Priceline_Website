@@ -3,7 +3,7 @@ title: "Trouble sleeping: tips from your local pharmacist"
 description: "Trouble sleeping tips for hot, humid Gold Coast nights: routines, caffeine timing, when to see a GP and how our Pacific Fair pharmacists can help."
 seoTitle: "Trouble sleeping tips | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -89,11 +89,11 @@ A cool, dark, quiet room helps. On humid Gold Coast summer nights that can take 
 A pharmacist is a good first stop, especially if poor sleep is new or you’re not sure what’s behind it. We can:
 
 - check whether any of your current medicines, including over-the-counter products and supplements, might be affecting your sleep;
-- talk you through sleep aids by category, from non-medicine options like eye masks and earplugs to herbal products and short-term sleep medicines;
+- talk you through sleep aids by category, from non-medicine options like eye masks and earplugs to herbal products;
 - explain what’s suitable for your age, health and other medicines, because some sleep aids aren’t safe with certain conditions or when combined with alcohol;
 - help you decide when it’s time to see a GP instead.
 
-In Australia, some sleep aids can only be supplied after you talk to a pharmacist, and others need a prescription. They’re generally meant for short-term use. The Sleep Health Foundation notes that sleeping tablets can help occasionally, but if you take them often your body gets used to them and they stop working as well. Ask your pharmacist which option suits you, and follow the label or your pharmacist’s advice.
+Sleep medicines aren’t a long-term fix. The Sleep Health Foundation notes that if you take sleeping tablets often, your body gets used to them and they stop working as well. If you’re thinking about any sleep aid, talk to your pharmacist or GP first, and follow the label or your pharmacist’s advice.
 
 If you take several medicines, a [medication review](/medication-reviews/) can be a useful way to spot anything that might be disturbing your sleep.
 

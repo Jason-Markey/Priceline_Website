@@ -3,7 +3,7 @@ title: "Cold sores and the sun: triggers and what helps"
 description: "Can the sun trigger a cold sore? Why UV sets them off, SPF lip balm for Gold Coast beach days, what to do at the first tingle and when to see a GP."
 seoTitle: "Cold sores and the sun: triggers | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -68,7 +68,7 @@ That early tingle is your cue to act. Healthdirect notes that antiviral cold sor
 
 ## What can I get from the pharmacy?
 
-There are several options for cold sores at the pharmacy. They include antiviral creams, some of which are pharmacist-only, as well as cold sore patches and soothing products that may help ease discomfort and cover the sore. Which one suits you depends on how often you get cold sores, where the sore is, and your health and any other medicines you take.
+There are several options for cold sores at the pharmacy. They include antiviral creams, as well as cold sore patches and soothing products that may help ease discomfort and cover the sore. Which one suits you depends on how often you get cold sores, where the sore is, and your health and any other medicines you take.
 
 Ask your pharmacist which suits you, and follow the label or your pharmacist's advice. If you get cold sores often, it's worth keeping a product at home so you can start at the first tingle. Healthdirect also suggests dabbing creams on gently rather than rubbing them in, and using ice to soothe pain.
 

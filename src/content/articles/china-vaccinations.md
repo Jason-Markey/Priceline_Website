@@ -3,7 +3,7 @@ title: "Vaccinations for China: what Australians need before they go"
 description: "China needs no entry vaccines, but check measles, flu, hepatitis A and typhoid. Extra advice for family visits, altitude in Tibet and live animal markets."
 seoTitle: "Vaccinations for China: what you need before you go"
 publishDate: 2026-10-26
-modifiedDate: 2026-10-26
+modifiedDate: 2026-10-28
 category: travel
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -113,7 +113,7 @@ If you need an MMR dose, NSW Health advises having your final dose at least 2 we
 ## Hepatitis A, typhoid and hepatitis B
 
 - **Hepatitis A.** UK travel health advice recommends it for all travellers to China who haven't had it. One dose gives protection, and a second dose 6 to 12 months later makes it last longer.
-- **Typhoid.** UK travel health advice recommends it for most travellers to China. The US Centers for Disease Control and Prevention (CDC) says it isn't a significant risk in the big cities, so it matters most if you're visiting family or rural areas. It's a single injection, or capsules taken over several days from age 6. The injection is about 65% effective over 3 years, so care with food and water still matters.
+- **Typhoid.** UK travel health advice recommends it for most travellers to China. The US Centers for Disease Control and Prevention (CDC) says it isn't a significant risk in the big cities, so it matters most if you're visiting family or rural areas. It doesn't give full protection, so care with food and water still matters.
 - **Hepatitis B** is common in most of East and Southeast Asia, and the Handbook recommends the vaccine for long or frequent trips. The course is 3 doses over 6 months, and a faster schedule may be possible if you're short on time.
 
 ## Japanese encephalitis
@@ -135,9 +135,9 @@ The Handbook recommends deciding before you travel, based on how likely you are 
 3. Get medical help urgently, the same day if you can, even if you've had the rabies vaccine.
 4. Ask for a written record of any treatment you're given, and see your GP when you get home.
 
-## Do I need malaria tablets for China?
+## Is there malaria in China?
 
-No. The World Health Organization certified China malaria-free in 2021. If your trip takes in other countries, check the advice for each one, and see a GP or travel doctor if you need malaria tablets, which need a prescription.
+No. The World Health Organization certified China malaria-free in 2021. If your trip takes in other countries, check the advice for each one, and see a GP or travel doctor about malaria prevention if any of them carry a risk.
 
 ## Dengue and mosquito bites
 

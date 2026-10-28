@@ -1,9 +1,9 @@
 ---
 title: "What can a pharmacist treat in Queensland without a GP?"
-description: "Trained Queensland pharmacists can treat UTIs, prescribe the pill and manage reflux, ear infections, school sores, eczema, mild acne and shingles."
+description: "Trained Queensland pharmacists can treat UTIs, offer contraception consultations and help with reflux, ear infections, school sores, eczema, acne and shingles."
 seoTitle: "What Qld pharmacists can treat | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -28,7 +28,7 @@ In Queensland, a pharmacist who has completed extra training can assess and trea
 
 At Priceline Pharmacy Pacific Fair in Broadbeach, our trained pharmacists provide [UTI treatment](/uti-treatment/) and [contraception consultations](/hormonal-contraceptive-pill/). Below we explain what the Queensland rules cover, what happens in a consultation, what it costs and when you still need a doctor.
 
-## What can pharmacists prescribe in Queensland?
+## What can pharmacists treat in Queensland?
 
 Queensland built these services up in stages. The UTI service began as a pilot in June 2020, and in July 2022 the Queensland Government announced it would be made permanent. Pilots for contraception and everyday conditions followed, with pharmacists taking part from Cairns to the Gold Coast. In March 2025 the Health Minister announced those services would continue permanently.
 
@@ -37,7 +37,7 @@ The table shows each condition and who it's for, based on Queensland's Extended 
 | Condition or service | Who it's for |
 | --- | --- |
 | Uncomplicated bladder infection (UTI) | Women aged 18 to 65 |
-| Contraception: the pill, vaginal ring or contraceptive injection | Women aged 16 and over |
+| Contraception | Women aged 16 and over |
 | Reflux and gastro-oesophageal reflux disease (GORD) | Ages 18 to 55 |
 | Nausea and vomiting with gastro | 18 and over |
 | Hay fever and non-allergic rhinitis | Ask the pharmacist |
@@ -56,9 +56,9 @@ The table shows each condition and who it's for, based on Queensland's Extended 
 
 Queensland is also running a separate pilot for some long-term conditions, such as blood pressure and cholesterol management, asthma and COPD. It's only offered at participating pharmacies and runs until 30 June 2027.
 
-### What if you just need more of your usual pill?
+### What if you just want to continue your usual contraception?
 
-You don't need a separate service. The contraception consultation covers continuing your current pill as well as starting or changing one. Under the Queensland rules, a pharmacist's prescription for contraception can cover up to 12 months' supply.
+You don't need a separate service. The contraception consultation covers continuing your current contraception as well as starting or changing it. Under the Queensland rules, a pharmacist's prescription for contraception can cover up to 12 months' supply.
 
 ## Does every pharmacy offer every service?
 
@@ -67,7 +67,7 @@ No. Only pharmacists who have completed the additional clinical training can pro
 Here's what you'll find at our Pacific Fair store:
 
 - **UTI treatment**: for women aged 18 to 65 with symptoms of an uncomplicated bladder infection. No booking needed: ask for a trained pharmacist at the prescription counter and allow about 15 minutes.
-- **Contraception consultations**: for women aged 16 and over who want to start, restart, change or continue the pill, vaginal ring or contraceptive injection. Please call first, as our trained pharmacists are usually available Monday to Friday.
+- **Contraception consultations**: for women aged 16 and over who want to start, restart, change or continue their contraception. Please call first, as our trained pharmacists are usually available Monday to Friday.
 
 For the other conditions on the list, our pharmacists can still give advice and talk you through over-the-counter options, for example for [heartburn and reflux](/heartburn-relief/), [quitting smoking](/quit-smoking/) and [weight management](/weight-loss-counselling-and-advice/). If you need a prescription, we can point you to a GP.
 
@@ -96,7 +96,7 @@ Some people will soon pay less. The Australian Government has announced a 12-mon
 
 ## When do you still need a GP?
 
-Pharmacist services are designed for mild, uncomplicated problems in people who meet the criteria. healthdirect notes that men, children and pregnant people need to see a doctor to get antibiotics for a UTI. The Queensland service covers the pill, vaginal ring and injection only, so for a contraceptive implant or IUD you'll need a doctor.
+Pharmacist services are designed for mild, uncomplicated problems in people who meet the criteria. healthdirect notes that men, children and pregnant people with UTI symptoms need to see a doctor. For longer-acting contraception, you'll also need a doctor.
 
 It's also time for a GP if your symptoms are severe, keep coming back or haven't improved after treatment, or if other health conditions make things more complicated.
 

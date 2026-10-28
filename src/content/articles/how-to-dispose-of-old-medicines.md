@@ -3,7 +3,7 @@ title: "How to get rid of old medicines safely (free at the pharmacy)"
 description: "Unwanted medicines go back to any pharmacy for free, safe disposal. What we accept at our Pacific Fair counter, where sharps go, and how to read expiry dates."
 seoTitle: "How to dispose of old medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -18,7 +18,7 @@ references:
     url: "https://findapharmacy.com.au/latest-updates/how-to-dispose-of-old-medicines-safely-in-australia"
   - name: "healthdirect – Out-of-date medicines"
     url: "https://www.healthdirect.gov.au/out-of-date-medicines"
-  - name: "healthdirect – Insulin (safe disposal of sharps)"
+  - name: "healthdirect – Safe disposal of needles and sharps"
     url: "https://www.healthdirect.gov.au/insulin"
   - name: "healthdirect – Accidental overdose of medicines"
     url: "https://www.healthdirect.gov.au/accidental-overdose-of-medicines"
@@ -62,7 +62,7 @@ The Pharmacy Guild lists these as items not to return through the medicines prog
 
 ### What should you do with used needles and sharps?
 
-If you use insulin, other injections or a finger-prick device, your used sharps need their own disposal route. healthdirect advises:
+If you use injectable medicines or a finger-prick device, your used sharps need their own disposal route. healthdirect advises:
 
 - Never put sharps in your household general waste bin.
 - Put used sharps straight into a purpose-made sharps container. healthdirect notes these are available from pharmacies.
@@ -95,7 +95,7 @@ Some medicines have a shorter life once opened or prepared:
 | Medicines specially made (compounded) by a pharmacist | Usually 28 days or less |
 | Most other medicines | The expiry date, or as the label directs |
 
-healthdirect singles out adrenaline autoinjectors, angina medicine (GTN) and insulin as ones to keep a close eye on. If you've taken an expired medicine, talk to your pharmacist or doctor.
+healthdirect singles out emergency medicines, such as allergy autoinjectors and angina medicines, and diabetes medicines as ones to keep a close eye on. If you've taken an expired medicine, talk to your pharmacist or doctor.
 
 ## How do you clear out a family member's medicine cupboard?
 

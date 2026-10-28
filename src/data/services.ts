@@ -193,7 +193,7 @@ export const services: Service[] = [
     group: 'pharmacy',
     image: 'weight-management-shelves.jpg',
     atAGlance: {
-      what: 'Private conversations, free health checks and practical advice, including support if your doctor has prescribed a medicine for weight management.',
+      what: 'Private conversations, free health checks and practical advice, including a check of the medicines you already take.',
       who: 'Anyone who wants support managing their weight.',
       cost: 'Free.',
       booking: 'No booking needed.',
@@ -251,11 +251,11 @@ export const services: Service[] = [
   {
     slug: 'hormonal-contraceptive-pill',
     name: 'Contraception consultations',
-    short: 'Start, change or continue the pill, ring or injection with a trained pharmacist. $35.',
+    short: 'Start, change or continue your contraception with a trained pharmacist. $35.',
     group: 'health',
     image: 'consult-room.jpg',
     atAGlance: {
-      what: 'A private consultation with a trained pharmacist who can prescribe the pill, vaginal ring or contraceptive injection under the Queensland pharmacy service.',
+      what: 'A private contraception consultation with a trained pharmacist, under the Queensland pharmacy service.',
       who: 'Women aged 16 and over who want to start, restart, change or continue their contraception.',
       cost: '$35 consultation. Your contraception is charged separately; ask us about the cost of your option.',
       time: '10 to 20 minutes.',
@@ -299,13 +299,13 @@ export const services: Service[] = [
   {
     slug: 'emergency-contraception',
     name: 'Emergency contraception',
-    short: 'No appointment or consultation fee. Fill in a short questionnaire and you only pay for the pill.',
+    short: 'No appointment or consultation fee. Fill in a short private questionnaire and a pharmacist checks what’s suitable.',
     group: 'health',
     image: 'scripts-in-counter.jpg',
     atAGlance: {
-      what: 'The emergency contraceptive pill (the morning-after pill), supplied by a pharmacist if it’s suitable after you fill in a short private questionnaire.',
+      what: 'Emergency contraception from a pharmacist, if it’s suitable, after you fill in a short private questionnaire.',
       who: 'Anyone who needs it. The sooner the better.',
-      cost: 'No consultation fee. You only pay for the pill.',
+      cost: 'No consultation fee. You only pay for any medicine supplied.',
       time: 'A few minutes.',
       booking: 'No appointment needed.',
       howToBook: 'Ask at the counter for the questionnaire.',

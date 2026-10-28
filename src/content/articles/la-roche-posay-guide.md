@@ -3,7 +3,7 @@ title: "La Roche-Posay guide: Effaclar, Cicaplast, Lipikar, Anthelios and more"
 description: "Effaclar for oily skin, Toleriane for sensitive skin, Lipikar and Cicaplast for dry patches, Anthelios SPF50+ and the serums: La Roche-Posay explained."
 seoTitle: "La Roche-Posay guide | Priceline Pacific Fair"
 publishDate: 2026-10-27
-modifiedDate: 2026-10-27
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -118,4 +118,4 @@ Comparing brands? See our guides to [CeraVe](/cerave-guide/), [The Ordinary](/th
 - You have a rash you're not sure about, or a spot or mole that's new or changing.
 - You're pregnant, trying to conceive or breastfeeding and want to use active skincare.
 
-A GP can talk to you about prescription treatments. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.
+A GP can talk to you about other treatments. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.

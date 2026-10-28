@@ -3,7 +3,7 @@ title: "Forgot your medicine on holiday? How to get it on the Gold Coast"
 description: "Forgot medication on holiday? Step-by-step options for Gold Coast visitors from interstate and overseas, including eScripts and a GP inside our store."
 seoTitle: "Forgot medication on holiday? | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: local-guides
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -39,7 +39,7 @@ If you can't remember the name, don't guess. Someone at home may be able to phot
 
 ### How urgent is it?
 
-Missing a dose of some medicines is an inconvenience. Missing others, such as insulin, reliever puffers, seizure medicines or some heart medicines, can quickly become a health risk. If you're not sure which group yours falls into, tell the pharmacist straight away and let them help you judge the urgency.
+Missing a dose of some medicines is an inconvenience. Missing others, such as diabetes medicines, reliever puffers, seizure medicines or some heart medicines, can quickly become a health risk. If you're not sure which group yours falls into, tell the pharmacist straight away and let them help you judge the urgency.
 
 Left diabetes supplies behind? If you're registered with the NDSS, we can supply subsidised test strips, pen needles and syringes. See [diabetes supplies and the NDSS](/national-diabetes-services-scheme/).
 
@@ -58,7 +58,7 @@ There's also a national arrangement called PBS Continued Dispensing. Under it, a
 - you haven't had that medicine supplied this way in the past 12 months; and
 - it's safe and appropriate for you.
 
-The eligible list is mainly medicines for long-term conditions, such as asthma and other lung conditions, diabetes, high cholesterol and heart disease, plus oral contraceptives and some others. It doesn't cover every medicine, so ask us whether it applies to yours. Ask us about any cost before we supply.
+The eligible list is mainly medicines for long-term conditions, such as asthma and other lung conditions, diabetes, high cholesterol and heart disease, and some others. It doesn't cover every medicine, so ask us whether it applies to yours. Ask us about any cost before we supply.
 
 ## Step 3: Ask your home GP to send an eScript
 

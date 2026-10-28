@@ -3,7 +3,7 @@ title: "Can you take paracetamol and ibuprofen together?"
 description: "Yes, most healthy adults can. How to time doses, the daily limit for each, how to avoid doubling up with cold and flu tablets, and who should skip ibuprofen."
 seoTitle: "Can you take paracetamol and ibuprofen at the same time?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-25
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -38,7 +38,7 @@ After that, each medicine runs on its own clock:
 - **Paracetamol:** wait at least 4 hours before the next dose, and take no more than 4 grams (8 standard tablets) in 24 hours.
 - **Ibuprofen:** follow the label for how often you can take it and the most you can take in a day.
 
-Write down the time of each dose so you don't double up. Slow-release paracetamol is taken differently, so check the table below.
+Write down the time of each dose so you don't double up, and always check the label for how often to take it.
 
 ## How do paracetamol and ibuprofen work?
 
@@ -68,7 +68,6 @@ Always check the strength of your tablets and follow the directions on the pack.
 | --- | --- | --- |
 | Type of medicine | Pain and fever reliever | Anti-inflammatory (NSAID) |
 | Adult dose limits | healthdirect: no more than 1 gram every 4 to 6 hours, and a total of no more than 4 grams in a day | The maximum daily dose depends on the product, so follow the label |
-| Slow-release versions | Modified-release paracetamol is taken every 8 hours (3 times a day) | Check the label |
 | Take extra care if you | Have liver or kidney problems, drink more than the recommended amount of alcohol, or are very underweight | Have stomach, kidney, liver or heart problems or asthma, take a blood thinner, are pregnant, or are over 65 |
 
 ## What about combination tablets and cold and flu products?

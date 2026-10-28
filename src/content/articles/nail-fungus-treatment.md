@@ -19,7 +19,7 @@ references:
 draft: false
 ---
 
-Nail fungus is common and treatable, but it’s slow. Antifungal nail lacquers from the pharmacy may help mild infections, while more stubborn ones often need prescription treatment from a GP, and a healthy new nail can take months to grow. The sooner you start, the better, so it’s worth getting a discoloured or thickened nail checked early.
+Nail fungus is common and treatable, but it’s slow. Antifungal nail lacquers from the pharmacy may help mild infections, while more stubborn ones often need treatment from a GP, and a healthy new nail can take months to grow. The sooner you start, the better, so it’s worth getting a discoloured or thickened nail checked early.
 
 Nail infections often start as athlete’s foot on the skin, so if your feet are itchy or peeling too, treat that as well; our [athlete’s foot guide](/athletes-foot-treatment/) explains how. You’ll find more everyday conditions in our [common illnesses guides](/common-illness-information/).
 
@@ -52,13 +52,12 @@ The fungi that cause nail infections love warm, damp places, which makes the Gol
 
 ## Which nail fungus treatments can you get at the pharmacy?
 
-For a mild infection, the pharmacy option is an antifungal nail lacquer, such as one containing amorolfine. It’s painted onto the affected nail, usually once or twice a week, after gently filing the surface so the treatment can soak in.
+For a mild infection, the pharmacy option is an antifungal nail lacquer. It’s painted onto the affected nail, usually once or twice a week, after gently filing the surface so the treatment can soak in.
 
 | Option | How it’s used | Good to know |
 | --- | --- | --- |
-| Antifungal nail lacquer (for example, amorolfine) | Painted on once or twice a week, after filing | Best for a mild infection near the tip or sides of one or two nails. Treatment usually runs for months: follow the pack. |
+| Antifungal nail lacquer | Painted on once or twice a week, after filing | Best for a mild infection near the tip or sides of one or two nails. Treatment usually runs for months: follow the pack. |
 | Antifungal cream, spray or powder | On the skin around the nails and between the toes | Treats athlete’s foot on the skin, which helps stop the nail being reinfected. Creams don’t get through the nail itself. |
-| Antifungal tablets | Prescription only, from a GP | For more severe or widespread infections. healthdirect notes treatment can take 3 to 6 months and may need blood tests. |
 
 A lacquer is less likely to work if the infection has reached the base of the nail, covers most of the nail, or affects several nails. In those cases, see a GP. Ask a pharmacist before using a lacquer on a child, or if you’re pregnant or breastfeeding.
 
@@ -77,10 +76,6 @@ A tip we give at the counter: take a photo of the nail when you start and every 
 ### Myth: “If it hasn’t cleared in a few weeks, the treatment isn’t working.”
 
 **Fact:** Nail treatment takes patience. healthdirect notes some nail infections can take up to 12 months to get better, and your nail may not look normal for several months after treatment because the healthy nail has to grow out.
-
-### Myth: “Tablets are the easy fix.”
-
-**Fact:** For more severe or widespread infections, a doctor may prescribe antifungal tablets. healthdirect notes treatment can take 3 to 6 months, and you may need blood tests to check your liver while you’re taking them. Your GP will talk you through whether they’re right for you.
 
 ### Myth: “It’s just cosmetic, so it doesn’t matter.”
 
@@ -116,4 +111,4 @@ See your GP if:
 - you’re not sure it’s a fungal infection;
 - you’re pregnant or breastfeeding, or the infection is in a child.
 
-If you have diabetes or a weakened immune system, healthdirect recommends you also see a podiatrist. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can assess your nails and talk about prescription options.
+If you have diabetes or a weakened immune system, healthdirect recommends you also see a podiatrist. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can assess your nails and talk about other options.

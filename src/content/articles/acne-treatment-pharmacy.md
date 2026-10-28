@@ -17,7 +17,7 @@ references:
 draft: false
 ---
 
-For mild acne, a gentle skincare routine plus a pharmacy acne treatment is a good place to start, but it takes patience: most treatments need 6 to 8 weeks of daily use before you see a difference. If your acne is painful, leaving marks or scars, or getting you down, see a GP early, because stronger prescription options are available.
+For mild acne, a gentle skincare routine plus a pharmacy acne treatment is a good place to start, but it takes patience: most treatments need 6 to 8 weeks of daily use before you see a difference. If your acne is painful, leaving marks or scars, or getting you down, see a GP early, because there are other treatments a doctor can talk to you about.
 
 It’s written the way we’d explain acne to you at the counter. For a routine that won’t clog pores, see our [skincare routine order guide](/skincare-routine-order/), and if you’re thinking about retinol for marks or breakouts, start with our [retinol for beginners guide](/retinol-for-beginners/).
 
@@ -82,7 +82,6 @@ Pharmacies stock a range of acne treatments, including washes, gels, creams and 
 | Benzoyl peroxide | Reduces acne-causing bacteria and helps unblock pores | Start with a lower strength. It can dry and irritate skin, and it bleaches towels, pillowcases and clothes |
 | Salicylic acid | Loosens dead skin cells and unblocks pores | Good for blackheads and whiteheads. Found in washes, toners and gels |
 | Niacinamide (often with zinc) | A skincare ingredient that can help with oiliness and redness | Gentle, and often easier to start with on sensitive skin |
-| Prescription treatments | Creams, tablets or hormonal treatments from a GP | For acne that’s moderate to severe, painful, scarring, or not improving |
 
 If you’re comparing skincare ranges made for acne-prone skin, our guides to [La Roche-Posay](/la-roche-posay-guide/), [CeraVe](/cerave-guide/) and [The Ordinary](/the-ordinary-guide/) explain what’s in each. You can also [browse the facial skincare range on priceline.com.au](https://www.priceline.com.au/c/facial-skincare).
 
@@ -97,7 +96,7 @@ Our pharmacists and beauty advisors can also help you put together a simple rout
 
 ## When to see a GP about acne
 
-Some of the most effective acne treatments need a prescription. According to the Better Health Channel and healthdirect, a GP may recommend prescription creams, tablets or hormonal treatments, and may refer you to a dermatologist for more severe acne.
+If pharmacy treatments aren’t enough, a GP can talk to you about other treatments, and may refer you to a dermatologist for more severe acne.
 
 See your GP if:
 

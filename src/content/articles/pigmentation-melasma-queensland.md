@@ -3,7 +3,7 @@ title: "Pigmentation and melasma in Queensland: what helps"
 description: "Most uneven skin tone in Queensland comes back to the sun. Sun spots vs melasma vs acne marks, why daily tinted SPF50+ helps, and which ingredients may help."
 seoTitle: "Pigmentation and melasma in Qld | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -24,7 +24,7 @@ references:
     url: "https://www.cancer.org.au/cancer-information/causes-and-prevention/sun-safety/check-for-signs-of-skin-cancer"
 draft: false
 ---
-Most uneven skin tone in Queensland comes back to the sun, so the thing that helps most is daily, year-round sun protection: a broad-spectrum SPF50+ sunscreen every morning (a tinted one if you have melasma), a broad-brimmed hat and shade. Skincare ingredients such as niacinamide, vitamin C, azelaic acid and retinol may help improve the appearance of pigmentation over time, and prescription options are available through a GP or dermatologist.
+Most uneven skin tone in Queensland comes back to the sun, so the thing that helps most is daily, year-round sun protection: a broad-spectrum SPF50+ sunscreen every morning (a tinted one if you have melasma), a broad-brimmed hat and shade. Skincare ingredients such as niacinamide, vitamin C, azelaic acid and retinol may help improve the appearance of pigmentation over time, and a GP or dermatologist can talk to you about other options.
 
 Pigmentation is slow to fade and quick to return: DermNet notes melasma can come back with summer sun, even after a good result. And any spot that is new, changing or different from your others needs a skin check, not a fade cream.
 
@@ -45,7 +45,7 @@ DermNet describes sun spots as harmless in themselves, but notes they are a risk
 - **UV.** DermNet explains that ultraviolet and visible light both promote the production of melanin (skin pigment), and sun spots develop from long-term UV exposure. As our guide to [sun safety on the Gold Coast](/sun-safety-gold-coast/) explains, UV here reaches damaging levels every day of the year.
 - **Visible light.** A review in the *Australian Journal of General Practice* (AJGP) notes that the shorter wavelengths of visible light, such as blue and purple light, have also been shown to play a part in melasma.
 - **Heat.** The same review says long periods of heat exposure, such as at work or from cooking fires, may be linked to melasma.
-- **Hormones.** DermNet lists pregnancy and the oestrogen and progesterone contraceptive pill as triggers. Pregnancy, Birth and Baby says melasma is very common in pregnancy and usually develops in the second or third trimester. If you think your pill is playing a part, talk to your GP. Don't stop it on your own.
+- **Hormones.** DermNet lists pregnancy and hormonal contraception as triggers. Pregnancy, Birth and Baby says melasma is very common in pregnancy and usually develops in the second or third trimester. If you think your contraception is playing a part, talk to your GP. Don't stop it on your own.
 - **Perfumed products.** DermNet notes that perfumed soaps, toiletries and cosmetics can cause a reaction with sunlight that triggers melasma in some people.
 - **Inflammation and injury.** Marks left behind by pimples, rashes or burns are post-inflammatory hyperpigmentation. DermNet notes that harsh physical treatments can aggravate it by injuring the skin, so try not to pick or scrub.
 
@@ -73,7 +73,7 @@ DermNet and the AJGP review list a range of ingredients used for pigmentation, a
 - **Niacinamide** (a form of vitamin B3) is on DermNet's list of topical options for post-inflammatory marks.
 - **Vitamin C** (ascorbic acid) appears on both lists. The AJGP review describes it as well tolerated but highly unstable, so keep the lid on and store it as directed.
 - **Azelaic acid** is included by both DermNet and the AJGP review, and is available in some skincare products.
-- **Retinol** belongs to the retinoid family, which DermNet lists among pigmentation treatments at prescription strength. Cosmetic retinol may help improve the appearance of uneven tone, but it can irritate, and inflamed skin is what leaves marks in the first place, so start slowly. Our [retinol for beginners](/retinol-for-beginners/) guide explains how.
+- **Retinol** belongs to the retinoid family, which DermNet lists among pigmentation treatments. Cosmetic retinol may help improve the appearance of uneven tone, but it can irritate, and inflamed skin is what leaves marks in the first place, so start slowly. Our [retinol for beginners](/retinol-for-beginners/) guide explains how.
 
 A few tips:
 
@@ -82,9 +82,9 @@ A few tips:
 
 If breakouts keep leaving marks, getting the acne itself under control is the first step. Our guide to [acne treatment at the pharmacy](/acne-treatment-pharmacy/) covers what helps and when to see a GP.
 
-## What about prescription creams and clinic treatments?
+## When should I see a GP or dermatologist?
 
-If pigmentation is bothering you, or isn't improving with sun protection and skincare, see a GP or dermatologist. Prescription creams and tablets are available, and DermNet describes a combination prescription cream as one of the most successful options for melasma. A doctor can also confirm what type of pigmentation you have, which matters when choosing treatment.
+If pigmentation is bothering you, or isn't improving with sun protection and skincare, see a GP or dermatologist. A doctor can confirm what type of pigmentation you have, which matters when choosing treatment, and talk you through other options.
 
 Clinic treatments such as chemical peels and lasers need care. DermNet says they can be used with caution but carry a risk of worsening melasma, and the AJGP review advises that some techniques are best done by experts experienced with skin of colour, because they can cause post-inflammatory pigmentation.
 

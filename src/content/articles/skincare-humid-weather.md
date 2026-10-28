@@ -3,7 +3,7 @@ title: "Skincare for humid weather: a Gold Coast summer routine"
 description: "Sticky Gold Coast summer? Skincare for humid weather: sweat, air-con, breakouts and a simple day and night routine for oily, dry and sensitive skin."
 seoTitle: "Skincare for humid weather | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -44,7 +44,7 @@ Moving between muggy outdoor air and cool, dry air-con, whether at work, in the 
 
 ### Pigmentation
 
-The Australasian College of Dermatologists lists sun exposure and hormonal changes (for example pregnancy or the contraceptive pill) among the factors that play a role in melasma, a type of patchy pigmentation. The College recommends sun protection as an essential part of managing it. Cancer Council Queensland notes the UV Index here reaches 3 or above every day, so daily sunscreen matters for uneven skin tone all year, not just in summer.
+The Australasian College of Dermatologists lists sun exposure and hormonal changes (for example during pregnancy) among the factors that play a role in melasma, a type of patchy pigmentation. The College recommends sun protection as an essential part of managing it. Cancer Council Queensland notes the UV Index here reaches 3 or above every day, so daily sunscreen matters for uneven skin tone all year, not just in summer.
 
 ## What to swap for summer
 

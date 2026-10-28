@@ -3,7 +3,7 @@ title: "Can you drink alcohol while taking antibiotics?"
 description: "Only a few antibiotics react badly with alcohol, and we label those boxes. Why drinking can still slow your recovery, and how to plan around party season."
 seoTitle: "Alcohol and antibiotics | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -94,7 +94,7 @@ healthdirect notes that women and older people are at higher risk of interaction
 
 Remember too that antibiotics don't work against viruses, which cause most colds, flu and COVID-19. If you pick up a sniffle before a party, antibiotics won't help it.
 
-At Pacific Fair, we'll tell you whether alcohol is a problem with your antibiotic when we dispense it. You can [send your script ahead](/prescriptions/) and collect it when it suits you, including late on Thursdays.
+At Pacific Fair, our pharmacists will tell you whether alcohol is a problem with any medicine we dispense. You can [send your script ahead](/prescriptions/) and collect it when it suits you, including late on Thursdays.
 
 ## When to see a pharmacist or GP
 

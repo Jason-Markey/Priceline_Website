@@ -3,7 +3,7 @@ title: "The Ordinary guide: what to use for your skin, and what not to mix"
 description: "Niacinamide, salicylic acid, retinal and more: which The Ordinary products suit oily, dry or acne-prone skin, what not to mix, and the Peeling Solution rules."
 seoTitle: "The Ordinary guide | Priceline Pacific Fair"
 publishDate: 2026-10-27
-modifiedDate: 2026-10-27
+modifiedDate: 2026-10-28
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -136,4 +136,4 @@ Comparing brands? See our guides to [CeraVe](/cerave-guide/), [La Roche-Posay](/
 - Dark patches are spreading or changing, or you're not sure what a spot is.
 - You're pregnant, trying to conceive or breastfeeding.
 
-A GP can talk to you about prescription options. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.
+A GP can talk to you about other options. The GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are one option while you're at Pacific Fair.

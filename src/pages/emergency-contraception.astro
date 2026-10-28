@@ -5,46 +5,46 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('emergency-contraception')!;
 
 const faqs = [
-  { q: 'Do I need a prescription or an appointment?', a: 'No. The emergency contraceptive pill (the morning-after pill) is a pharmacist-only medicine, so you can get it from our pharmacists without a prescription or an appointment. Just ask at the counter and fill in a short private questionnaire.' },
-  { q: 'Is there a consultation fee?', a: 'No. There’s no consultation fee for emergency contraception. A pharmacist assesses your questionnaire and, if the pill is suitable for you, you only pay for the pill.' },
-  { q: 'How soon do I need to take it?', a: 'As soon as possible. It is most effective within 72 hours (3 days) of unprotected sex, and depending on the medicine it can be taken up to 120 hours (5 days) afterwards, though it becomes less effective the longer you wait. We’re open 7 days, so come in today.' },
-  { q: 'Does the morning-after pill cause an abortion?', a: 'No. It works mainly by delaying or preventing ovulation, so an egg isn’t released. It won’t end an existing pregnancy. Ask our pharmacists if you have any concerns.' },
+  { q: 'Do I need a prescription or an appointment?', a: 'No. You don’t need a prescription or an appointment for emergency contraception from our pharmacists. Just ask at the counter and fill in a short private questionnaire, and a pharmacist will check what’s suitable for you.' },
+  { q: 'Is there a consultation fee?', a: 'No. There’s no consultation fee for emergency contraception. A pharmacist assesses your questionnaire and, if it’s suitable for you, you only pay for the medicine supplied.' },
+  { q: 'How soon do I need to come in?', a: 'As soon as possible. Emergency contraception works best the sooner it’s used after unprotected sex, and it becomes less effective the longer you wait. We’re open 7 days, so come in today.' },
+  { q: 'Does emergency contraception cause an abortion?', a: 'No. Emergency contraception from the pharmacy works mainly by delaying or preventing ovulation, so an egg isn’t released. It won’t end an existing pregnancy. Ask our pharmacists if you have any concerns.' },
   { q: 'Can I get it for a partner or friend?', a: 'Ask us. Our pharmacists usually need the person who’ll be taking it to fill in the questionnaire, so they can check it’s suitable and explain how to take it, but we’ll do what we can to help.' },
   { q: 'Does it protect against sexually transmitted infections?', a: 'No. If you’re worried about an STI, the GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can arrange testing.' },
-  { q: 'Will it affect my chances of getting pregnant later?', a: 'No. The emergency contraceptive pill doesn’t affect your future fertility. It can be taken more than once if needed, but it isn’t meant to be your regular contraception, so ask us about ongoing options.' },
+  { q: 'Will it affect my chances of getting pregnant later?', a: 'No. Emergency contraception doesn’t affect your future fertility. It isn’t meant to be your regular contraception, though, so ask us about ongoing options.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Morning-After Pill Broadbeach | Priceline Pacific Fair"
-  description="The morning-after pill without a prescription, appointment or consultation fee at Priceline Pacific Fair, Broadbeach. Fill in a short questionnaire. 7 days."
-  h1="Emergency contraception (the morning-after pill) at Pacific Fair, Broadbeach"
-  lead="Yes, the emergency contraceptive pill (the morning-after pill) is available without a prescription at Priceline Pharmacy Pacific Fair in Broadbeach. There’s no appointment and no consultation fee: fill in a short private questionnaire, a pharmacist checks it, and if the pill is suitable for you, you only pay for the pill. The sooner it’s taken, the better it works, so come in as soon as you can."
+  title="Emergency Contraception Broadbeach | Priceline Pacific Fair"
+  description="Emergency contraception at Priceline Pacific Fair, Broadbeach, with no prescription, appointment or consultation fee. Fill in a short questionnaire. Open 7 days."
+  h1="Emergency contraception at Pacific Fair, Broadbeach"
+  lead="Yes, you can get emergency contraception without a prescription at Priceline Pharmacy Pacific Fair in Broadbeach. There’s no appointment and no consultation fee: fill in a short private questionnaire, and a pharmacist will check what’s suitable for you. Emergency contraception works best the sooner it’s used, so come in as soon as you can."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-27"
+  dateModified="2026-10-28"
 >
-  <h2>How soon do I need to take it?</h2>
-  <p>As soon as you can. The emergency contraceptive pill is most effective when taken within 72 hours (3 days) of unprotected sex. Depending on the medicine, it can be taken up to 120 hours (5 days) afterwards, but it becomes less effective the longer you leave it. If it’s been longer than that, come and talk to us anyway, as there may still be options.</p>
+  <h2>How soon do I need to come in?</h2>
+  <p>As soon as you can. Emergency contraception works best the sooner it’s used after unprotected sex. Some options can be used up to 5 days (120 hours) afterwards, but every option becomes less effective the longer you leave it. If it’s been longer than that, come and talk to us anyway, as there may still be options.</p>
   <p>We’re open 7 days and until 9pm on Thursdays. See <a href="/visit-us/">hours and directions</a>.</p>
 
   <h2>Do I need a prescription or an appointment?</h2>
-  <p>No. The emergency contraceptive pill is a pharmacist-only medicine, which means our pharmacists can supply it without a prescription. There’s no appointment and no consultation fee; just come to the counter and ask for the morning-after pill.</p>
+  <p>No. Our pharmacists can provide emergency contraception without a prescription. There’s no appointment and no consultation fee; just come to the counter and ask for emergency contraception.</p>
 
   <h2>What happens when I ask for it?</h2>
   <p>We’ll give you a short questionnaire to fill in privately. It asks when the unprotected sex happened, where you are in your cycle, and whether you take any other medicines.</p>
-  <p>A pharmacist reads your answers to choose the most suitable option and make sure it will work for you. If the pill is suitable, they’ll supply it, and if they need to check anything, they’ll ask you privately.</p>
+  <p>A pharmacist reads your answers to work out the most suitable option and make sure it will work for you. If it’s suitable, they’ll supply it, and if they need to check anything, they’ll ask you privately.</p>
   <p>We’ll explain how to take it and what to expect afterwards. Always read the label and follow the directions for use.</p>
 
   <h2>How much does it cost?</h2>
-  <p>There’s no consultation fee. If the pill is suitable for you, you only pay for the pill, and the price depends on the medicine supplied.</p>
+  <p>There’s no consultation fee. If it’s suitable for you, you only pay for the medicine supplied.</p>
 
   <h2>What should I know afterwards?</h2>
   <ul>
-    <li>The emergency contraceptive pill only covers the one episode. Use condoms or your regular contraception for the rest of your cycle.</li>
+    <li>Emergency contraception only covers the one episode. Use condoms or your regular contraception for the rest of your cycle.</li>
     <li>Your next period may come a little earlier or later than usual. If it’s more than a week late, do a pregnancy test.</li>
     <li>If you vomit within a few hours of taking it, come back and talk to us, as you may need another dose.</li>
     <li>Mild side effects such as nausea, tiredness or a headache can happen and usually pass quickly.</li>
@@ -53,5 +53,5 @@ const faqs = [
 
   <h2>What other options are there?</h2>
   <p>A copper IUD, inserted by a doctor within 5 days, is another form of emergency contraception and can then stay in place as ongoing contraception. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can advise.</p>
-  <p>If you’d like to start or restart regular contraception, our trained pharmacists can prescribe the pill, the vaginal ring or the contraceptive injection for eligible women aged 16 and over, in a $35 consultation. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page, or our <a href="/womens-health/">women’s health</a> page for other support.</p>
+  <p>If you’d like to start or restart regular contraception, our trained pharmacists offer contraception consultations for eligible women aged 16 and over, for $35. See our <a href="/hormonal-contraceptive-pill/">contraception consultations</a> page, or our <a href="/womens-health/">women’s health</a> page for other support.</p>
 </ServicePage>

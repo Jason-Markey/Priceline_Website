@@ -8,35 +8,28 @@ const service = serviceBySlug('hormonal-contraceptive-pill')!;
 
 const faqs = [
   { q: 'Do I need a script from my doctor?', a: 'No. If you’re eligible, the pharmacist writes the prescription as part of the consultation and dispenses it on the spot. Call us to book.' },
-  { q: 'I’m already on the pill and my script has run out. Can you help?', a: 'Yes. This service can be used to continue contraception you’re already using, if you’re eligible. Call us to book a consultation.' },
+  { q: 'My contraception script has run out. Can you help?', a: 'Yes. This service can be used to continue contraception you’re already using, if you’re eligible. Call us to book a consultation.' },
   { q: 'Is there a Medicare rebate for the consultation?', a: 'No. There’s no Medicare rebate for pharmacist consultations. The consultation costs $35, and your contraception is charged separately. Ask us about the cost of your option when you book.' },
-  { q: 'Can you give the contraceptive injection in store?', a: 'Our trained pharmacists can prescribe the contraceptive injection. Ask us how the injection is given when you call to book.' },
-  { q: 'Can I get an implant or IUD here?', a: 'Not from the pharmacy. For longer-acting options we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, offer IUD insertion.' },
-  { q: 'Can I get emergency contraception?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is available from our pharmacists without an appointment or consultation fee. Ask at the counter, fill in a short questionnaire, and if it’s suitable you only pay for the pill. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
+  { q: 'Can I get longer-acting contraception here?', a: 'Not from the pharmacy. For longer-acting options we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can talk you through them.' },
+  { q: 'Can I get emergency contraception?', a: 'Yes. Emergency contraception is available from our pharmacists without an appointment or consultation fee. Ask at the counter and fill in a short questionnaire. See our <a href="/emergency-contraception/">emergency contraception</a> page.' },
 ];
 ---
 
 <ServicePage
   service={service}
   title="Contraception Consultations, $35 | Priceline Pacific Fair"
-  description="Start, change or continue the pill, vaginal ring or contraceptive injection with a trained pharmacist at Priceline Pacific Fair, Broadbeach. $35, no GP visit."
+  description="Start, change or continue your contraception with a trained pharmacist at Priceline Pacific Fair, Broadbeach. $35, in a private room, no GP visit needed."
   h1="Contraception consultations with a pharmacist at Pacific Fair"
-  lead="Yes, in Queensland a trained pharmacist can prescribe the pill, the vaginal ring or the contraceptive injection for women aged 16 and over, without a GP visit. At Priceline Pharmacy Pacific Fair in Broadbeach the consultation costs $35, takes 10 to 20 minutes and happens in our private consultation room. Please call first, as trained pharmacists are usually available Monday to Friday."
+  lead="Yes, in Queensland a trained pharmacist can help women aged 16 and over start, restart, change or continue their contraception, without a GP visit. At Priceline Pharmacy Pacific Fair in Broadbeach the consultation costs $35, takes 10 to 20 minutes and happens in our private consultation room. Please call first, as trained pharmacists are usually available Monday to Friday."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-27"
+  dateModified="2026-10-28"
 >
-  <h2>What can a pharmacist prescribe?</h2>
-  <p>If it’s suitable for you, our trained pharmacists can prescribe:</p>
-  <ul>
-    <li>the combined oral contraceptive pill</li>
-    <li>the progestogen-only pill (the “mini-pill”)</li>
-    <li>the vaginal ring</li>
-    <li>the contraceptive injection (ask us how the injection is given)</li>
-  </ul>
-  <p>For longer-acting options, such as an implant or IUD, we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, offer IUD insertion.</p>
+  <h2>What does the consultation cover?</h2>
+  <p>Our trained pharmacists can talk with you about your contraception and, if it’s suitable for you, prescribe and dispense it during the consultation.</p>
+  <p>For longer-acting options, we’ll refer you to a GP. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can talk you through those.</p>
 
   <h2>Who can use this service?</h2>
   <p>The Queensland service is for women aged 16 and over who want to start, restart, change or continue their contraception. It became a permanent service on 1 July 2025. If the method you’re interested in isn’t the most suitable choice for you, we’ll explain why and refer you to a GP.</p>
@@ -61,7 +54,7 @@ const faqs = [
   <p>Call us on <a href={site.phoneHref}>{site.phone}</a> to book. We have several trained pharmacists, usually available Monday to Friday, but consultations take a little longer and depend on a trained pharmacist being on shift, so please call first.</p>
 
   <h2>When would a GP be the better option?</h2>
-  <p>Sometimes a GP is the better next step. For example, if something in your health history means a method may not be suitable for you, if your blood pressure reading is high, or if you’d like an implant or IUD.</p>
+  <p>Sometimes a GP is the better next step. For example, if something in your health history means a method may not be suitable for you, if your blood pressure reading is high, or if you’d like a longer-acting option.</p>
 
   <h2>Is the consultation private?</h2>
   <p>Yes. Consultations happen in a private room, and your information is handled confidentially. You’re welcome to bring a support person. For other support, see our <a href="/womens-health/">women’s health</a> page.</p>

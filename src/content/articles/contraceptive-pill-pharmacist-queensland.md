@@ -1,9 +1,9 @@
 ---
-title: "Contraceptive pill from a Queensland pharmacist: how it works"
-description: "How to get the contraceptive pill from a trained Queensland pharmacist: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair."
-seoTitle: "Contraceptive pill from a pharmacist in Queensland"
+title: "Contraception consultations with a Queensland pharmacist: how they work"
+description: "How contraception consultations with a trained Queensland pharmacist work: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair."
+seoTitle: "Pharmacist contraception consults in Queensland"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-27
+modifiedDate: 2026-10-28
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -18,31 +18,29 @@ references:
     url: "https://statements.qld.gov.au/statements/99941"
   - name: "Meridian Lawyers – From advice to authority: hormonal contraceptive scripts"
     url: "https://www.meridianlawyers.com.au/insights/from-advice-to-authority-hormonal-contraceptive-scripts-unlocked/"
-  - name: "healthdirect – The pill (combined oral contraceptive pill)"
-    url: "https://www.healthdirect.gov.au/the-pill-combined-oral-contraceptive-pill"
   - name: "healthdirect – Blood clots"
     url: "https://www.healthdirect.gov.au/blood-clots"
 draft: false
 ---
-In Queensland, a specially trained pharmacist can now assess you and, if it's suitable, write you a prescription for the contraceptive pill. You don't need to see a doctor first. The service became a permanent part of Queensland community pharmacy on 1 July 2025, and the consultation happens in a private room.
+In Queensland, a specially trained pharmacist can now talk with you about your contraception and, if it's suitable, write you a prescription. You don't need to see a doctor first. The service became a permanent part of Queensland community pharmacy on 1 July 2025, and the consultation happens in a private room.
 
-To book or find out more, see our page on [contraceptive pill consultations with a pharmacist](/hormonal-contraceptive-pill/), or ask at the dispensary counter next time you're at Pacific Fair. Here's what to expect, step by step.
+To book or find out more, see our page on [contraception consultations with a pharmacist](/hormonal-contraceptive-pill/), or ask at the dispensary counter next time you're at Pacific Fair. Here's what to expect, step by step.
 
 ## What is the Queensland pharmacist contraception service?
 
-It started as a pilot, and the Queensland Government then confirmed that pharmacist hormonal contraception services would continue permanently. Pharmacists who have done extra training can talk with you about your contraception needs and may prescribe a hormonal contraceptive. That can be your first one, or something new if you'd like to change.
+It started as a pilot, and the Queensland Government then confirmed that pharmacist contraception services would continue permanently. Pharmacists who have done extra training can talk with you about your contraception needs and, if it's suitable, prescribe it. That can be your first contraception, or something new if you'd like to change.
 
-The service is designed for straightforward, low-risk situations. Most people come in about the pill, but our trained pharmacists can also prescribe the vaginal ring and the contraceptive injection.
+The service is designed for straightforward, low-risk situations. For longer-acting options, your pharmacist will refer you to a GP.
 
 Not every pharmacist can offer the service, because it needs that additional training. Our trained pharmacists are usually available Monday to Friday, so call ahead on (07) 5592 2099 to book.
 
-## Who is eligible for the contraceptive pill from a pharmacist?
+## Who is eligible for a pharmacist contraception consultation?
 
 Under the Queensland service, women aged 16 and over who meet the other eligibility requirements can have a consultation. Being over 16 doesn't automatically mean you'll leave with a prescription. The pharmacist looks at your individual health, and if your situation is more complex, they'll refer you to a doctor.
 
 People often find the service useful when they:
 
-- want to start the pill for the first time
+- want to start contraception for the first time
 - would like to talk about switching to a different option
 - can't get a GP appointment soon and want to keep their contraception on track
 - are shopping at Pacific Fair anyway and would rather sort it out in one trip
@@ -71,13 +69,13 @@ It helps to bring a list of your medicines, or your medicine packets, so nothing
 
 ### Step 4: Blood pressure and BMI check
 
-Your pharmacist will usually check your blood pressure and measure your height and weight to work out your body mass index (BMI). This matters because the pill may not be recommended if you have high blood pressure. If you'd like to keep an eye on these numbers between visits, our [Health Station](/health-station/) can help.
+Your pharmacist will usually check your blood pressure and measure your height and weight to work out your body mass index (BMI). This matters because some types of contraception aren't recommended if you have high blood pressure. If you'd like to keep an eye on these numbers between visits, our [Health Station](/health-station/) can help.
 
 ### Step 5: Deciding together
 
-Based on everything you've discussed, you might get a prescription for a suitable hormonal contraceptive, a referral to a GP, or both. If you get a prescription, it can be filled at any community pharmacy in Queensland. Your pharmacist will explain how to start and what to do if you miss a pill. Always follow the leaflet and your pharmacist's advice.
+Based on everything you've discussed, you might get a prescription for suitable contraception, a referral to a GP, or both. If you get a prescription, it can be filled at any community pharmacy in Queensland. Your pharmacist will explain how to start and what to do if you miss a dose. Always follow the leaflet and your pharmacist's advice.
 
-Some side effects, like headaches, nausea, sore breasts or bloating, can happen when you start the pill. Most get better after the first 3 months. If they don't, come back and talk to us.
+Some people notice side effects when they start a new contraceptive. Your pharmacist will explain what to expect, and if side effects haven't settled after a few months, come back and talk to us.
 
 ### Step 6: Keeping your GP in the loop
 
@@ -89,7 +87,7 @@ The consultation costs $35, and there's no Medicare rebate for pharmacist consul
 
 ## When will the pharmacist refer you to a GP?
 
-Pharmacists work within clear clinical guidelines. The pill may not be recommended if you:
+Pharmacists work within clear clinical guidelines. Your pharmacist will refer you to a doctor if something in your health history means a method may not be suitable, for example if you:
 
 - have ever had a blood clot, such as a deep vein thrombosis, or have a condition that raises your risk of clots
 - are older than 35 and smoke
@@ -98,13 +96,13 @@ Pharmacists work within clear clinical guidelines. The pill may not be recommend
 - have high blood pressure
 - have severe liver problems, breast cancer or some types of migraine
 
-In these situations, or if you'd like to talk about longer-acting options, your pharmacist will refer you to a doctor. Handily, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by, so you often don't need to go far.
+You'll also be referred if you'd like to talk about longer-acting options. Handily, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by, so you often don't need to go far.
 
 ## When to see a pharmacist or GP
 
 See a pharmacist or GP if you:
 
-- have missed pills, or have had vomiting or diarrhoea, and aren't sure whether you're protected
+- have missed doses of your contraception, or have had vomiting or diarrhoea, and aren't sure whether you're protected
 - think you might be pregnant
 - have side effects that haven't settled after a few months
 - need [emergency contraception](/emergency-contraception/) (ask your pharmacist straight away)
