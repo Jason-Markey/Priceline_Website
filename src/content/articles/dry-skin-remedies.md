@@ -3,7 +3,7 @@ title: "Dry skin remedies: a pharmacist’s checklist"
 description: "Dry skin remedies that work: shower habits, choosing a moisturiser and when to see a GP. Tips for skin dried out by Gold Coast sun, salt water and air-con."
 seoTitle: "Dry skin remedies checklist | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -21,13 +21,13 @@ draft: false
 
 The best dry skin remedies are simple: moisturise at least twice a day, apply it while your skin is still damp after a shower, swap soap for a gentle soap-free wash, and keep showers short and lukewarm. Most dry skin improves with a steady daily routine. If it’s red, cracked, very itchy or not getting better, it’s worth getting it checked.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/), where you’ll find practical advice on everyday health concerns.
+If your skin is red, inflamed and very itchy rather than just dry, it may be eczema, which has its own guide: [eczema in summer](/eczema-summer/). For help choosing between pharmacy skincare ranges, see our guides to [CeraVe](/cerave-guide/) and [La Roche-Posay](/la-roche-posay-guide/).
 
 ## What is dry skin?
 
 Dry skin (doctors call it xerosis) happens when the outer layer of your skin loses moisture and its protective oils. That outer layer works like a barrier, keeping water in and irritants out. When it dries out, it can’t do that job as well, so skin feels tight, rough and sometimes itchy.
 
-## Signs of dry skin
+## What does dry skin look like?
 
 - skin that feels tight, especially after showering or swimming;
 - a rough, dull or flaky surface;
@@ -87,6 +87,20 @@ There’s no single best moisturiser. The right one depends on how dry your skin
 | Ointment | Greasy, very protective | Very dry or cracked skin, overnight use |
 
 DermNet notes moisturisers containing humectants, which draw water into the skin, can work well for dry skin. Fragrance-free options are usually gentler on sensitive skin. Ask your pharmacist which suits you.
+
+## Which moisturiser ingredients help dry skin?
+
+The label tells you more than the price. These are the ingredients worth looking for:
+
+| Ingredient | What it does | Good to know |
+| --- | --- | --- |
+| Glycerin, hyaluronic acid | Humectants: draw water into the outer layer of skin | Work best on damp skin, sealed in with a cream |
+| Urea, lactic acid | Humectants that also soften rough, thickened skin | Great for heels, elbows and shins, but can sting on cracked or broken skin |
+| Ceramides, shea butter, plant oils | Emollients: soften skin and help support its barrier | Good for everyday dryness on the face and body |
+| Petrolatum (soft white paraffin), dimethicone | Occlusives: form a light seal that slows water loss | Petrolatum-based ointments suit very dry or cracked skin, especially overnight |
+| Colloidal oatmeal | Soothes dry, itchy skin | A gentle choice for sensitive skin |
+
+For cracked heels, a urea cream at night, with cotton socks over the top, often makes a difference within a week or two. For hands, keep a non-greasy cream by the sink and a richer one by the bed. You can [browse the skincare range on priceline.com.au](https://www.priceline.com.au/c/skincare) or ask us in store.
 
 ## How your pharmacist can help
 

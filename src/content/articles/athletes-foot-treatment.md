@@ -3,7 +3,7 @@ title: "Athlete’s foot treatment: how to clear it for good"
 description: "Athlete's foot treatment: pharmacy antifungal options, how long to use them and when to see a GP. Tips for humid Gold Coast summers, pools and gym showers."
 seoTitle: "Athlete's foot treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -27,7 +27,7 @@ draft: false
 
 Athlete’s foot usually clears with an antifungal cream, gel, spray or powder from the pharmacy, as long as you keep using it after the rash has gone. Keeping your feet dry, especially between the toes, is just as important as the treatment itself. If it doesn’t improve after a few weeks, keeps coming back or you have diabetes, see a GP.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/), covering everyday health problems and when to get help.
+If the infection has already reached a toenail, our guide to [nail fungus treatment](/nail-fungus-treatment/) explains the different options for nails. For other everyday skin, tummy and pain problems, browse the full [A–Z of common illnesses](/common-illness-information/).
 
 ## What is athlete’s foot?
 
@@ -35,7 +35,7 @@ Athlete’s foot (tinea pedis) is a common fungal skin infection of the feet. De
 
 On the Gold Coast, our humid summers, daily swims and closed-in work shoes make it very common. Gym change rooms, pool decks and shared showers at holiday apartments are all places it can spread.
 
-## Symptoms of athlete’s foot
+## What does athlete’s foot look like?
 
 According to healthdirect and the Better Health Channel, athlete’s foot can cause:
 
@@ -55,13 +55,20 @@ You’re more likely to get it if you:
 - don’t dry thoroughly between your toes;
 - share towels, socks or shoes.
 
-## Athlete’s foot treatment: your options at a glance
+## Which athlete’s foot treatment should I use?
 
-| Option | Where to get it | Good to know |
+Most pharmacy treatments contain one of a handful of antifungal ingredients. They all work by killing or stopping the growth of the fungus, and the main differences are how often you apply them and for how long.
+
+| Active ingredient | How it’s used | Good to know |
 | --- | --- | --- |
-| Antifungal creams, gels and sprays | Pharmacy, no prescription needed | The usual first choice for skin infections. Ask your pharmacist which suits you. |
-| Antifungal powders | Pharmacy | Available without a prescription. Ask your pharmacist whether a powder, a cream or both suits you. |
-| Antifungal tablets | Prescription from a GP | healthdirect notes most antifungal tablets need a prescription. They may be needed for stubborn infections. |
+| Terbinafine (cream, gel or spray) | Usually once or twice a day | Some terbinafine products need a shorter course than other creams. Check the label for how long. |
+| Clotrimazole, miconazole, econazole or bifonazole (creams, sprays) | Usually once or twice a day | Often used for 2 to 4 weeks. Keep going after the rash clears, as the label directs. |
+| Tolnaftate or miconazole (powders) | Dust on feet and inside socks and shoes | Help keep feet dry and stop the infection coming back. Often used alongside a cream. |
+| Antifungal tablets | Prescription only, from a GP | For stubborn infections, or when the toenails are involved. healthdirect notes most antifungal tablets need a prescription. |
+
+Creams and gels suit cracked, peeling skin between the toes. Sprays are handy if bending down is hard, and powders are best for prevention. Ask your pharmacist which suits you, especially for children, or if you’re pregnant or breastfeeding.
+
+Our main tip at the counter: whichever product you choose, use it for the full time on the label, even once the itch has gone. Stopping early is a common reason athlete’s foot comes back.
 
 ## Your athlete’s foot questions, answered
 
@@ -79,7 +86,7 @@ Yes, but wear thongs around the pool deck and in change rooms and showers, as th
 
 ### Can it spread to other parts of my body?
 
-Yes. healthdirect notes tinea can spread into the toenails, causing a fungal nail infection, and the Better Health Channel notes the groin is another common spot. Don’t share towels, and wash your hands after applying treatment.
+Yes. healthdirect notes tinea can spread into the toenails, causing a [fungal nail infection](/nail-fungus-treatment/), and the Better Health Channel notes the groin is another common spot. Don’t share towels, and wash your hands after applying treatment.
 
 ### Is it athlete’s foot or something else?
 

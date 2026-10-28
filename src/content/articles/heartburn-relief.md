@@ -3,7 +3,7 @@ title: "Heartburn relief and GORD: what actually helps"
 description: "Heartburn relief from our Broadbeach pharmacists: common triggers, eating and sleep tips, pharmacy reflux medicines, and when chest pain means call 000."
 seoTitle: "Heartburn relief & GORD tips | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -19,7 +19,7 @@ draft: false
 
 For quick heartburn relief, pharmacy medicines such as antacids can help neutralise stomach acid, and simple changes can stop it coming back: smaller meals, avoiding your trigger foods, and not lying down straight after eating. If heartburn happens often, you may have reflux disease (GORD), and it’s worth talking to a pharmacist or GP.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/). It’s based on what we tell customers at the counter every week, checked against Australian health advice.
+It’s based on what we tell customers at the counter, checked against Australian health advice. In Queensland, trained pharmacists can also assess and treat reflux without a GP visit; see [what a pharmacist can treat in Queensland](/what-can-a-pharmacist-treat-queensland/).
 
 ## What is heartburn, and what is GORD?
 
@@ -77,20 +77,22 @@ Losing weight if you’re above a healthy weight, and quitting smoking, can both
 
 There are different types of reflux medicine at the pharmacy, and they work in different ways.
 
-| Type | What it does |
-| --- | --- |
-| Antacids | Neutralise stomach acid for fast, short-term relief. |
-| Acid-reducing medicines | Reduce how much acid your stomach makes. Some are available after talking to a pharmacist. Stronger options, or longer courses, need a prescription. |
+| Type | Common active ingredients | What it does | Good to know |
+| --- | --- | --- | --- |
+| Antacids | Calcium carbonate, magnesium hydroxide, aluminium hydroxide | Neutralise stomach acid for fast, short-term relief | Work within minutes but don’t last long. Can stop some medicines being absorbed, such as some antibiotics, iron and thyroid medicine, so space them apart |
+| Alginates | Sodium alginate, often combined with an antacid | Form a protective layer on top of your stomach contents | Handy after meals and at bedtime. Some are high in sodium |
+| H2 blockers | Famotidine | Reduce how much acid your stomach makes, for several hours | Some are available after talking to a pharmacist |
+| Proton pump inhibitors (PPIs) | Esomeprazole, omeprazole, pantoprazole, rabeprazole | Reduce acid production more strongly | Small packs for up to 14 days are available after talking to a pharmacist. Take before a meal. Longer use needs a GP |
 
 The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. Some reflux medicines need to be taken at a certain time before meals to work best. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
 
-Medicines can help, but healthdirect notes they aren’t always a long-term fix. If you find you need them regularly, see your GP.
+Medicines can help, but healthdirect notes they aren’t always a long-term fix. If you find you need them regularly, see your GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store.
 
 ## How can a pharmacist help with reflux?
 
 You can talk to one of our pharmacists without an appointment. We’ll ask how often it happens, what seems to set it off, what medicines you take and whether you have any warning signs. We’ll also check your other medicines. If you’re on several regular medicines, a [medication review](/medication-reviews/) may help.
 
-We’ll then suggest options that suit you, or refer you to a GP if your symptoms need a closer look.
+We’ll then suggest options that suit you, or refer you to a GP if your symptoms need a closer look. For other everyday conditions, see our [common illnesses guides](/common-illness-information/).
 
 ## When to see a GP about heartburn
 

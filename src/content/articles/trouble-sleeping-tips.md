@@ -21,7 +21,7 @@ references:
 draft: false
 ---
 
-The most useful trouble sleeping tips are the boring ones: keep the same wake-up time every day, cut caffeine after lunch, switch off screens before bed, and get up if you can’t drop off. Most short bouts of poor sleep improve with these habits, and if they don’t, a pharmacist or GP can help you work out what’s going on. This guide is part of [our common illnesses A–Z](/common-illness-information/), and it’s the advice we give most often at the counter.
+The most useful trouble sleeping tips are the boring ones: keep the same wake-up time every day, cut caffeine after lunch, switch off screens before bed, and get up if you can’t drop off. Most short bouts of poor sleep improve with these habits, and if they don’t, a pharmacist or GP can help you work out what’s going on. It’s the advice we give most often at the counter, and you’ll find more everyday health guides in our [A–Z of common conditions](/common-illness-information/).
 
 ## Is it insomnia or just a bad week?
 

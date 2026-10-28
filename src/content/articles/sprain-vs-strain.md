@@ -23,7 +23,7 @@ references:
 draft: false
 ---
 
-The difference between a sprain vs strain comes down to what’s injured: a sprain affects a ligament, the tough tissue that holds bones together at a joint, while a strain affects a muscle or the tendon that attaches muscle to bone. Both cause pain, swelling and bruising, and the first aid for both is the same. You’ll find more everyday conditions in [our common illnesses A–Z](/common-illness-information/), but here’s what to do in the first few days after a twist, roll or pull.
+The difference between a sprain vs strain comes down to what’s injured: a sprain affects a ligament, the tough tissue that holds bones together at a joint, while a strain affects a muscle or the tendon that attaches muscle to bone. Both cause pain, swelling and bruising, and the first aid for both is the same. Here’s what to do in the first few days after a twist, roll or pull. For cuts and grazes, see [how to treat a cut](/how-to-treat-a-cut/).
 
 ## Sprain vs strain at a glance
 

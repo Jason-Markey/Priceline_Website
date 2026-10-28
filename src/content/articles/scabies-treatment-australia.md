@@ -17,7 +17,7 @@ references:
 draft: false
 ---
 
-Scabies treatment in Australia usually means a pharmacy-only cream or a prescription medicine from your GP, used by everyone in your household at the same time, plus hot-washing your bedding, towels and clothes. Scabies is very itchy and spreads easily, but it’s treatable, and nobody should feel embarrassed about it. Here are the questions we’re asked most, answered using Australian health advice. For other conditions, see [our common illnesses A–Z](/common-illness-information/).
+Scabies treatment in Australia usually means a pharmacy-only cream or a prescription medicine from your GP, used by everyone in your household at the same time, plus hot-washing your bedding, towels and clothes. Scabies is very itchy and spreads easily, but it’s treatable, and nobody should feel embarrassed about it. Here are the questions we’re asked most, answered using Australian health advice. For other itchy skin problems, browse our [A–Z of common illnesses](/common-illness-information/).
 
 ## What is scabies?
 

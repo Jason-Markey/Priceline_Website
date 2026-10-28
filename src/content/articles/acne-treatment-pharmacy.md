@@ -3,7 +3,7 @@ title: "Acne treatment at the pharmacy: what actually helps"
 description: "Acne treatment from the pharmacy: what helps, how long it takes and when to see a GP. Pharmacist tips on sunscreen and skincare for humid Gold Coast days."
 seoTitle: "Acne treatment at the pharmacy | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -19,7 +19,7 @@ draft: false
 
 For mild acne, a gentle skincare routine plus a pharmacy acne treatment is a good place to start, but it takes patience: most treatments need 6 to 8 weeks of daily use before you see a difference. If your acne is painful, leaving marks or scars, or getting you down, see a GP early, because stronger prescription options are available.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/). It’s written the way we’d explain acne to you at the counter.
+It’s written the way we’d explain acne to you at the counter. For a routine that won’t clog pores, see our [skincare routine order guide](/skincare-routine-order/), and if you’re thinking about retinol for marks or breakouts, start with our [retinol for beginners guide](/retinol-for-beginners/).
 
 ## What is acne?
 
@@ -77,6 +77,15 @@ Use water-based make-up where you can and always remove it before bed. Clean mak
 
 Pharmacies stock a range of acne treatments, including washes, gels, creams and spot treatments. healthdirect explains they often contain ingredients that help remove oil and unblock pores. Different products work in different ways and suit different skin types, so ask your pharmacist which suits you.
 
+| Active ingredient | How it helps | Good to know |
+| --- | --- | --- |
+| Benzoyl peroxide | Reduces acne-causing bacteria and helps unblock pores | Start with a lower strength. It can dry and irritate skin, and it bleaches towels, pillowcases and clothes |
+| Salicylic acid | Loosens dead skin cells and unblocks pores | Good for blackheads and whiteheads. Found in washes, toners and gels |
+| Niacinamide (often with zinc) | A skincare ingredient that can help with oiliness and redness | Gentle, and often easier to start with on sensitive skin |
+| Prescription treatments | Creams, tablets or hormonal treatments from a GP | For acne that’s moderate to severe, painful, scarring, or not improving |
+
+If you’re comparing skincare ranges made for acne-prone skin, our guides to [La Roche-Posay](/la-roche-posay-guide/), [CeraVe](/cerave-guide/) and [The Ordinary](/the-ordinary-guide/) explain what’s in each. You can also [browse the facial skincare range on priceline.com.au](https://www.priceline.com.au/c/facial-skincare).
+
 A few tips for using them:
 
 - follow the label or your pharmacist’s advice, and start slowly if your skin is sensitive;
@@ -84,7 +93,7 @@ A few tips for using them:
 - use a light, oil-free moisturiser if your skin feels dry;
 - check with a pharmacist before using acne products if you’re pregnant, planning a pregnancy or breastfeeding.
 
-Our pharmacists and beauty advisors can also help you put together a simple routine with a gentle cleanser, moisturiser and sunscreen that won’t clog pores. Find out more about our [skincare advice at Pacific Fair](/skincare-tanning/).
+Our pharmacists and beauty advisors can also help you put together a simple routine with a gentle cleanser, moisturiser and sunscreen that won’t clog pores. Find out more about our [skincare advice at Pacific Fair](/skincare-tanning/), or browse our other [common illnesses guides](/common-illness-information/).
 
 ## When to see a GP about acne
 

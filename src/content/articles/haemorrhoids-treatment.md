@@ -3,7 +3,7 @@ title: "Haemorrhoids treatment: myths, facts and home care"
 description: "Haemorrhoids treatment at home and from the pharmacy, why drinking water matters in Gold Coast heat, and when any bleeding means you should see a GP."
 seoTitle: "Haemorrhoids treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -21,7 +21,7 @@ references:
 draft: false
 ---
 
-Haemorrhoids treatment usually starts at home: soften your poo with more fibre and water, stop straining on the toilet, and use pharmacy creams, ointments or suppositories to ease itching and pain while things settle. Most haemorrhoids (piles) improve with these steps. Any bleeding from your bottom should still be checked by a GP, even if you’re fairly sure it’s piles. For other everyday conditions, browse [our common illnesses A–Z](/common-illness-information/).
+Haemorrhoids treatment usually starts at home: soften your poo with more fibre and water, stop straining on the toilet, and use pharmacy creams, ointments or suppositories to ease itching and pain while things settle. Most haemorrhoids (piles) improve with these steps. Any bleeding from your bottom should still be checked by a GP, even if you’re fairly sure it’s piles. If constipation is the cause, our [constipation relief guide](/constipation-relief/) explains the fibre, fluid and laxative options.
 
 ## What are haemorrhoids?
 
@@ -32,7 +32,7 @@ There are two main types:
 - **Internal haemorrhoids** are inside the anal canal. They’re usually painless, but they can bleed, and larger ones can bulge out (prolapse) when you go to the toilet. Some slip back in by themselves, some can be pushed back in, and some stay outside.
 - **External haemorrhoids** are under the skin around the outside of the anus. They can feel like a lump and can become very painful if a blood clot forms inside.
 
-## Signs you might have piles
+## What are the symptoms of piles?
 
 - bright red blood on the toilet paper or in the toilet bowl after a bowel motion;
 - itching or irritation around your bottom;
@@ -42,7 +42,7 @@ There are two main types:
 
 ## What causes haemorrhoids?
 
-The main culprit is straining on the toilet, usually because of constipation. Other things that raise the pressure in those blood vessels include:
+The main culprit is straining on the toilet, usually because of [constipation](/constipation-relief/). Other things that raise the pressure in those blood vessels include:
 
 - a diet low in fibre, and not drinking enough fluid;
 - sitting on the toilet for a long time (scrolling on your phone counts);
@@ -89,6 +89,19 @@ Buying haemorrhoid products can feel awkward, but it’s an everyday conversatio
 - **advice for pregnancy and breastfeeding,** when some products aren’t suitable.
 
 We’ll also check whether any of your regular medicines might be causing constipation. If you take several, a [medication review](/medication-reviews/) can help.
+
+## Which haemorrhoid creams and suppositories help?
+
+Most pharmacy haemorrhoid products combine one or more of these ingredients. Ointments and creams suit external piles, while suppositories are for internal ones.
+
+| Ingredient type | Examples | What it does | Good to know |
+| --- | --- | --- | --- |
+| Soothing and protective | Zinc oxide, barrier ointments | Protects irritated skin and eases itching | Gentle, and suitable for longer use |
+| Local anaesthetic | Lidocaine (lignocaine), cinchocaine | Numbs pain and itching | Usually for short-term use only |
+| Mild corticosteroid | Hydrocortisone, often combined with a local anaesthetic | Reduces inflammation, swelling and itch | Short courses only, usually no more than about a week. Some are Pharmacist Only Medicines |
+| Fibre supplement or stool softener | Psyllium, docusate | Softens your poo so you don’t strain | Treats the cause, not just the symptoms |
+
+Follow the label for how often and how long to use each product, and talk to a pharmacist before using them in pregnancy or breastfeeding. If you’re still using a haemorrhoid cream after a week and things aren’t settling, it’s time to see a GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store, with no awkwardness.
 
 ## When to see a GP
 

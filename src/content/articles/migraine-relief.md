@@ -3,7 +3,7 @@ title: "Migraine relief: what to do when an attack starts"
 description: "Migraine relief step by step: spot the warning signs, act early, know your triggers like Gold Coast storms and glare, and when a headache means call 000."
 seoTitle: "Migraine relief: step by step | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -23,7 +23,7 @@ draft: false
 
 Migraine relief works best when you act early. Treat an attack at the first sign, rest somewhere dark and quiet, and learn your triggers so you have fewer attacks. There are pharmacy options, some stronger medicines that need a pharmacist’s advice, and prescription options from your GP.
 
-This step-by-step guide is part of [our common illnesses A–Z](/common-illness-information/). It explains what a migraine is, how to manage an attack, and when a headache is an emergency.
+This step-by-step guide explains what a migraine is, how to manage an attack, and when a headache is an emergency. For everyday tension-type headaches, see our [headache relief guide](/headache-relief/).
 
 ## What is a migraine?
 
@@ -70,11 +70,13 @@ Healthdirect notes that the earlier you take pain relief in an attack, the more 
 
 Options in Australia fall into a few groups:
 
-- **Everyday pain relievers,** such as paracetamol or ibuprofen, which can help milder attacks.
-- **Anti-nausea medicines,** which can ease nausea and vomiting. Some are available from the pharmacy, and others need a prescription.
-- **Migraine-specific medicines.** Some are available from a pharmacist after a consultation, and others need a prescription. They aren’t suitable for everyone, for example people with some heart or circulation conditions or a previous stroke.
+| Option | Examples | Good to know |
+| --- | --- | --- |
+| Everyday pain relievers | Paracetamol, ibuprofen, aspirin, naproxen | Can help milder attacks, especially taken early. Aspirin isn’t for under 16s, and anti-inflammatories aren’t suitable for everyone |
+| Anti-nausea medicines | Some are available after a pharmacist’s advice, others need a prescription | Ease nausea and vomiting, which can make it easier to keep other medicines down |
+| Triptans (migraine-specific medicines) | Some are available from a pharmacist after a consultation, others need a prescription | Not suitable for everyone, for example people with some heart or circulation conditions or a previous stroke |
 
-Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
+Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. If you’re thinking of taking paracetamol and ibuprofen together, read our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/) first.
 
 ### Step 3: Rest in a dark, quiet space
 
@@ -102,7 +104,7 @@ If you’re treating attacks that often, talk to your GP. Healthdirect notes tha
 - Help you spot patterns of overuse
 - Tell you when it’s time to see a GP
 
-If you’re pregnant, breastfeeding or buying for a child or teenager, please let us know, as the options are different.
+If you’re pregnant, breastfeeding or buying for a child or teenager, please let us know, as the options are different. For other everyday conditions, browse our [common illnesses guides](/common-illness-information/).
 
 ## When to see a GP
 

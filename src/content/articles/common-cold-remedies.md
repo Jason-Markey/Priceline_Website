@@ -23,7 +23,7 @@ draft: false
 
 There’s no cure for the common cold, but the right remedies can make the week more bearable. Rest, plenty of fluids and saline nasal sprays are the basics. Pharmacy medicines can ease symptoms such as a blocked nose, sore throat and aches while your body fights off the virus. Most people feel better within 7 to 10 days.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/). Below, we sort common cold myths from facts, explain how a cold differs from the flu, and cover when to see a GP.
+Below, we sort common cold myths from facts, explain how a cold differs from the flu, and cover when to see a GP. It’s one of our [everyday illness guides](/common-illness-information/), written the way we’d explain it at the counter.
 
 ## What is the common cold?
 

@@ -33,7 +33,7 @@ draft: false
 
 If you’ve had too much sun, get out of it straight away, cool your skin with a cool shower or damp cloth, drink plenty of water and leave any blisters alone. Sunburn can’t be reversed, but good care can ease the pain while your skin heals over the next few days to weeks. Here’s a step-by-step guide to sunburn treatment at home, plus the warning signs that mean you need a doctor.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/), where you’ll find plain-English advice on everyday health problems.
+To stop it happening again, our guide to [sun safety on the Gold Coast](/sun-safety-gold-coast/) covers sunscreen, shade and when to take extra care.
 
 ## What is sunburn?
 

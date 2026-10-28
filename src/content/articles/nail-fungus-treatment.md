@@ -3,7 +3,7 @@ title: "Nail fungus treatment: myths, facts and what works"
 description: "Nail fungus treatment myths vs facts: pharmacy nail lacquers, when you need a GP and why it takes months. Foot tips for humid Gold Coast summers and pools."
 seoTitle: "Nail fungus treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -21,13 +21,13 @@ draft: false
 
 Nail fungus is common and treatable, but it’s slow. Antifungal nail lacquers from the pharmacy may help mild infections, while more stubborn ones often need prescription treatment from a GP, and a healthy new nail can take months to grow. The sooner you start, the better, so it’s worth getting a discoloured or thickened nail checked early.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/), where we cover everyday conditions and when to get help.
+Nail infections often start as athlete’s foot on the skin, so if your feet are itchy or peeling too, treat that as well; our [athlete’s foot guide](/athletes-foot-treatment/) explains how. You’ll find more everyday conditions in our [common illnesses guides](/common-illness-information/).
 
 ## What is nail fungus?
 
 Nail fungus (the medical name is onychomycosis) is an infection that grows on or under a nail. It usually affects toenails rather than fingernails. healthdirect notes toenail infections are common, especially in older people, and they often start when tinea (athlete’s foot) spreads from the skin into the nail.
 
-## Signs of a fungal nail infection
+## What does a fungal nail infection look like?
 
 According to healthdirect, a fungal nail infection can cause:
 
@@ -49,6 +49,20 @@ The fungi that cause nail infections love warm, damp places, which makes the Gol
 - diabetes;
 - a weakened immune system;
 - psoriasis.
+
+## Which nail fungus treatments can you get at the pharmacy?
+
+For a mild infection, the pharmacy option is an antifungal nail lacquer, such as one containing amorolfine. It’s painted onto the affected nail, usually once or twice a week, after gently filing the surface so the treatment can soak in.
+
+| Option | How it’s used | Good to know |
+| --- | --- | --- |
+| Antifungal nail lacquer (for example, amorolfine) | Painted on once or twice a week, after filing | Best for a mild infection near the tip or sides of one or two nails. Treatment usually runs for months: follow the pack. |
+| Antifungal cream, spray or powder | On the skin around the nails and between the toes | Treats athlete’s foot on the skin, which helps stop the nail being reinfected. Creams don’t get through the nail itself. |
+| Antifungal tablets | Prescription only, from a GP | For more severe or widespread infections. healthdirect notes treatment can take 3 to 6 months and may need blood tests. |
+
+A lacquer is less likely to work if the infection has reached the base of the nail, covers most of the nail, or affects several nails. In those cases, see a GP. Ask a pharmacist before using a lacquer on a child, or if you’re pregnant or breastfeeding.
+
+A tip we give at the counter: take a photo of the nail when you start and every month or so. The new, healthy nail grows out slowly from the base, so photos make it much easier to see whether the treatment is working.
 
 ## Nail fungus: myth vs fact
 
@@ -78,7 +92,7 @@ The fungi that cause nail infections love warm, damp places, which makes the Gol
 - **Wear breathable shoes** and change sweaty socks. Cotton socks and giving shoes a day to dry out between wears can help.
 - **Wear thongs** at public pools, gym showers and change rooms.
 - **Don’t share** nail scissors, clippers, shoes or towels.
-- **Treat athlete’s foot promptly,** so it doesn’t spread into the nails.
+- **Treat [athlete’s foot](/athletes-foot-treatment/) promptly,** so it doesn’t spread into the nails.
 - **Keep nails short and trimmed straight across,** and use separate clippers for any infected nails.
 
 ## How your pharmacist can help

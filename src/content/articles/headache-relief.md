@@ -3,7 +3,7 @@ title: "Headache relief: your questions answered"
 description: "Headache relief explained: tension-type triggers like Gold Coast heat and dehydration, safe pain relief, medication-overuse headache and when to call 000."
 seoTitle: "Headache relief: types & what helps | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -25,7 +25,7 @@ draft: false
 
 Most everyday headaches are tension-type headaches, and headache relief usually comes from rest, fluids, a heat pack or gentle neck stretches, and a simple pain reliever if you need one. The catch is that using pain relievers too often can cause headaches of its own. A pharmacist can help you find the right balance.
 
-This Q&A is part of [our common illnesses A–Z](/common-illness-information/). It covers the questions we’re asked most at the counter, and the warning signs that mean you need a doctor, not a pharmacy.
+It covers the questions we’re asked most at the counter, and the warning signs that mean you need a doctor, not a pharmacy. If your headaches throb on one side or come with nausea, our [migraine relief guide](/migraine-relief/) explains the different options for migraine.
 
 ## What kind of headache do I have?
 
@@ -39,7 +39,7 @@ Headaches fall into a few broad groups. Knowing which one you have helps you cho
 | Sinus headache | Pressure in the forehead or cheekbones, which may feel worse when you bend forward. |
 | Medication-overuse headache | Frequent headaches caused by taking pain relief too often. It can feel like a tension headache or a migraine. |
 
-Migraine has its own entry in our A–Z, as the options are a little different.
+Migraine has [its own guide](/migraine-relief/), as the options are a little different.
 
 ## What triggers a tension headache?
 
@@ -69,9 +69,16 @@ Some people find physiotherapy or acupuncture helpful for recurring tension head
 
 ## Which pain reliever should I take?
 
-Paracetamol and ibuprofen are common choices for tension-type headaches. They’re not right for everyone, though. Ibuprofen isn’t suitable for some people, including those with certain stomach, kidney or heart conditions, some people with asthma, and during pregnancy. Some combination products and stronger pain relievers are only available after a pharmacist’s advice, and some need a prescription.
+Paracetamol and ibuprofen are common choices for tension-type headaches. They’re not right for everyone, though, so here’s how the main options compare.
 
-Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. Take care with cold and flu tablets too, as they often contain the same pain relievers. Doubling up by accident is easy to do.
+| Pain reliever | How it helps | Good to know |
+| --- | --- | --- |
+| Paracetamol | Eases pain and fever, and is gentle on the stomach | Check the total dose across everything you take, including cold and flu tablets, and don’t go over the daily limit on the pack |
+| Ibuprofen | An anti-inflammatory that eases pain | Take it with food. Not suitable for some people with stomach, kidney or heart conditions, some people with asthma, or during pregnancy |
+| Aspirin | An anti-inflammatory that eases pain | Not for children or teenagers under 16, and it can irritate the stomach |
+| Combination products | Two pain relievers together, or one with caffeine | Some are only available after a pharmacist’s advice. Products with caffeine raise the risk of medication-overuse headache |
+
+Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. Take care with cold and flu tablets too, as they often contain the same pain relievers. Doubling up by accident is easy to do. Some stronger pain relievers need a prescription. Wondering whether you can take paracetamol and ibuprofen together? See our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/), and for children, our guide to [children’s paracetamol and ibuprofen](/childrens-paracetamol-ibuprofen/).
 
 ## Can pain relievers make headaches worse?
 
@@ -94,7 +101,7 @@ You can talk to our pharmacists without an appointment. We can:
 - suggest practical changes for common triggers;
 - tell you when a headache needs a GP or emergency care.
 
-If you take several regular medicines, a [medication review](/medication-reviews/) can check whether any of them might be contributing.
+If you take several regular medicines, a [medication review](/medication-reviews/) can check whether any of them might be contributing. For other everyday conditions, see our [common illnesses guides](/common-illness-information/).
 
 ## When should I see a GP about headaches?
 

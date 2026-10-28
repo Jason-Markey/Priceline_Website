@@ -3,7 +3,7 @@ title: "Constipation relief: a pharmacist’s checklist"
 description: "Constipation relief that works: fibre, fluids, toilet position and laxative types explained, plus tips for Gold Coast holidays and when to see a GP."
 seoTitle: "Constipation relief: what helps | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -23,7 +23,7 @@ draft: false
 
 For most people, constipation relief starts with simple changes: more fibre, more water, more movement, and not ignoring the urge to go. If that isn’t enough, there are several types of laxatives at the pharmacy, and a pharmacist can help you pick one that suits your situation.
 
-This guide is part of [our common illnesses A–Z](/common-illness-information/). It’s set out as a practical checklist you can work through, plus clear signs that mean it’s time to see a GP.
+It’s set out as a practical checklist you can work through, plus clear signs that mean it’s time to see a GP. Straining on the toilet can also cause or worsen haemorrhoids, so if you’ve noticed itching or bleeding, see our guide to [haemorrhoids treatment](/haemorrhoids-treatment/) too.
 
 ## What counts as constipation?
 
@@ -81,19 +81,21 @@ Continence Health Australia suggests sitting with your knees a little higher tha
 
 If constipation started around the time you began a new medicine or supplement, don’t stop it without advice. Talk to your pharmacist or GP. A [medication review](/medication-reviews/) can be useful if you take several medicines.
 
-## Laxatives: what are the options?
+## Which laxative should I use?
 
 If lifestyle changes aren’t enough, a laxative may help in the short term. There are several types, and they work in different ways and at different speeds.
 
-| Type | How it works |
-| --- | --- |
-| Bulk-forming | Adds fibre to your stool so it’s softer and easier to pass. You need to drink plenty of water with it. |
-| Osmotic | Draws water into the bowel to soften the stool. |
-| Stimulant | Encourages the bowel muscles to move things along. Usually suited to short-term use. |
-| Stool softener | Helps water mix into the stool so it’s softer. |
-| Suppositories and enemas | Work directly in the lower bowel and may act faster. |
+| Type | Common active ingredients | How it works | How quickly it usually works |
+| --- | --- | --- | --- |
+| Bulk-forming | Psyllium, sterculia | Adds fibre to your stool so it’s softer and easier to pass. Take it with plenty of water. | 1 to 3 days |
+| Osmotic | Macrogol, lactulose | Draws water into the bowel to soften the stool. Lactulose can cause wind at first. | 1 to 3 days |
+| Stimulant | Senna, bisacodyl | Encourages the bowel muscles to move things along. Best for short-term use, and can cause cramps. | Often overnight if taken at bedtime |
+| Stool softener | Docusate | Helps water mix into the stool so it’s softer. | 1 to 3 days |
+| Suppositories and enemas | Glycerin or bisacodyl suppositories, small enemas | Work directly in the lower bowel. | Minutes to an hour |
 
-Which one is right depends on your symptoms, your age, whether you’re pregnant or breastfeeding, other medicines you take, and any health conditions. Ask your pharmacist which suits you, and always follow the label or your pharmacist’s advice.
+Which one is right depends on your symptoms, your age, whether you’re pregnant or breastfeeding, other medicines you take, and any health conditions. For example, a fibre supplement often suits mild, everyday constipation, while constipation caused by strong pain relievers usually needs a different type. Ask your pharmacist which suits you, and always follow the label or your pharmacist’s advice.
+
+When we help someone choose at the counter, we also check how long it’s been going on. Laxatives are meant for short-term relief, so if you find you need one for more than a week or so, talk to your pharmacist or GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store.
 
 ## How can a pharmacist help?
 

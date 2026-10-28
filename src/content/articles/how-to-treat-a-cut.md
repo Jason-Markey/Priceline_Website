@@ -23,7 +23,7 @@ draft: false
 
 To treat a minor cut or graze, press on it to stop the bleeding, rinse it clean with water or saline, pat the skin around it dry and cover it with a non-stick dressing. Most small wounds heal well at home with that simple routine. Deep, dirty or gaping wounds, bites and bleeding that won’t stop need medical help.
 
-This first aid guide is part of [our common illnesses A–Z](/common-illness-information/), where you’ll find practical advice on everyday health problems.
+It’s worth keeping the basics at home, and our [first aid kit checklist](/first-aid-kit-checklist/) lists what to have on hand.
 
 ## Cuts, scrapes and grazes: what’s the difference?
 

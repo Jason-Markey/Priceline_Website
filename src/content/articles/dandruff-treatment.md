@@ -3,7 +3,7 @@ title: "Dandruff treatment: your questions answered"
 description: "Dandruff treatment explained: causes, medicated shampoos, home tips and when to see a GP. Handy advice for Gold Coast swimmers who wash their hair often."
 seoTitle: "Dandruff treatment Q&A | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: haircare
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -21,7 +21,7 @@ draft: false
 
 Most dandruff settles with regular washing and the right medicated anti-dandruff shampoo, used consistently for a few weeks. It isn’t caused by poor hygiene and you can’t catch it from someone else. If flakes keep coming back, or your scalp is red, sore or very itchy, a pharmacist or GP can help work out what’s going on.
 
-This Q&A is part of [our common illnesses A–Z](/common-illness-information/), a quick guide to everyday health problems and when to get help.
+An itchy scalp isn’t always dandruff. In children especially, it’s worth checking for head lice, and our [head lice guide](/head-lice-treatment/) shows what to look for.
 
 ## What is dandruff?
 
@@ -57,7 +57,17 @@ That’s handy news on the Gold Coast, where heat, humidity, sweat and a daily s
 
 ## Which dandruff treatment should I try first?
 
-Pharmacies stock a range of medicated anti-dandruff shampoos. They contain different active ingredients that work in different ways, such as by targeting the yeast, slowing down skin shedding or loosening scale. We can’t recommend one here, as the best choice depends on your scalp, your hair type and anything you’ve tried before, so ask your pharmacist which suits you.
+Medicated anti-dandruff shampoos contain different active ingredients that work in different ways, such as by targeting the yeast, slowing down skin shedding or loosening scale. Check the active ingredient on the label: that tells you more than the brand.
+
+| Active ingredient | How it works | Good to know |
+| --- | --- | --- |
+| Ketoconazole | An antifungal that targets the yeast linked to dandruff | Often used twice a week until the flakes clear, then less often to keep them away |
+| Selenium sulfide | Slows down skin shedding and targets the yeast | Rinse well; it can discolour grey, blonde or colour-treated hair |
+| Zinc pyrithione | Targets the yeast | Found in many everyday anti-dandruff shampoos, gentle enough for frequent use |
+| Coal tar | Slows down skin cell growth and reduces scaling | Has a strong smell, can stain light hair and makes skin more sensitive to the sun |
+| Salicylic acid | Loosens and lifts thick scale | Useful when flakes are thick or stuck to the scalp |
+
+If you’re not sure where to start, a zinc pyrithione or ketoconazole shampoo is a common first choice for ordinary dandruff. If one ingredient hasn’t helped after a few weeks, try a shampoo with a different one. Ask your pharmacist which suits you, especially for children, or if you’re pregnant or breastfeeding.
 
 A few tips that make them work better:
 
@@ -84,7 +94,7 @@ Our pharmacists can:
 - suggest options suitable for children, colour-treated hair or sensitive skin;
 - let you know when it’s time to see a GP. Some stronger scalp treatments need a doctor’s prescription.
 
-If you have other questions about skin, scalp or hair care, our [pharmacy FAQ page](/frequently-asked-questions/) is a good place to start.
+You can [browse anti-dandruff treatments on priceline.com.au](https://www.priceline.com.au/c/antidandruff-treatments) or ask us in store. For other everyday conditions, see our [common illnesses guides](/common-illness-information/).
 
 ## When should I see a GP about dandruff?
 

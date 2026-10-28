@@ -3,7 +3,7 @@ title: "Mouth ulcer treatment: home care and when to worry"
 description: "Mouth ulcer treatment: saltwater rinses, soft foods (skip the salty beach chips), pharmacy gels, and when an ulcer needs a Gold Coast dentist or GP."
 seoTitle: "Mouth ulcer treatment | Priceline Pacific Fair"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-28
 category: dental-oral-care
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -19,11 +19,11 @@ references:
 draft: false
 ---
 
-Most mouth ulcers heal on their own within 1–2 weeks, so mouth ulcer treatment is mainly about easing the pain while you wait. Saltwater rinses, soft foods, a soft toothbrush and a numbing gel or protective product from the pharmacy can all help. The key rule is simple: if an ulcer hasn’t healed after 2 weeks, or they keep coming back, see your dentist or GP. You’ll find more conditions like this in [our common illnesses A–Z](/common-illness-information/).
+Most mouth ulcers heal on their own within 1–2 weeks, so mouth ulcer treatment is mainly about easing the pain while you wait. Saltwater rinses, soft foods, a soft toothbrush and a numbing gel or protective product from the pharmacy can all help. The key rule is simple: if an ulcer hasn’t healed after 2 weeks, or they keep coming back, see your dentist or GP. You’ll find more everyday conditions in our [common illnesses guides](/common-illness-information/).
 
 ## What is a mouth ulcer?
 
-A mouth ulcer is a sore that forms on the soft lining inside your mouth: the inside of your cheeks or lips, on or under your tongue, or on your gums. The most common kind are aphthous ulcers, also called canker sores. They aren’t contagious, and they’re different from cold sores, which usually appear on the outside of the lips and are caused by a virus.
+A mouth ulcer is a sore that forms on the soft lining inside your mouth: the inside of your cheeks or lips, on or under your tongue, or on your gums. The most common kind are aphthous ulcers, also called canker sores. They aren’t contagious, and they’re different from [cold sores](/cold-sore-sun-trigger/), which usually appear on the outside of the lips and are caused by a virus.
 
 Mouth ulcers are very common. The Better Health Channel says around 20 per cent of the population experiences aphthous ulcers, and healthdirect notes they often run in families.
 
@@ -67,13 +67,16 @@ These self-care steps are based on advice from healthdirect and the Better Healt
 
 Your pharmacist can take a look, check it’s likely to be a simple ulcer, and help you choose something to make eating and talking more comfortable. Pharmacy options include:
 
-- **numbing (anaesthetic) mouth gels** that may ease pain for a while, which is handy before meals;
-- **protective gels and pastes** that form a barrier over the ulcer;
-- **antiseptic mouthwashes;**
-- **anti-inflammatory mouth products.** Some stronger options need a pharmacist’s advice or a prescription;
-- **pain relief** such as paracetamol or ibuprofen, if they’re suitable for you.
+| Option | Common active ingredients | What it does | Good to know |
+| --- | --- | --- | --- |
+| Numbing gels | Lidocaine (lignocaine), benzocaine | Ease pain for a while, handy before meals | Check the label for the minimum age |
+| Protective gels and pastes | Film-forming or barrier ingredients | Cover the ulcer so food and drink sting less | Usually suitable for most ages |
+| Antiseptic mouthwashes | Chlorhexidine | Help keep the area clean while it heals | Can temporarily stain teeth. Follow the label for how long to use it |
+| Anti-inflammatory gels | Choline salicylate | Ease pain and inflammation | Not for children or teenagers under 16 |
+| Anti-inflammatory pastes | Corticosteroid pastes | Reduce inflammation in a painful ulcer | Some need a pharmacist’s advice, and stronger ones a prescription |
+| Pain relief | Paracetamol, ibuprofen | Ease pain, especially before meals | Only if they’re suitable for you |
 
-Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice.
+Some products aren’t suitable for young children, or during pregnancy or breastfeeding, so ask your pharmacist which suits you and follow the label or your pharmacist’s advice. You can also [browse mouth treatments on priceline.com.au](https://www.priceline.com.au/c/mouth-treatments) or ask us in store.
 
 If a medicine you take might be causing ulcers, or you keep getting them, it’s worth mentioning. A [medication review](/medication-reviews/) can help you look at your medicines as a whole.
 

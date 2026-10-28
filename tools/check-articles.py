@@ -48,6 +48,8 @@ for f in sorted(ART.glob('*.md')):
         'cat': field(fm, 'category'),
     }
 
+import datetime
+TODAY = datetime.date.today().isoformat()
 errors, warnings = [], []
 seen_titles, seen_seo = {}, {}
 only = set(sys.argv[1:])
@@ -84,7 +86,8 @@ for slug, a in articles.items():
         if target in articles:
             t = articles[target]
             if t['draft']: errors.append(f'{where}: links to draft article /{target}/')
-            elif not a['draft'] and t['date'] > a['date']:
+            # Only a problem while the target is still scheduled: once it's live, older articles can link to it
+            elif not a['draft'] and t['date'] > a['date'] and t['date'] > TODAY:
                 errors.append(f'{where} ({a["date"]}): links to /{target}/ which goes live {t["date"]}')
         elif target not in services and target not in static_pages and not href.startswith('/category/'):
             errors.append(f'{where}: broken internal link {href}')
