@@ -9,6 +9,10 @@ export type TeamMember = {
   bio: string;
   photo?: string;
   reviewsArticles?: boolean;
+  /** Languages spoken, as listed by the practice */
+  languages?: string[];
+  /** A current notice shown with the bio, e.g. not taking new patients */
+  notice?: string;
 };
 
 export const pharmacyTeam: TeamMember[] = [
@@ -32,25 +36,32 @@ export const pharmacyTeam: TeamMember[] = [
   },
 ];
 
-/** Help Medical doctors (independent practice inside the store) */
+/** Help Medical doctors (independent practice inside the store). Details from the clinic's HotDoc booking page
+ * (Jason's screenshots, 29 Oct 2026), with the clinic's permission. */
 export const helpMedicalDoctors: TeamMember[] = [
   {
     name: 'Dr David Seton',
     role: 'General Practitioner',
+    credentials: 'MBBS, FRACGP',
     photo: 'dr-dave-seton.jpg',
-    bio: 'Dr David (Dave) Seton performs IUD insertions and other minor procedures, and has a keen interest in teaching. He has trained many doctors in the insertion of long-acting contraceptive devices.',
+    languages: ['English', 'Afrikaans'],
+    bio: 'Dr David (Dave) Seton has practised medicine for more than 24 years. He studied medicine at the University of the Witwatersrand and is a Fellow of the Royal Australian College of General Practitioners. He has a special interest in children’s health, skin checks, pregnancy care and mental health, and performs IUD insertions and other minor procedures. He has trained hundreds of doctors in inserting long-acting contraceptive devices.',
+    notice: 'Dr David Seton isn’t taking new patients at the moment. Existing patients (seen in the past 24 months) can still book.',
   },
   {
     name: 'Dr Robert Seton',
     role: 'General Practitioner',
     credentials: 'MBChB, FRACGP, FACRRM, FPAA',
     photo: 'dr-robert-seton.png',
-    bio: 'Dr Robert Seton brings around 40 years of general practice experience, including obstetrics, and holds a certificate in sexual and reproductive health.',
+    languages: ['English', 'Afrikaans'],
+    bio: 'Dr Robert Seton brings more than 40 years of experience in general practice, including 36 years of delivering babies, and holds an FPAA certificate in sexual and reproductive health. He joined his brother, Dr David Seton, at Help Medical, and both have a keen interest in teaching and training young doctors. Outside work, he enjoys watching golf and tennis.',
   },
   {
     name: 'Dr Md Tariqul Islam',
     role: 'General Practitioner',
+    credentials: 'MBBS, FRACGP, AMC, ECFMG (USA), DPH (NZ)',
     photo: 'dr-tariqul-islam.avif',
-    bio: 'Dr Md Tariqul Islam has a strong interest in general practice, medical education and multidisciplinary care. His background includes paediatrics, obstetrics and gynaecology, psychiatry and emergency medicine, and he teaches medical students and GP registrars.',
+    languages: ['Bengali', 'English', 'Hindi', 'Urdu'],
+    bio: 'Dr Md Tariqul Islam has a strong interest in general practice, medical education and multidisciplinary care. His background includes paediatrics, obstetrics and gynaecology, psychiatry and emergency medicine, and he teaches and supervises medical students and GP registrars. His areas of interest include family medicine, women’s and men’s health, children’s health, mental health, skin cancer checks, chronic disease management, travel medicine, occupational and drivers’ medicals, and minor procedures.',
   },
 ];

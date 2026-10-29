@@ -73,7 +73,7 @@ export const site = {
     sentence: 'Weekday mornings, from 8am to 10am, are usually our quietest time.',
   },
 
-  /** Help Medical — independent GP clinic inside the store (hours per Google listing, 7 Oct 2026) */
+  /** Help Medical — independent GP clinic inside the store (hours per the clinic's HotDoc booking page, under new ownership; Jason's screenshot, 29 Oct 2026) */
   helpMedical: {
     name: 'Help Medical',
     fullName: 'Help Medical Pacific Fair',
@@ -87,9 +87,9 @@ export const site = {
       mon: { open: '08:00', close: '17:00' },
       tue: { open: '08:00', close: '17:00' },
       wed: { open: '08:00', close: '17:00' },
-      thu: { open: '08:00', close: '21:00' },
+      thu: { open: '08:00', close: '17:00' },
       fri: { open: '08:00', close: '17:00' },
-      sat: { open: '09:30', close: '16:00' },
+      sat: { open: '09:00', close: '16:00' },
       sun: { open: '09:30', close: '16:00' },
     } as Hours,
     whereInStore: 'On the right-hand side as you walk into the store',

@@ -99,7 +99,7 @@ The Queensland Government's Tugun Satellite Hospital also has a walk-in Minor In
 
 ## Is there a GP open late near Broadbeach?
 
-[Help Medical](/help-medical/), an independent general practice located inside our store, has a late night on Thursdays. It bulk bills everyone with a Medicare card, and walk-ins are welcome, subject to doctor availability.
+[Help Medical](/help-medical/), an independent general practice located inside our store, is open 7 days but closes in the late afternoon, so it isn't an option late at night. For that, call 13 HEALTH or use a Medicare Urgent Care Clinic (above). During its opening hours, Help Medical bulk bills everyone with a Medicare card, and walk-ins are welcome, subject to doctor availability.
 
 Check Help Medical's hours on its page before you head in. If a GP there writes you a script, you can fill it at our dispensary in the same store.
 

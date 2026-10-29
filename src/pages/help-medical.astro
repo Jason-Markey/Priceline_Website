@@ -21,17 +21,22 @@ const doctorNodes = await Promise.all(doctors.map(async (d) => ({
   name: d.name,
   jobTitle: d.role,
   ...(d.credentials ? { honorificSuffix: d.credentials } : {}),
+  ...(d.languages ? { knowsLanguage: d.languages } : {}),
+  description: d.bio,
   ...(d.img ? { image: `${site.url}${(await getImage({ src: d.img, width: 400, format: 'jpg' })).src}` } : {}),
   worksFor: { '@id': ID.helpMedical },
 })));
 
 const hm = site.helpMedical;
+const listJoin = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} and ${xs[xs.length - 1]}` : xs[0]);
 const hmHours = hoursRows(hm.hours);
 
 const faqs = [
   { q: 'Is there a doctor at Pacific Fair?', a: `Yes. Help Medical, an independent general practice, is inside Priceline Pharmacy Pacific Fair at Shop 81 on the ground floor, ${site.helpMedical.whereInStore.toLowerCase()}. The GPs see patients 7 days, bulk bill everyone with a Medicare card and have a QML Pathology collection room on site.` },
   { q: 'Is Help Medical part of Priceline Pharmacy?', a: 'No. Help Medical is an independent general practice located inside our store. The pharmacy and the clinic are run separately, but being under one roof means you can see a GP and fill your script in one visit.' },
   { q: 'Does Help Medical bulk bill?', a: 'Yes. Help Medical bulk bills everyone with a Medicare card. Patients without Medicare, such as overseas visitors, are private patients and pay a fee, so ask about the cost when you book.' },
+  { q: 'Which languages do the doctors speak?', a: 'Dr David Seton and Dr Robert Seton speak English and Afrikaans. Dr Md Tariqul Islam speaks Bengali, English, Hindi and Urdu.' },
+  { q: 'Is Dr David Seton taking new patients?', a: `Not at the moment. Existing patients, meaning those seen in the past 24 months, can still book with him. New patients can book with Dr Robert Seton or Dr Md Tariqul Islam. <a href="${site.helpMedical.bookingUrl}" rel="noopener">HotDoc</a> shows each doctor’s current availability.` },
   { q: 'Can I walk in without an appointment?', a: 'Yes. Help Medical welcomes walk-ins, subject to doctor availability. On busy days appointments fill quickly, so booking ahead online is the surest way to be seen.' },
   { q: 'How do I book a GP appointment?', a: `Book online through HotDoc (the link on helpmedical.au) or call Help Medical on ${hm.phone}. Please contact the clinic directly rather than the pharmacy for appointments.` },
   { q: 'Can I get a blood test there?', a: `Yes. A QML Pathology collection room operates inside Help Medical, open ${site.pathology.hoursText.replace(/\.$/, '')}. Bring your pathology request form. See <a href="/blood-tests/">blood tests at Pacific Fair</a>.` },
@@ -98,7 +103,9 @@ const faqs = [
       <h3>{d.name}</h3>
       {d.img && <Image src={d.img} alt={`${d.name}, GP at Help Medical, Pacific Fair`} width={240} height={240} />}
       {d.credentials && <p><strong>{d.credentials}</strong></p>}
+      {d.languages && <p>Speaks {listJoin(d.languages)}.</p>}
       <p>{d.bio}</p>
+      {d.notice && <p><strong>{d.notice}</strong></p>}
     </section>
   ))}
 
