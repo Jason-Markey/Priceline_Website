@@ -127,6 +127,8 @@ export const site = {
       'https://healthengine.com.au/pharmacy/qld/broadbeach/priceline-pharmacy-pacific-fair/s54055',
     pricelineShop: 'https://www.priceline.com.au',
     pricelineNational: 'https://www.priceline.com.au',
+    /** Priceline's national store finder (for visitors who aren't on the Gold Coast) */
+    storeFinder: 'https://www.priceline.com.au/store-finder/country/au',
     /** Our own store on Uber Eats (Jason, 29 Oct 2026). Query string dropped: it preset the delivery address to Pacific Fair. */
     uberEats: 'https://www.ubereats.com/au/store/priceline-pharmacy-pacific-fair/sppPOxQ6W-qoMWnRi-Dasw',
     appIos: 'https://apps.apple.com/au/app/priceline-pharmacy-app/id1440942154',

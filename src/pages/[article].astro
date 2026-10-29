@@ -3,6 +3,8 @@
  * Dynamic route: every file in src/content/articles becomes /<slug>/ (same URLs as the old WordPress posts).
  */
 import { render } from 'astro:content';
+import ServiceCallout from '../components/ServiceCallout.astro';
+import { serviceBySlug } from '../data/services';
 import { getLiveArticles, byNewest } from '../lib/articles';
 import ArticlePage from '../layouts/ArticlePage.astro';
 
@@ -28,7 +30,18 @@ export async function getStaticPaths() {
 }
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
+// A link to the article's main service goes straight after the opening answer (ServiceCallout.astro). The body is
+// split after its first paragraph; articles have no images or components in the body, so the rendered HTML is complete.
+const html = entry.rendered?.html ?? '';
+const cut = html.indexOf('</p>');
+const service = entry.data.relatedServices[0] ? serviceBySlug(entry.data.relatedServices[0]) : undefined;
 ---
 <ArticlePage entry={entry} related={related}>
-  <Content />
+  {service && cut > -1 ? (
+    <Fragment>
+      <Fragment set:html={html.slice(0, cut + 4)} />
+      <ServiceCallout service={service} />
+      <Fragment set:html={html.slice(cut + 4)} />
+    </Fragment>
+  ) : <Content />}
 </ArticlePage>

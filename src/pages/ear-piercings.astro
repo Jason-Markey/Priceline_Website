@@ -42,6 +42,9 @@ const faqs = [
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   dateModified="2026-10-29"
 >
+  {/* Most visitors to this page are interstate, searching for Priceline ear piercing in general (GA4, Oct 2026) */}
+  <p class="interstate">Not on the Gold Coast? This page is for our store at Pacific Fair, Broadbeach. Other Priceline stores may offer ear piercing too: find your nearest one with <a href={site.links.storeFinder} rel="noopener" data-event="store-finder">Priceline’s store finder</a> and call to check.</p>
+
   <h2>How much does ear piercing cost?</h2>
   <Image src={piercingImg} alt="Ear piercing at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
   <p>Ear piercing is <strong>$65 for both ears</strong>, including the piercing, your earrings, an antiseptic aftercare spray and a consultation with our team. Earrings are also sold separately, from $12.95.</p>
@@ -89,3 +92,7 @@ const faqs = [
   <h2>When should I get help?</h2>
   <p>See us or your GP if the area becomes increasingly red, hot, swollen or painful, or if there’s pus or a fever. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you.</p>
 </ServicePage>
+
+<style>
+  .interstate { font-size: var(--fs-sm); color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--s3) var(--s4); }
+</style>
