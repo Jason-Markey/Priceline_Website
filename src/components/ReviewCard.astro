@@ -1,0 +1,41 @@
+---
+/** One Google review card, used by Reviews.astro (homepage section and /reviews/). */
+import type { Review } from '../data/reviews';
+
+export interface Props { review: Review; lead?: boolean; tall?: boolean; }
+const { review: r, lead = false, tall = false } = Astro.props;
+const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z';
+---
+
+<li class:list={['rv-card', { 'rv-card--lead': lead, 'rv-card--tall': tall }]}>
+  <figure>
+    <span class="rv-card__mark" aria-hidden="true">&ldquo;</span>
+    <span class="rv-card__stars" role="img" aria-label={`${r.stars} out of 5 stars`}>
+      {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+    </span>
+    <blockquote><p>{r.text}</p></blockquote>
+    <figcaption>
+      <span class="rv-card__avatar" aria-hidden="true">{r.name.trim().charAt(0)}</span>
+      <span class="rv-card__who"><b>{r.name}</b><small>{r.localGuide ? 'Local Guide · Google review' : 'Google review'}</small></span>
+    </figcaption>
+  </figure>
+</li>
+
+<style>
+  .rv-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+  .rv-card figure { margin: 0; padding: var(--s6) var(--s6) var(--s5); height: 100%; display: flex; flex-direction: column; gap: var(--s3); }
+  .rv-card__mark { position: absolute; top: 2px; right: 18px; font: 700 4rem/1 Georgia, 'Times New Roman', serif; color: var(--pink); opacity: .18; pointer-events: none; }
+  .rv-card__stars { display: inline-flex; gap: 2px; color: var(--rv-star, var(--pink)); }
+  .rv-card__stars svg { width: 16px; height: 16px; fill: currentColor; }
+  .rv-card blockquote { margin: 0; flex: 1; }
+  /* pre-line keeps a reviewer's own line breaks */
+  .rv-card blockquote p { margin: 0; color: var(--text); font-size: var(--fs-base); line-height: 1.55; white-space: pre-line; }
+  .rv-card figcaption { display: flex; align-items: center; gap: var(--s3); }
+  .rv-card__avatar { flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: var(--pink-pale); color: var(--pink-deep); font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+  .rv-card__who { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+  .rv-card__who b { color: var(--charcoal); font-size: var(--fs-sm); }
+  .rv-card__who small { color: var(--text-muted); font-size: 0.8125rem; }
+  .rv-card--lead { background: var(--pink-pale); border-color: #f8cfe2; }
+  .rv-card--lead blockquote p { font-size: var(--fs-lg); color: var(--charcoal); }
+  .rv-card--lead .rv-card__avatar { background: #fff; }
+</style>

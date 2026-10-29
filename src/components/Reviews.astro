@@ -1,33 +1,51 @@
 ---
 /**
  * Google reviews block. context 'home': rating rail + the first three reviews (a swipe row on phones).
- * context 'page': rating header + the lead review as a featured card + the rest in a grid.
+ * context 'page': rating header + the lead review as a featured card + the rest in two balanced columns.
  * Reviews, rating and the rules for choosing reviews: src/data/reviews.ts. No review schema on purpose.
  */
+import ReviewCard from './ReviewCard.astro';
 import { reviews, googleRating, reviewsPreview, type Review } from '../data/reviews';
 import { site } from '../data/site';
 
 export interface Props { context?: 'home' | 'page'; }
 const { context = 'page' } = Astro.props;
 
-const lead = reviews.find((r) => r.lead) ?? reviews[0];
 const isTall = (r: Review) => r.text.length > 180;
 const isShort = (r: Review) => r.text.length < 120;
-// Three cards where one is long and two are short: the long one gets a column to itself and the two short ones stack
-// beside it, so the row doesn't leave big gaps under the short reviews
-// An even number of cards: two columns, longest first, so each row pairs reviews of a similar length
-const arrange = (cards: Review[]) => {
-  const tall = cards.filter(isTall);
-  if (cards.length === 3 && tall.length === 1 && cards.filter(isShort).length === 2)
-    return { split: true, pairs: false, cards: [tall[0], ...cards.filter((c) => c !== tall[0])] };
-  if (cards.length >= 4 && cards.length % 2 === 0)
-    return { split: false, pairs: true, cards: [...cards].sort((x, y) => y.text.length - x.text.length) };
-  return { split: false, pairs: false, cards };
+
+// Homepage: three cards. When one is long and two are short, the long one gets a column to itself and the two short
+// ones stack beside it, so the row doesn't leave big gaps under the short reviews.
+const first3 = reviews.slice(0, 3);
+const tall3 = first3.filter(isTall);
+const split = first3.length === 3 && tall3.length === 1 && first3.filter(isShort).length === 2;
+const homeCards = split ? [tall3[0], ...first3.filter((r) => r !== tall3[0])] : first3;
+
+// /reviews/: the lead review full width, then the rest in two columns of similar height. Every way of splitting them
+// is tried (there are only a handful), using a rough card height; each column runs longest first.
+const lead = reviews.find((r) => r.lead) ?? reviews[0];
+const estHeight = (r: Review) => 140 + 26 * (Math.ceil(r.text.length / 60) + r.text.split('\n').length - 1);
+const balance = (cards: Review[]): Review[][] => {
+  const sorted = [...cards].sort((x, y) => y.text.length - x.text.length);
+  if (sorted.length > 14) return [sorted.filter((_, i) => i % 2 === 0), sorted.filter((_, i) => i % 2 === 1)];
+  let best: Review[][] = [sorted, []];
+  let bestScore = Infinity;
+  // Even masks only: the longest review always starts the first column
+  const total = 2 ** sorted.length;
+  for (let mask = 0; mask < total; mask += 2) {
+    const cols: Review[][] = [[], []];
+    sorted.forEach((r, i) => cols[Math.floor(mask / 2 ** i) % 2].push(r));
+    const h = cols.map((c) => c.reduce((t, r) => t + estHeight(r) + 16, 0));
+    const score = Math.max(h[0], h[1]) * 1000 + Math.abs(h[0] - h[1]);
+    if (score < bestScore) { bestScore = score; best = cols; }
+  }
+  return best;
 };
-const set = arrange(context === 'home' ? reviews.slice(0, 3) : reviews.filter((r) => r !== lead));
-const list = context === 'home' ? set.cards : [lead, ...set.cards].filter(Boolean);
+const stacks = context === 'page' ? balance(reviews.filter((r) => r !== lead)).filter((c) => c.length > 0) : [];
+
 // Preview builds only: empty slots show where reviews will go until there are enough real ones
-const slots = reviewsPreview ? Math.max(0, (context === 'home' ? 3 : 4) - list.length) : 0;
+const shown = context === 'home' ? homeCards.length : reviews.length;
+const slots = reviewsPreview ? Math.max(0, (context === 'home' ? 3 : 4) - shown) : 0;
 const hasRating = googleRating.count > 0;
 const score = hasRating ? googleRating.rating.toFixed(1) : '';
 // The overall rating's stars fill to the actual score (4.6 shows four and a bit), as on Google
@@ -69,32 +87,24 @@ const five = [1, 2, 3, 4, 5];
     </div>
   )}
 
-  <ul class:list={['rv__cards', { 'rv__cards--split': set.split, 'rv__cards--pairs': set.pairs }]} role="list">
-    {list.map((r, i) => (
-      <li class:list={['rv-card', { 'rv-card--lead': context === 'page' && i === 0, 'rv-card--tall': set.split && isTall(r) && !(context === 'page' && i === 0) }]}>
-        <figure>
-          <span class="rv-card__mark" aria-hidden="true">&ldquo;</span>
-          <span class="rv__stars" role="img" aria-label={`${r.stars} out of 5 stars`}>
-            {five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
-          </span>
-          <blockquote><p>{r.text}</p></blockquote>
-          <figcaption>
-            <span class="rv-card__avatar" aria-hidden="true">{r.name.trim().charAt(0)}</span>
-            <span class="rv-card__who"><b>{r.name}</b><small>{r.localGuide ? 'Local Guide · Google review' : 'Google review'}</small></span>
-          </figcaption>
-        </figure>
-      </li>
-    ))}
-    {Array.from({ length: slots }).map(() => (
-      <li class="rv-card rv-card--slot"><p>Space for a review from your screenshots</p></li>
-    ))}
-  </ul>
+  {context === 'home' ? (
+    <ul class:list={['rv__cards', { 'rv__cards--split': split }]} role="list">
+      {homeCards.map((r) => <ReviewCard review={r} tall={split && isTall(r)} />)}
+      {Array.from({ length: slots }).map(() => <li class="rv-slot"><p>Space for a review from your screenshots</p></li>)}
+    </ul>
+  ) : (
+    <Fragment>
+      {lead && <ul class="rv__cards" role="list"><ReviewCard review={lead} lead /></ul>}
+      <div class="rv__stacks">
+        {stacks.map((col) => <ul class="rv__stack" role="list">{col.map((r) => <ReviewCard review={r} />)}</ul>)}
+      </div>
+      {slots > 0 && <ul class="rv__cards rv__cards--slots" role="list">{Array.from({ length: slots }).map(() => <li class="rv-slot"><p>Space for a review from your screenshots</p></li>)}</ul>}
+    </Fragment>
+  )}
 </div>
 
 <style>
   .rv { --rv-star: var(--pink); --rv-star-off: #ead9e1; }
-  .rv__stars { display: inline-flex; gap: 2px; color: var(--rv-star); }
-  .rv__stars svg { width: 16px; height: 16px; fill: currentColor; }
   .rv__rating { position: relative; display: inline-flex; vertical-align: middle; }
   .rv__rating-base, .rv__rating-fill { display: inline-flex; gap: 2px; }
   .rv__rating-base { color: var(--rv-star-off); }
@@ -127,43 +137,27 @@ const five = [1, 2, 3, 4, 5];
   .rv__sub { font-size: var(--fs-sm); color: var(--text-muted); margin: var(--s1) 0 0; }
 
   /* Cards */
-  .rv__cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s4); }
+  .rv__cards, .rv__stack { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s4); }
   .rv--home .rv__cards { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-  .rv--page .rv__cards { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
-  .rv-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow); }
-  .rv-card figure { margin: 0; padding: var(--s6) var(--s6) var(--s5); height: 100%; display: flex; flex-direction: column; gap: var(--s3); }
-  .rv-card__mark { position: absolute; top: 2px; right: 18px; font: 700 4rem/1 Georgia, 'Times New Roman', serif; color: var(--pink); opacity: .18; pointer-events: none; }
-  .rv-card blockquote { margin: 0; flex: 1; }
-  .rv-card blockquote p { margin: 0; color: var(--text); font-size: var(--fs-base); line-height: 1.55; white-space: pre-line; }
-  .rv-card figcaption { display: flex; align-items: center; gap: var(--s3); }
-  .rv-card__avatar { flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: var(--pink-pale); color: var(--pink-deep); font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
-  .rv-card__who { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
-  .rv-card__who b { color: var(--charcoal); font-size: var(--fs-sm); }
-  .rv-card__who small { color: var(--text-muted); font-size: 0.8125rem; }
-  .rv-card--lead { grid-column: 1 / -1; background: var(--pink-pale); border-color: #f8cfe2; }
-  .rv-card--lead blockquote p { font-size: var(--fs-lg); color: var(--charcoal); }
-  .rv-card--lead .rv-card__avatar { background: #fff; }
-  .rv-card--slot { display: flex; align-items: center; justify-content: center; min-height: 180px; border: 2px dashed #e4c3d3; background: transparent; box-shadow: none; padding: var(--s6); text-align: center; }
-  .rv-card--slot p { margin: 0; color: var(--text-muted); font-style: italic; font-size: var(--fs-sm); }
+  .rv__stacks { display: grid; gap: var(--s4); margin-top: var(--s4); align-items: start; }
+  @media (min-width: 640px) { .rv__stacks { grid-template-columns: 1fr 1fr; } }
+  .rv__cards--slots { margin-top: var(--s4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+  .rv-slot { display: flex; align-items: center; justify-content: center; min-height: 180px; border: 2px dashed #e4c3d3; border-radius: var(--radius-lg); padding: var(--s6); text-align: center; }
+  .rv-slot p { margin: 0; color: var(--text-muted); font-style: italic; font-size: var(--fs-sm); }
 
-  /* One long review beside two short ones: two columns, the long card spanning both rows */
+  /* Homepage, one long review beside two short ones: two columns, the long card spanning both rows */
   @media (min-width: 640px) {
-    .rv--home .rv__cards--split, .rv--page .rv__cards--split,
-    .rv--home .rv__cards--pairs, .rv--page .rv__cards--pairs { grid-template-columns: 1fr 1fr; }
-    .rv__cards--split .rv-card--tall { grid-row: span 2; }
-  }
-  /* Phones: on /reviews/ the long review goes last so the short ones are seen first; on the homepage swipe row it's
-     left out (it's on /reviews/), because one tall card would stretch the row and leave gaps under the short ones */
-  @media (max-width: 639px) {
-    .rv--page .rv__cards--split .rv-card--tall { order: 1; }
-    .rv--home .rv__cards--split .rv-card--tall { display: none; }
+    .rv--home .rv__cards--split { grid-template-columns: 1fr 1fr; }
+    .rv__cards--split :global(.rv-card--tall) { grid-row: span 2; }
   }
 
-  /* Phones: the homepage cards become one swipe row, with the next card peeking in */
+  /* Phones: the homepage cards become one swipe row, with the next card peeking in. A long review is left out of the
+     row (it's on /reviews/), because one tall card would stretch the row and leave gaps under the short ones. */
   @media (max-width: 639px) {
     .rv--home .rv__cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none;
       margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); align-items: flex-start; }
     .rv--home .rv__cards::-webkit-scrollbar { display: none; }
-    .rv--home .rv-card { flex: 0 0 85%; scroll-snap-align: start; }
+    .rv--home .rv__cards :global(.rv-card) { flex: 0 0 85%; scroll-snap-align: start; }
+    .rv--home .rv__cards--split :global(.rv-card--tall) { display: none; }
   }
 </style>
