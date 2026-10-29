@@ -93,7 +93,7 @@ Some medicines have a shorter life once opened or prepared:
 | Medicines specially made (compounded) by a pharmacist | Usually 28 days or less |
 | Most other medicines | The expiry date, or as the label directs |
 
-healthdirect singles out emergency medicines, such as allergy autoinjectors and angina medicines, and diabetes medicines as ones to keep a close eye on. If you've taken an expired medicine, talk to your pharmacist or doctor.
+healthdirect singles out adrenaline autoinjectors, angina medicine (glyceryl trinitrate) and diabetes medicines as ones to keep a close eye on. If you've taken an expired medicine, talk to your pharmacist or doctor.
 
 ## How do you clear out a family member's medicine cupboard?
 

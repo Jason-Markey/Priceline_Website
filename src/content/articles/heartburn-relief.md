@@ -81,8 +81,11 @@ There are different types of reflux medicine at the pharmacy, and they work in d
 | --- | --- | --- | --- |
 | Antacids | Calcium carbonate, magnesium hydroxide, aluminium hydroxide | Neutralise stomach acid for fast, short-term relief | Work within minutes but don’t last long. Can stop some medicines being absorbed, such as some antibiotics, iron and thyroid medicine, so space them apart |
 | Alginates | Sodium alginate, often combined with an antacid | Form a protective layer on top of your stomach contents | Handy after meals and at bedtime. Some are high in sodium |
+| Proton pump inhibitors (PPIs) | Omeprazole, pantoprazole, rabeprazole, lansoprazole | Reduce how much acid your stomach makes | Small packs of up to 14 days are available from the pharmacy, some only after talking to a pharmacist. Take before a meal. If you need them for longer than 14 days, see your GP |
 
-The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. If antacids and alginates aren’t enough, talk to our pharmacists or your GP about other options. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
+**Ask your pharmacist about this product:** Pharmacist Only Medicines in this table need a pharmacist’s advice before you can buy them.
+
+The right choice depends on how often you get symptoms, your age, other medicines you take, and whether you’re pregnant or breastfeeding. Some reflux medicines need to be taken at a certain time before meals to work best. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
 
 Medicines can help, but healthdirect notes they aren’t always a long-term fix. If you find you need them regularly, see your GP. You can [browse the digestive health range on priceline.com.au](https://www.priceline.com.au/c/digestive-health) or ask us in store.
 

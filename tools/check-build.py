@@ -28,29 +28,29 @@ MEDICINES = [
     'orlistat', 'xenical', 'phentermine', 'duromine', 'contrave',
     # Pain, migraine, sleep and nausea
     'codeine', 'panadeine', 'mersyndol', 'tramadol', 'tapentadol', 'oxycodone', 'endone', 'morphine', 'fentanyl', 'methadone', 'buprenorphine',
-    'celecoxib', 'meloxicam', 'naproxen', 'mefenamic', 'modified-release paracetamol', 'slow-release paracetamol', 'panadol osteo', 'osteomol',
-    'triptan', 'sumatriptan', 'rizatriptan', 'zolmitriptan', 'naratriptan', 'eletriptan', 'migraine-specific',
-    'melatonin', 'circadin', 'doxylamine', 'restavit', 'promethazine', 'phenergan', 'diphenhydramine', 'dexchlorpheniramine', 'pheniramine',
+    'meloxicam', 'mefenamic', 'panadol osteo', 'osteomol',
+
+    'circadin', 'doxylamine', 'restavit', 'promethazine', 'phenergan', 'diphenhydramine', 'dexchlorpheniramine', 'pheniramine',
     'cyproheptadine', 'zolpidem', 'temazepam', 'diazepam', 'valium', 'alprazolam', 'xanax', 'benzodiazepine',
     'prochlorperazine', 'stemetil', 'metoclopramide', 'maxolon', 'ondansetron', 'zofran', 'domperidone',
     # Reflux
-    'esomeprazole', 'omeprazole', 'pantoprazole', 'rabeprazole', 'lansoprazole', 'nexium', 'somac', 'losec', 'pariet',
-    'proton pump inhibitor', 'ppi', 'famotidine', 'ranitidine', 'nizatidine', 'cimetidine', 'h2 blocker',
+    'esomeprazole', 'nexium', 'somac', 'losec', 'pariet',
+    'famotidine', 'ranitidine', 'nizatidine', 'cimetidine', 'h2 blocker',
     # Infections
     'amoxicillin', 'cefalexin', 'cephalexin', 'doxycycline', 'minocycline', 'tetracycline', 'quinolone', 'azithromycin', 'clarithromycin',
     'erythromycin', 'roxithromycin', 'trimethoprim', 'nitrofurantoin', 'ciprofloxacin', 'metronidazole', 'tinidazole', 'clindamycin',
-    'flucloxacillin', 'penicillin', 'mupirocin', 'chloramphenicol', 'chlorsig', 'fluconazole', 'diflucan', 'itraconazole', 'nystatin',
-    'antifungal tablet', 'antibiotic tablet', 'valaciclovir', 'famciclovir', 'oseltamivir', 'tamiflu', 'zanamivir',
+    'flucloxacillin', 'penicillin', 'mupirocin', 'chloramphenicol', 'chlorsig', 'diflucan', 'itraconazole',
+    'antifungal tablet', 'antibiotic tablet', 'valaciclovir', 'oseltamivir', 'tamiflu', 'zanamivir',
     'paxlovid', 'molnupiravir', 'ivermectin', 'malaria tablet', 'antimalarial', 'malarone', 'atovaquone',
     # Skin and hair
-    'hydrocortisone', 'cinchocaine', 'betamethasone', 'mometasone cream', 'clobetasol', 'methylprednisolone', 'advantan', 'elocon', 'kenalog',
-    'triamcinolone paste', 'prednisolone', 'prednisone', 'tretinoin', 'isotretinoin', 'roaccutane', 'oratane', 'adapalene', 'differin',
+    'cinchocaine', 'betamethasone', 'mometasone cream', 'clobetasol', 'methylprednisolone', 'advantan', 'elocon', 'kenalog',
+    'prednisolone', 'prednisone', 'tretinoin', 'isotretinoin', 'roaccutane', 'oratane', 'differin',
     'epiduo', 'tazarotene', 'prescription retinoid', 'hydroquinone', 'pimecrolimus', 'tacrolimus',
     'finasteride', 'dutasteride', 'propecia', 'spironolactone',
     # Breathing and allergy
     'salbutamol', 'terbutaline', 'ventolin', 'asmol', 'airomir', 'bricanyl', 'symbicort', 'seretide', 'montelukast', 'singulair',
-    'pseudoephedrine', 'sudafed', 'adrenaline autoinjector', 'adrenaline auto-injector', 'epipen', 'anapen', 'allergen immunotherapy',
-    'naloxone', 'nyxoid',
+    'pseudoephedrine', 'sudafed', 'epipen', 'anapen', 'allergen immunotherapy',
+    'nyxoid',
     # Heart, diabetes and other regular medicines
     'warfarin', 'apixaban', 'rivaroxaban', 'dabigatran', 'clopidogrel', 'atorvastatin', 'rosuvastatin', 'simvastatin', 'statin',
     'ezetimibe', 'perindopril', 'ramipril', 'candesartan', 'irbesartan', 'telmisartan', 'amlodipine', 'metoprolol', 'bisoprolol', 'atenolol',
@@ -59,7 +59,7 @@ MEDICINES = [
     'sertraline', 'escitalopram', 'fluoxetine', 'venlafaxine', 'desvenlafaxine', 'duloxetine', 'mirtazapine', 'amitriptyline', 'ssri',
     'quetiapine', 'pregabalin', 'gabapentin', 'methylphenidate', 'ritalin', 'dexamfetamine', 'lisdexamfetamine', 'vyvanse',
     # Smoking and vaping (vapes can't be advertised at all)
-    'champix', 'varenicline', 'zyban', 'bupropion', 'cytisine', 'nicotine vape', 'nicotine pouch',
+    'champix', 'varenicline', 'zyban', 'bupropion', 'nicotine vape', 'nicotine pouch',
     # Men's health and cannabis
     'viagra', 'cialis', 'levitra', 'sildenafil', 'tadalafil', 'testosterone', 'medicinal cannabis', 'cannabidiol', 'cbd oil',
     # Vaccine brands and product types (vaccinations are described by disease only)
@@ -72,10 +72,16 @@ MEDICINES = [
     'anti-wrinkle injection', 'botox', 'dysport',
 ]
 # Names whose schedule depends on the form or pack: allowed only in their pharmacy form, so a warning to check the context
-MEDICINES_REVIEW = ['insulin', 'aciclovir', 'acyclovir', 'diclofenac', 'hyoscine', 'minoxidil', 'amorolfine', 'econazole', 'bifonazole', 'tranexamic']
-# Schedule 3 medicines in Appendix H (levonorgestrel from 1 February 2019, ulipristal from 1 February 2018): they may be
-# advertised, but any page that mentions one must carry the Advertising Code's statement for Pharmacist Only Medicines
-APPENDIX_H = ['morning-after pill', 'morning after pill', 'emergency contraceptive pill']
+MEDICINES_REVIEW = ['insulin', 'aciclovir', 'acyclovir', 'diclofenac', 'hyoscine', 'minoxidil', 'amorolfine', 'bifonazole', 'tranexamic']
+# Schedule 3 medicines in Appendix H of the Poisons Standard (checked against the current Appendix H, October 2026) that the
+# site names: they may be advertised, but any page that mentions one must carry the Advertising Code's statement for
+# Pharmacist Only Medicines. Esomeprazole isn't in Appendix H, so it stays in MEDICINES.
+APPENDIX_H = [
+    'morning-after pill', 'morning after pill', 'emergency contraceptive pill',
+    'omeprazole', 'pantoprazole', 'rabeprazole', 'lansoprazole', 'sumatriptan', 'rizatriptan', 'zolmitriptan', 'naratriptan',
+    'eletriptan', 'naproxen', 'hydrocortisone', 'triamcinolone', 'modified-release paracetamol', 'slow-release paracetamol',
+    'famciclovir', 'fluconazole', 'melatonin', 'cytisine', 'adapalene', 'celecoxib', 'nystatin', 'naloxone',
+]
 APPENDIX_H_STATEMENT = 'ask your pharmacist about this product'
 TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 H1_RE = re.compile(r'<h1[^>]*>', re.I)

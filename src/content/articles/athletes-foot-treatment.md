@@ -62,7 +62,7 @@ Most pharmacy treatments contain one of a handful of antifungal ingredients. The
 | Active ingredient | How it’s used | Good to know |
 | --- | --- | --- |
 | Terbinafine (cream, gel or spray) | Usually once or twice a day | Some terbinafine products need a shorter course than other creams. Check the label for how long. |
-| Clotrimazole or miconazole (creams, sprays) | Usually once or twice a day | Often used for 2 to 4 weeks. Keep going after the rash clears, as the label directs. |
+| Clotrimazole, miconazole or econazole (creams, sprays) | Usually once or twice a day | Often used for 2 to 4 weeks. Keep going after the rash clears, as the label directs. |
 | Tolnaftate or miconazole (powders) | Dust on feet and inside socks and shoes | Help keep feet dry and stop the infection coming back. Often used alongside a cream. |
 
 Creams and gels suit cracked, peeling skin between the toes. Sprays are handy if bending down is hard, and powders are best for prevention. Ask your pharmacist which suits you, especially for children, or if you’re pregnant or breastfeeding.

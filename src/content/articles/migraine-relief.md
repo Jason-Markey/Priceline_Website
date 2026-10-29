@@ -16,10 +16,12 @@ references:
     url: "https://www.healthdirect.gov.au/headaches"
   - name: "Migraine Australia – Medication overuse headache"
     url: "https://www.migraine.org.au/moh"
+  - name: "Migraine Australia – Triptans and other abortives"
+    url: "https://www.migraine.org.au/triptans"
 draft: false
 ---
 
-Migraine relief works best when you act early. Treat an attack at the first sign, rest somewhere dark and quiet, and learn your triggers so you have fewer attacks. Pharmacy pain relievers can help, and your GP can talk to you about other options.
+Migraine relief works best when you act early. Treat an attack at the first sign, rest somewhere dark and quiet, and learn your triggers so you have fewer attacks. There are pharmacy options, some migraine medicines that need a pharmacist’s advice, and other options from your GP.
 
 This step-by-step guide explains what a migraine is, how to manage an attack, and when a headache is an emergency. For everyday tension-type headaches, see our [headache relief guide](/headache-relief/).
 
@@ -66,7 +68,14 @@ Healthdirect notes that the earlier you take pain relief in an attack, the more 
 
 ### Step 2: Take the medicine that suits you
 
-Everyday pain relievers, such as paracetamol, ibuprofen or aspirin, can help milder attacks, especially if you take them early. Aspirin isn’t for under 16s, and anti-inflammatories such as ibuprofen and aspirin aren’t suitable for everyone. If pharmacy pain relief isn’t enough, or nausea is a big part of your attacks, see your GP about other options.
+Options in Australia fall into a few groups:
+
+| Option | Examples | Good to know |
+| --- | --- | --- |
+| Everyday pain relievers | Paracetamol, ibuprofen, aspirin, naproxen | Can help milder attacks, especially taken early. Aspirin isn’t for under 16s, and anti-inflammatories aren’t suitable for everyone |
+| Triptans (migraine-specific medicines) | Sumatriptan, zolmitriptan, rizatriptan, naratriptan, eletriptan | Some are available from a pharmacist after a consultation, others need a prescription. Not suitable for everyone, for example people with some heart or circulation conditions or a previous stroke |
+
+**Ask your pharmacist about this product:** Pharmacist Only Medicines in this table need a pharmacist’s advice before you can buy them. If nausea is a big part of your attacks, see your GP about other options.
 
 Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice. If you’re thinking of taking paracetamol and ibuprofen together, read our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/) first.
 
@@ -84,7 +93,7 @@ Small sips of water can help, especially if you’ve been vomiting or out in the
 
 ## Watch out for medication-overuse headache
 
-Using migraine treatments too often can lead to more frequent headaches. This is known as medication-overuse headache. Migraine Australia says the risk rises if you use simple pain relievers on 15 or more days a month, or combination pain relievers or other migraine medicines on 10 or more days a month. Migraine Australia also notes that more than one in ten people with migraine have medication-overuse headache.
+Using migraine treatments too often can lead to more frequent headaches. This is known as medication-overuse headache. Migraine Australia says the risk rises if you use simple pain relievers on 15 or more days a month, or triptans or combination pain relievers on 10 or more days a month. Migraine Australia also notes that more than one in ten people with migraine have medication-overuse headache.
 
 If you’re treating attacks that often, talk to your GP about prevention.
 
@@ -92,6 +101,7 @@ If you’re treating attacks that often, talk to your GP about prevention.
 
 - Talk through your symptoms and whether they sound like migraine
 - Check which options are safe with your other medicines and health conditions
+- Offer a consultation for pharmacist-only migraine options, where suitable
 - Help you spot patterns of overuse
 - Tell you when it’s time to see a GP
 

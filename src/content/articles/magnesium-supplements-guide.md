@@ -56,7 +56,7 @@ healthdirect says deficiency is rare in healthy people. You're more likely to be
 - have a digestive condition such as Crohn's disease, or long-term vomiting or diarrhoea
 - have kidney problems
 - have alcohol dependence
-- take some medicines long term, including fluid tablets (diuretics) and some reflux medicines. The NIH notes these reflux medicines can cause low magnesium when taken for a long time, typically more than a year.
+- take some medicines long term, including fluid tablets (diuretics) and reflux medicines called proton pump inhibitors. The NIH notes these reflux medicines can cause low magnesium when taken for a long time, typically more than a year.
 
 healthdirect lists signs of low magnesium as poor appetite, nausea and vomiting, tiredness and weakness. Severe deficiency can cause muscle spasms and abnormal heart rhythms. It's diagnosed with a blood or urine test, so see your GP rather than guessing.
 

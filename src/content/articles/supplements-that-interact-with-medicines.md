@@ -41,7 +41,7 @@ These are some of the well-documented examples, described by type of medicine.
 
 | Supplement or food | Medicines it can affect | What can happen |
 | --- | --- | --- |
-| St John's wort | Antidepressants and some migraine medicines | A higher risk of toxicity, including serotonin syndrome, which can be life-threatening |
+| St John's wort | Antidepressants and some migraine medicines (triptans) | A higher risk of toxicity, including serotonin syndrome, which can be life-threatening |
 | St John's wort | The combined oral contraceptive pill | The pill works less well, raising the risk of an unplanned pregnancy |
 | St John's wort | Some transplant, HIV, epilepsy and heart medicines | These medicines may not work properly, with risks such as organ rejection, seizures or blood clots |
 | Vitamin K-rich foods, grapefruit and cranberry juice | Some blood thinners (ask your pharmacist whether yours is affected) | healthdirect advises keeping vitamin K foods steady and avoiding grapefruit and cranberry juice |
@@ -68,7 +68,7 @@ Magnesium can bind to some medicines in the gut so less of the medicine is absor
 
 If you take calcium, iron or other mineral supplements alongside antibiotics, osteoporosis medicine or thyroid medicine, ask your pharmacist to help you plan the timing.
 
-It works the other way too. The NIH notes that some fluid tablets (diuretics) can increase the amount of magnesium you lose, and that some reflux medicines can cause low magnesium when taken for a long time, typically more than a year.
+It works the other way too. The NIH notes that some fluid tablets (diuretics) can increase the amount of magnesium you lose, and that reflux medicines called proton pump inhibitors can cause low magnesium when taken for a long time, typically more than a year.
 
 We've covered three popular supplements in more detail: [vitamin D](/vitamin-d-gold-coast/), [magnesium](/magnesium-supplements-guide/) and [probiotics with antibiotics](/probiotics-and-antibiotics/).
 
