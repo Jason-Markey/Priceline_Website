@@ -1,35 +1,49 @@
 ---
 /**
- * Google reviews block. context 'home': rating rail + three cards (a swipe row on phones).
- * context 'page': rating header + a featured first review + the rest in a grid.
+ * Google reviews block. context 'home': rating rail + the first three reviews (a swipe row on phones).
+ * context 'page': rating header + the lead review as a featured card + the rest in a grid.
  * Reviews, rating and the rules for choosing reviews: src/data/reviews.ts. No review schema on purpose.
  */
-import { reviews, googleRating, reviewsPreview } from '../data/reviews';
+import { reviews, googleRating, reviewsPreview, type Review } from '../data/reviews';
 import { site } from '../data/site';
 
 export interface Props { context?: 'home' | 'page'; }
 const { context = 'page' } = Astro.props;
 
-const want = context === 'home' ? 3 : 6;
-const list = context === 'home' ? reviews.slice(0, 3) : reviews;
+const lead = reviews.find((r) => r.lead) ?? reviews[0];
+const isTall = (r: Review) => r.text.length > 180;
+const isShort = (r: Review) => r.text.length < 120;
+// Three cards where one is long and two are short: the long one gets a column to itself and the two short ones stack
+// beside it, so the row doesn't leave big gaps under the short reviews
+const arrange = (cards: Review[]) => {
+  const tall = cards.filter(isTall);
+  return cards.length === 3 && tall.length === 1 && cards.filter(isShort).length === 2
+    ? { split: true, cards: [tall[0], ...cards.filter((c) => c !== tall[0])] }
+    : { split: false, cards };
+};
+const set = arrange(context === 'home' ? reviews.slice(0, 3) : reviews.filter((r) => r !== lead));
+const list = context === 'home' ? set.cards : [lead, ...set.cards].filter(Boolean);
 // Preview builds only: empty slots show where reviews will go until there are enough real ones
-const slots = reviewsPreview ? Math.max(0, want - list.length) : 0;
+const slots = reviewsPreview ? Math.max(0, (context === 'home' ? 3 : 4) - list.length) : 0;
 const hasRating = googleRating.count > 0;
-const monthYear = (d: string) =>
-  new Date(`${d}-01T00:00:00`).toLocaleDateString('en-AU', { month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
+const score = hasRating ? googleRating.rating.toFixed(1) : '';
+// The overall rating's stars fill to the actual score (4.6 shows four and a bit), as on Google
+const fill = hasRating ? Math.round((googleRating.rating / 5) * 1000) / 10 : 100;
 const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z';
+const five = [1, 2, 3, 4, 5];
 ---
 
 <div class:list={['rv', `rv--${context}`]}>
   {context === 'home' ? (
     <div class="rv__rail">
-      {hasRating ? <p class="rv__score">{googleRating.rating}</p> : <p class="rv__score rv__score--empty">Rating</p>}
-      <span class="rv__stars rv__stars--lg" role="img" aria-label="5 out of 5 stars">
-        {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+      {hasRating ? <p class="rv__score">{score}</p> : <p class="rv__score rv__score--empty">Rating</p>}
+      <span class="rv__rating" role="img" aria-label={hasRating ? `Rated ${score} out of 5` : 'Rating'}>
+        <span class="rv__rating-base">{five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}</span>
+        <span class="rv__rating-fill" style={`width:${fill}%`}>{five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}</span>
       </span>
       <p class="rv__meta">
         {hasRating
-          ? <Fragment>Rated <b>{googleRating.rating}</b> from <b>{googleRating.count}</b> Google reviews</Fragment>
+          ? <Fragment>Rated <b>{score}</b> from <b>{googleRating.count}</b> Google reviews</Fragment>
           : 'Your Google rating and review count go here'}
       </p>
       <a class="rv__more" href="/reviews/">Read more reviews</a>
@@ -37,32 +51,33 @@ const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9
   ) : (
     <div class="rv__head">
       <div class="rv__headscore">
-        {hasRating ? <p class="rv__score">{googleRating.rating}</p> : <p class="rv__score rv__score--empty">Rating</p>}
-        <span class="rv__stars rv__stars--lg" role="img" aria-label="5 out of 5 stars">
-          {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+        {hasRating ? <p class="rv__score">{score}</p> : <p class="rv__score rv__score--empty">Rating</p>}
+        <span class="rv__rating" role="img" aria-label={hasRating ? `Rated ${score} out of 5` : 'Rating'}>
+          <span class="rv__rating-base">{five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}</span>
+          <span class="rv__rating-fill" style={`width:${fill}%`}>{five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}</span>
         </span>
       </div>
       <div>
         <p class="rv__headline">
-          {hasRating ? `Rated ${googleRating.rating} from ${googleRating.count} Google reviews` : 'Your Google rating and review count go here'}
+          {hasRating ? `Rated ${score} from ${googleRating.count} Google reviews` : 'Your Google rating and review count go here'}
         </p>
         <p class="rv__sub">A selection of our Google reviews, shown exactly as written. <a href={site.links.googleReviews} rel="noopener">Read them all on Google</a>.</p>
       </div>
     </div>
   )}
 
-  <ul class="rv__cards" role="list">
+  <ul class:list={['rv__cards', { 'rv__cards--split': set.split }]} role="list">
     {list.map((r, i) => (
-      <li class:list={['rv-card', { 'rv-card--lead': context === 'page' && i === 0 }]}>
+      <li class:list={['rv-card', { 'rv-card--lead': context === 'page' && i === 0, 'rv-card--tall': set.split && isTall(r) && !(context === 'page' && i === 0) }]}>
         <figure>
           <span class="rv-card__mark" aria-hidden="true">&ldquo;</span>
           <span class="rv__stars" role="img" aria-label={`${r.stars} out of 5 stars`}>
-            {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+            {five.map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
           </span>
           <blockquote><p>{r.text}</p></blockquote>
           <figcaption>
             <span class="rv-card__avatar" aria-hidden="true">{r.name.trim().charAt(0)}</span>
-            <span class="rv-card__who"><b>{r.name}</b><small>Google review · {monthYear(r.date)}</small></span>
+            <span class="rv-card__who"><b>{r.name}</b><small>{r.localGuide ? 'Local Guide · Google review' : 'Google review'}</small></span>
           </figcaption>
         </figure>
       </li>
@@ -74,10 +89,14 @@ const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9
 </div>
 
 <style>
-  .rv { --rv-star: var(--pink); }
+  .rv { --rv-star: var(--pink); --rv-star-off: #ead9e1; }
   .rv__stars { display: inline-flex; gap: 2px; color: var(--rv-star); }
   .rv__stars svg { width: 16px; height: 16px; fill: currentColor; }
-  .rv__stars--lg svg { width: 20px; height: 20px; }
+  .rv__rating { position: relative; display: inline-flex; vertical-align: middle; }
+  .rv__rating-base, .rv__rating-fill { display: inline-flex; gap: 2px; }
+  .rv__rating-base { color: var(--rv-star-off); }
+  .rv__rating-fill { position: absolute; inset: 0 auto 0 0; overflow: hidden; color: var(--rv-star); white-space: nowrap; }
+  .rv__rating svg { flex: 0 0 20px; width: 20px; height: 20px; fill: currentColor; }
   .rv__score { font-size: 3.5rem; font-weight: 800; line-height: 1; color: var(--charcoal); letter-spacing: -0.02em; margin: 0 0 var(--s2); }
   .rv__score--empty { font-size: 1.75rem; color: var(--text-muted); font-weight: 700; }
 
@@ -107,12 +126,12 @@ const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9
   /* Cards */
   .rv__cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s4); }
   .rv--home .rv__cards { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-  .rv--page .rv__cards { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .rv--page .rv__cards { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
   .rv-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow); }
   .rv-card figure { margin: 0; padding: var(--s6) var(--s6) var(--s5); height: 100%; display: flex; flex-direction: column; gap: var(--s3); }
   .rv-card__mark { position: absolute; top: 2px; right: 18px; font: 700 4rem/1 Georgia, 'Times New Roman', serif; color: var(--pink); opacity: .18; pointer-events: none; }
   .rv-card blockquote { margin: 0; flex: 1; }
-  .rv-card blockquote p { margin: 0; color: var(--text); font-size: var(--fs-base); line-height: 1.55; }
+  .rv-card blockquote p { margin: 0; color: var(--text); font-size: var(--fs-base); line-height: 1.55; white-space: pre-line; }
   .rv-card figcaption { display: flex; align-items: center; gap: var(--s3); }
   .rv-card__avatar { flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: var(--pink-pale); color: var(--pink-deep); font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
   .rv-card__who { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
@@ -124,10 +143,22 @@ const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9
   .rv-card--slot { display: flex; align-items: center; justify-content: center; min-height: 180px; border: 2px dashed #e4c3d3; background: transparent; box-shadow: none; padding: var(--s6); text-align: center; }
   .rv-card--slot p { margin: 0; color: var(--text-muted); font-style: italic; font-size: var(--fs-sm); }
 
+  /* One long review beside two short ones: two columns, the long card spanning both rows */
+  @media (min-width: 640px) {
+    .rv--home .rv__cards--split, .rv--page .rv__cards--split { grid-template-columns: 1fr 1fr; }
+    .rv__cards--split .rv-card--tall { grid-row: span 2; }
+  }
+  /* Phones: on /reviews/ the long review goes last so the short ones are seen first; on the homepage swipe row it's
+     left out (it's on /reviews/), because one tall card would stretch the row and leave gaps under the short ones */
+  @media (max-width: 639px) {
+    .rv--page .rv__cards--split .rv-card--tall { order: 1; }
+    .rv--home .rv__cards--split .rv-card--tall { display: none; }
+  }
+
   /* Phones: the homepage cards become one swipe row, with the next card peeking in */
   @media (max-width: 639px) {
     .rv--home .rv__cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none;
-      margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); }
+      margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); align-items: flex-start; }
     .rv--home .rv__cards::-webkit-scrollbar { display: none; }
     .rv--home .rv-card { flex: 0 0 85%; scroll-snap-align: start; }
   }
