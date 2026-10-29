@@ -173,7 +173,7 @@ export const services: Service[] = [
   {
     slug: 'national-diabetes-services-scheme',
     name: 'Diabetes & NDSS',
-    short: 'NDSS access point for subsidised diabetes supplies, with pharmacist advice.',
+    short: 'Blood glucose monitors, test strips and Libre sensors, plus subsidised NDSS supplies.',
     group: 'pharmacy',
     image: 'dispensary.jpg',
     icon: 'diabetes',

@@ -1,9 +1,9 @@
 ---
 title: "Mouth ulcer treatment: home care and when to worry"
-description: "Mouth ulcer treatment: saltwater rinses, soft foods (skip the salty beach chips), pharmacy gels, and when an ulcer needs a Gold Coast dentist or GP."
-seoTitle: "Mouth ulcer treatment | Priceline Pacific Fair"
+description: "Mouth ulcer (mouth sore) treatment: saltwater rinses, soft foods, numbing and protective gels from the pharmacy, and when to see a Gold Coast dentist or GP."
+seoTitle: "Mouth ulcer treatment: gels, rinses and home remedies"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: dental-oral-care
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -19,7 +19,7 @@ references:
 draft: false
 ---
 
-Most mouth ulcers heal on their own within 1–2 weeks, so mouth ulcer treatment is mainly about easing the pain while you wait. Saltwater rinses, soft foods, a soft toothbrush and a numbing gel or protective product from the pharmacy can all help. The key rule is simple: if an ulcer hasn’t healed after 2 weeks, or they keep coming back, see your dentist or GP. You’ll find more everyday conditions in our [common illnesses guides](/common-illness-information/).
+Most mouth ulcers (mouth sores) heal on their own within 1–2 weeks, so mouth ulcer treatment is mainly about easing the pain while you wait. Saltwater rinses, soft foods, a soft toothbrush and a numbing gel or protective product from the pharmacy can all help. The key rule is simple: if an ulcer hasn’t healed after 2 weeks, or they keep coming back, see your dentist or GP. You’ll find more everyday conditions in our [common illnesses guides](/common-illness-information/).
 
 ## What is a mouth ulcer?
 
@@ -62,6 +62,10 @@ These self-care steps are based on advice from healthdirect and the Better Healt
 - **Stay hydrated.** Keep a water bottle handy, especially in the heat.
 - **Try not to touch or poke the ulcer** with your tongue or fingers.
 - **Notice your triggers.** If ulcers keep appearing after a certain food or a stressful week, that’s useful information for your pharmacist, dentist or GP.
+
+## How do you get rid of a mouth ulcer fast?
+
+There’s no instant fix, and most mouth ulcers heal on their own in 1–2 weeks. What you can do is ease the pain and avoid making it worse: rinse with warm salt water, cover the ulcer with a protective gel or paste before meals, use a numbing gel when it stings, and skip spicy, salty and acidic food until it heals. If an ulcer is very painful, ask your pharmacist which of the options below suits you.
 
 ## How can a pharmacist help?
 

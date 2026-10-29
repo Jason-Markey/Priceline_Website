@@ -8,7 +8,7 @@ import { serviceBySlug } from '../data/services';
 const service = serviceBySlug('prescriptions')!;
 
 const faqs = [
-  { q: 'Do you accept eScripts?', a: 'Yes. Show us the QR code in your SMS or email at the prescription counter, or send it ahead by email to ' + site.emailPharmacy + ' or through the Priceline Pharmacy app or MedAdvisor, and collect it when it suits you.' },
+  { q: 'Do you accept eScripts?', a: 'Yes. Show us the QR code in your SMS or email at the prescription counter, or send it ahead by email to ' + site.emailPharmacy + ' or through the Priceline Pharmacy app or MedAdvisor, and collect it when it suits you. Our <a href="/how-to-use-escripts/">guide to eScripts</a> explains tokens and Active Script Lists.' },
   { q: 'Can I email my eScript to you?', a: 'Yes. Forward the eScript link from your SMS or email (or a screenshot of the QR code) to <a href="mailto:' + site.emailPharmacy + '">' + site.emailPharmacy + '</a> with your name and mobile number. We check this inbox throughout the day while we’re open and will let you know when it’s ready. Paper prescriptions need to come in, as we need the original.' },
   { q: 'Can I fill a hospital prescription here?', a: 'Yes. We dispense hospital discharge scripts and private prescriptions as well as scripts from your GP. Bring it to the prescription counter at the back of the store.' },
   { q: 'Can you fill a prescription from another state?', a: 'Yes. A valid paper prescription or eScript from any Australian doctor can be filled here, so visitors to the Gold Coast are welcome. Bring your Medicare card if you have one.' },
@@ -31,7 +31,7 @@ const faqs = [
   faqs={faqs}
   primaryCta={{ label: 'Email your eScript', href: `mailto:${site.emailPharmacy}?subject=${encodeURIComponent('eScript to fill')}`, event: 'cta_send_script' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-20"
+  dateModified="2026-10-29"
 >
   <div class="btn-row" data-cta-location="app_links">
     <a class="btn btn--outline btn--sm" href={site.links.appIos} rel="noopener" data-event="cta_app_download">Get the app (iPhone)</a>

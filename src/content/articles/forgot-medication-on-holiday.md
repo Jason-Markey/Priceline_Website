@@ -33,7 +33,7 @@ Before you do anything else, gather as much detail as you can. The more we know,
 - **The name and strength of each medicine.** A photo of the box or the pharmacy label on your phone is ideal.
 - **When you last took it** and when your next dose is due.
 - **Who prescribed it** and the name of your usual pharmacy, including their phone numbers.
-- **Any eScript tokens or repeats** sitting in your text messages or email.
+- **Any [eScript tokens](/how-to-use-escripts/) or repeats** sitting in your text messages or email.
 
 If you can't remember the name, don't guess. Someone at home may be able to photograph the packet, or your usual pharmacy may be able to confirm what you've been dispensed.
 

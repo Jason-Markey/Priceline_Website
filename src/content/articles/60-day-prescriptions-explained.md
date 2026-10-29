@@ -71,7 +71,7 @@ If you take two or three eligible medicines, the savings multiply. These figures
 
 ### Repeats and eScripts
 
-A 60-day prescription works like any other script. If it's an eScript, healthdirect explains that the pharmacist will send you a new token for your repeat by SMS or email, and you show that token next time. You can also send your eScript to us ahead of time through the Priceline Pharmacy app so it's ready when you arrive.
+A 60-day prescription works like any other script. If it's an eScript, healthdirect explains that the pharmacist will send you a new token for your repeat by SMS or email, and you show that token next time. Our guide to [eScripts and Active Script Lists](/how-to-use-escripts/) explains how tokens work. You can also send your eScript to us ahead of time through the Priceline Pharmacy app so it's ready when you arrive.
 
 With twice as much medicine at home, store it as the label directs and out of reach of children. If your doctor changes or stops a medicine, bring the leftovers back to the pharmacy. Our guide to [getting rid of old medicines safely](/how-to-dispose-of-old-medicines/) explains how.
 

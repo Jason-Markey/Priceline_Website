@@ -3,7 +3,7 @@ title: "eScripts, Active Script Lists and scripts on file, explained"
 description: "An eScript is a QR code token sent to your phone. How to use it at any pharmacy, when an Active Script List is easier, and what to do if you lose a token."
 seoTitle: "eScripts explained: tokens, Active Script Lists and repeats"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -84,6 +84,14 @@ That's especially handy on busy Pacific Fair days, like weekends, late-night Thu
 If you or a family member take several medicines each day, you might also like to know about our [medication packing service](/medication-packing/), which sorts doses into easy-to-use packs.
 
 ## Frequently asked questions
+
+### Can I use an eScript at any pharmacy?
+
+Yes. You can show your eScript token at any pharmacy in Australia; you don't have to go back to the same one. If you use an Active Script List, another pharmacy needs your consent to see it.
+
+### Does Priceline Pacific Fair accept eScripts?
+
+Yes. Show us the QR code at the prescription counter, or send it ahead by email to pharmacy@pricelinepf.com.au or through the Priceline Pharmacy app or MedAdvisor, and collect it when it suits you. See our [prescriptions page](/prescriptions/) for more.
 
 ### How long is an eScript valid?
 

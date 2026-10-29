@@ -94,7 +94,7 @@ Pharmacy medicines can’t cure a cold, but some can ease symptoms. The main gro
 - **Cough medicines,** which can cause drowsiness.
 - **Throat lozenges and sprays** for a sore throat.
 
-Be careful with multi-symptom cold and flu products. Many contain paracetamol or ibuprofen, and it’s easy to double up by accident. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
+Be careful with multi-symptom cold and flu products. Many contain paracetamol or ibuprofen, and it’s easy to double up by accident; our guide to [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/) explains how to avoid it. Ask your pharmacist which suits you, and follow the label or your pharmacist’s advice.
 
 ## How can a pharmacist help?
 

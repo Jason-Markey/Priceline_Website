@@ -1,9 +1,9 @@
 ---
 title: "Can you take paracetamol and ibuprofen together?"
-description: "Yes, most healthy adults can. How to time doses, the daily limit for each, how to avoid doubling up with cold and flu tablets, and who should skip ibuprofen."
+description: "Yes, most adults can take them together or alternate them, including Panadol and Nurofen. How to time doses, daily limits and who should skip ibuprofen."
 seoTitle: "Can you take paracetamol and ibuprofen at the same time?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -31,14 +31,22 @@ The catch is that ibuprofen doesn't suit everyone, and it's easy to double up wi
 
 ## Can I take 2 paracetamol and 2 ibuprofen at the same time?
 
-For most adults, yes, as long as that's the dose on each pack and ibuprofen is safe for you. Most standard paracetamol tablets are 500 mg, so 2 tablets is 1 gram, the most healthdirect suggests for one adult dose. For ibuprofen, take the dose on its label.
+For most adults, yes, as long as that's the dose on each pack and ibuprofen is safe for you. Most standard paracetamol tablets are 500 mg, so 2 tablets is 1 gram, the most healthdirect suggests for one adult dose. Standard ibuprofen tablets are 200 mg, and the label usually allows 1 or 2 per dose, so you can also take 2 paracetamol with 1 ibuprofen.
 
 After that, each medicine runs on its own clock:
 
 - **Paracetamol:** wait at least 4 hours before the next dose, and take no more than 4 grams (8 standard tablets) in 24 hours.
-- **Ibuprofen:** follow the label for how often you can take it and the most you can take in a day.
+- **Ibuprofen:** for standard 200 mg tablets, the label usually says 1 or 2 tablets every 4 to 6 hours, and no more than 6 tablets (1,200 mg) in 24 hours. Check your pack, as strengths and directions vary.
 
 Write down the time of each dose so you don't double up. Slow-release paracetamol is taken differently, so check the table below.
+
+## Can I take 2 paracetamol and 2 ibuprofen every 4 hours?
+
+Not around the clock. With standard 500 mg paracetamol and 200 mg ibuprofen tablets, the limits are 8 paracetamol and 6 ibuprofen in 24 hours, so taking 2 of each every 4 hours would go over both within a day. Spacing them out keeps you under: for example, 2 paracetamol every 6 hours and 2 ibuprofen every 8 hours stays within both limits. If you've needed pain relief that often for more than a few days, talk to your pharmacist or GP.
+
+## Can I take Panadol and Nurofen at the same time?
+
+Yes, the same advice applies, because it's the active ingredient that counts. Panadol and Panamax are brands of paracetamol, and Nurofen and Advil are brands of ibuprofen. Some products under these brands contain other ingredients too, so check the active ingredients on every pack, and don't take two products that contain the same one.
 
 ## How do paracetamol and ibuprofen work?
 
@@ -60,14 +68,14 @@ Neither approach changes the rules. Each medicine keeps its own dose, its own mi
 
 Start with one. If paracetamol or ibuprofen alone isn't enough, adding the other may help. Use pain relievers for as short a time as you need them: healthdirect advises taking ibuprofen at the lowest dose for as short a time as possible.
 
-## How much can you take in a day?
+## How much paracetamol and ibuprofen can you take in a day?
 
 Always check the strength of your tablets and follow the directions on the pack. Here's how the two compare for adults.
 
 | | Paracetamol | Ibuprofen |
 | --- | --- | --- |
 | Type of medicine | Pain and fever reliever | Anti-inflammatory (NSAID) |
-| Adult dose limits | healthdirect: no more than 1 gram every 4 to 6 hours, and a total of no more than 4 grams in a day | The maximum daily dose depends on the product, so follow the label |
+| Adult dose limits | healthdirect: no more than 1 gram every 4 to 6 hours, and a total of no more than 4 grams (8 standard 500 mg tablets) in a day | Standard 200 mg tablets: usually 1 or 2 every 4 to 6 hours, and no more than 6 tablets (1,200 mg) in 24 hours. Follow the label |
 | Slow-release versions | Modified-release paracetamol is taken every 8 hours (3 times a day). It's a Pharmacist Only Medicine | Check the label |
 | Take extra care if you | Have liver or kidney problems, drink more than the recommended amount of alcohol, or are very underweight | Have stomach, kidney, liver or heart problems or asthma, take a blood thinner, are pregnant, or are over 65 |
 

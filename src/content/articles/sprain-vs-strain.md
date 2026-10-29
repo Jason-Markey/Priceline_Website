@@ -71,7 +71,7 @@ It depends on the injury, your age and your general health. Sports Medicine Aust
 
 Pop in and we can help you put together what you need for the first few days, and check whether you should see someone else. We can help with:
 
-- **Pain relief.** Paracetamol or ibuprofen may help ease pain. Ibuprofen and other anti-inflammatories aren’t suitable for everyone, for example if you have certain stomach, kidney or heart conditions, asthma, or you’re pregnant, so check with your pharmacist first. Follow the label or your pharmacist’s advice.
+- **Pain relief.** Paracetamol or ibuprofen may help ease pain, and some people use both (see [taking paracetamol and ibuprofen together](/paracetamol-and-ibuprofen-together/)). Ibuprofen and other anti-inflammatories aren’t suitable for everyone, for example if you have certain stomach, kidney or heart conditions, asthma, or you’re pregnant, so check with your pharmacist first. Follow the label or your pharmacist’s advice.
 - **Pain-relief creams and gels** you rub on the skin. Ask your pharmacist which suits you.
 - **Cold packs, compression bandages, tubular supports and braces,** plus how to fit a bandage properly.
 - **Crutches or supports** to keep weight off a sore ankle or knee.
