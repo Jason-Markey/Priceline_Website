@@ -15,11 +15,14 @@ const isTall = (r: Review) => r.text.length > 180;
 const isShort = (r: Review) => r.text.length < 120;
 // Three cards where one is long and two are short: the long one gets a column to itself and the two short ones stack
 // beside it, so the row doesn't leave big gaps under the short reviews
+// An even number of cards: two columns, longest first, so each row pairs reviews of a similar length
 const arrange = (cards: Review[]) => {
   const tall = cards.filter(isTall);
-  return cards.length === 3 && tall.length === 1 && cards.filter(isShort).length === 2
-    ? { split: true, cards: [tall[0], ...cards.filter((c) => c !== tall[0])] }
-    : { split: false, cards };
+  if (cards.length === 3 && tall.length === 1 && cards.filter(isShort).length === 2)
+    return { split: true, pairs: false, cards: [tall[0], ...cards.filter((c) => c !== tall[0])] };
+  if (cards.length >= 4 && cards.length % 2 === 0)
+    return { split: false, pairs: true, cards: [...cards].sort((x, y) => y.text.length - x.text.length) };
+  return { split: false, pairs: false, cards };
 };
 const set = arrange(context === 'home' ? reviews.slice(0, 3) : reviews.filter((r) => r !== lead));
 const list = context === 'home' ? set.cards : [lead, ...set.cards].filter(Boolean);
@@ -66,7 +69,7 @@ const five = [1, 2, 3, 4, 5];
     </div>
   )}
 
-  <ul class:list={['rv__cards', { 'rv__cards--split': set.split }]} role="list">
+  <ul class:list={['rv__cards', { 'rv__cards--split': set.split, 'rv__cards--pairs': set.pairs }]} role="list">
     {list.map((r, i) => (
       <li class:list={['rv-card', { 'rv-card--lead': context === 'page' && i === 0, 'rv-card--tall': set.split && isTall(r) && !(context === 'page' && i === 0) }]}>
         <figure>
@@ -145,7 +148,8 @@ const five = [1, 2, 3, 4, 5];
 
   /* One long review beside two short ones: two columns, the long card spanning both rows */
   @media (min-width: 640px) {
-    .rv--home .rv__cards--split, .rv--page .rv__cards--split { grid-template-columns: 1fr 1fr; }
+    .rv--home .rv__cards--split, .rv--page .rv__cards--split,
+    .rv--home .rv__cards--pairs, .rv--page .rv__cards--pairs { grid-template-columns: 1fr 1fr; }
     .rv__cards--split .rv-card--tall { grid-row: span 2; }
   }
   /* Phones: on /reviews/ the long review goes last so the short ones are seen first; on the homepage swipe row it's
