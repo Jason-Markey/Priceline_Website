@@ -1,0 +1,114 @@
+---
+title: "Contraception consultations with a Queensland pharmacist: how they work"
+description: "How contraception consultations with a trained Queensland pharmacist work: who's eligible, what happens in the consult and when you'll see a GP. Pacific Fair."
+seoTitle: "Pharmacist contraception consults in Queensland"
+publishDate: 2026-10-10
+modifiedDate: 2026-10-28
+category: prescriptions
+author: "Priceline Pharmacy Pacific Fair team"
+reviewer: "Jason Markey"
+tags: ["womens-health"]
+relatedServices: ["contraception-consultations", "womens-health"]
+references:
+  - name: "Pharmacy Guild of Australia (Find a Pharmacy) – Queensland pharmacy contraception services"
+    url: "https://findapharmacy.com.au/our-services/hormonal-contraception/qld-contraception"
+  - name: "Queensland Government Ministerial Media Statements – Delivering easier access to health services at the pharmacy"
+    url: "https://statements.qld.gov.au/statements/102216"
+  - name: "Queensland Government Ministerial Media Statements – Changes to make it easier for Queensland women to access contraceptives"
+    url: "https://statements.qld.gov.au/statements/99941"
+  - name: "healthdirect – Blood clots"
+    url: "https://www.healthdirect.gov.au/blood-clots"
+draft: false
+---
+In Queensland, a specially trained pharmacist can now talk with you about your contraception and, if it's suitable, write you a prescription. You don't need to see a doctor first. The service became a permanent part of Queensland community pharmacy on 1 July 2025, and the consultation happens in a private room.
+
+To book or find out more, see our page on [contraception consultations with a pharmacist](/contraception-consultations/), or ask at the dispensary counter next time you're at Pacific Fair. Here's what to expect, step by step.
+
+## What is the Queensland pharmacist contraception service?
+
+It started as a pilot, and the Queensland Government then confirmed that pharmacist contraception services would continue permanently. Pharmacists who have done extra training can talk with you about your contraception needs and, if it's suitable, prescribe it. That can be your first contraception, or something new if you'd like to change.
+
+The service is designed for straightforward, low-risk situations. For longer-acting options, your pharmacist will refer you to a GP.
+
+Not every pharmacist can offer the service, because it needs that additional training. Our trained pharmacists are usually available Monday to Friday, so call ahead on (07) 5592 2099 to book.
+
+## Who is eligible for a pharmacist contraception consultation?
+
+Under the Queensland service, women aged 16 and over who meet the other eligibility requirements can have a consultation. Being over 16 doesn't automatically mean you'll leave with a prescription. The pharmacist looks at your individual health, and if your situation is more complex, they'll refer you to a doctor.
+
+People often find the service useful when they:
+
+- want to start contraception for the first time
+- would like to talk about switching to a different option
+- can't get a GP appointment soon and want to keep their contraception on track
+- are shopping at Pacific Fair anyway and would rather sort it out in one trip
+
+## What happens at your appointment: step by step
+
+### Step 1: Call to book
+
+Booking means a trained pharmacist is on shift when you arrive, and the consultation takes 10 to 20 minutes. Our [Visit Us page](/visit-us/) has directions and parking tips.
+
+### Step 2: A private chat in our consultation room
+
+Your pharmacist will take you into a consultation room so the conversation stays private. You're welcome to bring someone with you if that makes you more comfortable.
+
+### Step 3: Your health history
+
+Your pharmacist will ask about your lifestyle, your medical history, and your sexual and reproductive health goals. Expect questions about things like:
+
+- any history of blood clots, stroke, heart problems or high blood pressure
+- migraines, and what kind
+- whether you smoke, and your age
+- whether you've had a baby recently or are breastfeeding
+- other medicines, vitamins and herbal products you take
+
+It helps to bring a list of your medicines, or your medicine packets, so nothing is missed.
+
+### Step 4: Blood pressure and BMI check
+
+Your pharmacist will usually check your blood pressure and measure your height and weight to work out your body mass index (BMI). This matters because some types of contraception aren't recommended if you have high blood pressure. If you'd like to keep an eye on these numbers between visits, our [Health Station](/health-station/) can help.
+
+### Step 5: Deciding together
+
+Based on everything you've discussed, you might get a prescription for suitable contraception, a referral to a GP, or both. If you get a prescription, it can be filled at any community pharmacy in Queensland. Your pharmacist will explain how to start and how to use it correctly. Always follow the leaflet and your pharmacist's advice.
+
+Some people notice side effects when they start a new contraceptive. Your pharmacist will explain what to expect, and if side effects haven't settled after a few months, come back and talk to us.
+
+### Step 6: Keeping your GP in the loop
+
+If you agree, your pharmacist will send a summary of the consultation to your nominated GP, so your health records stay complete.
+
+## How much does it cost?
+
+The consultation costs $35, and there's no Medicare rebate for pharmacist consultations. Your contraception is paid for separately, so ask us about the cost of your option when you book.
+
+## When will the pharmacist refer you to a GP?
+
+Pharmacists work within clear clinical guidelines. Your pharmacist will refer you to a doctor if something in your health history means a method may not be suitable, for example if you:
+
+- have ever had a blood clot, such as a deep vein thrombosis, or have a condition that raises your risk of clots
+- are older than 35 and smoke
+- have had a baby in the last 6 weeks and are breastfeeding
+- have ever had a heart attack or stroke, or have certain types of heart disease
+- have high blood pressure
+- have severe liver problems, breast cancer or some types of migraine
+
+You'll also be referred if you'd like to talk about longer-acting options. Handily, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, are close by, so you often don't need to go far.
+
+## When to see a pharmacist or GP
+
+See a pharmacist or GP if you:
+
+- have missed doses of your contraception, or have had vomiting or diarrhoea, and aren't sure whether you're protected
+- think you might be pregnant
+- have side effects that haven't settled after a few months
+- need [emergency contraception](/emergency-contraception/) (ask your pharmacist straight away)
+
+See a doctor urgently if you have pain and swelling in your calf or thigh, especially with redness. These can be signs of a blood clot.
+
+**Call 000 and ask for an ambulance** if you have chest pain, sudden shortness of breath or you cough up blood. Also call 000 if you have signs of a stroke, such as drooping of the face, weakness in an arm or leg, or trouble speaking.
+
+## Is it private?
+
+Yes. The consultation happens in a private room, and your information is kept confidential. Your pharmacist only shares a summary with your GP if you agree. If you'd like to talk about other health topics while you're in, such as period problems or menopause, our women's health team can help.

@@ -8,7 +8,7 @@ category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
 tags: ["medicines", "womens-health"]
-relatedServices: ["uti-treatment", "hormonal-contraceptive-pill", "help-medical"]
+relatedServices: ["uti-treatment", "contraception-consultations", "help-medical"]
 references:
   - name: "Queensland Health – About the pilot (community pharmacy services made permanent)"
     url: "https://www.health.qld.gov.au/clinical-practice/guidelines-procedures/community-pharmacy-pilots/about"
@@ -26,7 +26,7 @@ draft: false
 ---
 In Queensland, a pharmacist who has completed extra training can assess and treat a range of common conditions without you seeing a GP first. That includes uncomplicated urinary tract infections (UTIs) in women aged 18 to 65, contraception, and everyday problems such as reflux, ear infections, school sores, eczema, mild acne and shingles. Queensland Health made the contraception and everyday-condition services permanent from 1 July 2025, joining the UTI service.
 
-At Priceline Pharmacy Pacific Fair in Broadbeach, our trained pharmacists provide [UTI treatment](/uti-treatment/) and [contraception consultations](/hormonal-contraceptive-pill/). Below we explain what the Queensland rules cover, what happens in a consultation, what it costs and when you still need a doctor.
+At Priceline Pharmacy Pacific Fair in Broadbeach, our trained pharmacists provide [UTI treatment](/uti-treatment/) and [contraception consultations](/contraception-consultations/). Below we explain what the Queensland rules cover, what happens in a consultation, what it costs and when you still need a doctor.
 
 ## What can pharmacists treat in Queensland?
 

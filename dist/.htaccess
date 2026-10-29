@@ -28,7 +28,11 @@ RewriteRule ^(.*)$ https://pricelinepacificfair.com.au/$1 [R=301,L]
 
 # --- Retired pages (301 to the best replacement) ---
 RewriteRule ^audiology-services/?$ /pharmacy-services/ [R=301,L]
-RewriteRule ^book-a-hormonal-contraceptive-pill-appointment/?$ /hormonal-contraceptive-pill/ [R=301,L]
+RewriteRule ^book-a-hormonal-contraceptive-pill-appointment/?$ /contraception-consultations/ [R=301,L]
+# Contraception pages moved to addresses that don't name a prescription medicine (29 Oct 2026). (/.*)? also
+# catches the old index.html, which stays on the server because the deploy copies files without deleting them.
+RewriteRule ^hormonal-contraceptive-pill(/.*)?$ /contraception-consultations/ [R=301,L]
+RewriteRule ^contraceptive-pill-pharmacist-queensland(/.*)?$ /pharmacist-contraception-queensland/ [R=301,L]
 # Old WordPress slugs still in Google's index (Search Console 404 report, 9 Oct 2026)
 RewriteRule ^ear-nose-piercing/?$ /ear-piercings/ [R=301,L]
 RewriteRule ^vaccination-2/?$ /vaccination-information/ [R=301,L]

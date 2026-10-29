@@ -30,11 +30,11 @@ export const primaryNav: NavGroup[] = [
       { label: 'Whooping cough vaccine', href: '/whooping-cough-vaccine/' },
       { label: 'Travel health & vaccines', href: '/travel-health/' },
       { label: "Women's health", href: '/womens-health/' },
-      { label: 'Contraception consultations', href: '/hormonal-contraceptive-pill/' },
+      { label: 'Contraception consultations', href: '/contraception-consultations/' },
       { label: 'UTI treatment', href: '/uti-treatment/' },
       { label: 'Sick leave certificates', href: '/sick-leave-certificates/' },
       { label: 'Emergency contraception', href: '/emergency-contraception/' },
-      { label: 'Quit smoking', href: '/quit-smoking/' },
+      { label: 'Quit smoking & nicotine', href: '/quit-smoking/' },
     ],
   },
   {

@@ -25,7 +25,7 @@ export const GET: APIRoute = async () => {
     `- Medication packing (Webster packs): ${svc('medication-packing').atAGlance.cost}`,
     `- Ear piercing (ages 8 and over): ${svc('ear-piercings').atAGlance.cost} Walk in. Second holes in the earlobe are fine; sleepers and other earrings are sold in store. No nose piercing; call first about cartilage.`,
     `- Passport and visa photos: ${svc('passport-photos').atAGlance.cost} ${svc('passport-photos').atAGlance.time}`,
-    `- Contraception consultation: ${svc('hormonal-contraceptive-pill').atAGlance.cost} ${svc('hormonal-contraceptive-pill').atAGlance.booking}`,
+    `- Contraception consultation: ${svc('contraception-consultations').atAGlance.cost} ${svc('contraception-consultations').atAGlance.booking}`,
     `- UTI treatment: ${svc('uti-treatment').atAGlance.booking} For ${svc('uti-treatment').atAGlance.who.charAt(0).toLowerCase()}${svc('uti-treatment').atAGlance.who.slice(1)}`,
     '- Sick leave certificates: pharmacists issue absence from work certificates (personal or carer’s leave) for minor, short-term illnesses they can assess. Walk in on the day; certificates can’t be backdated; a consultation fee applies. Some universities and TAFE courses don’t accept pharmacist certificates for assessments.',
     '- Parking: 4 hours of free parking at Pacific Fair each day.',

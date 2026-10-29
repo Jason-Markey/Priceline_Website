@@ -11,33 +11,39 @@ const faqs = [
   { q: 'Do I need to book?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you privately.' },
   { q: 'Can you track my weight and blood pressure?', a: 'Yes. We can record your weight, BMI and blood pressure at our in-store Health Station and email you the results, so you can see your progress over time. Check in each time you visit.' },
   { q: 'Do you work with a dietitian?', a: 'Yes. We work with a local dietitian and can put you in touch if you’d like tailored nutrition advice. Ask at the counter.' },
+  { q: 'Do you sell meal replacement shakes?', a: 'Yes, we stock a range. They don’t suit everyone, so ask a pharmacist before you start one, especially if you have a health condition, take medicines for diabetes, or are pregnant or breastfeeding.' },
   { q: 'When should I see my GP instead?', a: 'See your doctor if you have unexplained weight loss or gain, a health condition such as diabetes or heart disease, or if you’re pregnant or planning a pregnancy. In an emergency, call 000.' },
 ];
 ---
 
 <ServicePage
   service={service}
-  title="Free Weight Management Support | Priceline Pacific Fair"
-  description="Free, private weight management support from pharmacists at Priceline Pacific Fair, Broadbeach: health checks, practical advice and a local dietitian."
-  h1="Weight management support at Pacific Fair"
-  lead="Yes, our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach offer free, private one-on-one weight management support. We can track your weight, BMI and blood pressure at our in-store Health Station and put you in touch with a local dietitian. No booking is needed; just ask at the counter."
+  title="Free Weight Loss Support & Advice | Priceline Pacific Fair"
+  description="Free, private weight loss support from pharmacists at Priceline Pacific Fair, Broadbeach: a realistic plan, progress checks and a local dietitian. No booking."
+  h1="Weight loss support and advice at Pacific Fair"
+  lead="Yes, our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach offer free, private one-on-one support to lose weight or manage your weight. We’ll help you make a realistic plan, track your weight, BMI and blood pressure at our in-store Health Station, and put you in touch with a local dietitian if you’d like. No booking is needed; just ask at the counter."
   faqs={faqs}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-28"
+  dateModified="2026-10-29"
 >
-  <h2>How can our pharmacists help?</h2>
-  <ul>
-    <li><strong>A private conversation.</strong> We talk through your goals, your current medicines and anything that has made weight management harder in the past.</li>
-    <li><strong>Free health checks.</strong> We can record your weight, BMI and blood pressure at our in-store <a href="/health-station/">Health Station</a> and email you the results, so you can see your progress over time.</li>
-    <li><strong>Practical advice.</strong> We cover eating patterns, activity you can realistically keep up, sleep, and staying hydrated in the Gold Coast heat.</li>
-    <li><strong>A local dietitian.</strong> We work with a local dietitian and can put you in touch if you’d like tailored nutrition advice.</li>
-  </ul>
+  <h2>How does it work?</h2>
+  <ol>
+    <li><strong>A private chat.</strong> We talk through your goals, your health, your current medicines and anything that has made managing your weight harder in the past.</li>
+    <li><strong>A starting point.</strong> We record your weight, BMI and blood pressure at our in-store <a href="/health-station/">Health Station</a> and email you the results.</li>
+    <li><strong>A realistic plan.</strong> We cover eating patterns, activity you can realistically keep up, sleep, and staying hydrated in the Gold Coast heat.</li>
+    <li><strong>Regular check-ins.</strong> Come back whenever it suits you to recheck your numbers, see your progress and adjust the plan.</li>
+    <li><strong>Extra support if you want it.</strong> We work with a local dietitian and can put you in touch, or refer you to your GP.</li>
+  </ol>
 
   <Image src={photo} alt="Meal replacement shakes, vitamins and weight management products on the shelves at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={60} />
 
+  <h2>Can my medicines affect my weight?</h2>
+  <p>Some can. Some medicines can increase your appetite or cause weight gain, and others need extra care if you change how much you eat. We can check your current medicines, explain what to watch for and talk to your doctor if something might need to change. Don’t stop a prescribed medicine without talking to your doctor first.</p>
+  <p>If you take several medicines, a <a href="/medication-reviews/">medication review</a> can check they’re working well together.</p>
+
   <h2>Who is this service for?</h2>
-  <p>Anyone who wants support managing their weight, whether you’re just getting started, restarting after a break, or already under the care of a doctor or dietitian. We’ll work alongside your other health professionals, not replace them.</p>
+  <p>Anyone who wants support to lose weight or manage their weight, whether you’re just getting started, restarting after a break, or already under the care of a doctor or dietitian. We’ll work alongside your other health professionals, not replace them.</p>
 
   <h2>How much does weight management support cost?</h2>
   <p>Nothing. Our pharmacists’ support and advice is free, and you don’t need to book. Just ask at the counter, or call us on <a href={site.phoneHref}>{site.phone}</a> if you have a question first.</p>

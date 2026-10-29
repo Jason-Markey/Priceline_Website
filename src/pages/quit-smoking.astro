@@ -8,6 +8,7 @@ const service = serviceBySlug('quit-smoking')!;
 
 const faqs = [
   { q: 'Do I need an appointment to talk about quitting?', a: 'No. Ask at the counter any time we’re open and a pharmacist will talk with you, or call ahead if you’d like a longer chat at a set time.' },
+  { q: 'Can I cut down before I quit?', a: 'Yes. Some people prefer to cut down first, and some nicotine replacement products can be used to help you do that before your quit date. A pharmacist can help you plan how to step down.' },
   { q: 'How much does nicotine replacement therapy cost?', a: 'Advice from our pharmacists is free; products are charged separately. Some nicotine replacement products are subsidised on the PBS when prescribed by a doctor, so ask us or the GPs at <a href="/help-medical/">Help Medical</a> about the cheapest way to get them.' },
   { q: 'Can I use a patch and gum at the same time?', a: 'Often, yes. Using a patch for steady background nicotine plus a faster-acting form such as gum, a lozenge or a mouth spray for cravings is a common approach. Ask a pharmacist to help you choose the right combination and strength.' },
   { q: 'How long do I use nicotine replacement for?', a: 'Most people use it for 8 to 12 weeks and then reduce gradually, but it varies. Come back and see us and we’ll help you plan the stepping down.' },
@@ -19,26 +20,30 @@ const faqs = [
 
 <ServicePage
   service={service}
-  title="Quit Smoking Support Broadbeach | Priceline Pacific Fair"
-  description="Free quit smoking support from pharmacists at Priceline Pacific Fair, Broadbeach: nicotine replacement advice, a quit plan and Quitline support. No appointment."
-  h1="Quit smoking support at Pacific Fair, Broadbeach"
-  lead="Free help to quit smoking is available from the pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach. We’ll talk through your options, including nicotine replacement therapy, help you make a quit plan, and point you to Quitline or your GP for extra support. No appointment is needed; just ask at the counter."
+  title="Quit Smoking & Nicotine Dependence | Priceline Pacific Fair"
+  description="Free help from pharmacists at Priceline Pacific Fair, Broadbeach, to quit smoking and manage nicotine dependence: a quit plan, NRT advice and follow-up."
+  h1="Quit smoking and nicotine dependence support at Pacific Fair"
+  lead="Our pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach offer free support to quit smoking and manage nicotine dependence. We’ll talk through your options, including nicotine replacement therapy, help you make a plan to cut down and stop, and check in on how you’re going. No appointment is needed; just ask at the counter, and ask to talk privately if you’d prefer."
   faqs={faqs}
   hub={{ name: 'Vaccinations & health', href: '/vaccination-information/' }}
   primaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
   secondaryCta={{ label: 'Hours & directions', href: '/visit-us/' }}
-  dateModified="2026-10-28"
+  dateModified="2026-10-29"
 >
   <h2>How can a pharmacist help me quit?</h2>
   <p>Most people find quitting easier with support than going it alone. Our pharmacists can:</p>
   <ul>
-    <li>talk through the quit options available and which might suit you</li>
+    <li>talk through your smoking or nicotine use, what you’ve tried before, and which options might suit you</li>
     <li>help you choose the right type and strength of nicotine replacement therapy, and show you how to use it</li>
-    <li>help you set a quit date and make a plan for cravings and triggers</li>
-    <li>check how you’re going and adjust things when you come back</li>
+    <li>help you set a quit date and make a plan to step down your nicotine and manage cravings and triggers</li>
+    <li>check how you’re going and adjust the plan when you come back</li>
     <li>refer you to your GP or Quitline for extra support</li>
   </ul>
   <p>Advice is free. Products are charged separately.</p>
+
+  <h2>What is nicotine dependence?</h2>
+  <p>Nicotine is addictive, so when you cut down or stop, your body needs time to adjust. Cravings, irritability, restlessness, trouble concentrating and poor sleep are common, especially in the first few weeks, and they ease with time.</p>
+  <p>Managing nicotine dependence means easing those withdrawal symptoms while you break the habit, usually by stepping your nicotine down over several weeks with a plan and regular support. That’s what our pharmacists can help you with.</p>
 
   <Image src={photo} alt="Nicotine replacement therapy on the shelf at Priceline Pharmacy Pacific Fair: lozenges, gum and patches" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" quality={60} />
 
@@ -46,6 +51,10 @@ const faqs = [
   <p>Nicotine replacement therapy (NRT) gives you a steady, lower dose of nicotine without the smoke, so you can deal with withdrawal while you break the habit. It comes as patches, gum, lozenges, mouth sprays and inhalators, and is available from the pharmacy without a prescription.</p>
   <p>Many people find a patch for background cravings plus a faster-acting form, such as gum or a spray, for sudden urges works well. Your pharmacist can help you get the combination and strength right. Some NRT products are subsidised on the PBS when prescribed by a doctor; ask us about the cheapest way to get them.</p>
   <p>Always read the label and follow the directions for use.</p>
+
+  <h2>Who is this support for?</h2>
+  <p>Anyone who smokes or vapes and wants to stop, whether you’re ready to set a quit date or would rather cut down first. It’s also for people who have already stopped and want help staying that way.</p>
+  <p>If you’re pregnant or breastfeeding, or have a heart or other health condition, tell us so we can help you choose safely. Stopping smoking can also change how some medicines work, so let us know what you take.</p>
 
   <h2>What if I need more help?</h2>
   <p>Your GP can talk to you about other options and ongoing support. The GPs at <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store, can see you.</p>
