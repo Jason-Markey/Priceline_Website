@@ -1,6 +1,6 @@
 ---
 title: "Unwell after hours near Broadbeach: who to call"
-description: "Unwell after hours near Broadbeach? When to call 000 or 13 HEALTH, the nearest emergency departments, urgent care clinics and helplines. Save this Gold Coast list."
+description: "Unwell after hours near Broadbeach? When to call 000 or 13 HEALTH, the nearest emergency departments, urgent care clinics and helplines. Save this list."
 seoTitle: "After-hours medical help Broadbeach | Priceline Pacific Fair"
 publishDate: 2026-12-14
 modifiedDate: 2026-12-14
