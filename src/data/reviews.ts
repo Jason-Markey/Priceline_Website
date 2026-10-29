@@ -47,6 +47,8 @@ export const reviews: Review[] = [
   // Asha is on the beauty team (Jason, 29 Oct 2026), so "very knowledgeable" isn't praise for a pharmacist's clinical skill
   { name: 'Jessica C.', localGuide: true, stars: 5, source: 'Google, "6 months ago"; screenshot 29 Oct 2026',
     text: 'Asha helped me today. Very knowledgeable about are products and how to actually use them. Amazing customer service.\nI never do reviews. she\'s so good.' },
+  { name: 'Karen R.', localGuide: true, stars: 5, source: 'Google, "a year ago"; screenshot 29 Oct 2026',
+    text: 'I had the friendliest help today. Beautiful staff name Joanne went above and beyond for myself and my daughter.' },
   { name: 'Shayla W.', lead: true, stars: 5, source: 'Google, "a year ago"; screenshot 29 Oct 2026',
     text: 'I just want to give a big thank you to the lovely girls working at Priceline today! I was accidentally charged for an extra item I didn’t recognise, and they were so quick and helpful in sorting it out for me. They handled everything with such kindness and professionalism, it was crazy busy and they helped me immediately, props to them !!' },
 ];
