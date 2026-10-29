@@ -3,7 +3,7 @@ title: "Heat exhaustion vs heatstroke: symptoms, first aid, hydration"
 description: "Heat exhaustion symptoms vs heatstroke, step-by-step first aid, when to call 000 and hydration tips for a humid Gold Coast summer, from our local pharmacy."
 seoTitle: "Heat exhaustion symptoms vs heatstroke: first aid guide"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -111,6 +111,20 @@ Heat can affect some medicines. healthdirect notes that many medicines are label
 - Don't leave medicines in the car, especially emergency medicines like asthma puffers.
 - Use an insulated bag when you're out and about.
 - If a medicine looks different after heat exposure, ask your pharmacist before using it.
+
+## Frequently asked questions
+
+### What are the symptoms of heatstroke?
+
+Red, hot skin that may be dry, a body temperature above 40°C, and confusion, slurred speech, poor coordination, strange behaviour, fainting, seizures or unconsciousness. Heatstroke is a medical emergency: call 000 and start cooling the person while you wait.
+
+### What's the difference between heat exhaustion and heatstroke?
+
+With heat exhaustion, skin is usually pale, cool and clammy, and the person is alert. With heatstroke, body temperature rises above 40°C and the person may become confused or collapse. Heat exhaustion can turn into heatstroke if it isn't treated.
+
+### How much water should I drink in hot weather?
+
+Queensland Health suggests around 2 to 3 litres a day for most people, unless your doctor has told you otherwise, for example if you're on a fluid restriction. Pale urine is a good sign that you're drinking enough.
 
 ## When to see a pharmacist or GP
 

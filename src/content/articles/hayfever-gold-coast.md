@@ -3,7 +3,7 @@ title: "Hayfever on the Gold Coast: why our season is different"
 description: "Our subtropical grasses flower through summer and autumn, so Gold Coast hayfever peaks later than down south. A local pollen calendar and ways to cut exposure."
 seoTitle: "Hayfever on the Gold Coast | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -28,7 +28,7 @@ references:
     url: "https://www.nationalasthma.org.au/news/2025/time-to-prepare-for-thunderstorm-asthma"
 draft: false
 ---
-Hayfever on the Gold Coast doesn't follow the southern script. Most of our grasses are subtropical types that flower through summer and autumn, so grass pollen here tends to build over the warmer months rather than arriving in a short spring burst. If your nose and eyes play up from late spring right through to autumn, that's the pattern you're feeling.
+Hayfever on the Gold Coast usually builds through summer and autumn rather than arriving in a short spring burst, because most of our grasses are subtropical types that flower over the warmer months. If your nose and eyes play up from late spring right through to autumn, that's the pattern you're feeling.
 
 Below we explain why our season is different, how to cut down your exposure, and the kinds of options our [pharmacists can talk you through at Pacific Fair](/pharmacy-services/).
 

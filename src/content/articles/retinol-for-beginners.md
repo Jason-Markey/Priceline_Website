@@ -3,7 +3,7 @@ title: "Retinol for beginners: how to start without irritation"
 description: "Start low and slow: two or three nights a week, a moisturiser after and SPF every morning. Irritation vs purging, what not to mix, and pregnancy advice."
 seoTitle: "Retinol for beginners | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -24,7 +24,7 @@ references:
     url: "https://cancerqld.org.au/story/what-is-uv/"
 draft: false
 ---
-Start low and slow. Use a gentle retinol at night, on clean, dry skin, two or three nights a week to begin with, and follow with a moisturiser. Build up only as your skin settles, wear sunscreen every morning, and be patient: DermNet notes topical retinoids can take 12 weeks or longer to show results.
+With retinol, start low and slow. Use a gentle retinol at night, on clean, dry skin, two or three nights a week to begin with, and follow with a moisturiser. Build up only as your skin settles, wear sunscreen every morning, and be patient: DermNet notes topical retinoids can take 12 weeks or longer to show results.
 
 The aim in the first few weeks isn't speed, it's getting your skin used to it. And if you're pregnant, trying for a baby or breastfeeding, check with your GP or pharmacist before using any retinoid product.
 

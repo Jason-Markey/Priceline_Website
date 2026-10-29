@@ -1,7 +1,7 @@
 ---
 title: "Sunburn treatment: what to do after too much sun"
 description: "Sunburn treatment step by step: cool, soothe and protect burnt skin, and know when to see a GP. Pharmacist tips for Gold Coast beach days and holidays."
-seoTitle: "Sunburn treatment: what to do | Priceline Pacific Fair"
+seoTitle: "Sunburn treatment: what to do and when to see a doctor"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-17
 category: health-advice

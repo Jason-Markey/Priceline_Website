@@ -3,7 +3,7 @@ title: "Can you drink alcohol while taking antibiotics?"
 description: "Only a few antibiotics react badly with alcohol, and we label those boxes. Why drinking can still slow your recovery, and how to plan around party season."
 seoTitle: "Alcohol and antibiotics | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -25,7 +25,7 @@ references:
 draft: false
 ---
 
-It depends on the antibiotic. A small number of antibiotics cause an unpleasant reaction with alcohol, and when we dispense one of these, we add a warning label to the box. For other antibiotics, healthdirect's advice is still to check with your doctor or pharmacist before you drink, because some others can be affected by alcohol too, and alcohol can make some medicines work less well.
+Whether you can drink alcohol on antibiotics depends on the antibiotic. A small number of antibiotics cause an unpleasant reaction with alcohol, and when we dispense one of these, we add a warning label to the box. For other antibiotics, healthdirect's advice is still to check with your doctor or pharmacist before you drink, because some others can be affected by alcohol too, and alcohol can make some medicines work less well.
 
 Even when there's no reaction, alcohol won't help you get better. With work Christmas parties, long lunches and end-of-year catch-ups around Broadbeach in full swing, here's how to plan around a course of antibiotics without putting your recovery at risk.
 

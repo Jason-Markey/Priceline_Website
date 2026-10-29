@@ -1,9 +1,9 @@
 ---
 title: "SPF30 vs SPF50+: does the number matter on the Gold Coast?"
 description: "SPF30 filters about 96.7% of UVB and SPF50+ about 98.3%. Why Cancer Council still recommends 50+, what the label means, and why using enough matters more."
-seoTitle: "SPF30 vs SPF50+ explained | Priceline Pacific Fair"
+seoTitle: "SPF 30 vs SPF 50+: what’s the difference?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: skincare-beauty
 image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -45,30 +45,17 @@ The protection level column uses Cancer Council's terms: SPF30 to SPF50 give a h
 
 Looked at one way, the step up is small. The TGA says the difference in protection between SPF30 and SPF50 is minimal, and SunSmart says it's safe to keep using an SPF30 you already own, as it still gives a high level of protection. Looked at another way, SPF50+ lets through about half as much UVB as SPF30 (1.7% compared with 3.3%). For time outdoors, Cancer Council recommends SPF50 or SPF50+.
 
-## What should you look for on an Australian sunscreen label?
-
-### SPF50+
+## What does SPF50+ mean on an Australian label?
 
 Sunscreens in Australia are regulated by the Therapeutic Goods Administration (TGA), and SPF50+ is the highest SPF label currently allowed. Cancer Council explains that the plus sign means "more than". According to the TGA, under the current Australian standard a product must have a test result of at least SPF60 to be labelled SPF50+. That's why you won't see SPF70 or SPF100 on an Australian label.
 
-### Broad spectrum
-
-SPF only describes UVB. Cancer Council explains that broad-spectrum sunscreens filter both UVA and UVB, and the TGA says broad-spectrum testing makes sure a product also shields you from UVA rays, which are linked to long-term skin damage. Check the label for both: SPF50+ and broad spectrum.
-
-### Water resistant
-
-A water-resistant sunscreen stays on your skin during swimming or exercise, as long as it isn't wiped off, according to Cancer Council. Labels state how long, such as "4 hours water resistant". Treat it as water resistant for the time stated on the label, and no longer. Even then, Cancer Council advises reapplying every two hours, because sunscreen can rub or wash off, and its science page notes that all sunscreens become less effective after exposure to water.
+SPF only describes UVB, so check the label also says broad spectrum (it filters UVA too) and water resistant, for the time stated. Our [sunscreen buyer's checklist](/best-sunscreen-gold-coast/) explains each label term.
 
 ## Why does the amount you apply matter more than the number?
 
 The TGA notes that most people don't use enough sunscreen. Because the SPF rating is based on a generous layer, a thin smear won't give you the protection shown on the label, whatever the number. Put the TGA's two points together (a minimal difference between SPF30 and SPF50, and most people applying too little) and it's clear the habits below matter more than choosing between 30 and 50.
 
-Cancer Council's guide for an adult:
-
-- Use about 7 teaspoons (around 35 mL) for a whole-body application.
-- That's at least one teaspoon each for your face, neck and ears; each arm; each leg; your front; and your back.
-- Apply it 20 minutes before you go outside.
-- Reapply every two hours, and after swimming, sweating or towelling.
+Cancer Council's guide for an adult is about 7 teaspoons (around 35 mL) for a whole-body application, put on 20 minutes before you go outside and reapplied every two hours, and after swimming, sweating or towelling.
 
 A few habits that make this easier on the coast:
 
@@ -77,13 +64,11 @@ A few habits that make this easier on the coast:
 - Keep a bottle in your bag, but out of the hot car.
 - Don't forget your ears, the back of your neck, the tops of your feet and along your hairline.
 
-## Do you need sunscreen every day on the Gold Coast?
+## Is SPF30 enough for every day?
 
-Cancer Council recommends sunscreen whenever the UV Index is 3 or above, no matter the season. Cancer Council Queensland says UV reaches that level every day in Queensland, and reminds us that even on cloudy and cool days we need to think about UV, not heat. So daily sunscreen on your face, neck, ears, arms and hands is a sensible habit here.
+For mostly indoor days with only brief sun exposure, Cancer Council says an SPF30 product provides adequate protection. Save the full SPF50+ application, hat and shade for time outdoors.
 
-That doesn't mean a beach-strength routine for an office day. Cancer Council says that for mostly indoor days with only brief sun exposure, an SPF30 product provides adequate protection. Save the full SPF50+ application, hat and shade for time outdoors.
-
-Sunscreen is also only one part of sun protection. When the UV Index is 3 or above, use all five steps: slip on clothing, slop on sunscreen, slap on a broad-brimmed hat, seek shade and slide on sunglasses. Our guide to [sun safety on the Gold Coast](/sun-safety-gold-coast/) covers the rest.
+You do need some protection every day here: Cancer Council Queensland says the UV Index reaches 3 or above every day in Queensland, even on cloudy and cool days. Our guide to [sun safety on the Gold Coast](/sun-safety-gold-coast/) covers daily habits and all five sun safety steps.
 
 ## How can our team help?
 

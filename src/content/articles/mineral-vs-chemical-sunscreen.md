@@ -1,9 +1,9 @@
 ---
 title: "Mineral vs chemical sunscreen: which is right for your skin?"
 description: "Both types protect, Cancer Council says. How mineral and chemical filters differ, which suit sensitive or breakout-prone skin and kids, and nanoparticle safety."
-seoTitle: "Mineral vs chemical sunscreen | Priceline Pacific Fair"
+seoTitle: "Mineral vs chemical sunscreen: which is better?"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: skincare-beauty
 image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -23,7 +23,7 @@ references:
     url: "https://www.tga.gov.au/resources/publication/publications/safety-review-seven-active-sunscreen-ingredients"
 draft: false
 ---
-Both types work. Cancer Council says physical (mineral) and chemical sunscreens can both be broad-spectrum and water-resistant, and both deliver effective protection. The differences are in the filters they use, how they look and feel on your skin, and which skin types tend to find them more comfortable.
+Mineral and chemical sunscreens both work. Cancer Council says physical (mineral) and chemical sunscreens can both be broad-spectrum and water-resistant, and both deliver effective protection. The differences are in the filters they use, how they look and feel on your skin, and which skin types tend to find them more comfortable.
 
 So the best sunscreen for you is the one you'll apply generously every day and reapply. On the Gold Coast, that means SPF50 or SPF50+, broad spectrum and water resistant, in whichever type suits your skin.
 
@@ -85,6 +85,20 @@ Some places, including Hawaii, have banned sunscreens containing certain chemica
 Treat those claims with care. There's no agreed Australian standard for what "reef safe" means, and under Australian Consumer Law businesses must be able to back up environmental claims. The ACCC, Australia's consumer watchdog, has taken action over reef claims it alleged couldn't be supported.
 
 The practical takeaway: a reef claim on its own doesn't tell you much. Check the active ingredients, and make sure the sunscreen you choose does its main job of protecting your skin.
+
+## Frequently asked questions
+
+### Is Cancer Council sunscreen mineral or chemical?
+
+Cancer Council makes both, as well as sunscreens that combine the two. Check the active ingredients on the label: zinc oxide and titanium dioxide are mineral filters, and most other sunscreen actives are chemical filters.
+
+### Are mineral sunscreens effective?
+
+Yes. Cancer Council says mineral and chemical sunscreens can both be broad spectrum and water resistant, and both deliver effective protection. Whichever you choose, check for SPF50 or SPF50+ and broad spectrum, and use enough.
+
+### Is mineral sunscreen better for sensitive skin and kids?
+
+It can be. DermNet notes zinc oxide and titanium dioxide may be less likely to irritate the skin than chemical sunscreens, and says mineral sunscreens are preferred for children. Patch test any new sunscreen first.
 
 ## How can our team help?
 

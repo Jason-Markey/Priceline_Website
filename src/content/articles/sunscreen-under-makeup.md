@@ -1,9 +1,9 @@
 ---
 title: "Does SPF in your foundation count? Sunscreen under makeup, done right"
-description: "SPF in foundation isn't as effective as a primary sunscreen, UQ researchers say. How to layer sunscreen under makeup, reapply over it, and humid-day textures."
-seoTitle: "Sunscreen under makeup | Priceline Pacific Fair"
+description: "SPF in foundation isn't as effective as a primary sunscreen, UQ researchers say. How to layer sunscreen under makeup, reapply it on top, and humid-day textures."
+seoTitle: "Sunscreen under and over makeup: how to wear both"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: skincare-beauty
 image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -60,7 +60,7 @@ The practical takeaway: check for an AUST L number on whatever you're relying on
 4. **Add moisturiser if you need it.** If your sunscreen feels hydrating enough, you may not need a separate moisturiser on humid days. If you use a mineral (physical) sunscreen, the UQ researchers suggest moisturiser can go on first, then sunscreen, then makeup.
 5. **Press, don't drag.** Our beauty team's tip: stipple or press foundation on with a damp sponge or brush rather than rubbing it across your face, so both layers stay even.
 
-## How do you reapply sunscreen over makeup?
+## How do you reapply sunscreen on top of makeup?
 
 Makeup doesn't change the rule. Reapply every two hours and after swimming, sweating or towelling. It's the step that's easiest to skip, so here are your options and their limits.
 

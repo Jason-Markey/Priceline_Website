@@ -1,9 +1,9 @@
 ---
 title: "Eczema in summer: keeping flare-ups under control"
 description: "Eczema in summer myths vs facts: heat, sweat, pool and beach swimming, sunscreen for sensitive skin and when to see a GP, for humid Gold Coast weather."
-seoTitle: "Eczema in summer tips | Priceline Pacific Fair"
+seoTitle: "Eczema in summer: why it flares and what helps"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -104,6 +104,20 @@ You don't need to know product names. Tell us about your skin and we'll help you
 - What's suitable for my baby or toddler?
 
 If you're not sure whether a rash is eczema at all, our [pharmacists](/pharmacy-services/) can take a look and let you know whether it's something to see a doctor about.
+
+## Frequently asked questions
+
+### Does summer make eczema worse?
+
+It can. Heat, sweat, chlorine, salt water and some sunscreens are common summer triggers, and the Royal Children's Hospital describes heat as a major one. Keeping cool, rinsing off sweat and moisturising at least twice a day all help.
+
+### Is the beach good for eczema?
+
+Salt water can dry and irritate eczema if it's left on the skin, but most people with eczema can swim with a bit of preparation: put on a thick layer of moisturiser 10 to 15 minutes before, rinse off in a lukewarm shower afterwards and moisturise straight away.
+
+### What sunscreen suits eczema-prone skin?
+
+The Eczema Association of Australasia recommends a mineral-based sunscreen made for sensitive skin, without fragrance, essential oils or a high alcohol content. Choose SPF50 or SPF50+, broad spectrum and water resistant, and patch test it first.
 
 ## When to see a pharmacist or GP
 

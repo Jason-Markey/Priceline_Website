@@ -1,7 +1,7 @@
 ---
 title: "Sun protection for babies: what's safe under 12 months"
 description: "Queensland's UV Index is 3 or above all year, so babies need shade, clothing and hats. Why sunscreen waits until 6 months, and how to cover a pram safely."
-seoTitle: "Sun protection for babies | Priceline Pacific Fair"
+seoTitle: "Baby sun protection: is sunscreen safe for newborns?"
 publishDate: 2026-10-10
 modifiedDate: 2026-10-10
 category: baby-child

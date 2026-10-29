@@ -3,7 +3,7 @@ title: "Skincare for humid weather: a Gold Coast summer routine"
 description: "Sticky Gold Coast summer? Skincare for humid weather: sweat, air-con, breakouts and a simple day and night routine for oily, dry and sensitive skin."
 seoTitle: "Skincare for humid weather | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-28
+modifiedDate: 2026-10-29
 category: skincare-beauty
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -115,6 +115,20 @@ Sunscreen is the step that matters most for a Gold Coast summer. Cancer Council 
 - Choose loose, breathable clothing to reduce trapped heat and sweat.
 - Keep skin folds clean and dry, and change out of wet swimwear.
 - If you use a self-tanner, exfoliate gently beforehand, and remember a tan from a bottle doesn't protect you from UV.
+
+## Frequently asked questions
+
+### Do I need moisturiser in humid weather?
+
+Usually, yes, just a lighter one. Swap a rich cream for a lotion, gel-cream or fluid. Moving between humidity and air-con can leave skin oily on the surface but tight underneath.
+
+### How do I stop my face getting shiny in summer?
+
+Use a gentle, soap-free cleanser twice a day, a light oil-free moisturiser and a dry-touch or gel sunscreen, and carry blotting papers rather than piling on powder through the day.
+
+### What is prickly heat?
+
+Prickly heat (heat rash, or miliaria) happens when sweat ducts get blocked and sweat builds up under the skin. It's more common in hot, humid weather and in babies, and usually settles if you keep cool and dry. See a doctor if it's severe, looks infected, keeps coming back or doesn't improve after a few days somewhere cooler.
 
 ## When to see a pharmacist or GP
 

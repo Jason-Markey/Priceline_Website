@@ -1,9 +1,9 @@
 ---
 title: "How to choose the right sunscreen for Gold Coast conditions"
 description: "A buyer's checklist for the best sunscreen on the Gold Coast: SPF50+, broad spectrum, water resistance, humid-weather textures, kids and makeup."
-seoTitle: "Which sunscreen for the Gold Coast? | Priceline Pacific Fair"
+seoTitle: "How to choose the best sunscreen for the Gold Coast"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: skincare-beauty
 image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -37,7 +37,7 @@ Use this buyer's checklist next time you're standing in front of the shelf. If y
 
 SPF stands for sun protection factor, and it mainly measures protection against UVB, the main cause of sunburn. Cancer Council recommends SPF50 or SPF50+ for time outdoors. SPF50+ is the highest label allowed in Australia, and the TGA says an SPF50+ product must test at SPF 60 or higher under the Australian standard.
 
-The step up from 30 to 50 is smaller than it sounds. The TGA notes the difference in protection between SPF30 and SPF50 is minimal. Using enough sunscreen matters more than chasing a bigger number.
+The step up from 30 to 50 is smaller than it sounds (see [SPF30 vs SPF50+](/spf30-vs-spf50/)). The TGA notes the difference in protection between SPF30 and SPF50 is minimal. Using enough sunscreen matters more than chasing a bigger number.
 
 ### Broad spectrum
 
@@ -73,7 +73,7 @@ Look for a light, oil-free or non-comedogenic face sunscreen, often labelled for
 
 ### Sensitive skin
 
-Cancer Council suggests people with sensitive skin look for fragrance-free and paraben-free products. The TGA says local skin reactions are the most common side effect reported with sunscreens, so patch test a new product on a small area of skin before using it all over. Some people with sensitive skin find mineral-based sunscreens more comfortable. Ask our team if you're unsure what to try.
+Cancer Council suggests people with sensitive skin look for fragrance-free and paraben-free products. The TGA says local skin reactions are the most common side effect reported with sunscreens, so patch test a new product on a small area of skin before using it all over. Some people with sensitive skin find [mineral-based sunscreens](/mineral-vs-chemical-sunscreen/) more comfortable. Ask our team if you're unsure what to try.
 
 ### Dry skin
 
@@ -81,11 +81,11 @@ A creamier lotion can double as your morning moisturiser. Air-con and salt water
 
 ### Kids
 
-Choose a sunscreen made for children's skin, and patch test it first. Babies under six months should be kept out of direct sun instead. The TGA and Cancer Council both say sunscreen use should be minimised at this age, and you should speak with a healthcare professional if it can't be avoided. For older babies and children, Cancer Council describes sunscreen as the last line of defence, after shade, clothing and a hat.
+Choose a sunscreen made for children's skin, and patch test it first. Babies under six months should be kept out of direct sun instead (see [sun protection for babies](/baby-sun-protection/)). The TGA and Cancer Council both say sunscreen use should be minimised at this age, and you should speak with a healthcare professional if it can't be avoided. For older babies and children, Cancer Council describes sunscreen as the last line of defence, after shade, clothing and a hat.
 
 ### Under makeup
 
-Apply sunscreen first, on clean, dry skin, and let it settle before your makeup. Cancer Council says a cosmetic with SPF30 is fine if you're indoors most of the day with only incidental sun, but for time outdoors you need a dedicated SPF50 or SPF50+ sunscreen. SPFs don't add up. If your moisturiser and foundation both contain SPF, you're only protected to the level of the highest one. Our beauty advisors can help you find makeup and cosmetics that sit comfortably over sunscreen.
+Apply sunscreen first, on clean, dry skin, and let it settle before your makeup. Cancer Council says a cosmetic with SPF30 is fine if you're indoors most of the day with only incidental sun, but for time outdoors you need a dedicated SPF50 or SPF50+ sunscreen. SPFs don't add up. If your moisturiser and foundation both contain SPF, you're only protected to the level of the highest one. Our beauty advisors can help you find makeup and cosmetics that sit comfortably over sunscreen, and our guide to [sunscreen under makeup](/sunscreen-under-makeup/) has more.
 
 ## Checklist step 4: use enough and reapply
 
@@ -102,12 +102,30 @@ Sunscreen works best with the other sun safety steps: protective clothing, a bro
 
 Cancer Council recommends storing sunscreen below 30°C in a cool, dark place, which rules out the glovebox on a Gold Coast summer day. Heat can make the oil and water separate, leaving a lumpy texture that may not protect as well. Keep a bottle in your beach bag in the shade, and another at home or at work.
 
+## Frequently asked questions
+
+### Which sunscreen is best for the Gold Coast?
+
+One labelled SPF50 or SPF50+, broad spectrum and water resistant, in a texture you'll actually wear every day. Then match the formula to your skin: a light gel or dry-touch fluid for oily skin, a fragrance-free formula for sensitive skin, or a creamier lotion for dry skin.
+
+### How much sunscreen should I use?
+
+Cancer Council recommends about 35 mL, or seven teaspoons, for an adult's whole body: at least a teaspoon each for your face, neck and ears, each arm, each leg, your front and your back.
+
+### How often should I reapply sunscreen?
+
+Every two hours, and straight after swimming, sweating or towelling off, even if the label says water resistant.
+
+### Does sunscreen expire?
+
+Yes. Cancer Council notes most sunscreens last around two to three years, so check the expiry date, and store your sunscreen below 30°C, out of the hot car.
+
 ## When to see a pharmacist or GP
 
 - Talk to your pharmacist if a sunscreen causes stinging, redness or a rash. Stop using it and bring the product in so we can help you find an alternative.
 - Ask your pharmacist before using sunscreen on a baby under six months, or if your child has eczema or very sensitive skin.
 - See your GP about any spot or mole that is new, changing or looks different from your others.
-- See a doctor for sunburn with large areas of blistering, severe pain or signs of infection, and call 000 in an emergency.
+- See a doctor for [sunburn](/sunburn-treatment/) with large areas of blistering, severe pain or signs of infection, and call 000 in an emergency.
 
 ## Shop sun care your way
 

@@ -1,9 +1,9 @@
 ---
 title: "Sun safety on the Gold Coast: why UV is a year-round job"
 description: "Gold Coast UV hits 3+ every day, even in winter. Simple sun safety for beach days, the school run and car parks, plus when to get a spot checked by a GP."
-seoTitle: "Sun safety on the Gold Coast | Priceline Pacific Fair"
+seoTitle: "Sun safety on the Gold Coast and skin cancer prevention"
 publishDate: 2026-09-24
-modifiedDate: 2026-10-07
+modifiedDate: 2026-10-29
 category: skincare-beauty
 image: skincare-wall.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -61,7 +61,7 @@ The simplest habit is to check the daily sun protection times before you head ou
 Cancer Council’s five steps (slip, slop, slap, seek, slide) work best together. No single step is enough on its own.
 
 1. **Slip** on clothing that covers as much skin as possible. Loose, long-sleeved tops and close-weave fabrics are more comfortable in our humidity than you might think.
-2. **Slop** on SPF50 or SPF50+ sunscreen that is broad spectrum and water resistant. Apply it to clean, dry skin at least 20 minutes before you go outside and reapply every two hours, and after swimming, sweating or towelling off.
+2. **Slop** on SPF50 or SPF50+ sunscreen that is broad spectrum and water resistant (our [sunscreen checklist](/best-sunscreen-gold-coast/) explains what to look for). Apply it to clean, dry skin at least 20 minutes before you go outside and reapply every two hours, and after swimming, sweating or towelling off.
 3. **Slap** on a broad-brimmed, legionnaire or bucket hat that shades your face, neck and ears. Caps and visors leave your ears and neck exposed.
 4. **Seek** shade. Cancer Council Queensland says shade alone can reduce UV exposure by 75 per cent, but reflected UV still gets in, so use shade alongside the other steps.
 5. **Slide** on sunglasses that meet the Australian Standard (AS 1067, category 2, 3 or 4). Wraparound styles block more light from the sides.
@@ -115,7 +115,7 @@ A change doesn’t automatically mean skin cancer, but it does mean you should g
 
 See a GP about any spot that is new, changing or different, and any mole that appears after the age of 25, which Cancer Council Australia flags as worth checking. If you’d like to have a spot looked at while you’re at the centre, the GPs at [Help Medical](/help-medical/), an independent general practice located inside our store, can see you.
 
-Your pharmacist can help with mild sunburn and with choosing a sunscreen for sensitive skin or for children. According to healthdirect, see a doctor if sunburn causes:
+Your pharmacist can help with [mild sunburn](/sunburn-treatment/) and with choosing a sunscreen for sensitive skin or for children. According to healthdirect, see a doctor if sunburn causes:
 
 - large areas of blistering;
 - severe pain;

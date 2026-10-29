@@ -3,7 +3,7 @@ title: "Generic vs brand-name medicines: are they the same?"
 description: "Generics have the same active ingredient in the same amount, checked by the TGA. Why the box looks different, what the PBS brand premium is and how to ask."
 seoTitle: "Generic vs brand medicines | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-29
 category: prescriptions
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -24,7 +24,7 @@ references:
     url: "https://www.healthdirect.gov.au/accidental-overdose-of-medicines"
 draft: false
 ---
-Yes, in the ways that matter for your health. A generic medicine has the same active ingredient as the brand-name original, in the same amount, and it works in the same way. healthdirect explains that generic medicines can only be sold in Australia if they meet the same strict standards for quality, safety and effectiveness as the original brand, and those standards are checked by the Therapeutic Goods Administration (TGA).
+Generic medicines work the same way as the brand-name originals in the ways that matter for your health. A generic medicine has the same active ingredient as the brand-name original, in the same amount, and it works in the same way. healthdirect explains that generic medicines can only be sold in Australia if they meet the same strict standards for quality, safety and effectiveness as the original brand, and those standards are checked by the Therapeutic Goods Administration (TGA).
 
 What can differ is the name, the price and the look of the tablet or box. Here's what that means for you, and how to ask for a generic next time you're at the dispensary counter at Pacific Fair.
 
