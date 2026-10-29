@@ -11,8 +11,6 @@ export type TeamMember = {
   reviewsArticles?: boolean;
   /** Languages spoken, as listed by the practice */
   languages?: string[];
-  /** A current notice shown with the bio, e.g. not taking new patients */
-  notice?: string;
 };
 
 export const pharmacyTeam: TeamMember[] = [
@@ -46,7 +44,6 @@ export const helpMedicalDoctors: TeamMember[] = [
     photo: 'dr-dave-seton.jpg',
     languages: ['English', 'Afrikaans'],
     bio: 'Dr David (Dave) Seton has practised medicine for more than 24 years. He studied medicine at the University of the Witwatersrand and is a Fellow of the Royal Australian College of General Practitioners. He has a special interest in children’s health, skin checks, pregnancy care and mental health, and performs IUD insertions and other minor procedures. He has trained hundreds of doctors in inserting long-acting contraceptive devices.',
-    notice: 'Dr David Seton isn’t taking new patients at the moment. Existing patients (seen in the past 24 months) can still book.',
   },
   {
     name: 'Dr Robert Seton',
