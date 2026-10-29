@@ -3,7 +3,7 @@ title: "Ear piercing aftercare: how to look after a new piercing"
 description: "How to clean a new ear piercing, how long it takes to heal, when you can change earrings or swim, and the signs of infection. From our Pacific Fair team."
 seoTitle: "Ear piercing aftercare: cleaning, healing and infection"
 publishDate: 2026-10-17
-modifiedDate: 2026-10-17
+modifiedDate: 2026-10-29
 category: health-advice
 author: "Priceline Pharmacy Pacific Fair team"
 reviewer: "Jason Markey"
@@ -38,7 +38,7 @@ Some soreness, redness and swelling is normal at first, and can take from a few 
 ## How do I clean a new piercing?
 
 1. **Wash your hands first.** Wash and dry them well every time you touch or clean the piercing.
-2. **Clean twice a day.** Use saline, or the aftercare spray we gave you. Always read the label and follow the directions for use.
+2. **Clean twice a day.** Use saline, or the aftercare spray we gave you. If you run out, we sell [aftercare sprays](/ear-piercings/) at the counter. Always read the label and follow the directions for use.
 3. **Leave the studs in.** Clean around them without taking them out.
 4. **Soften crusts, don't pick them.** A little warm salty water helps loosen crusting. Picking or scratching can cause infection and slow healing.
 5. **Pat it dry.** Use a clean tissue, not a towel or face washer.

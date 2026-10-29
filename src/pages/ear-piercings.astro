@@ -6,8 +6,16 @@ import { serviceBySlug } from '../data/services';
 import piercingImg from '../assets/images/ear-piercing.jpg';
 const service = serviceBySlug('ear-piercings')!;
 
+// Aftercare sprays sold on their own (names and prices from Jason, 29 Oct 2026)
+const sprays = [
+  { name: 'Adnohr Ear Care Antiseptic Spray', size: '60 ml', price: '$8.50' },
+  { name: 'Studex Advanced 2-in-1 Piercing Aftercare & Cleanser', size: '100 ml', price: '$14.95' },
+];
+const sprayList = sprays.map((s) => `${s.name} (${s.size}, ${s.price})`).join(' and ');
+
 const faqs = [
   { q: 'How much does ear piercing cost?', a: 'Ear piercing is $65 for both ears. That includes the piercing, your earrings, an antiseptic aftercare spray and a consultation with our team. Earrings are also sold separately, from $12.95. Just walk in.' },
+  { q: 'Can I buy piercing aftercare spray on its own?', a: `Yes. We sell ${sprayList} at the counter. An aftercare spray is included with your ear piercing, so you only need another if you run out or were pierced somewhere else.` },
   { q: 'Do I need to book for ear piercing?', a: 'No. Walk-ins are welcome any day we’re open.' },
   { q: 'How old do you have to be?', a: 'We pierce ears for ages 8 and over. Under-16s need a parent or guardian with them to give consent, so bring them along.' },
   { q: 'Does it hurt?', a: 'The piercing itself takes seconds. Most people describe a quick pinch, and the area may feel tender for a few days afterwards. Our team will talk you through it first.' },
@@ -32,7 +40,7 @@ const faqs = [
   hub={{ name: 'Beauty & everyday', href: '/beauty-fragrance/' }}
   primaryCta={{ label: 'Get directions', href: site.directionsUrl, external: true, event: 'cta_directions' }}
   secondaryCta={{ label: `Call ${site.phone}`, href: site.phoneHref, event: 'cta_call' }}
-  dateModified="2026-10-13"
+  dateModified="2026-10-29"
 >
   <h2>How much does ear piercing cost?</h2>
   <Image src={piercingImg} alt="Ear piercing at Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
@@ -75,6 +83,7 @@ const faqs = [
     <li>Avoid swimming in pools, the ocean and spas until it has healed, which is worth planning around in a Gold Coast summer.</li>
     <li>Keep hair products, make-up and perfume away from the area.</li>
   </ul>
+  <p>Run out of spray? We sell {sprayList} at the counter.</p>
   <p>Always read the label and follow the directions for use.</p>
 
   <h2>When should I get help?</h2>

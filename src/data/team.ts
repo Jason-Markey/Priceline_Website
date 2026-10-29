@@ -35,10 +35,10 @@ export const pharmacyTeam: TeamMember[] = [
 /** Help Medical doctors (independent practice inside the store) */
 export const helpMedicalDoctors: TeamMember[] = [
   {
-    name: 'Dr Dave Seton',
+    name: 'Dr David Seton',
     role: 'General Practitioner',
     photo: 'dr-dave-seton.jpg',
-    bio: 'Dr Dave Seton performs IUD insertions and other minor procedures, and has a keen interest in teaching. He has trained many doctors in the insertion of long-acting contraceptive devices.',
+    bio: 'Dr David (Dave) Seton performs IUD insertions and other minor procedures, and has a keen interest in teaching. He has trained many doctors in the insertion of long-acting contraceptive devices.',
   },
   {
     name: 'Dr Robert Seton',

@@ -1,10 +1,10 @@
 ---
 import ServicePage from '../layouts/ServicePage.astro';
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import { site, hoursRows } from '../data/site';
 import { serviceBySlug } from '../data/services';
 import { helpMedicalDoctors } from '../data/team';
-import { helpMedicalNode } from '../lib/schema';
+import { helpMedicalNode, ID } from '../lib/schema';
 import receptionImg from '../assets/images/help-medical-reception.jpg';
 import entranceImg from '../assets/images/help-medical-entrance.jpg';
 const service = serviceBySlug('help-medical')!;
@@ -14,6 +14,16 @@ const doctors = helpMedicalDoctors.map((d) => ({
   ...d,
   img: d.photo ? images[`../assets/images/${d.photo}`]?.default : undefined,
 }));
+
+// Each GP as a Person working at the clinic (names, photos and bios as listed by Help Medical, with their permission)
+const doctorNodes = await Promise.all(doctors.map(async (d) => ({
+  '@type': 'Person',
+  name: d.name,
+  jobTitle: d.role,
+  ...(d.credentials ? { honorificSuffix: d.credentials } : {}),
+  ...(d.img ? { image: `${site.url}${(await getImage({ src: d.img, width: 400, format: 'jpg' })).src}` } : {}),
+  worksFor: { '@id': ID.helpMedical },
+})));
 
 const hm = site.helpMedical;
 const hmHours = hoursRows(hm.hours);
@@ -34,7 +44,7 @@ const faqs = [
 <ServicePage
   service={service}
   title="Help Medical Pacific Fair | Bulk-Billing GP inside Priceline"
-  description="Need a doctor at Pacific Fair? Help Medical is an independent general practice inside Priceline. Open 7 days, walk-ins welcome, bulk billed with Medicare."
+  description="Help Medical, the GP clinic inside Priceline Pacific Fair: Dr David Seton, Dr Robert Seton and Dr Tariqul Islam. Open 7 days, walk-ins welcome, bulk billed."
   h1="Help Medical: GPs inside Priceline Pacific Fair"
   lead="Help Medical, an independent general practice located inside our store, means you can see a GP and fill the script in one visit at Pacific Fair in Broadbeach. The clinic is open 7 days, bulk bills everyone with a Medicare card, and has a QML Pathology collection room. Walk-ins are welcome subject to doctor availability; booking ahead online is the surest way to be seen, and you can fill your script a few steps away afterwards."
   faqs={faqs}
@@ -44,8 +54,8 @@ const faqs = [
   actionCall={{ href: hm.phoneHref, event: 'cta_call_gp' }}
   actionBook={{ href: hm.bookingUrl, event: 'cta_book_gp' }}
   noServiceSchema
-  extraSchema={[helpMedicalNode()]}
-  dateModified="2026-10-25"
+  extraSchema={[helpMedicalNode(), ...doctorNodes]}
+  dateModified="2026-10-29"
 >
   <h2>Does Help Medical bulk bill?</h2>
   <Image src={receptionImg} alt="Help Medical reception desk and waiting area inside Priceline Pharmacy Pacific Fair" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
