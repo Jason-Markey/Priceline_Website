@@ -212,7 +212,7 @@ export const services: Service[] = [
       who: 'Anyone on the Gold Coast. Prescription medicines can’t be delivered this way.',
       cost: 'Uber Eats delivery fees apply.',
       booking: 'Order any time.',
-      howToBook: 'Open the Uber Eats app and search for Priceline Pharmacy Pacific Fair.',
+      howToBook: 'Tap Order on Uber Eats on this page to open our store, or search for Priceline Pharmacy Pacific Fair in the app.',
     },
     related: ['click-and-collect', 'prescriptions'],
   },

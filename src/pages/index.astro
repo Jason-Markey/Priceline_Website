@@ -2,6 +2,8 @@
 import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import HoursCard from '../components/HoursCard.astro';
+import Reviews from '../components/Reviews.astro';
+import { reviewsLive } from '../data/reviews';
 import { site, upcomingSpecialHours, fmtDay } from '../data/site';
 import { serviceBySlug } from '../data/services';
 import { faqNode } from '../lib/schema';
@@ -155,6 +157,17 @@ const faqs = [
       </ul>
     </div>
   </section>
+
+  <!-- Customer reviews: shows once src/data/reviews.ts has enough reviews and a current rating (reviewsLive) -->
+  {reviewsLive && (
+    <section class="section" data-cta-location="reviews">
+      <div class="container">
+        <h2>What our customers say</h2>
+        <p class="intro">A few of our Google reviews, shown exactly as written.</p>
+        <Reviews context="home" />
+      </div>
+    </section>
+  )}
 
   <!-- Beauty band: full width, the retail heart of the store -->
   <section class="section section--pale">

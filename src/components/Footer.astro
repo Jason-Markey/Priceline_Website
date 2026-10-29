@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import logoMark from '../assets/images/logo-footer.png';
 import { site, hoursRows } from '../data/site';
 import { footerNav, legalNav } from '../data/navigation';
+import { reviewsLive } from '../data/reviews';
 const year = new Date().getFullYear();
 const pharmacyRows = hoursRows(site.hours);
 const hmRows = hoursRows(site.helpMedical.hours);
@@ -38,7 +39,7 @@ const hmRows = hoursRows(site.helpMedical.hours);
       <dl>{pharmacyRows.map((r) => <><dt>{r.label}</dt><dd>{r.value}</dd></>)}</dl>
       <h2>{site.helpMedical.name}</h2>
       <dl>{hmRows.map((r) => <><dt>{r.label}</dt><dd>{r.value}</dd></>)}</dl>
-      <p><a href="/visit-us/">Directions and parking</a> · <a href="/public-holiday-hours/">Public holiday hours</a></p>
+      <p><a href="/visit-us/">Directions and parking</a> · <a href="/public-holiday-hours/">Public holiday hours</a>{reviewsLive && <> · <a href="/reviews/">Customer reviews</a></>}</p>
     </div>
   </div>
 

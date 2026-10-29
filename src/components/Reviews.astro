@@ -1,0 +1,134 @@
+---
+/**
+ * Google reviews block. context 'home': rating rail + three cards (a swipe row on phones).
+ * context 'page': rating header + a featured first review + the rest in a grid.
+ * Reviews, rating and the rules for choosing reviews: src/data/reviews.ts. No review schema on purpose.
+ */
+import { reviews, googleRating, reviewsPreview } from '../data/reviews';
+import { site } from '../data/site';
+
+export interface Props { context?: 'home' | 'page'; }
+const { context = 'page' } = Astro.props;
+
+const want = context === 'home' ? 3 : 6;
+const list = context === 'home' ? reviews.slice(0, 3) : reviews;
+// Preview builds only: empty slots show where reviews will go until there are enough real ones
+const slots = reviewsPreview ? Math.max(0, want - list.length) : 0;
+const hasRating = googleRating.count > 0;
+const monthYear = (d: string) =>
+  new Date(`${d}-01T00:00:00`).toLocaleDateString('en-AU', { month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
+const star = 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z';
+---
+
+<div class:list={['rv', `rv--${context}`]}>
+  {context === 'home' ? (
+    <div class="rv__rail">
+      {hasRating ? <p class="rv__score">{googleRating.rating}</p> : <p class="rv__score rv__score--empty">Rating</p>}
+      <span class="rv__stars rv__stars--lg" role="img" aria-label="5 out of 5 stars">
+        {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+      </span>
+      <p class="rv__meta">
+        {hasRating
+          ? <Fragment>Rated <b>{googleRating.rating}</b> from <b>{googleRating.count}</b> Google reviews</Fragment>
+          : 'Your Google rating and review count go here'}
+      </p>
+      <a class="rv__more" href="/reviews/">Read more reviews</a>
+    </div>
+  ) : (
+    <div class="rv__head">
+      <div class="rv__headscore">
+        {hasRating ? <p class="rv__score">{googleRating.rating}</p> : <p class="rv__score rv__score--empty">Rating</p>}
+        <span class="rv__stars rv__stars--lg" role="img" aria-label="5 out of 5 stars">
+          {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+        </span>
+      </div>
+      <div>
+        <p class="rv__headline">
+          {hasRating ? `Rated ${googleRating.rating} from ${googleRating.count} Google reviews` : 'Your Google rating and review count go here'}
+        </p>
+        <p class="rv__sub">A selection of our Google reviews, shown exactly as written. <a href={site.links.googleReviews} rel="noopener">Read them all on Google</a>.</p>
+      </div>
+    </div>
+  )}
+
+  <ul class="rv__cards" role="list">
+    {list.map((r, i) => (
+      <li class:list={['rv-card', { 'rv-card--lead': context === 'page' && i === 0 }]}>
+        <figure>
+          <span class="rv-card__mark" aria-hidden="true">&ldquo;</span>
+          <span class="rv__stars" role="img" aria-label={`${r.stars} out of 5 stars`}>
+            {[1, 2, 3, 4, 5].map(() => <svg viewBox="0 0 24 24" aria-hidden="true"><path d={star} /></svg>)}
+          </span>
+          <blockquote><p>{r.text}</p></blockquote>
+          <figcaption>
+            <span class="rv-card__avatar" aria-hidden="true">{r.name.trim().charAt(0)}</span>
+            <span class="rv-card__who"><b>{r.name}</b><small>Google review · {monthYear(r.date)}</small></span>
+          </figcaption>
+        </figure>
+      </li>
+    ))}
+    {Array.from({ length: slots }).map(() => (
+      <li class="rv-card rv-card--slot"><p>Space for a review from your screenshots</p></li>
+    ))}
+  </ul>
+</div>
+
+<style>
+  .rv { --rv-star: var(--pink); }
+  .rv__stars { display: inline-flex; gap: 2px; color: var(--rv-star); }
+  .rv__stars svg { width: 16px; height: 16px; fill: currentColor; }
+  .rv__stars--lg svg { width: 20px; height: 20px; }
+  .rv__score { font-size: 3.5rem; font-weight: 800; line-height: 1; color: var(--charcoal); letter-spacing: -0.02em; margin: 0 0 var(--s2); }
+  .rv__score--empty { font-size: 1.75rem; color: var(--text-muted); font-weight: 700; }
+
+  /* Home: rating rail beside three cards */
+  .rv--home { display: grid; gap: var(--s6); }
+  @media (min-width: 900px) { .rv--home { grid-template-columns: 240px 1fr; gap: var(--s8); align-items: start; } }
+  .rv__meta { font-size: var(--fs-sm); color: var(--text-muted); margin: var(--s3) 0 var(--s4); }
+  .rv__meta b { color: var(--charcoal); }
+  .rv__more { font-weight: 600; text-decoration: none; }
+  .rv__more::after { content: ' →'; }
+  .rv__more:hover { text-decoration: underline; }
+  @media (max-width: 899px) {
+    /* Phones and tablets: the rail becomes one line above the cards */
+    .rv--home .rv__rail { display: flex; flex-wrap: wrap; align-items: center; column-gap: var(--s3); row-gap: var(--s1); }
+    .rv--home .rv__score { font-size: 2.25rem; margin: 0; }
+    .rv--home .rv__meta { margin: 0; flex-basis: 100%; }
+    .rv--home .rv__more { flex-basis: 100%; }
+  }
+
+  /* Page: rating header */
+  .rv__head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s4) var(--s6); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow); padding: var(--s6); margin-bottom: var(--s6); }
+  .rv__headscore { display: flex; align-items: center; gap: var(--s3); }
+  .rv__headscore .rv__score { margin: 0; }
+  .rv__headline { font-size: var(--fs-lg); font-weight: 700; color: var(--charcoal); margin: 0; }
+  .rv__sub { font-size: var(--fs-sm); color: var(--text-muted); margin: var(--s1) 0 0; }
+
+  /* Cards */
+  .rv__cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s4); }
+  .rv--home .rv__cards { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .rv--page .rv__cards { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .rv-card { position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+  .rv-card figure { margin: 0; padding: var(--s6) var(--s6) var(--s5); height: 100%; display: flex; flex-direction: column; gap: var(--s3); }
+  .rv-card__mark { position: absolute; top: 2px; right: 18px; font: 700 4rem/1 Georgia, 'Times New Roman', serif; color: var(--pink); opacity: .18; pointer-events: none; }
+  .rv-card blockquote { margin: 0; flex: 1; }
+  .rv-card blockquote p { margin: 0; color: var(--text); font-size: var(--fs-base); line-height: 1.55; }
+  .rv-card figcaption { display: flex; align-items: center; gap: var(--s3); }
+  .rv-card__avatar { flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%; background: var(--pink-pale); color: var(--pink-deep); font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+  .rv-card__who { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+  .rv-card__who b { color: var(--charcoal); font-size: var(--fs-sm); }
+  .rv-card__who small { color: var(--text-muted); font-size: 0.8125rem; }
+  .rv-card--lead { grid-column: 1 / -1; background: var(--pink-pale); border-color: #f8cfe2; }
+  .rv-card--lead blockquote p { font-size: var(--fs-lg); color: var(--charcoal); }
+  .rv-card--lead .rv-card__avatar { background: #fff; }
+  .rv-card--slot { display: flex; align-items: center; justify-content: center; min-height: 180px; border: 2px dashed #e4c3d3; background: transparent; box-shadow: none; padding: var(--s6); text-align: center; }
+  .rv-card--slot p { margin: 0; color: var(--text-muted); font-style: italic; font-size: var(--fs-sm); }
+
+  /* Phones: the homepage cards become one swipe row, with the next card peeking in */
+  @media (max-width: 639px) {
+    .rv--home .rv__cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); }
+    .rv--home .rv__cards::-webkit-scrollbar { display: none; }
+    .rv--home .rv-card { flex: 0 0 85%; scroll-snap-align: start; }
+  }
+</style>

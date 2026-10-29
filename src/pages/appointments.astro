@@ -15,7 +15,7 @@ const faqs = [
   description="How to book a vaccination, contraception consultation, pharmacist consult or GP appointment at Priceline Pacific Fair, Broadbeach. Most services are walk-in."
   path="/appointments/"
   h1="Book an appointment"
-  lead="Most services at Priceline Pharmacy Pacific Fair in Broadbeach are walk-in, so you can just come in. Vaccinations and pharmacist consultations can be booked online if you’d prefer a set time, contraception consultations are booked by phone, and GP appointments are made directly with Help Medical. Here’s how to book each service."
+  lead="Most services are walk-in, so you can just come in. Vaccinations and pharmacist consultations can also be booked online if you’d like a set time."
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Appointments', href: '/appointments/' }]}
   faqs={faqs}
   showNap
@@ -25,6 +25,7 @@ const faqs = [
     <a class="btn btn--primary" href={site.links.book} rel="noopener" data-event="book">Book online</a>
     <a class="btn btn--secondary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
   </div>
+  <p>Contraception consultations are booked by phone, and GP appointments are made directly with <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store.</p>
 
   <h2>How to book each service</h2>
   <div class="table-wrap table-wrap--stack">

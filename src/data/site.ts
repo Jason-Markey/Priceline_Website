@@ -127,7 +127,8 @@ export const site = {
       'https://healthengine.com.au/pharmacy/qld/broadbeach/priceline-pharmacy-pacific-fair/s54055',
     pricelineShop: 'https://www.priceline.com.au',
     pricelineNational: 'https://www.priceline.com.au',
-    uberEats: 'https://www.ubereats.com/au/brand/priceline',
+    /** Our own store on Uber Eats (Jason, 29 Oct 2026). Query string dropped: it preset the delivery address to Pacific Fair. */
+    uberEats: 'https://www.ubereats.com/au/store/priceline-pharmacy-pacific-fair/sppPOxQ6W-qoMWnRi-Dasw',
     appIos: 'https://apps.apple.com/au/app/priceline-pharmacy-app/id1440942154',
     appAndroid: 'https://play.google.com/store/apps/details?id=au.com.priceline.pricelineapp',
     simplyHearing: 'https://simplyhearing.com.au/',
@@ -136,6 +137,11 @@ export const site = {
     pacificFairStorePage: 'https://www.pacificfair.com.au/stores-services/priceline-pharmacy',
     translink: 'https://jp.translink.com.au/',
     googleBusinessProfile: 'https://maps.app.goo.gl/T8QkWoxSwHfp4RLY9',
+    /** All our Google reviews: the Maps listing (CID from the GBP review emails, fid=15048147169970728717) */
+    googleReviews: 'https://maps.google.com/?cid=15048147169970728717',
+    /** Opens Google's write-a-review box (Jason, 29 Oct 2026). Kept low-key on purpose: one plain text link at the foot of
+     *  /reviews/, never a button, and not on the homepage, header or footer. */
+    googleWriteReview: 'https://g.page/r/CQ2v52EfwtXQEAE/review',
     /** Our own listings elsewhere (schema sameAs) */
     healthdirect:
       'https://www.healthdirect.gov.au/australian-health-services/20080795/priceline-pharmacy-pacific-fair/services/broadbeach-4218-hooker',

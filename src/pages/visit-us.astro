@@ -45,7 +45,7 @@ const faqs = [
   description="Shop 81, ground floor of Pacific Fair (Pac Fair), Broadbeach. Open 7 days, Thursdays until 9pm. Park free for 4 hours in the Orange car park, Gate 7."
   path={path}
   h1="Opening hours and how to find us"
-  lead="Priceline Pharmacy Pacific Fair is Shop 81 on the ground floor of Pacific Fair Shopping Centre in Broadbeach, on the north-eastern side of the centre next to Proud Smile. We’re open 7 days and until 9pm on Thursdays. Park in the Orange car park directly under us (Gate 7 is closest, and the first 4 hours are free), or take the light rail to Broadbeach South, right out the front."
+  lead="Shop 81, ground floor of Pacific Fair in Broadbeach, next to Proud Smile. Open 7 days, until 9pm on Thursdays, with 4 hours’ free parking right under us."
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   showNap
@@ -56,7 +56,6 @@ const faqs = [
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">Call {site.phone}</a>
     <a class="btn btn--secondary" href={site.links.googleBusinessProfile} rel="noopener" data-event="directions">Open in Google Maps</a>
   </div>
-  <p><strong>{site.name}</strong><br />{site.address.oneLine}<br />Phone <a href={site.phoneHref}>{site.phone}</a> · Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a></p>
 
   <h2>Opening hours</h2>
   <div class="hours-grid">
@@ -72,6 +71,8 @@ const faqs = [
   <p>QML Pathology collection, inside Help Medical: {site.pathology.hoursText} <a href="/blood-tests/">More about blood tests</a>.</p>
 
   <h2>Where is the pharmacy inside Pacific Fair?</h2>
+  <p><strong>{site.name}</strong><br />{site.address.oneLine}<br />Phone <a href={site.phoneHref}>{site.phone}</a> · Email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a></p>
+  <p>We’re on the north-eastern side of the centre. Park in the Orange car park directly under us (Gate 7 is closest, and the first 4 hours are free), or take the light rail to Broadbeach South, right out the front.</p>
   <Image src={shopfront} alt="The red Priceline Pharmacy shopfront on the ground floor of Pacific Fair, below the centre signs to JB Hi-Fi, Myer and Kmart" widths={[480, 760]} sizes="(max-width: 760px) 100vw, 760px" />
   <p>You’ll find us on the ground floor, next to Proud Smile on our right, with the outdoor entrance from the river on our left. Look for the red Priceline Pharmacy shopfront below the centre signs to JB Hi-Fi, Myer and Kmart. Once you’re inside, the prescription counter is on the left at the very back of the store, and <a href="/help-medical/">Help Medical</a> is on the right-hand side as you walk in.</p>
   <div class="map">

@@ -1,0 +1,42 @@
+---
+/**
+ * /reviews/ — a selection of our Google reviews (Jason, 29 Oct 2026).
+ * Built only once reviewsLive is true (enough reviews and a current rating, src/data/reviews.ts), so the page,
+ * and every link to it, stays off the site until then. The rest param with slug undefined makes the /reviews/ index.
+ */
+import ContentPage from '../../layouts/ContentPage.astro';
+import Reviews from '../../components/Reviews.astro';
+import { site } from '../../data/site';
+import { reviewsLive } from '../../data/reviews';
+
+export function getStaticPaths() {
+  return reviewsLive ? [{ params: { slug: undefined } }] : [];
+}
+---
+
+<ContentPage
+  title="Customer Reviews | Priceline Pharmacy Pacific Fair"
+  description="What customers say about Priceline Pharmacy Pacific Fair in Broadbeach: a selection of our Google reviews about the team, the service and the store."
+  path="/reviews/"
+  h1="What our customers say"
+  lead="A selection of recent Google reviews of Priceline Pharmacy Pacific Fair, shown exactly as written."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Customer reviews', href: '/reviews/' }]}
+  wide
+>
+  <Reviews context="page" />
+
+  <div class="measure">
+    <h2>How we choose the reviews on this page</h2>
+    <p>These are genuine Google reviews of our store, copied word for word. We show reviews about our team, our service and the store. Australia’s rules for advertising health services don’t allow us to show reviews about treatment, medicines or health results, so those stay on Google, where you can <a href={site.links.googleReviews} rel="noopener">read all our reviews</a>.</p>
+
+    <h2>Something we could do better?</h2>
+    <p>Please tell us. Talk to us in store, call <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>, and we’ll do our best to put it right.</p>
+    <p class="quiet">Visited us recently? You can also <a href={site.links.googleWriteReview} rel="noopener">leave a review on Google</a>.</p>
+  </div>
+</ContentPage>
+
+<style>
+  .measure { max-width: var(--measure); margin-top: var(--s10); }
+  .measure h2 { color: var(--pink-deep); }
+  .quiet { font-size: var(--fs-sm); color: var(--text-muted); margin-top: var(--s6); }
+</style>
