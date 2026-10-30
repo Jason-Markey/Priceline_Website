@@ -2,6 +2,9 @@
 import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
 
+// Phone links in the table use set:text rather than {site.phone} between the tags: the Astro compiler leaves a link
+// whose only content is an expression open after a table cell, and wraps the heading after the table in it.
+
 const faqs = [
   { q: 'Which services need an appointment?', a: 'Only contraception consultations, because they need a trained pharmacist on duty; please call first. Everything else is walk-in, with online booking optional for vaccinations and pharmacist consultations. Just come in.' },
   { q: 'How do I book online?', a: `Use our online booking page at <a href="${site.links.book}" rel="noopener">MedAdvisor</a>, choose the service and pick a time. You can also scan the QR code at the counter to join the queue for a vaccination.` },
@@ -47,7 +50,7 @@ const faqs = [
         <tr>
           <td><a href="/contraception-consultations/">Contraception consultations</a></td>
           <td data-label="Booking">Book by phone</td>
-          <td data-label="How">Call <a href={site.phoneHref}>{site.phone}</a> to book.</td>
+          <td data-label="How">Call <a href={site.phoneHref} set:text={site.phone} /> to book.</td>
         </tr>
         <tr>
           <td><a href="/uti-treatment/">UTI treatment</a></td>
@@ -67,7 +70,7 @@ const faqs = [
         <tr>
           <td><a href="/help-medical/">GP at Help Medical</a></td>
           <td data-label="Booking">Walk in, or book</td>
-          <td data-label="How"><a href={site.helpMedical.bookingUrl} rel="noopener">Book online</a> or call <a href={site.helpMedical.phoneHref}>{site.helpMedical.phone}</a>.</td>
+          <td data-label="How"><a href={site.helpMedical.bookingUrl} rel="noopener">Book online</a> or call <a href={site.helpMedical.phoneHref} set:text={site.helpMedical.phone} />.</td>
         </tr>
         <tr>
           <td><a href="/blood-tests/">Blood tests (QML Pathology)</a></td>

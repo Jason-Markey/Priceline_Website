@@ -88,7 +88,7 @@ const five = [1, 2, 3, 4, 5];
   )}
 
   {context === 'home' ? (
-    <ul class:list={['rv__cards', { 'rv__cards--split': split }]} role="list">
+    <ul class:list={['rv__cards', { 'rv__cards--split': split }]} role="list" tabindex="0" aria-label="Customer reviews">
       {homeCards.map((r) => <ReviewCard review={r} tall={split && isTall(r)} />)}
       {Array.from({ length: slots }).map(() => <li class="rv-slot"><p>Space for a review from your screenshots</p></li>)}
     </ul>
@@ -157,6 +157,8 @@ const five = [1, 2, 3, 4, 5];
     .rv--home .rv__cards { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none;
       margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) var(--s2); scroll-padding-inline: var(--gutter); align-items: flex-start; }
     .rv--home .rv__cards::-webkit-scrollbar { display: none; }
+    /* The row has tabindex="0" so keyboard users can focus it and scroll with the arrow keys */
+    .rv--home .rv__cards:focus-visible { outline: 2px solid var(--pink-deep); outline-offset: 2px; }
     .rv--home .rv__cards :global(.rv-card) { flex: 0 0 85%; scroll-snap-align: start; }
     .rv--home .rv__cards--split :global(.rv-card--tall) { display: none; }
   }

@@ -87,6 +87,7 @@ TITLE_RE = re.compile(r'<title>(.*?)</title>', re.S)
 H1_RE = re.compile(r'<h1[^>]*>', re.I)
 DESC_RE = re.compile(r'<meta name="description" content="([^"]*)"')
 HREF_RE = re.compile(r'href="([^"#?]+)')
+EMPTY_LINK_RE = re.compile(r'<a\b[^>]*>\s*</a>')
 STRIP_RE = re.compile(r'<script.*?</script>|<style.*?</style>|<[^>]+>', re.S)
 ATTR_RE = re.compile(r'\s(?:alt|title|aria-label|content)="([^"]*)"')
 LD_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
@@ -139,6 +140,11 @@ for p in pages:
             target = href if href.endswith('/') else href + '/'
             if target not in routes and href not in files:
                 errors.append(f'{route}: broken internal link {href}')
+    # Empty links, or a link straight after a table: the Astro compiler leaves a link whose only content is an
+    # expression open after a table cell and wraps what follows in it (use set:text={...} on such links instead)
+    for a in EMPTY_LINK_RE.findall(src):
+        if 'aria-label=' not in a: errors.append(f'{route}: empty link {a[:80]}')
+    if re.search(r'</table>\s*<a\b', src): errors.append(f'{route}: link straight after a </table> (see set:text note above)')
     # blocked words (visible text only)
     text = ' ' + STRIP_RE.sub(' ', src).lower() + ' '
     for w in find_words(BLOCKED, text):
