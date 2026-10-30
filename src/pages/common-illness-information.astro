@@ -1,56 +1,85 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import { site } from '../data/site';
+import { liveArticleSlugs } from '../lib/articles';
+
+// Every entry links to its guide. Entries for scheduled articles appear with the Monday rebuild that publishes them,
+// so the list never links to a page that doesn't exist yet.
+const live = await liveArticleSlugs();
+type Entry = { name: string; slug: string; text: string };
+const groups: { heading: string; entries: Entry[] }[] = [
+  { heading: 'A–D', entries: [
+    { name: 'Acne', slug: 'acne-treatment-pharmacy', text: 'what causes breakouts, and which pharmacy options can help.' },
+    { name: 'Athlete’s foot', slug: 'athletes-foot-treatment', text: 'how to clear it, and how to stop it coming back in Gold Coast humidity.' },
+    { name: 'Bites and stings', slug: 'bites-and-stings-first-aid', text: 'first aid for bees, wasps, ants, spiders and ticks, and the signs of a severe allergic reaction.' },
+    { name: 'Blisters', slug: 'blisters-summer-foot-care', text: 'how to treat a blister without popping it, plus summer foot care.' },
+    { name: 'Bluebottle stings', slug: 'bluebottle-sting-treatment', text: 'what to do, and what not to do, after a sting at the beach.' },
+    { name: 'Chafing', slug: 'chafing-prevention-treatment', text: 'how to prevent it and soothe sore skin in the summer heat.' },
+    { name: 'Cold sores', slug: 'cold-sore-sun-trigger', text: 'tingling, blisters and sun triggers. Our pharmacists can suggest treatments to use at the first tingle.' },
+    { name: 'Common cold', slug: 'common-cold-remedies', text: 'myths, facts, and what really helps you feel better.' },
+    { name: 'Constipation', slug: 'constipation-relief', text: 'simple changes and pharmacy options, and when to see a GP.' },
+    { name: 'Coughs', slug: 'dry-cough-vs-chesty-cough', text: 'dry or chesty, and what helps each.' },
+    { name: 'Cuts and scrapes', slug: 'how-to-treat-a-cut', text: 'step-by-step first aid, and when a wound needs a doctor.' },
+    { name: 'Dandruff', slug: 'dandruff-treatment', text: 'why it happens and how to manage a flaky scalp.' },
+    { name: 'Dry mouth', slug: 'dry-mouth-causes-relief', text: 'common causes, including medicines, and what helps.' },
+    { name: 'Dry skin', slug: 'dry-skin-remedies', text: 'a pharmacist’s checklist for itchy, dry skin.' },
+  ] },
+  { heading: 'E–H', entries: [
+    { name: 'Eczema', slug: 'eczema-summer', text: 'keeping skin moisturised and avoiding triggers such as heat, sweat and chlorine. Ask our pharmacists about flare-up options.' },
+    { name: 'Food poisoning', slug: 'food-poisoning-summer', text: 'symptoms, rehydration, and keeping food safe in summer.' },
+    { name: 'Gastro in children', slug: 'gastro-in-kids-hydration', text: 'how to keep them hydrated, and when to worry.' },
+    { name: 'Haemorrhoids', slug: 'haemorrhoids-treatment', text: 'myths, facts and home care.' },
+    { name: 'Hand, foot and mouth disease', slug: 'hand-foot-and-mouth-disease', text: 'the symptoms, home care, and when children can go back to childcare or school.' },
+    { name: 'Hayfever', slug: 'hayfever-gold-coast', text: 'on the Gold Coast, grass pollen season runs through the warmer months. Our pharmacists can help you choose antihistamines, nasal sprays and eye drops.' },
+    { name: 'Head lice', slug: 'head-lice-treatment', text: 'how to get rid of them, and stop them coming back.' },
+    { name: 'Headaches', slug: 'headache-relief', text: 'common types, what helps, and the warning signs to act on.' },
+    { name: 'Heartburn and reflux (GORD)', slug: 'heartburn-relief', text: 'what actually helps, and when to see a GP.' },
+    { name: 'Heat exhaustion and heatstroke', slug: 'heat-exhaustion-symptoms', text: 'the warning signs, first aid and staying hydrated.' },
+    { name: 'Hives', slug: 'hives-urticaria', text: 'what causes an itchy rash of welts, what helps, and when it’s an emergency.' },
+  ] },
+  { heading: 'I–R', entries: [
+    { name: 'Insomnia and trouble sleeping', slug: 'trouble-sleeping-tips', text: 'practical tips for better sleep.' },
+    { name: 'Migraine', slug: 'migraine-relief', text: 'what to do when an attack starts.' },
+    { name: 'Mosquito bites and Ross River virus', slug: 'mosquito-bites-ross-river-virus', text: 'avoiding bites, and the viruses to know about on the Gold Coast.' },
+    { name: 'Mouth ulcers', slug: 'mouth-ulcer-treatment', text: 'home care, and when an ulcer needs checking.' },
+    { name: 'Nail fungus', slug: 'nail-fungus-treatment', text: 'myths, facts and treatments that work.' },
+    { name: 'Red eyes after swimming', slug: 'red-eyes-after-swimming', text: 'causes and relief for stinging eyes.' },
+  ] },
+  { heading: 'S–Z', entries: [
+    { name: 'Scabies', slug: 'scabies-treatment-australia', text: 'treatment, and how to stop it spreading at home.' },
+    { name: 'School sores', slug: 'school-sores-impetigo', text: 'how to spot impetigo, and when children can go back to school.' },
+    { name: 'Sleeping in hot weather', slug: 'sleeping-in-the-heat', text: 'tips for hot, humid nights.' },
+    { name: 'Sprains and strains', slug: 'sprain-vs-strain', text: 'the difference, and first aid that helps.' },
+    { name: 'Sunburn', slug: 'sunburn-treatment', text: 'what to do after too much sun, and when sunburn needs a doctor.' },
+    { name: 'Swimmer’s ear', slug: 'swimmers-ear', text: 'symptoms, treatment and how to prevent it.' },
+    { name: 'Threadworms', slug: 'threadworms-treatment', text: 'how to treat the whole family and stop reinfection.' },
+    { name: 'Travel sickness', slug: 'travel-sickness-tips', text: 'tips for theme park rides, boats and road trips. Ask us which travel sickness remedies suit you and your children.' },
+    { name: 'Warts and verrucas', slug: 'warts-verrucas-treatment', text: 'treatments you can use at home, and when to see a GP.' },
+  ] },
+];
+const shown = groups.map((g) => ({ ...g, entries: g.entries.filter((e) => live.has(e.slug)) }));
 ---
 
 <ContentPage
   title="Common Illnesses A-Z: Pharmacist Advice | Priceline"
-  description="Plain-English pharmacist guides to 21 common conditions, from hayfever and reflux to cold sores and sprains, with home care tips and when to see a GP."
+  description="Plain-English pharmacist guides to common conditions, from hayfever, head lice and reflux to cold sores and sprains, with home care tips and when to see a GP."
   path="/common-illness-information/"
   h1="Common illnesses A–Z"
   lead={`Plain-English guides to common health problems from the pharmacists at Priceline Pharmacy Pacific Fair in Broadbeach, reviewed by our owner and pharmacist, ${site.reviewer.name} (${site.reviewer.credentials}). Each guide covers the symptoms, what you can do at home, how a pharmacist can help, and when to see a GP.`}
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Common illnesses A–Z', href: '/common-illness-information/' }]}
   showNap
-  dateModified="2026-10-07"
+  dateModified="2026-10-30"
 >
   <p>For personal advice, just ask us in store or call <a href={site.phoneHref}>{site.phone}</a>. There’s no appointment needed.</p>
 
-  <h2>A–D</h2>
-  <ul>
-    <li><a href="/acne-treatment-pharmacy/"><strong>Acne</strong></a>: what causes breakouts, and which pharmacy options can help.</li>
-    <li><a href="/athletes-foot-treatment/"><strong>Athlete’s foot</strong></a>: how to clear it, and how to stop it coming back in Gold Coast humidity.</li>
-    <li><strong>Cold sores</strong>: tingling, blisters and sun triggers. Our pharmacists can suggest treatments to use at the first tingle.</li>
-    <li><a href="/common-cold-remedies/"><strong>Common cold</strong></a>: myths, facts, and what really helps you feel better.</li>
-    <li><a href="/constipation-relief/"><strong>Constipation</strong></a>: simple changes and pharmacy options, and when to see a GP.</li>
-    <li><a href="/how-to-treat-a-cut/"><strong>Cuts and scrapes</strong></a>: step-by-step first aid, and when a wound needs a doctor.</li>
-    <li><a href="/dandruff-treatment/"><strong>Dandruff</strong></a>: why it happens and how to manage a flaky scalp.</li>
-    <li><a href="/dry-skin-remedies/"><strong>Dry skin</strong></a>: a pharmacist’s checklist for itchy, dry skin.</li>
-  </ul>
-
-  <h2>E–H</h2>
-  <ul>
-    <li><strong>Eczema</strong>: keeping skin moisturised and avoiding triggers such as heat, sweat and chlorine. Ask our pharmacists about flare-up options.</li>
-    <li><a href="/haemorrhoids-treatment/"><strong>Haemorrhoids</strong></a>: myths, facts and home care.</li>
-    <li><strong>Hayfever</strong>: on the Gold Coast, grass pollen season runs through the warmer months. Our pharmacists can help you choose antihistamines, nasal sprays and eye drops.</li>
-    <li><a href="/headache-relief/"><strong>Headaches</strong></a>: common types, what helps, and the warning signs to act on.</li>
-    <li><a href="/heartburn-relief/"><strong>Heartburn and reflux (GORD)</strong></a>: what actually helps, and when to see a GP.</li>
-  </ul>
-
-  <h2>I–R</h2>
-  <ul>
-    <li><a href="/trouble-sleeping-tips/"><strong>Insomnia and trouble sleeping</strong></a>: practical tips for better sleep.</li>
-    <li><a href="/migraine-relief/"><strong>Migraine</strong></a>: what to do when an attack starts.</li>
-    <li><a href="/mouth-ulcer-treatment/"><strong>Mouth ulcers</strong></a>: home care, and when an ulcer needs checking.</li>
-    <li><a href="/nail-fungus-treatment/"><strong>Nail fungus</strong></a>: myths, facts and treatments that work.</li>
-  </ul>
-
-  <h2>S–Z</h2>
-  <ul>
-    <li><a href="/scabies-treatment-australia/"><strong>Scabies</strong></a>: treatment, and how to stop it spreading at home.</li>
-    <li><a href="/sprain-vs-strain/"><strong>Sprains and strains</strong></a>: the difference, and first aid that helps.</li>
-    <li><a href="/sunburn-treatment/"><strong>Sunburn</strong></a>: what to do after too much sun, and when sunburn needs a doctor.</li>
-    <li><strong>Travel sickness</strong>: tips for theme park rides, boats and road trips. Ask us which travel sickness remedies suit you and your children.</li>
-  </ul>
+  {shown.map((g) => (
+    <Fragment>
+      <h2>{g.heading}</h2>
+      <ul>
+        {g.entries.map((e) => <li><a href={`/${e.slug}/`}><strong>{e.name}</strong></a>: {e.text}</li>)}
+      </ul>
+    </Fragment>
+  ))}
 
   <h2>When should I get help?</h2>
   <p>These guides are general information. If you’re unsure, symptoms are severe, or they aren’t improving, talk to our pharmacists or see a GP. <a href="/help-medical/">Help Medical</a> is an independent general practice located inside our store. In an emergency, call 000.</p>

@@ -4,6 +4,9 @@ import { Image } from 'astro:assets';
 import roomImg from '../assets/images/consult-room.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('vaccination-information')!;
 
 const faqs = [
@@ -94,6 +97,8 @@ const faqs = [
 
   <h2>Starting uni or a health placement?</h2>
   <p>Students aged 15 to 24 living in residential colleges are recommended meningococcal ACWY and B vaccines, and health students need proof of protection against measles, chickenpox, whooping cough and hepatitis B before clinical placements. Start early, as some courses take months. See <a href="/vaccines-for-uni-students/">vaccines for uni students</a>.</p>
+
+  {live.has('back-to-school-health-checklist') && <p>Getting the kids ready for school? Our <a href="/back-to-school-health-checklist/">back to school health checklist</a> covers the free Year 7 and Year 10 school vaccines and catch-ups.</p>}
 
   <h2>Which vaccines are recommended in pregnancy?</h2>
   <p>Whooping cough, flu and RSV vaccines are recommended during pregnancy to protect you and your baby in the first months of life, and all three are free under the NIP. Talk to your pharmacist, GP or midwife about timing, then walk in or book a time with us.</p>

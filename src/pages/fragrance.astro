@@ -4,6 +4,9 @@ import ServicePage from '../layouts/ServicePage.astro';
 import fragranceImg from '../assets/images/fragrance-cabinets.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('fragrance')!;
 
 // Brands as listed on /beauty-fragrance/ (confirmed range, Oct 2026). Fragrance is a cosmetic, so brand names are fine.
@@ -47,6 +50,7 @@ const faqs = [
     <li><strong>Choose the size to suit your budget.</strong> A smaller bottle of a scent they’ll love beats a big bottle of one they won’t wear.</li>
     <li><strong>Still not sure?</strong> A gift set or a body mist is an easy choice, and our team can help you narrow it down.</li>
   </ul>
+  {live.has('how-to-test-perfume') && <p>Comparing scents in store? Our guide to <a href="/how-to-test-perfume/">how to test a perfume before you buy</a> explains how to try a few without tiring your nose.</p>}
 
   <h2>Christmas gift shopping at Pac Fair</h2>
   <p>Fragrance gift sets and value packs usually arrive in store in the lead-up to Christmas, alongside makeup, skincare and men’s grooming gifts. We’re on the ground floor and open 7 days, until 9pm on Thursdays, so you can pick something up while you’re at the centre, or order online and collect it from us.</p>

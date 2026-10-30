@@ -26,3 +26,9 @@ export function articlesAsOf(): number {
 export const byNewest = (a: CollectionEntry<'articles'>, b: CollectionEntry<'articles'>) =>
   b.data.publishDate.getTime() - a.data.publishDate.getTime() || a.id.localeCompare(b.id);
 export const slugOf = (a: CollectionEntry<'articles'>) => a.id.replace(/\.md$/, '');
+
+/** Slugs of the live articles. Pages that link to a scheduled article render the link only when it's in here, so the
+ *  link appears with the Monday rebuild that publishes the article, and check-build never sees a link to a missing page. */
+export async function liveArticleSlugs(): Promise<Set<string>> {
+  return new Set((await getLiveArticles()).map(slugOf));
+}

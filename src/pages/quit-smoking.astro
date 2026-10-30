@@ -4,6 +4,9 @@ import { Image } from 'astro:assets';
 import photo from '../assets/images/nicotine-replacement-shelf.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('quit-smoking')!;
 
 const faqs = [
@@ -69,6 +72,8 @@ const faqs = [
 
   <h2>What happens to my body when I quit?</h2>
   <p>The benefits start quickly. Within days your sense of taste and smell begin to improve, within weeks your breathing and circulation get better, and over the following years your risk of heart disease, stroke and cancer keeps falling. You’ll also notice the money you save.</p>
+
+  {live.has('quit-smoking-new-year') && <p>Planning to quit for the New Year? Our <a href="/quit-smoking-new-year/">step-by-step New Year quit plan</a> covers choosing a quit day, nicotine replacement and getting through the first few weeks.</p>}
 
   <h2>Do I need to book to talk about quitting?</h2>
   <p>No. Walk in any day we’re open and ask to speak to a pharmacist, or call ahead if you’d like a longer chat at a set time. While you’re here, a free check at our <a href="/health-station/">Health Station</a> can give you a blood pressure baseline to track your progress.</p>

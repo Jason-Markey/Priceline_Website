@@ -5,6 +5,14 @@ import counterImg from '../assets/images/prescriptions-and-advice.jpg';
 import robotImg from '../assets/images/dispensing-robot.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
+const medicineGuides = [
+  { slug: 'questions-to-ask-about-a-new-medicine', label: 'Starting a new medicine? Questions to ask your pharmacist' },
+  { slug: 'check-your-medicine-at-the-pharmacy', label: 'Check before you leave: what to look at on your medicine' },
+  { slug: 'your-rights-at-the-pharmacy', label: 'Your rights at the pharmacy counter: privacy and choice' },
+].filter((g) => live.has(g.slug));
 const service = serviceBySlug('prescriptions')!;
 
 const faqs = [
@@ -79,6 +87,8 @@ const faqs = [
   <h2>Can you get hard-to-find medicines?</h2>
   <p>We work with several wholesalers and can order in most medicines, including specialised and less common ones. If a medicine is short nationally, we’ll let you know your options and speak to your doctor if needed. Call us on <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailPharmacy}`}>{site.emailPharmacy}</a> to check availability.</p>
 
+  {live.has('medicine-shortages-what-to-do') && <p>Our guide to <a href="/medicine-shortages-what-to-do/">what happens in a medicine shortage</a> explains your options if your medicine is out of stock.</p>}
+
   <h2>How do I avoid running out?</h2>
   <ul>
     <li><a href="/download-the-priceline-app/"><strong>Priceline Pharmacy app.</strong></a> Order your scripts and get reminders when repeats are due.</li>
@@ -94,4 +104,7 @@ const faqs = [
 
   <h2>Questions about your medicine?</h2>
   <p>Ask us anything: how to take it, what side effects to expect, or whether it suits your other medicines, vitamins and supplements. There’s no appointment needed; just ask at the counter or call us on <a href={site.phoneHref}>{site.phone}</a>.</p>
+  {medicineGuides.length > 0 && (
+    <ul>{medicineGuides.map((g) => <li><a href={`/${g.slug}/`}>{g.label}</a></li>)}</ul>
+  )}
 </ServicePage>

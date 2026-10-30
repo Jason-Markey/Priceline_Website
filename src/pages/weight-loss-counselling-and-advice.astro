@@ -4,6 +4,9 @@ import { Image } from 'astro:assets';
 import photo from '../assets/images/weight-management-shelves.jpg';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('weight-loss-counselling-and-advice')!;
 
 const faqs = [
@@ -44,6 +47,8 @@ const faqs = [
 
   <h2>Who is this service for?</h2>
   <p>Anyone who wants support to lose weight or manage their weight, whether you’re just getting started, restarting after a break, or already under the care of a doctor or dietitian. We’ll work alongside your other health professionals, not replace them.</p>
+
+  {live.has('new-year-weight-loss-goals') && <p>Setting a goal for the New Year? Our guide to <a href="/new-year-weight-loss-goals/">New Year weight loss goals you can keep</a> explains what’s realistic and the small changes that add up.</p>}
 
   <h2>How much does weight management support cost?</h2>
   <p>Nothing. Our pharmacists’ support and advice is free, and you don’t need to book. Just ask at the counter, or call us on <a href={site.phoneHref}>{site.phone}</a> if you have a question first.</p>

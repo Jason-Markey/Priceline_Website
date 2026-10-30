@@ -1,6 +1,9 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import { site, visitorFacts } from '../data/site';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 
 const path = '/visiting-the-gold-coast/';
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Advice', href: '/health-blog/' }, { name: 'Visiting the Gold Coast', href: path }];
@@ -55,6 +58,9 @@ const faqs = [
   <h2>Feeling unwell on holiday?</h2>
   <p>Ask our pharmacists first. We can help with colds, hayfever, upset stomachs, insect bites, minor cuts and sunburn, and tell you straight away if you should see a doctor. Help Medical bulk bills everyone with a Medicare card and welcomes walk-ins; visitors without Medicare pay a private fee. For urgent problems, call 000.</p>
   <p>Our <a href="/common-illness-information/">common illnesses A–Z</a> has plain-English guides, including <a href="/sunburn-treatment/">sunburn</a>, <a href="/bluebottle-sting-treatment/">bluebottle stings</a> and <a href="/sprain-vs-strain/">sprains</a>.</p>
+
+  {live.has('after-hours-medical-help-broadbeach') && <p>Unwell when we’re closed? Our guide to <a href="/after-hours-medical-help-broadbeach/">getting medical help after hours near Broadbeach</a> explains who to call.</p>}
+  {live.has('schoolies-gold-coast-health-safety') && <p>Here for Schoolies? Our <a href="/schoolies-gold-coast-health-safety/">Schoolies health and safety guide</a> covers what to pack, staying safe in the sun and where to get help.</p>}
 
   <h2>What should I pack for the sun and surf?</h2>
   <p>UV on the Gold Coast reaches 3 or higher for most of the year, including winter days and cloudy days. Pick up sunscreen, after-sun care, insect repellent and rehydration drinks from us before you head to the beach, and read our <a href="/sun-safety-gold-coast/">sun safety guide</a>. Always read the label and follow the directions for use.</p>

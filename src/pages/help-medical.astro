@@ -7,6 +7,9 @@ import { helpMedicalDoctors } from '../data/team';
 import { helpMedicalNode, ID } from '../lib/schema';
 import receptionImg from '../assets/images/help-medical-reception.jpg';
 import entranceImg from '../assets/images/help-medical-entrance.jpg';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('help-medical')!;
 
 const images = import.meta.glob<{ default: ImageMetadata }>('../assets/images/*', { eager: true });
@@ -79,6 +82,8 @@ const faqs = [
     ))}
   </dl>
   <p>Public holiday hours may differ. Check with the clinic before you visit.</p>
+
+  {live.has('after-hours-medical-help-broadbeach') && <p>When the clinic is closed, our guide to <a href="/after-hours-medical-help-broadbeach/">getting medical help after hours near Broadbeach</a> explains who to call.</p>}
 
   <h2>What can the GPs help with?</h2>
   <p>Help Medical offers the full range of general practice care, including:</p>

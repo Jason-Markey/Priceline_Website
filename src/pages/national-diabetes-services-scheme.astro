@@ -2,6 +2,9 @@
 import ServicePage from '../layouts/ServicePage.astro';
 import { site } from '../data/site';
 import { serviceBySlug } from '../data/services';
+import { liveArticleSlugs } from '../lib/articles';
+// Links to scheduled articles appear with the Monday rebuild that publishes them
+const live = await liveArticleSlugs();
 const service = serviceBySlug('national-diabetes-services-scheme')!;
 
 const faqs = [
@@ -55,6 +58,7 @@ const faqs = [
     <li>checking interactions with other medicines</li>
     <li>disposing of sharps properly</li>
   </ul>
+  {live.has('blisters-summer-foot-care') && <p>In hot weather, check your feet every day. Our guide to <a href="/blisters-summer-foot-care/">blisters and summer foot care</a> explains why a blister needs attention quickly when you have diabetes.</p>}
   <p>There’s no appointment needed. Ask at the counter, or call us on <a href={site.phoneHref}>{site.phone}</a> if you’d like to check we have your product in stock before you visit.</p>
 
   <h2>Not diagnosed but worried about type 2 diabetes?</h2>
