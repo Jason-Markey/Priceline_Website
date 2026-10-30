@@ -3,8 +3,9 @@ import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 
 // Sitemap lastmod is only given when it's true: an article's modifiedDate, or a page's dateModified prop (read from
-// the .astro file below); the blog index takes the newest article's. Pages without a date (home, category pages) get
-// none, rather than the build date on every URL every week, which search engines learn to ignore.
+// the .astro file below); the blog index and each category page take their newest article's, and /reviews/ the date
+// the reviews were last checked. Pages without a date (home) get none, rather than the build date on every URL every
+// week, which search engines learn to ignore.
 // src/data/lastmod.json, if present, overrides these, as { "<url or path>": "YYYY-MM-DD" }.
 let lastmodMap = {};
 try { lastmodMap = JSON.parse(readFileSync(new URL('./src/data/lastmod.json', import.meta.url), 'utf8')); } catch { /* none */ }
@@ -34,9 +35,14 @@ for (const f of readdirSync(new URL('./src/content/articles/', import.meta.url))
   const changed = [date, (fm.match(/^modifiedDate:\s*([\d-]+)/m) || [])[1]].filter(Boolean).sort().pop();
   if (live && changed) {
     lastmodByPath[`/${f.replace(/\.md$/, '')}/`] = changed;
-    if (changed > (lastmodByPath['/health-blog/'] || '')) lastmodByPath['/health-blog/'] = changed;
+    for (const index of ['/health-blog/', cat && `/category/${cat}/`].filter(Boolean)) {
+      if (changed > (lastmodByPath[index] || '')) lastmodByPath[index] = changed;
+    }
   }
 }
+// /reviews/ changes when reviews are added or the rating is re-checked (googleRating.checked in src/data/reviews.ts)
+const reviewsChecked = (readFileSync(new URL('./src/data/reviews.ts', import.meta.url), 'utf8').match(/checked:\s*'(\d{4}-\d{2}-\d{2})'/) || [])[1];
+if (reviewsChecked) lastmodByPath['/reviews/'] = reviewsChecked;
 const thinCategories = Object.keys(liveByCategory).filter((c) => liveByCategory[c] < 3);
 
 /**

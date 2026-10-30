@@ -1,9 +1,9 @@
 ---
 title: "Fragrance gift ideas from our beauty advisors"
-description: "Fragrance gift ideas from our Pacific Fair beauty advisors: scent families, EDT vs EDP, testing tips and how Gold Coast heat and humidity change fragrance."
-seoTitle: "Fragrance gift ideas | Priceline Pacific Fair"
+description: "Perfume gift sets and fragrance gift ideas from our Pacific Fair beauty advisors: what's in a gift set, scent families, EDT vs EDP and how to test a scent."
+seoTitle: "Perfume Gift Sets & Gift Ideas | Priceline Pacific Fair"
 publishDate: 2026-10-10
-modifiedDate: 2026-10-10
+modifiedDate: 2026-10-30
 category: skincare-beauty
 image: fragrance-cabinets.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -21,7 +21,7 @@ draft: false
 ---
 The best fragrance gift starts with the scents the person already loves, matches how strong they like it, and suits the climate they live in. Get those three things right and you're most of the way there, even if you've never bought perfume for anyone before.
 
-Our beauty advisors help Pacific Fair shoppers choose fragrance gifts every day, and this guide shares the questions they ask at the counter. When you're ready to browse, see our [fragrance range](/fragrance/) or come and smell a few in store.
+Our beauty advisors help Pacific Fair shoppers choose fragrance gifts every day, and this guide shares the questions they ask at the counter. When you're ready to browse, see our [fragrance range](/fragrance/) or come and smell a few in store. Want something boxed and ready to wrap? Jump to [perfume gift sets](#perfume-gift-sets).
 
 ## Start with what they already wear
 
@@ -92,13 +92,22 @@ You don't need to spend big to give something thoughtful. Our advisors can sugge
 - **Mid-range:** smaller bottles of eau de toilette or eau de parfum, or a scented bath and body set.
 - **Something special:** a full-size eau de parfum or a luxury gift set.
 
-### Gift sets
-
-Gift sets often pair a fragrance with a matching body lotion, shower gel or travel spray, and they come ready to wrap. They're especially popular in the lead-up to Christmas, Mother's Day and Valentine's Day. What's available changes with the season, so ask us what's in store.
-
 ### Still unsure? Try a gift card
 
 If you really can't decide, ask us about gift cards, so they can choose for themselves with help from our advisors.
+
+## Perfume gift sets
+
+A perfume gift set pairs a fragrance with something matching, such as a body lotion, shower gel, deodorant or travel spray, and comes boxed and ready to wrap. Sets are especially popular in the lead-up to Christmas, Mother's Day and Valentine's Day.
+
+Before you buy one, check:
+
+- **The scent.** A set is only a good gift if they like the fragrance, so start with what they already wear, or smell the tester first.
+- **EDT or EDP.** The box says which. As explained above, an eau de parfum usually lasts longer and feels richer, so match the version they already wear.
+- **The bottle size.** Some sets include a full-size bottle and others a smaller one. The box lists the sizes.
+- **The extras.** A travel spray suits someone who carries fragrance in their bag or travels a lot.
+
+The sets change with the season, so ask us what's in store at Pacific Fair. You can also order on priceline.com.au and choose Priceline Pacific Fair for [Click & Collect](/click-and-collect/).
 
 ## A note on fragrance sensitivity and allergy
 

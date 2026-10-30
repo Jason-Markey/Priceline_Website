@@ -1,7 +1,7 @@
 ---
 title: "Bluebottle sting treatment: what to do (and what not to do)"
 description: "Stung by a bluebottle on the Gold Coast? Step-by-step first aid from Australian guidelines, myths to ignore (vinegar, urine) and when to call 000."
-seoTitle: "Bluebottle sting treatment | Priceline Pacific Fair"
+seoTitle: "Bluebottle sting treatment: hot water, not vinegar"
 publishDate: 2026-09-24
 modifiedDate: 2026-10-17
 category: health-advice

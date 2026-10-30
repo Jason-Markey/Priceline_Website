@@ -1,9 +1,9 @@
 ---
 title: "Christmas gift ideas for everyone on your list"
-description: "Christmas gift ideas from Priceline Pacific Fair: fragrance, makeup, skincare, men’s grooming, electric toothbrushes and stocking fillers, with free gift help."
-seoTitle: "Christmas Gift Ideas | Priceline Pacific Fair"
+description: "Christmas gifts and gift sets at Priceline Pacific Fair: fragrance, makeup, skincare, grooming, electric toothbrushes and stocking fillers, with free gift help."
+seoTitle: "Christmas Gifts & Gift Sets | Priceline Pacific Fair"
 publishDate: 2026-10-13
-modifiedDate: 2026-10-13
+modifiedDate: 2026-10-30
 category: skincare-beauty
 image: fragrance-cabinets.jpg
 author: "Priceline Pharmacy Pacific Fair team"
@@ -24,11 +24,23 @@ draft: false
 
 The easiest Christmas gifts are things people use every day but rarely buy for themselves: a fragrance they love, a makeup or skincare treat, a grooming set or a better toothbrush. Here’s what our Pacific Fair team suggests, sorted by who you’re buying for, plus a few ways to make the shopping quicker.
 
+## Christmas gift sets
+
+Gift sets come boxed and ready to wrap, which makes them one of the easiest Christmas gifts. They arrive in the lead-up to Christmas:
+
+- **Fragrance sets** pair a perfume or aftershave with a matching body lotion, shower gel or travel spray. Our guide to [perfume gift sets](/fragrance-gift-ideas/#perfume-gift-sets) explains what to check before you buy.
+- **Skincare sets** often bundle a cleanser, moisturiser or serum, sometimes in travel sizes.
+- **Makeup sets and palettes** don’t depend on knowing someone’s exact shade.
+- **Grooming sets** cover shaving, beard care, body wash and deodorant.
+- **Bath and body sets** bundle hand creams, body lotions and scented washes.
+
+The sets change through the season, so ask us what’s in store at Pacific Fair, or order on priceline.com.au and choose Priceline Pacific Fair for [Click & Collect](/click-and-collect/).
+
 ## For the fragrance lover
 
 Fragrance is a classic Christmas gift, and it’s easier to get right with a little help. Start with what they wear now (a photo of the bottle on their dresser is perfect), then ask our beauty advisors for a few similar scents to try on the testers.
 
-Our [perfume and fragrance gifts page](/fragrance/) lists the designer and celebrity brands in our cabinets, and our [fragrance gift guide](/fragrance-gift-ideas/) explains scent families and the difference between EDT and EDP. Gift sets with a full-size bottle and a matching body lotion or travel spray usually arrive before Christmas, and they come ready to wrap.
+Our [perfume and fragrance gifts page](/fragrance/) lists the designer and celebrity brands in our cabinets, and our [fragrance gift guide](/fragrance-gift-ideas/) explains scent families and the difference between EDT and EDP.
 
 ## For the makeup lover
 

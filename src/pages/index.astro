@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro';
 import HoursCard from '../components/HoursCard.astro';
 import Reviews from '../components/Reviews.astro';
 import { reviewsLive } from '../data/reviews';
-import { site, upcomingSpecialHours, fmtDay } from '../data/site';
+import { site, upcomingSpecialHours, fmtDay, brisbaneDate } from '../data/site';
 import { serviceBySlug } from '../data/services';
 import { faqNode } from '../lib/schema';
 import jason from '../assets/images/jason-cutout.png';
@@ -25,6 +25,8 @@ import icoCollect from '../assets/icons/click-and-collect.png';
 // Christmas and New Year trading still ahead: a one-line pointer under the hours cards
 const xmas = upcomingSpecialHours();
 const lateNight = xmas.find((s) => s.hours?.close === '24:00');
+// Until Christmas Eve the note also points to the gift guide; the first rebuild after Christmas drops the link
+const giftGuide = brisbaneDate() <= '2026-12-24';
 
 const title = 'Priceline Pharmacy Pacific Fair | Broadbeach Chemist, 7 Days';
 const description =
@@ -127,6 +129,7 @@ const faqs = [
       {xmas.length > 0 && (
         <p class="xmas-note">
           {lateNight ? `Open late for Christmas, until midnight on ${fmtDay(lateNight.date)}. ` : ''}<a href="/visit-us/#christmas-hours">See all Christmas hours</a>
+          {giftGuide && <> · <a href="/christmas-gift-ideas/" data-event="gift-ideas">Christmas gift ideas</a></>}
         </p>
       )}
     </div>

@@ -70,6 +70,8 @@ RewriteRule ^(wp-sitemap.*|sitemap\.xml|sitemap_index\.xml|post-sitemap\.xml|pag
 
 # --- WordPress system paths: gone for good ---
 RewriteRule ^(wp-admin|wp-login\.php|wp-content|wp-includes|wp-json|xmlrpc\.php|wp-cron\.php|wp-comments-post\.php|wp-trackback\.php)(/.*)?$ - [G,L]
+# Spam ebook file from before this site, still listed in Bing's crawl issues (Oct 2026): gone for good
+RewriteRule ^divergent-series-epub-bud\.pdf$ - [G,L]
 
 # --- Trailing slash: /prescriptions -> /prescriptions/ (directories only; skip real files) ---
 RewriteCond %{REQUEST_FILENAME} -d
