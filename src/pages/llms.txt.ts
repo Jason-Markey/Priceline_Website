@@ -3,6 +3,7 @@ import { getLiveArticles } from '../lib/articles';
 import { site, hoursRows, fmtTime, upcomingSpecialHours, specialRows, visitorFacts } from '../data/site';
 import { services } from '../data/services';
 import { categories } from '../data/categories';
+import { googleRating, reviewsLive } from '../data/reviews';
 
 /** llms.txt: a plain-text map of the site for AI answer engines (https://llmstxt.org). */
 export const GET: APIRoute = async () => {
@@ -12,6 +13,11 @@ export const GET: APIRoute = async () => {
   const today = new Date().toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
   const svc = (slug: string) => services.find((s) => s.slug === slug)!;
   const xmas = upcomingSpecialHours();
+  const checked = new Date(`${googleRating.checked}T00:00:00`).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Australia/Brisbane' });
+  // Same source as the reviews section (src/data/reviews.ts), so the rating here can't drift from the site's
+  const ratingLine = reviewsLive && googleRating.count > 0
+    ? [`- Google rating: ${googleRating.rating.toFixed(1)} from ${googleRating.count} Google reviews (checked ${checked}). A selection of reviews: ${site.url}/reviews/`]
+    : [];
   const lines = [
     `# ${site.name}`,
     '',
@@ -52,6 +58,7 @@ export const GET: APIRoute = async () => {
     `- Opening hours: ${hours}. Open on every Queensland public holiday except Christmas Day, Good Friday and Anzac Day; public holiday hours vary and are published on the Google Business Profile (dates: ${site.url}/public-holiday-hours/).`,
     `- Overseas visitors: most international cards accepted, including ${visitorFacts.cards} (for Alipay, ${visitorFacts.alipay}). GST can usually be claimed back through the Tourist Refund Scheme on purchases of AU$300 or more (GST included) made within 60 days of leaving Australia. ${visitorFacts.bulkOrders} Staff speak English and use a translation app.`,
     ...(xmas.length ? [`- Christmas and New Year hours: ${specialRows(xmas).map((r) => `${r.label} ${r.value}`).join('; ')}.`] : []),
+    ...ratingLine,
     `- Owner and pharmacist: ${site.reviewer.name}, ${site.reviewer.credentials}, Ahpra registration ${site.reviewer.registration}. Independently owned Priceline Pharmacy franchise store, opened 2009.`,
     `- Every advice article is reviewed by ${site.reviewer.name} before it's published: ${site.url}${site.reviewer.profilePath} (how we write and check articles: ${site.url}/editorial-policy/)`,
     `- Book online: ${site.links.book}`,
@@ -67,6 +74,7 @@ export const GET: APIRoute = async () => {
     `- [Guide in Simplified Chinese for visitors buying vitamins in bulk (澳洲维生素选购指南)](${site.url}/zh/vitamins-gold-coast/)`,
     `- [Contact](${site.url}/contact-us/)`,
     `- [About the pharmacy and team](${site.url}/about-us/)`,
+    ...(reviewsLive ? [`- [Customer reviews](${site.url}/reviews/)`] : []),
     `- [Frequently asked questions](${site.url}/frequently-asked-questions/)`,
     `- [Common illnesses A–Z](${site.url}/common-illness-information/)`,
     `- [Visiting the Gold Coast](${site.url}/visiting-the-gold-coast/)`,
