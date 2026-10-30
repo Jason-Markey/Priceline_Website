@@ -1,0 +1,75 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import { site, fmtDay } from '../data/site';
+import { serviceBySlug } from '../data/services';
+
+// Every price comes from src/data/services.ts (atAGlance.cost), so this page, the service pages, llms.txt and the
+// schema OfferCatalog always agree. Travel vaccine prices aren't published (Jason, 30 Oct 2026): those rows say
+// prices show when you book, as the travel health page does. Links in the table cells use set:text (see the note in
+// src/pages/appointments.astro).
+const checked = '2026-10-30';
+const svc = (slug: string) => serviceBySlug(slug)!;
+const groups = [
+  { heading: 'Pharmacist consultations and health checks', slugs: ['uti-treatment', 'contraception-consultations', 'sick-leave-certificates', 'emergency-contraception', 'medication-reviews', 'health-station', 'quit-smoking', 'weight-loss-counselling-and-advice'] },
+  { heading: 'Vaccinations', slugs: ['flu-vaccination', 'whooping-cough-vaccine', 'vaccination-information', 'travel-health'] },
+  { heading: 'Prescriptions, packing and delivery', slugs: ['prescriptions', 'medication-packing', 'national-diabetes-services-scheme', 'click-and-collect', 'delivery'] },
+  { heading: 'Ear piercing and passport photos', slugs: ['ear-piercings', 'passport-photos'] },
+  { heading: 'Clinics inside our store (they set their own fees)', slugs: ['help-medical', 'blood-tests'] },
+].map((g) => ({ ...g, items: g.slugs.map(svc) }));
+// The "other vaccines" row reads better with its own label than with the hub page's name
+const label = (slug: string, name: string) => (slug === 'vaccination-information' ? 'Other vaccines' : name);
+
+const ear = svc('ear-piercings').price;
+const photos = svc('passport-photos').price;
+const consult = svc('uti-treatment').price;
+const description = `Prices for services at Priceline Pharmacy Pacific Fair, Broadbeach: ear piercing $${ear}, passport photos $${photos}, pharmacist consultations $${consult} and free health checks.`;
+
+const faqs = [
+  { q: 'Is advice from a pharmacist free?', a: 'Yes. Asking a pharmacist about a medicine, a symptom or a product is free, and you don’t need to book. Some consultations have a set fee, listed on this page.' },
+  { q: 'Are pharmacist consultations covered by Medicare?', a: 'No. Medicare doesn’t cover pharmacist consultations such as UTI treatment, contraception consultations or sick leave certificates, so the fee is the same for everyone.' },
+  { q: 'Do you charge to fill or send a script ahead?', a: `No. There’s no fee for dispensing or for sending your script ahead; you pay the PBS or private price of the medicine. <a href="/prescriptions/">How to send your script</a>.` },
+  { q: 'How much are travel vaccines?', a: `It depends on the vaccine. You’ll see the price when you <a href="${site.links.book}" rel="noopener">book online</a>, or call us on <a href="${site.phoneHref}">${site.phone}</a>.` },
+];
+---
+
+<ContentPage
+  title="Service Prices | Priceline Pharmacy Pacific Fair"
+  description={description}
+  path="/prices/"
+  h1="Service prices"
+  lead="What our services cost at Priceline Pharmacy Pacific Fair in Broadbeach. Advice from our pharmacists is free, and so are many of our services."
+  breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'Pharmacy services', href: '/pharmacy-services/' }, { name: 'Service prices', href: '/prices/' }]}
+  faqs={faqs}
+  showNap
+  dateModified={checked}
+>
+  {groups.map((g) => (
+    <>
+      <h2>{g.heading}</h2>
+      <div class="table-wrap table-wrap--stack">
+        <table>
+          <thead>
+            <tr><th scope="col">Service</th><th scope="col">Price</th></tr>
+          </thead>
+          <tbody>
+            {g.items.map((s) => (
+              <tr>
+                <td><a href={`/${s.slug}/`} set:text={label(s.slug, s.name)} /></td>
+                <td data-label="Price">{s.atAGlance.cost}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  ))}
+
+  <p class="checked">Prices checked {fmtDay(checked, true)} {checked.slice(0, 4)}. Prices for products and medicines vary, so ask us in store.</p>
+
+  <h2>Not sure what you need?</h2>
+  <p>Ask a pharmacist; advice is free. Call <a href={site.phoneHref}>{site.phone}</a>, or see <a href="/appointments/">how to book each service</a>.</p>
+</ContentPage>
+
+<style>
+  .checked { color: var(--text-muted); font-size: var(--fs-sm); }
+</style>

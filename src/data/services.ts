@@ -79,12 +79,13 @@ export const services: Service[] = [
     atAGlance: {
       what: 'The seasonal influenza vaccine, given by a pharmacist immuniser.',
       who: 'Ages 5 and over. Free for people 65 and over, pregnant women, children under 5 (via Help Medical), Aboriginal and Torres Strait Islander people, and people with certain medical conditions.',
-      cost: 'Free for eligible people, no service fee. Otherwise a private fee applies; you’ll see the price when you book.',
+      cost: 'Free for eligible people under the NIP, with no service fee, and for all Queenslanders while the Queensland Government’s free flu vaccine program runs (usually autumn and winter). Otherwise $24.95.',
       time: 'About 20 minutes including the wait afterwards.',
       booking: 'Walk in, or book a time.',
       howToBook: 'Book online or ask at the counter.',
     },
     related: ['vaccination-information', 'whooping-cough-vaccine', 'travel-health'],
+    price: 24.95,
   },
   {
     slug: 'whooping-cough-vaccine',
@@ -274,12 +275,13 @@ export const services: Service[] = [
     atAGlance: {
       what: 'A private assessment by a trained pharmacist who can supply treatment for an uncomplicated urinary tract infection if suitable.',
       who: 'Women aged 18 to 65 with symptoms of an uncomplicated bladder infection.',
-      cost: 'One fee covers the consultation and any treatment, if suitable. It isn’t covered by Medicare; ask us when you call.',
+      cost: '$35. One fee covers the consultation and any treatment, if suitable. It isn’t covered by Medicare.',
       time: 'About 15 minutes.',
       booking: 'No booking needed. Walk in.',
       howToBook: 'Come in and ask for a trained pharmacist at the prescription counter.'
     },
     related: ['womens-health', 'contraception-consultations', 'help-medical'],
+    price: 35,
   },
   {
     slug: 'sick-leave-certificates',
@@ -290,11 +292,12 @@ export const services: Service[] = [
     atAGlance: {
       what: 'A certificate for a short absence from work because of a minor illness, or to care for someone who is unwell, issued by a pharmacist after a private consultation.',
       who: 'People with a minor, short-term illness that a pharmacist can assess. For carer’s leave, the person who is unwell needs to come in too.',
-      cost: 'A consultation fee applies. Ask us in store.',
+      cost: '$35 for the consultation and certificate. It isn’t covered by Medicare.',
       booking: 'No booking needed. Walk in on the day you’re unwell.',
       howToBook: 'Come in and ask for a pharmacist at the prescription counter. Bring photo ID.',
     },
     related: ['help-medical', 'uti-treatment', 'prescriptions'],
+    price: 35,
   },
   {
     slug: 'emergency-contraception',

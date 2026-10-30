@@ -49,9 +49,9 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
       { q: 'Can I see a doctor without an appointment?', a: `Often, yes. <a href="/help-medical/">Help Medical</a>, an independent general practice located inside our store that bulk bills everyone with a Medicare card, welcomes walk-ins, subject to doctor availability. Booking ahead <a href="${site.helpMedical.bookingUrl}" rel="noopener">online</a> or on <a href="${site.helpMedical.phoneHref}">${site.helpMedical.phone}</a> is the surest way to be seen.` },
       { q: 'Can a pharmacist prescribe contraception?', a: 'Yes. In Queensland, our trained pharmacists offer contraception consultations for eligible women aged 16 and over, and can prescribe contraception if it’s suitable. <a href="/contraception-consultations/">Find out how our contraception consultations work</a>.' },
       { q: 'Can I get the morning-after pill without a prescription?', a: 'Yes. The emergency contraceptive pill (the morning-after pill) is a Pharmacist Only Medicine, so our pharmacists can supply it without a prescription. There’s no appointment or consultation fee: you fill in a short questionnaire, and if a pharmacist assesses that it’s suitable, you only pay for the pill. Ask your pharmacist about this product. <a href="/emergency-contraception/">More about emergency contraception</a>.' },
-      { q: 'Can a pharmacist treat a UTI?', a: 'Yes, for eligible women aged 18 to 65 with an uncomplicated bladder infection. No booking is needed; walk in and ask for a trained pharmacist. <a href="/uti-treatment/">Find out about UTI treatment</a>.' },
+      { q: 'Can a pharmacist treat a UTI?', a: 'Yes, for eligible women aged 18 to 65 with an uncomplicated bladder infection. No booking is needed; walk in and ask for a trained pharmacist. The consultation costs $35, which covers the assessment and any treatment. <a href="/uti-treatment/">Find out about UTI treatment</a>.' },
       { q: 'Can you help me quit smoking?', a: 'Yes. Our pharmacists can help you quit smoking and manage nicotine dependence: we’ll talk you through the options, help you make a plan, and refer you to your GP or Quitline (13 78 48) for extra support. <a href="/quit-smoking/">More about quitting</a>.' },
-      { q: 'Do you do absence-from-work certificates?', a: 'Yes. Our pharmacists can issue absence-from-work certificates for short absences. Some employers don’t accept pharmacist certificates, so check with your workplace first, then ask at the counter. <a href="/sick-leave-certificates/">More about sick leave certificates</a>.' },
+      { q: 'Do you do absence-from-work certificates?', a: 'Yes. Our pharmacists can issue absence-from-work certificates for short absences. Some employers don’t accept pharmacist certificates, so check with your workplace first, then ask at the counter. The consultation and certificate cost $35. <a href="/sick-leave-certificates/">More about sick leave certificates</a>.' },
     ],
   },
   {
@@ -61,7 +61,7 @@ const groups: { id: string; heading: string; items: Faq[] }[] = [
       { q: 'Do I need to book a vaccination?', a: `No. We welcome walk-ins. Scan the QR code in store to join the queue, or ${bookLink}. <a href="/vaccination-information/">See the vaccines we offer</a>.` },
       { q: 'Is my vaccination free?', a: 'Government-funded vaccines are free for eligible people with a Medicare card, and we don’t charge a service fee to give them. Bring your Medicare card and ask us; we’ll check whether you’re eligible.' },
       { q: 'How young can you vaccinate?', a: 'Our pharmacists vaccinate people aged 5 and over. For younger children, the GPs at Help Medical, an independent general practice located inside our store, can help.' },
-      { q: 'Can I get a flu shot without booking?', a: 'Yes. Walk in for a flu shot any day we’re open, or book a time online. Free under the National Immunisation Program for eligible people, with no service fee. See <a href="/flu-vaccination/">flu vaccination</a>.' },
+      { q: 'Can I get a flu shot without booking?', a: 'Yes. Walk in for a flu shot any day we’re open, or book a time online. Free under the National Immunisation Program for eligible people, with no service fee; otherwise $24.95. See <a href="/flu-vaccination/">flu vaccination</a>.' },
     ],
   },
   {
@@ -110,7 +110,7 @@ const flat = groups.flatMap((g) => g.items.map((f) => ({ q: f.q, a: f.a.replace(
   breadcrumbs={[{ name: 'Home', href: '/' }, { name: 'FAQs', href: '/frequently-asked-questions/' }]}
   schema={[faqNode(flat)]}
   showNap
-  dateModified="2026-10-29"
+  dateModified="2026-10-30"
 >
   <p>Can’t find your question below? Call us on <a href={site.phoneHref}>{site.phone}</a>, <a href="/contact-us/">send us an email</a>, or ask at the counter.</p>
 
