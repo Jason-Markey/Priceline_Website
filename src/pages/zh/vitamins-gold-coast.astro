@@ -4,6 +4,8 @@
  * Facts mirror the English pages: visitorFacts, hours and parking come from site.ts; TRS rules from the
  * Australian Border Force / Australian Embassy China (checked 16 Oct 2026). Brand list mirrors /vitamins-supplements/.
  * No health claims, no testimonials. English review copy: reference-content/zh-vitamins-gold-coast-english.md
+ * Lucas' Papaw and lanolin cream added 31 Oct 2026 (Jason), with the same facts as /what-to-buy-australian-pharmacy/:
+ * label uses only for the ointment, a patch test for lanolin.
  */
 import ContentPage from '../../layouts/ContentPage.astro';
 import { site, dayOrder, type DayKey } from '../../data/site';
@@ -12,7 +14,7 @@ const path = '/zh/vitamins-gold-coast/';
 const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Visiting the Gold Coast', href: '/visiting-the-gold-coast/' },
-  { name: '澳洲维生素选购指南', href: path },
+  { name: '澳洲维生素、木瓜膏和绵羊油选购指南', href: path },
 ];
 
 // Opening hours in Chinese, merged like the English hours card ("周一至周三 8:00–17:30")
@@ -39,6 +41,8 @@ const faqs = [
   { q: '大量购买可以打折吗？', a: '可能可以，具体视产品和数量而定。请在到店前通过电话或邮件联系我们，告诉我们想买的产品和数量。' },
   { q: '可以帮我把维生素寄回国吗？', a: '我们可以协助安排邮寄。请提前联系我们，告诉我们产品、数量和收件地址所在的国家或城市，我们会说明可行的寄送方式和费用。包裹须符合目的地海关的规定。' },
   { q: '买维生素可以退税吗？', a: '一般可以。如果您将在 60 天内离开澳大利亚，并在我们店累计消费满 300 澳元（含 GST），可以在机场通过旅客退税计划（TRS）申请退还 GST。付款时请索取税务发票（tax invoice），商品保持未开封并随身携带。' },
+  { q: '可以买木瓜膏和绵羊油吗？', a: '可以。我们有 Lucas’ Papaw 木瓜膏和绵羊油（羊毛脂面霜），规格以店内库存为准。木瓜膏标签上的用途包括轻微烫伤、割伤、蚊虫叮咬、尿布疹和摩擦伤。请务必阅读标签并按照使用说明使用。' },
+  { q: '木瓜膏可以带上飞机吗？', a: '小支的可以放在随身行李里。国际航班随身携带的膏状物品一般每件不能超过 100 毫升，并要放进透明密封袋；大罐建议托运。具体以航空公司和机场的规定为准。' },
   { q: '店里有会说中文的员工吗？', a: '我们的员工讲英语，会使用翻译软件为您服务。把产品照片或名称给我们看会更方便。' },
   { q: '可以用银联卡或支付宝付款吗？', a: '可以使用银联卡（UnionPay）。如需使用支付宝（Alipay），请先在柜台向店员确认。' },
   { q: '你们每天都营业吗？', a: '是的，每天营业，周四营业至晚上 9 点。公众假期营业时间可能不同；圣诞节、耶稣受难日和澳新军团日（Anzac Day）休息。' },
@@ -46,16 +50,16 @@ const faqs = [
 ---
 
 <ContentPage
-  title="黄金海岸购买澳洲维生素 | 批量购买欢迎咨询 | Priceline 药房"
-  description="Priceline 药房位于黄金海岸太平洋购物中心（Pacific Fair），每天营业。大量购买维生素和保健品请提前联系我们，可能享有折扣，并可协助邮寄；满 300 澳元可申请旅客退税。"
+  title="黄金海岸买澳洲维生素、木瓜膏和绵羊油 | Priceline 药房"
+  description="Priceline 药房位于黄金海岸太平洋购物中心（Pacific Fair）一楼，每天营业，有澳洲维生素、Lucas’ Papaw 木瓜膏和绵羊油。大量购买维生素请提前联系我们，可能享有折扣，并可协助邮寄；满 300 澳元可申请旅客退税。"
   path={path}
-  h1="在黄金海岸购买澳洲维生素：大量购买请先联系我们"
-  lead="Priceline 药房（太平洋购物中心店）每天营业，有多种澳洲维生素和保健品。如需为家人朋友大量购买，请提前联系我们：可能享有折扣，我们也可以协助安排邮寄。"
+  h1="在黄金海岸购买澳洲维生素、木瓜膏和绵羊油"
+  lead="Priceline 药房（太平洋购物中心店）每天营业，有多种澳洲维生素和保健品，也有 Lucas’ Papaw 木瓜膏和绵羊油。如需为家人朋友大量购买维生素，请提前联系我们：可能享有折扣，我们也可以协助安排邮寄。"
   breadcrumbs={breadcrumbs}
   faqs={faqs}
   faqHeading="常见问题"
   lang="zh-Hans"
-  dateModified="2026-10-16"
+  dateModified="2026-10-31"
 >
   <div class="btn-row" data-cta-location="zh_bulk">
     <a class="btn btn--primary" href={site.phoneHref} data-event="call">致电 {site.phone}</a>
@@ -82,6 +86,20 @@ const faqs = [
     <li><strong>按使用者选择。</strong>孕期、哺乳期、儿童、老人，或正在服用处方药的人，购买前请先咨询药剂师，因为有些保健品可能与药物相互作用。药剂师咨询免费，无需预约。</li>
     <li><strong>大量购买不等于多吃。</strong>请按标签说明服用，不要超过建议剂量。</li>
   </ul>
+
+  <h2>Lucas’ Papaw 木瓜膏是什么？</h2>
+  <p>Lucas’ Papaw 木瓜膏（澳洲木瓜膏）是昆士兰的经典产品，由布里斯班医生 Thomas Pennington Lucas 在一百多年前研制，至今仍由他家族的公司在布里斯班生产。主要成分是发酵木瓜。</p>
+  <ul>
+    <li>标签上的用途包括轻微烫伤、割伤、蚊虫叮咬、尿布疹和摩擦伤。轻微烫伤要先用流动的凉水冲 20 分钟。</li>
+    <li>严重的烫伤或伤口，或者伤口看起来感染了，请去看医生。</li>
+    <li>从小支的唇部涂抹管到大罐都有，适合送礼，具体以店内库存为准。</li>
+    <li>国际航班随身行李里的膏状物品一般每件不能超过 100 毫升，大罐建议托运。</li>
+  </ul>
+  <p>请务必阅读标签并按照使用说明使用。</p>
+
+  <h2>绵羊油（羊毛脂面霜）怎么选？</h2>
+  <p>羊毛脂是从羊毛中提取的天然油脂，澳洲的绵羊油是很受欢迎的保湿霜和伴手礼。质地厚实滋润，一点点就够，适合干燥的手、手肘和脚。</p>
+  <p>对羊毛脂过敏的人不多，但有湿疹或皮肤破损的人更容易敏感。请先在小块皮肤上试用，如果发红或发痒就停止使用。</p>
 
   <h2>可以退税吗？</h2>
   <p>如果您将在 60 天内离开澳大利亚，并在我们店累计消费满 300 澳元（含 GST，可以分几次购买），一般可以通过澳大利亚旅客退税计划（Tourist Refund Scheme，简称 TRS）在机场申请退还商品及服务税（GST）。</p>
@@ -128,12 +146,12 @@ const faqs = [
   </dl>
   <p>公众假期营业时间可能不同，请查看 Google 或致电确认。圣诞节、耶稣受难日和澳新军团日（Anzac Day）休息。<a href="/public-holiday-hours/" hreflang="en-AU">公众假期营业安排（英文）</a></p>
 
-  <p class="zh-label"><strong>请务必阅读标签并按照使用说明服用。</strong><br /><span lang="en-AU">Always read the label and follow the directions for use.</span></p>
+  <p class="zh-label"><strong>请务必阅读标签并按照使用说明使用。</strong><br /><span lang="en-AU">Always read the label and follow the directions for use.</span></p>
 
-  <p class="zh-updated">更新日期：2026年10月16日</p>
+  <p class="zh-updated">更新日期：2026年10月31日</p>
 
   <div class="zh-english" lang="en-AU">
-    <p><strong>In English:</strong> buying vitamins in bulk to take overseas? Contact us before you visit: we may be able to offer a discount and help arrange postage. Call <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>. See also our <a href="/visiting-the-gold-coast/">guide for visitors to the Gold Coast</a> and <a href="/what-to-buy-australian-pharmacy/">what to buy at an Australian pharmacy</a>.</p>
+    <p><strong>In English:</strong> we stock Australian vitamins, Lucas’ Papaw Ointment and lanolin cream. Buying vitamins in bulk to take overseas? Contact us before you visit: we may be able to offer a discount and help arrange postage. Call <a href={site.phoneHref}>{site.phone}</a> or email <a href={`mailto:${site.emailGeneral}`}>{site.emailGeneral}</a>. See also our <a href="/visiting-the-gold-coast/">guide for visitors to the Gold Coast</a> and <a href="/what-to-buy-australian-pharmacy/">what to buy at an Australian pharmacy</a>.</p>
   </div>
 </ContentPage>
 
