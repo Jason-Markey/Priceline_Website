@@ -149,6 +149,13 @@ export function websiteNode() {
   };
 }
 
+/**
+ * datePublished / dateModified are schema.org DateTime: a bare "YYYY-MM-DD" is flagged by Google ("Invalid datetime
+ * value for 'dateModified'" on the ProfilePage), so dates become midnight in Brisbane (UTC+10, no daylight saving).
+ * lastReviewed is a Date and stays as the plain date.
+ */
+const dateTime = (d?: string) => (d && /^\d{4}-\d{2}-\d{2}$/.test(d) ? `${d}T00:00:00+10:00` : d);
+
 export function webPageNode(opts: { url: string; title: string; description: string; type?: string; datePublished?: string; dateModified?: string; imageUrl?: string; mainEntityId?: string; lang?: string }) {
   return {
     '@type': opts.type ?? 'WebPage',
@@ -159,8 +166,8 @@ export function webPageNode(opts: { url: string; title: string; description: str
     isPartOf: { '@id': ID.website },
     about: { '@id': ID.pharmacy },
     inLanguage: opts.lang ?? 'en-AU',
-    datePublished: opts.datePublished,
-    dateModified: opts.dateModified,
+    datePublished: dateTime(opts.datePublished),
+    dateModified: dateTime(opts.dateModified),
     primaryImageOfPage: opts.imageUrl ? { '@type': 'ImageObject', url: opts.imageUrl } : undefined,
     mainEntity: opts.mainEntityId ? { '@id': opts.mainEntityId } : undefined,
   };
@@ -235,8 +242,8 @@ export function articleNode(opts: {
     description: opts.description,
     url: opts.url,
     mainEntityOfPage: { '@id': `${opts.url}#webpage` },
-    datePublished: opts.datePublished,
-    dateModified: opts.dateModified,
+    datePublished: dateTime(opts.datePublished),
+    dateModified: dateTime(opts.dateModified),
     lastReviewed: opts.dateModified,
     author: { '@type': 'Organization', name: `${site.name} team`, url: `${site.url}/about-us/` },
     reviewedBy: { '@id': ID.owner },
