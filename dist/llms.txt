@@ -1,6 +1,6 @@
 # Priceline Pharmacy Pacific Fair
 
-Last updated: 2 November 2026
+Last updated: 9 November 2026
 
 > An independently owned Priceline Pharmacy franchise store on the ground floor of Pacific Fair Shopping Centre, Broadbeach, open 7 days. Scripts ready in minutes, walk-in vaccinations, pharmacist consultations and beauty advice, with the GPs of Help Medical, an independent general practice located inside our store.
 
@@ -163,6 +163,7 @@ Last updated: 2 November 2026
 - [How to move your prescriptions to a new pharmacy](https://pricelinepacificfair.com.au/transfer-prescriptions-new-pharmacy/): Moving scripts to a new pharmacy is free. How to bring across eScripts, your Active Script List, paper repeats and your PBS Safety Net record, step by step.
 - [Medicine out of stock? What happens in a shortage](https://pricelinepacificfair.com.au/medicine-shortages-what-to-do/): A national shortage or a short delay at one pharmacy? How to check the TGA shortage list, what a pharmacist can substitute, and how to avoid running out.
 - [PBS Safety Net 2026: thresholds, tracking and what you pay after](https://pricelinepacificfair.com.au/pbs-safety-net-explained/): In 2026 the PBS Safety Net is $1,748.20 for general patients and $277.20 with a concession card. How to count family scripts, and what you pay after.
+- [Starting a new medicine? Questions to ask your pharmacist](https://pricelinepacificfair.com.au/questions-to-ask-about-a-new-medicine/): What it's for, how to take it, missed doses, side effects, and whether it's safe with your other medicines, alcohol and driving: what to ask before you start.
 - [What can a pharmacist treat in Queensland without a GP?](https://pricelinepacificfair.com.au/what-can-a-pharmacist-treat-queensland/): Trained Queensland pharmacists can treat UTIs, offer contraception consultations and help with reflux, ear infections, school sores, eczema, acne and shingles.
 - [Why your pharmacist asks questions (and sometimes for ID)](https://pricelinepacificfair.com.au/why-pharmacists-ask-questions/): How medicines are grouped in Australia, why pharmacists ask who it's for, why some cold and flu tablets need photo ID, and the rules on early repeats.
 
